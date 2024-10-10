@@ -1,0 +1,796 @@
+{
+	["cannon"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，自身每次使用主动技能，场上同调者额外伤害提高{1}，最多叠加3次，持续30秒",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			103,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101352,
+		},
+		["prop_key"] = "cannon",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["card_leader_add"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，场上同调者额外伤害提高{1}，且在计算[link type='combat' tid='3']需求的人数时自身可视为2人",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			103,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101338,
+		},
+		["prop_key"] = "card_leader_add",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["card_leader_aspd"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "自身攻击速度提高{1}",
+		["is_leader_only"] = false,
+		["param_product"] = {
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101335,
+		},
+		["prop_key"] = "card_leader_aspd",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["card_leader_change"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "自身换至后备队后，再上场时间降低{1}秒",
+		["is_leader_only"] = false,
+		["param_product"] = {
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101337,
+		},
+		["prop_key"] = "card_leader_change",
+		["value_unit"] = {
+			3,
+			0,
+			0,
+		},
+	},
+	["card_leader_cri"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "自身暴击率提高{1}",
+		["is_leader_only"] = false,
+		["param_product"] = {
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101332,
+		},
+		["prop_key"] = "card_leader_cri",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["distract"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，自身施放负面状态型技能或友方增益型技能后，场上同调者额外伤害提高{1}，持续30秒",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			103,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101354,
+		},
+		["prop_key"] = "distract",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["electric_card"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长且在场时：雷元素同调者忽视目标基础减伤{1}，场上有元素反应触发时，对全场敌人施加{2}[link type='combat' tid='94']，持续30秒",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			104,
+			119,
+		},
+		["passive_add_type"] = 1,
+		["passive_id"] = {
+			101344,
+		},
+		["prop_key"] = "electric_card",
+		["value_unit"] = {
+			2,
+			1,
+			0,
+		},
+	},
+	["electric_card_yanque"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长且在场时：雷元素同调者忽视目标基础减伤{1}，场上有元素反应触发时，对全场敌人施加{2}[link type='combat' tid='94']，持续30秒\n若在场且拥有刻印技能【高压雷击】时，场上同调者刻印攻击提高{3}",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			104,
+			119,
+			108,
+		},
+		["passive_add_type"] = 1,
+		["passive_id"] = {
+			101795,
+		},
+		["prop_key"] = "electric_card_yanque",
+		["value_unit"] = {
+			2,
+			1,
+			1,
+		},
+	},
+	["fire_card"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长且在场时：炎元素同调者忽视目标基础减伤{1}，场上有元素反应触发时，对全场敌人施加{2}[link type='combat' tid='94']，持续30秒",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			104,
+			119,
+		},
+		["passive_add_type"] = 1,
+		["passive_id"] = {
+			101343,
+		},
+		["prop_key"] = "fire_card",
+		["value_unit"] = {
+			2,
+			1,
+			0,
+		},
+	},
+	["ice_card"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长且在场时：霜元素同调者忽视目标基础减伤{1}，场上有元素反应触发时，对全场敌人施加{2}[link type='combat' tid='94']，持续30秒",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			104,
+			119,
+		},
+		["passive_add_type"] = 1,
+		["passive_id"] = {
+			101345,
+		},
+		["prop_key"] = "ice_card",
+		["value_unit"] = {
+			2,
+			1,
+			0,
+		},
+	},
+	["ice_card_yanyu"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长且在场时：霜元素同调者忽视目标基础减伤{1}，场上有元素反应触发时，对全场敌人施加{2}[link type='combat' tid='94']，持续30秒\n若在场且拥有刻印技能【刺骨寒意】时，场上同调者刻印攻击提高{3}",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			104,
+			119,
+			108,
+		},
+		["passive_add_type"] = 1,
+		["passive_id"] = {
+			101796,
+		},
+		["prop_key"] = "ice_card_yanyu",
+		["value_unit"] = {
+			2,
+			1,
+			1,
+		},
+	},
+	["mastery_add"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，自身的专精增伤转化率提高至{1}",
+		["is_leader_only"] = true,
+		["param_product"] = {
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101334,
+		},
+		["prop_key"] = "mastery_add",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["mobile"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，自身连击发生后，场上同调者额外伤害提高{1}",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			103,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101351,
+		},
+		["prop_key"] = "mobile",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["none_card"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，自身及召唤物攻击目标有35%概率使目标物理抗性降低{1}，且目标身上的物理抗性降低效果最多为100%，持续15秒",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			115,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101348,
+		},
+		["prop_key"] = "none_card",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["ps_601"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "【蓄水充盈】时间降低为20秒，该状态下施放技能不进入指令冷却，且伤害忽略目标基础减伤{1}，同时该状态下【大角出场】伤害提高{2}",
+		["is_leader_only"] = false,
+		["param_product"] = {
+			104,
+			120,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101391,
+		},
+		["prop_key"] = "ps_601",
+		["value_unit"] = {
+			2,
+			1,
+			0,
+		},
+	},
+	["ps_605"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "处于【子非鱼】的水流屏障下的队友每层水流屏障使主动技能回复速度提高{1}，最多提高100%",
+		["is_leader_only"] = false,
+		["param_product"] = {
+			197,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101392,
+		},
+		["prop_key"] = "ps_605",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["ps_607"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "技能【戈尔贡防线】冷却缩短至15秒，且【戈尔贡防线】下普通攻击同时也使目标受到伤害提高{1}，持续4秒；此外异核冷却缩短至80秒",
+		["is_leader_only"] = false,
+		["param_product"] = {
+			119,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101393,
+		},
+		["prop_key"] = "ps_607",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["ps_608"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "【血脉印记】和【破晓·血脉印记】伤害提高{1}",
+		["is_leader_only"] = false,
+		["param_product"] = {
+			135,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101394,
+		},
+		["prop_key"] = "ps_608",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["ps_613"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "复调造成伤害时，降低目标{1}基础减伤，最多叠加35层（该效果属于[link type='combat' tid='156']）；异核技能初始冷却时间缩短一半，且异核技能期间复调伤害提高{2}",
+		["is_leader_only"] = false,
+		["param_product"] = {
+			128,
+			120,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101395,
+		},
+		["prop_key"] = "ps_613",
+		["value_unit"] = {
+			2,
+			1,
+			0,
+		},
+	},
+	["ps_614"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "加急件对目标造成伤害时，降低目标{1}基础减伤，（该效果属于[link type='combat' tid='156']，自身下场时效果消失）；目标处于（我方或敌方）屏障下时，自身对其造成的伤害提高{2}",
+		["is_leader_only"] = false,
+		["param_product"] = {
+			128,
+			120,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101396,
+		},
+		["prop_key"] = "ps_614",
+		["value_unit"] = {
+			2,
+			1,
+			0,
+		},
+	},
+	["ps_615"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "【踏风小调】的鹿蜀幻影使命中的友方同调者提高{1}[link type='combat' tid='68']和{2}[link type='combat' tid='64']，持续10秒，该效果最多叠加2层",
+		["is_leader_only"] = false,
+		["param_product"] = {
+			146,
+			136,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101397,
+		},
+		["prop_key"] = "ps_615",
+		["value_unit"] = {
+			1,
+			1,
+			0,
+		},
+	},
+	["ps_616"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "鬼手状态下提高{1}造成的雷元素和物理伤害，且异核技能对区域正中心目标造成的伤害提高{2}",
+		["is_leader_only"] = false,
+		["param_product"] = {
+			120,
+			135,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101398,
+		},
+		["prop_key"] = "ps_616",
+		["value_unit"] = {
+			1,
+			1,
+			0,
+		},
+	},
+	["ps_617"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "施放【调虎离山】后，使场上同调者获得相当于莫红袖最大生命值{1}的护盾",
+		["is_leader_only"] = false,
+		["param_product"] = {
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101399,
+		},
+		["prop_key"] = "ps_617",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["ps_621"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "【王廷雪域】的「雪域」状态持续时间延长至{1}秒，霜龙卷每次命中叠加2层「雪域」且额外触发1次永霜的伤害效果",
+		["is_leader_only"] = false,
+		["param_product"] = {
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101400,
+		},
+		["prop_key"] = "ps_621",
+		["value_unit"] = {
+			3,
+			0,
+			0,
+		},
+	},
+	["rogue"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，自身对首领或精英目标造成伤害时，场上同调者额外伤害提高{1}，持续30秒",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			103,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101350,
+		},
+		["prop_key"] = "rogue",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["shielder"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，自身每次回复或消耗格挡值，场上同调者额外伤害提高{1}，持续30秒",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			103,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101349,
+		},
+		["prop_key"] = "shielder",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["soldier"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，格挡能力的激活状态变化时场上同调者额外伤害提高{1}，持续60秒",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			103,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101355,
+		},
+		["prop_key"] = "soldier",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["support"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，自身每次治疗使受治疗目标造成的额外伤害提高{1}，持续30秒",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			103,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101353,
+		},
+		["prop_key"] = "support",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["team_all_def"] = {
+		["calc_type"] = {
+			1,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，全队基础减伤增加{1}",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			112,
+		},
+		["passive_add_type"] = 1,
+		["passive_id"] = {
+			100027,
+		},
+		["prop_key"] = "team_all_def",
+		["value_unit"] = {
+			2,
+			0,
+			0,
+		},
+	},
+	["team_leader_fake"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，自身获得{1}刻印属性加成（包含体质、攻击、专精）",
+		["is_leader_only"] = true,
+		["param_product"] = {
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+		},
+		["prop_key"] = "team_leader_fake",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["team_leader_sta"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长且在场时：场上同调者体质提高{1}",
+		["is_leader_only"] = true,
+		["param_product"] = {
+		},
+		["passive_add_type"] = 1,
+		["passive_id"] = {
+			101336,
+		},
+		["prop_key"] = "team_leader_sta",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["team_self_atk"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，攻击力提升{1}",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			134,
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			100026,
+		},
+		["prop_key"] = "team_self_atk",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["teammate_add"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长时，队友获得{1}刻印属性加成（包含体质、攻击、专精）",
+		["is_leader_only"] = true,
+		["param_product"] = {
+		},
+		["passive_add_type"] = 0,
+		["passive_id"] = {
+			101333,
+		},
+		["prop_key"] = "teammate_add",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["toxic_card"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长且在场时：场上每有一个蚀元素同调者蚀爆伤害提高{1}，最多提高50%",
+		["is_leader_only"] = true,
+		["param_product"] = {
+		},
+		["passive_add_type"] = 2,
+		["passive_id"] = {
+			101347,
+		},
+		["prop_key"] = "toxic_card",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+	["water_card"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长且在场时：水元素同调者忽视目标基础减伤{1}，场上有元素反应触发时，对全场敌人施加{2}[link type='combat' tid='94']，持续30秒",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			104,
+			119,
+		},
+		["passive_add_type"] = 1,
+		["passive_id"] = {
+			101342,
+		},
+		["prop_key"] = "water_card",
+		["value_unit"] = {
+			2,
+			1,
+			0,
+		},
+	},
+	["wind_card"] = {
+		["calc_type"] = {
+			0,
+			-1,
+			-1,
+		},
+		["desc"] = "作为队长且在场时：场上同调者刻印攻击提高{1}",
+		["is_leader_only"] = true,
+		["param_product"] = {
+			108,
+		},
+		["passive_add_type"] = 1,
+		["passive_id"] = {
+			101346,
+		},
+		["prop_key"] = "wind_card",
+		["value_unit"] = {
+			1,
+			0,
+			0,
+		},
+	},
+}

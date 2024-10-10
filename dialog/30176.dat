@@ -1,0 +1,2769 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s196_ourea_night",
+			["length"] = 122000,
+			["operation"] = 1,
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["guid"] = "2A3BBB404C47EE80A1CB9994B72C8D58",
+		["guid_str"] = "mUIDw7KX",
+		["id"] = 1,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/ourea/d22_amb_night",
+				["length"] = 48000,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 300,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "EED7055645546E1797D2C588319D87C7",
+		["guid_str"] = "n1m2jQCL",
+		["id"] = 2,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 3229,
+			},
+		},
+		["text"] = "厄里斯！它本来不会死的。",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "406",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "0B3EBA39404FAC4699CECE9DD1ABC5EF",
+		["guid_str"] = "RtHEUh5a",
+		["id"] = 3,
+		["name"] = "厄里斯",
+		["text"] = "别在乎那些！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "406",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "71D2C2324045D6F242E7C88F88EDF61E",
+		["guid_str"] = "OXHPgX08",
+		["id"] = 4,
+		["name"] = "厄里斯",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/clothing_s_2_reverb",
+				["length"] = 649,
+			},
+		},
+		["text"] = "哈哈哈哈，我的朋友，你发现了吗？你学会飞了！而且飞得很好！没想到，你头虽然小，脑子却长得很大！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "35DDCD3A4312EC207278C3BBEB99E2C7",
+		["guid_str"] = "XxLo86YZ",
+		["id"] = 5,
+		["name"] = "[rolename]",
+		["text"] = "啊……？好奇怪的修辞…………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "weep",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af12zd/af12zd_young_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "9A6FCE9045163A082383B5A59FB802FF",
+		["guid_str"] = "XeBnmQ4p",
+		["id"] = 6,
+		["name"] = "？？？",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "辛西亚！辛西亚，愿你安息，风会送你的灵魂回到草原。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "wing_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "14C822484300C06E322654A70B2EAB6C",
+		["guid_str"] = "yKhEioiy",
+		["id"] = 7,
+		["name"] = "？？？",
+		["text"] = "好了，快走吧，它们要追上来了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af12zd/af12zd_young_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af12zd/af12zd_young_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 1500,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 2000,
+							["direction"] = "right",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "FF71C5FB43BF2703E11767B6604FEF5E",
+		["guid_str"] = "WpOZFtdt",
+		["id"] = 8,
+		["name"] = "？？？",
+		["text"] = "嗯，辛西亚，我们走！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "406",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "193EDC064B3F365D4A01E6B2684F4089",
+		["guid_str"] = "drijdreO",
+		["id"] = 9,
+		["name"] = "厄里斯",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/clothing_s_2_reverb",
+				["length"] = 649,
+			},
+		},
+		["text"] = "我的朋友，这次先让给你吃。新鲜的亡者啊，虽然灵魂孱弱，补益不大，却胜在很好消化。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "8823A6724E7CEA30D8E4C6A0AF9848AB",
+		["guid_str"] = "DCIi8EQH",
+		["id"] = 10,
+		["name"] = "[rolename]",
+		["text"] = "消化灵魂？……什么意思？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "406",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "8259AEA3485DD8B0DAC4668F6D9178D8",
+		["guid_str"] = "8ZdSsxFN",
+		["id"] = 11,
+		["name"] = "厄里斯",
+		["text"] = "什么意思？嗯？难道你没有吃过？不可能！你没有吃过，怎么会有不畏光的力量？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "406",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "C96B13E94B4241CBC228F08F4066CF6D",
+		["guid_str"] = "d4RqpuNp",
+		["id"] = 12,
+		["name"] = "厄里斯",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/clothing_s_2_reverb",
+				["length"] = 649,
+			},
+		},
+		["text"] = "哦，我知道了，你一定是像忘记飞行一样，忘记了。健忘，许多亡灵都这样，你还记得如何说话，那就已经很不错了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "B705DE944026BFDD514CF6BB33D02974",
+		["guid_str"] = "K6vqN2Cr",
+		["id"] = 13,
+		["name"] = "[rolename]",
+		["text"] = "…………不是，吃掉？你是说，吃掉它的……灵魂？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "406",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "132558194E747B6415744C8CE9BDCDFF",
+		["guid_str"] = "jHEke6vD",
+		["id"] = 14,
+		["name"] = "厄里斯",
+		["text"] = "嗯。吃掉它，你会变得强大，快吃吧！我的朋友。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "2D8330C846D2E05804B8EA8B7A3E413E",
+		["guid_str"] = "YubeUaa5",
+		["id"] = 15,
+		["name"] = "[rolename]",
+		["text"] = "不是……我们是亡灵，它也是亡灵，哪有同类相食的道理？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "7B8153224FDF72A7CF15EBBBD23FF67C",
+		["guid_str"] = "uHVDZxQ7",
+		["id"] = 16,
+		["name"] = "[rolename]",
+		["text"] = "[c a3bdc8]（这不就是……人吃人吗？）[/c]",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "406",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "5D09F067477F9948108C96903FA74C8A",
+		["guid_str"] = "CzqU4NnJ",
+		["id"] = 17,
+		["name"] = "厄里斯",
+		["text"] = "不吃，就会被吃，大的吃小的，强的吃弱的，这是世界的法则。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "7F32556947FA664DCA50ABBD9BE82796",
+		["guid_str"] = "cuHWZMpM",
+		["id"] = 18,
+		["name"] = "[rolename]",
+		["text"] = "它如果被吃掉了，就不会像我们这样苏醒过来了，对吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "406",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "7C2DC97540ED8E717DCE458D86364B16",
+		["guid_str"] = "CKLcJFzt",
+		["id"] = 19,
+		["name"] = "厄里斯",
+		["text"] = "当然，被吃掉就是被吃掉了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "7D4A7BE94419E8B513F01E909023306B",
+		["guid_str"] = "5JMU1LnU",
+		["id"] = 20,
+		["name"] = "[rolename]",
+		["text"] = "那我不会吃。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "406",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 20,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "A652B3244B969663706E86A65A1CDE6E",
+		["guid_str"] = "aE8O7Gqu",
+		["id"] = 21,
+		["name"] = "厄里斯",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/clothing_s_2_reverb",
+				["length"] = 649,
+			},
+			{
+				["delay"] = 200,
+				["event"] = "event:/sfx/story/ourea/clothing_s_2_reverb",
+				["length"] = 649,
+			},
+		},
+		["text"] = "你不吃？你不吃，就不会变强，不变强，就迟早要被别的亡灵吃掉。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "BBD690244FB76826D5CB018656E16A97",
+		["guid_str"] = "HtSvCJKk",
+		["id"] = 22,
+		["name"] = "[rolename]",
+		["text"] = "如果真是这样……我会承担选择带给我的后果。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "406",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 100,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 100,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "62777F4242AF8CDE638068A559C3BF8F",
+		["guid_str"] = "7nF0oVcj",
+		["id"] = 23,
+		["name"] = "厄里斯",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/clothing_s_2_reverb",
+				["length"] = 649,
+			},
+		},
+		["text"] = "那么，既然你迟早要被别的亡灵吃掉，还不如——",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 250,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 250,
+								["y"] = 0,
+							},
+							["time"] = 300,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.10000000149012,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.60000002384186,
+							["start_value"] = 0.20000000298023,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 300,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["cycle"] = 4,
+							["delay"] = 500,
+							["time"] = 50,
+						},
+						["tween"] = "Breathe",
+					},
+					{
+						["param"] = {
+							["delay"] = 800,
+							["direction"] = "up",
+							["dis"] = 100,
+							["time"] = 200,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "2D6CF4484FC3BAB5015D16AC210B361D",
+		["guid_str"] = "bbmn5Voi",
+		["id"] = 24,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/clothing_s_2_reverb",
+				["length"] = 649,
+			},
+			{
+				["event"] = "event:/sfx/story/ourea/bat_death_vo",
+				["length"] = 2456,
+			},
+			{
+				["event"] = "event:/sfx/story/ourea/bat_death_spell",
+				["length"] = 7750,
+			},
+		},
+		["text"] = "你……！厄里……斯！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "406",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "3746957049756EE4AA576F99ACB1DED7",
+		["guid_str"] = "HDxV2TCO",
+		["id"] = 25,
+		["name"] = "厄里斯",
+		["text"] = "被我吃掉？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.10980392247438,
+						0.14117647707462,
+						0.36862745881081,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 2.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_undead_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "9023F9D043778240290A7EA52B25C012",
+		["guid_str"] = "EJ5cyjeJ",
+		["id"] = 26,
+		["just_auto_play"] = true,
+		["name"] = "厄里斯",
+		["text"] = " ",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+	},
+}

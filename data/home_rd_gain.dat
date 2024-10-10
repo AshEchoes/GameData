@@ -1,0 +1,782 @@
+{
+	[10001] = {
+		["ID"] = 10001,
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+			[10001] = {
+				[0] = {
+					[2] = 5,
+				},
+			},
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+		},
+	},
+	[10002] = {
+		["ID"] = 10002,
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+			[10001] = {
+				[0] = {
+					[2] = 10,
+				},
+			},
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+		},
+	},
+	[10003] = {
+		["ID"] = 10003,
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+			[10001] = {
+				[0] = {
+					[2] = 20,
+					[3] = 5,
+				},
+			},
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+		},
+	},
+	[10004] = {
+		["ID"] = 10004,
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+			[10002] = {
+				[0] = {
+					[2] = 5,
+				},
+			},
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+		},
+	},
+	[10005] = {
+		["ID"] = 10005,
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+			[10002] = {
+				[0] = {
+					[2] = 10,
+				},
+			},
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+		},
+	},
+	[10006] = {
+		["ID"] = 10006,
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+			[10001] = {
+				[0] = {
+					[3] = 5,
+				},
+			},
+			[10002] = {
+				[0] = {
+					[2] = 20,
+				},
+			},
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+		},
+	},
+	[10] = {
+		["ID"] = 10,
+		["desc"] = "在高级研发室晚班，耗时[c 59abff]-10%[/c]",
+		["name"] = "定班提速线++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[3] = 10,
+			},
+		},
+	},
+	[11] = {
+		["ID"] = 11,
+		["desc"] = "在高级研发室，重组蛋白耗时[c 59abff]-10%[/c]",
+		["name"] = "定向提速线++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[10001] = {
+				[0] = 10,
+			},
+		},
+	},
+	[12] = {
+		["ID"] = 12,
+		["desc"] = "在高级研发室，神经活性剂耗时[c 59abff]-10%[/c]",
+		["name"] = "定向提速线++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[10002] = {
+				[0] = 10,
+			},
+		},
+	},
+	[13] = {
+		["ID"] = 13,
+		["desc"] = "在高级研发室，耗时[c 59abff]-5%[/c]",
+		["name"] = "提速线+",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = 5,
+			},
+		},
+	},
+	[14] = {
+		["ID"] = 14,
+		["desc"] = "在高级研发室，早班耗时[c 59abff]-15%[/c]，晚班耗时[c bd7474]+10%[/c]",
+		["name"] = "准点下班",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[1] = 15,
+				[3] = -10,
+			},
+		},
+	},
+	[15] = {
+		["ID"] = 15,
+		["desc"] = "在高级研发室，晚班耗时[c 59abff]-15%[/c]，早班耗时[c bd7474]+10%[/c]",
+		["name"] = "夜猫子",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[1] = -10,
+				[3] = 15,
+			},
+		},
+	},
+	[16] = {
+		["ID"] = 16,
+		["desc"] = "在高级研发室，产量[c 59abff]加倍[/c]，耗时[c bd7474]+70%[/c]",
+		["output_increase"] = {
+			[0] = {
+				[0] = 100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -70,
+			},
+		},
+	},
+	[17] = {
+		["ID"] = 17,
+		["desc"] = "在高级研发室，早班产量[c 59abff]加倍[/c]，耗时[c bd7474]+70%[/c]",
+		["output_increase"] = {
+			[0] = {
+				100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -70,
+			},
+		},
+	},
+	[18] = {
+		["ID"] = 18,
+		["desc"] = "在高级研发室，午班产量[c 59abff]加倍[/c]，耗时[c bd7474]+70%[/c]",
+		["output_increase"] = {
+			[0] = {
+				[2] = 100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -70,
+			},
+		},
+	},
+	[19] = {
+		["ID"] = 19,
+		["desc"] = "在高级研发室，晚班产量[c 59abff]加倍[/c]，耗时[c bd7474]+70%[/c]",
+		["output_increase"] = {
+			[0] = {
+				[3] = 100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -70,
+			},
+		},
+	},
+	[1] = {
+		["ID"] = 1,
+		["desc"] = "在高级研发室，耗时[c 59abff]-15%[/c]",
+		["name"] = "提速线+++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = 15,
+			},
+		},
+	},
+	[20] = {
+		["ID"] = 20,
+		["desc"] = "在高级研发室，重组蛋白产量[c 59abff]加倍[/c]，耗时[c bd7474]+70%[/c]",
+		["output_increase"] = {
+			[10001] = {
+				[0] = 100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -70,
+			},
+		},
+	},
+	[21] = {
+		["ID"] = 21,
+		["desc"] = "在高级研发室，神经活性剂产量[c 59abff]加倍[/c]，耗时[c bd7474]+70%[/c]",
+		["output_increase"] = {
+			[10002] = {
+				[0] = 100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -70,
+			},
+		},
+	},
+	[22] = {
+		["ID"] = 22,
+		["desc"] = "在高级研发室，产量[c 59abff]加倍[/c]，耗时[c bd7474]+80%[/c]",
+		["name"] = "慢工出细活",
+		["output_increase"] = {
+			[0] = {
+				[0] = 100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -80,
+			},
+		},
+	},
+	[23] = {
+		["ID"] = 23,
+		["desc"] = "在高级研发室，早班产量[c 59abff]加倍[/c]，耗时[c bd7474]+80%[/c]",
+		["output_increase"] = {
+			[0] = {
+				100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -80,
+			},
+		},
+	},
+	[24] = {
+		["ID"] = 24,
+		["desc"] = "在高级研发室，午班产量[c 59abff]加倍[/c]，耗时[c bd7474]+80%[/c]",
+		["output_increase"] = {
+			[0] = {
+				[2] = 100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -80,
+			},
+		},
+	},
+	[25] = {
+		["ID"] = 25,
+		["desc"] = "在高级研发室，晚班产量[c 59abff]加倍[/c]，耗时[c bd7474]+80%[/c]",
+		["output_increase"] = {
+			[0] = {
+				[3] = 100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -80,
+			},
+		},
+	},
+	[26] = {
+		["ID"] = 26,
+		["desc"] = "在高级研发室，重组蛋白产量[c 59abff]加倍[/c]，耗时[c bd7474]+80%[/c]",
+		["output_increase"] = {
+			[10001] = {
+				[0] = 100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -80,
+			},
+		},
+	},
+	[27] = {
+		["ID"] = 27,
+		["desc"] = "在高级研发室，神经活性剂产量[c 59abff]加倍[/c]，耗时[c bd7474]+80%[/c]",
+		["output_increase"] = {
+			[10002] = {
+				[0] = 100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -80,
+			},
+		},
+	},
+	[28] = {
+		["ID"] = 28,
+		["desc"] = "在高级研发室，产量[c 59abff]加倍[/c]，耗时[c bd7474]+80%[/c]",
+		["output_increase"] = {
+			[0] = {
+				[0] = 100,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -90,
+			},
+		},
+	},
+	[29] = {
+		["ID"] = 29,
+		["desc"] = "在高级研发室，产量提高至[c 59abff]三倍[/c]，耗时[c bd7474]+160%[/c]",
+		["name"] = "好事多磨",
+		["output_increase"] = {
+			[0] = {
+				[0] = 200,
+			},
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -160,
+			},
+		},
+	},
+	[2] = {
+		["ID"] = 2,
+		["desc"] = "在高级研发室早班，耗时[c 59abff]-15%[/c]",
+		["name"] = "定班提速线+++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				15,
+			},
+		},
+	},
+	[30] = {
+		["ID"] = 30,
+		["desc"] = "在高级研发室，仓储[c 59abff]+5%[/c]",
+		["name"] = "储量扩展+",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+			[0] = {
+				[0] = 5,
+			},
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+		},
+	},
+	[31] = {
+		["ID"] = 31,
+		["desc"] = "在高级研发室，仓储[c 59abff]+10%[/c]",
+		["name"] = "储量扩展++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+			[0] = {
+				[0] = 10,
+			},
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+		},
+	},
+	[32] = {
+		["ID"] = 32,
+		["desc"] = "在高级研发室，重组蛋白仓储[c 59abff]+10%[/c]",
+		["name"] = "定向扩储++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+			[10001] = {
+				[0] = 10,
+			},
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+		},
+	},
+	[33] = {
+		["ID"] = 33,
+		["desc"] = "在高级研发室，神经活性剂仓储[c 59abff]+10%[/c]",
+		["name"] = "定向扩储++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+			[10002] = {
+				[0] = 10,
+			},
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+		},
+	},
+	[34] = {
+		["ID"] = 34,
+		["desc"] = "在高级研发室，仓储上限[c 59abff]+20%[/c]，耗时[c bd7474]+10%[/c]",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+			[0] = {
+				[0] = 20,
+			},
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = -10,
+			},
+		},
+	},
+	[35] = {
+		["ID"] = 35,
+		["desc"] = "在高级研发室，耗时[c 59abff]-15%[/c]，仓储上限[c bd7474]-10%[/c]",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+			[0] = {
+				[0] = -10,
+			},
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = 15,
+			},
+		},
+	},
+	[3] = {
+		["ID"] = 3,
+		["desc"] = "在高级研发室午班，耗时[c 59abff]-15%[/c]",
+		["name"] = "定班提速线+++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[2] = 15,
+			},
+		},
+	},
+	[4] = {
+		["ID"] = 4,
+		["desc"] = "在高级研发室晚班，耗时[c 59abff]-15%[/c]",
+		["name"] = "定班提速线+++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[3] = 15,
+			},
+		},
+	},
+	[5] = {
+		["ID"] = 5,
+		["desc"] = "在高级研发室，重组蛋白耗时[c 59abff]-15%[/c]",
+		["name"] = "定向提速线+++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[10001] = {
+				[0] = 15,
+			},
+		},
+	},
+	[6] = {
+		["ID"] = 6,
+		["desc"] = "在高级研发室，神经活性剂耗时[c 59abff]-15%[/c]",
+		["name"] = "定向提速线+++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[10002] = {
+				[0] = 15,
+			},
+		},
+	},
+	[7] = {
+		["ID"] = 7,
+		["desc"] = "在高级研发室，耗时[c 59abff]-10%[/c]",
+		["name"] = "提速线++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[0] = 10,
+			},
+		},
+	},
+	[8] = {
+		["ID"] = 8,
+		["desc"] = "在高级研发室早班，耗时[c 59abff]-10%[/c]",
+		["name"] = "定班提速线++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				10,
+			},
+		},
+	},
+	[9] = {
+		["ID"] = 9,
+		["desc"] = "在高级研发室午班，耗时[c 59abff]-10%[/c]",
+		["name"] = "定班提速线++",
+		["output_increase"] = {
+		},
+		["reward_increase"] = {
+		},
+		["store_increase"] = {
+		},
+		["time_increase_add"] = {
+		},
+		["time_reduce"] = {
+			[0] = {
+				[2] = 10,
+			},
+		},
+	},
+}

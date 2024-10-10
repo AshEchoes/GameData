@@ -1,0 +1,1380 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s113_Ambience_Suspense",
+			["length"] = 137383,
+			["operation"] = 1,
+		},
+		["guid"] = "B4A4F8C845A223A229C4D993B97C56C3",
+		["guid_str"] = "P2XcIgO2",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/Inanna_square_distant",
+				["length"] = 58047,
+				["loop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["guid"] = "DF1E45BA4A6EC90A6316A9BF85D3D6B2",
+		["guid_str"] = "ej3IGU4Q",
+		["id"] = 2,
+		["introduce"] = {
+			["location"] = "沙玛什·未知小巷",
+			["time"] = "森罗历1121-05-31  19:40",
+		},
+		["just_auto_play"] = true,
+		["time"] = 1500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["color"] = {
+					0.62745100259781,
+					0.7843137383461,
+					1.0,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n24smssoldier_01/n24smssoldier_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 300,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "701A7BD643FD2ECD5D0EFC8E146AFB6C",
+		["guid_str"] = "ISyOPtU2",
+		["id"] = 3,
+		["name"] = "沙玛什士兵",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 5.0,
+			},
+		},
+		["text"] = "不要再顽抗了！私藏国家兵器可是重罪！乖乖把她交出来，否则——",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["color"] = {
+					0.19607843458652,
+					0.2352941185236,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n24smssoldier_01/n24smssoldier_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "anger",
+				["color"] = {
+					0.62745100259781,
+					0.7843137383461,
+					1.0,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n69nje_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 300,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "BE47C9674E2A6ECA0A244387414D11BD",
+		["guid_str"] = "Pnz2culp",
+		["id"] = 4,
+		["name"] = "受伤的雇佣兵",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "交个[**厄亚文明语**]！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["cycle"] = 5,
+								["delay"] = 500,
+								["time"] = 100,
+							},
+							["tween"] = "Breathe",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n24smssoldier_01/n24smssoldier_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "anger",
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n69nje_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "244F65A348BD21DAB4F27C817341C4DF",
+		["guid_str"] = "33FIwVp5",
+		["id"] = 5,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+				["volume"] = 1.5,
+			},
+		},
+		["time"] = 1500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["color"] = {
+					0.62745100259781,
+					0.7843137383461,
+					1.0,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n69nje_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "E7AE0C7B43178719D54D839A2EB8802E",
+		["guid_str"] = "Q4YtzBhm",
+		["id"] = 6,
+		["name"] = "受伤的雇佣兵",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3049_ObixloIL",
+		},
+		["text"] = "这里有我们挡着！你快走！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["color"] = {
+					0.19607843458652,
+					0.2352941185236,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n69nje_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.62745100259781,
+					0.7843137383461,
+					1.0,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af38cv018/af38cv018_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "BB86133C4D6F4967C39F26BECC5D087C",
+		["guid_str"] = "Cz8tFtaS",
+		["id"] = 7,
+		["name"] = "神秘女人",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3049_8nUIeyPM",
+		},
+		["text"] = "拒，绝……指令。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["color"] = {
+					0.62745100259781,
+					0.7843137383461,
+					1.0,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n69nje_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.19607843458652,
+					0.2352941185236,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af38cv018/af38cv018_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "6086CF6B43ED879E2EE0E8ABBCA530BF",
+		["guid_str"] = "R5ri8dbi",
+		["id"] = 8,
+		["name"] = "神秘女人",
+		["text"] = "你不相信我们？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["color"] = {
+					0.19607843458652,
+					0.2352941185236,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n69nje_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.62745100259781,
+					0.7843137383461,
+					1.0,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af38cv018/af38cv018_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "F0022F684FBA1E58C4C8F1B20C012FC2",
+		["guid_str"] = "Mj8gSMuA",
+		["id"] = 9,
+		["name"] = "神秘女人",
+		["text"] = "不。事情，我。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["color"] = {
+					0.19607843458652,
+					0.2352941185236,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n69nje_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.62745100259781,
+					0.7843137383461,
+					1.0,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af38cv018/af38cv018_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "F0D9863746F1521005EC1EA5271015A7",
+		["guid_str"] = "ZShc05Ld",
+		["id"] = 10,
+		["name"] = "神秘女人",
+		["text"] = "无关。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["color"] = {
+					0.19607843458652,
+					0.2352941185236,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n69nje_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.62745100259781,
+					0.7843137383461,
+					1.0,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af38cv018/af38cv018_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "394782164C684DF44DE9C1A516B32ED1",
+		["guid_str"] = "Ttjr2eIf",
+		["id"] = 11,
+		["name"] = "神秘女人",
+		["text"] = "你，走。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["color"] = {
+					0.62745100259781,
+					0.7843137383461,
+					1.0,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n69nje_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.19607843458652,
+					0.2352941185236,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af38cv018/af38cv018_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "CC1843D6431B2D67AF4C0FAF1A3438A3",
+		["guid_str"] = "1MvydFGs",
+		["id"] = 12,
+		["name"] = "神秘女人",
+		["text"] = "……啧。不可能。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 1.0,
+								["time"] = 1000,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n69nje_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af38cv018/af38cv018_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "750391204510DCFC375D07BCAA509D23",
+		["guid_str"] = "zO6lcKOJ",
+		["id"] = 13,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/4-2_whistle",
+				["length"] = 2144,
+			},
+		},
+		["time"] = 1000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["guid"] = "7B28AF60466DF7AC671CB28FA26A59C9",
+		["guid_str"] = "tmRuoxIg",
+		["id"] = 14,
+		["name"] = "舞鹤织雪",
+		["speaker_info"] = {
+			["anim"] = "boring2_add",
+			["material"] = "M_UI_SpineCharacterNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af56whzx/af56whzx_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "[c a3bdc8]（口哨~~）[/c]",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["guid"] = "54C27F774C9C64771B97C1914B315416",
+		["guid_str"] = "MdP5zUT8",
+		["id"] = 15,
+		["name"] = "苏筱",
+		["speaker_info"] = {
+			["anim"] = "surprise2_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af50nvzhu/af50nvzhu_action4",
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "——！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["guid"] = "4DEFDEC74849D271E32AB1960E0DC3D9",
+		["guid_str"] = "pBQ85d1x",
+		["id"] = 16,
+		["name"] = "苏筱",
+		["speaker_info"] = {
+			["anim"] = "anger_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af50nvzhu/af50nvzhu_action4",
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "你别出声好不好！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["guid"] = "D06176F14CBE4B37F4CE18A7E7C0F187",
+		["guid_str"] = "R4xyj2HZ",
+		["id"] = 17,
+		["name"] = "舞鹤织雪",
+		["speaker_info"] = {
+			["anim"] = "smile2_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af56whzx/af56whzx_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "看看看！有大美女哦~",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["guid"] = "4A5A94424615FE86F9D972ACB2B63A11",
+		["guid_str"] = "v4en6XKA",
+		["id"] = 18,
+		["name"] = "苏筱",
+		["speaker_info"] = {
+			["anim"] = "dislike2_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af50nvzhu/af50nvzhu_action4",
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "她蒙着脸呢，你这都能看得出来……诶诶诶！她怎么突然倒下了！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["guid"] = "7B32C0384E7BEDC34CB4BBBD42963637",
+		["guid_str"] = "16LstDqq",
+		["id"] = 19,
+		["name"] = "舞鹤织雪",
+		["speaker_info"] = {
+			["anim"] = "snicker_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af56whzx/af56whzx_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "走！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["guid"] = "F69518834A9E922304A9578BE3B48CE1",
+		["guid_str"] = "rMdPZGNJ",
+		["id"] = 20,
+		["name"] = "苏筱",
+		["speaker_info"] = {
+			["anim"] = "surprise2_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af50nvzhu/af50nvzhu_action4",
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "干什么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["guid"] = "557E5AD346C03FFB11B0F0883FEC8EE2",
+		["guid_str"] = "86KCLIBA",
+		["id"] = 21,
+		["name"] = "舞鹤织雪",
+		["speaker_info"] = {
+			["anim"] = "wink2_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af56whzx/af56whzx_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "当然是~美女救美咯~",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["guid"] = "203939D8478D8AAFF2F8F89AD6E6CF99",
+		["guid_str"] = "LUeOnb0D",
+		["id"] = 22,
+		["name"] = "苏筱",
+		["speaker_info"] = {
+			["anim"] = "surprise2_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af50nvzhu/af50nvzhu_action4",
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 200,
+						["direction"] = "right",
+						["dis"] = 100,
+						["time"] = 500,
+					},
+					["tween"] = "MoveOut",
+				},
+			},
+		},
+		["text"] = "我跟上就是了！你别拉我——！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 2000,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["guid"] = "1DB0EE284D2EFB3880892C8902A36522",
+		["guid_str"] = "k33tSqWk",
+		["id"] = 23,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["speaker_info"] = {
+			["anim"] = "surprise2_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["time"] = 1800,
+	},
+}

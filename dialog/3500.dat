@@ -1,0 +1,1216 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.0,
+								["time"] = 2000,
+							},
+							["tween"] = "AlphaChange",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0299999713898,
+								["scale_y"] = 1.0299999713898,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["guid"] = "DB28AE8B4D1170006AA6C4A55CBC825C",
+		["guid_str"] = "Q47WcNr4",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/d08_amb_fairy_wind",
+				["length"] = 20000,
+				["loop"] = 1,
+				["volume"] = 0.30000001192093,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n64bird_guard_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 300,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "200E52F14E4ABEABB1019CAD07705863",
+		["guid_str"] = "7s51RQdW",
+		["id"] = 2,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "小鸟骑士",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 7.0,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "哼，身手还不赖嘛，但不会让你们就这样过去的，再吃我一矛！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n64bird_guard_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = 300,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "340",
+					["is_enabled"] = true,
+					["offset"] = {
+						-200,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["scale"] = {
+					1.0499999523163,
+					1.0499999523163,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "B8446E1342FA932DECD3C2884457CAA0",
+		["guid_str"] = "oLO1rif0",
+		["id"] = 3,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "言御",
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "等等……！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n64bird_guard_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "340",
+					["is_enabled"] = true,
+					["offset"] = {
+						-200,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["scale"] = {
+					1.0499999523163,
+					1.0499999523163,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "A2434C6646E82D7DDA036B85FC8D624F",
+		["guid_str"] = "5x7Lzwc9",
+		["id"] = 4,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "言御",
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "答案是3号，对吧！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s145_story_childlike_comical",
+			["length"] = 96854,
+			["operation"] = 1,
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n64bird_guard_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["scale"] = {
+					1.0499999523163,
+					1.0499999523163,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "32783D244417CE02955E83B3361FCD4C",
+		["guid_str"] = "qdxumJcY",
+		["id"] = 5,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "小鸟骑士",
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "回答——正确～！！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n64bird_guard_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["scale"] = {
+					1.0499999523163,
+					1.0499999523163,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "735876F4476AABE1D19097B0069691A3",
+		["guid_str"] = "VMUSr2KQ",
+		["id"] = 6,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "小鸟骑士",
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "欢迎欢迎～尊贵的客人们，还有讨厌鬼。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n64bird_guard_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "340",
+					["is_enabled"] = true,
+					["offset"] = {
+						-200,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["scale"] = {
+					1.0499999523163,
+					1.0499999523163,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "187AF8FE459D778C38CB0D9C762D806D",
+		["guid_str"] = "R7MfmbGE",
+		["id"] = 7,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "言御",
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n64bird_guard_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["scale"] = {
+					1.0499999523163,
+					1.0499999523163,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "71F97EAB4B99F84A525F6E84AE4E221F",
+		["guid_str"] = "3sUHMJBl",
+		["id"] = 8,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "小鸟骑士",
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "公主殿下在王国的最高处，请跟我来吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]说罢，小鸟骑士立刻展开翅膀扑棱了两下，朝前面飞去。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n64bird_guard_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["scale"] = {
+					1.0499999523163,
+					1.0499999523163,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "248D294E4872F59A68FDF3A4658062A0",
+		["guid_str"] = "OGAfGIi5",
+		["id"] = 9,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/3567_sfx_bird_flyin",
+				["length"] = 3490,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["id"] = "10",
+					["is_enabled"] = true,
+					["offset"] = {
+						60,
+						-50,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am45tr/am45tr_action1",
+				["pos"] = {
+					50,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "BF79976C451A3C659C361C8760E36D1F",
+		["guid_str"] = "jDxAXUOl",
+		["id"] = 10,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "田偌",
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "这是……可以继续前进了的意思吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "wronged1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "17",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "B1BD3C7945D836E457B14A9657D029E0",
+		["guid_str"] = "4k8FoYr3",
+		["id"] = 11,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "苏筱",
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "这态度变化也太快了，像是什么劣质游戏的npc……啊对不起，这是你妹妹创造出来的是么……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.94999998807907,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "340",
+					["is_enabled"] = true,
+					["offset"] = {
+						-200,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["scale"] = {
+					1.0499999523163,
+					1.0499999523163,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "A83070584709F4A16793D4A066F448E5",
+		["guid_str"] = "9G6pFT2c",
+		["id"] = 12,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "言御",
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "……没关系，我也不知道她什么时候变得这么胡闹任性。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.94999998807907,
+								["time"] = 1800,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_yqfairy_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["scale"] = {
+					1.0499999523163,
+					1.0499999523163,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "1EB19EAD4ECD920777E8448960B4C5F8",
+		["guid_str"] = "aS9G7XLt",
+		["id"] = 13,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/d08_amb_fairy_wind",
+				["length"] = 20000,
+				["stop"] = 1,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["time"] = 1800,
+	},
+}

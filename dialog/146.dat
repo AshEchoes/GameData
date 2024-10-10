@@ -1,0 +1,136 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_concert_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af35sy/af35sy_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["effect_bg_videos"] = {
+			{
+				["count"] = -1,
+				["is_queue"] = true,
+				["is_sustain"] = false,
+				["operation"] = 1,
+				["path"] = "movies/Desktop/avg/chapter02/cg_2_02_yinyuehui01_b.bk2",
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "smile1_add",
+		},
+		["guid"] = "C43E39A347DA3E705A1402A4566899C7",
+		["guid_str"] = "7w46yq9S",
+		["id"] = 1,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "smile1_add",
+		},
+		["name"] = "[rolename]",
+		["text"] = "别光站着说话了。走吧，那边已经开始检票入场了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["mute"] = true,
+			["operation"] = 2,
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af35sy/af35sy_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = -70,
+							["time"] = 400,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["effect_bg_videos"] = {
+			{
+				["count"] = -1,
+				["is_queue"] = true,
+				["is_sustain"] = false,
+				["operation"] = 1,
+				["path"] = "movies/Desktop/avg/chapter02/cg_2_02_yinyuehui01_b.bk2",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 3000,
+						},
+						["tween"] = "FadeOut",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.1000000238419,
+							["scale_y"] = 1.1000000238419,
+							["time"] = 3000,
+						},
+						["tween"] = "ScaleIn",
+					},
+				},
+			},
+		},
+		["guid"] = "1993F059454A58AE2EAC3EB38422D79E",
+		["guid_str"] = "Sk3sKGZl",
+		["id"] = 2,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/1-02/ambience_crowd",
+				["length"] = 22153,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/ui/advse/footstep_multi",
+				["length"] = 1450,
+			},
+		},
+		["time"] = 3000,
+	},
+}

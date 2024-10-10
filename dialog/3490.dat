@@ -1,0 +1,498 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_hospital_02.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_hospital_01.png",
+			},
+		},
+		["bgm"] = {
+			["mute"] = true,
+			["operation"] = 2,
+		},
+		["guid"] = "37D6B3F148F2AA1D9BDB21B5C080BD67",
+		["guid_str"] = "D0LhZM9i",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/Amb_RoomTone",
+				["length"] = 34459,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/ambience/urban_traffic",
+				["length"] = 51692,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
+		["time"] = 1000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_hospital_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n67queen_real_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "94C0480D4BB3A2F6B42D46947C83F865",
+		["guid_str"] = "nHa72jfM",
+		["id"] = 2,
+		["name"] = "打电话的女人",
+		["text"] = "我到了，小言你在六楼等我就好了。对了，关于上次你说要以“御雀通信”的名义给基金会捐款……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_hospital_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n67queen_real_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "058E490C40321A61505174B8D004E41B",
+		["guid_str"] = "146n5Em6",
+		["id"] = 3,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "……？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_hospital_01.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]听到“基金会”几个字我下意识停住脚步，转身看向身后。",
+			["text_align"] = "center",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "D278871F49672703F54247AAFEF7C177",
+		["guid_str"] = "zv4qFF5C",
+		["id"] = 4,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_hospital_01.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]但对方的背影已经消失在电梯门后，我只看见一角摇曳的红色裙摆。",
+			["text_align"] = "center",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "6A743D194B6752F1268497AB3B092218",
+		["guid_str"] = "wvPCdVRi",
+		["id"] = 5,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_hospital_01.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "B12F16FD4858DA1D8CFBF8A701C1F19E",
+		["guid_str"] = "oPrHls5l",
+		["id"] = 6,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "[c a3bdc8]（小言……御雀通信，捐款？这么凑巧么……）[/c]",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_hospital_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "17",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "436547E844D7D64E4A2DDE8C6C37D6FA",
+		["guid_str"] = "oz4R2P4R",
+		["id"] = 7,
+		["name"] = "苏筱",
+		["text"] = "怎么了？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_hospital_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "2B8AB3A94163F33E8625C797DE128768",
+		["guid_str"] = "G6H3W9zw",
+		["id"] = 8,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "没什么，只是……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_hospital_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "E04D5D0F4FEF3BCEA2E4EA9E71AF2461",
+		["guid_str"] = "NZuk6DPJ",
+		["id"] = 9,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "的确需要上门拜访一下你那位学长。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_hospital_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "AFFBF2CC49493F59E94DA3BBDD8816C6",
+		["guid_str"] = "CsDTjlgn",
+		["id"] = 10,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "我联系一下R.E.D.。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_hospital_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "2D14D2294901561314E1E4BCA66FFAA1",
+		["guid_str"] = "1NcNZbvI",
+		["id"] = 11,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["time"] = 1800,
+	},
+}

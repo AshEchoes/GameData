@@ -1,0 +1,1666 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["F_B_Intensity"] = 0.40000000596046,
+							["F_G_Intensity"] = 0.40000000596046,
+							["F_R_Intensity"] = 1.1499999761581,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.5,
+							["F_Speed"] = 5.0,
+							["F_WaveX"] = -3.0,
+							["F_WaveY"] = 0.4,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SpiritWorld",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 3500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_room_05.png",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17]幻境渐渐弥散在空气中，只有一个单薄的身影被留在了原地。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "dispirited",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "blankly",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1500,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
+		["guid"] = "13D14A6F41E043BA3EB44293B4A8FD02",
+		["guid_str"] = "q634oAVz",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_queue"] = true,
+				["ori_size_h"] = 886,
+				["ori_size_w"] = 1920,
+				["path"] = "movies/Desktop/avg/common/screen_mask_oldfilm.bk2",
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/2-00-warpout",
+				["length"] = 0,
+			},
+			{
+				["event"] = "event:/sfx/story/0-01/0009_heartbeat",
+				["length"] = 4972,
+				["stop"] = 1,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "default",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-150,
+				-30,
+			},
+		},
+		["time"] = 4000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "doubt_in",
+		},
+		["guid"] = "9CE33CED49D724D41CC684964B64DC1B",
+		["guid_str"] = "zScyE3jx",
+		["id"] = 2,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "doubt_in",
+		},
+		["name"] = "[rolename]",
+		["speaker_info"] = {
+			["anim"] = "default",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-150,
+				-30,
+			},
+		},
+		["text"] = "[c a3bdc8]（又变回几年前的样子了……是分不清回忆里的自己了吗？）[/c]",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "A715696747D58B67294F3F97CE8C18E7",
+		["guid_str"] = "z0jjllN3",
+		["id"] = 3,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["name"] = "云无月",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				20,
+			},
+			["path"] = "af27ywy/af27ywy_action2",
+			["scale"] = {
+				0.85000002384186,
+				0.85000002384186,
+			},
+		},
+		["text"] = "…………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "dull",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "2D3AF08447D109CC8F0AF0B5C70ACCDE",
+		["guid_str"] = "403mchGu",
+		["id"] = 4,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["name"] = "杜望",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				20,
+			},
+			["scale"] = {
+				0.85000002384186,
+				0.85000002384186,
+			},
+		},
+		["text"] = "……………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "dull",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "92F7781840D688C8963B0FBC72A010D9",
+		["guid_str"] = "jS8Tws2z",
+		["id"] = 5,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["name"] = "苏筱",
+		["speaker_info"] = {
+			["anim"] = "sad_add",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af50nvzhu/af50nvzhu_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "杜望？你……你感觉怎么样，不要再继续下去了！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "dull",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "5E16A17643DA3E26CA470EB01C039E02",
+		["guid_str"] = "apoNmKqe",
+		["id"] = 6,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["name"] = "杜望",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				20,
+			},
+			["scale"] = {
+				0.85000002384186,
+				0.85000002384186,
+			},
+		},
+		["text"] = "那是根源。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "dull",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "058CF2C94671CBF7DBCB4CB1465AABF0",
+		["guid_str"] = "6ephL1d4",
+		["id"] = 7,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["name"] = "苏筱",
+		["speaker_info"] = {
+			["anim"] = "surprise2_add",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af50nvzhu/af50nvzhu_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "什么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17]他缓缓抬手，掌心覆上自己的胸口。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "BBD89A524ABBA862EA47FD850D60542B",
+		["guid_str"] = "hOxVQjMm",
+		["id"] = 8,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				20,
+			},
+			["scale"] = {
+				0.85000002384186,
+				0.85000002384186,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "32C2E4A74CA10BBD3E9DBC9822E35131",
+		["guid_str"] = "PDshdZHk",
+		["id"] = 9,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["name"] = "杜望",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				20,
+			},
+			["scale"] = {
+				0.85000002384186,
+				0.85000002384186,
+			},
+		},
+		["text"] = "它就在这里，我必须要回到一切的开端……\n再试一次，说不定下次，我就能斩断它的束缚……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "5C9D2F134E6DADAC8267E3825C5BE9D2",
+		["guid_str"] = "cVYbGzXZ",
+		["id"] = 10,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["name"] = "苏筱",
+		["speaker_info"] = {
+			["anim"] = "surprise2_add",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af50nvzhu/af50nvzhu_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "你在说什么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "C964B41649A301ED6B48D5B1D1BE6DF7",
+		["guid_str"] = "DCV87Dki",
+		["id"] = 11,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["name"] = "苏筱",
+		["speaker_info"] = {
+			["anim"] = "serious_add",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af50nvzhu/af50nvzhu_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "杜望！你的状态不对，你能感觉到的吧？再这样不加节制地大范围使用异核能力，你会很危险……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "0B9FA41948AD71C9C0C1AEB6EEA728B6",
+		["guid_str"] = "GZY3zFj9",
+		["id"] = 12,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["name"] = "杜望",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				20,
+			},
+			["scale"] = {
+				0.85000002384186,
+				0.85000002384186,
+			},
+		},
+		["text"] = "……好像……已经来不及了……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["text"] = "[size 17]嗒。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "8305CAD74D8AFA07F63652A2C2F8B7CB",
+		["guid_str"] = "3CMmXKh9",
+		["id"] = 13,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/2-09/blood_drip",
+				["length"] = 1499,
+				["loop"] = 1,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				20,
+			},
+			["scale"] = {
+				0.85000002384186,
+				0.85000002384186,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["text"] = "[size 17]是液体滴落的声音，带着一丝特有的粘稠感。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "141121D647A2595221F9EE91A32AE0EF",
+		["guid_str"] = "vsDRyws1",
+		["id"] = 14,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				20,
+			},
+			["scale"] = {
+				0.85000002384186,
+				0.85000002384186,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_dwheart_04.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["text"] = "[size 17]就在杜望掌心覆盖着的位置，\n\n一粒种子模样的东西穿透他的手背，如同有生命般向外推挤着，\n\n竟像是随时可能脱离他的身体。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm04dw/bm04dw_young_action1",
+				["pos"] = {
+					100,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 1000,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 1200,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "3044178F48ED80CB865992ACCAE0D044",
+		["guid_str"] = "6qmtxHRS",
+		["id"] = 15,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/2-5-buildingcrash",
+				["length"] = 13999,
+				["loop"] = 1,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				20,
+			},
+			["scale"] = {
+				0.85000002384186,
+				0.85000002384186,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_dwheart_04.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "7CEF68454340047B0B64149444D8CC58",
+		["guid_str"] = "uQ8Cfqh1",
+		["id"] = 16,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["name"] = "云无月",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				20,
+			},
+			["scale"] = {
+				0.85000002384186,
+				0.85000002384186,
+			},
+		},
+		["text"] = "…………！",
+		["text_info"] = {
+			["is_separate_tween"] = true,
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 1.0,
+						["start_alpha"] = 0.0,
+						["time"] = 200,
+					},
+					["tween"] = "AlphaChange",
+				},
+			},
+			["tween_bg"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 1.0,
+						["start_alpha"] = 0.0,
+						["time"] = 200,
+					},
+					["tween"] = "AlphaChange",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_dwheart_04.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter02/cg_2_11_gramophone.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["text"] = "异……核……",
+			["text_align"] = "center",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "677EFDE540C5388C460C6DA834676957",
+		["guid_str"] = "7XwOebVU",
+		["id"] = 17,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["speaker_info"] = {
+			["anim"] = "shock_add",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text_sound_id"] = 0,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_dwheart_04.png",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["guid"] = "ED4195314BDB531383199CB3FC0519D1",
+		["guid_str"] = "llBTBNBn",
+		["id"] = 18,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+		},
+		["speaker_info"] = {
+			["anim"] = "shock",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+	},
+}

@@ -1,0 +1,1078 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.1000000238419,
+								["scale_y"] = 1.1000000238419,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 1000,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s122_campus_02_story_part2",
+			["length"] = 72409,
+			["operation"] = 1,
+		},
+		["guid"] = "2E4CBE374CFA25253A8BF59366E62BA8",
+		["guid_str"] = "Q29tX0ZK",
+		["id"] = 1,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/d15/real/d15_amb_quiet_room",
+				["length"] = 16500,
+				["loop"] = 1,
+				["volume"] = 2.0,
+			},
+			{
+				["event"] = "event:/ambience/schoolhall",
+				["length"] = 51692,
+				["loop"] = 1,
+				["volume"] = 0.40000000596046,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["guid"] = "43401C3E495BA89209523097E6233931",
+		["guid_str"] = "JPneC3mq",
+		["id"] = 2,
+		["introduce"] = {
+			["location"] = "一号教学楼",
+			["time"] = " ",
+		},
+		["just_auto_play"] = true,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "up",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 1500,
+							["direction"] = "down",
+							["dis"] = 100,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 2500,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 2500,
+							["direction"] = "up",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 4000,
+							["direction"] = "down",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					0,
+					-50,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 4800,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 4800,
+							["direction"] = "up",
+							["dis"] = 200,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 0,
+								["orig_y"] = 50,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 5500,
+							["end_pos"] = {
+								["x"] = 0,
+								["y"] = 50,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "6E62BC524DA0DBEEC1E0ABA5CE98EE8E",
+		["guid_str"] = "ACtgGgkw",
+		["id"] = 3,
+		["name"] = "森林二王子[c a3bdc8](24%)[/c]",
+		["soundfx"] = {
+			{
+				["delay"] = 300,
+				["event"] = "event:/sfx/player/af32mrr/emo_touch_brotherpocket_07",
+				["length"] = 0,
+			},
+			{
+				["delay"] = 2600,
+				["event"] = "event:/sfx/player/af32mrr/emo_touch_brotherpocket_08",
+				["length"] = 0,
+			},
+			{
+				["delay"] = 5500,
+				["event"] = "event:/sfx/player/af32mrr/emo_touch_brotherpocket_05",
+				["length"] = 0,
+			},
+			{
+				["delay"] = 5000,
+				["event"] = "event:/sfx/player/af32mrr/emo_touch_brotherpocket_10",
+				["length"] = 0,
+			},
+		},
+		["text"] = "地板是金砖铺的，房子是银子盖的，我们那里可是金窝银窝！嫁给我们王子殿下，绝对享福，绝对没错！公主殿下愿不愿意呀~？\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 300,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 300,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am42hs/am42hs_princess_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 10,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "E9EDDCF34B6339BDB0D863B4E2B32431",
+		["guid_str"] = "bDqMZRT3",
+		["id"] = 4,
+		["name"] = "公主[c a3bdc8](27%)[/c]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 5.0,
+			},
+		},
+		["text"] = "我都说了我是去找人的，难道我非得嫁给你们王子，你们才肯让我过路吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "dispirited_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am42hs/am42hs_princess_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "B79ADD94471CFA580B0FA0A9C9EA5DDE",
+		["guid_str"] = "ksXpqm4G",
+		["id"] = 5,
+		["name"] = "公主[c a3bdc8](27%)[/c]",
+		["text"] = "哎，我说句实话，就算我一时半刻嘴上骗骗你答应你，也不可能真正留在这儿啊！到时候你不是鸡飞蛋打吗？\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "dispirited_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am42hs/am42hs_princess_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F3806D444C09D01C5AC601B7F0C34795",
+		["guid_str"] = "jHFyS7Ka",
+		["id"] = 6,
+		["knowledge"] = {
+			["words"] = {
+				{
+					["id"] = "301",
+					["offset"] = {
+						200,
+						100,
+					},
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 50,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 100,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "dispirited_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am42hs/am42hs_princess_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "3910D8DB458986E4BCE19DAEF24B554B",
+		["guid_str"] = "LbE38HZm",
+		["id"] = 7,
+		["name"] = "森林二王子[c a3bdc8](24%)[/c]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/player/af32mrr/emo_touch_shakehands_01",
+				["length"] = 0,
+			},
+		},
+		["text"] = "不会不会，怎么会鸡飞蛋打，只会和和美美，团团圆圆！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 50,
+							["delay"] = 0,
+							["direction"] = "down",
+							["dis"] = 100,
+							["duration"] = 500,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+			{
+				["anim"] = "dispirited_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am42hs/am42hs_princess_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "excited",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 800,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 800,
+							["direction"] = "up",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "1D7C44B440D2EBF5CCCDDA8F99834CC4",
+		["guid_str"] = "81bnRoqu",
+		["id"] = 8,
+		["name"] = "森林二王子[c a3bdc8](24%)[/c]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/player/af32mrr/emo_touch_shakehands_06",
+				["length"] = 0,
+			},
+			{
+				["delay"] = 1000,
+				["event"] = "event:/sfx/player/af32mrr/emo_touch_shakehands_05",
+				["length"] = 0,
+			},
+		},
+		["text"] = "公主殿下愿不愿意呀~？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "excited",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "shock_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "301",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am42hs/am42hs_princess_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "865429294CD7D15C5536FA8AF551C4D2",
+		["guid_str"] = "q5e0cR7o",
+		["id"] = 9,
+		["name"] = "公主[c a3bdc8](27%)[/c]",
+		["text"] = "你……行！就照你说，你们金窝银窝的，想要和你们家攀亲的人不会少啊！为什么就非得要为难我呢？我是真要去找人！拜托您，通融通融，让我过路吧！\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "shock_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am42hs/am42hs_princess_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9FE7BAA14E3CF6197C5DDA977B8E49B3",
+		["guid_str"] = "TKjfJClP",
+		["id"] = 10,
+		["name"] = "森林二王子[c a3bdc8](24%)[/c]",
+		["soundfx"] = {
+			{
+				["delay"] = 400,
+				["event"] = "event:/sfx/player/af32mrr/emo_touch_brotherpocket_08",
+				["length"] = 0,
+			},
+		},
+		["text"] = "嗨呀，话本里头结尾，不都写着“王子和公主幸福地生活在一起直到永远”吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "shock_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am42hs/am42hs_princess_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "06706E6E43BE5E46C52FB0B911061EDB",
+		["guid_str"] = "ZSrLQs8k",
+		["id"] = 11,
+		["name"] = "森林二王子[c a3bdc8](24%)[/c]",
+		["text"] = "公主殿下，当然与我们王子殿下是天生一对，金玉良缘啦！\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "shock_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am42hs/am42hs_princess_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "excited",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 30,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 30,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode30016_81bnRoqu",
+		},
+		["guid"] = "956DFE6541331AFF06803DA2AFDC5580",
+		["guid_str"] = "CIe0dNZ9",
+		["id"] = 12,
+		["name"] = "森林二王子[c a3bdc8](24%)[/c]",
+		["text"] = "公主殿下愿不愿意呀~？\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "shock_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am42hs/am42hs_princess_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "excited",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af32mrr_m/af32mrr_wolf_m_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "300",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_brave_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "2026DDF240FA6F5930FA79AA7ECC52FC",
+		["guid_str"] = "oiWOvSau",
+		["id"] = 13,
+		["name"] = "勇者·苏筱[c a3bdc8](3%)[/c]",
+		["text"] = "呀，真的是公主啊~看来这个剧情是，公主想要离开王子，王子想要公主留下，[rolename]，我们帮谁？\n\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_22.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_brave_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "0FED7AF54D7EA25D1F2340BA4074DE0F",
+		["guid_str"] = "3IQjZ8rv",
+		["id"] = 14,
+		["selection"] = {
+			30024,
+			30025,
+		},
+		["selection_datas"] = {
+			{
+				["index"] = 1,
+			},
+			{
+				["index"] = 2,
+			},
+		},
+	},
+}

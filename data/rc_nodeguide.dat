@@ -1,0 +1,265 @@
+{
+	[100] = {
+		[11] = {
+			["desc"] = "教学烙痕唤醒点",
+			["guide_fun"] = "guide_rune_node",
+			["guide_fun_after"] = "test_fun",
+			["guide_pre_task"] = 0,
+			["map_tid"] = 100,
+			["node_index"] = 11,
+			["node_info"] = {
+				["children"] = {
+					[356] = true,
+				},
+				["coefs"] = {
+					"0",
+					"0",
+				},
+				["combine_type"] = "",
+				["id"] = 11,
+				["is_boss"] = false,
+				["node_hide_when_locked"] = false,
+				["parent"] = {
+					[5] = true,
+				},
+				["sanity_restriction"] = 0,
+				["type"] = 6,
+				["x_grid"] = 1,
+				["y_grid"] = 0,
+			},
+			["order"] = 9,
+			["relate_task_after"] = 0,
+			["ui_lock"] = {
+				"frmSkill",
+			},
+		},
+		[12] = {
+			["desc"] = "教学属性",
+			["guide_fun"] = "guide_attr_up_1",
+			["guide_fun_after"] = "test_fun",
+			["guide_pre_task"] = 0,
+			["map_tid"] = 100,
+			["node_index"] = 12,
+			["node_info"] = {
+				["children"] = {
+					[9] = true,
+				},
+				["coefs"] = {
+					"5995",
+					"0",
+				},
+				["combine_type"] = "1",
+				["id"] = 12,
+				["is_boss"] = false,
+				["node_hide_when_locked"] = false,
+				["parent"] = {
+					[7] = true,
+				},
+				["sanity_restriction"] = 0,
+				["type"] = 8,
+				["x_grid"] = -7,
+				["y_grid"] = 0,
+			},
+			["order"] = 3,
+			["relate_task_after"] = 0,
+			["ui_lock"] = {
+				"frmAttr",
+				"frmLeader",
+			},
+		},
+		[1] = {
+			["desc"] = "固定事件完成，教学区域唤醒,RC中的技能",
+			["guide_fun"] = "guide_awake_area",
+			["guide_fun_after"] = "test_fun",
+			["guide_pre_task"] = 0,
+			["map_tid"] = 100,
+			["node_index"] = 1,
+			["node_info"] = {
+				["children"] = {
+					[7] = true,
+				},
+				["coefs"] = {
+					"0",
+					"0",
+				},
+				["combine_type"] = "",
+				["id"] = 1,
+				["is_boss"] = false,
+				["node_hide_when_locked"] = false,
+				["parent"] = {
+				},
+				["sanity_restriction"] = 0,
+				["type"] = 0,
+				["x_grid"] = -9,
+				["y_grid"] = 0,
+			},
+			["order"] = 1,
+			["relate_task_after"] = 0,
+			["ui_lock"] = {
+				"frmStart",
+			},
+		},
+		[36] = {
+			["desc"] = "教学点技能",
+			["guide_fun"] = "guide_core_skill_get",
+			["guide_fun_after"] = "test_fun",
+			["guide_pre_task"] = 0,
+			["map_tid"] = 100,
+			["node_index"] = 36,
+			["node_info"] = {
+				["children"] = {
+					[215] = true,
+				},
+				["coefs"] = {
+					"0",
+					"0",
+				},
+				["combine_type"] = "",
+				["id"] = 36,
+				["is_boss"] = false,
+				["node_hide_when_locked"] = false,
+				["parent"] = {
+					[356] = true,
+				},
+				["sanity_restriction"] = 0,
+				["type"] = 9,
+				["x_grid"] = 3,
+				["y_grid"] = 0,
+			},
+			["order"] = 10,
+			["relate_task_after"] = 0,
+			["ui_lock"] = {
+			},
+		},
+		[6] = {
+			["desc"] = "教学结束点",
+			["guide_fun"] = "guide_end_node",
+			["guide_fun_after"] = "test_fun",
+			["guide_pre_task"] = 0,
+			["map_tid"] = 100,
+			["node_index"] = 6,
+			["node_info"] = {
+				["children"] = {
+					[49] = true,
+				},
+				["coefs"] = {
+					"0",
+					"0",
+				},
+				["combine_type"] = "",
+				["id"] = 6,
+				["is_boss"] = false,
+				["node_hide_when_locked"] = false,
+				["parent"] = {
+					[318] = true,
+				},
+				["sanity_restriction"] = 0,
+				["type"] = 6,
+				["x_grid"] = 34,
+				["y_grid"] = 0,
+			},
+			["order"] = 11,
+			["relate_task_after"] = 0,
+			["ui_lock"] = {
+			},
+		},
+	},
+	[1] = {
+		[1] = {
+			["desc"] = "正式第一点",
+			["guide_fun"] = "guide_rc_first",
+			["guide_fun_after"] = "test_fun",
+			["guide_pre_task"] = 0,
+			["map_tid"] = 1,
+			["node_index"] = 1,
+			["node_info"] = {
+				["children"] = {
+					[20] = true,
+				},
+				["coefs"] = {
+					"0",
+					"0",
+				},
+				["combine_type"] = "",
+				["id"] = 1,
+				["is_boss"] = false,
+				["node_hide_when_locked"] = false,
+				["parent"] = {
+				},
+				["sanity_restriction"] = 0,
+				["type"] = 0,
+				["x_grid"] = -12,
+				["y_grid"] = 0,
+			},
+			["order"] = 1,
+			["relate_task_after"] = 0,
+			["ui_lock"] = {
+			},
+		},
+		[296] = {
+			["desc"] = "区域解锁技能的教学",
+			["guide_fun"] = "guide_normal_skill_unlock",
+			["guide_fun_after"] = "test_fun",
+			["guide_pre_task"] = 0,
+			["map_tid"] = 1,
+			["node_index"] = 296,
+			["node_info"] = {
+				["children"] = {
+					[61] = true,
+				},
+				["coefs"] = {
+					"5100",
+					"main",
+				},
+				["combine_type"] = "1",
+				["id"] = 296,
+				["is_boss"] = false,
+				["node_hide_when_locked"] = false,
+				["parent"] = {
+					[7] = true,
+				},
+				["sanity_restriction"] = 0,
+				["type"] = 8,
+				["x_grid"] = 104,
+				["y_grid"] = 1,
+			},
+			["order"] = 2,
+			["relate_task_after"] = 0,
+			["ui_lock"] = {
+			},
+		},
+	},
+	[2] = {
+		{
+			["desc"] = "正式第一点",
+			["guide_fun"] = "guide_rc_first",
+			["guide_fun_after"] = "test_fun",
+			["guide_pre_task"] = 0,
+			["map_tid"] = 2,
+			["node_index"] = 1,
+			["node_info"] = {
+				["children"] = {
+					[412] = true,
+				},
+				["coefs"] = {
+					"0",
+					"0",
+				},
+				["combine_type"] = "0",
+				["id"] = 1,
+				["is_boss"] = false,
+				["node_hide_when_locked"] = false,
+				["parent"] = {
+				},
+				["sanity_restriction"] = 0,
+				["type"] = 0,
+				["x_grid"] = 0,
+				["y_grid"] = 0,
+			},
+			["order"] = 1,
+			["relate_task_after"] = 0,
+			["ui_lock"] = {
+			},
+		},
+	},
+}

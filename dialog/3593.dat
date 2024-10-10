@@ -1,0 +1,66 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["is_queue"] = true,
+						["is_stage"] = true,
+						["path"] = "movies/Desktop/avg/chapter06/opening_chapter06.mp4",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s162_chapter6_theme",
+			["length"] = 100000,
+			["operation"] = 1,
+		},
+		["caption_info"] = {
+			["delay"] = 30000,
+			["is_show_all"] = true,
+			["text"] = "[size 20][c ca4243][font cusong]找到你啦~[/c]",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 0.0,
+						["start_alpha"] = 0.0,
+						["time"] = 0,
+					},
+					["tween"] = "AlphaChange",
+				},
+				{
+					["param"] = {
+						["delay"] = 27000,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 29000,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["guid"] = "9C82CE704849CF4DA6924F84C28EA3DA",
+		["guid_str"] = "iUUw7dYO",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/chap6/pv_avg_ver",
+				["length"] = 38750,
+			},
+		},
+		["time"] = 40000,
+	},
+}

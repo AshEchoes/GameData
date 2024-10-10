@@ -1,0 +1,51 @@
+{
+	{
+		["ID"] = 1,
+		["desc"] = "完成关卡：{1}",
+		["name"] = "完成关卡",
+		["type"] = "complete_level",
+		["value_example"] = "1-1（章节-关卡）",
+	},
+	{
+		["ID"] = 2,
+		["desc"] = "完成RC事件：{1}",
+		["name"] = "完成RC事件",
+		["type"] = "complete_rc_event",
+		["value_example"] = "1（RC事件ID）",
+	},
+	{
+		["ID"] = 3,
+		["desc"] = "拥有角色：{1}",
+		["name"] = "拥有角色",
+		["type"] = "own_card",
+		["value_example"] = "101（卡牌tid）",
+	},
+	{
+		["ID"] = 4,
+		["desc"] = "玩家为{1}",
+		["name"] = "玩家性别",
+		["type"] = "player_gender",
+		["value_example"] = "0（0：女 1：男）",
+	},
+	{
+		["ID"] = 5,
+		["desc"] = "{1}默契值等级{2}",
+		["name"] = "角色默契值等级",
+		["type"] = "card_favor_lv",
+		["value_example"] = "101-5（卡牌tid-默契值等级）",
+	},
+	{
+		["ID"] = 6,
+		["desc"] = "{1}阵营默契值等级总和{2}",
+		["name"] = "阵营默契值等级",
+		["type"] = "camp_favor_lv",
+		["value_example"] = "1-8（阵营id-默契值等级）",
+	},
+	{
+		["ID"] = 7,
+		["desc"] = "依赖剧情世界因子：{1}",
+		["name"] = "剧情世界因子",
+		["type"] = "world_factor_id",
+		["value_example"] = "1|2|3*2,4|5|6*1（1,2,3有2个完成，或，4,5,6有1个完成）",
+	},
+}

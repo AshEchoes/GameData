@@ -1,0 +1,117 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.0,
+								["time"] = 1500,
+							},
+							["tween"] = "AlphaChange",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["attr_key"] = "",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogRCPicBG/bg_cloister_01.png",
+			},
+			{
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_black.png",
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s026_emotion_suspense",
+			["length"] = 122758,
+			["operation"] = 1,
+		},
+		["guid"] = "44CB0C2E46409D03583C5D87304B9060",
+		["guid_str"] = "IZLUTESD",
+		["id"] = 1,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/rc_tunnel",
+				["length"] = 28285,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 2500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogRCPicBG/bg_cloister_01.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "A4BEA7004FB6E852A7D7ACA2EC167F17",
+		["guid_str"] = "vyyBQIiO",
+		["id"] = 2,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["text"] = "[c 8b9fac]（虽然已知信息还是十分有限，但已经可以据此做出一些大致猜测了……）[/c]",
+	},
+}

@@ -1,0 +1,6707 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["guid"] = "6BB66F9C43CBBCD39E91AFA573368C32",
+		["guid_str"] = "2sPtp50u",
+		["id"] = 1,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/amb_forest_morning",
+				["length"] = 32000,
+				["loop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s195_ourea_day",
+			["length"] = 131000,
+			["operation"] = 1,
+		},
+		["characters"] = {
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 300,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["am"] = 30,
+							["delay"] = 300,
+							["duration"] = 500,
+							["time"] = 80,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "262E844C493A4D9A2170DF896EF26B91",
+		["guid_str"] = "JG9EaWQo",
+		["id"] = 2,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+		["text"] = "哈……哈……哈……这真是……跑了好久啊……",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 300,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["am"] = 30,
+							["delay"] = 300,
+							["duration"] = 500,
+							["time"] = 80,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D1A71585418C9CF0D129159663EFEA81",
+		["guid_str"] = "RnInAo1p",
+		["id"] = 3,
+		["name"] = "晴雪",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "累……累死我了……没想到为了一个钱袋，他们竟然能追这么久……也完全不听人解释……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					301,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -50,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -50,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "EC30B6DC4A9622A27B225B922038412B",
+		["guid_str"] = "FCGaA8CO",
+		["id"] = 4,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+		["text"] = "毕竟，“太阳的恩泽，不会让黑暗抵达辛西亚草原”啊。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8D03F3484852652D3CABDD9E7E09934F",
+		["guid_str"] = "PZEfvmgP",
+		["id"] = 5,
+		["name"] = "晴雪",
+		["text"] = "对哦。辛西亚他们已经忘记了不要为难你的约定……金手指在这一点上，还真是一件坏事。还没吃早饭就跑了这么远，肚子都咕噜噜叫了啊~",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "03FA7C57492B925CDD77689A853F351A",
+		["guid_str"] = "QL4bUHZa",
+		["id"] = 6,
+		["name"] = "乌乌",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/wuwu_vo_emo-001",
+				["length"] = 860,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["is_flip_x"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "af15fqx/af15fqx_coal_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["am"] = 20,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 80,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+		["text"] = "呜呜……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					251,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "CBA20EA044BE7F1C46105B8E88F86B0B",
+		["guid_str"] = "9iCS00Yy",
+		["id"] = 7,
+		["name"] = "[rolename]",
+		["text"] = "别灰心，我们还在太阳祭典附近，虽然祭典已经乱成一锅粥了，但找找看，这锅粥里说不定还有早点铺子呢？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F33B91504F34AAA28199C3B7E3123CBB",
+		["guid_str"] = "vkHHiCAT",
+		["id"] = 8,
+		["name"] = "晴雪",
+		["text"] = "唉，跑得这么累，结果还在祭典附近？不知是该哭还是该笑……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					251,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "3824C1FB4935C103D2963C9A9C2CC957",
+		["guid_str"] = "V0Og7R7y",
+		["id"] = 9,
+		["name"] = "[rolename]",
+		["text"] = "不过，你刚刚……为什么不用扫帚在天上飞呢？一直拿着扫帚跑步，不会很别扭吗？\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["am"] = 20,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 80,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "6F43E9F84BDEB361E51400AD63199D4D",
+		["guid_str"] = "fLx2pQEZ",
+		["id"] = 10,
+		["name"] = "晴雪",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "这个？这个其实……只是装饰啦。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					251,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "B9DB1E774DC31B413AAEA2B083113691",
+		["guid_str"] = "TLuShFxZ",
+		["id"] = 11,
+		["name"] = "[rolename]",
+		["text"] = "啊？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "47F464A944059B9BECC0AE96CF007413",
+		["guid_str"] = "Rs2if1nG",
+		["id"] = 12,
+		["name"] = "晴雪",
+		["text"] = "是呀。在乌瑞亚，长角的生物有很多。但长着这样的翅膀，还会飞的种族只有巨龙一个。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "50F38D544EC5030D211AC997CD867AA2",
+		["guid_str"] = "WmXqlPiP",
+		["id"] = 13,
+		["name"] = "晴雪",
+		["text"] = "刚下山的时候，我人在空中，还没落地，就能听见各个村庄的村长，“哦，尊敬的巨龙领主，请问您驾临此处，有何贵干~”心里一下子就知道大事不妙了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					251,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "AB890BE547B1E0E7331915A5CC8F2207",
+		["guid_str"] = "fnX9nBHR",
+		["id"] = 14,
+		["name"] = "[rolename]",
+		["text"] = "怎么，他们会为难巨龙领主吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "3F1AF3684F3ACB145503A3B6CC0C0119",
+		["guid_str"] = "hg8BgICi",
+		["id"] = 15,
+		["name"] = "晴雪",
+		["text"] = "倒也不会。但……你也看到了，他们总是像那样恭恭敬敬的。阿曼纳塔已经在这里生活了很多年，可要他像你这样和我聊天都做不到，更别提交朋友了。\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					251,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9F7EAD464B50FACD92A9E9861F9EAB3B",
+		["guid_str"] = "BiOjj8ci",
+		["id"] = 16,
+		["name"] = "[rolename]",
+		["text"] = "所以……你用这把扫帚，伪装自己是在用扫帚飞？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "wink_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "97B1CDBB45549022D09E1CA6E87296FF",
+		["guid_str"] = "dwSYIQdV",
+		["id"] = 17,
+		["name"] = "晴雪",
+		["text"] = "是呀~真不愧是[rolename]，一下就想到了！\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "wink_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "1886CA1643DDF436C36501A784B9DDEC",
+		["guid_str"] = "UBzxWNaQ",
+		["id"] = 18,
+		["name"] = "晴雪",
+		["text"] = "我自己有样学样地做了这把扫帚，飞的时候只要把翅膀隐藏起来，就不会被人发现身份了。\n\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "funny_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["am"] = 30,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 80,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "C4B542B049782387249D69817F141E14",
+		["guid_str"] = "MsnLrWWN",
+		["id"] = 19,
+		["name"] = "晴雪",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "是不是看起来挺像回事的？连你都差点被骗过了！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "funny_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					251,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "15242BB94EBD31D2B0A1EB869F002AC6",
+		["guid_str"] = "mgeTsHhS",
+		["id"] = 20,
+		["name"] = "[rolename]",
+		["text"] = "确实……你不说的话，我还以为……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "funny_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					251,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "7C3BAECE4A883B8AF90891B8A7B5C262",
+		["guid_str"] = "mdqQ0uw7",
+		["id"] = 21,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+		["text"] = "你说有样学样……也就是说，这把扫帚的原型是真的可以在天上飞的，对吧？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "EF80CA3C45BC0BFF4CD8379A84AD6587",
+		["guid_str"] = "NzkSh6C4",
+		["id"] = 22,
+		["name"] = "晴雪",
+		["text"] = "是呀！有段时间，乌瑞亚很流行这样的飞行方式呢。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					251,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "B39AF21E4755C573F04701956D2F6E3E",
+		["guid_str"] = "MzhHRhsk",
+		["id"] = 23,
+		["name"] = "[rolename]",
+		["text"] = "那……这把扫帚虽然是仿冒品，也是真的有可能飞的吧？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "7FF382B54DD9AEB1E230698424A682AF",
+		["guid_str"] = "lUq6TbrT",
+		["id"] = 24,
+		["name"] = "晴雪",
+		["text"] = "他们的扫帚上施有飞行魔法……但巨龙一族天生就会飞，所以我们的学院里从不教这样的魔法……我没学过，就没办法让扫帚飞起来。\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					251,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2041F1DD4A243DB9EB55D79BB266C64D",
+		["guid_str"] = "xmPr1IpL",
+		["id"] = 25,
+		["name"] = "[rolename]",
+		["text"] = "[c a3bdc8]（飞行魔法……？梦里的那个声音似乎提到过……）[/c]",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-201,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 50,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 50,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "A331312D48C494693D1F92A2A6AF1D8E",
+		["guid_str"] = "CPcXxcDz",
+		["id"] = 26,
+		["name"] = "晴雪",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["text"] = "你怎么啦？飞天小猪？怎么忽然发起呆了？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-150,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					251,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -50,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -50,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "E921EE0249ED5FA41D930A90E4F9C964",
+		["guid_str"] = "ibmH4Pul",
+		["id"] = 27,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+		["text"] = "我可以摸一下你的扫帚吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile2_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-150,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "164FA83D42FC9244E3A29DA5A3B2FED3",
+		["guid_str"] = "L4546kpH",
+		["id"] = 28,
+		["name"] = "晴雪",
+		["text"] = "当然可以呀，我们是朋友嘛！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]晴雪将扫帚放到我身边，我伸出爪子，轻轻碰了碰扫帚枝条的末端。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-150,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.0,
+							["start_value"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 50,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 50,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 50,
+							["delay"] = 500,
+							["duration"] = 500,
+							["time"] = 100,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "842E6F0C4B6B840B4464B8838D85630E",
+		["guid_str"] = "AV1YNZgw",
+		["id"] = 29,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]原本活跃在枝条之中的光球狠狠震动了一下，停在扫帚上的乌乌见状不妙，“嗡”地一声散开，在晴雪身边乱七八糟地飞成一团。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 50,
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 50,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["duration"] = 800,
+							["end_pos"] = {
+								["x"] = 50,
+								["y"] = 0,
+							},
+							["time"] = 80,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af15fqx/af15fqx_coal_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["direction"] = "right",
+							["dis"] = 400,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["am"] = 30,
+							["delay"] = 1000,
+							["duration"] = 1000,
+							["time"] = 80,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["delay"] = 2000,
+							["direction"] = "right",
+							["dis"] = 400,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
+		["guid"] = "2FD9F83D43F42FB3AD14EEAC56B27D44",
+		["guid_str"] = "O8eo7k9j",
+		["id"] = 30,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_ratio_full"] = true,
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_delusion.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["cycle"] = 3,
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 100,
+						},
+						["tween"] = "Breathe",
+					},
+					{
+						["param"] = {
+							["delay"] = 500,
+							["delay_page"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/good_magic",
+				["length"] = 4250,
+			},
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/story/ourea/wuwu_vo_emo-002",
+				["length"] = 1062,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]那扫帚似是凭空有了灵性，追着乌乌们在空中跑来跑去，最后乖乖停在了晴雪身侧。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af15fqx/af15fqx_coal_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 500,
+							["direction"] = "up",
+							["dis"] = 400,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["am"] = 30,
+							["delay"] = 500,
+							["duration"] = 1000,
+							["time"] = 80,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["delay"] = 1500,
+							["direction"] = "left",
+							["dis"] = 400,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 500,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
+		["guid"] = "72C7726C4851FDC45FB4FC97CB3C7A85",
+		["guid_str"] = "3K7Kylc5",
+		["id"] = 31,
+		["soundfx"] = {
+			{
+				["delay"] = 200,
+				["event"] = "event:/sfx/story/ourea/wuwu_vo_emo-003",
+				["length"] = 852,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "excited_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 200,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "790319C74FA6F31484366681D9B35BB3",
+		["guid_str"] = "n3P4q2bp",
+		["id"] = 32,
+		["name"] = "晴雪",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "哇……！哇！没想到飞天小猪你竟然还有这种本事！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "excited_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "739928E44F8F25EE881772BC7A01B58A",
+		["guid_str"] = "kvu5mf0T",
+		["id"] = 33,
+		["name"] = "[rolename]",
+		["text"] = "……大概是……飞天小猪的另一根金手指？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile2_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2AE109E54FD16ACA9F8E07A59197656E",
+		["guid_str"] = "yJjy6j1D",
+		["id"] = 34,
+		["name"] = "晴雪",
+		["text"] = "要不是我力量太弱，按照巨龙的习俗，非得喷火庆祝一下才行~",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile2_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "80F5380C442BA4019B6FD0B481A338E0",
+		["guid_str"] = "0RuxLdad",
+		["id"] = 35,
+		["name"] = "蛙蛙",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/frog_croak",
+				["length"] = 538,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "af15fqx/af15fqx_frog_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["am"] = 20,
+						["delay"] = 200,
+						["duration"] = 500,
+						["time"] = 80,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+		["text"] = "呱唧！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile2_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "A35AD8E24118E26BF6D6848E4D652B61",
+		["guid_str"] = "HjUM3wge",
+		["id"] = 36,
+		["name"] = "[rolename]",
+		["text"] = "现在庆祝，总有半路开香槟的嫌疑……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "21248D2343E817B154733BA7A67E1E8C",
+		["guid_str"] = "IcTrzYv0",
+		["id"] = 37,
+		["name"] = "晴雪",
+		["text"] = "嗯！还是等我们把冠冕找齐，成功拯救世界之后再慢慢庆祝吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "49B9E5E04DFE5542469DF3A8A603124B",
+		["guid_str"] = "hdEjCCKZ",
+		["id"] = 38,
+		["name"] = "[rolename]",
+		["text"] = "拯救世界……我们真的还要去吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "1696C98C4FCD5DE1155A6DA32703D744",
+		["guid_str"] = "0FrKnfMQ",
+		["id"] = 39,
+		["name"] = "晴雪",
+		["text"] = "啊？飞天小猪，你怎么打退堂鼓啦？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "819BAE7746F7E2CB9C38C390FBBFDE2A",
+		["guid_str"] = "UdeCbBXJ",
+		["id"] = 40,
+		["name"] = "[rolename]",
+		["text"] = "晴雪，只是一片冠冕，安斯朵拉之书就剥夺了你的翅膀。后面第二片第三片第四片，她还要你付出什么呢？何况，我们甚至不知道冠冕一共碎成了几片。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "0C3085404152C6C1EF06FEB877D945F5",
+		["guid_str"] = "11u6psMU",
+		["id"] = 41,
+		["name"] = "晴雪",
+		["text"] = "可是……拯救世界不是你的理想吗？那是很伟大的理想，是值得守护的理想呀！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "closeeyeserious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "FAC252094632EB1BA8537D8474500CEC",
+		["guid_str"] = "WQQBv0tY",
+		["id"] = 42,
+		["name"] = "[rolename]",
+		["text"] = "晴雪，你把我想得太崇高了。我不是乌瑞亚人，我怎么会有拯救乌瑞亚的理想呢？我只是想要回到森罗。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "closeeyeserious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "61FEE3BB4EDB2B81044C21B9AC388401",
+		["guid_str"] = "DGPunlTm",
+		["id"] = 43,
+		["name"] = "晴雪",
+		["text"] = "……那，你不是就是要拯救世界，才能回到森罗吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "352BC9904A2D7B5FEF2CED96000CAB24",
+		["guid_str"] = "oMAiZRQh",
+		["id"] = 44,
+		["name"] = "[rolename]",
+		["text"] = "回森罗，也许有很多办法的；就算只有拯救世界一个办法，那也有可能还有别的拯救世界的办法啊。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F987E6594929A034A70993B442E7A83B",
+		["guid_str"] = "nP2reFHT",
+		["id"] = 45,
+		["name"] = "晴雪",
+		["text"] = "我们不是想过了吗，没有别的办法呀？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -50,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -50,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "DBEBF16249780ED942C98F8DF388A6DA",
+		["guid_str"] = "6itvTWqD",
+		["id"] = 46,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+		["text"] = "晴雪，你没有明白。回森罗是我的私事，我不能把我的一己私欲，建立在你的牺牲上。何况……要剜出明月尘的心……我还是……这太不人道了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "excited_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "4E0ABD354FD667694BE11FBDE6425519",
+		["guid_str"] = "XuDT9oPO",
+		["id"] = 47,
+		["name"] = "晴雪",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "……飞天小猪，你真是个君子，森罗的巨龙一族应以你为光荣。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "146926344718E4B2440FCC9151E4621F",
+		["guid_str"] = "JIpBSiuR",
+		["id"] = 48,
+		["name"] = "晴雪",
+		["text"] = "你说得对。明月尘，其实好像也不是传说中那么十恶不赦……虽然他的行事作风我不认同，但，他的确帮助了赫勒……他的办法，比我只是嘴上说说要保护赫勒有用得多。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "45A4F6D4403C56A1522126A1486A1DC3",
+		["guid_str"] = "3AfHrOKi",
+		["id"] = 49,
+		["name"] = "[rolename]",
+		["text"] = "……那我们不去找他了吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "3C07C5E042DA23502CFF1D95FCCAC20A",
+		["guid_str"] = "MwJxyCC1",
+		["id"] = 50,
+		["name"] = "晴雪",
+		["text"] = "但……我寻找冠冕的原因也不能全推给你，我是自己想要拯救世界。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "5934B22944EF20196B555899F8D347C9",
+		["guid_str"] = "ZZzLhnnU",
+		["id"] = 51,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+		["text"] = "你不要为了让我宽心就唬我啊……我来乌瑞亚之前，你不是过得好好的吗？也没有要去拯救什么世界啊？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "7F55BCA54655586A64149F94B27DF90B",
+		["guid_str"] = "T94OEZ5v",
+		["id"] = 52,
+		["name"] = "晴雪",
+		["text"] = "你信我吧，我真的想要拯救世界，想要找到冠冕！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "53AE9B874A4B7244D2963D90F9958DB5",
+		["guid_str"] = "HhMgyvLg",
+		["id"] = 53,
+		["name"] = "[rolename]",
+		["text"] = "为什么呢？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "EA079994410388733443FC990D2483D9",
+		["guid_str"] = "ZQ9xZbIT",
+		["id"] = 54,
+		["name"] = "晴雪",
+		["text"] = "因为……我也想去森罗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "2DC84E714FEC88112AD55BB13709643D",
+		["guid_str"] = "3Pl1zA3C",
+		["id"] = 55,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+		["text"] = "啊？",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "35CE38DD4B84F9981E6C329565FE6740",
+		["guid_str"] = "UI1mkyxK",
+		["id"] = 56,
+		["name"] = "晴雪",
+		["text"] = "我可以先按原计划去找冠冕，至于明月尘……用恶鬼之心镶嵌冠冕是安斯朵拉的旨意，也许到时我们求求她呢？她看起来很好说话。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9C526BAB424AD6B058520AA0F102DE74",
+		["guid_str"] = "gI2qcsjc",
+		["id"] = 57,
+		["name"] = "[rolename]",
+		["text"] = "她看起来很好说话吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "514D80474DF821D661E26C8E97C4D556",
+		["guid_str"] = "2oOKs6pr",
+		["id"] = 58,
+		["name"] = "晴雪",
+		["text"] = "也许我还可以用别的东西和她换，让她不要伤害明月尘。\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "289FA7824D93910DAE613C93A7C211FA",
+		["guid_str"] = "OqHB5Tot",
+		["id"] = 59,
+		["name"] = "[rolename]",
+		["text"] = "这……值得吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "wink_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "FCE7F3584B12BA26B37F70B582D58AB5",
+		["guid_str"] = "tNXJm8wP",
+		["id"] = 60,
+		["name"] = "晴雪",
+		["text"] = "值得的，因为森罗，肯定有很多像飞天小猪一样可爱的龙！\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "wink_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "CB4DDCB744128A9530647D9EBA153950",
+		["guid_str"] = "oVqyNEVb",
+		["id"] = 61,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+		["text"] = "啊——？\n",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "wink_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "4C9382984F93BC94C9041D841956DF85",
+		["guid_str"] = "5m2AojOL",
+		["id"] = 62,
+		["just_auto_play"] = true,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/amb_forest_morning",
+				["length"] = 32000,
+				["stop"] = 1,
+			},
+		},
+		["text"] = " ",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["guid"] = "0525DE5847391C6E1DCBB2A51EA0B762",
+		["guid_str"] = "McnBYFEP",
+		["id"] = 63,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/red/red_amb_street_crowd",
+				["length"] = 24342,
+				["loop"] = 1,
+				["volume"] = 0.20000000298023,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["guid"] = "9C8623E7451EA7B5B7A8B5B91DB75D37",
+		["guid_str"] = "3rVUdYPS",
+		["id"] = 64,
+		["introduce"] = {
+			["location"] = "乌瑞亚 太阳祭典",
+			["time"] = "巨龙时代 624年 第221个太阳日 昼",
+		},
+		["just_auto_play"] = true,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["guid"] = "9B053C2D48E724CC40CEBDBDBFFC8281",
+		["guid_str"] = "1sbk6BdF",
+		["id"] = 65,
+		["just_auto_play"] = true,
+		["time"] = 500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_mask_auto_size"] = true,
+			["b_use_mask"] = true,
+			["text"] = "[size 17]第 ？？？回合 Round Unknown",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "7095488049D33763A1A38D8828BAF9B6",
+		["guid_str"] = "EKYZrzW1",
+		["id"] = 66,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/round_begin",
+				["length"] = 1680,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "21415D5B4076EB44FA91B9A673C28C7C",
+		["guid_str"] = "E8ilaKdT",
+		["id"] = 67,
+		["name"] = "[rolename]",
+		["text"] = "明月尘？",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "7D64A6534CAD0AF08107D2BBDFDCC991",
+		["guid_str"] = "RUHvKlvu",
+		["id"] = 68,
+		["name"] = "明月尘",
+		["text"] = "你们认识我？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "E98713D44533088CE48568839865C8F5",
+		["guid_str"] = "vPhjSt2P",
+		["id"] = 69,
+		["name"] = "晴雪",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "他不是龙。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -100,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -100,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "6FB30D3442E6DB65ABC1E3819DEBCD19",
+		["guid_str"] = "1DXL3OgN",
+		["id"] = 70,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+		["text"] = "按计划行事。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "excited_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["duration"] = 500,
+							["end_alpha"] = 1.0,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "DF8C50164911ABA238C34CA09A18E7F8",
+		["guid_str"] = "yQYXqrqC",
+		["id"] = 71,
+		["name"] = "晴雪",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "明月尘——你在这里呀——!",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "924592F54C7AA3DB836B1E8748D0B50D",
+		["guid_str"] = "joDnjwx7",
+		["id"] = 72,
+		["name"] = "明月尘",
+		["text"] = "就当我是明月尘好了。你们有什么事？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 50,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 50,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "1F4F4E9C41EC5F8437A08D8F9BB5DD1B",
+		["guid_str"] = "75fqYMkR",
+		["id"] = 73,
+		["name"] = "晴雪",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["text"] = "怎么感觉……他变凶了？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-50,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2F9F5A4843755C769F2A6088CCF0A01C",
+		["guid_str"] = "GMkMwhwn",
+		["id"] = 74,
+		["name"] = "[rolename]",
+		["text"] = "不管了，办正事要紧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-50,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -200,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -200,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "64E4BFED43A7885291542E927B4A2430",
+		["guid_str"] = "aESE2Vdk",
+		["id"] = 75,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+		["text"] = "我是亡灵大军的内鬼，你今晚将会被亡灵大军拉扯致死。按照你与我过去的约定，现在你必须报答我的恩情，跟我们一起去寻找一样东西。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "DEE993CC404AE0136F5418B9916DCC57",
+		["guid_str"] = "tdFqNcQZ",
+		["id"] = 76,
+		["name"] = "明月尘",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "E440784145750C1AFC174C9C87B3286C",
+		["guid_str"] = "4TU38xhc",
+		["id"] = 77,
+		["name"] = "晴雪",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "7FE5479F4C86CF4AFB51D3B32B667DA5",
+		["guid_str"] = "xMHr48tF",
+		["id"] = 78,
+		["name"] = "[rolename]",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "278406AE45D6AEDF0A15F6937F82A2BE",
+		["guid_str"] = "8eHnDWkK",
+		["id"] = 79,
+		["name"] = "明月尘",
+		["text"] = "哼，的确有理有据，我加入。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "horn_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-100,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 50,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 50,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "4DAE6A1C45B651839D6FA884F481EA5D",
+		["guid_str"] = "rjyDj0Iu",
+		["id"] = 80,
+		["name"] = "晴雪",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["text"] = "到底哪里有理有据啊……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-50,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "793A1D494A8DDD5C8B0121802CDAAAF4",
+		["guid_str"] = "2MU7Az5i",
+		["id"] = 81,
+		["name"] = "[rolename]",
+		["text"] = "这种时候，只要他自己觉得有理有据就够了吧？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_15.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "horn_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					-50,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_HoriMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "5A20A50947152DB1CE04B98CF5F05C2F",
+		["guid_str"] = "neIopfbI",
+		["id"] = 82,
+		["just_auto_play"] = true,
+		["name"] = "[rolename]",
+		["text"] = " ",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+	},
+}

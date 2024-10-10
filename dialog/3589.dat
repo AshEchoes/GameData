@@ -1,0 +1,707 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["delay"] = 1000,
+			["text"] = "【信息】计划进行得怎么样了？",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "666AC13B48C612DB30E2CC9635A74211",
+		["guid_str"] = "xhu01e12",
+		["id"] = 1,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/red/red_amb_bazaar_incar",
+				["length"] = 30205,
+				["loop"] = 1,
+				["volume"] = 0.30000001192093,
+			},
+		},
+		["text_sound_id"] = 5,
+		["time"] = 3500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_append"] = true,
+			["text"] = " ",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n67queen_real_action1",
+				["pos"] = {
+					-300,
+					120,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 500,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 1200,
+							["end_value"] = 0.0,
+							["start_value"] = 1.0,
+							["time"] = 800,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["delay"] = 500,
+		["guid"] = "C1345D3D45DA5062C98F5D9271B57C3E",
+		["guid_str"] = "AfWP4a9u",
+		["id"] = 2,
+		["is_total_play"] = true,
+		["name"] = "？？？",
+		["sound"] = {
+			["event"] = "1",
+		},
+		["text"] = "………………",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 500,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 0.0,
+						["start_alpha"] = 0.0,
+						["time"] = 0,
+					},
+					["tween"] = "AlphaChange",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n67queen_real_action1",
+				["pos"] = {
+					-300,
+					120,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "default",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n32zz_m/n32zz_m_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "BE44468E422179534726419CC71BF687",
+		["guid_str"] = "5H4w7DUm",
+		["id"] = 3,
+		["name"] = "？？？",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5018_AfWP4a9u",
+		},
+		["text"] = "她没回？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n67queen_real_action1",
+				["pos"] = {
+					-300,
+					120,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "default",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n32zz_m/n32zz_m_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "74F3C25B470824E5238D5BAAECB334AB",
+		["guid_str"] = "dVexVSf3",
+		["id"] = 4,
+		["name"] = "？？？",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5018_5H4w7DUm",
+		},
+		["text"] = "算了，不管她，我先带你去见见小言。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n67queen_real_action1",
+				["pos"] = {
+					-300,
+					120,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "default",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n32zz_m/n32zz_m_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "ACE01044458433D48776E5A3F4FF481A",
+		["guid_str"] = "slLUACKy",
+		["id"] = 5,
+		["name"] = "？？？",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5018_dVexVSf3",
+		},
+		["text"] = "毕竟御雀通信之后还得仰仗郑董，提前熟悉熟悉。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n67queen_real_action1",
+				["pos"] = {
+					-300,
+					120,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "default",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n32zz_m/n32zz_m_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8236EFB34CA7404F14C6C8B77E765D08",
+		["guid_str"] = "IKvwhfto",
+		["id"] = 6,
+		["name"] = "？？？",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5018_slLUACKy",
+		},
+		["text"] = "这么自信能被选中？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "scornful",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n67queen_real_action1",
+				["pos"] = {
+					-300,
+					120,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "default",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n32zz_m/n32zz_m_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "A448709A4E6A2ACB00F06C855E113E26",
+		["guid_str"] = "mZF2rw6U",
+		["id"] = 7,
+		["name"] = "？？？",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5018_IKvwhfto",
+		},
+		["text"] = "当然。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "scornful",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n67queen_real_action1",
+				["pos"] = {
+					-300,
+					120,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "default",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n32zz_m/n32zz_m_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "181469244A9F784CF61E938403E534FF",
+		["guid_str"] = "zFGOsHIa",
+		["id"] = 8,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["time"] = 1200,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]人烟稀少的街道上，车子渐渐驶离。",
+			["text_align"] = "center",
+		},
+		["guid"] = "AF7355724FC4C34448C8B3A6B91737C2",
+		["guid_str"] = "OPwgQWyb",
+		["id"] = 9,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/avg_5_car_start",
+				["length"] = 2811,
+				["loop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am12skz/am12skz_action1",
+				["pos"] = {
+					0,
+					50,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "0503F89F4C1486925EF6A1B46C3264A7",
+		["guid_str"] = "luqGoIjr",
+		["id"] = 10,
+		["name"] = "？？？",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am12skz/am12skz_action1",
+				["pos"] = {
+					0,
+					50,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "42998BD04AA110D5D0EBE88B894F78BB",
+		["guid_str"] = "f7LnfJS9",
+		["id"] = 11,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["time"] = 1800,
+	},
+}

@@ -1,0 +1,7059 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.079870194196701,
+						0.15206770598888,
+						0.33023256063461,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s139_bat_undersea_oneshot",
+			["length"] = 117000,
+			["operation"] = 1,
+		},
+		["guid"] = "C812F68E408D01C24F83339C99DACE36",
+		["guid_str"] = "cQGTQhCG",
+		["id"] = 1,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bush_dead_wind",
+				["length"] = 36000,
+				["loop"] = 1,
+				["volume"] = 0.30000001192093,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 20,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "39CCF9014D8845B9358D20B7CFE05A71",
+		["guid_str"] = "bUFH3IJo",
+		["id"] = 2,
+		["name"] = "异族商人",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "快，快走——！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "396",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-150,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 400,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "AAF062E743AD092D530C9FA330D12B1A",
+		["guid_str"] = "8jJ43bXy",
+		["id"] = 3,
+		["name"] = "莫丘利",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "客人？这位客人？您怎么了？发生什么事了？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "B9EDB41D46C717B35AD737A03AB71EBB",
+		["guid_str"] = "3bqF1Prr",
+		["id"] = 4,
+		["name"] = "异族商人",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "黑暗来了！黑暗来了！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "396",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-150,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "A9A63E6743296F11DA9D4083C38CE1D0",
+		["guid_str"] = "YaXplTpe",
+		["id"] = 5,
+		["name"] = "莫丘利",
+		["text"] = "您……您在说什么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 10,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "57B97DF447E0677C97F731916DE64EF3",
+		["guid_str"] = "9wpdSwEN",
+		["id"] = 6,
+		["name"] = "异族商人",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "太阳燃尽，黑暗降临——！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "BAA3CB8845A37DC354392EA3B8CCBD65",
+		["guid_str"] = "BCjvRhYn",
+		["id"] = 7,
+		["name"] = "异族商人",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "快走，快走！亡灵来了，他们要吞食一切——\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "396",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-150,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "CC718E66496591A8037D7ABAB2A218F7",
+		["guid_str"] = "FkuZaD8J",
+		["id"] = 8,
+		["name"] = "莫丘利",
+		["text"] = "亡灵？！这位贵客，您一定是看错了，这里怎么会有——",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]异族商人的身后，亡灵大军正如黑色潮水般涌来，所到之处只留下荒芜与死寂。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "233560164AC8428C060F1C8DE266BDE8",
+		["guid_str"] = "Iy3BwwuX",
+		["id"] = 9,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -300,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -300,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 500,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 20,
+							["delay"] = 500,
+							["duration"] = 500,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -200,
+								["orig_y"] = 100,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 800,
+							["end_pos"] = {
+								["x"] = -200,
+								["y"] = 100,
+							},
+							["time"] = 400,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "1E30969A49CF6BFA63B620892264B150",
+		["guid_str"] = "IAVs0v0o",
+		["id"] = 10,
+		["name"] = "异族商人",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+			{
+				["delay"] = 800,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "小心！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "396",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-150,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-400,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "DBD6A69A49797E4F5D25A7BE381C8BA3",
+		["guid_str"] = "jqmlhX4s",
+		["id"] = 11,
+		["name"] = "莫丘利",
+		["text"] = "呃……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["cycle"] = 5,
+							["delay"] = 0,
+							["time"] = 100,
+						},
+						["tween"] = "Breathe",
+					},
+					{
+						["param"] = {
+							["am"] = 20,
+							["delay"] = 100,
+							["duration"] = 500,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-400,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8BD2C79040462C6743A2D7AB25B2E135",
+		["guid_str"] = "3ofQVYAU",
+		["id"] = 12,
+		["name"] = "异族商人",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/whoosh/Common_Whoosh03",
+				["length"] = 1354,
+			},
+		},
+		["text"] = "啊————！来不及了，走啊——",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "396",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-150,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-400,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 0,
+								["orig_y"] = -100,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 0,
+								["y"] = -100,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 800,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "36F17C984A80E6BE859D3F843F24E328",
+		["guid_str"] = "6sQrumc1",
+		["id"] = 13,
+		["name"] = "莫丘利",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "真、真的是亡灵……护卫队，护卫队——！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 500,
+						["duration"] = 800,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_deer_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["cycle"] = 5,
+							["delay"] = 0,
+							["time"] = 100,
+						},
+						["tween"] = "Breathe",
+					},
+					{
+						["param"] = {
+							["delay"] = 800,
+							["direction"] = "down",
+							["dis"] = 100,
+							["time"] = 300,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-400,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "7DB1D34140B27DE2279B83B1EB135B6D",
+		["guid_str"] = "fnvhwIR9",
+		["id"] = 14,
+		["name"] = "异族商人",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/paradise/AVG_Paradise_MonsterVO",
+				["length"] = 4700,
+			},
+		},
+		["text"] = "不要咬我，不……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "396",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-150,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-400,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 20,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "A03822B6425414ECDC7A8BAE420638B1",
+		["guid_str"] = "FmuWY2Ui",
+		["id"] = 15,
+		["name"] = "莫丘利",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "客人？客人？！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 10,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 10,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "396",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-150,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["pos"] = {
+					-400,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 400,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 400,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "45A9B16749EE9A70C540EC9BF7468FC4",
+		["guid_str"] = "mA7cqQfn",
+		["id"] = 16,
+		["name"] = "莫丘利",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["text"] = "不好……快去通知会长，让大家撤离，紧急避难！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "396",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-150,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_03_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["direction"] = "right",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "A5563A27425B1BFC9305D6BBAF5923DF",
+		["guid_str"] = "HBnDi9Hq",
+		["id"] = 17,
+		["name"] = "莫丘利",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode30018_kvCEOvg6",
+		},
+		["soundfx"] = {
+			{
+				["delay"] = 800,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "护卫队，跟我上！绝不能让黑暗生物侵入这里——\n",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["guid"] = "C23838CC49CFC20C1C5A789EAE8FE8A4",
+		["guid_str"] = "kvCEOvg6",
+		["id"] = 18,
+		["just_auto_play"] = true,
+		["name"] = "莫丘利",
+		["sound"] = {
+			["event"] = "0",
+		},
+		["text"] = " ",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["text"] = "[size 17]黑色潮水蔓延至此，勒普营地的烛火被一一吹熄。",
+			["text_align"] = "center",
+		},
+		["guid"] = "2B1BCF3F44E39B0B98B058A277ED018F",
+		["guid_str"] = "bL8cLbt9",
+		["id"] = 19,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/paradise/AVG_Paradise_MonsterVO",
+				["length"] = 4700,
+				["loop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["text"] = "[size 17]亡灵们眼中只剩空洞，他们麻木地撕扯着无辜者，吞噬着他们的灵魂。",
+			["text_align"] = "center",
+		},
+		["guid"] = "DE469F4D4F88CA66025DF4A737823103",
+		["guid_str"] = "XMLvsYvw",
+		["id"] = 20,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["text"] = "[size 17]勒普营地陷入了混乱与绝望，一切都被黑暗笼罩。",
+			["text_align"] = "center",
+		},
+		["guid"] = "81E6EA014B348FE6AF79EFBD3E29C68A",
+		["guid_str"] = "wp3hKgNW",
+		["id"] = 21,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.079870194196701,
+						0.15206770598888,
+						0.33023256063461,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["guid"] = "50CDE6984877E4037832418C6E7095E0",
+		["guid_str"] = "0AoSdNIn",
+		["id"] = 22,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/paradise/AVG_Paradise_MonsterVO",
+				["length"] = 4700,
+				["stop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 400,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "FC9E5D2D4F2FC0C38DCC9CA9BBF542F7",
+		["guid_str"] = "fF1e57tE",
+		["id"] = 23,
+		["name"] = "席统",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "……佛图娜！快跟我走。",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 500,
+						["duration"] = 500,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "739C37E749982491F69626809FA49703",
+		["guid_str"] = "hK8K92zW",
+		["id"] = 24,
+		["name"] = "佛图娜",
+		["text"] = "不……不……我不走！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-301,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "2F784AE34DCA58CEBEA610A5C6F517EC",
+		["guid_str"] = "wftMqMNA",
+		["id"] = 25,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "到底是谁拿了我的金币？！这么多金币怎么可能一瞬间全部消失……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 200,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 200,
+								["y"] = 0,
+							},
+							["time"] = 400,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "F5015C2E4FA769954773388BF3365245",
+		["guid_str"] = "rOdB73mn",
+		["id"] = 26,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 150,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "莫非是你这家伙？！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.99607843160629,
+					1.0,
+					1.0,
+					1.0,
+				},
+				["knowledge_word_info"] = {
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					301,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "73942F9A48AF6E0F1EB663A1075DC4D8",
+		["guid_str"] = "wZXybHiO",
+		["id"] = 27,
+		["name"] = "席统",
+		["text"] = "性命都不保了，你还要那些金币有什么用？！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "51B3F27945B780EE8ED7E8B031A6888D",
+		["guid_str"] = "zAwxW1LV",
+		["id"] = 28,
+		["name"] = "佛图娜",
+		["text"] = "不……我不甘心……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "9B45E4B34AE4C05C4A125C8A433CE718",
+		["guid_str"] = "MmG0QOTH",
+		["id"] = 29,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "我一定要找到我的金币……\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "1B6FB03C46D653E02F08F7A3D935928F",
+		["guid_str"] = "J1fMUeqR",
+		["id"] = 30,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "我不能就这样失去我一生的财产……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "7FCA2D094377802B359DE09FE5A110AD",
+		["guid_str"] = "1JdXNj7o",
+		["id"] = 31,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "找不到，倒不如让我被亡灵吃了……",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -100,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -100,
+								["y"] = 0,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F1A9E68546E88DCAD486B481A8551241",
+		["guid_str"] = "XDTgcwzz",
+		["id"] = 32,
+		["name"] = "席统",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 5.0,
+			},
+		},
+		["text"] = "现在不是耍性子的时候！快跟我走！！\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "4BBC92C84F43115F80343782B7AF53B1",
+		["guid_str"] = "jbMWtREs",
+		["id"] = 33,
+		["name"] = "席统",
+		["text"] = "这里不安全，一旦被发现，我们两个都完了！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -100,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -100,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "D8D718874F3C3CF12D48A1A1B41D8DB4",
+		["guid_str"] = "GrX8nKRV",
+		["id"] = 34,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["text"] = "……耍性子？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "EE71618648E949EC2BB7BA88C997B9E6",
+		["guid_str"] = "kXMfODqh",
+		["id"] = 35,
+		["is_append"] = true,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "你救我，不就是为了冠冕碎片吗？真是狡诈啊，可惜这次……你算盘打错了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "201351F44989723CB4877A87329D5432",
+		["guid_str"] = "o95ZqnYb",
+		["id"] = 36,
+		["name"] = "席统",
+		["text"] = "什么？\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2E73F6404D1CA8C8576A75BC91BFBEE6",
+		["guid_str"] = "OxI64Ywx",
+		["id"] = 37,
+		["name"] = "佛图娜",
+		["text"] = "我从来没求着你救我。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "06A65A8444939494E2511180646FAFA1",
+		["guid_str"] = "LrQdeJuc",
+		["id"] = 38,
+		["name"] = "佛图娜",
+		["text"] = "我已经失去了一切……只剩这唯一有价值的东西……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -100,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -100,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "D7A2B73E423070ECF3D9D687CB3C1611",
+		["guid_str"] = "HKx1QSmW",
+		["id"] = 39,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "无论发生什么，我都不会将冠冕碎片交给你。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D9AD77C94A79A403365396A4C2FBEBEC",
+		["guid_str"] = "IFATNflx",
+		["id"] = 40,
+		["is_append"] = true,
+		["name"] = "佛图娜",
+		["text"] = "你走吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -100,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -100,
+								["y"] = 0,
+							},
+							["time"] = 400,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "71DC805144DAEFDD21CE5B9E337A9A3E",
+		["guid_str"] = "2iSkZSzI",
+		["id"] = 41,
+		["name"] = "席统",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "佛图娜，你疯了……我只想救你的命……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -400,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -400,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 600,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["cycle"] = 3,
+							["delay"] = 800,
+							["time"] = 100,
+						},
+						["tween"] = "Breathe",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 500,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 200,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 500,
+							["end_pos"] = {
+								["x"] = 200,
+								["y"] = 0,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "5DFB9D98422CFC7B232E6CB1EC0CC4DC",
+		["guid_str"] = "0oxQfOsD",
+		["id"] = 42,
+		["name"] = "席统",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/story/paradise/AVG_Paradise_MonsterVO",
+				["length"] = 4700,
+			},
+		},
+		["text"] = "你身后！小心！！啊————\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "9BEFF99A4004DD5D4E30DBB40474C231",
+		["guid_str"] = "zYK0BUm1",
+		["id"] = 43,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "席统？！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "226A476E49575CDC58AE3CAFCF958B7A",
+		["guid_str"] = "4HjKaz6G",
+		["id"] = 44,
+		["name"] = "席统",
+		["text"] = "……快走……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "27D91EF441C4BEA575578D893106DD5E",
+		["guid_str"] = "CaZfLiyh",
+		["id"] = 45,
+		["name"] = "佛图娜",
+		["text"] = "你为什么救我……？\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "6BFAF9FE417066209ECC2594C38C2DB1",
+		["guid_str"] = "paKqqMO0",
+		["id"] = 46,
+		["name"] = "席统",
+		["text"] = "因为……你是……我……最……好……的……朋……友……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D772843D486949FBF78F2BB2D3B93F29",
+		["guid_str"] = "xNaLd9Bk",
+		["id"] = 47,
+		["name"] = "佛图娜",
+		["text"] = "……朋……友？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["cycle"] = 3,
+							["delay"] = 0,
+							["time"] = 100,
+						},
+						["tween"] = "Breathe",
+					},
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D4F42E0443C8587577B457A9AF962D8A",
+		["guid_str"] = "CA7QP2AS",
+		["id"] = 48,
+		["name"] = "席统",
+		["text"] = "快……快走……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "5ACDDBBB432D1CB8418793A3BFB744E5",
+		["guid_str"] = "dlljkXR5",
+		["id"] = 49,
+		["name"] = "佛图娜",
+		["text"] = "………………可是……我们不是朋友吗……………………\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["cycle"] = 3,
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "Breathe",
+					},
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "CD0ACB714A00A65B62BC5284B1635589",
+		["guid_str"] = "Lbsq3iBm",
+		["id"] = 50,
+		["name"] = "席统",
+		["text"] = "走……别让我白……白死……\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 10,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["delay"] = 500,
+							["direction"] = "right",
+							["dis"] = 400,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "746AB5134DE6BD9478CF758BE345CBBE",
+		["guid_str"] = "QZVzwopq",
+		["id"] = 51,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "啊啊啊——黑暗生物，我跟你拼了！！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 20,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 20,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "405",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "3B7337554A82E810E564568934E5883F",
+		["guid_str"] = "jZTKModd",
+		["id"] = 52,
+		["name"] = "席统",
+		["text"] = "不……要……\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 400,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 1500,
+							["time"] = 10,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["direction"] = "right",
+							["dis"] = 400,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "1845A8B54BD8DDF980EB3BB08087EEE2",
+		["guid_str"] = "WrcThKlN",
+		["id"] = 53,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 150,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "啊——",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "0EB7DF464013604CFF2F36B23E6657E6",
+		["guid_str"] = "6o0pmj4v",
+		["id"] = 54,
+		["name"] = "晴雪",
+		["text"] = "找到了，在这里！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]晴雪驱散了包围着他们的亡灵，我看见佛图娜用自己的身躯，为奄奄一息的席统撑起了一小片生的希望——",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "E793CD8344DF10E0970931965C40F655",
+		["guid_str"] = "H4unqXjL",
+		["id"] = 55,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]即使她的后背已经被啃食得血肉模糊。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "C302220748D8B5BA0D1DF68729F5E83D",
+		["guid_str"] = "5P5JWwfM",
+		["id"] = 56,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.0,
+							["scale_y"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 1000,
+							["mode"] = "linear",
+							["scale_x"] = 1.2000000476837,
+							["scale_y"] = 1.2000000476837,
+							["time"] = 500,
+						},
+						["tween"] = "ScaleIn",
+					},
+				},
+			},
+		},
+		["guid"] = "9124F6BE4A9A5676747127AF6C7AB08F",
+		["guid_str"] = "B41xACyS",
+		["id"] = 57,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 800,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "巨龙……领主……？和好心的朋友啊……救……救救我们吧……\n",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 1000,
+						["duration"] = 500,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "2D6F98A645C9E193932027A9266C499F",
+		["guid_str"] = "9oveZJSl",
+		["id"] = 58,
+		["name"] = "[rolename]",
+		["text"] = "吱吱吱！[c a3bdc8]（在那里！）[/c]",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "CCA549C7462154F24AD925AEE1AA35CC",
+		["guid_str"] = "IwkDujn9",
+		["id"] = 59,
+		["name"] = "明月尘",
+		["text"] = "谁是你的朋友？救人可以，报酬怎么说？\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "395",
+					["is_enabled"] = true,
+					["offset"] = {
+						-800,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af15fqx/af15fqx_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "D0B2176B435C20092F195CA61E19DF6B",
+		["guid_str"] = "fRidRIrs",
+		["id"] = 60,
+		["name"] = "晴雪",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "明月尘，你还是人吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "384C5E7741654BFB4708FD960410D09F",
+		["guid_str"] = "ZwEStBDc",
+		["id"] = 61,
+		["name"] = "明月尘",
+		["text"] = "你看我像吗？\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 1000,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "AE390153419CF77AC8F4F9A1EE87AA07",
+		["guid_str"] = "D3tu04dX",
+		["id"] = 62,
+		["name"] = "佛图娜",
+		["text"] = "……我可以给你一切……求求你，救救我们……",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 1000,
+						["duration"] = 500,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "69FDE4804808271BB676E6A36B063323",
+		["guid_str"] = "J4TYdaen",
+		["id"] = 63,
+		["name"] = "明月尘",
+		["text"] = "冠冕碎片加上你的金库，我能救下你们两个。\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "563C487A49AA0B7F7A18E0ACE03A88EF",
+		["guid_str"] = "Z0qIdKQE",
+		["id"] = 64,
+		["name"] = "佛图娜",
+		["text"] = "金币……没了……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "20E36A9248771F7C957D7C87616BD2E6",
+		["guid_str"] = "yPLPANCx",
+		["id"] = 65,
+		["name"] = "明月尘",
+		["text"] = "哦？真可惜，那就只能救一个了。\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "92466ACA44C255DEA96B5A919097EBBF",
+		["guid_str"] = "ZB7hi468",
+		["id"] = 66,
+		["name"] = "明月尘",
+		["text"] = "选吧，救你，还是救他？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -200,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -200,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "B9C4A3964C69CCD678371F8F22AAA157",
+		["guid_str"] = "LITXwfcC",
+		["id"] = 67,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["text"] = "吱吱……[c a3bdc8]（你不是已经把金币都拿走了吗……）[/c]",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "dislike_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2A2771E147CBB00639EF69BD962FCA35",
+		["guid_str"] = "5HlNybND",
+		["id"] = 68,
+		["name"] = "明月尘",
+		["text"] = "…………\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["extra_anim"] = "default_extra",
+				["knowledge_word_info"] = {
+					["id"] = "409",
+					["is_enabled"] = true,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -100,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -100,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "05A0364643B24CA75DA1A3B894F81865",
+		["guid_str"] = "tGAlfgGO",
+		["id"] = 69,
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+		["text"] = "吱吱……？[c a3bdc8]（你不替我翻译……就能无视我了？）[/c]",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "28E45E8D43A8D140948759B4E914C391",
+		["guid_str"] = "fYYRAWZ0",
+		["id"] = 70,
+		["name"] = "明月尘",
+		["text"] = "…………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "anger_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["extra_anim"] = "default_extra",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_blue_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "7AC1B94E423AE86A436EEABAA4FD272D",
+		["guid_str"] = "vPMaocI1",
+		["id"] = 71,
+		["name"] = "明月尘",
+		["text"] = "快选，我可没有那么多耐心。\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "28B3FC47452F689A2CA3D49508A53698",
+		["guid_str"] = "arvT4ppD",
+		["id"] = 72,
+		["name"] = "佛图娜",
+		["text"] = "救……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "6DFAC4144EAEE5B02F724A81743BC9CF",
+		["guid_str"] = "R5n4Y2mG",
+		["id"] = 73,
+		["name"] = "席统",
+		["speaker_info"] = {
+			["anim"] = "closeeyeserious",
+			["is_flip_x"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["text"] = "救她！咳咳……救我……咳……不划算……\n",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8855BCD24FE28E17EE3CEAABB15B7D7F",
+		["guid_str"] = "LT7qr0o5",
+		["id"] = 74,
+		["name"] = "席统",
+		["speaker_info"] = {
+			["anim"] = "closeeyeserious",
+			["is_flip_x"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+		},
+		["text"] = "勒普商会……不能没有会长……",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "33C3286C4457673A1F077FB3F7EA7D5D",
+		["guid_str"] = "noRHOL4t",
+		["id"] = 75,
+		["name"] = "佛图娜",
+		["text"] = "我，我不是一个好会长……更不是一个好朋友。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9DC895EB4E8FA826210BD4868BA50724",
+		["guid_str"] = "elgbSXBe",
+		["id"] = 76,
+		["name"] = "佛图娜",
+		["text"] = "我辜负了……商会的大家。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "B34DBB2A424170B388E6898667FE7DDF",
+		["guid_str"] = "tY0QVjyV",
+		["id"] = 77,
+		["name"] = "佛图娜",
+		["text"] = "为了保护我，大家选择不计代价……不图回报……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D082AED24260F449C0D1E59023F27A28",
+		["guid_str"] = "Ya2JpE06",
+		["id"] = 78,
+		["name"] = "佛图娜",
+		["text"] = "而我却以为大家都是算不清利害的蠢货……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "3859763D422A2A355B5F449191728AC5",
+		["guid_str"] = "9iHRRMNp",
+		["id"] = 79,
+		["name"] = "席统",
+		["speaker_info"] = {
+			["anim"] = "closeeyeserious",
+			["is_flip_x"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+		},
+		["text"] = "佛图娜……你的确是……\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "F6995D7C47FB2AF55341F6AE37F724A7",
+		["guid_str"] = "VFivXNAN",
+		["id"] = 80,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "……这么久了……我怎么会意识不到呢……大家愿意为商会出力，不是因为有利可图，而是因为……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "6A9C071444C8CEE1FB2EA898F7E6AFFA",
+		["guid_str"] = "mkIINAOM",
+		["id"] = 81,
+		["name"] = "席统",
+		["speaker_info"] = {
+			["anim"] = "closeeyeserious",
+			["is_flip_x"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+		},
+		["text"] = "我们信任你……你的能力……和……友谊……\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "77C783F4488EEA087A08B185A5A16659",
+		["guid_str"] = "l392Uk0j",
+		["id"] = 82,
+		["name"] = "佛图娜",
+		["text"] = "可惜我辜负了你们的信任……\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2192AF0A4CFA0BC3AFEF7E98518712B6",
+		["guid_str"] = "Qnsbj0um",
+		["id"] = 83,
+		["name"] = "佛图娜",
+		["text"] = "席统，你是一个能够担负起信任和友谊的人，你才应该是商会的会长。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "E50A5DD648E533E5FEFC21ADB281AD72",
+		["guid_str"] = "KDD0R9cs",
+		["id"] = 84,
+		["name"] = "明月尘",
+		["text"] = "看来你已经做好选择了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "404",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.1000000238419,
+							["scale_y"] = 1.1000000238419,
+							["time"] = 500,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["cycle"] = -1,
+							["delay"] = 1000,
+							["mode"] = "linear",
+							["scale_x"] = 1.0,
+							["scale_y"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "ScaleIn",
+					},
+				},
+			},
+		},
+		["guid"] = "7B7842B3476958D71478DD9C5057FA45",
+		["guid_str"] = "XtCgz1Zy",
+		["id"] = 85,
+		["name"] = "佛图娜",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "是的。请收下这片冠冕，救助我的朋友吧！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n82ourea/n82ourea_rabbit_01_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "DBD486304948F011C7AD928682F4057D",
+		["guid_str"] = "psAdPkEq",
+		["id"] = 86,
+		["name"] = "席统",
+		["speaker_info"] = {
+			["anim"] = "closeeyeserious",
+			["is_flip_x"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n82ourea/n82ourea_rabbit_02_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+		["text"] = "什么——？不……不要……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "398",
+					["is_enabled"] = true,
+					["offset"] = {
+						-700,
+						-400,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "394C6D1340743AA2C2AA11988A667940",
+		["guid_str"] = "ocowGIXk",
+		["id"] = 87,
+		["name"] = "明月尘",
+		["text"] = "成交。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.078431375324726,
+						0.15294118225574,
+						0.32941177487373,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 3.0,
+							["F_ScreenSaturation"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_10.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am09myc/am09myc_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "15869F5C4330185973B6EFB48B2A1E74",
+		["guid_str"] = "umuwhaA2",
+		["id"] = 88,
+		["just_auto_play"] = true,
+		["name"] = "明月尘",
+		["text"] = " ",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,444 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.60000002384186,
+								["start_alpha"] = 0.60000002384186,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+						{
+							["param"] = {
+								["delay"] = 3500,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.60000002384186,
+								["time"] = 500,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_black.png",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CB_CountEnd"] = true,
+							["CF_CloseSpeed"] = 30.0,
+							["CF_CloseTime"] = 400.0,
+							["CF_Count"] = 2.0,
+							["CF_Max"] = 0.9,
+							["CF_Min"] = 0.0,
+							["CF_OpenSpeed"] = 30.0,
+							["CF_OpenTime"] = 200.0,
+							["CF_Trend"] = 0.0,
+							["F_CenterWidth"] = 0.9,
+							["F_OpenValue"] = 0.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = false,
+						["material"] = "MI_UI_Blink",
+						["out_time"] = 500,
+						["time"] = 3200,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogSceneBG/bg_city_highstreet_03.png",
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s025_emotion_emotional_intro",
+			["length"] = 35500,
+			["operation"] = 1,
+		},
+		["guid"] = "EC7038F441983E74B25A5F8E03C803F7",
+		["guid_str"] = "Xmia20KQ",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/glitch_common",
+				["length"] = 593,
+				["stop"] = 1,
+			},
+			{
+				["delay"] = 1600,
+				["event"] = "event:/sfx/story/0-01/0002_burning_lp",
+				["length"] = 20560,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+			{
+				["event"] = "event:/ui/advse/whooshbang_03",
+				["length"] = 0,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 4300,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 800,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["path"] = "movies/Desktop/avg/bg_city_highstreet_03.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["path"] = "interface/resource/Game/DialogSceneBG/bg_city_highstreet_03.png",
+			},
+		},
+		["bgm"] = {
+			["length"] = 0,
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye",
+			["path"] = "",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "",
+				},
+			},
+		},
+		["guid"] = "287F18B447AACBCC1CD1D8A05DDAF638",
+		["guid_str"] = "ogc9e4AN",
+		["id"] = 2,
+		["is_add_garbled"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye",
+			["path"] = "",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "",
+				},
+			},
+		},
+		["name"] = "「Vein」",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_HoriMaskIntensity",
+						["delay"] = 0,
+						["end_value"] = 1.0,
+						["start_value"] = 1.0,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+			},
+		},
+		["text"] = "白荆科技首席执行官[rolename]，身份验证成功。",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["text_sound_id"] = 18,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["is_sustain"] = true,
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye",
+			["path"] = "",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "",
+				},
+			},
+		},
+		["guid"] = "CE9E938C42F716AFADA13A86ED26EE74",
+		["guid_str"] = "kMo5pfOI",
+		["id"] = 3,
+		["is_add_garbled"] = true,
+		["is_append"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye",
+			["path"] = "",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "",
+				},
+			},
+		},
+		["name"] = "「Vein」",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
+		["text"] = "\n欢迎回家。",
+		["text_sound_id"] = 18,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["is_sustain"] = true,
+					["video"] = {
+						["count"] = -1,
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "9258B6F74FA0ACADB383228BA8446721",
+		["guid_str"] = "zwnN9wdQ",
+		["id"] = 4,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-300,
+				-30,
+			},
+			["path"] = "hero/hero_action1",
+		},
+		["text"] = "…………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["is_sustain"] = true,
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
+		["guid"] = "F6193E21484B9DD20E9159981D59315B",
+		["guid_str"] = "xL6JofhJ",
+		["id"] = 5,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
+		["name"] = "[rolename]",
+		["text"] = "播报当前信息。\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["is_sustain"] = true,
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_mask_auto_size"] = true,
+			["b_use_mask"] = true,
+			["is_add_garbled"] = true,
+			["is_end_flicker"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[size 16][indent][indent][indent][indent]>森罗历11■■年，10月26日，19:09\n\n[indent][indent][indent][indent]>海临城中心商业街",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "35263A4246C1F96F5140A29A31939544",
+		["guid_str"] = "UrYe5Jic",
+		["id"] = 6,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/common/flter",
+				["length"] = 7000,
+			},
+		},
+		["text_sound_id"] = 17,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["is_sustain"] = true,
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "F60A87D9454B86669EA2DEA4AE8DBE7D",
+		["guid_str"] = "htSA6H54",
+		["id"] = 7,
+		["is_add_garbled"] = true,
+		["name"] = "「Vein」",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
+		["text"] = "警报，警报，可移动战术防御终端受损程度：93％。\n数据持续上升中，预计剩余时间：28秒。",
+		["text_sound_id"] = 18,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["is_sustain"] = true,
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "AD53E1C14AD5EA726D513E91588451CF",
+		["guid_str"] = "xeVXC9Jp",
+		["id"] = 8,
+		["selection"] = {
+			3118,
+			3119,
+		},
+		["selection_datas"] = {
+			{
+				["index"] = 1,
+				["style_type"] = 1,
+			},
+			{
+				["index"] = 2,
+				["style_type"] = 1,
+				["world_factor"] = 44,
+			},
+			{
+				["index"] = 3,
+			},
+			{
+				["index"] = 4,
+			},
+			{
+			},
+			{
+			},
+		},
+	},
+}

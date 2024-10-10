@@ -1,0 +1,108 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.3647058904171,
+						0.44705882668495,
+						0.55686277151108,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_14.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_yellow_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "8E51383D422B3DEAF363A0BBE4B278EC",
+		["guid_str"] = "SSp7oNNn",
+		["id"] = 1,
+		["name"] = "[rolename]",
+		["text"] = "森罗，海临，白荆科技……别忘了我的名字，我叫[rolename]。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.3647058904171,
+						0.44705882668495,
+						0.55686277151108,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 500,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_14.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n82ourea/n82ourea_bat_yellow_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 200,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "7A5CFD8C424FBA72188F32928E16A533",
+		["guid_str"] = "HqyZ0x4O",
+		["id"] = 2,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/bat_wing_flap",
+				["length"] = 2187,
+			},
+		},
+	},
+}

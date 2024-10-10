@@ -1,0 +1,4359 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2500,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2500,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s009_biome_debris_string",
+			["length"] = 132432,
+			["operation"] = 1,
+		},
+		["guid"] = "D81BD223409B2B9D1D78C3B51F2A7647",
+		["guid_str"] = "XqFqFvpT",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-00/0-0-Amb_Water",
+				["length"] = 94000,
+				["loop"] = 1,
+				["volume"] = 3.0,
+			},
+			{
+				["event"] = "event:/ambience/const",
+				["length"] = 41142,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 2500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["guid"] = "0FE56B744425B629D145F8B6D33BBD05",
+		["guid_str"] = "dL6FJXqn",
+		["id"] = 2,
+		["introduce"] = {
+			["location"] = "海临·天隙禁区",
+			["time"] = "1123-10-27  18:15",
+		},
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["time"] = 1900,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "461CDF5A4AC3D74515BD5DB0DEC1DA9A",
+		["guid_str"] = "mv0v1rOe",
+		["id"] = 3,
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_029",
+		},
+		["text"] = "这么严重……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_031",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt2_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "1BDCD68749D7A7AEAA5667878D802272",
+		["guid_str"] = "OQdUW3xC",
+		["id"] = 4,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "一旁传来的声音",
+		["soundfx"] = {
+			{
+				["delay"] = 2100,
+				["dir"] = "right",
+				["event"] = "event:/sfx/story/0-01/0008_tfzt_scream",
+				["length"] = 4000,
+				["loop"] = 1,
+				["offset"] = -1000,
+				["position"] = 1,
+				["volume"] = 0.80000001192093,
+			},
+			{
+				["delay"] = 2116,
+				["event"] = "event:/sfx/common/whoosh/WhooshReverse",
+				["length"] = 1329,
+				["loop"] = 1,
+			},
+		},
+		["text"] = "咦？是筱筱和监督老师诶……哎呀！",
+		["time"] = 1600,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "2EAF60CE4B8E8222181F9283191D257D",
+		["guid_str"] = "xr7lU8sv",
+		["id"] = 5,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+				["sustain_page_count"] = 2,
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.8999999761581,
+							["scale_y"] = 1.8999999761581,
+							["time"] = 2000,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 900,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["time"] = 400,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["extra_sound"] = {
+			["delay"] = 3700,
+			["event"] = "voice_ch_quest_story_episode147_032",
+		},
+		["guid"] = "47A1362A4CC4EB9BD90252B9461D4291",
+		["guid_str"] = "1fjCz8ov",
+		["id"] = 6,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_queue"] = true,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_boom_b.bk2",
+				["sustain_page_count"] = 6,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 400,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 400,
+							["delay_page"] = 0,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 0.0,
+							["time"] = 200,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 7,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_boom_a.bk2",
+				["sustain_page_count"] = 4,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anchor"] = "center",
+				["anim"] = "normal_add",
+				["anim_delay_intervals"] = {
+					0,
+					0,
+				},
+				["anim_loop_intervals"] = {
+					0,
+					0,
+				},
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "CG/CG_af10y_1",
+				["pos"] = {
+					0.0,
+					0.0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["sustain_page_count"] = 6,
+				["template_type"] = "spine",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 5000,
+							["delay_page"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 5000,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 7,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["name"] = "？？？",
+		["soundfx"] = {
+			{
+				["delay"] = 1600,
+				["event"] = "event:/sfx/story/0-03/0001_explosion",
+				["length"] = 5977,
+			},
+			{
+				["delay"] = 2000,
+				["event"] = "event:/sfx/story/0-01/0002_burning_lp",
+				["length"] = 20560,
+				["loop"] = 1,
+				["volume"] = 0.69999998807907,
+			},
+			{
+				["delay"] = 260,
+				["event"] = "event:/sfx/common/whoosh/Common_Whoosh03",
+				["length"] = 1354,
+				["volume"] = 3.0,
+			},
+		},
+		["text"] = "嘿嘿，谢谢马尔斯！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 3300,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 0.0,
+						["start_alpha"] = 0.0,
+						["time"] = 0,
+					},
+					["tween"] = "AlphaChange",
+				},
+			},
+		},
+		["time"] = 7000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "26462F8244EAFBDE87DF06B4E6E40024",
+		["guid_str"] = "kWqB8iKC",
+		["id"] = 7,
+		["name"] = "飞奔而来的少女",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_033",
+		},
+		["text"] = "监督老师！刚才天隙通道里探出个好——大的东西，就像树根一样！\n你们在这边能看到吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "8588F4D646E44C30467B4E89A01DE8EC",
+		["guid_str"] = "uHRBks6W",
+		["id"] = 8,
+		["jenga"] = {
+			{
+				["anchor"] = "center",
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "CG/CG_am44mes_1",
+				["pos"] = {
+					0.0,
+					0.0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["sustain_page_count"] = 4,
+				["template_type"] = "spine",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["name"] = "马尔斯",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_034",
+		},
+		["text"] = "汇报要先整理好语言……算了，还是我来说吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "0D180FC24A2D4479B1916DBEEF1A6945",
+		["guid_str"] = "pQILtREE",
+		["id"] = 9,
+		["name"] = "马尔斯",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_035",
+		},
+		["text"] = "我与阳铃负责驻守A-0-3区。就在撤离前不久，天隙通道深处出现巨型根须状生物，\n随后，整个通道快速扩张并引发剧烈爆炸，设于半空的S区被摧毁，数据检测中断。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "EF5BDAFE494E5DEE346DD2B802E59999",
+		["guid_str"] = "N7Ed0qOT",
+		["id"] = 10,
+		["name"] = "莫红袖",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_036",
+		},
+		["speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-20,
+				-30,
+			},
+			["path"] = "af23mhx/af23mhx_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "那个巨型生物呢？依你们判断，一旦遭遇，有可能完成阻击吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "C53B4D26478F1864B7FD75A41B01E1D1",
+		["guid_str"] = "ZfursdiX",
+		["id"] = 11,
+		["name"] = "阳铃",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_037",
+		},
+		["speaker_info"] = {
+			["anim"] = "doubt",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-20,
+				-30,
+			},
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "不可能吧……我和小幺都觉得那种东西已经不能叫“生物”了，根本就是“怪物”。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["path"] = "movies/Desktop/avg/chapter00/cg_0_0_boom_b.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["delay"] = 1400,
+			["is_show_all"] = true,
+			["text"] = "[size 17][font cusong]等你看完了  记得在这里签个字",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 1400,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 0.0,
+						["start_alpha"] = 0.0,
+						["time"] = 0,
+					},
+					["tween"] = "AlphaChange",
+				},
+			},
+		},
+		["extra_sound"] = {
+			["delay"] = 1400,
+			["event"] = "voice_ch_quest_story_episode147_038",
+		},
+		["guid"] = "AB09773F4AEE44826A76428FDF900F4D",
+		["guid_str"] = "LGzk2YXN",
+		["id"] = 12,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_desk.bk2",
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 10000,
+							["delay_page"] = 0,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeOut",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+				["z_order"] = 4,
+			},
+			{
+				["anchor"] = "center",
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "CG/CG_af10y_1",
+				["pos"] = {
+					0.0,
+					0.0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["template_type"] = "spine",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1800,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+				["z_order"] = 9,
+			},
+		},
+		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-01/0002_burning_lp",
+				["length"] = 20560,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/0-00/0-0-Amb_Water",
+				["length"] = 94000,
+				["stop"] = 1,
+				["volume"] = 2.0,
+			},
+			{
+				["event"] = "event:/ui/whoosh_filterin",
+				["length"] = 5500,
+				["loop"] = 1,
+				["volume"] = 3.0,
+			},
+			{
+				["event"] = "event:/sfx/story/0-01/0009_heartbeat",
+				["length"] = 4972,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 5000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["is_show_all"] = true,
+			["text"] = "[c 59abff][size 17][font cusong]1121年4月25日……",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 2700,
+						["time"] = 400,
+					},
+					["tween"] = "FadeOut",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 2700,
+						["time"] = 400,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["guid"] = "23AD47FE4A9C1C1BC8C53DBBD2561BDB",
+		["guid_str"] = "Be39DEQT",
+		["id"] = 13,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_flower03.bk2",
+				["play_delay_time"] = 4000,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.80000001192093,
+							["start_alpha"] = 0.80000001192093,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 6000,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.80000001192093,
+							["time"] = 1000,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+				["z_order"] = 7,
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_flower_loop.bk2",
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 2500,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.80000001192093,
+							["start_alpha"] = 0.0,
+							["time"] = 1000,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 2500,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 4000,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.80000001192093,
+							["time"] = 400,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+				["z_order"] = 7,
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 2900,
+							["delay_page"] = 0,
+							["time"] = 800,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+				["z_order"] = 9,
+			},
+		},
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 1.0,
+						["start_alpha"] = 1.0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 2700,
+						["time"] = 400,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["sound"] = {
+			["event"] = "1",
+		},
+		["soundfx"] = {
+			{
+				["delay"] = 3757,
+				["event"] = "event:/sfx/story/0-00/0-0-chime2",
+				["length"] = 3935,
+				["loop"] = 1,
+				["volume"] = 2.0,
+			},
+			{
+				["delay"] = 3000,
+				["event"] = "event:/sfx/story/0-01/0009_heartbeat",
+				["length"] = 4972,
+				["loop"] = 1,
+			},
+		},
+		["text_sound_id"] = 0,
+		["time"] = 6500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CB_CountEnd"] = false,
+							["CF_CloseSpeed"] = 25.0,
+							["CF_CloseTime"] = 200.0,
+							["CF_Count"] = 2.0,
+							["CF_Max"] = 1.0,
+							["CF_Min"] = 0.0,
+							["CF_OpenSpeed"] = 19.0,
+							["CF_OpenTime"] = 10.0,
+							["CF_Trend"] = 0.0,
+							["F_CenterWidth"] = 0.8,
+							["F_OpenValue"] = 0.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = false,
+						["material"] = "MI_UI_Blink",
+						["time"] = 2700,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 3000,
+							["direction"] = "up",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
+		["guid"] = "0F821CF04CA3621FB201E3AAD38F73D5",
+		["guid_str"] = "RhC9JbeC",
+		["id"] = 14,
+		["is_total_play"] = true,
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_039",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-00/0-0-Amb_Water",
+				["length"] = 94000,
+				["loop"] = 1,
+				["volume"] = 2.0,
+			},
+			{
+				["event"] = "event:/ui/whoosh_filterin",
+				["length"] = 5500,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/0-01/0009_heartbeat",
+				["length"] = 4972,
+				["stop"] = 1,
+			},
+		},
+		["text"] = "监督？监督……能听见吗？",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "65CAA0474317222D0216B2B15A5D611D",
+		["guid_str"] = "9HzmHBxS",
+		["id"] = 15,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["text"] = "筱筱，现在的准确时间是？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "A10CE1344065E35C0AF8D587C1AD0F6B",
+		["guid_str"] = "prpSw328",
+		["id"] = 16,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_040_01",
+		},
+		["text"] = "我看看。",
+		["time"] = 400,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "709E1AAF4EA2622F7C4DC7ADEBD16E97",
+		["guid_str"] = "nrdPZqLA",
+		["id"] = 17,
+		["is_append"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_040_02",
+		},
+		["text"] = "\n6:23 p.m. 怎么了？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "74BA331249EAA1C01C04BD9891553A54",
+		["guid_str"] = "0F0q2M28",
+		["id"] = 18,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["text"] = "哪一年？几月几日？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "405245FD4E39FA4670A061A4DADDDA1F",
+		["guid_str"] = "nrKCY99k",
+		["id"] = 19,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_041",
+		},
+		["text"] = "[c 59abff]1123年10月27日[/c]……到底怎么了？你的脸色好吓人……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "ABCFE04844E27145268869B57A2919EF",
+		["guid_str"] = "FZdGraEZ",
+		["id"] = 20,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["text"] = "………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "0EB52DD046659B1B4F5787A6B9A164E9",
+		["guid_str"] = "pdGlbpKt",
+		["id"] = 21,
+		["is_player_speaker"] = true,
+		["name"] = "[rolename]",
+		["text"] = "在我的记忆里，今天是[c 59abff]1121年4月25日[/c]。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise2_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 300,
+							["time"] = 30,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "BFF0B7BC4831F4A8DFACFF8C5B84A69F",
+		["guid_str"] = "92KiMFog",
+		["id"] = 22,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "众人",
+		["text"] = "……？！！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise2_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "EA226BD44E769301C15DD0B19BE9C15F",
+		["guid_str"] = "bvrZ98Ou",
+		["id"] = 23,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["text"] = "“阳铃”在不久前提交了入职白荆科技的意向书。\n“莫红袖”将在4月底离开九旻基地常驻海临。\n“马尔斯”代表西陵重工，刚与白荆科技签署两项合作协议。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise2_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
+		["guid"] = "FB9884284CDF0AA49C887B98D0753087",
+		["guid_str"] = "XtUU6Zq0",
+		["id"] = 24,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
+		["name"] = "[rolename]",
+		["text"] = "以上，都是我作为白荆科技的下一任监督，近期交接过的工作内容。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "D0B587854EE413867184CFAB43DB734B",
+		["guid_str"] = "DLdsmujv",
+		["id"] = 25,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_oz7U8p2j",
+		},
+		["text"] = "所以先前你才会觉得我叫你“监督”很奇怪，因为在你的印象中，这时候被称为“监督”的应该是老师本人？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
+		["guid"] = "06B23F2A495562594AAD6DBB21A24C16",
+		["guid_str"] = "K2FVFxyo",
+		["id"] = 26,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
+		["name"] = "[rolename]",
+		["text"] = "嗯。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "1AB1818A4D669B7C4EE5C2B1394A5888",
+		["guid_str"] = "ii3vAk2N",
+		["id"] = 27,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_Ly7r4LUg",
+		},
+		["text"] = "可是，1121年4月25日，那一天的事情我也记得很清楚——那是我成功转正，加入白荆科技的第一天。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "8814371A43666EEC17EA7891CDF3BB67",
+		["guid_str"] = "xXzuASg2",
+		["id"] = 28,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_2phShrOr",
+		},
+		["text"] = "不是玩笑式地批注了“一杯KUKU茶”的申请书，我拿到了正式的、真正有效力的盖章文件……在监督一栏签字的人不是老师，是你。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "1AB05E4940588A8208E94D8605631156",
+		["guid_str"] = "kPGx4qTM",
+		["id"] = 29,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_x3uG7xfP",
+		},
+		["text"] = "到这里，我们的记忆出现偏差了，对吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "EA7828CD4B069BB48B20618704B1F4AE",
+		["guid_str"] = "SXrc4wdI",
+		["id"] = 30,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["text"] = "其实还有另一个偏差。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "45A8D90040AEFE0202FB94BFC9AAB698",
+		["guid_str"] = "6qLTyEAm",
+		["id"] = 31,
+		["is_player_speaker"] = true,
+		["name"] = "[rolename]",
+		["text"] = "在你们的认知中，我拥有异核能力，这个世界的“我”和你们一样是同调者，但现在的我本人却无法调用任何力量。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "F3DD0EFD4AB2C939A98F5E9AEB6987E8",
+		["guid_str"] = "KBmH1a35",
+		["id"] = 32,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_lFsH6QcM",
+		},
+		["text"] = "每个人的异核能力都是源自于自身、是来自同调者灵魂深处的共鸣……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "BC8621A548A366648919CC8C083500FD",
+		["guid_str"] = "F3kFw55a",
+		["id"] = 33,
+		["is_append"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_lFsH6QcM_02",
+		},
+		["text"] = "\n是同调者的一部分，就像是器官，绝对不会因为忘却而消失……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "B44F12984FF501FB6D9D94AC365F2626",
+		["guid_str"] = "gf2lLJwf",
+		["id"] = 34,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["text"] = "对。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "C4363147406E7AD8E8DED58B4963552E",
+		["guid_str"] = "sBtgOCdK",
+		["id"] = 35,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["text"] = "…………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "doubt_in",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "4CCB7ADA41303666333071ABCCE1D611",
+		["guid_str"] = "37VWmKQF",
+		["id"] = 36,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "doubt_in",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["text"] = "所以说，这里并不是一条错误的时间线，是我自己误入了另一个与森罗太过相似的异世界么……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af23mhx/af23mhx_action1",
+				["pos"] = {
+					50,
+					80,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "1FEB21064BE32F9D26264DA482095CAD",
+		["guid_str"] = "p5kglVWx",
+		["id"] = 37,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "莫红袖",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_p5kglVWx",
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-370,
+				-30,
+			},
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "但这也符合天隙通道能够连接多个异世界的理论，不是吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af23mhx/af23mhx_action1",
+				["pos"] = {
+					50,
+					80,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "D274F10D4893AF6232E1508EE67C95A3",
+		["guid_str"] = "1qmFKpT8",
+		["id"] = 38,
+		["is_append"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "莫红袖",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_1QMFKpT8",
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-370,
+				-30,
+			},
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "\n只是这一次穿越天隙通道而来的，居然变成了我们最熟悉的监督本人。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af23mhx/af23mhx_action1",
+				["pos"] = {
+					50,
+					80,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "B24F07DE4473594665692C8AB3573FE7",
+		["guid_str"] = "1f4tmneP",
+		["id"] = 39,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "closeeye_add",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-370,
+				-30,
+			},
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "嗯。而这个世界的“我”……大概在执行那个“护送任务”的途中吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "smile2_add",
+		},
+		["guid"] = "017DA3E64F832B27BCD9E785A6E8A7D1",
+		["guid_str"] = "5K7vLTuJ",
+		["id"] = 40,
+		["male_speaker_info"] = {
+			["anim"] = "smile2_add",
+		},
+		["name"] = "苏筱",
+		["text"] = "……………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
+		["guid"] = "EB9EF0434010E35EEF4614BEBFE47992",
+		["guid_str"] = "8Uo8ygD2",
+		["id"] = 41,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
+		["name"] = "[rolename]",
+		["text"] = "我也知道，在这种情况下探查天隙通道是一件太过冒险的事情。\n但是，我必须弄清楚我来到这里的原因。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
+		["guid"] = "E4EFF4544BE91C6BD0EB1D87598C3B27",
+		["guid_str"] = "Pu5nVb0R",
+		["id"] = 42,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
+		["name"] = "[rolename]",
+		["text"] = "我不会强人所难。现在把话都说开了，接下来是否跟我继续深入禁区，你们自行决定……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450980392157,
+					0.27450980392157,
+					0.27450980392157,
+					1,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "0CD3FF29482E3AD00D62A7816AA93296",
+		["guid_str"] = "2ZnQ0Cj7",
+		["id"] = 43,
+		["is_append"] = true,
+		["is_player_speaker"] = true,
+		["name"] = "[rolename]",
+		["text"] = "筱筱？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "smile2_add",
+		},
+		["guid"] = "FE0829CD4888B6EF3740E081F3BF85E2",
+		["guid_str"] = "yb9IVel4",
+		["id"] = 44,
+		["male_speaker_info"] = {
+			["anim"] = "smile2_add",
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_050_01",
+		},
+		["text"] = "……当然来。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "laugh_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "smile2_add",
+		},
+		["guid"] = "4AF1F8AB44D44C2CA2D98E90E5E38362",
+		["guid_str"] = "eNoZgMvb",
+		["id"] = 45,
+		["is_append"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "smile2_add",
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_050_02",
+		},
+		["text"] = "\n就这么放身为普通人的你一个人去冒险，我可不放心。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "proud_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af10yl/af10yl_stoat_action1",
+				["pos"] = {
+					-60,
+					80,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 300,
+							["time"] = 30,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "smile_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af10yl/af10yl_action1",
+				["pos"] = {
+					-60,
+					80,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 300,
+							["time"] = 30,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "smile2_add",
+		},
+		["guid"] = "24D4E38148E32DD07BFE95A6B6E32910",
+		["guid_str"] = "iJ48K7XE",
+		["id"] = 46,
+		["male_speaker_info"] = {
+			["anim"] = "smile2_add",
+		},
+		["name"] = "阳铃",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_051",
+		},
+		["text"] = "我和小幺也是！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "am44mes/am44mes_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "8FC188BB4E55D19AE41D43890B76253E",
+		["guid_str"] = "wU13cbjj",
+		["id"] = 47,
+		["name"] = "马尔斯",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_052",
+		},
+		["text"] = "噤声，有人。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.80000001192093,
+								["start_alpha"] = 1.0,
+								["time"] = 1400,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am44mes/am44mes_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "EDCCD4C445D8EA3A2B2384BF4F8628C1",
+		["guid_str"] = "RWHHIYg2",
+		["id"] = 48,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_darkcorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["time"] = 1400,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.80000001192093,
+								["start_alpha"] = 0.80000001192093,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["mute"] = true,
+			["operation"] = 2,
+		},
+		["guid"] = "B2929CDF47AE663A8FA033A161F3486A",
+		["guid_str"] = "AbLCG8tU",
+		["id"] = 49,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_darkcorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "模糊的男声",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_Er5SKWEr",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-00/0-0-Amb_Water",
+				["length"] = 94000,
+				["loop"] = 1,
+				["stop"] = 1,
+			},
+		},
+		["text"] = "……我以为你不会来。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s025_emotion_emotional_loop_b",
+			["length"] = 64575,
+			["operation"] = 1,
+		},
+		["guid"] = "98C1CEAA4487D942A9542D997B302272",
+		["guid_str"] = "OoRKE7Ut",
+		["id"] = 50,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_ruins_11.png",
+				["sustain_page_count"] = 2,
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.5,
+							["scale_y"] = 1.5,
+							["time"] = 2000,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["delay_page"] = 0,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 0.80000001192093,
+							["time"] = 200,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_darkcorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/whoosh/Common_Whoosh05",
+				["length"] = 6800,
+				["loop"] = 1,
+				["volume"] = 2.0,
+			},
+		},
+		["time"] = 1300,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "6491993B4043F15AA45929AC56E1E391",
+		["guid_str"] = "ntEliVrP",
+		["id"] = 51,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_queue"] = true,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher01_b.bk2",
+				["sustain_page_count"] = 8,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 500,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 500,
+							["delay_page"] = 0,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 0.0,
+							["time"] = 200,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 7,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher01_a.bk2",
+				["sustain_page_count"] = 8,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-00/0-0-Amb_Water",
+				["length"] = 94000,
+				["stop"] = 1,
+			},
+		},
+		["time"] = 3000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_054",
+		},
+		["guid"] = "C7454BD34E5F0E63BE164287D7788F66",
+		["guid_str"] = "Gqr2ZlFx",
+		["id"] = 52,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 2501.0,
+					["last_py"] = 769.0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_queue"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher01_dialog01_b.bk2",
+				["size"] = {
+					1920,
+					100,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 0.85000002384186,
+							["scale_y"] = 0.85000002384186,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 2470.0,
+								["last_py"] = 888.0,
+								["orig_x"] = -24,
+								["orig_y"] = 264,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_pos"] = {
+								["x"] = -24,
+								["y"] = 264,
+							},
+							["time"] = 0,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/rc_tunnel",
+				["length"] = 28285,
+				["loop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_055",
+		},
+		["guid"] = "0EF5CD734B4E37B856A665967257B3D2",
+		["guid_str"] = "eHcwE6Tv",
+		["id"] = 53,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher01_dialog02_b.bk2",
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 0.85000002384186,
+							["scale_y"] = 0.85000002384186,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -24,
+								["orig_y"] = 264,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_pos"] = {
+								["x"] = -24,
+								["y"] = 264,
+							},
+							["time"] = 0,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["time"] = 10000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "…………",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 600,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 0.0,
+						["start_alpha"] = 0.0,
+						["time"] = 0,
+					},
+					["tween"] = "AlphaChange",
+				},
+			},
+		},
+		["guid"] = "D23B4A554EFE4311CB31EFBC60AFA18D",
+		["guid_str"] = "DN295K5D",
+		["id"] = 54,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_056",
+		},
+		["guid"] = "372CA8E0481B8F90D910A1A379AFC17C",
+		["guid_str"] = "4bZQwtSy",
+		["id"] = 55,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 2501.0,
+					["last_py"] = 769.0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_queue"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher01_dialog03_b.bk2",
+				["size"] = {
+					1920,
+					100,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 0.85000002384186,
+							["scale_y"] = 0.85000002384186,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 2470.0,
+								["last_py"] = 888.0,
+								["orig_x"] = -24,
+								["orig_y"] = 264,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_pos"] = {
+								["x"] = -24,
+								["y"] = 264,
+							},
+							["time"] = 0,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "4CA3C2D64659D7717425B397C7599968",
+		["guid_str"] = "aHhjjdeb",
+		["id"] = 56,
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_057",
+		},
+		["speaker_info"] = {
+			["anim"] = "shock_add",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af50nvzhu/af50nvzhu_action4",
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["am"] = 10,
+						["delay"] = 0,
+						["duration"] = 400,
+						["time"] = 45,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+		["text"] = "怎么可能……",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["extra_sound"] = {
+			["delay"] = 800,
+			["event"] = "voice_ch_quest_story_episode147_058",
+		},
+		["guid"] = "AC8B8EB74BFA544A220B358559234621",
+		["guid_str"] = "jD9jCsRb",
+		["id"] = 57,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 2501.0,
+					["last_py"] = 769.0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_queue"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher01_dialog04_b.bk2",
+				["size"] = {
+					1920,
+					100,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 0.85000002384186,
+							["scale_y"] = 0.85000002384186,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 2470.0,
+								["last_py"] = 888.0,
+								["orig_x"] = -24,
+								["orig_y"] = 264,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_pos"] = {
+								["x"] = -24,
+								["y"] = 264,
+							},
+							["time"] = 0,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+				["z_order"] = 3,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode147_059",
+		},
+		["guid"] = "E07FFE0B4E1242A49E13BBA3656B67DF",
+		["guid_str"] = "3vvrKW77",
+		["id"] = 58,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_queue"] = true,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher01_b.bk2",
+				["sustain_page_count"] = 3,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.25,
+							["scale_y"] = 1.25,
+							["time"] = 14000,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+				["z_order"] = 2,
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_queue"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher01_dialog05_b.bk2",
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 0.85000002384186,
+							["scale_y"] = 0.85000002384186,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -24,
+								["orig_y"] = 264,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_pos"] = {
+								["x"] = -24,
+								["y"] = 264,
+							},
+							["time"] = 0,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+				["z_order"] = 4,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "412AF19344838C8B2EEC779A760EB1A8",
+		["guid_str"] = "ic0uT3dE",
+		["id"] = 59,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher02_loop.bk2",
+				["sustain_page_count"] = 7,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1400,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.0499999523163,
+							["scale_y"] = 1.0499999523163,
+							["time"] = 1400,
+						},
+						["tween"] = "ScaleIn",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["time"] = 800,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "87264D4A4B5405E4275BB9A2CA215898",
+		["guid_str"] = "ylefUCIC",
+		["id"] = 60,
+		["name"] = "曲观玄？",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_y58uc14q",
+		},
+		["text"] = "——？！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "surprise_in",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "A72A7A1B490AACEFC02825A7CF18E1E3",
+		["guid_str"] = "rGdaDkLO",
+		["id"] = 61,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "surprise_in",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["text"] = "……老师？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "8DD80D8E4EA984DE7F071B9E90320DAE",
+		["guid_str"] = "eYCfmx8q",
+		["id"] = 62,
+		["name"] = "曲观玄？",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_lFKmDWzy",
+		},
+		["text"] = "[rolename]，你不属于这里，更不该来这里。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt2_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "94F3B6464D81BF536CC4819BC1CC3EA8",
+		["guid_str"] = "sMJG9BmB",
+		["id"] = 63,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "doubt2_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "为什么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "19EFEB4C4A30A7938055FE9520F8B501",
+		["guid_str"] = "XIL35UiF",
+		["id"] = 64,
+		["name"] = "白小幺",
+		["speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["path"] = "af10yl/af10yl_stoat_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["duration"] = 300,
+						["time"] = 10,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+		["text"] = "吱吱！吱吱吱吱！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "77E3230942216F620AE9D99A1E8BA0F3",
+		["guid_str"] = "jHeD4DpB",
+		["id"] = 65,
+		["name"] = "阳铃",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3028_Y267kjfn",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/enemy/b02bmgzt/b02bmgzt_state_dead_a",
+				["length"] = 2944,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-140,
+				20,
+			},
+			["path"] = "af10yl/af10yl_action1",
+			["scale"] = {
+				0.94999998807907,
+				0.94999998807907,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["duration"] = 200,
+						["time"] = 20,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+		["text"] = "大家小心！有个大东西过来了，速度很快！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "687C5A65407BC26F11D832B2EA490686",
+		["guid_str"] = "6XUqzPPa",
+		["id"] = 66,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_queue"] = true,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher02_loop.bk2",
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.2000000476837,
+							["scale_y"] = 1.2000000476837,
+							["time"] = 800,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 700,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-00/0-0-whoosh",
+				["length"] = 4026,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 800,
+	},
+}

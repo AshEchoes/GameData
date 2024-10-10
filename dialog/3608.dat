@@ -1,0 +1,1478 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_04.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["guid"] = "E10B0CC145044FA30C19F3B51396DCB8",
+		["guid_str"] = "W2R7z8pN",
+		["id"] = 1,
+		["just_auto_play"] = true,
+		["time"] = 1000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]看了一圈之后，我转过身，重新看向庭院中那座最显眼的雕像。",
+			["text_align"] = "center",
+		},
+		["guid"] = "EC71AC834BA1805AAFF49ABEE40372B3",
+		["guid_str"] = "ld6g8RTR",
+		["id"] = 2,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]女孩还是似有若无地微笑着，低垂的眼眸与略微伸出的手，像是守护着在下面玩耍的孩子。",
+			["text_align"] = "center",
+		},
+		["guid"] = "037F0D7A44F955D1C56F73A349158BC3",
+		["guid_str"] = "FvdNVxob",
+		["id"] = 3,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "033524ED402A4E86832789892C0231C5",
+		["guid_str"] = "fs3hO6dP",
+		["id"] = 4,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["sound"] = {
+			["event"] = " ",
+		},
+		["text"] = "唔，我也很好奇这是什么天使……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["guid"] = "F8E5C72E4AD83F07B50C3DB2D7354624",
+		["guid_str"] = "mluiPCar",
+		["id"] = 5,
+		["name"] = "？？？",
+		["text"] = "这是圣西尔大人，葵花福利院的守护神。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]一道略带沙哑的声音自我们身后响起，我回过头，一个身着黑裙的妇人正微笑着站在我们背后。",
+			["text_align"] = "center",
+		},
+		["guid"] = "5B3CDA6F4A8DC7648D1DD9A248CB74A7",
+		["guid_str"] = "pjmpSz5s",
+		["id"] = 6,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]微微抬头，看着喷泉中央的雕像。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 800,
+							["end_value"] = 0.0,
+							["start_value"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "ADD8369B40795836182A6ABEB66930AC",
+		["guid_str"] = "8LuwONdy",
+		["id"] = 7,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "267C674444060CB28E951085FD64C978",
+		["guid_str"] = "2QNta2Y4",
+		["id"] = 8,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "守护神……？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "F15CB3AE4D75237914F1E78F20B0C22C",
+		["guid_str"] = "u8Hddz4k",
+		["id"] = 9,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "黑裙妇人",
+		["text"] = "据说很久以前，这里还是一片荒地的时候，有位富商买下了这块地皮，准备建一座酒店。在施工的过程中，工人们从地下挖到了一座天使雕像，五官与富商的女儿颇为相似。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "3F9D4BB64D3E2AB121DC7983412ED932",
+		["guid_str"] = "yItyR6mp",
+		["id"] = 10,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "黑裙妇人",
+		["text"] = "彼时这位千金身患重症，四处访医问药也毫无起色，然而就在挖出雕像的当晚，她称自己在梦中看见了一位和自己长相相似的女孩。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "1AD3BE1F4414A6B756E21CBAA7987E63",
+		["guid_str"] = "1AmuXGBv",
+		["id"] = 11,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "黑裙妇人",
+		["text"] = "更神奇的是，第二天前来干活的工人们发现，雕像已经无端地碎裂成了几块，而那位被病魔缠身的少女却奇迹般地痊愈了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "50EC983943D585BA0C0527B2CB2A2833",
+		["guid_str"] = "924nKFhI",
+		["id"] = 12,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "黑裙妇人",
+		["text"] = "富商大为震惊，认为这是上天赐予的神迹，便决定在此地建立一所福利院收留无家可归的孩童，并重新塑像放置于庭院中，来回报神明的赐福。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "74E7E69449E871AFBF55429D5E58A177",
+		["guid_str"] = "riDBZKEr",
+		["id"] = 13,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "也就是我们眼前这座神像吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "ECF48C384FF4AF7840F381A2C5DF1152",
+		["guid_str"] = "gBQLgI8Y",
+		["id"] = 14,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "黑裙妇人",
+		["text"] = "是的。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = 300,
+								["y"] = 0,
+							},
+							["time"] = 600,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "17",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-100,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "28540BA74D7D56FF9CC79FBE923910BE",
+		["guid_str"] = "IvkVN7Hg",
+		["id"] = 15,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "苏筱",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["text"] = "……好奇幻的故事。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "03867BF448D16BC528B24EA74DE9E2DC",
+		["guid_str"] = "srvC9pyi",
+		["id"] = 16,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "黑裙妇人",
+		["text"] = "有时候，故事存在的意义更多是为了警醒世人。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "4DC827504624D144D95AA8ACA876B3C5",
+		["guid_str"] = "RkccEmUK",
+		["id"] = 17,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "黑裙妇人",
+		["text"] = "病痛与罪过无法凭空消解，为了获得救赎，总有人要背负一切，代替罪人走向毁灭。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "766428E143EE5868791FA8B405F7953F",
+		["guid_str"] = "PnkHCex0",
+		["id"] = 18,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "黑裙妇人",
+		["text"] = "无论传说真实与否，葵花福利院的确成为了孩子们的家。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "CF56BEDB4350CB7DA8E25D8493F36E24",
+		["guid_str"] = "w3IUN6DG",
+		["id"] = 19,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "黑裙妇人",
+		["text"] = "人事变迁，现在的福利院早与从前不同，但圣西尔大人依然保佑着每一个孩子平安健康地长大，这就足够了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "97822CC54EA1C31207214F9502335719",
+		["guid_str"] = "nFlbcp1k",
+		["id"] = 20,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "黑裙妇人",
+		["text"] = "抱歉久等了，我是简·坎贝尔，葵花福利院的院长。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "C40606B145A032B4174E6383A0810655",
+		["guid_str"] = "Jt3OWenY",
+		["id"] = 21,
+		["knowledge"] = {
+			["words"] = {
+				{
+					["anchor"] = "left",
+					["id"] = "380",
+					["offset"] = {
+						350,
+						0,
+					},
+				},
+			},
+		},
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = -300,
+								["y"] = 0,
+							},
+							["time"] = 800,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "AD3DEC224BF7D91B30E613A042037C45",
+		["guid_str"] = "HjC4bpAT",
+		["id"] = 22,
+		["just_auto_play"] = true,
+		["knowledge"] = {
+			["words"] = {
+				{
+					["anchor"] = "left",
+					["id"] = "380",
+					["is_open"] = false,
+					["offset"] = {
+						350,
+						0,
+					},
+				},
+			},
+		},
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["time"] = 1000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "155BCCBF491C9DC9E2F198ACEFF6A91C",
+		["guid_str"] = "QyYDf2ZL",
+		["id"] = 23,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "smile1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "百忙之中打扰了，我是白荆科技的[rolename]。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["id"] = "380",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "CF2F8A204922DAE369A1D381BFD1A87A",
+		["guid_str"] = "oBTJx8Ud",
+		["id"] = 24,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "福利院院长",
+		["text"] = "不知二位今日预约是为了……？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "B954A20B47E2A3A71B111BAC9C36B839",
+		["guid_str"] = "pAQvtyFO",
+		["id"] = 25,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "是这样，我们的员工鸢已经好几天未出勤了，用了很多办法都联系不上，似乎也不在家，我们很担心她现在的情况。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "F04328E64B8B4BE5DB5D0697285AF1B5",
+		["guid_str"] = "BmNvX52D",
+		["id"] = 26,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "了解到她常常会来这里，想问您是否知道她的消息。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["id"] = "380",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "19A2293D4A47D92CB41486989FE8897D",
+		["guid_str"] = "rQuisrR0",
+		["id"] = 27,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "福利院院长",
+		["text"] = "联系不上小鸢？这……我也没有收到她的联络。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["id"] = "380",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "59CD004D4744B353D8FFB48CF94D8DFC",
+		["guid_str"] = "QXe9bQPx",
+		["id"] = 28,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "福利院院长",
+		["text"] = "小鸢成年后就搬离了这里，不过经常会回来做义工，最近她没有来，我还以为是她工作太忙了没时间才……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["id"] = "380",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "65830045454D4DAC1BBF628FE83AB548",
+		["guid_str"] = "g27jsJHJ",
+		["id"] = 29,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "福利院院长",
+		["text"] = "怎么会呢，这孩子从来都是最守规矩的，甚至有时还会因此而吃亏。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "7D12314E4816E9B8FD56C3BD58325E98",
+		["guid_str"] = "kKNCCoka",
+		["id"] = 30,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "那请问您知道鸢和谁走得比较近么？我们也试着联系一下看能不能打听到鸢的消息。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["id"] = "380",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "A446ADC148D2F30432C9D8B4EFE85C97",
+		["guid_str"] = "TkwraqbS",
+		["id"] = 31,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "福利院院长",
+		["text"] = "我们院的孩子彼此相处得都不错，但要是谈起关系比较亲密的朋友，那也就是七叶了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["id"] = "380",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "D497B4EE4166D09B54EC51BD12F27274",
+		["guid_str"] = "kOfoVCEx",
+		["id"] = 32,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "福利院院长",
+		["text"] = "成年离开这里后，她们还一起在附近租了个房子呢。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_yz_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "6FE1324B43B2E93C7CC50EB99A0666C0",
+		["guid_str"] = "Q8xLCgp7",
+		["id"] = 33,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "七叶……",
+	},
+}

@@ -1,0 +1,374 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 500,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.1000000238419,
+								["scale_y"] = 1.1000000238419,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 1500,
+							},
+							["tween"] = "ScaleIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/cg_story_0_1_kangyi.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s009_biome_debris_string",
+			["length"] = 133083,
+			["operation"] = 1,
+		},
+		["guid"] = "4C37909B4A15377EFCC5A6B599CE53FF",
+		["guid_str"] = "zEVrI3Fr",
+		["id"] = 1,
+		["introduce"] = {
+			["location"] = "天隙禁区·B-0-3区门外",
+			["time"] = "森罗历1121-04-25  15:42",
+		},
+		["just_auto_play"] = true,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				80,
+				25,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog00CGBG/cg_story_0_1_kangyi.png",
+			},
+			{
+			},
+		},
+		["guid"] = "0EC19D294120A33C8F3171AE3EA05AF0",
+		["guid_str"] = "ekYPA455",
+		["id"] = 2,
+		["name"] = "众示威者",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3034_5tsHEwLs",
+		},
+		["text"] = "你们快看！天上那是什么东西？是同调者吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["is_keep_finish"] = true,
+						["is_queue"] = true,
+						["is_ratio_full"] = true,
+					},
+				},
+			},
+		},
+		["guid"] = "A40A919F49086C9BC84C2F9FE0D50F41",
+		["guid_str"] = "9VnCbiRU",
+		["id"] = 3,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_story_0_8_takephotos_Loop.bk2",
+				["sustain_page_count"] = 5,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 1000,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["delay_page"] = 0,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 0.0,
+							["time"] = 20,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 4,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter00/cg_story_0_8_takephotos_In.bk2",
+				["sustain_page_count"] = 5,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_ratio_full"] = true,
+				["path"] = "interface/resource/Game/Dialog00CGBG/cg_story_0_1_kangyi.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "down",
+							["dis"] = 100,
+							["time"] = 900,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+				["z_order"] = 2,
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-08/powe_energy",
+				["length"] = 12225,
+				["loop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_keep_finish"] = true,
+						["is_queue"] = true,
+						["is_ratio_full"] = true,
+					},
+				},
+			},
+		},
+		["guid"] = "7F5768C0443AB59EB5B789965BC3B8E4",
+		["guid_str"] = "a3GT4sgx",
+		["id"] = 4,
+		["name"] = "众示威者",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3034_WS1PHbID",
+		},
+		["text"] = "这种光我见过！天隙通道……当年出事前就是这种光！我记得……我记得……",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["is_sustain"] = true,
+				},
+			},
+		},
+		["guid"] = "9A0D0D71471B7CE34F29C99F2AA8A987",
+		["guid_str"] = "9If1plfF",
+		["id"] = 5,
+		["name"] = "众示威者",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3034_QDURiGOR",
+		},
+		["text"] = "[size 20]啊啊啊啊啊！让开！让开！别挡着我！让我回家！我要回家！！！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 10,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 50,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["is_sustain"] = true,
+				},
+			},
+		},
+		["guid"] = "1064B52749524467D97A10973B7075EB",
+		["guid_str"] = "3af8bu9q",
+		["id"] = 6,
+		["name"] = "旧城区少女",
+		["speaker_info"] = {
+			["anim"] = "surprise1_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af56whzx/af56whzx_action2",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["text"] = "………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+					["video"] = {
+						["is_keep_finish"] = true,
+						["is_queue"] = true,
+					},
+				},
+			},
+		},
+		["guid"] = "DB5397B341C2D87A35AC7B9197B7D25E",
+		["guid_str"] = "mbNm0gXl",
+		["id"] = 7,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/whoosh/Common_Whoosh03",
+				["length"] = 1354,
+			},
+			{
+				["event"] = "event:/sfx/story/0-08/powe_energy",
+				["length"] = 12225,
+				["stop"] = 1,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "thinking",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				0,
+			},
+			["path"] = "af56whzx/af56whzx_action2",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+	},
+}

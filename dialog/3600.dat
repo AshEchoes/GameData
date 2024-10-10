@@ -1,0 +1,185 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]六月已至，小巧的庭院内草木葱茏，各种花朵渐次开放，一副生机勃发之态。",
+			["text_align"] = "center",
+		},
+		["guid"] = "6C740AAE4AAE122B3A6E02A56C106387",
+		["guid_str"] = "7M5QBWGy",
+		["id"] = 1,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/btn_holo",
+				["length"] = 697,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]除向日葵、玫瑰、鸢尾这些常见的种类，还点缀着一些不认识的花卉。",
+			["text_align"] = "center",
+		},
+		["guid"] = "2BEF0A3447034458CDE238BE834A847B",
+		["guid_str"] = "BGSGMNIZ",
+		["id"] = 2,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["female_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "CBEA242B478B11FD79C781BBC88F27F6",
+		["guid_str"] = "AHpzRZV8",
+		["id"] = 3,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "[c a3bdc8]（要是有个比较了解植物的人在，应该能很轻松地认出品种。）[/c]",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					0,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 200,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 500,
+							["direction"] = "right",
+							["dis"] = 200,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "E7994392436D0E97560769BEFD542F44",
+		["guid_str"] = "KAmNPZAR",
+		["id"] = 4,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["time"] = 1000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "9BEE9F054A0BDE6AA9CF88B1C725A8DD",
+		["guid_str"] = "PRZJWtl0",
+		["id"] = 5,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "诶，那个孩子……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "EC8955294C5A96513D604181B6F98FE7",
+		["guid_str"] = "LfdapQnp",
+		["id"] = 6,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "不见了。",
+	},
+}
