@@ -42,6 +42,8 @@
 					["state"] = 0,
 				},
 				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/activity_desert/activity_desert_cv018_5_loop.bk2",
@@ -58,6 +60,8 @@
 					["scale"] = 1,
 					["state"] = 0,
 				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/activity_desert/activity_desert_cv018_5_in.bk2",
@@ -662,6 +666,8 @@
 					["scale"] = 1,
 					["state"] = 0,
 				},
+				["is_auto_ratio"] = false,
+				["is_ratio_full"] = true,
 				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_black.png",
 				["template_type"] = "image",
 				["tween"] = {
@@ -1396,6 +1402,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["knowledge_word_info"] = {
+					["anchor"] = "right",
 					["id"] = "437",
 					["is_enabled"] = true,
 				},
@@ -1950,13 +1957,13 @@
 				["config"] = {
 					["lens"] = {
 						["attrs"] = {
-							["F_Fade"] = 0.5,
-							["F_Saturability"] = 0.0,
-							["F_YCut"] = 1.0,
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
-						["material"] = "MI_UI_OldPhoto",
+						["material"] = "MI_UI_SaturationLightness",
 					},
 					["tween"] = {
 						{
@@ -1978,12 +1985,6 @@
 				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.93488371372223,
-					0.89192658662796,
-					0.77834504842758,
-					1.0,
 				},
 				["knowledge_word_info"] = {
 					["anchor"] = "right",
@@ -2045,6 +2046,20 @@
 		["guid"] = "D2379C2C42B5E2D48699B18675ABAAF9",
 		["guid_str"] = "71Avkb09",
 		["id"] = 35,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
 		["male_characters"] = {
 			{
 				["anim"] = "normal_add",
@@ -5618,6 +5633,8 @@
 					["state"] = 0,
 				},
 				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/activity_desert/activity_desert_cv018_5_loop.bk2",
