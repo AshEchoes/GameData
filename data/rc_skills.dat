@@ -10738,7 +10738,7 @@
 			150,
 			150,
 		},
-		["desc"] = "使目标同调者脱离危机避免重伤时，使其获得额外{1}刻印专精和{2}刻印攻击的提升，持续20秒。另外，使全体同调者异核充能回复15秒",
+		["desc"] = "使目标同调者脱离危机避免重伤时，使其获得额外{1}刻印专精和刻印攻击的提升，持续20秒。另外，使全体同调者异核充能回复15秒",
 		["desc_type"] = 1,
 		["element_type"] = {
 			-1,
@@ -21723,7 +21723,7 @@
 			240,
 			240,
 		},
-		["desc"] = "付费SSR下",
+		["desc"] = "同调者施展主动技能或异核技能时，使自身召唤物造成的伤害额外提高{1}且忽略目标{3}基础减伤，持续45秒，重复触发刷新效果持续时间\n持续时间内造成召唤物伤害时自身获得{2}秒异核充能，该回复充能效果每个同调者每45秒最多触发1次",
 		["desc_type"] = 1,
 		["element_type"] = {
 			-1,
@@ -21736,11 +21736,22 @@
 		["is_encourage"] = false,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "付费SSR下",
+		["name"] = "唤物充能",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
-				["param_product"] = 108,
+				["param_product"] = 103,
+			},
+			{
+				["param_unit"] = {
+					100,
+					2,
+				},
+				["param_value"] = 10000,
+			},
+			{
+				["param_product"] = 104,
+				["param_value"] = 0.1,
 			},
 		},
 		["param_type"] = "num",
@@ -21760,9 +21771,9 @@
 		["recommend_score_normal"] = 400,
 		["skill_type"] = 2,
 		["upgrade_value"] = {
-			0.15,
-			0.3,
-			0.45,
+			0.25,
+			0.5,
+			0.75,
 		},
 	},
 	[20209] = {
@@ -21777,7 +21788,7 @@
 			240,
 			240,
 		},
-		["desc"] = "队长技下",
+		["desc"] = "物理同调者施展异核技能后，当前场上敌方目标受到伤害提高{2}，持续60秒，同时自身刻印攻击提高{1}，持续45秒，重复触发刷新效果持续时间",
 		["desc_type"] = 1,
 		["element_type"] = {
 			10,
@@ -21790,15 +21801,15 @@
 		["is_encourage"] = false,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "队长技下",
+		["name"] = "物理异能",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
-				["param_product"] = 105,
+				["param_product"] = 108,
 			},
 			{
-				["param_product"] = 114,
-				["param_value"] = 0.4,
+				["param_product"] = 119,
+				["param_value"] = 0.2,
 			},
 		},
 		["param_type"] = "num",
@@ -21836,20 +21847,20 @@
 			200,
 			200,
 		},
-		["desc"] = "BP8",
+		["desc"] = "施放异核技能时，场上所有同调者获得2层[link type='combat' tid='3']，若为物理同调者施放且是该同调者的首次施放，则该次额外获得2层[link type='combat' tid='3']\n通过该效果获得的[link type='combat' tid='3']不能超过{1}层",
 		["desc_type"] = 1,
 		["element_type"] = {
 			-1,
 		},
 		["encourage_trigger_condition"] = "",
-		["encourage_trigger_condition_desc"] = "雷元素同调者施放主动技能后触发",
-		["filter_element_mark"] = 10,
+		["encourage_trigger_condition_desc"] = "施展异核技能后触发",
+		["filter_element_mark"] = 0,
 		["icon"] = "core_234",
 		["id"] = 20210,
 		["is_encourage"] = true,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "BP8",
+		["name"] = "物调联破",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
@@ -22557,10 +22568,6 @@
 			20000,
 			40000,
 			60000,
-		},
-		["value_unit"] = {
-			100,
-			2,
 		},
 	},
 	[31003] = {

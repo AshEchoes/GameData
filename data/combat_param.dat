@@ -8564,6 +8564,161 @@
 		},
 		["value_unit"] = 1,
 	},
+	[100560201] = {
+		["ID"] = 100560201,
+		["field_name"] = {
+		},
+		["param_product"] = 120,
+		["param_type"] = "num",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.3",
+		},
+		["value_unit"] = 1,
+	},
+	[100560202] = {
+		["ID"] = 100560202,
+		["field_name"] = {
+		},
+		["param_product"] = 120,
+		["param_type"] = "num",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.05",
+		},
+		["value_unit"] = 1,
+	},
+	[100560203] = {
+		["ID"] = 100560203,
+		["field_name"] = {
+			{
+				["field_name"] = "ratio1",
+				["id"] = 12650051,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "damge_phy_ad",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"4",
+		},
+		["value_unit"] = 1,
+	},
+	[100560204] = {
+		["ID"] = 100560204,
+		["field_name"] = {
+			{
+				["field_name"] = "duration",
+				["id"] = 10650,
+				["type"] = 2,
+			},
+		},
+		["param_type"] = "time_duration",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"5000",
+		},
+		["value_unit"] = 3,
+	},
+	[100560205] = {
+		["ID"] = 100560205,
+		["field_name"] = {
+			{
+				["field_name"] = "duration",
+				["id"] = 10652,
+				["type"] = 2,
+			},
+		},
+		["param_type"] = "time_duration",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"6000",
+		},
+		["value_unit"] = 3,
+	},
+	[100560206] = {
+		["ID"] = 100560206,
+		["field_name"] = {
+		},
+		["param_product"] = 120,
+		["param_type"] = "num",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.2",
+		},
+		["value_unit"] = 1,
+	},
+	[100560207] = {
+		["ID"] = 100560207,
+		["field_name"] = {
+		},
+		["param_product"] = 120,
+		["param_type"] = "num",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.3",
+		},
+		["value_unit"] = 1,
+	},
+	[100560208] = {
+		["ID"] = 100560208,
+		["field_name"] = {
+		},
+		["param_product"] = 120,
+		["param_type"] = "num",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.1",
+		},
+		["value_unit"] = 1,
+	},
+	[100560209] = {
+		["ID"] = 100560209,
+		["field_name"] = {
+			{
+				["field_name"] = "atb_max",
+				["id"] = 1601213,
+				["type"] = 1,
+			},
+		},
+		["param_type"] = "time_cd",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"1",
+		},
+		["value_unit"] = 0,
+	},
+	[100560210] = {
+		["ID"] = 100560210,
+		["field_name"] = {
+		},
+		["param_type"] = "num",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"1",
+		},
+		["value_unit"] = 0,
+	},
 	[100855101] = {
 		["ID"] = 100855101,
 		["field_name"] = {
@@ -17468,12 +17623,12 @@
 				["type"] = -1,
 			},
 		},
-		["param_type"] = "damge_thunder_ad",
+		["param_type"] = "damge_phy_ad",
 		["times"] = {
-			1,
+			2,
 		},
 		["value"] = {
-			"0.6",
+			"1.4",
 		},
 		["value_unit"] = 1,
 	},
@@ -25131,12 +25286,453 @@
 		},
 		["param_type"] = "damge_phy_ad",
 		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.8",
+		},
+		["value_unit"] = 1,
+	},
+	[1601201102] = {
+		["ID"] = 1601201102,
+		["field_name"] = {
+			{
+				["field_name"] = "ratio1",
+				["id"] = 12200065,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "damge_phy_ad",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"1.2",
+		},
+		["value_unit"] = 1,
+	},
+	[1601211101] = {
+		["ID"] = 1601211101,
+		["field_name"] = {
+			{
+				["field_name"] = "en_cost_value",
+				["id"] = 1601215,
+				["type"] = 1,
+			},
+		},
+		["param_type"] = "time_charge",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"15",
+		},
+		["value_unit"] = 0,
+	},
+	[1601211102] = {
+		["ID"] = 1601211102,
+		["field_name"] = {
+			{
+				["field_name"] = "duration",
+				["id"] = 10636,
+				["type"] = 2,
+			},
+		},
+		["param_type"] = "time_duration",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"15000",
+		},
+		["value_unit"] = 3,
+	},
+	[1601211103] = {
+		["ID"] = 1601211103,
+		["field_name"] = {
+			{
+				["field_name"] = "duration_effects_params1",
+				["id"] = 10636,
+				["index"] = 2,
+				["type"] = 2,
+			},
+		},
+		["param_product"] = 146,
+		["param_type"] = "num_prop",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.4",
+		},
+		["value_unit"] = 1,
+	},
+	[1601211104] = {
+		["ID"] = 1601211104,
+		["field_name"] = {
+			{
+				["field_name"] = "duration_effect_interval",
+				["id"] = 10636,
+				["index"] = 1,
+				["type"] = 2,
+			},
+		},
+		["param_type"] = "time_duration",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"2500",
+		},
+		["value_unit"] = 3,
+	},
+	[1601211105] = {
+		["ID"] = 1601211105,
+		["field_name"] = {
+			{
+				["field_name"] = "ratio1",
+				["id"] = 12650043,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "heal_target_hp",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.01",
+		},
+		["value_unit"] = 1,
+	},
+	[1601211106] = {
+		["ID"] = 1601211106,
+		["field_name"] = {
+			{
+				["field_name"] = "range_param1",
+				["id"] = 12830077,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "value_range",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"500",
+		},
+		["value_unit"] = 0,
+	},
+	[1601211107] = {
+		["ID"] = 1601211107,
+		["field_name"] = {
+			{
+				["field_name"] = "ratio1",
+				["id"] = 12830077,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "damge_phy_ad",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"2",
+		},
+		["value_unit"] = 1,
+	},
+	[1601211108] = {
+		["ID"] = 1601211108,
+		["field_name"] = {
+			{
+				["field_name"] = "custom_params_val",
+				["id"] = 10640,
+				["index"] = 1,
+				["type"] = 2,
+			},
+		},
+		["param_product"] = 119,
+		["param_type"] = "num_prop",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.75",
+		},
+		["value_unit"] = 1,
+	},
+	[1601211109] = {
+		["ID"] = 1601211109,
+		["field_name"] = {
+			{
+				["field_name"] = "duration",
+				["id"] = 10640,
+				["type"] = 2,
+			},
+		},
+		["param_type"] = "time_duration",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"60000",
+		},
+		["value_unit"] = 3,
+	},
+	[1601211110] = {
+		["ID"] = 1601211110,
+		["field_name"] = {
+			{
+				["field_name"] = "ratio1",
+				["id"] = 12650048,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "damge_phy_ad",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"2",
+		},
+		["value_unit"] = 1,
+	},
+	[1601212101] = {
+		["ID"] = 1601212101,
+		["field_name"] = {
+			{
+				["field_name"] = "range_param1",
+				["id"] = 12200068,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "value_range",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"300",
+		},
+		["value_unit"] = 0,
+	},
+	[1601212102] = {
+		["ID"] = 1601212102,
+		["field_name"] = {
+			{
+				["field_name"] = "ratio1",
+				["id"] = 12200068,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "damge_phy_ad",
+		["times"] = {
+			4,
+		},
+		["value"] = {
+			"3",
+		},
+		["value_unit"] = 1,
+	},
+	[1601212103] = {
+		["ID"] = 1601212103,
+		["field_name"] = {
+			{
+				["field_name"] = "basic_value",
+				["id"] = 12650046,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "damge_phy_anonther_max_ad",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"3",
+		},
+		["value_unit"] = 1,
+	},
+	[1601212104] = {
+		["ID"] = 1601212104,
+		["field_name"] = {
+			{
+				["field_name"] = "range_param1",
+				["id"] = 12200069,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "value_range",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"300",
+		},
+		["value_unit"] = 0,
+	},
+	[1601212105] = {
+		["ID"] = 1601212105,
+		["field_name"] = {
+			{
+				["field_name"] = "ratio1",
+				["id"] = 12200069,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "damge_phy_ad",
+		["times"] = {
+			3,
+		},
+		["value"] = {
+			"3",
+		},
+		["value_unit"] = 1,
+	},
+	[1601212106] = {
+		["ID"] = 1601212106,
+		["field_name"] = {
+			{
+				["field_name"] = "ratio1",
+				["id"] = 12650042,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "damge_phy_ad",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"2",
+		},
+		["value_unit"] = 1,
+	},
+	[1601212107] = {
+		["ID"] = 1601212107,
+		["field_name"] = {
+			{
+				["field_name"] = "addition_params1",
+				["id"] = 12200072,
+				["index"] = 6,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "value_drag",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"2",
+		},
+		["value_unit"] = 0,
+	},
+	[1601212108] = {
+		["ID"] = 1601212108,
+		["field_name"] = {
+			{
+				["field_name"] = "atb_cd",
+				["id"] = 1601212,
+				["type"] = 1,
+			},
+		},
+		["param_type"] = "time_cd",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"18000",
+		},
+		["value_unit"] = 3,
+	},
+	[1601212109] = {
+		["ID"] = 1601212109,
+		["field_name"] = {
+			{
+				["field_name"] = "atb_cd",
+				["id"] = 1601213,
+				["type"] = 1,
+			},
+		},
+		["param_type"] = "time_cd",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"10000",
+		},
+		["value_unit"] = 3,
+	},
+	[1601214101] = {
+		["ID"] = 1601214101,
+		["field_name"] = {
+			{
+				["field_name"] = "ratio1",
+				["id"] = 12200066,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "damge_phy_ad",
+		["times"] = {
 			3,
 		},
 		["value"] = {
 			"2",
 		},
 		["value_unit"] = 1,
+	},
+	[1601214102] = {
+		["ID"] = 1601214102,
+		["field_name"] = {
+			{
+				["field_name"] = "duration",
+				["id"] = 10220,
+				["type"] = 2,
+			},
+		},
+		["param_type"] = "time_duration",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"18000",
+		},
+		["value_unit"] = 3,
+	},
+	[1601214103] = {
+		["ID"] = 1601214103,
+		["field_name"] = {
+			{
+				["field_name"] = "custom_params_val",
+				["id"] = 10220,
+				["index"] = 1,
+				["type"] = 2,
+			},
+		},
+		["param_product"] = 120,
+		["param_type"] = "num_prop",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.2",
+		},
+		["value_unit"] = 1,
+	},
+	[1601214104] = {
+		["ID"] = 1601214104,
+		["field_name"] = {
+			{
+				["field_name"] = "addition_params1",
+				["id"] = 12650050,
+				["index"] = 6,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "value_drag",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"2",
+		},
+		["value_unit"] = 0,
 	},
 	[1601401101] = {
 		["ID"] = 1601401101,

@@ -1,0 +1,5205 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["length"] = 0,
+		},
+		["guid"] = "1CCEA5AB406ABB20A766E0940C579106",
+		["guid_str"] = "y7SMo8D6",
+		["id"] = 1,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/suburban_night_quiet",
+				["length"] = 65538,
+				["loop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["length"] = 0,
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[size 17]格斗方面，即便受伤，即便不能使用被赐予的能力，也很少再有人能伤到米达斯，何况只是些没有受过训练的盗寇。\n\n只是简单几下闪躲，米达斯就已经靠近了疑似头领的女人。\n\n但没等米达斯伸手夺下枪，对方忽然惊呼出声。",
+			["text_align"] = "center",
+		},
+		["guid"] = "B68798B045CB64BB6EA20CB5CC6567DF",
+		["guid_str"] = "37dy5Lcp",
+		["id"] = 2,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s206_char_mds_p1",
+			["length"] = 66000,
+			["operation"] = 1,
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 200,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 10,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "FE9137E64607E8D44ED24091811ABD39",
+		["guid_str"] = "TElcWJyH",
+		["id"] = 3,
+		["name"] = "盗寇首领",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "哦老天……米达？！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "FC373A634399EE54CB28419B8F15BE66",
+		["guid_str"] = "Kx30EHFZ",
+		["id"] = 4,
+		["name"] = "米达斯",
+		["text"] = "……！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]父母离开后，会这么叫他的人屈指可数，他已经很久很久没听过这个称呼。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "FB766D3F41BAFFC055F370AB4226A490",
+		["guid_str"] = "eIN3AYFS",
+		["id"] = 5,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "4641D5824A2F9E8305AAC085A450094A",
+		["guid_str"] = "Wc5YfTkF",
+		["id"] = 6,
+		["name"] = "米达斯",
+		["text"] = "……朱舒尔？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]借着月光，米达斯终于看清了对方的脸。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.0,
+							["start_value"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2A57D98C4197A913CE6F209D4D5F4BAE",
+		["guid_str"] = "edpXHzQz",
+		["id"] = 7,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "4A282E7F42B57841BF5B8BA336E39E40",
+		["guid_str"] = "anjHhb9M",
+		["id"] = 8,
+		["name"] = "米达斯",
+		["text"] = "朱舒尔……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2E82E03F436A9D1CEEC60998644DAFBD",
+		["guid_str"] = "nJm4sW5C",
+		["id"] = 9,
+		["name"] = "朱舒尔",
+		["text"] = "米达？！米达！真的是你？！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "080E757048B5588D81F30BB469253BAE",
+		["guid_str"] = "aJUjnN4Q",
+		["id"] = 10,
+		["knowledge"] = {
+			["words"] = {
+				{
+					["anchor"] = "right",
+					["id"] = "445",
+					["offset"] = {
+						-300,
+						0,
+					},
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "E62E765C44EA58C86AC8B1BAE3F76429",
+		["guid_str"] = "jR04kisa",
+		["id"] = 11,
+		["name"] = "朱舒尔",
+		["text"] = "哦伊卢姆在上，老天米达你从哪儿冒出来的，天上么？还是地底？你还是活人么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9A4B3777460EF276CC8DCABCB7B29A3B",
+		["guid_str"] = "zeGlIQBF",
+		["id"] = 12,
+		["name"] = "米达斯",
+		["text"] = "……原来你也会开这么怪的玩笑。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "20AB0ABD4EB74167BB4644AD28D9F3CE",
+		["guid_str"] = "qpjQDBV3",
+		["id"] = 13,
+		["name"] = "朱舒尔",
+		["text"] = "哈哈哈，臭小鬼说什么呢，都停手都停手，我弟弟回来了！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]本来严阵以待的人群纷纷放下武器，好奇地看着眼前略显高大的男人。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F92992CC4D1E6E250519E1AC5167E4EE",
+		["guid_str"] = "QHyDxaIx",
+		["id"] = 14,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "387FE0864E32CECB9E35E9A5D5AF1952",
+		["guid_str"] = "iTtP12ER",
+		["id"] = 15,
+		["name"] = "女盗寇",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n78crew_srmm_f_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_VertMaskIntensity",
+						["delay"] = 0,
+						["end_value"] = 1.0,
+						["start_value"] = 1.0,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+			},
+		},
+		["text"] = "弟弟？你不是独生女么，哪儿来的弟弟，还是个……上尉？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "E7E606BD472DD82C7606FCAD1F433107",
+		["guid_str"] = "bFTUk3zg",
+		["id"] = 16,
+		["name"] = "米达斯",
+		["text"] = "……我的亲人去世后，朱舒尔的父母收养了我，视我如己出。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "1F46569C4F37BDBF832957B784ED365E",
+		["guid_str"] = "e1LjdFmI",
+		["id"] = 17,
+		["name"] = "米达斯",
+		["text"] = "我叫……米达斯，米达斯·奈格尔图。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]米达斯看向身边已经放下武器的众人，才发现她们都是女性，她们有的稚气未脱，有的已不再年轻。\n\n但每个人都把自己围进宽大的斗篷，到了入夜后如果不看得仔细可能都无法分辨的程度。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "1121525B4731B4AE186A4FB6D658ADEB",
+		["guid_str"] = "HCIyC7Dt",
+		["id"] = 18,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "36D4144A4C70C5DC4D9BADA2DFD7A297",
+		["guid_str"] = "VP6b8mwY",
+		["id"] = 19,
+		["name"] = "朱舒尔",
+		["text"] = "你不是在神诞之地么，那里终于改掉那些严苛规定可以出入了？你这身军装……是没被伊卢姆大神选中，但又不想放弃追随莎拉塔尔大人的脚步，所以改去做士兵了？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "7FE6A532472E0F8579D084B28FC44ACF",
+		["guid_str"] = "3m48F4GG",
+		["id"] = 20,
+		["name"] = "朱舒尔",
+		["text"] = "看样子还在前线立了功呢。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9EF10F3B496E91691A0EA79652B05F1B",
+		["guid_str"] = "ra8kZM3R",
+		["id"] = 21,
+		["name"] = "米达斯",
+		["text"] = "……算是吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8ED43ECE43AB2D45BF87928E6F57F7FF",
+		["guid_str"] = "9tIz5ZUu",
+		["id"] = 22,
+		["name"] = "朱舒尔",
+		["text"] = "既然还是大活人，怎么连个消息都不托人带回来！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "B113FEE04DB115412A14ED93E053992E",
+		["guid_str"] = "eP7uvxYJ",
+		["id"] = 23,
+		["name"] = "米达斯",
+		["text"] = "……对不起。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]他带不出来，这也是当初成为“战神迦路”的“牺牲”之一，看着久违的亲人，米达斯急切又犹豫地开口询问。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "EB764F754A884A956B5B1E9391474A84",
+		["guid_str"] = "q1PR7uFO",
+		["id"] = 24,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "44B662C84017DCD78054699D0E19145C",
+		["guid_str"] = "ENF21n2s",
+		["id"] = 25,
+		["name"] = "米达斯",
+		["text"] = "朱舒尔，这里怎么了？你们这又是……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "1D06F2294AA83342D7805B9293E268D9",
+		["guid_str"] = "5mGyoQ30",
+		["id"] = 26,
+		["name"] = "朱舒尔",
+		["text"] = "还能为什么，上面强制征召了很多次，镇上的青壮力都被带走了，只剩下一些老弱妇孺，周遭的强盗佣兵隔三差五就过来光顾。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "AD02D5A341A1A9AE6A3911AC8A00D32C",
+		["guid_str"] = "6y8lm9HW",
+		["id"] = 27,
+		["name"] = "朱舒尔",
+		["text"] = "我们向附近的驻守士兵求助，但是被赶出来了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "1893761D424757C1000CBC87198FC00E",
+		["guid_str"] = "AhbMVprd",
+		["id"] = 28,
+		["name"] = "朱舒尔",
+		["text"] = "镇上的人死的死，逃的逃，慢慢的只剩下我们，没办法，我们只能学会拿起武器，什么都行，我们得养活自己和孩子。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2E79E4D44A0AE22A369A39A062088597",
+		["guid_str"] = "lw6c0s03",
+		["id"] = 29,
+		["name"] = "米达斯",
+		["text"] = "……亚兰也被征召了？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "84C401B8418FE90DF9CF5A9FB0B342E1",
+		["guid_str"] = "JlLdRrGM",
+		["id"] = 30,
+		["name"] = "朱舒尔",
+		["text"] = "嗯。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D6B781444E9C5C572E8035B03AF80B01",
+		["guid_str"] = "beqARkuj",
+		["id"] = 31,
+		["name"] = "朱舒尔",
+		["text"] = "我们结婚后不久他就去了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "90DB0DC044F9B95A702FDCB2F92634EA",
+		["guid_str"] = "euQNUxwH",
+		["id"] = 32,
+		["name"] = "米达斯",
+		["text"] = "你们结婚了，恭喜。他在哪一队？我好像没见过他，是盖什提附近么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "84E429094DBA6500200A19ACFE0EDFA1",
+		["guid_str"] = "XAASC6bs",
+		["id"] = 33,
+		["name"] = "朱舒尔",
+		["text"] = "不，他去了前线。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "E184EFE146D5BDAC7E9355911C957567",
+		["guid_str"] = "vBTnKddK",
+		["id"] = 34,
+		["name"] = "米达斯",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "5F6833B847011D4001B71183B3E51E01",
+		["guid_str"] = "3xTFwLi6",
+		["id"] = 35,
+		["name"] = "朱舒尔",
+		["text"] = "米达，亚兰已经不在了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "41FBD1D848AE57A576244CA8B8EDE98F",
+		["guid_str"] = "Xjgy3Gcb",
+		["id"] = 36,
+		["name"] = "米达斯",
+		["text"] = "…………………………………………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "828081FE493192B10888A79029E9DB63",
+		["guid_str"] = "1D2OrNu0",
+		["id"] = 37,
+		["name"] = "米达斯",
+		["text"] = "对不起……我应该在你需要的时候保护你，保护你们……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "CED63F914F48048B919907BDEDCCE493",
+		["guid_str"] = "x27LvWdC",
+		["id"] = 38,
+		["name"] = "朱舒尔",
+		["text"] = "你有什么好道歉的？你的军衔管不到这里，就算当年你不去神诞之地也无法改变本该如此的将来，没人能在战争中得救。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D9700A3D46A2975840AAC8BE2916E821",
+		["guid_str"] = "do2A4oRy",
+		["id"] = 39,
+		["name"] = "米达斯",
+		["text"] = "……不，我其实……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "327CD78145C264E6810041A61883DBBF",
+		["guid_str"] = "VNEomCzc",
+		["id"] = 40,
+		["name"] = "朱舒尔",
+		["text"] = "嘿别说这个了亲爱的，我们10年没见了，你确定要一直道歉么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "5EA0E2E64160BD329CC2C29DB5731422",
+		["guid_str"] = "INjQM62s",
+		["id"] = 41,
+		["name"] = "米达斯",
+		["text"] = "……………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[size 17]“幸好我没有再次逃跑。”\n\n看着朱舒尔带着风霜又一如曾经明亮的眼睛，米达斯此刻只想到了这个。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "DCCA64ED4C5D5E8E383850901103ED93",
+		["guid_str"] = "7PoIaTto",
+		["id"] = 42,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]朱舒尔伸出双手抱住米达斯，就着月色，摸上了米达斯显得毛茸茸的金发。\n\n学会拿枪的手依然可以很温柔，她觉得她久别家乡的弟弟此刻很需要这个。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 400,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 400,
+								["y"] = 0,
+							},
+							["time"] = 600,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 700,
+							["duration"] = 200,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "2DF028C04B46C302F27DBDB269F5429D",
+		["guid_str"] = "DfQPMyQq",
+		["id"] = 43,
+		["soundfx"] = {
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "31B8B0144DD40E199307A5AFC257963B",
+		["guid_str"] = "TbHFNWCS",
+		["id"] = 44,
+		["name"] = "朱舒尔",
+		["text"] = "什么时候长这么大了，我两只手都抱不住你了，我们的小米达。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "682EF5C54C62D82C64CF83817247F4F9",
+		["guid_str"] = "f19PkYxK",
+		["id"] = 45,
+		["name"] = "朱舒尔",
+		["text"] = "这么久了呀……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "1D13C12040DB500CB5CC649284197878",
+		["guid_str"] = "abQogxaD",
+		["id"] = 46,
+		["name"] = "朱舒尔",
+		["text"] = "应该我先说的，米达，欢迎回来。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F8A6C3F741DA36B6F4D776987225B1CA",
+		["guid_str"] = "GTq744Jq",
+		["id"] = 47,
+		["name"] = "米达斯",
+		["text"] = "嗯……我回来了，姐姐……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]今晚或许有机会离开噩梦，睡个好觉。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "51AF08B3475749B409555B8D2204E308",
+		["guid_str"] = "acBhUj5R",
+		["id"] = 48,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-450,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -400,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -400,
+								["y"] = 0,
+							},
+							["time"] = 800,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "0005906747F0BAE810352F93A55B11E8",
+		["guid_str"] = "6vb5uCPF",
+		["id"] = 49,
+		["name"] = "朱舒尔",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["text"] = "唉，好啦叙旧先到此为止吧，我们还得继续去“打猎”呢。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]被朱舒尔放开，米达斯有些不好意思，他习惯性想要压下帽檐，刚抬起手又顿住。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 300,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2E8A3C8A415FB30E8368F49D72477683",
+		["guid_str"] = "V1BkU58K",
+		["id"] = 50,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]应该改改这个习惯。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D93DAE68437F67312C6F56A849C6F5C1",
+		["guid_str"] = "tmydFrI9",
+		["id"] = 51,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "7EB8598B43848B00CA304AA522444E2B",
+		["guid_str"] = "veN06wtO",
+		["id"] = 52,
+		["name"] = "米达斯",
+		["text"] = "需要帮忙么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "FEDDD6E645639246CAAAA5BD5A988270",
+		["guid_str"] = "kEVy8fUV",
+		["id"] = 53,
+		["name"] = "朱舒尔",
+		["text"] = "你这身打扮太显眼了，跟着反而不方便，不过你有没有……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]米达斯似有所感，有些窘迫地望向朱舒尔，从怀里拿出了他最后的“财产”——两块饼。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 200,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "AE18BBBF4B721289239E7BAD49FA6C14",
+		["guid_str"] = "QcpEhgN0",
+		["id"] = 54,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "89523CBF40DF65F9A39885B8AC783D2A",
+		["guid_str"] = "iIIeD1zA",
+		["id"] = 55,
+		["name"] = "米达斯",
+		["text"] = "只有这个……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "634F9EA24D56FAA61123A1AD4F55D945",
+		["guid_str"] = "Hjjv6UAD",
+		["id"] = 56,
+		["name"] = "朱舒尔",
+		["text"] = "……果然，就算成了士兵，米达还是那个米达。看你的手也是受伤才回来的吧，这饼你自己留着。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "08AAA5D842F42082E69C82BD678AA5E3",
+		["guid_str"] = "7gzMOcww",
+		["id"] = 57,
+		["name"] = "米达斯",
+		["text"] = "……还有……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]米达斯犹豫了一下，从怀里掏出半开不败的塔木紫。\n\n距离酒店老板送给他已经过了一段时间，对于一朵没有土壤又没水的花来说，能坚持到现在已经不容易。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 5,
+							["delay"] = 0,
+							["duration"] = 200,
+							["time"] = 5,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "B569A49549CD631903BC92880EA0A6D1",
+		["guid_str"] = "xYCaLtjD",
+		["id"] = 58,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "AFB684E041CD6E5164B17A80FECD74D5",
+		["guid_str"] = "ZFyvfrog",
+		["id"] = 59,
+		["name"] = "朱舒尔",
+		["text"] = "怎么还有这个……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -200,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -200,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 0,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 800,
+							["end_pos"] = {
+								["x"] = 0,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "89944142443F6C81B2CD079294819836",
+		["guid_str"] = "eLQRBxcE",
+		["id"] = 60,
+		["name"] = "米达斯",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["text"] = "一个老板送给我的，给，记得你也喜欢。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D10E34A340AFC7ED8573F3B5E4FC49D7",
+		["guid_str"] = "3eRBfFVM",
+		["id"] = 61,
+		["name"] = "朱舒尔",
+		["text"] = "哦，另一个是莎拉塔尔大人是吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2BEA188649E3D82037011B8C1B097D82",
+		["guid_str"] = "OnuHYFQU",
+		["id"] = 62,
+		["name"] = "米达斯",
+		["text"] = "…………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "A487A50843DC34246D4830AB484B2DCA",
+		["guid_str"] = "Ef7OSMaV",
+		["id"] = 63,
+		["name"] = "米达斯",
+		["text"] = "我记得以前都是亚兰帮你戴……我帮你？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "86D9179D49860A9595F890A64A74EBE6",
+		["guid_str"] = "CaQOrkfx",
+		["id"] = 64,
+		["name"] = "朱舒尔",
+		["text"] = "……不用啦，跟现在的我不太搭，花我就收下了，谢谢。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9E9AE6874814A3406BC21B8BBCF88949",
+		["guid_str"] = "1Qt6Em12",
+		["id"] = 65,
+		["name"] = "米达斯",
+		["text"] = "亚兰他……在哪儿？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "C91DB876477CF8E2CFF7269FD2070674",
+		["guid_str"] = "oNdroKoZ",
+		["id"] = 66,
+		["name"] = "朱舒尔",
+		["text"] = "前线死了的士兵哪里有机会认领遗体，我找了点他的衣服，埋在了药店后那棵葡萄树下。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "127CDF2A4BA3424C909C09856B8100C9",
+		["guid_str"] = "P3TGuTcU",
+		["id"] = 67,
+		["name"] = "朱舒尔",
+		["text"] = "……我带你去看看他？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8F10445A4B5341EDEB5AA88297ADDAC4",
+		["guid_str"] = "SRwwNBOs",
+		["id"] = 68,
+		["name"] = "米达斯",
+		["text"] = "没关系，我……我自己去吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "445",
+					["is_enabled"] = true,
+					["offset"] = {
+						-50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "AF6644A2404399C602EBCABEC4294EC6",
+		["guid_str"] = "Q7ID6VYO",
+		["id"] = 69,
+		["name"] = "朱舒尔",
+		["text"] = "那我们先走了，你自己小心。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 1000,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_16.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n21ynnwoman/n21ynnwoman_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 300,
+							["direction"] = "left",
+							["dis"] = 200,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["direction"] = "left",
+							["dis"] = 200,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "E3CEBD4B4F23D1883514ABAC21E7C5C4",
+		["guid_str"] = "k90KKvlm",
+		["id"] = 70,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["delay"] = 200,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 800,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["delay"] = 0,
+								["direction"] = "left",
+								["dis"] = 100,
+								["end_alpha"] = 1.0,
+								["time"] = 1000,
+							},
+							["tween"] = "MoveIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "C1D9807840BCB036E91F9CB6A67DE55B",
+		["guid_str"] = "BbEjkScZ",
+		["id"] = 71,
+		["just_auto_play"] = true,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[size 17]在只剩半面的围墙后，米达斯找到了一棵不知死去多久的枯树，地面凸凹不平，他甚至不知道亚兰具体安葬的位置。\n\n盖什提原来真的早就不是曾经那个难得能种活葡萄树的宝藏之地了。",
+			["text_align"] = "center",
+		},
+		["guid"] = "E184C3D84F9ECDA19D83818BEF13B319",
+		["guid_str"] = "fJ3XDuoK",
+		["id"] = 72,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]米达斯在枯木旁坐下，轻轻拍了拍手边的一块地面。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 200,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "CC0612554C9B9D733BAA77B714ED0498",
+		["guid_str"] = "8ZTWHTra",
+		["id"] = 73,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "AA562F7E4C40254F18F71EA3AAD28B67",
+		["guid_str"] = "lUfFD0GU",
+		["id"] = 74,
+		["name"] = "米达斯",
+		["text"] = "嘿……亚兰，我回来了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]忽然起了一阵夜风，枯木发出不太悦耳的吱呀声，像是用歌声在回应这意外到来的招呼。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "139C8BE94F9176E0CC1C608CC22A9195",
+		["guid_str"] = "Hsow0hr8",
+		["id"] = 75,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 200,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 200,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_dreamisland_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_girl_02_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.80000001192093,
+							["start_alpha"] = 0.0,
+							["time"] = 200,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
+		["guid"] = "566D1CF2479CD7D4B6B1029E576F3D33",
+		["guid_str"] = "rByVKqg1",
+		["id"] = 76,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["name"] = "朱舒尔",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode23_EhbwgEzF",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
+		["text"] = "哦天呀亚兰你唱得可真难听，还是说这首歌本来就是这样？伊卢姆大神真的会允许这种歌曲传唱开么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 200,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 200,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_dreamisland_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n43sunflower/n43sunflower_girl_02_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "3D214AFD4F474A0969BBE3932AEE622D",
+		["guid_str"] = "XQpjrVnZ",
+		["id"] = 77,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["name"] = "米达斯",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
+				["length"] = 1153,
+				["volume"] = 1.5,
+			},
+		},
+		["text"] = "好久不见。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "1933256042441DDBE959268AC092A809",
+		["guid_str"] = "zIIfRmUD",
+		["id"] = 78,
+		["name"] = "米达斯",
+		["text"] = "我刚刚见到朱舒尔，听说你们结婚了，恭喜你得偿所愿，很可惜错过了准备礼物的机会，不然我会尽力在婚礼上给你伴奏的。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D27C5BF94F45383E6F4A21A34C033D9B",
+		["guid_str"] = "X13gOTvG",
+		["id"] = 79,
+		["name"] = "米达斯",
+		["text"] = "太久不见了，你现在，是什么样子，我应该比你高了，朱舒尔肯定也是这么认为的。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "EC4C5F6E4AE0850C24DE11A4637DDBB4",
+		["guid_str"] = "Kx0OWKCq",
+		["id"] = 80,
+		["name"] = "米达斯",
+		["text"] = "……你知道么，我最近好像经常和墓地打交道。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "278",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "B36FFAA84786AEE2435BC4B700399BC2",
+		["guid_str"] = "I5PHGU83",
+		["id"] = 81,
+		["name"] = "米达斯",
+		["text"] = "或许我可以刻块碑送给你，我做这个越来越顺手了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[size 17]难得说这么多话，一个人的声音在夜里却更显寂寥，\n\n米达斯恢复了沉默，刚刚那番话也让他想起了怀里的“委托品”。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "5B029E9C4B8A1818102B63969485A9F0",
+		["guid_str"] = "qPMve44w",
+		["id"] = 82,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[size 17]他拿出陈旧的笔记本，一时间，强烈的缺失和错位感让他第一次对一个人的过往产生“探知欲”。\n\n他总是一知半解地就做了，再犯上几个错误。\n\n不知道这次会不会依旧如此。",
+			["text_align"] = "center",
+		},
+		["guid"] = "A5207D8D4810BD4AB3A733A947C3DCF7",
+		["guid_str"] = "XTTxkiZy",
+		["id"] = 83,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[size 17]坐在亲人的坟前，就着月光，金发青年打开了一个并称不上是新朋友的遗物。",
+			["text_align"] = "center",
+		},
+		["guid"] = "7011B50D42B9E6527D772193783C5A58",
+		["guid_str"] = "CcnDAfjt",
+		["id"] = 84,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.16809089481831,
+						0.32679998874664,
+						0.51627910137177,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[size 17]1105年10月7日，天气晴……",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 3000,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeOut",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "DC27D19F40DD2E7E33F78D9E7E96D1D6",
+		["guid_str"] = "aquj8zhB",
+		["id"] = 85,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/suburban_night_quiet",
+				["length"] = 65538,
+				["stop"] = 1,
+			},
+		},
+		["text_sound_id"] = 0,
+		["time"] = 6000,
+	},
+}

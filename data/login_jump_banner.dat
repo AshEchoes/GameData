@@ -16,7 +16,7 @@
 			1,
 			0.9,
 		},
-		["event"] = "draw_card_21",
+		["event"] = "draw_card_school_2",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "School2Draw",
@@ -228,7 +228,7 @@
 			1,
 		},
 		["bg_path"] = "jump_bg_07_02",
-		["event"] = "draw_card_22",
+		["event"] = "draw_card_yama",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "DrawJump",
@@ -327,7 +327,7 @@
 			1,
 		},
 		["bg_path"] = "jump_bg_08_01",
-		["event"] = "draw_card_23",
+		["event"] = "draw_card_uni",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "DrawJump",
@@ -455,7 +455,7 @@
 			1,
 		},
 		["bg_path"] = "jump_bg_08_04",
-		["event"] = "draw_card_23",
+		["event"] = "draw_card_uni",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "DrawJump",
@@ -619,7 +619,7 @@
 			1,
 		},
 		["bg_path"] = "jump_bg_08_05",
-		["event"] = "draw_card_25",
+		["event"] = "draw_card_corrosion",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "DrawJump",
@@ -724,7 +724,7 @@
 			1,
 		},
 		["bg_path"] = "jump_bg_09_02",
-		["event"] = "draw_card_24",
+		["event"] = "draw_card_chapter_6",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "DrawJump",
@@ -820,7 +820,7 @@
 			1.1,
 			0.9,
 		},
-		["event"] = "draw_card_17",
+		["event"] = "draw_card_chapter_5_2",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "Chapter5Draw",
@@ -1060,7 +1060,7 @@
 			1,
 		},
 		["bg_path"] = "jump_bg_10_03",
-		["event"] = "draw_card_26",
+		["event"] = "draw_card_paradise_1",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "DrawJump",
@@ -1555,7 +1555,7 @@
 			0.9,
 		},
 		["bg_path"] = "jump_bg_11_04_f",
-		["event"] = "draw_card_27",
+		["event"] = "draw_card_paradise_2",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "NewNormalTempl",
@@ -1744,7 +1744,7 @@
 			0.9,
 		},
 		["bg_path"] = "jump_bg_12_01",
-		["event"] = "draw_card_28",
+		["event"] = "draw_card_ourea_1",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "NewNormalTempl",
@@ -2138,7 +2138,7 @@
 			0.9,
 		},
 		["bg_path"] = "jump_bg_12_02",
-		["event"] = "draw_card_29",
+		["event"] = "draw_card_ourea_2",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "NewNormalTempl",
@@ -2570,7 +2570,7 @@
 			0.9,
 		},
 		["bg_path"] = "jump_bg_draw_card_30",
-		["event"] = "draw_card_30",
+		["event"] = "draw_card_south_1",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "NewNormalTempl",
@@ -2603,7 +2603,7 @@
 			0.9,
 		},
 		["bg_path"] = "jump_bg_draw_card_31",
-		["event"] = "draw_card_31",
+		["event"] = "draw_card_south_2",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "NewNormalTempl",
@@ -2867,6 +2867,72 @@
 		},
 		["type"] = 16,
 	},
+	[83] = {
+		["ID"] = 83,
+		["anim_frame_anchor"] = {
+			"10;0",
+		},
+		["anim_frame_name"] = {
+			"Bg",
+		},
+		["anim_frame_scale"] = {
+			0.9,
+		},
+		["bg_path"] = "jump_bg_raid",
+		["end_offset"] = 2,
+		["event"] = "raid_8",
+		["extra_show_params"] = {
+		},
+		["frame_name"] = "RaidTempl",
+		["frame_params"] = {
+			"2_3",
+			"2_9",
+			"4_4001",
+			"1_200",
+			"1_201",
+			"1_4508",
+		},
+		["jump_type"] = 0,
+		["params"] = {
+		},
+		["prior"] = 4,
+		["start_offset"] = 0,
+		["switch_key"] = "raid",
+		["switch_params"] = {
+		},
+		["type"] = 15,
+	},
+	[84] = {
+		["ID"] = 84,
+		["anim_frame_anchor"] = {
+			"1;-4",
+		},
+		["anim_frame_name"] = {
+			"Bg",
+		},
+		["anim_frame_scale"] = {
+			0.9,
+		},
+		["bg_path"] = "jump_bg_battlepass_bpsr008",
+		["event"] = "battlepass_8",
+		["extra_show_params"] = {
+		},
+		["frame_name"] = "NewNormalTempl",
+		["frame_params"] = {
+			1438,
+			720,
+			1,
+			-4,
+		},
+		["jump_type"] = 1,
+		["params"] = {
+		},
+		["prior"] = 4,
+		["switch_key"] = "battlepass",
+		["switch_params"] = {
+		},
+		["type"] = 8,
+	},
 	[8] = {
 		["ID"] = 8,
 		["anim_frame_anchor"] = {
@@ -2921,7 +2987,7 @@
 			1,
 			0.9,
 		},
-		["event"] = "draw_card_20",
+		["event"] = "draw_card_school_1",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "SchoolDraw",
