@@ -329,7 +329,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]不知不觉，天已大亮，喘息的“迦路”看着逆着光居高临下的身影，\n那人手里握着一片橙红色的光，被清晨的阳光照得透明。",
+			["text"] = "[size 17]不知不觉，天已大亮，喘息的“迦路”看着逆着光居高临下的身影，\n\n那人手里握着一片橙红色的光，被清晨的阳光照得透明。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -417,11 +417,17 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
@@ -437,7 +443,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -457,15 +463,28 @@
 					["state"] = 0,
 				},
 				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["sustain_page_count"] = 35,
 				["template_type"] = "image",
 				["tween"] = {
 					{
 						["param"] = {
 							["delay"] = 0,
 							["delay_page"] = 0,
+							["end_alpha"] = 0.60000002384186,
+							["start_alpha"] = 0.0,
 							["time"] = 1000,
 						},
-						["tween"] = "FadeIn",
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 34,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.60000002384186,
+							["time"] = 400,
+						},
+						["tween"] = "AlphaChange",
 					},
 				},
 			},
@@ -483,18 +502,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -553,14 +578,6 @@
 					0.27450981736183,
 					1.0,
 				},
-				["knowledge_word_info"] = {
-					["id"] = "452",
-					["is_enabled"] = true,
-					["offset"] = {
-						150,
-						-300,
-					},
-				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n23ynnsoldier_03/n23ynnsoldier_03_action1",
 				["pos"] = {
@@ -594,20 +611,6 @@
 		["guid"] = "7242F955400EA4341AE66C8FA22B5829",
 		["guid_str"] = "BlPEAefw",
 		["id"] = 9,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode23_MN5Z4F6b",
@@ -624,18 +627,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -713,20 +722,6 @@
 		["guid"] = "35B5C06242C5AE12DFD38A8DA788A446",
 		["guid_str"] = "SuFLurWv",
 		["id"] = 10,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode23_oZTFbwjG",
@@ -743,18 +738,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -833,23 +834,9 @@
 		["guid"] = "709F77744B0B357CE4DE9B94AD3C2250",
 		["guid_str"] = "qSYA01OB",
 		["id"] = 11,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "西姆",
 		["sound"] = {
-			["event"] = "0",
+			["event"] = "voice_ch_quest_story_episode23_sKnQMrBe",
 		},
 		["speaker_info"] = {
 			["offset"] = {
@@ -863,18 +850,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -952,20 +945,6 @@
 		["guid"] = "45A8E9EF48C5A7A7BD9927948B8A6249",
 		["guid_str"] = "zKa1Pd5m",
 		["id"] = 12,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode23_MVxEgfRr",
@@ -982,18 +961,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -1072,20 +1057,6 @@
 		["guid"] = "E2C02E6E4FE917A59F127DB6A58C3016",
 		["guid_str"] = "iiEyn7sQ",
 		["id"] = 13,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "西姆",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode23_hKd8XmYw",
@@ -1102,18 +1073,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -1191,20 +1168,6 @@
 		["guid"] = "47E0E76148B1C539CDCCA9BB42B77262",
 		["guid_str"] = "SdzuVJXw",
 		["id"] = 14,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "风广陌/衡宁",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode23_UhUKSPOo",
@@ -1221,18 +1184,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -1311,20 +1280,6 @@
 		["guid"] = "3494EA7D4F2981EF44667EB61918C715",
 		["guid_str"] = "BmMaf1NG",
 		["id"] = 15,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "衡宁",
 		["speaker_info"] = {
 			["offset"] = {
@@ -1338,18 +1293,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -1441,20 +1402,6 @@
 		["guid"] = "DD6955174AAE4FE70152DA88DE00F9DF",
 		["guid_str"] = "toUc5WVN",
 		["id"] = 16,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["speaker_info"] = {
 			["offset"] = {
@@ -1468,18 +1415,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -1572,20 +1525,6 @@
 		["guid"] = "1634928A4883F59FE713278755FD830E",
 		["guid_str"] = "IDNHLZEq",
 		["id"] = 17,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "衡宁",
 		["speaker_info"] = {
 			["offset"] = {
@@ -1599,18 +1538,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -1688,20 +1633,6 @@
 		["guid"] = "314DF2E44126C46E299BA9A54604E2B5",
 		["guid_str"] = "FGdxEA4j",
 		["id"] = 18,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "风广陌",
 		["speaker_info"] = {
 			["offset"] = {
@@ -1715,18 +1646,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -1819,20 +1756,6 @@
 		["guid"] = "E02D004A49D76EF939CD6BAF5C5162F9",
 		["guid_str"] = "pLnpN3Mn",
 		["id"] = 19,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "西姆",
 		["speaker_info"] = {
 			["offset"] = {
@@ -1846,18 +1769,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -1950,20 +1879,6 @@
 		["guid"] = "BE0E53DF498D77BD5940F1861E1988F6",
 		["guid_str"] = "gRQgZrTu",
 		["id"] = 20,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "衡宁",
 		["speaker_info"] = {
 			["offset"] = {
@@ -1977,18 +1892,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -2081,20 +2002,6 @@
 		["guid"] = "58FED1AE45AFBF61044F86883BAE6030",
 		["guid_str"] = "KaexNtwc",
 		["id"] = 21,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "西姆",
 		["speaker_info"] = {
 			["offset"] = {
@@ -2108,18 +2015,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -2197,20 +2110,6 @@
 		["guid"] = "45E39D6B461E3AA52587ACA13693EEE2",
 		["guid_str"] = "WVx7Jg9j",
 		["id"] = 22,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["speaker_info"] = {
 			["offset"] = {
@@ -2224,18 +2123,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -2314,20 +2219,6 @@
 		["guid"] = "EAF67B5E416D56220CDDB2B573781AC2",
 		["guid_str"] = "ew3HoJYK",
 		["id"] = 23,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "西姆",
 		["speaker_info"] = {
 			["offset"] = {
@@ -2341,18 +2232,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -2404,10 +2301,11 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["knowledge_word_info"] = {
+					["anchor"] = "right",
 					["id"] = "447",
 					["is_enabled"] = true,
 					["offset"] = {
-						250,
+						-250,
 						-300,
 					},
 				},
@@ -2444,20 +2342,6 @@
 		["guid"] = "9EDDCD67442772973787ADA543E8A1CF",
 		["guid_str"] = "HY9RJZH7",
 		["id"] = 24,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "衡宁",
 		["speaker_info"] = {
 			["offset"] = {
@@ -2471,18 +2355,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -2574,20 +2464,6 @@
 		["guid"] = "22B7058F4EEBACC2B1A9C29BD0195195",
 		["guid_str"] = "1PhjU17V",
 		["id"] = 25,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["speaker_info"] = {
 			["offset"] = {
@@ -2614,18 +2490,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -2709,20 +2591,6 @@
 		["guid"] = "960719F4414B332B38D01E868A7F7E4C",
 		["guid_str"] = "e1CkRlKd",
 		["id"] = 26,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "风广陌",
 		["speaker_info"] = {
 			["offset"] = {
@@ -2736,18 +2604,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -2840,20 +2714,6 @@
 		["guid"] = "2F45A14945511E56917295888E637291",
 		["guid_str"] = "D5aiQN7L",
 		["id"] = 27,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["soundfx"] = {
 			{
@@ -2868,24 +2728,30 @@
 				0,
 			},
 		},
-		["text"] = "[**厄亚文明语**]的风广陌你闭嘴！！！「战神西姆」也很难听，比「战神怒蛇」还难听！！",
+		["text"] = "[c a3bdc8][**厄亚文明语**][/c]的风广陌你闭嘴！！！「战神西姆」也很难听，比「战神怒蛇」还难听！！",
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -2977,20 +2843,6 @@
 		["guid"] = "FD7A00AA4C2A1A6012AF639C34B046CE",
 		["guid_str"] = "WiSJ4eum",
 		["id"] = 28,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "风广陌",
 		["speaker_info"] = {
 			["offset"] = {
@@ -3004,18 +2856,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -3107,20 +2965,6 @@
 		["guid"] = "0E0D247F4E3926247C8A8BBDAAF4BD54",
 		["guid_str"] = "u29Oe9rB",
 		["id"] = 29,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["speaker_info"] = {
 			["offset"] = {
@@ -3134,18 +2978,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -3237,20 +3087,6 @@
 		["guid"] = "429B61804E58F0ED7270ECA00B4AAB1F",
 		["guid_str"] = "jmCgxekB",
 		["id"] = 30,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "风广陌",
 		["speaker_info"] = {
 			["offset"] = {
@@ -3264,18 +3100,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -3367,20 +3209,6 @@
 		["guid"] = "459D1C7A428EA0377732EB8616E9B206",
 		["guid_str"] = "EleKhykb",
 		["id"] = 31,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["speaker_info"] = {
 			["offset"] = {
@@ -3394,18 +3222,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -3497,20 +3331,6 @@
 		["guid"] = "5BCFAD364496BA0B3BA99A822E01A9E7",
 		["guid_str"] = "h78VLMMF",
 		["id"] = 32,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "风广陌",
 		["speaker_info"] = {
 			["offset"] = {
@@ -3524,18 +3344,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -3627,20 +3453,6 @@
 		["guid"] = "6A3340A64FF394468CFC8FA33F901FEB",
 		["guid_str"] = "xcFIOH6f",
 		["id"] = 33,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["speaker_info"] = {
 			["offset"] = {
@@ -3654,18 +3466,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -3757,20 +3575,6 @@
 		["guid"] = "0B42C43D41EA8CE4DE984F843403666C",
 		["guid_str"] = "4vUGuKRe",
 		["id"] = 34,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "风广陌",
 		["speaker_info"] = {
 			["offset"] = {
@@ -3784,18 +3588,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -3888,20 +3698,6 @@
 		["guid"] = "245C815A4AABF5C4B28D3D842C4495E2",
 		["guid_str"] = "2wAPwTGI",
 		["id"] = 35,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "西姆",
 		["speaker_info"] = {
 			["offset"] = {
@@ -3915,18 +3711,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -4018,20 +3820,6 @@
 		["guid"] = "1AE09D104FD601E1B14BF98AEC66A4AF",
 		["guid_str"] = "9GWDvog8",
 		["id"] = 36,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "风广陌",
 		["speaker_info"] = {
 			["offset"] = {
@@ -4045,18 +3833,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -4135,20 +3929,6 @@
 		["guid"] = "ACB9CCC14F7DD14967CD859370F18FC2",
 		["guid_str"] = "kVhlJNbL",
 		["id"] = 37,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "衡宁",
 		["speaker_info"] = {
 			["offset"] = {
@@ -4162,18 +3942,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -4185,11 +3971,10 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["knowledge_word_info"] = {
-					["anchor"] = "right",
 					["id"] = "449",
 					["is_enabled"] = true,
 					["offset"] = {
-						-100,
+						150,
 						-300,
 					},
 				},
@@ -4275,20 +4060,6 @@
 		["guid"] = "4AA7FF084224FCC07DA7399C3AC0280A",
 		["guid_str"] = "Uk2zmGCP",
 		["id"] = 38,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["speaker_info"] = {
 			["offset"] = {
@@ -4302,18 +4073,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -4406,20 +4183,6 @@
 		["guid"] = "647929784392BB51B0894AA81DDF6C68",
 		["guid_str"] = "mVQ5bAO1",
 		["id"] = 39,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "衡宁",
 		["speaker_info"] = {
 			["offset"] = {
@@ -4433,18 +4196,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -4522,20 +4291,6 @@
 		["guid"] = "664F100D4B91F2BC2FF5ADB9173E6908",
 		["guid_str"] = "q8TBQBRb",
 		["id"] = 40,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "风广陌",
 		["speaker_info"] = {
 			["offset"] = {
@@ -4549,18 +4304,24 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_05.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -4652,20 +4413,6 @@
 		["guid"] = "BD1A2D8F411508668F35649FAF59351F",
 		["guid_str"] = "VBdTqtHy",
 		["id"] = 41,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
 		["name"] = "怒蛇",
 		["speaker_info"] = {
 			["offset"] = {
@@ -4758,6 +4505,9 @@
 			},
 			{
 			},
+		},
+		["bgm"] = {
+			["length"] = 0,
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
@@ -4926,7 +4676,7 @@
 				["volume"] = 6.0,
 			},
 		},
-		["text"] = "……你[*厄亚文明语*]……可是……赢了老子……",
+		["text"] = "……你[c a3bdc8][**厄亚文明语**][/c]……可是……赢了老子……",
 	},
 	{
 		["bg_info"] = {
@@ -5127,6 +4877,9 @@
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode23_SvZXqsuF",
 		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……你叫什么？不是这个破编号。",
 	},
 	{
@@ -5197,9 +4950,12 @@
 				["template_type"] = "image",
 			},
 		},
-		["name"] = "N11-091",
+		["name"] = "米达斯·奈格尔图",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode23_TSvqPEET",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5303,6 +5059,9 @@
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode23_btVb591R",
 		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "名字还挺特别，记住了。",
 	},
 	{
@@ -5379,6 +5138,9 @@
 		["name"] = "怒蛇",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode23_820r1gc9",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["text"] = "谢了小崽子，祝你早日当上真正的“战神”，走了，记得你没见过我。",
 	},
@@ -5599,6 +5361,10 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["mute"] = true,
+			["operation"] = 2,
+		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["text"] = "[size 17]早已崩坏的庞大身躯彻底回归安静，最后那块碎晶变成一捧细沙，被小心地护在掌心，这次没有洒出来。",
@@ -5704,7 +5470,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
-			["text"] = "[size 20][font cusong]西姆[/font]。",
+			["text"] = "[size 20][font cusong]西姆 Sium[/font]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -5772,6 +5538,9 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["length"] = 0,
+		},
 		["characters"] = {
 			{
 				["anim"] = "sad",
@@ -5819,6 +5588,11 @@
 			},
 			{
 			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s206_char_mds_p1",
+			["length"] = 66000,
+			["operation"] = 1,
 		},
 		["caption_info"] = {
 			["align"] = "bottom",
@@ -5926,6 +5700,15 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["text"] = "[size 17][indent][indent]一双制式熟悉的皮靴出现在视野中，\n\n[indent][indent]米达斯抬起头，看见他曾经最熟悉的副官站在他面前，\n\n[indent][indent]左手里握着一把枪，还有一顶军帽。\n\n[indent][indent]血色正透过卡尔布的制服洇出一片痕迹，米达斯站起身，直视回去。\n",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "4380378F4A2D4D283AB3EF99795EE61D",
 		["guid_str"] = "JITXkRZs",
@@ -6499,7 +6282,7 @@
 		["guid_str"] = "O8pKmtEr",
 		["id"] = 78,
 		["name"] = "米达斯",
-		["text"] = "我不想让沙地的火蔓延到每个人心里。为此，我想成为「战神」，守护我的国家和同胞，就像我曾经被「战神」守护一样。",
+		["text"] = "我不想让沙地的火蔓延到每个人心里。\n为此，我想成为「战神」，守护我的国家和同胞，就像我曾经被「战神」守护一样。",
 	},
 	{
 		["bg_info"] = {
@@ -6803,7 +6586,7 @@
 				},
 			},
 			{
-				["anim"] = "normal1",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -7284,8 +7067,10 @@
 				["length"] = 0,
 			},
 			{
+				["delay"] = 400,
 				["event"] = "event:/sfx/enemy/b01tf/b01tf_ssjcl_break_boom",
 				["length"] = 1237,
+				["volume"] = 2.0,
 			},
 		},
 	},
@@ -7298,7 +7083,7 @@
 			},
 		},
 		["caption_info"] = {
-			["text"] = "[size 17]晶石不会停止生长，除非死亡。",
+			["text"] = "[size 17][c fd9e5d]晶石不会停止生长，除非死亡。",
 			["text_align"] = "center",
 		},
 		["guid"] = "5CE858754661AE63518A30B6A6857FB2",
@@ -7808,6 +7593,9 @@
 		["guid_str"] = "5nDBGuEV",
 		["id"] = 105,
 		["name"] = "恩古拉民众",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "米达斯！米达斯！米达斯！米达斯！",
 		["text_info"] = {
 			["tween"] = {
@@ -7905,7 +7693,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 2200,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -7931,7 +7719,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 500,
+							["time"] = 600,
 						},
 						["tween"] = "FadeOut",
 					},

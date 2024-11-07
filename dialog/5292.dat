@@ -1051,7 +1051,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal1",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1111,7 +1111,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal1",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1172,7 +1172,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal1",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1561,7 +1561,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 300,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -1574,30 +1574,6 @@
 							["time"] = 0,
 						},
 						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
-			{
-				["anim"] = "smile",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n21ynnwoman/n21ynnwoman_action1",
-				["pos"] = {
-					-300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
 					},
 				},
 			},
@@ -1628,7 +1604,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 300,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -2430,6 +2406,15 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 			{
 				["anim"] = "normal",
@@ -2724,7 +2709,7 @@
 						{
 							["param"] = {
 								["delay"] = 500,
-								["time"] = 1000,
+								["time"] = 2500,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -2760,7 +2745,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -2784,7 +2769,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -2794,6 +2779,7 @@
 		["guid"] = "242EA30943188B71E12E109973133EB4",
 		["guid_str"] = "4JhwvCLY",
 		["id"] = 45,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -2802,6 +2788,7 @@
 				["stop"] = 1,
 			},
 		},
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -2811,7 +2798,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2500,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -2829,6 +2816,7 @@
 			["location"] = "伊南纳·恩古拉边界附近",
 			["time"] = "森罗1121-6-21  12:08",
 		},
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -2837,6 +2825,7 @@
 				["loop"] = 1,
 			},
 		},
+		["time"] = 2500,
 	},
 	{
 		["bg_info"] = {
@@ -5584,6 +5573,12 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n73test_boy_action1",
 				["shadow"] = {
@@ -5594,21 +5589,13 @@
 						["param"] = {
 							["attr_key"] = "F_ScreenSaturation",
 							["delay"] = 0,
+							["end_alpha"] = 0.80000001192093,
 							["end_value"] = 0.40000000596046,
+							["start_alpha"] = 0.80000001192093,
 							["start_value"] = 0.40000000596046,
 							["time"] = 0,
 						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-					{
-						["param"] = {
-							["attr_key"] = "F_VertMaskIntensity",
-							["delay"] = 0,
-							["end_value"] = 1.0,
-							["start_value"] = 1.0,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
+						["tween"] = "AlphaChange",
 					},
 				},
 			},
@@ -7965,13 +7952,13 @@
 		["caption_info"] = {
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17][font cusong]我是……战神迦路 。",
+			["text"] = "[size 17][font cusong][c ff4c1c]我是……战神迦路 。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 500,
+						["time"] = 800,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -7985,7 +7972,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n32zz_m/n32zz_m_action1",
 				["pos"] = {
-					50,
+					0,
 					100,
 				},
 				["shadow"] = {
@@ -8058,7 +8045,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 200,
+								["time"] = 400,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -8100,7 +8087,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -8130,7 +8117,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -8205,15 +8192,6 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
 				},
 			},
 			{
@@ -9365,10 +9343,8 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]他想起半个多月前他也是这么和那位[M]少年[/M][F]少女[/F]执行官说过同样拙劣的谎言，也同样被拆穿了。",
+			["text"] = "[size 17]他想起半个多月前他也是这么和那位年轻执行官说了同样拙劣的谎言，也同样被拆穿了。",
 			["text_align"] = "center",
-			["text_female"] = "[size 17]他想起半个多月前他也是这么和那位少女执行官说过同样拙劣的谎言，也同样被拆穿了。",
-			["text_male"] = "[size 17]他想起半个多月前他也是这么和那位少年执行官说过同样拙劣的谎言，也同样被拆穿了。",
 		},
 		["characters"] = {
 			{
@@ -10520,9 +10496,9 @@
 								["delay"] = 0,
 								["direction"] = "right",
 								["dis"] = 100,
-								["time"] = 500,
+								["time"] = 1900,
 							},
-							["tween"] = "MoveOut",
+							["tween"] = "FadeOut",
 						},
 					},
 				},
@@ -10560,6 +10536,7 @@
 		["guid"] = "1CE8D94E4CA48BB2B12E698B8B1A6CEB",
 		["guid_str"] = "tWxkycQW",
 		["id"] = 137,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -10590,12 +10567,39 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17]明明是晴天，不远处却能看到一大块乌云，像是要飘过来，也不知道会不会下雨。\n\n米达斯逆着光站在正午的阳光下，朱舒尔有点看不清他的表情。\n\n当下的情景却让她莫名想起米达斯离家前往神诞之地的时候，\n\n那天的风很大，虽然舍不得，但是朱舒尔觉得那时风里带着的都是“明天”。\n\n这一刻，她又感觉到了同一阵风，就在她的弟弟身边。",
+			["text"] = "[size 17]明明是晴天，不远处却能看到一大块乌云，像是要飘过来，也不知道会不会下雨。\n\n米达斯逆着光站在正午的阳光下，朱舒尔有点看不清他的表情。\n\n当下的情景却让她莫名想起米达斯离家前往神诞之地的时候，\n\n那天的风很大，虽然舍不得，但是朱舒尔觉得那时风里带着的都是“明天”。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "B835913F4FB6DE249D735F86B05408D9",
 		["guid_str"] = "hEaHOItl",
 		["id"] = 138,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_desert_05.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[size 17]这一刻，她又感觉到了同一阵风，就在她的弟弟身边。",
+			["text_align"] = "center",
+		},
+		["guid"] = "DE8E986C40348302BA7929ABC3833011",
+		["guid_str"] = "dRD76GW6",
+		["id"] = 139,
 	},
 	{
 		["bg_info"] = {
@@ -10671,7 +10675,7 @@
 		},
 		["guid"] = "F6A891BC483C80145B0FC09D3F2B36A3",
 		["guid_str"] = "lzT90Quc",
-		["id"] = 139,
+		["id"] = 140,
 		["name"] = "米达斯",
 		["text"] = "朱舒尔，姐姐。",
 	},
@@ -10731,7 +10735,7 @@
 		},
 		["guid"] = "920CDA96478277F40837F6A6F20F2F1D",
 		["guid_str"] = "hda5SQiC",
-		["id"] = 140,
+		["id"] = 141,
 		["name"] = "米达斯",
 		["text"] = "我是个胆小鬼逃兵。",
 	},
@@ -10792,7 +10796,7 @@
 		},
 		["guid"] = "E28F99E443C938B9641CD5BC125B3878",
 		["guid_str"] = "KxgWN3ad",
-		["id"] = 141,
+		["id"] = 142,
 		["name"] = "朱舒尔",
 		["text"] = "你就是要说这个？明眼人都能看出来好吧，你别说，还记得小时候镇上来的那个逃兵么，也是断了只手挂在脖子上，就和你现在一样。",
 	},
@@ -10852,7 +10856,7 @@
 		},
 		["guid"] = "58B961684D85B35DE61E128E884C87AC",
 		["guid_str"] = "MwmKlFMV",
-		["id"] = 142,
+		["id"] = 143,
 		["name"] = "米达斯",
 		["text"] = "我记得，他叫佩鲁，教了亚兰唱歌，后来他被镇上的人赶走了。",
 	},
@@ -10913,7 +10917,7 @@
 		},
 		["guid"] = "B8D5A2574DE169165E77F88E12123D92",
 		["guid_str"] = "OmSD4jTL",
-		["id"] = 143,
+		["id"] = 144,
 		["name"] = "朱舒尔",
 		["text"] = "记得真清楚……",
 	},
@@ -10973,7 +10977,7 @@
 		},
 		["guid"] = "AEBD69044AD40345E3B473BBA66F8030",
 		["guid_str"] = "SN1Mf8mf",
-		["id"] = 144,
+		["id"] = 145,
 		["name"] = "米达斯",
 		["text"] = "我犯了些不可饶恕的错误，又……因为一些原因，无法使用力量，就像……就像这条手臂，我无法控制它，也无法使用它。",
 	},
@@ -11034,7 +11038,7 @@
 		},
 		["guid"] = "ED571B7746DDD7C68132DA9C7432AEC1",
 		["guid_str"] = "jwoc6lZ9",
-		["id"] = 145,
+		["id"] = 146,
 		["name"] = "朱舒尔",
 		["text"] = "是它让你逃了？",
 	},
@@ -11094,7 +11098,7 @@
 		},
 		["guid"] = "9E540A0A48206D73006C949F20B488E5",
 		["guid_str"] = "PCpu5ycu",
-		["id"] = 146,
+		["id"] = 147,
 		["name"] = "米达斯",
 		["text"] = "对……我很害怕“米达斯”会犯下更加不可饶恕的罪孽，所以甩开所有人逃跑了。",
 	},
@@ -11155,7 +11159,7 @@
 		},
 		["guid"] = "174556ED4E888513E303A28DF7A7C2D5",
 		["guid_str"] = "djLVdQ5F",
-		["id"] = 147,
+		["id"] = 148,
 		["name"] = "朱舒尔",
 		["text"] = "米达……",
 	},
@@ -11215,7 +11219,7 @@
 		},
 		["guid"] = "B51CA45A4954BA269030ADBD6F648590",
 		["guid_str"] = "e6XWmwmy",
-		["id"] = 148,
+		["id"] = 149,
 		["name"] = "米达斯",
 		["text"] = "但没关系，姐姐，现在我有点想通了，其实我想要寻找的答案很简单。",
 	},
@@ -11275,7 +11279,7 @@
 		},
 		["guid"] = "39299A794FAF5D67AEA6A89AAC379C6E",
 		["guid_str"] = "4FKIpBzB",
-		["id"] = 149,
+		["id"] = 150,
 		["name"] = "米达斯",
 		["text"] = "逃避没有结果，我应该站起来，或者跪下，但不单纯是为了悔过和赎罪，也为了对抗一直驱使我逃避的恐惧。",
 	},
@@ -11335,7 +11339,7 @@
 		},
 		["guid"] = "89AF732F4E27AE6459E69895E7F2B12C",
 		["guid_str"] = "isBMErlf",
-		["id"] = 150,
+		["id"] = 151,
 		["name"] = "米达斯",
 		["text"] = "我应该做到像离家时说的那样，保护你们，而不是费尽全力去守护一个谎言。等完成委托后，我还可以……保护更多人，甚至贪心一点，保护所有需要被保护的人，即使左手不能痊愈，我还有右手、双腿、身体，不用“它”我也应该有办法。",
 	},
@@ -11395,7 +11399,7 @@
 		},
 		["guid"] = "AD0890B84950A9049364DDA7DFF6D547",
 		["guid_str"] = "nuNk2sic",
-		["id"] = 151,
+		["id"] = 152,
 		["name"] = "米达斯",
 		["text"] = "一路上我还遇到了很多无家可归的难民，很多孩子，他们都对我……很好，也都很需要“我”。",
 	},
@@ -11455,7 +11459,7 @@
 		},
 		["guid"] = "EB9496504F53B2370D36ECAF5171D838",
 		["guid_str"] = "wRRi1hos",
-		["id"] = 152,
+		["id"] = 153,
 		["name"] = "米达斯",
 		["text"] = "我想让大家都能说出自己的愿望，都能长大，然后在长大后实现他们说过的话。",
 	},
@@ -11515,7 +11519,7 @@
 		},
 		["guid"] = "FB1CE2AF4F34C763E5DED5B8262F94FD",
 		["guid_str"] = "LpcIRC90",
-		["id"] = 153,
+		["id"] = 154,
 		["name"] = "米达斯",
 		["text"] = "就像部分的我一样，但要比我好，他们不必犯错。",
 	},
@@ -11575,7 +11579,7 @@
 		},
 		["guid"] = "B05A22064DF4C904730F1C97566C7686",
 		["guid_str"] = "Y0DFA2eK",
-		["id"] = 154,
+		["id"] = 155,
 		["name"] = "米达斯",
 		["text"] = "朱舒尔……",
 	},
@@ -11651,7 +11655,7 @@
 		},
 		["guid"] = "FCC0B3B142DBE42806EAD0BC7D7E8EFA",
 		["guid_str"] = "WK2iED7m",
-		["id"] = 155,
+		["id"] = 156,
 	},
 	{
 		["bg_info"] = {
@@ -11727,7 +11731,7 @@
 		},
 		["guid"] = "8739278B44553DCE654EBBA0A34D4815",
 		["guid_str"] = "nRsSMJRV",
-		["id"] = 156,
+		["id"] = 157,
 		["name"] = "米达斯",
 		["text"] = "朱舒尔，我就是“迦路”。",
 	},
@@ -11788,7 +11792,7 @@
 		},
 		["guid"] = "1D8A663442E855FC6FE8E99D7BA228CC",
 		["guid_str"] = "celECQA8",
-		["id"] = 157,
+		["id"] = 158,
 		["name"] = "朱舒尔",
 		["text"] = "……………………………………",
 	},
@@ -11849,7 +11853,7 @@
 		},
 		["guid"] = "58C0B8DA4C7D9BD16C69BDA9747A4C1A",
 		["guid_str"] = "O6HnXzQc",
-		["id"] = 158,
+		["id"] = 159,
 		["name"] = "朱舒尔",
 		["text"] = "你是……那个战神……迦路？",
 	},
@@ -11909,7 +11913,7 @@
 		},
 		["guid"] = "A402F783486BD312BF406CA55CAD8AFF",
 		["guid_str"] = "5plqgB9M",
-		["id"] = 159,
+		["id"] = 160,
 		["name"] = "米达斯",
 		["text"] = "嗯，我是因为成功了才能离开神诞之地，才能有机会再见到你。",
 	},
@@ -11961,7 +11965,7 @@
 		},
 		["guid"] = "7874BAE04E92289F75CB019B04D7EBF8",
 		["guid_str"] = "U9nXtamW",
-		["id"] = 160,
+		["id"] = 161,
 	},
 	{
 		["bg_info"] = {
@@ -12032,13 +12036,18 @@
 		},
 		["guid"] = "DD8BE839465714045641ACB2CA022A39",
 		["guid_str"] = "VGEJob1v",
-		["id"] = 161,
+		["id"] = 162,
 		["soundfx"] = {
 			{
 				["delay"] = 200,
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
 				["length"] = 1199,
 				["volume"] = 3.0,
+			},
+			{
+				["delay"] = 800,
+				["event"] = "event:/sfx/player/af02hy/af02hy_reload_sp",
+				["length"] = 875,
 			},
 		},
 	},
@@ -12104,7 +12113,7 @@
 		},
 		["guid"] = "FDF9F90748FFED06AE515D89E7347B63",
 		["guid_str"] = "doNvqZPp",
-		["id"] = 162,
+		["id"] = 163,
 		["name"] = "朱舒尔",
 		["text"] = "……………………………………",
 	},
@@ -12170,7 +12179,7 @@
 		},
 		["guid"] = "8D6C549F4A8D0759429FFA998DC9795E",
 		["guid_str"] = "IbtFVzZ6",
-		["id"] = 163,
+		["id"] = 164,
 		["name"] = "朱舒尔",
 		["text"] = "别告诉……先别告诉别人……",
 	},
@@ -12236,7 +12245,7 @@
 		},
 		["guid"] = "2C9FB083444AE013A16B20BDDABFE91A",
 		["guid_str"] = "eNLfN8zP",
-		["id"] = 164,
+		["id"] = 165,
 		["name"] = "朱舒尔",
 		["text"] = "求你。",
 	},
@@ -12299,7 +12308,7 @@
 		},
 		["guid"] = "6A4FDFBD4F41B4311FE1EB81A5E31E13",
 		["guid_str"] = "L7ZnBPz7",
-		["id"] = 165,
+		["id"] = 166,
 		["name"] = "女盗寇A",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -12371,7 +12380,7 @@
 		},
 		["guid"] = "75E3E9A549EBCD30E97B8692187A6176",
 		["guid_str"] = "aEoDONtv",
-		["id"] = 166,
+		["id"] = 167,
 		["name"] = "朱舒尔",
 		["text"] = "……来了！先，回去吧。",
 	},
@@ -12445,7 +12454,7 @@
 		},
 		["guid"] = "17C0BF6347C44468E3ACB09B7ABC3B7D",
 		["guid_str"] = "nwNEcUPE",
-		["id"] = 167,
+		["id"] = 168,
 		["soundfx"] = {
 			{
 				["delay"] = 800,
@@ -12472,7 +12481,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -12483,7 +12492,9 @@
 		},
 		["guid"] = "33A7DA784A0300407DA5A59AEFAC3C3A",
 		["guid_str"] = "qmwxClER",
-		["id"] = 168,
+		["id"] = 169,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["time"] = 1800,
 	},
 }

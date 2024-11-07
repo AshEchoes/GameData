@@ -32,6 +32,7 @@
 		["guid"] = "0C59F3394340C98D7C33348E9F8E0778",
 		["guid_str"] = "0yAzNqR9",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -412,6 +413,15 @@
 			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[size 17]两个失控的战神几乎将周围夷为平地，附近的士兵都被掀飞出去，\n\n勒拿的身体早就已经结晶化，气管被一点点封死，再也说不出一句完整的话，而眼睛还死死盯着“战场”上的怒蛇。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "28F069CC4E48D0DF685C7CA29160B6A0",
 		["guid_str"] = "EQm4bO0C",
@@ -538,6 +548,12 @@
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
 				["length"] = 649,
 				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 800,
+				["event"] = "event:/ui/advse/2-7-bodyfall",
+				["length"] = 698,
+				["volume"] = 3.0,
 			},
 		},
 	},
@@ -1183,7 +1199,7 @@
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "很高兴认识你，勒拿。",
+		["text"] = "很高兴认识你，勒拿。\nIt's good to meet you, Lena.",
 	},
 	{
 		["bg_info"] = {
@@ -2815,6 +2831,7 @@
 		["guid_str"] = "zg1g6Ti1",
 		["id"] = 52,
 		["is_white_base_bg"] = true,
+		["just_auto_play"] = true,
 		["speaker_info"] = {
 			["anim"] = "pain",
 			["material"] = "M_UI_SpinePortrait",
@@ -3173,7 +3190,7 @@
 						{
 							["param"] = {
 								["delay"] = 500,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -3215,6 +3232,7 @@
 		["guid"] = "E84777F244A579F24550E5BBBD155A74",
 		["guid_str"] = "etjMgbQF",
 		["id"] = 59,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{

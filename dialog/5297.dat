@@ -916,6 +916,16 @@
 		["guid"] = "DB6DA1C6458C38F7A39077A0E75D6AB2",
 		["guid_str"] = "iT6WNK8B",
 		["id"] = 23,
+		["soundfx"] = {
+			{
+				["dir"] = "right",
+				["event"] = "event:/sfx/story/chap6/avg_chap6_knockdoor_light",
+				["length"] = 1248,
+				["offset"] = 1000,
+				["position"] = 3,
+				["volume"] = 1.2000000476837,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3296,7 +3306,7 @@
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "其二，我可以取出你体内的异核，将神诞之地给予你的“恩赐”从你体内彻底拔除，治愈伊南纳不负责任的实验后遗症，并保证你的身体不会再有事，让你从这份恐惧和本可以不属于你的重担里脱出。",
+		["text"] = "其二，我可以取出你体内的异核，将神诞之地给予你的“恩赐”从你体内彻底拔除，治愈伊南纳不负责任的实验后遗症，并保证你的身体不会再有事，让你得以从这份恐惧和本可以不属于你的重担里脱出。",
 	},
 	{
 		["bg_info"] = {
@@ -3804,10 +3814,11 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["knowledge_word_info"] = {
+					["anchor"] = "right",
 					["id"] = "445",
 					["is_enabled"] = true,
 					["offset"] = {
-						100,
+						-50,
 						-300,
 					},
 				},
@@ -3918,10 +3929,11 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["knowledge_word_info"] = {
+					["anchor"] = "right",
 					["id"] = "445",
 					["is_enabled"] = true,
 					["offset"] = {
-						100,
+						-50,
 						-300,
 					},
 				},
@@ -4122,10 +4134,11 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["knowledge_word_info"] = {
+					["anchor"] = "right",
 					["id"] = "445",
 					["is_enabled"] = true,
 					["offset"] = {
-						100,
+						-50,
 						-300,
 					},
 				},
@@ -4272,7 +4285,17 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[size 17][indent][indent]南尼亚看看母亲，又看看叔叔，\n\n[indent][indent]跳下还有些高的小凳子，晃荡着跑到叔叔面前，牵起他没有受伤的手，\n\n[indent][indent]手套下的手指有轻微的伤痕，像是曾不小心烫到。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "820DA7684423F0D02905DF9D79BF1DEC",
 		["guid_str"] = "irTXUVO9",
@@ -4508,7 +4531,17 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[size 17][indent][indent]女孩儿有着浅绿色的眼睛，就像亚兰一样，永远盛着热情和笑意。\n\n[indent][indent]这是亚兰和朱舒尔的孩子。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "701291614ADCF481073630A00280A521",
 		["guid_str"] = "zUwwjGRu",
@@ -4590,6 +4623,15 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["text"] = "[size 17][indent][indent]一整个下午，米达斯都坐在休息室陪着南尼亚和其他几个孩子，认真回复每一个天真的问题。\n\n[indent][indent]其他时间则是看着已经看了大半的笔记，慢慢翻看着剩余不多的一群厄亚佣兵的过往。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "1197774B43A292BAF05A159C27FE669A",
 		["guid_str"] = "oIOa0Qjn",
@@ -4918,7 +4960,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile2",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5441,6 +5483,15 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["text"] = "[size 17][indent][indent]朱舒尔让南尼亚坐在自己怀里，抱着女儿轻轻拍着，\n\n[indent][indent]很久没被妈妈这么哄的南尼亚紧紧依偎着最喜欢的人，\n\n[indent][indent]脸颊贴在妈妈的颈侧，闷闷笑了两声，很快就睡着了。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "4137085F4D59F729896E4C821EF3C829",
 		["guid_str"] = "dx4chXjR",
@@ -5987,6 +6038,9 @@
 				},
 			},
 		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/01_whoosh_paper_open",
@@ -6026,6 +6080,9 @@
 				["template_type"] = "image",
 			},
 		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6058,6 +6115,9 @@
 				["path"] = "interface/resource/Game/DialogActivityActDesertCGBG/dialogueCGBG_activitysand_midas_007.png",
 				["template_type"] = "image",
 			},
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 	},
 	{
@@ -6092,6 +6152,9 @@
 				["template_type"] = "image",
 			},
 		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6125,6 +6188,9 @@
 				["template_type"] = "image",
 			},
 		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6157,6 +6223,9 @@
 				["path"] = "interface/resource/Game/DialogActivityActDesertCGBG/dialogueCGBG_activitysand_midas_007.png",
 				["template_type"] = "image",
 			},
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 	},
 	{
@@ -6455,6 +6524,15 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["text"] = "[size 17][indent][indent]米达斯站起身，挺起胸膛，\n\n[indent][indent]悬吊的手臂触动着痛觉，却丝毫没有影响他此刻的气质，\n\n[indent][indent]他整理下军帽，重新露出紫色的眼睛。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "BE2C53414D0DE9A57477029D3AB8236B",
 		["guid_str"] = "Pcx3tJvO",
@@ -7424,30 +7502,6 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am54mds/am54mds_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 300,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7461,7 +7515,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_axe_action1",
 				["pos"] = {
-					-200,
+					50,
 					10,
 				},
 				["shadow"] = {
@@ -7485,7 +7539,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
-					-400,
+					-100,
 					0,
 				},
 				["shadow"] = {
@@ -7516,27 +7570,6 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.56470590829849,
-					0.56470590829849,
-					0.56470590829849,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am54mds/am54mds_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7550,7 +7583,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_axe_action1",
 				["pos"] = {
-					-200,
+					50,
 					10,
 				},
 				["shadow"] = {
@@ -7574,7 +7607,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
-					-400,
+					-100,
 					0,
 				},
 				["shadow"] = {
@@ -7598,27 +7631,6 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.56470590829849,
-					0.56470590829849,
-					0.56470590829849,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am54mds/am54mds_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7632,7 +7644,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_axe_action1",
 				["pos"] = {
-					-200,
+					50,
 					10,
 				},
 				["shadow"] = {
@@ -7656,7 +7668,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
-					-400,
+					-100,
 					0,
 				},
 				["shadow"] = {
@@ -7694,54 +7706,17 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am54mds/am54mds_action1",
-				["pos"] = {
-					300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af69xlsz/af69xlsz_axe_action1",
-				["pos"] = {
-					-200,
-					10,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "smile1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.56470590829849,
-					0.56470590829849,
-					0.56470590829849,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af69xlsz/af69xlsz_brolly_action1",
-				["pos"] = {
-					-400,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -7761,7 +7736,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal2",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -7775,52 +7750,6 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am54mds/am54mds_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af69xlsz/af69xlsz_axe_action1",
-				["pos"] = {
-					-200,
-					10,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "smile1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.56470590829849,
-					0.56470590829849,
-					0.56470590829849,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af69xlsz/af69xlsz_brolly_action1",
-				["pos"] = {
-					-400,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -7854,12 +7783,17 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am54mds/am54mds_action1",
-				["pos"] = {
-					300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
 				},
 			},
 			{
@@ -7876,15 +7810,24 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_axe_action1",
 				["pos"] = {
-					-200,
+					50,
 					10,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 			{
-				["anim"] = "smile1",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -7897,11 +7840,20 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
-					-400,
+					-100,
 					0,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -7924,28 +7876,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal2",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.56470590829849,
-					0.56470590829849,
-					0.56470590829849,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am54mds/am54mds_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "smile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -7958,7 +7889,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_axe_action1",
 				["pos"] = {
-					-200,
+					50,
 					10,
 				},
 				["shadow"] = {
@@ -7966,7 +7897,7 @@
 				},
 			},
 			{
-				["anim"] = "smile1",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -7982,7 +7913,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
-					-400,
+					-100,
 					0,
 				},
 				["shadow"] = {
@@ -8032,7 +7963,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2500,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -8061,6 +7992,7 @@
 		["guid"] = "73B5AEBB44872BE528EFC28AFDAB52CC",
 		["guid_str"] = "2ZQBP7dv",
 		["id"] = 159,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -8069,7 +8001,7 @@
 				["stop"] = 1,
 			},
 		},
-		["time"] = 1500,
+		["time"] = 2700,
 	},
 	{
 		["bg_info"] = {
@@ -8115,6 +8047,7 @@
 		["guid"] = "9BE7EE2946ACB412707AC0AAD8A44F7F",
 		["guid_str"] = "PggagyXt",
 		["id"] = 160,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -8152,6 +8085,15 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["text"] = "[size 17][indent][indent]夜晚的荒地，卡尔布随意地倚在一块断壁残垣上抬头看着天，右手握着块碎晶，\n\n[indent][indent]今夜无风，星星都跑了过来，想必明天这片沙地会迎来一个好天气。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "94A545F64A4FE960070DB39421E07EB2",
 		["guid_str"] = "I2eHmz2v",
@@ -8241,6 +8183,15 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["text"] = "[size 17][indent][indent]浑身是伤的怒蛇被关在为同调者专门准备的牢笼中，\n\n[indent][indent]全身上下都被禁锢，无法使用力量，也无法暴起伤人，没办法做任何他想做的事，\n\n[indent][indent]哪怕是没出息地结束自己的生命。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "2FF57B8C439A5003E5A9919E5E918D36",
 		["guid_str"] = "EdQRXIIB",
@@ -8568,7 +8519,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]卡尔布低头看着脚下不知何时出现的蜘蛛，\n蜘蛛绕着卡尔布的脚转了一圈，张大嘴巴吐出一颗红色的珍珠，接着隐入了夜幕中。",
+			["text"] = "[size 17]卡尔布低头看着脚下不知何时出现的蜘蛛，\n\n蜘蛛绕着卡尔布的脚转了一圈，张大嘴巴吐出一颗红色的珍珠，接着隐入了夜幕中。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -8824,7 +8775,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -8890,7 +8841,7 @@
 				},
 			},
 			{
-				["anim"] = "serious",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -8929,7 +8880,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -9001,5 +8952,6 @@
 		["id"] = 176,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["time"] = 1800,
 	},
 }

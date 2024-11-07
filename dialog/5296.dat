@@ -21,6 +21,7 @@
 		["guid"] = "EEB3E73044A3382FF2B3A89D8C08F24F",
 		["guid_str"] = "fMNH9Zkl",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -212,7 +213,7 @@
 				["length"] = 0,
 			},
 		},
-		["text"] = "你他——呃！真他妈有机关？？！！有病吧！！",
+		["text"] = "你他——呃！真[c a3bdc8][**厄亚文明语**][/c]有机关？？！！有病吧！！",
 	},
 	{
 		["bg_info"] = {
@@ -312,7 +313,17 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17][indent][indent]憋着力气踹开房门，怒蛇看着房间里不知道为什么遮着头的人气不打一处来，\n\n[indent][indent]一把将人拽出来，对方一个没站稳，怒蛇赶紧扶住，结果牵动了伤口，自己先倒吸了一口气。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "7178ADBB4D4BC3185435D688FF2FDAC1",
 		["guid_str"] = "PpyriJVg",
@@ -409,7 +420,7 @@
 		["guid_str"] = "mrVABcMj",
 		["id"] = 9,
 		["name"] = "怒蛇",
-		["text"] = "……草，快、快走，再不走真要指望收尸了……你这是受伤了？他们把你腿打折了？",
+		["text"] = "……[c a3bdc8][**厄亚文明语**][/c]，快、快走，再不走真要指望收尸了……\n你这是受伤了？他们把你腿打折了？",
 		["text_info"] = {
 			["tween"] = {
 				{
@@ -517,7 +528,7 @@
 				["volume"] = 6.0,
 			},
 		},
-		["text"] = "不是……真毒哑了？草……哪边折了，等出去改天打回来，赶紧，我背你出去！嘶……\n[*厄亚文明语*]他们的装备上是不是涂了什么东西[*厄亚文明语*]……",
+		["text"] = "不是……真毒哑了？[c a3bdc8][**厄亚文明语**][/c]……哪边折了，等出去改天打回来，赶紧，我背你出去！嘶……[c a3bdc8][**厄亚文明语**][/c]他们的装备上是不是涂了什么东西[c a3bdc8][**厄亚文明语**][/c]……",
 	},
 	{
 		["bg_info"] = {
@@ -529,8 +540,18 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]怒蛇眼前有点发黑，来不及继续询问衡宁的异常，决定拼一把，趁他还能行动，爬也要让他们两个爬出去。\n\n——再不济真的要死，也不能死在这种地方。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "2B60EA1543957F57699CE6B0811B68F5",
 		["guid_str"] = "XFgExDhG",
@@ -1430,7 +1451,7 @@
 		["guid_str"] = "Qfs4wUA3",
 		["id"] = 26,
 		["name"] = "怒蛇",
-		["text"] = "什么叫算——{*厄亚文明语*}终于到了！",
+		["text"] = "什么叫算——[c a3bdc8][**厄亚文明语**][/c]终于到了！",
 	},
 	{
 		["bg_info"] = {
@@ -1478,7 +1499,17 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17][indent]终于逃出生天，看见露天日光的瞬间怒蛇甚至觉得有点眩晕，\n\n[indent]按理说从出生起就四处求生，遇到老师后更是脑袋挂在腰带上过日子，不应该有这种感觉……\n\n[indent]哦，想起来了，是伤口有问题。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "B381A8254F75EBA7C354F4AF8F498F94",
 		["guid_str"] = "0nTgBFRL",
@@ -1501,6 +1532,7 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17][indent]走出自认为相对安全的距离，怒蛇脱力地扔下衡宁，捂住腹部，\n\n[indent]他这才注意到，原来一路上，他身上早就破破烂烂不知道多了几处大大小小的伤。",
 		},
 		["guid"] = "F388F96A40E928CE7FACC29057D2FAD6",
@@ -1601,11 +1633,17 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.55686277151108,
+						0.40392157435417,
+						0.28235295414925,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
 							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
+							["F_ScreenLightness"] = 5.0,
+							["F_ScreenSaturation"] = 0.1,
 						},
 						["in_time"] = 0,
 						["is_loop"] = true,
@@ -1621,7 +1659,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_camp_01.png",
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_ferryboat_06.png",
 			},
 			{
 			},
@@ -1633,43 +1671,18 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["knowledge_word_info"] = {
+					["anchor"] = "right",
 					["id"] = "449",
 					["is_enabled"] = true,
 					["offset"] = {
-						150,
+						-100,
 						-300,
 					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n19ybtz_young/n19ybtz_young_action1",
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am65fgm/am65fgm_action1",
 				["pos"] = {
-					400,
+					-350,
 					0,
 				},
 				["shadow"] = {
@@ -1697,9 +1710,9 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n23ynnsoldier_03/n23ynnsoldier_03_action1",
+				["path"] = "am65fgm/am65fgm_action1",
 				["pos"] = {
-					-400,
+					350,
 					0,
 				},
 				["shadow"] = {
@@ -2143,7 +2156,47 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.30000001192093,
 			["text"] = "[size 17][indent][indent]不知什么时候，风吹落了布巾，露出从见面起就一直隐藏在其中的脸。\n\n[indent][indent]那是一张“嵌”着奇怪颜色晶体的脸，晨光下，尽三分之一都泛着些透明，惊艳又瘆人。\n\n[indent][indent]——就像刚刚看见莎拉塔尔雕像，就像这个神诞之地。",
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n86hengning/n86hengning_action2",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.0,
+							["start_value"] = 1.0,
+							["time"] = 1000,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = -250,
+								["y"] = 0,
+							},
+							["time"] = 600,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
 		},
 		["guid"] = "45970FCF4655BEA085220AB19EE3B538",
 		["guid_str"] = "QDJsGZRV",
@@ -2374,6 +2427,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]勿寻，忘归。\n\n这几个字的意思又更具体了一点。",
 			["text_align"] = "center",
 			["tween"] = {
@@ -2643,7 +2697,7 @@
 		["guid_str"] = "rSC1379L",
 		["id"] = 45,
 		["name"] = "怒蛇",
-		["text"] = "嗤，那你不还……不让人来。不是挺厉害的，那帮人还说你会飞……[*厄亚文明语*]……比西姆还蠢……",
+		["text"] = "嗤，那你不还……不让人来。不是挺厉害的，那帮人还说你会飞……[c a3bdc8][*厄亚文明语*][/c]……比西姆还蠢……",
 	},
 	{
 		["bg_info"] = {
@@ -3760,7 +3814,7 @@
 					["is_enabled"] = true,
 					["offset"] = {
 						150,
-						300,
+						-300,
 					},
 				},
 				["material"] = "M_UI_SpineMat",
@@ -4270,7 +4324,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4604,7 +4658,7 @@
 		["guid_str"] = "90Fl9jPc",
 		["id"] = 76,
 		["name"] = "衡宁",
-		["text"] = "如果有一天，伊南纳和沙玛什有了顾忌不敢轻举妄动，那一定是莎拉塔尔死因恨“死而复生”制衡在其中，又或者……",
+		["text"] = "如果有一天，伊南纳和沙玛什有了顾忌不敢轻举妄动，那一定是莎拉塔尔因恨“死而复生”制衡在其中，又或者……",
 	},
 	{
 		["bg_info"] = {
@@ -4737,7 +4791,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "wry",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4796,9 +4850,51 @@
 			},
 		},
 		["caption_info"] = {
+			["align"] = "bottom",
 			["b_use_mask"] = true,
 			["text"] = "[size 17]衡宁坦荡地抬起头，双手插进口袋，像是寻常清晨的每一个“早安”。",
 			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n86hengning/n86hengning_action2",
+				["pos"] = {
+					0,
+					40,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = -250,
+								["y"] = 0,
+							},
+							["time"] = 800,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.2000000476837,
+							["scale_y"] = 1.2000000476837,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+				},
+			},
 		},
 		["guid"] = "32D4FDD0416AA9D5E1A90BA1D9B71195",
 		["guid_str"] = "l7BvPGA2",
@@ -4829,8 +4925,8 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n86hengning/n86hengning_action2",
 				["pos"] = {
-					250,
 					0,
+					40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4838,40 +4934,14 @@
 				["tween"] = {
 					{
 						["param"] = {
+							["anchor"] = "center",
 							["delay"] = 0,
-							["time"] = 300,
+							["mode"] = "linear",
+							["scale_x"] = 1.2000000476837,
+							["scale_y"] = 1.2000000476837,
+							["time"] = 0,
 						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
-			{
-				["anim"] = "sad",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n19ybtz_young/n19ybtz_young_action1",
-				["pos"] = {
-					-250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 300,
-						},
-						["tween"] = "FadeIn",
+						["tween"] = "ScaleIn",
 					},
 				},
 			},
@@ -4892,7 +4962,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile3",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4907,32 +4977,24 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n86hengning/n86hengning_action2",
 				["pos"] = {
-					250,
 					0,
+					40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-			},
-			{
-				["anim"] = "sad",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n19ybtz_young/n19ybtz_young_action1",
-				["pos"] = {
-					-250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
+				["tween"] = {
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.2000000476837,
+							["scale_y"] = 1.2000000476837,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
 				},
 			},
 		},
@@ -4940,7 +5002,7 @@
 		["guid_str"] = "LjczenOP",
 		["id"] = 82,
 		["name"] = "衡宁",
-		["text"] = "Honor for sirrush.",
+		["text"] = "Honor…for sirrush.",
 	},
 	{
 		["bg_info"] = {
@@ -5113,7 +5175,7 @@
 		["guid_str"] = "JypbuUeK",
 		["id"] = 86,
 		["name"] = "怒蛇",
-		["text"] = "……………………风…………………………",
+		["text"] = "[c ca4243]……………………风…………………………[/c]",
 		["text_info"] = {
 			["tween"] = {
 				{
@@ -5215,7 +5277,7 @@
 				["volume"] = 6.0,
 			},
 		},
-		["text"] = "风广陌！！！！开[*厄亚文明语*]枪！！！！开[*厄亚文明语*]枪！！！！！",
+		["text"] = "[size 22][c ca4243]风广陌！！！！开[/c][c a3bdc8][**厄亚文明语**][/c][c ca4243]枪！！！！开[/c][c a3bdc8][**厄亚文明语**][/c][c ca4243]枪！！！！！[/c]",
 		["text_info"] = {
 			["tween"] = {
 				{
@@ -5240,7 +5302,17 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[size 17][indent][indent]戴墨镜的青年拎着最得意的长狙翻过掩体，快速接近，\n\n[indent][indent]下一秒就将伤痕累累的佣兵团长掀翻在地，利索地绑上绳子拽着拖行，\n\n[indent][indent]如果他妹妹在，就会发现这个情景像极了幼时哥哥给她吹牛的入团场景。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "665B305C4B6E1974201E4C91752C2129",
 		["guid_str"] = "5yJmGcqn",
@@ -5369,7 +5441,17 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[size 17][indent][indent]身上的弹孔和刀伤还在流血，不知是什么武器，血迹甚至透着黑。\n\n[indent][indent]怒蛇拉风箱似的喘息，死死盯着被留在原地穿着防沙风衣的身影，分不清嘴里在喊什么。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "EAA5EBAE40A4BBE648C224A4BF6E96AC",
 		["guid_str"] = "IaSa04I1",
@@ -5555,6 +5637,16 @@
 						},
 						["tween"] = "Shake",
 					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 0.0,
+							["time"] = 200,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
 				},
 			},
 		},
@@ -5562,7 +5654,7 @@
 		["guid_str"] = "uJPwI6q2",
 		["id"] = 93,
 		["name"] = "风广陌",
-		["text"] = "别喊了！！我[*厄亚文明语*]带不了！！！他死透了！你也快死了！！！你懂么！！！",
+		["text"] = "[size 20]别喊了！！我[c a3bdc8][**厄亚文明语**][/c]带不了！！！他死透了！你也快死了！！！你懂么！！！",
 		["text_info"] = {
 			["tween"] = {
 				{
@@ -5626,6 +5718,18 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.0,
+							["start_value"] = 1.0,
+							["time"] = 200,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
 				},
 			},
 		},
@@ -5755,6 +5859,12 @@
 				["event"] = "event:/sfx/common/materials/impacts/generic/explode_04",
 				["length"] = 5139,
 				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/0-01/0002_burning_lp",
+				["length"] = 20560,
+				["loop"] = 1,
+				["volume"] = 1.5,
 			},
 		},
 	},
@@ -5952,149 +6062,21 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[size 17][indent][indent]手下半死不活的人终于停止了挣扎，\n\n[indent][indent]风广陌看着远处被烈火封锁的来路和消融在火光中、独属于他的枪下亡魂，\n\n[indent][indent]眼睛终于混入了茫然。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "8E6A96704D07D7300FC9018AD1C17FBD",
 		["guid_str"] = "bFWLgDKC",
 		["id"] = 99,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_14.png",
-			},
-			{
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "closeeyeserious",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["knowledge_word_info"] = {
-					["id"] = "448",
-					["is_enabled"] = true,
-					["offset"] = {
-						200,
-						-300,
-					},
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am65fgm/am65fgm_action1",
-				["pos"] = {
-					250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 300,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
-			{
-				["anim"] = "anger",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n19ybtz_young/n19ybtz_young_action1",
-				["pos"] = {
-					-250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 300,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
-		},
-		["guid"] = "FE82F43C48C3634FB5C7D782E4DC6106",
-		["guid_str"] = "m80jDbc2",
-		["id"] = 100,
-		["name"] = "风广陌",
-		["text"] = "我送你去恩古拉医院。",
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_14.png",
-			},
-			{
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "sad",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["knowledge_word_info"] = {
-					["id"] = "448",
-					["is_enabled"] = true,
-					["offset"] = {
-						200,
-						-300,
-					},
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am65fgm/am65fgm_action1",
-				["pos"] = {
-					250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "anger",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n19ybtz_young/n19ybtz_young_action1",
-				["pos"] = {
-					-250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "37F47A1E4B33A088F857D3A2328FA8C8",
-		["guid_str"] = "4v0Z0fOC",
-		["id"] = 101,
-		["name"] = "风广陌",
-		["text"] = "……记住，是我杀了衡宁，别对着别人发疯。",
 	},
 	{
 		["bg_info"] = {
@@ -6104,9 +6086,116 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["end_alpha"] = 0.30000001192093,
+								["start_alpha"] = 1.0,
+								["time"] = 2000,
 							},
-							["tween"] = "FadeOut",
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_14.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 1800,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["guid"] = "10AC864449C654E47E5C45B88B42148C",
+		["guid_str"] = "0A2ugmY0",
+		["id"] = 100,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/yemo/yemo_run",
+				["length"] = 3822,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.30000001192093,
+								["start_alpha"] = 0.30000001192093,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_14.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]我送你去恩古拉医院。",
+			["text_align"] = "center",
+		},
+		["guid"] = "FE82F43C48C3634FB5C7D782E4DC6106",
+		["guid_str"] = "m80jDbc2",
+		["id"] = 101,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.30000001192093,
+								["start_alpha"] = 0.30000001192093,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_Inanna_14.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17][c ca4243]……记住，是我杀了衡宁，别对着别人发疯。[/c]",
+			["text_align"] = "center",
+		},
+		["guid"] = "37F47A1E4B33A088F857D3A2328FA8C8",
+		["guid_str"] = "4v0Z0fOC",
+		["id"] = 102,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.30000001192093,
+								["time"] = 2000,
+							},
+							["tween"] = "AlphaChange",
 						},
 					},
 				},
@@ -6119,65 +6208,10 @@
 			["mute"] = true,
 			["operation"] = 2,
 		},
-		["characters"] = {
-			{
-				["anim"] = "sad",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am65fgm/am65fgm_action1",
-				["pos"] = {
-					250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "anger",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n19ybtz_young/n19ybtz_young_action1",
-				["pos"] = {
-					-250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-		},
 		["guid"] = "2F6D8BB84BE32A92420121881848220A",
 		["guid_str"] = "iQchwV4z",
-		["id"] = 102,
+		["id"] = 103,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -6185,7 +6219,13 @@
 				["length"] = 60000,
 				["stop"] = 1,
 			},
+			{
+				["event"] = "event:/sfx/story/0-01/0002_burning_lp",
+				["length"] = 20560,
+				["stop"] = 1,
+			},
 		},
+		["time"] = 3500,
 	},
 	{
 		["bg_info"] = {
@@ -6202,8 +6242,14 @@
 		},
 		["guid"] = "79FDF1C1477B5A349F2802A91D10334C",
 		["guid_str"] = "yA9KcJNr",
-		["id"] = 103,
+		["id"] = 104,
 		["name"] = "？？？",
+		["sound"] = {
+			["volume"] = 0.40000000596046,
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6215,17 +6261,26 @@
 		},
 		["caption_info"] = {
 			["align"] = "bottom",
-			["text"] = "\n[size 17]……弟弟？",
+			["text"] = "\n[size 17][c a3bdc8]（……弟弟？）[/c]",
 			["text_align"] = "center",
 		},
 		["guid"] = "E35DF657409B6C0CB54F1690E5DB4BDF",
 		["guid_str"] = "RFKnIvJx",
-		["id"] = 104,
+		["id"] = 105,
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
 					["video"] = {
 						["is_queue"] = true,
 						["is_ratio_full"] = true,
@@ -6240,7 +6295,7 @@
 		},
 		["guid"] = "64E9E06344DB78E876DA31B070564A50",
 		["guid_str"] = "00KuOTfp",
-		["id"] = 105,
+		["id"] = 106,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -6273,7 +6328,7 @@
 		},
 		["guid"] = "B4823EEC4649BC6E7C72CD86A0D245B3",
 		["guid_str"] = "xCm0CNyU",
-		["id"] = 106,
+		["id"] = 107,
 		["name"] = "米达斯",
 		["text"] = "…………………………",
 	},
@@ -6295,7 +6350,7 @@
 		},
 		["guid"] = "13A2FEE84792328A1A9EE699763EA94E",
 		["guid_str"] = "EOJ4qggE",
-		["id"] = 107,
+		["id"] = 108,
 		["name"] = "米达斯",
 		["text"] = "原来我……见过他们……",
 	},
@@ -6317,7 +6372,7 @@
 		},
 		["guid"] = "8617E9EB4C99C0D2B46921908A96C5C5",
 		["guid_str"] = "lOk5KR1p",
-		["id"] = 108,
+		["id"] = 109,
 		["name"] = "米达斯",
 		["text"] = "如果……真的……能握住……",
 	},
@@ -6347,7 +6402,6 @@
 				["config"] = {
 					["video"] = {
 						["is_queue"] = true,
-						["is_stage"] = true,
 						["path"] = "movies/Desktop/avg/activity_desert/activity_desert_mds_4_biyan_in.bk2",
 					},
 				},
@@ -6360,8 +6414,9 @@
 		},
 		["guid"] = "D67FAAA345B4721ADCD18D89B32FA116",
 		["guid_str"] = "I1ZvIyjp",
-		["id"] = 109,
+		["id"] = 110,
 		["just_auto_play"] = true,
+		["time"] = 1400,
 	},
 	{
 		["bg_info"] = {
@@ -6381,7 +6436,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 2500,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -6396,7 +6451,9 @@
 		},
 		["guid"] = "19C482EB48BBB3E8898CB0A427D641FF",
 		["guid_str"] = "feW60TjY",
-		["id"] = 110,
+		["id"] = 111,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["time"] = 2500,
 	},
 }

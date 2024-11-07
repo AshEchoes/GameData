@@ -48,6 +48,7 @@
 		["guid"] = "65B423B744F1424746C09F9281BC3BEF",
 		["guid_str"] = "dq2Ippd6",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -303,7 +304,7 @@
 				["volume"] = 6.0,
 			},
 		},
-		["text"] = "伊南纳前线告捷！举国庆祝「战神迦路」首战大胜！走过路过不要错过——",
+		["text"] = "伊南纳前线告捷！举国庆祝「战神迦路」首战大胜！走过路过别错过——",
 		["text_info"] = {
 			["tween"] = {
 				{
@@ -370,14 +371,8 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n19ybtz_young/n19ybtz_young_action1",
+				["path"] = "n19ybtz/n19ybtz_action1",
 				["pos"] = {
 					250,
 					0,
@@ -718,7 +713,7 @@
 		["guid_str"] = "4V7Vb2mK",
 		["id"] = 12,
 		["name"] = "怒蛇",
-		["text"] = "我说，果然现在的“战神”，不过就是上下嘴皮一碰就能捧出来的演员，上面人的狗罢了。",
+		["text"] = "我说，果然现在的“战神”，不过就是上下嘴皮子一碰就能捧出来的演员，上面人的狗罢了。",
 	},
 	{
 		["bg_info"] = {
@@ -1257,6 +1252,53 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action2",
+				["pos"] = {
+					100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 2000,
+							["direction"] = "left",
+							["dis"] = 60,
+							["end_alpha"] = 1.0,
+							["time"] = 300,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 2400,
+							["pos"] = {
+								["x"] = 100,
+								["y"] = 0,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
 				["knowledge_word_info"] = {
 					["anchor"] = "right",
 					["id"] = "452",
@@ -1279,10 +1321,21 @@
 					{
 						["param"] = {
 							["am"] = 15,
-							["delay"] = 0,
+							["delay"] = 2000,
 							["duration"] = 300,
 							["pos"] = {
 								["x"] = 250,
+								["y"] = 0,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 2400,
+							["pos"] = {
+								["x"] = -50,
 								["y"] = 0,
 							},
 							["time"] = 200,
@@ -1298,9 +1351,10 @@
 		["name"] = "西姆",
 		["soundfx"] = {
 			{
+				["delay"] = 2000,
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
 				["length"] = 649,
-				["volume"] = 6.0,
+				["volume"] = 16.0,
 			},
 		},
 		["text"] = "等一下，我跟你一起——啊！",
@@ -1320,14 +1374,14 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am54mds/am54mds_action2",
+				["path"] = "am54mds/am54mds_action1",
 				["pos"] = {
-					250,
+					200,
 					0,
 				},
 				["shadow"] = {
@@ -1340,9 +1394,13 @@
 							["direction"] = "left",
 							["dis"] = 100,
 							["end_alpha"] = 1.0,
+							["pos"] = {
+								["x"] = 50,
+								["y"] = 0,
+							},
 							["time"] = 200,
 						},
-						["tween"] = "MoveIn",
+						["tween"] = "RelativePositionChange",
 					},
 				},
 			},
@@ -1359,6 +1417,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n23ynnsoldier_03/n23ynnsoldier_03_action1",
+				["pos"] = {
+					-50,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1369,10 +1431,10 @@
 							["delay"] = 0,
 							["duration"] = 300,
 							["pos"] = {
-								["x"] = -250,
+								["x"] = -200,
 								["y"] = 0,
 							},
-							["time"] = 200,
+							["time"] = 300,
 						},
 						["tween"] = "RelativePositionChange",
 					},
@@ -1407,18 +1469,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.56470590829849,
-					0.56470590829849,
-					0.56470590829849,
-					1.0,
-				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am54mds/am54mds_action2",
+				["path"] = "am54mds/am54mds_action1",
 				["pos"] = {
 					250,
 					0,
@@ -1486,12 +1542,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am54mds/am54mds_action2",
+				["path"] = "am54mds/am54mds_action1",
 				["pos"] = {
 					250,
 					0,
@@ -1526,7 +1582,7 @@
 		["guid_str"] = "eNoT1Y2v",
 		["id"] = 23,
 		["name"] = "年轻的金发军官",
-		["text"] = "不，是我太得意忘形忘了……卡尔布，等等我！哦，庆典快乐佣兵先生，我先走了！",
+		["text"] = "不，是我太得意忘形了……卡尔布，等等我！哦，庆典快乐佣兵先生，我先走了！",
 	},
 	{
 		["bg_info"] = {
@@ -1769,6 +1825,8 @@
 		["guid"] = "8286351740983AAAB75A40BF480EA2F5",
 		["guid_str"] = "1gVEOsN6",
 		["id"] = 27,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -1798,11 +1856,23 @@
 		["guid"] = "E058B1C54EF80ED1EECF08A0C2EC2DAC",
 		["guid_str"] = "k0mDLEBU",
 		["id"] = 28,
+		["is_white_base_bg"] = true,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "",
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 800,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_black.png",
 			},
 			{
 			},
@@ -1825,6 +1895,13 @@
 		["guid"] = "D2546F894D959681815A2A9B4AF6B0FF",
 		["guid_str"] = "zg5GbVhc",
 		["id"] = 29,
+		["is_white_base_bg"] = true,
+		["sound"] = {
+			["volume"] = 0.40000000596046,
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1852,11 +1929,26 @@
 		["guid"] = "49B37E844527811D4E62F78ED3D8B2A5",
 		["guid_str"] = "nsKoHhYT",
 		["id"] = 30,
+		["sound"] = {
+			["volume"] = 0.40000000596046,
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 800,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
 					["video"] = {
 						["is_queue"] = true,
 						["is_ratio_full"] = true,
@@ -2152,7 +2244,9 @@
 		["guid"] = "D4689D314E5EBB09C021C6B543DAC30B",
 		["guid_str"] = "VKdTRkDC",
 		["id"] = 38,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["time"] = 3800,
 	},
 	{
 		["bg_info"] = {
@@ -2176,6 +2270,7 @@
 		["guid"] = "8B284CFE47B9FB5E4CAB02A37AB584AF",
 		["guid_str"] = "1p3j4J4k",
 		["id"] = 39,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -3168,7 +3263,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3647,10 +3742,6 @@
 					1.0,
 				},
 				["is_flip_x"] = true,
-				["knowledge_word_info"] = {
-					["id"] = "324",
-					["is_enabled"] = true,
-				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
@@ -4237,7 +4328,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["height"] = 100,
-			["text"] = "[size 17][indent][indent]碰触到了那一刻，周围的声音褪去，昏睡三天又在卧床两天的米达斯终于又感受到了久违的躁动，\n\n[indent][indent]不过大部分的源头却来自——",
+			["text"] = "[size 17][indent][indent]碰触到了那一刻，周围的声音褪去，昏睡三天又卧床两天的米达斯终于又感受到了久违的躁动，\n\n[indent][indent]不过大部分的源头却来自——",
 		},
 		["guid"] = "0C6E836140E4E583D2A49484E30D7E3F",
 		["guid_str"] = "RfOup6dU",
@@ -4748,6 +4839,15 @@
 			["b_use_mask"] = true,
 			["height"] = 200,
 			["text"] = "[size 17][indent][indent]米达斯一惊，原来在他昏迷的时候还有这样的危险，\n\n[indent][indent]可眼下恩古拉医院无人提起也丝毫不见慌乱，想来是这对姐妹神不知鬼不觉地解除了危机。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "391D14BD4DD66028A5D509B8F7560D2D",
 		["guid_str"] = "ZQItCYnz",
@@ -5341,7 +5441,7 @@
 		["guid_str"] = "XYgSXcGq",
 		["id"] = 92,
 		["name"] = "米达斯",
-		["text"] = "你们在我身上做的任何一件事，看起来都不能公之于众。所以那两个选择……你们只是在试探我值不值得被救？",
+		["text"] = "你们在我身上做的任何一件事，看起来都不能公之于众。\n所以那两个选择……你们只是在试探我值不值得被救？",
 	},
 	{
 		["bg_info"] = {
@@ -5947,7 +6047,7 @@
 		["guid_str"] = "I2OWeP8G",
 		["id"] = 102,
 		["name"] = "波丝",
-		["text"] = "这句“谢谢”米达斯先生还是自己传递为好。虽然并没有尝试过将异核重新合而为一，不过我很期待有这样一天。",
+		["text"] = "这句“谢谢”米达斯先生还是自己传递为好。\n虽然并没有尝试过将异核重新合而为一，不过我很期待有这样一天。",
 	},
 	{
 		["bg_info"] = {
@@ -6022,6 +6122,15 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["text"] = "[size 17][indent][indent]波丝抬起手，上面好像缠络着一些半透明的银丝。\n\n[indent][indent]是什么切开了他的手，又是什么把他的伤口重新缝了起来……\n\n[indent][indent]米达斯暂时不太想知道手术室里详细的情形。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "934B37F94FE3FC8351DB94873958AFA4",
 		["guid_str"] = "OwR9n1HL",
@@ -6117,7 +6226,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.69999998807907,
-			["text"] = "[size 17][indent][indent]话音刚落，米达斯又觉得周围的空气粘稠了起来，\n\n[indent][indent]他抬头，发现不知道什么时候，一直不曾出现的灰锈静静地看在走廊深处，\n\n[indent][indent]眼上依旧系着蕾丝，他却觉得他在被两双眼睛同时看着。\n\n[indent][indent]也有可能是更多双。",
+			["text"] = "[size 17][indent][indent]话音刚落，米达斯又觉得周围的空气粘稠了起来，\n\n[indent][indent]他抬头，发现不知道什么时候，一直不曾出现的灰锈静静地站在走廊深处，\n\n[indent][indent]眼上依旧系着蕾丝，他却觉得他在被两双眼睛同时看着。\n\n[indent][indent]也有可能是更多双。",
 			["tween"] = {
 				{
 					["param"] = {
@@ -6125,6 +6234,38 @@
 						["time"] = 500,
 					},
 					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.37209302186966,
+					0.36863169074059,
+					0.36863169074059,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["scale"] = {
+					0.89999997615814,
+					0.89999997615814,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -6737,7 +6878,7 @@
 						["param"] = {
 							["delay"] = 500,
 							["pos"] = {
-								["x"] = 50,
+								["x"] = 100,
 								["y"] = 0,
 							},
 							["time"] = 300,
@@ -6954,7 +7095,7 @@
 				},
 			},
 			{
-				["anim"] = "smile1",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -7058,6 +7199,15 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["text"] = "[size 17][indent][indent]米达斯一愣，回头看向门口，\n\n[indent][indent]齐齐正瞪着眼睛看向忽然又出现在自己面前的大哥哥，还有她心心念念的大哥哥怀里的新朋友，\n\n[indent][indent]而齐齐身边，巴布姆正一脸激动地看着米达斯。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "FFA8B54E4DEEB14053A3D5B70301176C",
 		["guid_str"] = "sZbV2wmm",
@@ -8653,6 +8803,15 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 			{
 				["anim"] = "smile",
@@ -8667,6 +8826,15 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -9009,6 +9177,7 @@
 		["guid"] = "219D4F6A40A4751050ACF5951B8CAE9F",
 		["guid_str"] = "BuBGW44x",
 		["id"] = 143,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_characters"] = {
 			{
@@ -9034,6 +9203,7 @@
 				["stop"] = 1,
 			},
 		},
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -9348,6 +9518,9 @@
 			},
 		},
 		["name"] = "纳加尔",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "你那边终于结束了？",
 	},
 	{
@@ -9553,6 +9726,9 @@
 			},
 		},
 		["name"] = "纳加尔",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "这有什么，反正那位海临的老板其实也不介意多派一架飞行器，咱们还为[M]他[/M][F]她[/F]省钱了呢。",
 	},
 	{
@@ -9758,6 +9934,9 @@
 			},
 		},
 		["name"] = "纳加尔",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "……",
 	},
 	{
@@ -9963,6 +10142,9 @@
 			},
 		},
 		["name"] = "纳加尔",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "你看起来不太一样了，像活人了，看来你和缇诗都找到了想走的路。",
 	},
 	{
@@ -10168,6 +10350,9 @@
 			},
 		},
 		["name"] = "纳加尔",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "希望伊南纳和沙玛什能对得起你们的选择。",
 	},
 	{
@@ -10272,6 +10457,9 @@
 			},
 		},
 		["name"] = "纳加尔",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "也希望将军能……",
 	},
 	{
@@ -10376,6 +10564,9 @@
 			},
 		},
 		["name"] = "纳加尔",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "我们等你过来汇合。",
 	},
 	{
@@ -10487,6 +10678,12 @@
 				},
 			},
 		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-01/0006_radio_pickup",
+				["length"] = 1796,
+			},
+		},
 		["time"] = 500,
 	},
 	{
@@ -10511,33 +10708,6 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n22ynngirl/n22ynngirl_action1",
-				["pos"] = {
-					-250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["direction"] = "right",
-							["dis"] = 50,
-							["end_alpha"] = 1.0,
-							["time"] = 200,
-						},
-						["tween"] = "MoveIn",
-					},
 				},
 			},
 		},
@@ -10581,13 +10751,6 @@
 			},
 		},
 		["name"] = "齐齐",
-		["soundfx"] = {
-			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
-				["length"] = 549,
-				["volume"] = 6.0,
-			},
-		},
 		["text"] = "米达斯哥哥……",
 	},
 	{
@@ -10634,6 +10797,18 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 50,
+							["end_alpha"] = 1.0,
+							["time"] = 350,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
 			},
 		},
 		["female_characters"] = {
@@ -10673,6 +10848,13 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
 			},
 		},
 	},
@@ -11272,7 +11454,7 @@
 				},
 			},
 			{
-				["anim"] = "smile1",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -12343,7 +12525,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.69999998807907,
-			["text"] = "[size 17][indent][indent]米达斯索性也不急这一时，\n\n[indent][indent]他坐在行李箱上，手里拿着纸板，手套被蜡粉染上颜色也不在意，\n\n[indent][indent]就像从前坐在树荫下看报等人一下，等着朱舒尔找过来。",
+			["text"] = "[size 17][indent][indent]米达斯索性也不急这一时，\n\n[indent][indent]他坐在行李箱上，手里拿着纸板，手套被蜡粉染上颜色也不在意，\n\n[indent][indent]就像从前坐在树荫下看报等人一样，等着朱舒尔找过来。",
 			["tween"] = {
 				{
 					["param"] = {
@@ -12625,7 +12807,17 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[size 17][indent][indent]时隔多日，朱舒尔终于再次直视她没有血缘的弟弟，\n\n[indent][indent]她发现，她的弟弟在月光的衬托下显得毛茸茸的头发，在阳光下带上了几丝活泼。\n\n[indent][indent]她又想起了亚兰，事实上，要不是这几天发生的事，她已经很久没有想过他了。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "0BCA5A4449380CB20D7A6D8D84EA069D",
 		["guid_str"] = "TyVoaUsq",
@@ -13127,7 +13319,7 @@
 		["guid_str"] = "tsJoPugs",
 		["id"] = 190,
 		["name"] = "米达斯",
-		["text"] = "但这次不再是为了伊南纳，只是为了厄亚上所有挣扎求生又不放弃希望的人……我会接受那些“祷告”，无论出身，让大家可以放心地将身后交给我。",
+		["text"] = "但这次不再是为了伊南纳，只是为了厄亚上所有挣扎求生又不放弃希望的人……\n我会接受那些“祷告”，无论出身，让大家可以放心地将身后交给我。",
 	},
 	{
 		["bg_info"] = {
@@ -13427,7 +13619,7 @@
 		["guid_str"] = "1jcfAiVD",
 		["id"] = 195,
 		["name"] = "米达斯",
-		["text"] = "对不起朱舒尔，我骗了你，我并没有忘，当年的心愿书上其实还写了——我希望葡萄树荫一直都在，想喝一口家里酿的葡萄酒。",
+		["text"] = "对不起朱舒尔，我骗了你，我并没有忘，当年的心愿书上其实还写了——\n我希望葡萄树荫一直都在，想喝一口家里酿的葡萄酒。",
 	},
 	{
 		["bg_info"] = {
@@ -14012,6 +14204,7 @@
 		["guid"] = "42158C514265EA93D2F4788C5F8F2369",
 		["guid_str"] = "NjuCjJX1",
 		["id"] = 205,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -14024,7 +14217,6 @@
 				},
 				["count"] = -1,
 				["is_origin_size"] = false,
-				["is_queue"] = true,
 				["is_ratio_full"] = true,
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
@@ -14034,9 +14226,9 @@
 				["tween"] = {
 					{
 						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 1000,
-							["time"] = 0,
+							["delay"] = 1000,
+							["delay_page"] = 0,
+							["time"] = 10,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -14044,7 +14236,7 @@
 						["param"] = {
 							["delay"] = 0,
 							["delay_page"] = 2,
-							["time"] = 500,
+							["time"] = 3000,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -14054,7 +14246,7 @@
 							["delay_page"] = 0,
 							["end_alpha"] = 0.0,
 							["start_alpha"] = 0.0,
-							["time"] = 0,
+							["time"] = 1000,
 						},
 						["tween"] = "AlphaChange",
 					},
@@ -14074,6 +14266,7 @@
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/activity_desert/activity_desert_mds_6_1_in.bk2",
+				["sustain_page_count"] = 3,
 				["template_type"] = "video",
 				["tween"] = {
 					{
@@ -14084,7 +14277,16 @@
 						},
 						["tween"] = "FadeIn",
 					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 2,
+							["time"] = 3000,
+						},
+						["tween"] = "FadeOut",
+					},
 				},
+				["z_order"] = 2,
 			},
 		},
 		["soundfx"] = {
@@ -14122,6 +14324,34 @@
 		["guid"] = "861513F042E1B3039A4E6D9C151F795A",
 		["guid_str"] = "ENkIJJUn",
 		["id"] = 206,
+		["is_total_play"] = true,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_camp_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["mask_alpha"] = 0.69999998807907,
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "9DF125F14886323B04128F99E1C8FC17",
+		["guid_str"] = "3Q5yZcpJ",
+		["id"] = 207,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -14145,9 +14375,9 @@
 				},
 			},
 		},
-		["guid"] = "9DF125F14886323B04128F99E1C8FC17",
-		["guid_str"] = "3Q5yZcpJ",
-		["id"] = 207,
+		["guid"] = "B24D9E9F49EE27EDE2C9B092D6CB1F32",
+		["guid_str"] = "y3EZ1Q7N",
+		["id"] = 208,
 	},
 	{
 		["bg_info"] = {
@@ -14176,7 +14406,138 @@
 		},
 		["guid"] = "18A7DE0F423EE7D2826EE58DDBB9FA3A",
 		["guid_str"] = "MPziMg3x",
-		["id"] = 208,
+		["id"] = 209,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog04SceneBG/bg_camp_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = " ",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["guid"] = "02534BE4400D84F14140FAA6EBBEBDC5",
+		["guid_str"] = "jY6a5dWl",
+		["id"] = 210,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_queue"] = true,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/activity_desert/activity_desert_mds_5_loop.bk2",
+				["sustain_page_count"] = 12,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 2000,
+							["delay_page"] = 0,
+							["time"] = 100,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 2000,
+							["delay_page"] = 11,
+							["time"] = 5000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/activity_desert/activity_desert_mds_5.bk2",
+				["sustain_page_count"] = 12,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1800,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 2000,
+							["delay_page"] = 11,
+							["time"] = 5000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/Inanna_desert_calm",
+				["length"] = 60000,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/south/activity_desert_mds_5",
+				["length"] = 10100,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 4500,
 	},
 	{
 		["bg_info"] = {
@@ -14200,7 +14561,6 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["height"] = 150,
-			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.5,
 			["text"] = "[c f8f0d2][size 16][font zhunyuan]我喜欢朱舒尔，我想给她送一辈子塔木紫，绕着盖什提排满一整圈。",
@@ -14217,84 +14577,11 @@
 		},
 		["guid"] = "A05D4ED54A38B7F9AB0B409675323E38",
 		["guid_str"] = "44qPncfJ",
-		["id"] = 209,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["count"] = -1,
-				["is_origin_size"] = false,
-				["is_queue"] = true,
-				["is_ratio_full"] = true,
-				["ori_size_h"] = 888,
-				["ori_size_w"] = 1928,
-				["path"] = "movies/Desktop/avg/activity_desert/activity_desert_mds_5_loop.bk2",
-				["sustain_page_count"] = 11,
-				["template_type"] = "video",
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 1000,
-							["delay_page"] = 0,
-							["time"] = 100,
-						},
-						["tween"] = "FadeIn",
-					},
-					{
-						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 0,
-							["end_alpha"] = 0.0,
-							["start_alpha"] = 0.0,
-							["time"] = 0,
-						},
-						["tween"] = "AlphaChange",
-					},
-					{
-						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 10,
-							["time"] = 2000,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["is_origin_size"] = false,
-				["is_ratio_full"] = true,
-				["ori_size_h"] = 888,
-				["ori_size_w"] = 1928,
-				["path"] = "movies/Desktop/avg/activity_desert/activity_desert_mds_5.bk2",
-				["sustain_page_count"] = 11,
-				["template_type"] = "video",
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 0,
-							["time"] = 1000,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
-		},
+		["id"] = 211,
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ambience/Inanna_desert_calm",
@@ -14342,8 +14629,11 @@
 		},
 		["guid"] = "541E6F244FFF5181C23979B652865E72",
 		["guid_str"] = "8ui7hT4U",
-		["id"] = 210,
+		["id"] = 212,
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["time"] = 1000,
 	},
 	{
@@ -14379,8 +14669,11 @@
 		},
 		["guid"] = "218F6D2F4DE3C56AC2BD42B75F88069B",
 		["guid_str"] = "RcdFIlzj",
-		["id"] = 211,
+		["id"] = 213,
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["time"] = 1000,
 	},
 	{
@@ -14416,8 +14709,11 @@
 		},
 		["guid"] = "72C1FCA143E52D61B8707284D36D347B",
 		["guid_str"] = "r90iXVHz",
-		["id"] = 212,
+		["id"] = 214,
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["time"] = 1000,
 	},
 	{
@@ -14452,8 +14748,11 @@
 		},
 		["guid"] = "C0A2EC994066DB3A136F2985331B07A7",
 		["guid_str"] = "lBbPM45Y",
-		["id"] = 213,
+		["id"] = 215,
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["time"] = 1000,
 	},
 	{
@@ -14489,8 +14788,11 @@
 		},
 		["guid"] = "B08F9DB64667D85ACFAE66822A969C45",
 		["guid_str"] = "P0QgUrMB",
-		["id"] = 214,
+		["id"] = 216,
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["time"] = 1000,
 	},
 	{
@@ -14526,8 +14828,11 @@
 		},
 		["guid"] = "8FF718554A8663604743198B5D59A97D",
 		["guid_str"] = "zbdPUsdb",
-		["id"] = 215,
+		["id"] = 217,
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["time"] = 1000,
 	},
 	{
@@ -14559,8 +14864,11 @@
 		},
 		["guid"] = "7A7EE078494BCB006AA09CBB90DC2D16",
 		["guid_str"] = "KIJQMn0w",
-		["id"] = 216,
+		["id"] = 218,
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["time"] = 1000,
 	},
 	{
@@ -14596,8 +14904,11 @@
 		},
 		["guid"] = "42490189496D0F349EB99DB52F158AD8",
 		["guid_str"] = "SZLXwLVr",
-		["id"] = 217,
+		["id"] = 219,
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["time"] = 1000,
 	},
 	{
@@ -14633,7 +14944,7 @@
 		},
 		["guid"] = "93B63A404D4BE657AFA9E1919C36D9D6",
 		["guid_str"] = "cAXTFJg4",
-		["id"] = 218,
+		["id"] = 220,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -14672,6 +14983,9 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -14691,7 +15005,7 @@
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 500,
+						["time"] = 1000,
 					},
 					["tween"] = "FadeOut",
 				},
@@ -14699,36 +15013,10 @@
 		},
 		["guid"] = "0A13C3624D1E8FA72E6387B0D0634384",
 		["guid_str"] = "wbQhJaul",
-		["id"] = 219,
+		["id"] = 221,
 		["is_total_play"] = true,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["is_origin_size"] = false,
-				["is_ratio_full"] = true,
-				["ori_size_h"] = 888,
-				["ori_size_w"] = 1928,
-				["path"] = "movies/Desktop/avg/activity_desert/activity_desert_mds_5_loop.bk2",
-				["template_type"] = "video",
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 0,
-							["time"] = 1000,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-		},
+		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
+		["time"] = 7000,
 	},
 }
