@@ -1710,7 +1710,7 @@
 		["guid_str"] = "vfXYsGH0",
 		["id"] = 24,
 		["name"] = "叶秉谦",
-		["text"] = "所以你觉得我有必要见见他？",
+		["text"] = "看来你也不像你平常表现出来的那么讨厌他？",
 	},
 	{
 		["bg_info"] = {
@@ -5416,14 +5416,6 @@
 					0.27450981736183,
 					1.0,
 				},
-				["knowledge_word_info"] = {
-					["id"] = "475",
-					["is_enabled"] = true,
-					["offset"] = {
-						50,
-						-300,
-					},
-				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am66ybq/am66ybq_action1",
 				["pos"] = {
@@ -5883,10 +5875,11 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["knowledge_word_info"] = {
+					["anchor"] = "right",
 					["id"] = "475",
 					["is_enabled"] = true,
 					["offset"] = {
-						50,
+						0,
 						-300,
 					},
 				},
@@ -8860,69 +8853,7 @@
 		["guid_str"] = "NOoSnS8j",
 		["id"] = 118,
 		["name"] = "易虚舟",
-		["text"] = "你别说，数量可真不少。",
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_08.png",
-			},
-			{
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "serious",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am37yx/am37yx_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["knowledge_word_info"] = {
-					["anchor"] = "right",
-					["id"] = "473",
-					["is_enabled"] = true,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am13cyz/am13cyz_action1",
-				["pos"] = {
-					-300,
-					75,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "2F0CEF3F4FC913D468AC8494DF967DAD",
-		["guid_str"] = "5MaM2b1Q",
-		["id"] = 119,
-		["name"] = "崔远之",
-		["text"] = "行尸26个，活人5个——其中还不包括那个幸存者的“妻女”。",
+		["text"] = "你别说，数量可真不少。行尸26个，活人5个——其中还不包括那个幸存者的“妻女”。",
 	},
 	{
 		["bg_info"] = {
@@ -8982,7 +8913,7 @@
 		},
 		["guid"] = "B62BDAA24AC0FF4AD36FE5BBE646AE6B",
 		["guid_str"] = "LyjBGouL",
-		["id"] = 120,
+		["id"] = 119,
 		["name"] = "崔远之",
 		["text"] = "就算给他们八个胆子他们也不会再回来招惹我们了。",
 	},
@@ -9054,8 +8985,11 @@
 		},
 		["guid"] = "574D064347A0692C48EEE5BB8E282B00",
 		["guid_str"] = "i8jIQu1d",
-		["id"] = 121,
+		["id"] = 120,
 		["name"] = "易虚舟",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5025_nIgSskIA",
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -9063,67 +8997,6 @@
 				["volume"] = 6.0,
 			},
 		},
-		["text"] = "活、活人？",
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_08.png",
-			},
-			{
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "anger",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["knowledge_word_info"] = {
-					["id"] = "474",
-					["is_enabled"] = true,
-					["offset"] = {
-						200,
-						0,
-					},
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am37yx/am37yx_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am13cyz/am13cyz_action1",
-				["pos"] = {
-					-300,
-					75,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "421EAE68452A4E28507A52B6B01AB511",
-		["guid_str"] = "nIgSskIA",
-		["id"] = 122,
-		["name"] = "易虚舟",
 		["text"] = "怎么会有人选择与行尸为伍？感染风险简直高到离谱啊。",
 	},
 	{
@@ -9184,7 +9057,7 @@
 		},
 		["guid"] = "080D0FC7419922DEE7D88194C89A7B3C",
 		["guid_str"] = "0SCS81JP",
-		["id"] = 123,
+		["id"] = 121,
 		["name"] = "崔远之",
 		["text"] = "收益足够大就可以。",
 	},
@@ -9246,7 +9119,7 @@
 		},
 		["guid"] = "31FD7DD94FE3E6CEF3041196D23A07C0",
 		["guid_str"] = "ACmaA1nZ",
-		["id"] = 124,
+		["id"] = 122,
 		["name"] = "崔远之",
 		["text"] = "武器，技术装置，物资……其中之一就够他们要我们的命了。",
 	},
@@ -9303,7 +9176,7 @@
 		},
 		["guid"] = "7A38CE72420A1D09CA7DD0B167B665EA",
 		["guid_str"] = "yOrF3qao",
-		["id"] = 125,
+		["id"] = 123,
 	},
 	{
 		["bg_info"] = {
@@ -9358,7 +9231,7 @@
 		},
 		["guid"] = "AF38135D4CF87307E148C789C91C78CB",
 		["guid_str"] = "vY3M7y7e",
-		["id"] = 126,
+		["id"] = 124,
 	},
 	{
 		["bg_info"] = {
@@ -9426,7 +9299,7 @@
 		},
 		["guid"] = "E612BCC0496F8B686BAA3EB12017A6B9",
 		["guid_str"] = "Zf1imNW8",
-		["id"] = 127,
+		["id"] = 125,
 		["knowledge"] = {
 			["tips"] = {
 				{
@@ -9496,7 +9369,7 @@
 		},
 		["guid"] = "29F24DA247AD8693CCD713A415680E00",
 		["guid_str"] = "yYGxp7iM",
-		["id"] = 128,
+		["id"] = 126,
 	},
 	{
 		["bg_info"] = {
@@ -9564,7 +9437,7 @@
 		},
 		["guid"] = "048457B943DA123E07BD0C93F0A4DC51",
 		["guid_str"] = "rm57UKNo",
-		["id"] = 129,
+		["id"] = 127,
 		["name"] = "易虚舟",
 		["text"] = "我以为黑曜日后一年多了，游荡者已经消失了。",
 	},
@@ -9627,7 +9500,7 @@
 		},
 		["guid"] = "23A693084C11985AFDAE9F85AEC1EAB5",
 		["guid_str"] = "HjpcEFGM",
-		["id"] = 130,
+		["id"] = 128,
 		["name"] = "叶秉谦",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9704,7 +9577,7 @@
 		},
 		["guid"] = "D9AB35AD407B0A8BA0A61FBF4E950C7E",
 		["guid_str"] = "kdFUhPnv",
-		["id"] = 131,
+		["id"] = 129,
 		["name"] = "叶秉谦",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9771,7 +9644,7 @@
 		},
 		["guid"] = "A64CEB234DE09BB6897912B1BA322FFE",
 		["guid_str"] = "KyLn6i3o",
-		["id"] = 132,
+		["id"] = 130,
 		["name"] = "崔远之",
 		["text"] = "死了。",
 	},
@@ -9837,7 +9710,7 @@
 		},
 		["guid"] = "F372E42C492277F96CA299B8CABEC955",
 		["guid_str"] = "TIsiX8IM",
-		["id"] = 133,
+		["id"] = 131,
 		["name"] = "易虚舟",
 		["text"] = "那他们是……？",
 	},
@@ -9899,7 +9772,7 @@
 		},
 		["guid"] = "F0FC44504AB1F4C03BEF11A8F7AC078C",
 		["guid_str"] = "Ko4dkZEC",
-		["id"] = 134,
+		["id"] = 132,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -9981,7 +9854,7 @@
 		},
 		["guid"] = "CA5CF06547DAFAC985924F9FFF99D203",
 		["guid_str"] = "JXvgfqli",
-		["id"] = 135,
+		["id"] = 133,
 		["name"] = "崔远之",
 		["soundfx"] = {
 			{
@@ -10053,7 +9926,7 @@
 		},
 		["guid"] = "DBDEA69B49B3B35F615FE89FAF9831FD",
 		["guid_str"] = "ZCfDnT50",
-		["id"] = 136,
+		["id"] = 134,
 	},
 	{
 		["bg_info"] = {
@@ -10103,7 +9976,7 @@
 		},
 		["guid"] = "6F4E8C2B4359E4E99C219B985F6FDDDA",
 		["guid_str"] = "CDcpLFvk",
-		["id"] = 137,
+		["id"] = 135,
 	},
 	{
 		["bg_info"] = {
@@ -10166,7 +10039,7 @@
 		},
 		["guid"] = "CF47B5D84B1B5D50F71F6DBBAB561802",
 		["guid_str"] = "IcFXSH01",
-		["id"] = 138,
+		["id"] = 136,
 		["name"] = "崔远之",
 		["text"] = "战斗的时候我就注意到了。",
 	},
@@ -10231,7 +10104,7 @@
 		},
 		["guid"] = "A497704346255B467EE5A587946E7A94",
 		["guid_str"] = "I2d72nhl",
-		["id"] = 139,
+		["id"] = 137,
 		["name"] = "崔远之",
 		["text"] = "他们都被隐秘地裁掉了气管的一截并且换成了某种……限时控制阀。",
 	},
@@ -10294,7 +10167,7 @@
 		},
 		["guid"] = "3D3119654F91415093F4ED97CD5E11F8",
 		["guid_str"] = "M8B4qh1p",
-		["id"] = 140,
+		["id"] = 138,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -10377,9 +10250,9 @@
 		},
 		["guid"] = "DB82E0B44791361A0847E79165DA26A2",
 		["guid_str"] = "giJLYfyW",
-		["id"] = 141,
+		["id"] = 139,
 		["name"] = "崔远之",
-		["text"] = "估计是不在一定时间里收集到足够量的物资回去，就会直接窒息而死之类的——听说在东边的基地里这种做还挺常见的。",
+		["text"] = "估计是不在一定时间里收集到足够量的物资回去，就会直接窒息而死之类的——听说在东边的基地里这种做法还挺常见的。",
 	},
 	{
 		["bg_info"] = {
@@ -10462,7 +10335,7 @@
 		},
 		["guid"] = "A25008E044FDCDA5014ADFBF67F27176",
 		["guid_str"] = "eM1UH1oM",
-		["id"] = 142,
+		["id"] = 140,
 		["text_sound_id"] = 0,
 	},
 	{
@@ -10544,9 +10417,9 @@
 		},
 		["guid"] = "BD915C114496C730B2A4039D7FAA9220",
 		["guid_str"] = "WI5mcMJt",
-		["id"] = 143,
+		["id"] = 141,
 		["name"] = "崔远之",
-		["text"] = "虽然阀门上没标志，但如果把这个阀门带回去，我认识的一位医生应该能分析出具体是哪个基地。",
+		["text"] = "虽然阀门上没标志，但如果把这个阀门带回去，我认识的一个医生应该能分析出具体是哪个基地。",
 	},
 	{
 		["bg_info"] = {
@@ -10610,7 +10483,7 @@
 		},
 		["guid"] = "A8ABF517497B8E728BE962974ED85F42",
 		["guid_str"] = "UiFrKZ9b",
-		["id"] = 144,
+		["id"] = 142,
 		["name"] = "叶秉谦",
 		["text"] = "是赛特基地。",
 	},
@@ -10673,7 +10546,7 @@
 		},
 		["guid"] = "9F718F86476C11B5D34D068B19D29366",
 		["guid_str"] = "mmBdH4mV",
-		["id"] = 145,
+		["id"] = 143,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -10756,7 +10629,7 @@
 		},
 		["guid"] = "C18C864F403D0AA305B65D8728512B16",
 		["guid_str"] = "4dLk5PjK",
-		["id"] = 146,
+		["id"] = 144,
 		["name"] = "崔远之",
 		["text"] = "难怪他们基地有段时间发展异常的快……",
 	},
@@ -10821,7 +10694,7 @@
 		},
 		["guid"] = "7A8AF9B54041244CC7C93EB420E01999",
 		["guid_str"] = "ru452TD8",
-		["id"] = 147,
+		["id"] = 145,
 		["name"] = "崔远之",
 		["text"] = "上次交付订单的时候，他们要求天机全员驻扎在基地外围，只准叶秉谦去取容留许可——哈！也是怕这点“核心科技”暴露于人前吧。",
 	},
@@ -10873,7 +10746,7 @@
 		},
 		["guid"] = "E769A751439EAF631F37A7B4682FE9A6",
 		["guid_str"] = "uLc3LM1f",
-		["id"] = 148,
+		["id"] = 146,
 	},
 	{
 		["bg_info"] = {
@@ -10934,7 +10807,7 @@
 		},
 		["guid"] = "AE98E5DB4C1CED6084E46D9F90D9D77D",
 		["guid_str"] = "vFnsIQF4",
-		["id"] = 149,
+		["id"] = 147,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -11015,7 +10888,7 @@
 		},
 		["guid"] = "78F9AB0A42CD733155CC298C60906935",
 		["guid_str"] = "ZsiQnzOf",
-		["id"] = 150,
+		["id"] = 148,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -11090,7 +10963,7 @@
 		},
 		["guid"] = "EF2ADCFB43D81BD01532F6A806EF0805",
 		["guid_str"] = "Hncg0Ibg",
-		["id"] = 151,
+		["id"] = 149,
 		["name"] = "叶秉谦",
 		["text"] = "……能。",
 	},
@@ -11153,7 +11026,7 @@
 		},
 		["guid"] = "420A241B4EB972058988DB86F57804CD",
 		["guid_str"] = "zia2xDFq",
-		["id"] = 152,
+		["id"] = 150,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -11237,7 +11110,7 @@
 		},
 		["guid"] = "89E0A35B4CDF614C6E75F4834E5230B1",
 		["guid_str"] = "DYlFuZfS",
-		["id"] = 153,
+		["id"] = 151,
 		["name"] = "叶秉谦",
 		["text"] = "从两个小时前，我就联系不到第三小队了。",
 	},
@@ -11303,7 +11176,7 @@
 		},
 		["guid"] = "CADDA86D4188BF2136A214BE67927C7A",
 		["guid_str"] = "8ookLkbn",
-		["id"] = 154,
+		["id"] = 152,
 		["name"] = "叶秉谦",
 		["text"] = "一个小时前，我让罗咤他们搞完自己的事去支援花翮他们。",
 	},
@@ -11369,7 +11242,7 @@
 		},
 		["guid"] = "2250743C436695364158B59E70609374",
 		["guid_str"] = "0A4yGS6q",
-		["id"] = 155,
+		["id"] = 153,
 		["name"] = "叶秉谦",
 		["text"] = "在他们横穿JT-E-6的路上，他们发现了第三小队队长的尸体，另外两名队员周游、莫菲也消失了。\n",
 	},
@@ -11450,7 +11323,7 @@
 		},
 		["guid"] = "1BE9C9C8461C3E3809685D91979FE0A8",
 		["guid_str"] = "mDV04eKP",
-		["id"] = 156,
+		["id"] = 154,
 		["just_auto_play"] = true,
 	},
 }
