@@ -9395,7 +9395,7 @@
 			1,
 		},
 		["value"] = {
-			"40",
+			"20",
 		},
 		["value_unit"] = 2,
 	},
@@ -9403,6 +9403,7 @@
 		["ID"] = 101714102,
 		["field_name"] = {
 		},
+		["param_product"] = 119,
 		["param_type"] = "num_prop",
 		["times"] = {
 			1,
@@ -9439,7 +9440,7 @@
 			1,
 		},
 		["value"] = {
-			"1500",
+			"1200",
 		},
 		["value_unit"] = 3,
 	},
@@ -9459,8 +9460,13 @@
 	[101714106] = {
 		["ID"] = 101714106,
 		["field_name"] = {
+			{
+				["field_name"] = "duration",
+				["id"] = 10666,
+				["type"] = 2,
+			},
 		},
-		["param_type"] = "num",
+		["param_type"] = "time_duration",
 		["times"] = {
 			1,
 		},
@@ -9468,6 +9474,69 @@
 			"500",
 		},
 		["value_unit"] = 3,
+	},
+	[101714107] = {
+		["ID"] = 101714107,
+		["field_name"] = {
+			{
+				["field_name"] = "duration",
+				["id"] = 10673,
+				["type"] = 2,
+			},
+		},
+		["param_type"] = "time_duration",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"25000",
+		},
+		["value_unit"] = 3,
+	},
+	[101714108] = {
+		["ID"] = 101714108,
+		["field_name"] = {
+			{
+				["field_name"] = "max_stack",
+				["id"] = 10674,
+				["type"] = 2,
+			},
+		},
+		["param_type"] = "num",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"20",
+		},
+		["value_unit"] = 0,
+	},
+	[101714109] = {
+		["ID"] = 101714109,
+		["field_name"] = {
+		},
+		["param_type"] = "num",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.4",
+		},
+		["value_unit"] = 1,
+	},
+	[101714110] = {
+		["ID"] = 101714110,
+		["field_name"] = {
+		},
+		["param_product"] = 120,
+		["param_type"] = "num",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"0.8",
+		},
+		["value_unit"] = 1,
 	},
 	[101813201] = {
 		["ID"] = 101813201,
@@ -30066,20 +30135,28 @@
 			1,
 		},
 		["value"] = {
-			"0.25",
+			"0.3",
 		},
 		["value_unit"] = 1,
 	},
 	[1603406103] = {
 		["ID"] = 1603406103,
 		["field_name"] = {
+			{
+				["field_name"] = "duration_effects_params1",
+				["id"] = 10629,
+				["index"] = 2,
+				["type"] = 2,
+			},
 		},
 		["param_type"] = "num_prop",
 		["times"] = {
+			1,
 		},
 		["value"] = {
+			"0.06",
 		},
-		["value_unit"] = 0,
+		["value_unit"] = 1,
 	},
 	[1603406104] = {
 		["ID"] = 1603406104,
@@ -30090,7 +30167,7 @@
 			1,
 		},
 		["value"] = {
-			"1",
+			"0.8",
 		},
 		["value_unit"] = 1,
 	},
@@ -30103,7 +30180,7 @@
 			1,
 		},
 		["value"] = {
-			"0.03",
+			"0.04",
 		},
 		["value_unit"] = 1,
 	},
@@ -30159,13 +30236,18 @@
 	[1603406109] = {
 		["ID"] = 1603406109,
 		["field_name"] = {
+			{
+				["field_name"] = "max_stack",
+				["id"] = 10634,
+				["type"] = 2,
+			},
 		},
 		["param_type"] = "num",
 		["times"] = {
 			1,
 		},
 		["value"] = {
-			"30",
+			"20",
 		},
 		["value_unit"] = 0,
 	},
@@ -30181,6 +30263,42 @@
 			"0.2",
 		},
 		["value_unit"] = 1,
+	},
+	[1603406111] = {
+		["ID"] = 1603406111,
+		["field_name"] = {
+			{
+				["field_name"] = "ratio1",
+				["id"] = 12180026,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "damge_fire_ad",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"3",
+		},
+		["value_unit"] = 1,
+	},
+	[1603406112] = {
+		["ID"] = 1603406112,
+		["field_name"] = {
+			{
+				["field_name"] = "range_param1",
+				["id"] = 12180026,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "value_range",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"300",
+		},
+		["value_unit"] = 0,
 	},
 	[1603409101] = {
 		["ID"] = 1603409101,
@@ -30798,6 +30916,7 @@
 				["type"] = 2,
 			},
 		},
+		["param_product"] = 115,
 		["param_type"] = "num_prop",
 		["times"] = {
 			1,
@@ -30916,7 +31035,7 @@
 		["field_name"] = {
 			{
 				["field_name"] = "duration",
-				["id"] = 10666,
+				["id"] = 10672,
 				["type"] = 2,
 			},
 		},
@@ -30939,7 +31058,7 @@
 				["type"] = 2,
 			},
 		},
-		["param_type"] = "num_prop",
+		["param_type"] = "team_cri",
 		["times"] = {
 			1,
 		},
@@ -30981,6 +31100,7 @@
 		["ID"] = 1603417112,
 		["field_name"] = {
 		},
+		["param_product"] = 120,
 		["param_type"] = "num",
 		["times"] = {
 			1,
@@ -31002,6 +31122,24 @@
 			"2",
 		},
 		["value_unit"] = 1,
+	},
+	[1603417114] = {
+		["ID"] = 1603417114,
+		["field_name"] = {
+			{
+				["field_name"] = "range_param1",
+				["id"] = 12180042,
+				["type"] = -1,
+			},
+		},
+		["param_type"] = "value_range",
+		["times"] = {
+			1,
+		},
+		["value"] = {
+			"250",
+		},
+		["value_unit"] = 0,
 	},
 	[1603421101] = {
 		["ID"] = 1603421101,
