@@ -21,7 +21,16 @@
 		["guid"] = "A46895A844129D1749EC72810A0131C0",
 		["guid_str"] = "aTxOnE60",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/bwg/bwg_amb_powerroom_on",
+				["length"] = 10649,
+				["loop"] = 1,
+				["volume"] = 0.20000000298023,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -35,8 +44,8 @@
 		["guid_str"] = "amKJEtJd",
 		["id"] = 2,
 		["introduce"] = {
-			["location"] = "家里",
-			["time"] = "3月29日",
+			["location"] = "钧天市·虹平路宜景园3-2-2",
+			["time"] = "黑曜时2049年3月29日  15:45",
 		},
 		["just_auto_play"] = true,
 	},
@@ -65,6 +74,12 @@
 		["guid_str"] = "5G1830E8",
 		["id"] = 3,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_door_open",
+				["length"] = 1125,
+			},
+		},
 		["time"] = 1500,
 	},
 	{
@@ -110,6 +125,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -131,6 +150,13 @@
 		["guid_str"] = "HpfGIfYk",
 		["id"] = 5,
 		["name"] = "玄戈",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "起来，喝点水。",
 	},
 	{
@@ -155,6 +181,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -169,7 +199,7 @@
 								["x"] = 250,
 								["y"] = 0,
 							},
-							["time"] = 400,
+							["time"] = 500,
 						},
 						["tween"] = "RelativePositionChange",
 					},
@@ -184,7 +214,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -225,6 +255,19 @@
 		["guid_str"] = "UL0eWoKL",
 		["id"] = 6,
 		["name"] = "北洛",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "……不用管我，你不上课？",
 	},
 	{
@@ -245,7 +288,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -266,7 +309,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -303,7 +346,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -318,7 +361,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -353,7 +396,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -368,7 +411,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -399,7 +442,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -420,7 +463,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -457,7 +500,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -472,7 +515,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -495,7 +538,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -503,7 +546,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -524,7 +567,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -561,7 +604,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -576,7 +619,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -607,7 +650,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -628,7 +671,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -652,7 +695,7 @@
 		["caption_info"] = {
 			["b_mask_auto_size"] = true,
 			["height"] = 550,
-			["text"] = "[size 16]【[c a3bdc8]新闻主播[/c]】下面插播一条新闻，据统计，全国各地已进入流感高发季，卫生局在此提醒市民增强防范意识，\n\n注意个人及公共卫生安全，避免过度人群聚集……",
+			["text"] = "[size 16]【[c a3bdc8]新闻主播[/c]】下面插播一条新闻，据统计，各地已进入流感高发季，卫生局在此提醒市民增强防范意识，\n\n注意个人及公共卫生安全，避免过度人群聚集……",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -682,7 +725,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -703,7 +746,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -713,6 +756,12 @@
 		["guid"] = "83EDCD7D4C9DF7DFCAF8EDA496756404",
 		["guid_str"] = "8POEdVdt",
 		["id"] = 15,
+		["sound"] = {
+			["volume"] = 0.60000002384186,
+		},
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -738,7 +787,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -753,7 +802,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -790,7 +839,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -805,7 +854,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -836,7 +885,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -857,7 +906,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -888,7 +937,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -909,7 +958,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -940,7 +989,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -972,7 +1021,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -983,6 +1032,13 @@
 		["guid_str"] = "geczUyZC",
 		["id"] = 20,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["time"] = 1000,
 	},
 	{
@@ -1019,7 +1075,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1043,6 +1099,17 @@
 		["guid_str"] = "6SJcpi1N",
 		["id"] = 21,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_door_close",
+				["length"] = 2438,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1056,6 +1123,7 @@
 			["b_use_mask"] = true,
 			["height"] = 300,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[size 17][indent][indent][indent]【路】发烧好了么？",
 			["tween"] = {
@@ -1090,7 +1158,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-100,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1109,6 +1177,13 @@
 		["guid"] = "30EA24764953383EE7F1548EE5C4D4B3",
 		["guid_str"] = "PsIrOvi8",
 		["id"] = 22,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+			},
+		},
+		["text_sound_id"] = 0,
 	},
 	{
 		["bg_info"] = {
@@ -1124,6 +1199,7 @@
 			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[br][br][size 17][indent][indent][indent]【[c a3bdc8]洛[/c]】差不多。",
 			["tween"] = {
@@ -1142,6 +1218,12 @@
 		["guid"] = "5465FC784295115F58D7D9A8A3A4C246",
 		["guid_str"] = "Kqszt5cd",
 		["id"] = 23,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1157,6 +1239,7 @@
 			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[br][br][size 17][indent][indent][indent]【路】？",
 			["tween"] = {
@@ -1175,6 +1258,12 @@
 		["guid"] = "FF4F00654D0CC53B606F1D844CF9529C",
 		["guid_str"] = "Gz2LXInL",
 		["id"] = 24,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1190,6 +1279,7 @@
 			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[br][br][size 17][indent][indent][indent]【[c a3bdc8]洛[/c]】？",
 			["tween"] = {
@@ -1208,6 +1298,12 @@
 		["guid"] = "30BC98DB4CE947421FCB98B475A07FDC",
 		["guid_str"] = "6qgROjJO",
 		["id"] = 25,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1223,6 +1319,7 @@
 			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[br][br][size 17][indent][indent][indent]【路】Rosy快39了，你快好了？吃的什么妙药？",
 			["tween"] = {
@@ -1241,6 +1338,12 @@
 		["guid"] = "C67FD55D48FD8D8A7FA1EABE9FF987BE",
 		["guid_str"] = "ehQ9aX9l",
 		["id"] = 26,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1256,6 +1359,7 @@
 			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[br][br][size 17][indent][indent][indent]【路】我买了点退热贴还有吃的喝的，给你们送过去？",
 			["tween"] = {
@@ -1274,6 +1378,12 @@
 		["guid"] = "86BAD6C54CF79CF6DBB618810D89424A",
 		["guid_str"] = "s3LMGxxS",
 		["id"] = 27,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1322,6 +1432,7 @@
 			["b_use_mask"] = true,
 			["height"] = 300,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[size 17][indent][indent][indent]【[c a3bdc8]洛[/c]】不用，家里有。",
 			["tween"] = {
@@ -1340,6 +1451,12 @@
 		["guid"] = "973B362F4332C26056C7BA9DD36077C1",
 		["guid_str"] = "dwhTkctb",
 		["id"] = 29,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1355,6 +1472,7 @@
 			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[br][br][size 17][indent][indent][indent]【路】唉~北洛同学体质不行啊，看宋别就什么事儿都没有。",
 			["tween"] = {
@@ -1373,6 +1491,12 @@
 		["guid"] = "A43CBDAC4A9CFED901DF08B22D36BC5B",
 		["guid_str"] = "tq4tREKI",
 		["id"] = 30,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1388,6 +1512,7 @@
 			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[br][br][size 17][indent][indent][indent]【路】我过去一趟吧，放心不进门，一会儿给你们挂门上，自己出来拿。",
 			["tween"] = {
@@ -1406,6 +1531,12 @@
 		["guid"] = "3AE4B04148A27E9731F0CF9EC5B6C2BD",
 		["guid_str"] = "FWQMr4vK",
 		["id"] = 31,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1421,6 +1552,7 @@
 			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[br][br][size 17][indent][indent][indent]【路】真当自己是感染源啊，你家不是还有个人活蹦乱跳。",
 			["tween"] = {
@@ -1439,6 +1571,12 @@
 		["guid"] = "981D653B4C10CBDFAADD72AAA94BB253",
 		["guid_str"] = "TBcfxE9F",
 		["id"] = 32,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1496,6 +1634,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1536,6 +1678,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1566,6 +1712,19 @@
 		["guid"] = "7F97A4FD47C7315826B0CE8B9571CCF5",
 		["guid_str"] = "RDzuuXPz",
 		["id"] = 35,
+		["soundfx"] = {
+			{
+				["delay"] = 400,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1591,7 +1750,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					50,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1626,7 +1785,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					50,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1647,6 +1806,7 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[size 20][font cusong]《法律下的自由》。",
 			["text_align"] = "center",
@@ -1670,7 +1830,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					50,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1706,6 +1866,15 @@
 			["anim"] = "sad1",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am30bl/am30bl_young_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 300,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["text"] = "……我记得这里面是不是有一张照片来着……什么时候没的？",
 	},
@@ -1764,6 +1933,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -1796,20 +1981,50 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s023_emotion_tension",
+			["length"] = 123682,
+			["operation"] = 1,
 		},
 		["guid"] = "D8F0905E448E2714728F72843F9A6614",
 		["guid_str"] = "em0BWEGu",
 		["id"] = 42,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/nether_street",
+				["length"] = 51692,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -1818,15 +2033,33 @@
 		["guid_str"] = "QktM0Snc",
 		["id"] = 43,
 		["introduce"] = {
-			["location"] = "家里",
-			["time"] = "4月1日 13:40",
+			["location"] = "钧天市·虹平路宜景园3-2-2",
+			["time"] = "黑曜时2049年4月1日 13:40",
 		},
 		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -1853,7 +2086,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -1871,7 +2122,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -1910,10 +2179,28 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 		},
 		["guid"] = "CF5279B247D41239AEA3C9AB40A7E4DC",
@@ -1944,6 +2231,12 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1960,7 +2253,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -1973,6 +2266,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2024,6 +2321,16 @@
 			},
 		},
 		["name"] = "玄戈",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "爸？爸！",
 	},
 	{
@@ -2041,7 +2348,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2060,6 +2367,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2095,6 +2406,9 @@
 			},
 		},
 		["name"] = "爸爸",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2147,10 +2461,27 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["is_loop"] = false,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 		},
 		["characters"] = {
@@ -2167,6 +2498,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2219,6 +2554,13 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
+				["length"] = 1153,
+				["volume"] = 1.5,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2249,7 +2591,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2277,6 +2637,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -2287,7 +2663,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 				["config"] = {
@@ -2518,7 +2894,25 @@
 				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 		},
 		["caption_info"] = {
@@ -2544,7 +2938,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2573,6 +2985,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -2585,7 +3013,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2615,6 +3043,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -2627,7 +3071,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2655,7 +3099,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2668,6 +3130,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2686,12 +3152,33 @@
 		["guid_str"] = "DCFXVNBz",
 		["id"] = 58,
 		["name"] = "玄戈",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5025_beiluo018",
+		},
 		["text"] = "…………………………",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2704,6 +3191,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2713,12 +3204,33 @@
 		["guid_str"] = "sfeEg6zg",
 		["id"] = 59,
 		["name"] = "玄戈",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5025_beiluo017",
+		},
 		["text"] = "爸，你要它干什么？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2746,6 +3258,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2767,7 +3283,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2796,6 +3330,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -2808,7 +3358,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2837,6 +3387,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -2849,7 +3415,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2873,11 +3439,33 @@
 		["guid"] = "00F1FB744232DDF1C7258ABC8D4B66D7",
 		["guid_str"] = "nZ0RZUQ3",
 		["id"] = 63,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/3567_sfx_bird_flyin",
+				["length"] = 3490,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -2898,7 +3486,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2913,11 +3501,36 @@
 		["guid"] = "A95AD0D04CE96C6F5E66BFB9098FBA8C",
 		["guid_str"] = "QdnwtjMQ",
 		["id"] = 64,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/enemy/b13_h/b13_h_slot03_fx_impact",
+				["length"] = 799,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2945,7 +3558,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -2973,7 +3604,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3001,7 +3650,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3030,6 +3697,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -3050,7 +3733,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3065,11 +3748,47 @@
 		["guid"] = "CED90F37431C2817B69C7EB48614EC4F",
 		["guid_str"] = "tmKAhGzF",
 		["id"] = 69,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/enemy/b13_h/b13_h_slot03_fx_impact",
+				["length"] = 799,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/enemy/b13_h/b13_h_slot03_fx_impact",
+				["length"] = 799,
+				["loop"] = 1,
+				["volume"] = 6.0,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/impacts/generic/explode_01",
+				["length"] = 2070,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3097,7 +3816,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3110,6 +3847,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3134,17 +3875,21 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
 					["lens"] = {
 						["attrs"] = {
-							["F_CenterX"] = 0.5,
-							["F_CenterY"] = 0.5,
-							["F_Size"] = 2.0,
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
 						},
-						["in_time"] = 300,
-						["is_loop"] = false,
-						["material"] = "MI_UI_RadialBlurBlur",
-						["out_time"] = 300,
-						["time"] = 500,
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
 					},
 					["tween"] = {
 						{
@@ -3167,10 +3912,28 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 		},
 		["caption_info"] = {
@@ -3187,6 +3950,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3195,11 +3962,36 @@
 		["guid"] = "BF463F424ABE7CFF845B56BC3AFA7ED5",
 		["guid_str"] = "rgIfHmMw",
 		["id"] = 72,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-01/0001_buildingcrash_far",
+				["length"] = 9987,
+				["volume"] = 0.20000000298023,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3212,6 +4004,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3227,6 +4023,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -3248,16 +4060,34 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 		},
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]接着他发现映在窗户上自己的吊灯——晃了一下。",
+			["text"] = "[size 17]接着他发现映在窗户上吊灯的影子——晃了一下。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3268,6 +4098,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3280,7 +4114,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3293,6 +4145,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3307,7 +4163,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3326,6 +4200,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3339,6 +4217,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -3351,7 +4245,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3370,6 +4264,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3378,11 +4276,35 @@
 		["guid"] = "B6AD619A4BFD7506E80D2F8ED33FF486",
 		["guid_str"] = "oPWJMvAR",
 		["id"] = 77,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_door_open",
+				["length"] = 1125,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3395,6 +4317,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3417,12 +4343,37 @@
 		["guid_str"] = "17dwq1NJ",
 		["id"] = 78,
 		["name"] = "玄戈",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3443,7 +4394,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					100,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3471,7 +4422,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3502,11 +4453,36 @@
 		["guid"] = "4DB54316426008BE008DAAA24F3BC05C",
 		["guid_str"] = "QJiRGEA1",
 		["id"] = 79,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3521,7 +4497,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3542,7 +4518,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3571,7 +4547,26 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+						["out_time"] = 0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3592,7 +4587,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3613,7 +4608,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3627,7 +4622,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3648,7 +4661,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3663,7 +4676,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3679,7 +4692,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3694,7 +4725,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3715,7 +4746,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3731,7 +4762,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3752,7 +4801,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3773,7 +4822,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3787,7 +4836,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3808,7 +4875,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3823,7 +4890,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3837,7 +4904,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3857,7 +4942,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3872,7 +4957,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3896,7 +4981,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3923,7 +5026,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3938,7 +5041,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3959,11 +5062,36 @@
 		["guid"] = "E908456147F5EDD32DB7069FC46620B7",
 		["guid_str"] = "F6Vv9HdM",
 		["id"] = 87,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -3984,7 +5112,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3999,7 +5127,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4015,7 +5143,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4026,6 +5172,15 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[size 17]玄戈慢慢转头，最终将视线投向家里的本应打着26度冷风的空调和花屏有些嘈杂的电视。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -4043,7 +5198,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4052,7 +5207,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 400,
+							["time"] = 300,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -4067,7 +5222,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4076,7 +5231,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 400,
+							["time"] = 300,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -4090,7 +5245,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4110,7 +5283,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4131,7 +5322,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4170,7 +5361,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4189,11 +5380,36 @@
 		["guid"] = "49EADB464ECAE12EF53B0C8A61083DAB",
 		["guid_str"] = "nowjwUYM",
 		["id"] = 91,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4220,7 +5436,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4235,7 +5451,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4249,7 +5465,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4275,7 +5509,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4290,7 +5524,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4307,6 +5541,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -4319,7 +5569,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4355,7 +5605,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4388,7 +5638,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4416,11 +5666,35 @@
 		["guid"] = "4A2DCC0F451052C3A6A2C7B3FA710B11",
 		["guid_str"] = "rFjCtKjR",
 		["id"] = 94,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-01/0001_buildingcrash_far",
+				["length"] = 9987,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -4433,7 +5707,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4462,6 +5736,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -4474,7 +5764,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4498,11 +5788,34 @@
 		["guid"] = "0B51D8C24808E33849ED778E5D0A78F2",
 		["guid_str"] = "YKoPMaAt",
 		["id"] = 96,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-01/0001_buildingcrash_far",
+				["length"] = 9987,
+				["stop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -4515,7 +5828,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4536,7 +5849,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4587,7 +5900,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4606,11 +5919,36 @@
 		["guid"] = "CCF8614045AC5BF97AA98C82CBE63D57",
 		["guid_str"] = "R4KdvqiU",
 		["id"] = 97,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4630,7 +5968,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4663,12 +6001,37 @@
 		["guid_str"] = "Rm0ZVN6h",
 		["id"] = 98,
 		["name"] = "玄戈",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "北洛！！",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4689,7 +6052,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					50,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4703,7 +6066,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4733,7 +6114,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					50,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4757,6 +6138,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -4769,7 +6166,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4793,11 +6190,46 @@
 		["guid"] = "92C10A4B4203D14CC084E4B6CDA098CD",
 		["guid_str"] = "5CW4Mjf7",
 		["id"] = 101,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/enemy/b13_h/b13_h_slot03_fx_impact",
+				["length"] = 799,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/enemy/b13_h/b13_h_slot03_fx_impact",
+				["length"] = 799,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/impacts/generic/explode_02",
+				["length"] = 2858,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
@@ -4818,7 +6250,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					50,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4857,11 +6289,35 @@
 		["guid"] = "398583B449CD89677EECBEAFEE0553A0",
 		["guid_str"] = "SxVEVtyf",
 		["id"] = 102,
+		["soundfx"] = {
+			{
+				["delay"] = 100,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -4874,15 +6330,16 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "他好像知道枪是用来干什么的了。",
+			["text"] = "[size 17][font cusong]他好像知道枪是用来干什么的了。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -4904,7 +6361,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					50,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4928,6 +6385,22 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.59607845544815,
+						0.55294120311737,
+						0.53725492954254,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -4940,7 +6413,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_07.png",
 			},
 			{
 			},

@@ -13,7 +13,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -24,7 +24,7 @@
 								["mode"] = "linear",
 								["scale_x"] = 1.0,
 								["scale_y"] = 1.0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "ScaleIn",
 						},
@@ -46,6 +46,11 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s144_story_light_suspense",
+			["length"] = 105000,
+			["operation"] = 1,
+		},
 		["guid"] = "AEC5B36A4203640AE9814F899ACA3144",
 		["guid_str"] = "aIZJEjyn",
 		["id"] = 1,
@@ -53,6 +58,7 @@
 			["location"] = "钧天市·天阿山盘山公路",
 			["time"] = "黑曜时2044年7月2日 3:49",
 		},
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["knowledge"] = {
 			["tips"] = {
@@ -61,6 +67,14 @@
 				},
 			},
 		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_taxi_drive",
+				["length"] = 20786,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 3500,
 	},
 	{
 		["bg_info"] = {
@@ -76,15 +90,17 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 200,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.0,
+								["time"] = 500,
 							},
-							["tween"] = "FadeIn",
+							["tween"] = "AlphaChange",
 						},
 					},
 					["video"] = {
 						["is_queue"] = true,
 						["is_stage"] = true,
-						["path"] = "movies/Desktop/avg/activity_heiyao/activity_heiyao_bl_a01_1_in.bk2",
+						["path"] = "movies/Desktop/avg/activity_heiyao/activity_heiyao_bl_a01_1_loop.bk2",
 					},
 				},
 				["path"] = "",
@@ -97,15 +113,15 @@
 								["delay"] = 0,
 								["end_alpha"] = 0.0,
 								["start_alpha"] = 0.0,
-								["time"] = 0,
+								["time"] = 300,
 							},
-							["tween"] = "AlphaChange",
+							["tween"] = "FadeIn",
 						},
 					},
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/activity_heiyao/activity_heiyao_bl_a01_1_loop.bk2",
+						["path"] = "movies/Desktop/avg/activity_heiyao/activity_heiyao_bl_a01_1_in.bk2",
 					},
 				},
 			},
@@ -113,6 +129,36 @@
 		["guid"] = "015D43A641AB9A9994784A96631AC53A",
 		["guid_str"] = "WM8CVJUn",
 		["id"] = 2,
+		["jenga"] = {
+			{
+				["color"] = {
+					0.31764706969261,
+					0.41176471114159,
+					0.4705882370472,
+					1.0,
+				},
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_04.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["just_auto_play"] = true,
 	},
 	{
@@ -134,7 +180,21 @@
 		["guid_str"] = "tux2Fyd2",
 		["id"] = 3,
 		["name"] = "深夜电台",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "我们来接通下一位的哥的姐的来电。喂您好，能听到么？",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -155,6 +215,9 @@
 		["guid_str"] = "vMC0nnR2",
 		["id"] = 4,
 		["name"] = "电台来电",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "你、你好106，……我……我最近和我老婆离婚了，儿子判给了我，但是……他看起来不想跟我，我理解不了他在想什么，他也拒绝跟我沟通。",
 	},
 	{
@@ -176,6 +239,9 @@
 		["guid_str"] = "7xE1q7ph",
 		["id"] = 5,
 		["name"] = "电台来电",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "每天晚上不回家，也不要我送上学，前两天我俩吵了一架，他说他不想上学了，想去别的城市打工……唉……我知道他就是不想见我……",
 	},
 	{
@@ -218,6 +284,9 @@
 		["guid_str"] = "CdUIYlh8",
 		["id"] = 7,
 		["name"] = "电台来电",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "我知道我有问题，他脾气也随我，倔得很，我们俩这情况——",
 	},
 	{
@@ -285,28 +354,7 @@
 		["guid_str"] = "4lE4wmjR",
 		["id"] = 10,
 		["name"] = "夜车司机",
-		["text"] = "但是开夜车很容易犯困，尤其是像咱们现在这种一马平川速度平稳，更是催眠，不如……",
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["video"] = {
-						["count"] = -1,
-						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/activity_heiyao/activity_heiyao_bl_a01_1_loop.bk2",
-					},
-				},
-				["path"] = "",
-			},
-			{
-			},
-		},
-		["guid"] = "C7DDDF19449E445685C17B9017FDC5C7",
-		["guid_str"] = "nDMRKULP",
-		["id"] = 11,
-		["name"] = "夜车司机",
-		["text"] = "聊会儿？",
+		["text"] = "但是开夜车很容易犯困，尤其是像咱们现在这种一马平川速度平稳，更是催眠，不如……聊会儿？",
 	},
 	{
 		["bg_info"] = {
@@ -331,7 +379,7 @@
 		},
 		["guid"] = "0C35A7BA4C5B8B8FA56BF1B8339C94AB",
 		["guid_str"] = "1GEBPRiZ",
-		["id"] = 12,
+		["id"] = 11,
 	},
 	{
 		["bg_info"] = {
@@ -350,7 +398,7 @@
 		},
 		["guid"] = "F63266FA430C73FF4DC86CB1D0D2C415",
 		["guid_str"] = "nOxK70Mi",
-		["id"] = 13,
+		["id"] = 12,
 		["name"] = "北洛",
 		["text"] = "……聊什么。",
 	},
@@ -377,7 +425,7 @@
 		},
 		["guid"] = "E2A51E8D4B9BA96238636D9C34E7B7E6",
 		["guid_str"] = "UbkzYLJz",
-		["id"] = 14,
+		["id"] = 13,
 	},
 	{
 		["bg_info"] = {
@@ -396,7 +444,7 @@
 		},
 		["guid"] = "71B8818646366033BB7743BCCE8A1024",
 		["guid_str"] = "oyqDN4yi",
-		["id"] = 15,
+		["id"] = 14,
 		["name"] = "夜车司机",
 		["text"] = "唔……喜欢车么？",
 	},
@@ -417,7 +465,45 @@
 		},
 		["guid"] = "4AB54B80490441543B5317A980F125BD",
 		["guid_str"] = "zZr7ueud",
-		["id"] = 16,
+		["id"] = 15,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/activity_heiyao/activity_heiyao_bl_a01_2_loop.bk2",
+				["sustain_page_count"] = 5,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 4,
+							["time"] = 300,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["name"] = "北洛",
 		["text"] = "什么？",
 	},
@@ -438,8 +524,15 @@
 		},
 		["guid"] = "EF3AE01F4C8CD46CF7BE898E7D7B8C8B",
 		["guid_str"] = "TH86GEZw",
-		["id"] = 17,
+		["id"] = 16,
 		["name"] = "夜车司机",
+		["soundfx"] = {
+			{
+				["delay"] = 200,
+				["event"] = "event:/sfx/story/blackout/avg_blackout_car_horn_l",
+				["length"] = 1406,
+			},
+		},
 		["text"] = "车啊，喏。",
 	},
 	{
@@ -465,7 +558,7 @@
 		},
 		["guid"] = "81EE3B1E4D9F85E00C03BE86F1CF529F",
 		["guid_str"] = "JbqlwfGe",
-		["id"] = 18,
+		["id"] = 17,
 	},
 	{
 		["bg_info"] = {
@@ -484,7 +577,7 @@
 		},
 		["guid"] = "D8013B2D4C83178E7C71DDB784C79770",
 		["guid_str"] = "SPdzQ5V3",
-		["id"] = 19,
+		["id"] = 18,
 		["name"] = "夜车司机",
 		["text"] = "这是我刚买的车，选了好久才下手，还没收拾完，所以后座乱成那个样子，不然不会让你坐副驾驶。",
 	},
@@ -505,7 +598,7 @@
 		},
 		["guid"] = "15ACFDE240DDFB9EC5CB37BC1FE58EA9",
 		["guid_str"] = "DrIr6zSe",
-		["id"] = 20,
+		["id"] = 19,
 		["name"] = "北洛",
 		["text"] = "刚买的车就舍得开出来做专车司机？",
 	},
@@ -526,7 +619,7 @@
 		},
 		["guid"] = "09AC78794FC2FF10C2D7E388C2394F0A",
 		["guid_str"] = "W7efKUb6",
-		["id"] = 21,
+		["id"] = 20,
 		["name"] = "夜车司机",
 		["text"] = "………………………………",
 	},
@@ -547,7 +640,7 @@
 		},
 		["guid"] = "61B86A814512686A3B04CE9B100AD11E",
 		["guid_str"] = "cOFqIMve",
-		["id"] = 22,
+		["id"] = 21,
 		["name"] = "夜车司机",
 		["text"] = "……对，要么怎么说巧呢，你是第一个乘客。",
 	},
@@ -568,7 +661,7 @@
 		},
 		["guid"] = "6E8C7DA64A9DBFF922653AB45BD5EE59",
 		["guid_str"] = "JLYBpFyc",
-		["id"] = 23,
+		["id"] = 22,
 		["name"] = "北洛",
 		["text"] = "那你生意挺差的。",
 	},
@@ -595,7 +688,7 @@
 		},
 		["guid"] = "0F3B4D064A2978155ECEA99A62937E6B",
 		["guid_str"] = "9BSczNC3",
-		["id"] = 24,
+		["id"] = 23,
 	},
 	{
 		["bg_info"] = {
@@ -614,7 +707,7 @@
 		},
 		["guid"] = "D971B55D4EE5EFC1AB9F189E6D96D6E2",
 		["guid_str"] = "Qeon7v1z",
-		["id"] = 25,
+		["id"] = 24,
 		["name"] = "夜车司机",
 		["text"] = "………………………………",
 	},
@@ -641,7 +734,14 @@
 		},
 		["guid"] = "08EA1E764A06383B787CE4B5AF384530",
 		["guid_str"] = "qeVeLowy",
-		["id"] = 26,
+		["id"] = 25,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/beach/AVG_Beach_carwhoosh",
+				["length"] = 3800,
+				["volume"] = 0.5,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -660,7 +760,7 @@
 		},
 		["guid"] = "F15BFE7E421168AD8933C4BFA66D4F8D",
 		["guid_str"] = "dLXfNxyj",
-		["id"] = 27,
+		["id"] = 26,
 		["name"] = "北洛",
 		["text"] = "这车引擎是不是换过。",
 	},
@@ -681,7 +781,7 @@
 		},
 		["guid"] = "9AF6152442A3BFD756D78F8A84AA5F87",
 		["guid_str"] = "bwqjHJS0",
-		["id"] = 28,
+		["id"] = 27,
 		["name"] = "夜车司机",
 		["text"] = "？！你怎么知道？",
 	},
@@ -702,7 +802,7 @@
 		},
 		["guid"] = "3C621D764D8F8AB583B2EF91FE7A5FA0",
 		["guid_str"] = "0uLwtPoU",
-		["id"] = 29,
+		["id"] = 28,
 		["name"] = "北洛",
 		["text"] = "听出来的，踩油门的时候声音不一样，你这个转得快，声音高。",
 	},
@@ -723,7 +823,7 @@
 		},
 		["guid"] = "BBD9687D4950DB9A1A09788C6FB403A4",
 		["guid_str"] = "COufusbn",
-		["id"] = 30,
+		["id"] = 29,
 		["name"] = "夜车司机",
 		["text"] = "耳朵还挺好使……",
 	},
@@ -744,7 +844,7 @@
 		},
 		["guid"] = "B1C4C683454113A3D57B4C93420C23E6",
 		["guid_str"] = "OsLdF7pA",
-		["id"] = 31,
+		["id"] = 30,
 		["name"] = "北洛",
 		["text"] = "根据交通法，你属于非法改装。",
 	},
@@ -765,7 +865,7 @@
 		},
 		["guid"] = "8FF3E7674CF506BB13A4A19C4A0D8AFE",
 		["guid_str"] = "4vSGxvdX",
-		["id"] = 32,
+		["id"] = 31,
 		["name"] = "夜车司机",
 		["text"] = "！",
 	},
@@ -786,7 +886,7 @@
 		},
 		["guid"] = "7D706AEA4E824D718FC7B399824AAE8F",
 		["guid_str"] = "v8jpvKc6",
-		["id"] = 33,
+		["id"] = 32,
 		["name"] = "夜车司机",
 		["text"] = "懂得还挺多，看起来也不大啊……初中生？现在的初中生已经学这种知识了？",
 	},
@@ -807,7 +907,7 @@
 		},
 		["guid"] = "47F4A8B442E0A1463899359CB3E321EC",
 		["guid_str"] = "EvWr4IkG",
-		["id"] = 34,
+		["id"] = 33,
 		["name"] = "北洛",
 		["text"] = "不是学校教的。",
 	},
@@ -828,7 +928,7 @@
 		},
 		["guid"] = "18BE649C40D00C5E4EA54DB5E86834C2",
 		["guid_str"] = "0m1tEmaK",
-		["id"] = 35,
+		["id"] = 34,
 		["name"] = "北洛",
 		["text"] = "我家有很多法学书，没事翻到的。",
 	},
@@ -849,7 +949,7 @@
 		},
 		["guid"] = "19AE027E4FCFE215FF55BF8A8A554BEB",
 		["guid_str"] = "dL2RfhSC",
-		["id"] = 36,
+		["id"] = 35,
 		["name"] = "夜车司机",
 		["text"] = "家里有人学法？还是从事相关职业？",
 	},
@@ -870,7 +970,7 @@
 		},
 		["guid"] = "E2A3A13B470CE409B6DB089A552A4214",
 		["guid_str"] = "0ogBjWtx",
-		["id"] = 37,
+		["id"] = 36,
 		["name"] = "北洛",
 		["text"] = "……我妈是检查官。",
 	},
@@ -891,7 +991,7 @@
 		},
 		["guid"] = "FF96C88E4D176D24E2ABC2992CA7D2D4",
 		["guid_str"] = "gXf5oTGU",
-		["id"] = 38,
+		["id"] = 37,
 		["name"] = "夜车司机",
 		["text"] = "这么厉害。",
 	},
@@ -912,7 +1012,7 @@
 		},
 		["guid"] = "9B0DDE9C4D035F5434863B8C09F1404B",
 		["guid_str"] = "dD22m9KN",
-		["id"] = 39,
+		["id"] = 38,
 		["name"] = "北洛",
 		["text"] = "我爸是警察。",
 	},
@@ -933,7 +1033,7 @@
 		},
 		["guid"] = "283E5B194CC0A9A52488FDAFF723E817",
 		["guid_str"] = "Tbd0d4JK",
-		["id"] = 40,
+		["id"] = 39,
 		["name"] = "夜车司机",
 		["text"] = "……厉害，原来是我不小心撞到“警法世家”的枪口上了，唉~小同学，看在这几十分钟夜车的份儿上，放我一马？",
 	},
@@ -954,7 +1054,7 @@
 		},
 		["guid"] = "15A697C842B7E824732C6DB9DFBB418A",
 		["guid_str"] = "mxDigdsY",
-		["id"] = 41,
+		["id"] = 40,
 		["name"] = "北洛",
 		["text"] = "你随便，我对这些没兴趣，有人感兴趣就行。",
 	},
@@ -981,7 +1081,7 @@
 		},
 		["guid"] = "1B5362164DC8FC4C52969EBD6731C189",
 		["guid_str"] = "HFbAuKAz",
-		["id"] = 42,
+		["id"] = 41,
 	},
 	{
 		["bg_info"] = {
@@ -1000,7 +1100,7 @@
 		},
 		["guid"] = "441EA2854946DC9CCD7072BB64731A61",
 		["guid_str"] = "5vtQ4iDQ",
-		["id"] = 43,
+		["id"] = 42,
 		["name"] = "夜车司机",
 		["text"] = "怎么，家里还有兄弟姐妹？",
 	},
@@ -1021,7 +1121,7 @@
 		},
 		["guid"] = "A0CC13924E02289B2B6C5EB283291632",
 		["guid_str"] = "ojASpGy6",
-		["id"] = 44,
+		["id"] = 43,
 		["name"] = "北洛",
 		["text"] = "早几分钟而已，算什么……",
 	},
@@ -1042,7 +1142,7 @@
 		},
 		["guid"] = "5A4CBC4E4F922751FF5ACAA7CA241190",
 		["guid_str"] = "govWVig0",
-		["id"] = 45,
+		["id"] = 44,
 		["name"] = "夜车司机",
 		["text"] = "从生理学角度来说，是算的哦。",
 	},
@@ -1063,7 +1163,7 @@
 		},
 		["guid"] = "A17ACE4A4FDE23DCA7CE85BD4213FA26",
 		["guid_str"] = "2zN2Ewwu",
-		["id"] = 46,
+		["id"] = 45,
 		["name"] = "北洛",
 		["text"] = "……",
 	},
@@ -1084,7 +1184,7 @@
 		},
 		["guid"] = "C2BC0D5C4E069FB779A54CA3AB8689CF",
 		["guid_str"] = "BObRdKKE",
-		["id"] = 47,
+		["id"] = 46,
 		["name"] = "夜车司机",
 		["text"] = "你刚刚说——",
 	},
@@ -1111,7 +1211,16 @@
 		},
 		["guid"] = "ED03C5F745829E9AC2D48BA20C58DEB9",
 		["guid_str"] = "n8ic2AZn",
-		["id"] = 48,
+		["id"] = 47,
+		["soundfx"] = {
+			{
+				["dir"] = "right",
+				["event"] = "event:/sfx/story/blackout/avg_blackout_jazz_ringtone",
+				["length"] = 13000,
+				["offset"] = 1000,
+				["position"] = 3,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1130,8 +1239,11 @@
 		},
 		["guid"] = "98B23BB04D7C7F4EFDEC998618547F73",
 		["guid_str"] = "Pc4co6ce",
-		["id"] = 49,
+		["id"] = 48,
 		["name"] = "打电话求救的人",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "路哥你人呢救救我救救我救救我——",
 	},
 	{
@@ -1151,7 +1263,7 @@
 		},
 		["guid"] = "597B71C84C9222F956A41DAE3EF3D719",
 		["guid_str"] = "J5iuZKyd",
-		["id"] = 50,
+		["id"] = 49,
 		["name"] = "夜车司机",
 		["text"] = "……好好说话。",
 	},
@@ -1172,8 +1284,11 @@
 		},
 		["guid"] = "0BACD9854BB04060918E67BC21A3F75D",
 		["guid_str"] = "X3UAygJM",
-		["id"] = 51,
+		["id"] = 50,
 		["name"] = "打电话求救的人",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "不是说好晚上去跑几圈么！“墨翼”那帮人都扣了我两圈了——",
 	},
 	{
@@ -1193,7 +1308,7 @@
 		},
 		["guid"] = "8E22AF9A4E7101D365569892DFA8520D",
 		["guid_str"] = "xe8ah3E2",
-		["id"] = 52,
+		["id"] = 51,
 		["name"] = "夜车司机",
 		["text"] = "所以是快输了打给我哭？丢不丢人。",
 	},
@@ -1214,8 +1329,11 @@
 		},
 		["guid"] = "BAAC826B4F3EC419CF5A8CB49F3BF39F",
 		["guid_str"] = "5d8KrMfw",
-		["id"] = 53,
+		["id"] = 52,
 		["name"] = "打电话求救的人",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "路哥你不会打算开了我吧！不要啊我对咱们车队忠心耿耿我——等一下，所以路哥，你大晚上也没睡觉，也没来跑，你干嘛去啦？",
 	},
 	{
@@ -1235,7 +1353,7 @@
 		},
 		["guid"] = "613416C24C317621043A2CA386C29076",
 		["guid_str"] = "eaTcvl8W",
-		["id"] = 54,
+		["id"] = 53,
 		["name"] = "夜车司机",
 		["text"] = "生活不易，打工赚点外快。",
 	},
@@ -1256,8 +1374,11 @@
 		},
 		["guid"] = "C2D437874D73F2B923EAA8B29E867BE8",
 		["guid_str"] = "miiSNxRc",
-		["id"] = 55,
+		["id"] = 54,
 		["name"] = "打电话求救的人",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "什——",
 	},
 	{
@@ -1277,7 +1398,7 @@
 		},
 		["guid"] = "7AAADB2C4B52020B085ECC88B22E5B50",
 		["guid_str"] = "CsgibA8e",
-		["id"] = 56,
+		["id"] = 55,
 		["name"] = "夜车司机",
 		["text"] = "行了，开车的时候不能打电话知不知道，打击违法犯罪人人有责，挂了啊。",
 	},
@@ -1298,8 +1419,11 @@
 		},
 		["guid"] = "0BD92C394D301A4206EABA8FC326DE7B",
 		["guid_str"] = "nwTiasl5",
-		["id"] = 57,
+		["id"] = 56,
 		["name"] = "打电话求救的人",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "？？不是哥——",
 	},
 	{
@@ -1319,7 +1443,7 @@
 		},
 		["guid"] = "C4CEFCAC4898519C48848BB6C5EF2276",
 		["guid_str"] = "SR2a8uSm",
-		["id"] = 58,
+		["id"] = 57,
 		["name"] = "北洛",
 		["text"] = "……",
 	},
@@ -1346,7 +1470,7 @@
 		},
 		["guid"] = "645B89464D1CDFE7C59D74A4199DB1B2",
 		["guid_str"] = "svm7fYyX",
-		["id"] = 59,
+		["id"] = 58,
 	},
 	{
 		["bg_info"] = {
@@ -1371,7 +1495,7 @@
 		},
 		["guid"] = "5FFDECCE4D1906EF94CA7891D543CB02",
 		["guid_str"] = "OjzWnVwV",
-		["id"] = 60,
+		["id"] = 59,
 	},
 	{
 		["bg_info"] = {
@@ -1406,7 +1530,7 @@
 		},
 		["guid"] = "EB3DAA73499112A803E246B336EF84BF",
 		["guid_str"] = "Hz5CCvxT",
-		["id"] = 61,
+		["id"] = 60,
 	},
 	{
 		["bg_info"] = {
@@ -1425,7 +1549,7 @@
 		},
 		["guid"] = "6BCD5081404EE8759B553DA91198F8E4",
 		["guid_str"] = "qolXzgZH",
-		["id"] = 62,
+		["id"] = 61,
 		["name"] = "北洛",
 		["text"] = "……",
 	},
@@ -1452,7 +1576,7 @@
 		},
 		["guid"] = "BE3CBA254C836D2B1A70EF8AC562AEC2",
 		["guid_str"] = "kAEKv5le",
-		["id"] = 63,
+		["id"] = 62,
 	},
 	{
 		["bg_info"] = {
@@ -1471,7 +1595,7 @@
 		},
 		["guid"] = "D624450042C009801769CDAF0BE76C86",
 		["guid_str"] = "GJRpOm4M",
-		["id"] = 64,
+		["id"] = 63,
 		["name"] = "「夜车司机」",
 		["text"] = "不好意思让你听了点有的没的，刚刚咱们说到哪儿了来着……",
 	},
@@ -1498,7 +1622,7 @@
 		},
 		["guid"] = "6716B759438878848D67329315C0EF17",
 		["guid_str"] = "Nyz1m0Do",
-		["id"] = 65,
+		["id"] = 64,
 	},
 	{
 		["bg_info"] = {
@@ -1517,7 +1641,7 @@
 		},
 		["guid"] = "7F583EA1483AC8741EECC3B50BEC3FD7",
 		["guid_str"] = "lOFqqOly",
-		["id"] = 66,
+		["id"] = 65,
 		["name"] = "「夜车司机」",
 		["text"] = "哦对！我刚刚想问，你对那些警啊法啊的都没兴趣，那有什么有兴趣的么？",
 	},
@@ -1544,7 +1668,7 @@
 		},
 		["guid"] = "474B07FF47AD89C121512AB48E988395",
 		["guid_str"] = "TwUjx7BX",
-		["id"] = 67,
+		["id"] = 66,
 	},
 	{
 		["bg_info"] = {
@@ -1563,7 +1687,7 @@
 		},
 		["guid"] = "D60B6B2D407756C2B4D497A56F20748E",
 		["guid_str"] = "Q0JoOLhx",
-		["id"] = 68,
+		["id"] = 67,
 		["name"] = "北洛",
 		["text"] = "……",
 	},
@@ -1584,7 +1708,7 @@
 		},
 		["guid"] = "7A15552E4E2A41622BCF1EB3252EFEA5",
 		["guid_str"] = "bgv38usF",
-		["id"] = 69,
+		["id"] = 68,
 		["name"] = "北洛",
 		["text"] = "……我……",
 	},
@@ -1611,7 +1735,7 @@
 		},
 		["guid"] = "8E8CDC2B4F25BF518611E0A3F03998C8",
 		["guid_str"] = "03hj7xFk",
-		["id"] = 70,
+		["id"] = 69,
 	},
 	{
 		["bg_info"] = {
@@ -1636,7 +1760,7 @@
 		},
 		["guid"] = "02CEDA6449969811C8284C9A9AAD1E18",
 		["guid_str"] = "QpSc30uk",
-		["id"] = 71,
+		["id"] = 70,
 	},
 	{
 		["bg_info"] = {
@@ -1655,7 +1779,7 @@
 		},
 		["guid"] = "7742BEAD43C0E5BEB2188680413CA1FC",
 		["guid_str"] = "0WWWmuTa",
-		["id"] = 72,
+		["id"] = 71,
 		["name"] = "北洛",
 		["text"] = "……我喜欢现在这个感觉。",
 	},
@@ -1676,7 +1800,7 @@
 		},
 		["guid"] = "483AE1664B8EF8FCB81EE986372E8010",
 		["guid_str"] = "w0OOE8qO",
-		["id"] = 73,
+		["id"] = 72,
 		["name"] = "北洛",
 		["text"] = "想要再快点，想要追上……追上……",
 	},
@@ -1703,7 +1827,7 @@
 		},
 		["guid"] = "542029824DB92890186800BCD1829D85",
 		["guid_str"] = "ZECwe5YW",
-		["id"] = 74,
+		["id"] = 73,
 	},
 	{
 		["bg_info"] = {
@@ -1722,7 +1846,7 @@
 		},
 		["guid"] = "E20129E4468B0B28611ED5A77119DBE1",
 		["guid_str"] = "39LAER8L",
-		["id"] = 75,
+		["id"] = 74,
 		["name"] = "「夜车司机」",
 		["text"] = "早说啊，我的专业。",
 	},
@@ -1743,7 +1867,7 @@
 		},
 		["guid"] = "42CF29174F7736723BB33B913B162023",
 		["guid_str"] = "r87fyHp1",
-		["id"] = 76,
+		["id"] = 75,
 		["name"] = "「夜车司机」",
 		["text"] = "走，哥带你玩点刺激的，千万坐好，祈祷自己别晕车。",
 	},
@@ -1764,7 +1888,45 @@
 		},
 		["guid"] = "14B4C41F4252D9B7CE20318AA957646C",
 		["guid_str"] = "oNiG70xe",
-		["id"] = 77,
+		["id"] = 76,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/activity_heiyao/activity_heiyao_bl_a01_2_loop.bk2",
+				["sustain_page_count"] = 3,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 2,
+							["time"] = 700,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["name"] = "北洛",
 		["text"] = "你要干嘛？",
 	},
@@ -1785,27 +1947,32 @@
 		},
 		["guid"] = "B08387BA48D4D277ADCC01B35AD2F2E8",
 		["guid_str"] = "8ABmBsaz",
-		["id"] = 78,
+		["id"] = 77,
 		["name"] = "「夜车司机」",
 		["text"] = "去追太阳。",
 	},
 	{
 		["bg_info"] = {
 			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "AF31C8724DE5390E9ABDF19D8E842AE7",
+		["guid_str"] = "Jcn5knoX",
+		["id"] = 78,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["time"] = 900,
+	},
+	{
+		["bg_info"] = {
+			{
 				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 1000,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/activity_heiyao/activity_heiyao_bl_a01_1_loop.bk2",
 					},
 				},
 				["path"] = "",
@@ -1818,18 +1985,49 @@
 						0.4705882370472,
 						1.0,
 					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
 				},
 				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_04.png",
 			},
+		},
+		["bgm"] = {
+			["length"] = 0,
+			["mute"] = true,
+			["operation"] = 2,
 		},
 		["guid"] = "670F7C324D1613CD3355438104A7E354",
 		["guid_str"] = "oNt7vSyh",
 		["id"] = 79,
 		["introduce"] = {
 			["location"] = "钧天市·天阿山盘山公路",
-			["time"] = "黑曜时2044年7月2日 4:36",
+			["time"] = "黑曜时2044年7月2日 4:46",
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_taxi_drive",
+				["length"] = 20786,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_car_brake",
+				["length"] = 4125,
+			},
+			{
+				["event"] = "event:/ambience/urban_windy_trees_generic",
+				["length"] = 68307,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 3500,
 	},
 	{
 		["bg_info"] = {
@@ -1888,6 +2086,13 @@
 		["guid"] = "3A5B4BAE41006E12B516439B431ED1FF",
 		["guid_str"] = "FIJseYe7",
 		["id"] = 80,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1940,6 +2145,9 @@
 		["guid_str"] = "nfzV30mR",
 		["id"] = 81,
 		["name"] = "「夜车司机」",
+		["sound"] = {
+			["volume"] = 0.5,
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -2048,6 +2256,9 @@
 		["guid_str"] = "9iZXknQF",
 		["id"] = 83,
 		["name"] = "「夜车司机」",
+		["sound"] = {
+			["volume"] = 0.5,
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -2130,6 +2341,18 @@
 		["guid"] = "F99AC56A4E91F789F302699F0706596D",
 		["guid_str"] = "PAHYFZIm",
 		["id"] = 84,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -2158,9 +2381,6 @@
 				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_04.png",
 			},
 		},
-		["caption_info"] = {
-			["text"] = "饮料从售卖机里掉落的声音",
-		},
 		["characters"] = {
 			{
 				["anim"] = "serious",
@@ -2181,6 +2401,13 @@
 		["guid"] = "16972730449F5CCA76801D92D40C5FEA",
 		["guid_str"] = "CiGSIVyR",
 		["id"] = 85,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_can_table",
+				["length"] = 1695,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -2278,6 +2505,13 @@
 		["guid_str"] = "NOpNDB0t",
 		["id"] = 86,
 		["name"] = "「夜车司机」",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -2530,6 +2764,19 @@
 		["guid"] = "AF2581E4437BC6B274FAE6BE6EB2B220",
 		["guid_str"] = "eEuAanUL",
 		["id"] = 89,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+			{
+				["delay"] = 800,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -2610,6 +2857,13 @@
 		["guid"] = "0CFA95E143EBE55AAEB789B4410F7A7E",
 		["guid_str"] = "wnkZAb1k",
 		["id"] = 90,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -2710,10 +2964,10 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]其实没什么想不想，他只是又想起了被自己放在桌上的马克杯和不接受自己扫码购买咖啡的贩卖机。",
-			["text_align"] = "center",
+			["height"] = 250,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[size 17][indent][indent]其实没什么想不想，他只是又想起了被自己放在桌上的马克杯和不接受自己扫码购买咖啡的贩卖机。\n\n[size 17][indent][indent]只是不喜欢感受到的“当自己是个孩子”的气氛。",
 		},
 		["characters"] = {
 			{
@@ -2730,6 +2984,15 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
 			},
 			{
 				["anim"] = "smile1",
@@ -2744,6 +3007,15 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
 				},
 			},
 		},
@@ -2779,184 +3051,15 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]只是不喜欢感受到的“当自己是个孩子”的气氛。",
-			["text_align"] = "center",
-		},
-		["characters"] = {
-			{
-				["anim"] = "serious",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_young_action1",
-				["pos"] = {
-					-300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "smile1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am69ly/am69ly_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "1F8347AB45F50A1732F53189892B08F2",
-		["guid_str"] = "6XhZp15H",
-		["id"] = 93,
-		["speaker_info"] = {
-			["anim"] = "doubt",
-			["material"] = "M_UI_SpinePortrait",
-		},
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["video"] = {
-						["count"] = -1,
-						["is_queue"] = true,
-					},
-				},
-				["path"] = "",
-			},
-			{
-				["config"] = {
-					["color"] = {
-						0.31764706969261,
-						0.41176471114159,
-						0.4705882370472,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_04.png",
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["text"] = "[size 17]很多人都这么看他，给自己讲道理，输出“正确”的观点，他不需要这些。",
-			["text_align"] = "center",
-		},
-		["characters"] = {
-			{
-				["anim"] = "serious",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_young_action1",
-				["pos"] = {
-					-300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "smile1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am69ly/am69ly_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
+			["height"] = 200,
+			["is_append"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "\n\n\n[size 17][indent][indent]很多人都这么看他，给自己讲道理，输出“正确”的观点，他不需要这些。\n\n[size 17][indent][indent]可现在有两个人甚至更多人就在这么干，让他很烦躁，所以他选择了在这个夜里出来透气。",
 		},
 		["guid"] = "EDD5CFE648E20198FE7B5691F814D312",
 		["guid_str"] = "gUbvk6aB",
-		["id"] = 94,
-		["speaker_info"] = {
-			["anim"] = "doubt",
-			["material"] = "M_UI_SpinePortrait",
-		},
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["video"] = {
-						["count"] = -1,
-						["is_queue"] = true,
-					},
-				},
-				["path"] = "",
-			},
-			{
-				["config"] = {
-					["color"] = {
-						0.31764706969261,
-						0.41176471114159,
-						0.4705882370472,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_04.png",
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["text"] = "[size 17]可现在有两个人甚至更多人就在这么干，让他很烦躁，所以他选择了在这个夜里出来透气。",
-			["text_align"] = "center",
-		},
-		["characters"] = {
-			{
-				["anim"] = "serious",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_young_action1",
-				["pos"] = {
-					-300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "smile1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am69ly/am69ly_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "7F2AF7FE419FC3BB5F5D8F8E67160DA6",
-		["guid_str"] = "WouvL78E",
-		["id"] = 95,
+		["id"] = 93,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -3006,6 +3109,15 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 			{
 				["anim"] = "closeeyeserious",
@@ -3021,11 +3133,20 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 		},
 		["guid"] = "F34B30B74519514B37AFC483B8744931",
 		["guid_str"] = "NmZ5pTJj",
-		["id"] = 96,
+		["id"] = 94,
 		["name"] = "「夜车司机」",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3096,7 +3217,7 @@
 		},
 		["guid"] = "31BBC3704DC632BB594A3588EDFF56A2",
 		["guid_str"] = "srCqdI8V",
-		["id"] = 97,
+		["id"] = 95,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -3165,7 +3286,7 @@
 		},
 		["guid"] = "46BF173846A77C67D8E00C80CBEAEE2C",
 		["guid_str"] = "a8mept2H",
-		["id"] = 98,
+		["id"] = 96,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3236,7 +3357,7 @@
 		},
 		["guid"] = "D1E57D364043B364D2A784B3BA3188D7",
 		["guid_str"] = "Bx5xsVAp",
-		["id"] = 99,
+		["id"] = 97,
 		["name"] = "「夜车司机」",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3307,7 +3428,7 @@
 		},
 		["guid"] = "B82A7DD944FB7A90CEDC6A95C6E90C5D",
 		["guid_str"] = "DTFIEzna",
-		["id"] = 100,
+		["id"] = 98,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3378,7 +3499,7 @@
 		},
 		["guid"] = "2172CA11451D28010A55D19BA1120F36",
 		["guid_str"] = "yEdpLXVG",
-		["id"] = 101,
+		["id"] = 99,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3449,7 +3570,7 @@
 		},
 		["guid"] = "1C464D364E88C58386028C9DB11FAC7E",
 		["guid_str"] = "OVlUhQyu",
-		["id"] = 102,
+		["id"] = 100,
 		["name"] = "「夜车司机」",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3510,6 +3631,12 @@
 				},
 				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_04.png",
 			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s214_story_future",
+			["length"] = 135000,
+			["operation"] = 1,
+			["start_time"] = 1000,
 		},
 		["caption_info"] = {
 			["align"] = "bottom",
@@ -3575,7 +3702,18 @@
 		},
 		["guid"] = "6FD82A53481CA35BECA79CB8EC2A8DD5",
 		["guid_str"] = "nIGJfuvy",
-		["id"] = 103,
+		["id"] = 101,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_low_long",
+				["length"] = 4615,
+			},
+			{
+				["event"] = "event:/sfx/story/ourea/amb_forest_charm",
+				["length"] = 30000,
+				["loop"] = 1,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -3607,12 +3745,12 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]四点四十整，天亮了。",
+			["text"] = "[size 17]四点五十整，天亮了。",
 			["text_align"] = "center",
 		},
 		["guid"] = "816CD1D1406044C120AC849D00EDA78C",
 		["guid_str"] = "yzj43yVY",
-		["id"] = 104,
+		["id"] = 102,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -3649,7 +3787,7 @@
 		},
 		["guid"] = "FF3584DF44142AF646908C984BA2481E",
 		["guid_str"] = "wSgWYGnv",
-		["id"] = 105,
+		["id"] = 103,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -3736,7 +3874,7 @@
 		},
 		["guid"] = "24954C7943DBD81D747E29B7EA137804",
 		["guid_str"] = "ifPAVLvD",
-		["id"] = 106,
+		["id"] = 104,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3807,7 +3945,7 @@
 		},
 		["guid"] = "ECC9D508466B6D5D899BFA9F8FFD3D41",
 		["guid_str"] = "5hzLjvmr",
-		["id"] = 107,
+		["id"] = 105,
 		["name"] = "「夜车司机」",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3878,13 +4016,13 @@
 		},
 		["guid"] = "B9214B634331887FA268048FE246083B",
 		["guid_str"] = "9SzklbRZ",
-		["id"] = 108,
+		["id"] = 106,
 		["name"] = "「夜车司机」",
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "日出也不算稀奇东西，但猜你没看过自己家的日出，这可是这座城市的最佳观景点，估计只有我知道。",
+		["text"] = "日出也不算稀奇东西，但猜你没看过自己家的日出，这可是这座城市的最佳观景点，只有我知道。",
 	},
 	{
 		["bg_info"] = {
@@ -3949,7 +4087,7 @@
 		},
 		["guid"] = "28CB5CF946CFDF56E2C282A88105A3AF",
 		["guid_str"] = "1teSKX3b",
-		["id"] = 109,
+		["id"] = 107,
 		["name"] = "「夜车司机」",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4031,7 +4169,14 @@
 		},
 		["guid"] = "D66330834DE5EA309D8DFA938367EB2F",
 		["guid_str"] = "Fjnh8nTN",
-		["id"] = 110,
+		["id"] = 108,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4100,7 +4245,7 @@
 		},
 		["guid"] = "5C2F46A64CD12BB879E3FCAC86EF0B18",
 		["guid_str"] = "yJSRgLsn",
-		["id"] = 111,
+		["id"] = 109,
 		["name"] = "「夜车司机」",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4171,7 +4316,7 @@
 		},
 		["guid"] = "6BCD9D0A49613845CA5DABB3F1569E31",
 		["guid_str"] = "Le7jV9aH",
-		["id"] = 112,
+		["id"] = 110,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4242,7 +4387,7 @@
 		},
 		["guid"] = "AE01D6A348CE0961171536934B4E80A7",
 		["guid_str"] = "N6VTtmPd",
-		["id"] = 113,
+		["id"] = 111,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4311,7 +4456,7 @@
 		},
 		["guid"] = "43F6CECE4C8302C13E81E88812D78750",
 		["guid_str"] = "sxIFX54m",
-		["id"] = 114,
+		["id"] = 112,
 		["name"] = "「夜车司机」",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4422,7 +4567,20 @@
 		},
 		["guid"] = "B0B2082247A03670B7676B9D26540332",
 		["guid_str"] = "MQVRwukk",
-		["id"] = 115,
+		["id"] = 113,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+			{
+				["delay"] = 800,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4491,7 +4649,7 @@
 		},
 		["guid"] = "7891894D4343439212943C8287FCC2D2",
 		["guid_str"] = "ae0sAt5z",
-		["id"] = 116,
+		["id"] = 114,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4571,7 +4729,7 @@
 		},
 		["guid"] = "A0BFD952477439996B08A394DBE54770",
 		["guid_str"] = "87a6zCUt",
-		["id"] = 117,
+		["id"] = 115,
 		["knowledge"] = {
 			["words"] = {
 				{
@@ -4587,6 +4745,94 @@
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
 		},
+		["time"] = 3000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_04.png",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.27450981736183,
+						0.27450981736183,
+						0.27450981736183,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_04.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "BF736AEA4DAF2383A781D6A9076C54AB",
+		["guid_str"] = "loVnnvcf",
+		["id"] = 116,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["knowledge"] = {
+			["words"] = {
+				{
+					["id"] = "480",
+					["is_open"] = false,
+					["offset"] = {
+						-200,
+						0,
+					},
+				},
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "doubt",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["time"] = 400,
 	},
 	{
 		["bg_info"] = {
@@ -4632,15 +4878,6 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
 			},
 			{
 				["anim"] = "normal",
@@ -4656,20 +4893,11 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
 			},
 		},
 		["guid"] = "F5C383D7457A9D81ED9B63977CE1A8E2",
 		["guid_str"] = "UnNFV2Xv",
-		["id"] = 118,
+		["id"] = 117,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4738,7 +4966,7 @@
 		},
 		["guid"] = "630DB18547123349E815109FD29EF9CB",
 		["guid_str"] = "ZonRvc99",
-		["id"] = 119,
+		["id"] = 118,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4828,7 +5056,14 @@
 		},
 		["guid"] = "D06DBC1D477704627DFCD5A80C4BE729",
 		["guid_str"] = "dvMMGFtl",
-		["id"] = 120,
+		["id"] = 119,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4918,7 +5153,14 @@
 		},
 		["guid"] = "05795800477B958B0CF73A9D9DB4AF8D",
 		["guid_str"] = "1KBhdJWl",
-		["id"] = 121,
+		["id"] = 120,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4987,7 +5229,7 @@
 		},
 		["guid"] = "D9E5DA604CF7198DA882C790CAB13B02",
 		["guid_str"] = "o5Awfxqr",
-		["id"] = 122,
+		["id"] = 121,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5058,7 +5300,7 @@
 		},
 		["guid"] = "8114284E497D420CBC8A3EA2F204EA23",
 		["guid_str"] = "vSmesba8",
-		["id"] = 123,
+		["id"] = 122,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5137,7 +5379,7 @@
 		},
 		["guid"] = "BA0345554F948CC3AF8335B453453A7A",
 		["guid_str"] = "czurNkRD",
-		["id"] = 124,
+		["id"] = 123,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5248,7 +5490,20 @@
 		},
 		["guid"] = "887E1936481B3324DB9575B095F0B6E9",
 		["guid_str"] = "PG6pKtGk",
-		["id"] = 125,
+		["id"] = 124,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+			{
+				["delay"] = 700,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -5325,7 +5580,7 @@
 		},
 		["guid"] = "A74F87F64ACFAEC5A165029FC81C7EF8",
 		["guid_str"] = "QQzZn3Yz",
-		["id"] = 126,
+		["id"] = 125,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5436,7 +5691,14 @@
 		},
 		["guid"] = "55AAA160470E1446423B6DA9FE778EBB",
 		["guid_str"] = "VrxdsYUs",
-		["id"] = 127,
+		["id"] = 126,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -5516,7 +5778,7 @@
 		},
 		["guid"] = "3C213A2A475FA68D096633B96D6F376E",
 		["guid_str"] = "21jyrrKR",
-		["id"] = 128,
+		["id"] = 127,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5587,7 +5849,7 @@
 		},
 		["guid"] = "0384191E4B9336D1E303D38E0D7562D2",
 		["guid_str"] = "CjgVVDsg",
-		["id"] = 129,
+		["id"] = 128,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -5664,7 +5926,7 @@
 		},
 		["guid"] = "56496B3D40F41B4F02FD83A8130A4B09",
 		["guid_str"] = "zmmVvMxR",
-		["id"] = 130,
+		["id"] = 129,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5743,7 +6005,7 @@
 		},
 		["guid"] = "4468F1384B4D0129B1E895971BC0E8CD",
 		["guid_str"] = "Pkpkx5Ac",
-		["id"] = 131,
+		["id"] = 130,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5814,7 +6076,13 @@
 		},
 		["guid"] = "0E35989345A9FE166C27678A5177B4E8",
 		["guid_str"] = "8XgjIn9p",
-		["id"] = 132,
+		["id"] = 131,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_low_long",
+				["length"] = 4615,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -5893,7 +6161,7 @@
 		},
 		["guid"] = "B02A21124026E3963EAE7AB214CE8DC1",
 		["guid_str"] = "T4mys2iY",
-		["id"] = 133,
+		["id"] = 132,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5995,7 +6263,20 @@
 		},
 		["guid"] = "1E944440483A8DC8108894B0B1629E20",
 		["guid_str"] = "4a6QaOyQ",
-		["id"] = 134,
+		["id"] = 133,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -6074,7 +6355,7 @@
 		},
 		["guid"] = "AFEB56F545AF8BD6B43F3D9071492FD2",
 		["guid_str"] = "cvMPYtDX",
-		["id"] = 135,
+		["id"] = 134,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6184,7 +6465,14 @@
 		},
 		["guid"] = "BBBEB7CC471F0BF67D68BAABE1272EEC",
 		["guid_str"] = "upvyYp4M",
-		["id"] = 136,
+		["id"] = 135,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -6253,7 +6541,7 @@
 		},
 		["guid"] = "CCABD0AC4A23BC381F7D30A930ECEEB0",
 		["guid_str"] = "iA5BKHmF",
-		["id"] = 137,
+		["id"] = 136,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -6322,7 +6610,7 @@
 		},
 		["guid"] = "5318B5E04EEBD2DBF810C18D9CDBA467",
 		["guid_str"] = "zpLQn18G",
-		["id"] = 138,
+		["id"] = 137,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6393,7 +6681,7 @@
 		},
 		["guid"] = "97DEE0BA435D322B855E8C8D1F270833",
 		["guid_str"] = "1nVqJJ4E",
-		["id"] = 139,
+		["id"] = 138,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6464,7 +6752,7 @@
 		},
 		["guid"] = "12E517344EC7E9EE8BD04F86636B5796",
 		["guid_str"] = "ofWS4RyB",
-		["id"] = 140,
+		["id"] = 139,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6535,7 +6823,7 @@
 		},
 		["guid"] = "42B7C83743DB444922AD928E8EDB6FF3",
 		["guid_str"] = "P1IL7Lrd",
-		["id"] = 141,
+		["id"] = 140,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6606,7 +6894,7 @@
 		},
 		["guid"] = "E448BA8D457B1C8B334DF19584204A11",
 		["guid_str"] = "zifz13Rk",
-		["id"] = 142,
+		["id"] = 141,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -6715,7 +7003,20 @@
 		},
 		["guid"] = "CD5CB01B45B193D2104E7FA8EEADEE49",
 		["guid_str"] = "3fGUWvJ6",
-		["id"] = 143,
+		["id"] = 142,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+			{
+				["delay"] = 800,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -6792,7 +7093,7 @@
 		},
 		["guid"] = "CF93ECAB45A1DBEC1997DE9E583A2C82",
 		["guid_str"] = "wSMpEfNF",
-		["id"] = 144,
+		["id"] = 143,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6871,7 +7172,7 @@
 		},
 		["guid"] = "1BDFC8E5443DA0D369FC4C8976336E16",
 		["guid_str"] = "iDBmDvfF",
-		["id"] = 145,
+		["id"] = 144,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6950,7 +7251,7 @@
 		},
 		["guid"] = "E28EACF444EEE697223645868A96A311",
 		["guid_str"] = "TOEQHmIc",
-		["id"] = 146,
+		["id"] = 145,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -7061,7 +7362,20 @@
 		},
 		["guid"] = "19B86018464F7E99735617AC4581EB89",
 		["guid_str"] = "h9uOtTwM",
-		["id"] = 147,
+		["id"] = 146,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+			{
+				["delay"] = 700,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -7138,13 +7452,13 @@
 		},
 		["guid"] = "2897949845492A808534DB83CD0D8D5B",
 		["guid_str"] = "ppXAeFil",
-		["id"] = 148,
+		["id"] = 147,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "借你，阳光太大啦，还能挡挡风，“结账”前记得还我就行。",
+		["text"] = "借你，阳光太大啦，还能挡挡风，“结账”前记得还给我就行。",
 	},
 	{
 		["bg_info"] = {
@@ -7217,7 +7531,7 @@
 		},
 		["guid"] = "B94238BC44DCB2BA52732C81318A89D6",
 		["guid_str"] = "Iivb8UQ6",
-		["id"] = 149,
+		["id"] = 148,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -7296,7 +7610,7 @@
 		},
 		["guid"] = "95F963054EF2E6E1E9229ABCC6F151BC",
 		["guid_str"] = "eb4mT81P",
-		["id"] = 150,
+		["id"] = 149,
 		["name"] = "路远",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -7312,7 +7626,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 500,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -7362,7 +7676,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -7392,7 +7706,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -7401,11 +7715,13 @@
 		},
 		["guid"] = "187D161D41F830BAD8815ABB2ECA88B4",
 		["guid_str"] = "cMn7MYTH",
-		["id"] = 151,
+		["id"] = 150,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
 		},
+		["time"] = 1800,
 	},
 }

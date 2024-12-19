@@ -7,7 +7,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -18,7 +18,7 @@
 								["mode"] = "linear",
 								["scale_x"] = 1.0,
 								["scale_y"] = 1.0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "ScaleIn",
 						},
@@ -45,9 +45,19 @@
 		["id"] = 1,
 		["introduce"] = {
 			["location"] = "钧天师大附中初中部",
-			["time"] = "黑曜时2044年7月7日  18:06  ",
+			["time"] = "黑曜时2044年7月4日  18:06  ",
 		},
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/nether_school",
+				["length"] = 51692,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
+		["time"] = 3500,
 	},
 	{
 		["bg_info"] = {
@@ -475,6 +485,19 @@
 		["guid"] = "00124CF34527EC14CC8C38AEAAF2E86D",
 		["guid_str"] = "r0CkwhtS",
 		["id"] = 12,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -526,6 +549,23 @@
 		["guid"] = "37BF3F13407F39A4557225B0A9D588B0",
 		["guid_str"] = "YPmyATbL",
 		["id"] = 13,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/nether_school",
+				["length"] = 51692,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/ambience/urban_daytime_quiet",
+				["length"] = 51692,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -576,6 +616,13 @@
 		["guid"] = "B35BE1F44633B40B92DB43A6ECE9CF01",
 		["guid_str"] = "tNUXZ18j",
 		["id"] = 14,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -647,6 +694,19 @@
 		["guid"] = "9C740B1D48B69209CF6AFE9A2A424146",
 		["guid_str"] = "geQa9O3A",
 		["id"] = 15,
+		["soundfx"] = {
+			{
+				["delay"] = 200,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 300,
+				["event"] = "event:/sfx/story/blackout/avg_blackout_cellphone_vibrate",
+				["length"] = 1200,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -666,12 +726,11 @@
 			},
 		},
 		["caption_info"] = {
-			["b_mask_auto_size"] = true,
 			["b_use_mask"] = true,
 			["height"] = 300,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[c 59abff][size 18]爸，妈，玄戈，弟（4）[/c]",
+			["text"] = "[c 59abff][size 18]爸，妈，玄戈，弟[c a3bdc8]（4）[/c][/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -712,6 +771,8 @@
 		["guid"] = "418F83B64A7F3BEE85982781473FAF5D",
 		["guid_str"] = "FLHmcl0r",
 		["id"] = 16,
+		["just_auto_play"] = true,
+		["time"] = 500,
 	},
 	{
 		["bg_info"] = {
@@ -731,18 +792,37 @@
 			},
 		},
 		["caption_info"] = {
-			["b_mask_auto_size"] = true,
 			["b_use_mask"] = true,
 			["height"] = 300,
 			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "\n\n[size 17]「弟」有事，8点回。",
-			["text_align"] = "center",
+			["text"] = "\n\n[size 17][indent][indent][indent]【弟】有事，8点回。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["end_alpha"] = 1.0,
+						["time"] = 400,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
 		},
 		["guid"] = "D66F4EE34E61BE19E08E14BDB471277A",
 		["guid_str"] = "ADnM5ntZ",
 		["id"] = 17,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+				["volume"] = 0.69999998807907,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -762,18 +842,37 @@
 			},
 		},
 		["caption_info"] = {
-			["b_mask_auto_size"] = true,
 			["b_use_mask"] = true,
 			["height"] = 300,
 			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "\n\n[size 17]「爸」嗯，注意安全。",
-			["text_align"] = "center",
+			["text"] = "\n\n[size 17][indent][indent][indent]【爸】嗯，注意安全。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["end_alpha"] = 1.0,
+						["time"] = 400,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
 		},
 		["guid"] = "F1D750D74D134FB5926074B5D75B287F",
 		["guid_str"] = "NN3YHPxj",
 		["id"] = 18,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+				["volume"] = 0.69999998807907,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -793,18 +892,37 @@
 			},
 		},
 		["caption_info"] = {
-			["b_mask_auto_size"] = true,
 			["b_use_mask"] = true,
 			["height"] = 300,
 			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "\n\n[size 17]「爸」我不在家，玄戈注意厨房明火。",
-			["text_align"] = "center",
+			["text"] = "\n\n[size 17][indent][indent][indent]【爸】我不在家，玄戈注意厨房明火。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["end_alpha"] = 1.0,
+						["time"] = 400,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
 		},
 		["guid"] = "60DEAF7C4876D57905308596A1FA6C97",
 		["guid_str"] = "XykabMk8",
 		["id"] = 19,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+				["volume"] = 0.69999998807907,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -824,18 +942,37 @@
 			},
 		},
 		["caption_info"] = {
-			["b_mask_auto_size"] = true,
 			["b_use_mask"] = true,
 			["height"] = 300,
 			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "\n\n[size 17]「弟」1",
-			["text_align"] = "center",
+			["text"] = "\n\n[size 17][indent][indent][indent]【弟】1",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["end_alpha"] = 1.0,
+						["time"] = 400,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
 		},
 		["guid"] = "FE5367EF44BB48C3E9F896903F61C13D",
 		["guid_str"] = "3rqEbxJH",
 		["id"] = 20,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+				["volume"] = 0.69999998807907,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -901,13 +1038,24 @@
 			},
 		},
 		["caption_info"] = {
-			["b_mask_auto_size"] = true,
 			["b_use_mask"] = true,
 			["height"] = 200,
+			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "\n\n[size 17]「玄戈」好。",
-			["text_align"] = "center",
+			["text"] = "\n\n[size 17][indent][indent]【玄戈】好。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["end_alpha"] = 1.0,
+						["time"] = 400,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -935,6 +1083,13 @@
 		["guid"] = "91CF49BE4C946264A4C2D194609EFD03",
 		["guid_str"] = "r6WSQMeD",
 		["id"] = 22,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/send_message",
+				["length"] = 0,
+				["volume"] = 0.69999998807907,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -959,6 +1114,13 @@
 		["guid_str"] = "dZBmF11h",
 		["id"] = 23,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_daytime_quiet",
+				["length"] = 51692,
+				["stop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1001,14 +1163,27 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s191_story_competition",
+			["length"] = 122900,
+			["operation"] = 1,
+		},
 		["guid"] = "36B06C01408E950D1A267397D6847E61",
 		["guid_str"] = "zuR8bi7y",
 		["id"] = 24,
 		["introduce"] = {
-			["location"] = "钧天市·XXX路XX号",
-			["time"] = "黑曜时2044年7月7日 18:36",
+			["location"] = "钧天市·逢溪路24号",
+			["time"] = "黑曜时2044年7月4日  18:36",
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/bwg/bwg_amb_powerroom_on",
+				["length"] = 10649,
+				["loop"] = 1,
+				["volume"] = 0.30000001192093,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1047,6 +1222,13 @@
 		["guid_str"] = "LP7As6Wh",
 		["id"] = 25,
 		["name"] = "宋别",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "路哥啊，你上周末到底干嘛去了，我们到现在还低墨翼那帮家伙一头。",
 	},
 	{
@@ -1094,6 +1276,7 @@
 		["guid"] = "A263A077411CF8605260ABB5B996F031",
 		["guid_str"] = "vS9Ii0jf",
 		["id"] = 26,
+		["just_auto_play"] = true,
 		["knowledge"] = {
 			["words"] = {
 				{
@@ -1105,6 +1288,7 @@
 				},
 			},
 		},
+		["time"] = 2500,
 	},
 	{
 		["bg_info"] = {
@@ -1194,6 +1378,13 @@
 		["guid_str"] = "yLnqWT1V",
 		["id"] = 27,
 		["name"] = "路远",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "诶，临时工的菜，不要扣在车队头上。",
 	},
 	{
@@ -1288,7 +1479,7 @@
 				},
 			},
 			{
-				["anim"] = "smile2",
+				["anim"] = "dislike",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1539,7 +1730,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "dislike",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1579,6 +1770,13 @@
 		["guid_str"] = "HUKD0Qpv",
 		["id"] = 33,
 		["name"] = "路远",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "……不好意思，未成年禁止——嗯？",
 	},
 	{
@@ -1643,6 +1841,13 @@
 		["guid"] = "16B885914318122E6F3EC09AACED95B9",
 		["guid_str"] = "NBQUECfy",
 		["id"] = 34,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1733,6 +1938,13 @@
 		["guid_str"] = "IsCabpqM",
 		["id"] = 35,
 		["name"] = "路远",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
 		["text"] = "………………？",
 	},
 	{
@@ -2058,6 +2270,19 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = 150,
+								["y"] = 0,
+							},
+							["time"] = 300,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
 			},
 			{
 				["anim"] = "normal",
@@ -2079,15 +2304,6 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
 			},
 			{
 				["anim"] = "surprise",
@@ -2106,7 +2322,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n87bie/n87bie_action1",
 				["pos"] = {
-					-300,
+					250,
 					0,
 				},
 				["shadow"] = {
@@ -2123,15 +2339,6 @@
 						},
 						["tween"] = "MoveIn",
 					},
-					{
-						["param"] = {
-							["am"] = 10,
-							["delay"] = 0,
-							["duration"] = 500,
-							["time"] = 10,
-						},
-						["tween"] = "Shake",
-					},
 				},
 			},
 		},
@@ -2139,6 +2346,13 @@
 		["guid_str"] = "wbrtqkhA",
 		["id"] = 41,
 		["name"] = "宋别",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "路哥，这小孩儿是？",
 		["text_info"] = {
 			["tween"] = {
@@ -2177,7 +2391,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am69ly/am69ly_action1",
 				["pos"] = {
-					300,
+					450,
 					0,
 				},
 				["shadow"] = {
@@ -2191,6 +2405,21 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n87bie/n87bie_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-300,
 					0,
@@ -2227,7 +2456,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am69ly/am69ly_action1",
 				["pos"] = {
-					300,
+					450,
 					0,
 				},
 				["shadow"] = {
@@ -2240,16 +2469,47 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["knowledge_word_info"] = {
-					["anchor"] = "right",
 					["id"] = "482",
 					["is_enabled"] = true,
 					["offset"] = {
-						-100,
+						50,
 						-300,
 					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n87bie/n87bie_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 300,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-300,
 					0,
@@ -2290,7 +2550,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am69ly/am69ly_action1",
 				["pos"] = {
-					300,
+					450,
 					0,
 				},
 				["shadow"] = {
@@ -2310,6 +2570,27 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n87bie/n87bie_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-300,
 					0,
@@ -2348,7 +2629,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am69ly/am69ly_action1",
 				["pos"] = {
-					300,
+					450,
 					0,
 				},
 				["shadow"] = {
@@ -2357,12 +2638,44 @@
 				["tween"] = {
 					{
 						["param"] = {
-							["am"] = 10,
 							["delay"] = 0,
-							["duration"] = 200,
-							["time"] = 10,
+							["pos"] = {
+								["x"] = -150,
+								["y"] = 0,
+							},
+							["time"] = 300,
 						},
-						["tween"] = "Shake",
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
 					},
 				},
 			},
@@ -2372,7 +2685,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n87bie/n87bie_action1",
+				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-300,
 					0,
@@ -2385,6 +2698,13 @@
 		["guid"] = "B8CC8F37400DC294050E22B52250BD3D",
 		["guid_str"] = "XqT2adVC",
 		["id"] = 45,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2419,18 +2739,12 @@
 				},
 			},
 			{
-				["anim"] = "surprise",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n87bie/n87bie_action1",
+				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-300,
 					0,
@@ -2462,31 +2776,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am69ly/am69ly_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "surprise",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n87bie/n87bie_action1",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2496,9 +2791,9 @@
 							["am"] = 10,
 							["delay"] = 0,
 							["duration"] = 500,
-							["time"] = 10,
+							["time"] = 200,
 						},
-						["tween"] = "Shake",
+						["tween"] = "FadeIn",
 					},
 				},
 			},
@@ -2506,6 +2801,19 @@
 		["guid"] = "0E41579842AE517C9942BF89742270E7",
 		["guid_str"] = "Lg1ycUq1",
 		["id"] = 47,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 150,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2523,31 +2831,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am69ly/am69ly_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n87bie/n87bie_action1",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2567,6 +2856,19 @@
 		["guid"] = "B80266A3479E1D15BBD097ADD411684B",
 		["guid_str"] = "nnReFsxw",
 		["id"] = 48,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 150,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2596,6 +2898,15 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 			{
 				["anim"] = "surprise",
@@ -2604,10 +2915,6 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n87bie/n87bie_action1",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2655,6 +2962,13 @@
 		["guid_str"] = "RHwWfk6p",
 		["id"] = 49,
 		["name"] = "北洛",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "想来看看。",
 	},
 	{
@@ -2668,6 +2982,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["text"] = "[size 17]路远挑眉，让开一条路。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2685,14 +3000,210 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 100,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 100,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
 			},
 			{
-				["anim"] = "surprise",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n87bie/n87bie_action1",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "6BB7B08544BA5F29E9D61BA7B971742D",
+		["guid_str"] = "rrLg5w1v",
+		["id"] = 50,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "480",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-350,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					400,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "04AEFFD541989E248802B791AF1CF3D4",
+		["guid_str"] = "wC7k80VU",
+		["id"] = 51,
+		["name"] = "路远",
+		["text"] = "那就看看，请吧，这是宋别，怎么叫随你，店还没正式开张，暂时就我们俩，有事找谁都行。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]路远说完，就又蹲下去，继续研究图纸。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile3",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					400,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "down",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "65648C62475800193AF0A78FA9CB35D5",
+		["guid_str"] = "RF1WZkoo",
+		["id"] = 52,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]宋别眼皮直跳，接着就看到脸上还贴着创可贴的少年真的在店里转悠了起来，他一边瞟着少年一边蹲下去，尽力压低声音。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-300,
 					0,
@@ -2703,12 +3214,609 @@
 				["tween"] = {
 					{
 						["param"] = {
-							["am"] = 10,
 							["delay"] = 0,
-							["duration"] = 500,
 							["time"] = 200,
 						},
 						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 0,
+								["orig_y"] = 50,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 800,
+							["end_pos"] = {
+								["x"] = 0,
+								["y"] = 50,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "9F739D0A43B523044DE75ABA7F03114C",
+		["guid_str"] = "abmpkjaX",
+		["id"] = 53,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_1",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+			{
+				["delay"] = 700,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "482",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["pos"] = {
+					0,
+					50,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "5B99A64E4EA20F262B8C658F6DB8BBC7",
+		["guid_str"] = "VCVyiqqN",
+		["id"] = 54,
+		["name"] = "宋别",
+		["text"] = "不是……路哥，啥情况啊？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]路远抬起眼皮，又垂下去拿起尺子量尺寸。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["pos"] = {
+					0,
+					50,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "A146262A4A2148A09B4BB9AA16ADC44C",
+		["guid_str"] = "gnmN2Fk4",
+		["id"] = 55,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["pos"] = {
+					0,
+					50,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "06D4E36C49305D7BCF0E588F4F52141A",
+		["guid_str"] = "Agp69MCM",
+		["id"] = 56,
+		["name"] = "路远",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am69ly/am69ly_action1",
+		},
+		["text"] = "什么什么情况，客人，看不懂？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "482",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["pos"] = {
+					0,
+					50,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "BF22679C47ED8178A89A8AAD94EAE739",
+		["guid_str"] = "t2lKk9yM",
+		["id"] = 57,
+		["name"] = "宋别",
+		["text"] = "客人？路哥，亲哥，他这校服可是那个什么什么附中的，咱们市最好的学校……未来花朵啊，咱这大学都没上的……我的刻板印象告诉我他不应该进来，咱们要摊上事儿！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["pos"] = {
+					0,
+					50,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8BCB85B34B706AD2C575FAA4AC88C3EE",
+		["guid_str"] = "AY4TEeDN",
+		["id"] = 58,
+		["name"] = "路远",
+		["speaker_info"] = {
+			["anim"] = "closeeyeserious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am69ly/am69ly_action1",
+		},
+		["text"] = "注意一下，我是没上，你是没得上。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "482",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["pos"] = {
+					0,
+					50,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 0,
+								["orig_y"] = -50,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 0,
+								["y"] = -50,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "404E235044560D09CCC55DA5D48F972F",
+		["guid_str"] = "PppfzKyg",
+		["id"] = 59,
+		["name"] = "宋别",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "……好好好，那他来买啥？买车还是给家里看车零件啊？他懂么？！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F81FE5C648D60512CD728B97DCA12F36",
+		["guid_str"] = "69XS6uuf",
+		["id"] = 60,
+		["name"] = "路远",
+		["speaker_info"] = {
+			["anim"] = "smile1",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am69ly/am69ly_action1",
+		},
+		["text"] = "买什么……小别。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "482",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "4568D2CD43B30D3D87A4C4A9E61C9207",
+		["guid_str"] = "7IBEphZk",
+		["id"] = 61,
+		["name"] = "宋别",
+		["text"] = "啊？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "776A416C46D6D89212B11CBE17D03AAF",
+		["guid_str"] = "TUqLOeIE",
+		["id"] = 62,
+		["name"] = "路远",
+		["speaker_info"] = {
+			["anim"] = "smile1",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am69ly/am69ly_action1",
+		},
+		["text"] = "千金难买“我喜欢”。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "69FCE21E405149E350DC3FBBDCB285EA",
+		["guid_str"] = "6QJ2Fjom",
+		["id"] = 63,
+		["name"] = "路远",
+		["speaker_info"] = {
+			["anim"] = "closeeyesmile",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am69ly/am69ly_action1",
+		},
+		["text"] = "行了，赶紧干活去。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 500,
+								["time"] = 500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n87bie/n87bie_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 500,
+							["direction"] = "left",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "37F6EB4E415F8B81F08C7D94AF3BB053",
+		["guid_str"] = "DhgOB5kE",
+		["id"] = 64,
+		["just_auto_play"] = true,
+		["speaker_info"] = {
+			["anim"] = "closeeyesmile",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am69ly/am69ly_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
 					},
 				},
 			},
@@ -2729,8 +3837,1973 @@
 				["tween"] = {
 					{
 						["param"] = {
+							["delay"] = 1000,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
 							["delay"] = 0,
-							["direction"] = "right",
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
+		["guid"] = "F8DB5B054CE5D044730DC6A32B7F5588",
+		["guid_str"] = "KlLD6fzh",
+		["id"] = 65,
+		["just_auto_play"] = true,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -100,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = -100,
+								["y"] = 0,
+							},
+							["time"] = 300,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 0,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 800,
+							["end_pos"] = {
+								["x"] = 0,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 400,
+							["duration"] = 200,
+							["time"] = 10,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "D024398B48BDDB9DB0FDD5A95284CBE9",
+		["guid_str"] = "7sNxxVla",
+		["id"] = 66,
+		["name"] = "路远",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 1000,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "给。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]不等北洛闻声回头，一杯乳白混着咖色的饮料被塞到自己手里，\n\n一看就是有人把两种液体暴力混合在一起又搅和了两下，有点像“咖啡牛奶”，又好像不是。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "FAA548A1460330F9ADAD1AA701AE3FE0",
+		["guid_str"] = "u6DHNF35",
+		["id"] = 67,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "480",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-350,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "AEAEB48849A5972DD733049B5430F90A",
+		["guid_str"] = "SmBjNFaQ",
+		["id"] = 68,
+		["name"] = "路远",
+		["text"] = "我最喜欢的黑巧稍微混了点奶，个人最喜欢的“特调”，推荐给你。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "7C6CF4B547EAE2BC1C09D3AA2738C31B",
+		["guid_str"] = "l68vM6Zu",
+		["id"] = 69,
+		["name"] = "北洛",
+		["text"] = "谢谢。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "44906A26493BCAF7989D3F895ECDF4E7",
+		["guid_str"] = "NbVJDXSG",
+		["id"] = 70,
+		["name"] = "北洛",
+		["text"] = "这是什么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]北洛指着工作台附近的各种零件，挑了一个问，他已经看了半天了。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 50,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 50,
+								["y"] = 0,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 0,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 500,
+							["end_pos"] = {
+								["x"] = 0,
+								["y"] = 0,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "F52DE2634F7E1B2A8E0CAB87DB329942",
+		["guid_str"] = "yEPgKOvV",
+		["id"] = 71,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "480",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-350,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D1A5E44E484291B6EFFCD18882A58467",
+		["guid_str"] = "rbK4oWqn",
+		["id"] = 72,
+		["name"] = "路远",
+		["text"] = "刹车零件。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 50,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 50,
+								["y"] = 0,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 0,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 500,
+							["end_pos"] = {
+								["x"] = 0,
+								["y"] = 0,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "643A5BB44960BE6CC051E489EA27777E",
+		["guid_str"] = "YznFQ8o0",
+		["id"] = 73,
+		["name"] = "北洛",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["text"] = "这个呢？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "480",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-350,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "7CFF13FA449190A6ED66FD9C424E76A6",
+		["guid_str"] = "4wKOQHeH",
+		["id"] = 74,
+		["name"] = "路远",
+		["text"] = "减震器。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "169C8BD444CB1C6E517657822A22627E",
+		["guid_str"] = "q8UWYDWW",
+		["id"] = 75,
+		["name"] = "北洛",
+		["text"] = "那那个大的？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "480",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-350,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "816AEC74469BA3088E3EE19348D24E1C",
+		["guid_str"] = "gqZUKhUW",
+		["id"] = 76,
+		["name"] = "路远",
+		["text"] = "悬架，唔，还是稍微离远点，我怕我没固定稳。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[size 17]几个来回后，路远走开，不一会拿回来一本已经被翻得有些旧的杂志和笔记本。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "8C92CD2B4745675B4CEC2F83CD89AA7C",
+		["guid_str"] = "6pLmvRJa",
+		["id"] = 77,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "480",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-350,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "7CCFA3EC42BBC2E00A5EF2BBC192C6BA",
+		["guid_str"] = "iQPyoh0V",
+		["id"] = 78,
+		["name"] = "路远",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "喏，上面都有，我笔记里也有写，比网上那些资料有用，有兴趣可以当做课外读物看看。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]犹豫了几秒，北洛果断接过书，点头道谢。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 100,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 100,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 0,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 800,
+							["end_pos"] = {
+								["x"] = 0,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "95AD64A64918928E9F1ABFA59AC1E59A",
+		["guid_str"] = "C9T6IykB",
+		["id"] = 79,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+			{
+				["delay"] = 800,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]把书塞进书包，北洛忽然发现被他放到一旁的马克杯上图案有点特殊，好像是个签名，他拿起来仔细辨认。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 0,
+								["orig_y"] = 50,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 0,
+							["end_pos"] = {
+								["x"] = 0,
+								["y"] = 50,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "PositionChange",
+					},
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = 0,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 800,
+							["end_pos"] = {
+								["x"] = 0,
+								["y"] = 0,
+							},
+							["time"] = 200,
+						},
+						["tween"] = "PositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "0AA677A64C4DC0AC1782FC8D27687A13",
+		["guid_str"] = "DsxEiDC8",
+		["id"] = 80,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]——RODERIC。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "4799E65349753779D225E09B0D2561CA",
+		["guid_str"] = "wRZrDTBn",
+		["id"] = 81,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile3",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "480",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-350,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D639348A4436AF70AE1EB091E48F660C",
+		["guid_str"] = "WtD6Yo6h",
+		["id"] = 82,
+		["name"] = "路远",
+		["text"] = "我的签名，帅不帅~",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]回味了一下听到的答案，北洛放下杯子，拧起眉毛。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile3",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "E4A195D043F5261EA774E8A455BE6DF6",
+		["guid_str"] = "CCkaYlkB",
+		["id"] = 83,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "AE67627649A78B11E76F91BEA32A767A",
+		["guid_str"] = "MswlNHiH",
+		["id"] = 84,
+		["name"] = "北洛",
+		["text"] = "你的签名？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "480",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-350,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "E955BB9245ABAFD584EDF6BE73830BFC",
+		["guid_str"] = "e7y1Bpeb",
+		["id"] = 85,
+		["name"] = "路远",
+		["text"] = "嗯，去年还在墨翼的时候不小心拿了几个冠军，这可是限定周边，好多人抢着买呢。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "FB691D5440F91ABA223E2289A0CCDB26",
+		["guid_str"] = "26lYWRGF",
+		["id"] = 86,
+		["name"] = "北洛",
+		["text"] = "不是卖不掉剩下了？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "dislike",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "480",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-350,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "AFF0CA0949C220147BF4CDBBB25EC3E1",
+		["guid_str"] = "xedyciNc",
+		["id"] = 87,
+		["name"] = "路远",
+		["text"] = "我的签名还挺值钱的好吧！你小子！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]看着面前的少年一脸“审视”地看着自己，路远承认，他该死的胜负心有一点点死灰复燃。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "6876F58749DB45D2CE5B6CBB4C6EA093",
+		["guid_str"] = "Bk7DS7xU",
+		["id"] = 88,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "dislike",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "480",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-350,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "1E8AC4444BF3EB08DB71468DD37F0344",
+		["guid_str"] = "eRTFclYG",
+		["id"] = 89,
+		["name"] = "路远",
+		["text"] = "北洛同学，作业写完了么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "477A50C7406DF445E5977BA0D52E5B40",
+		["guid_str"] = "wOc9lBhI",
+		["id"] = 90,
+		["name"] = "北洛",
+		["text"] = "在学校就写完了，不然我不会来。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]忽然北洛竟然也勾勾嘴角，直直看着路远。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "dislike",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "B55C64714ACDFC59655F9D95536C4CD6",
+		["guid_str"] = "Qcpj71t0",
+		["id"] = 91,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D19FA27B468B49D75741BAA7A0B8105E",
+		["guid_str"] = "kmrR3R3h",
+		["id"] = 92,
+		["name"] = "北洛",
+		["text"] = "放心，这点儿东西“带不坏”我。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_sky_04.png",
+			},
+		},
+		["caption_info"] = {
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[size 17]夏日的夕阳落得愈发晚，最后一抹余晖照进崭新的玻璃墙，\n\n日暮下，路远第一次在面前这个两面之缘的“小朋友”脸上见到属于这个年纪的“张狂”。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "EAFBFD584204C7B492D2E0A73A713E28",
+		["guid_str"] = "oTlOkkEP",
+		["id"] = 93,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_sky_04.png",
+			},
+		},
+		["caption_info"] = {
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[size 17]路远也跟着乐了，他一手抄在兜里，一手拿出车钥匙在手上转个不停，\n\n带着点刻板印象里他这个经历和“职业”应该有的痞气。",
+			["text_align"] = "center",
+		},
+		["guid"] = "5449199244FB91E7A5F966920B87A1FE",
+		["guid_str"] = "2lgTbzkB",
+		["id"] = 94,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 200,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_sky_04.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "480",
+					["is_enabled"] = true,
+					["offset"] = {
+						50,
+						-350,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
 							["dis"] = 100,
 							["end_alpha"] = 1.0,
 							["time"] = 500,
@@ -2740,10 +5813,711 @@
 				},
 			},
 		},
-		["guid"] = "6BB7B08544BA5F29E9D61BA7B971742D",
-		["guid_str"] = "rrLg5w1v",
-		["id"] = 50,
+		["guid"] = "3BEB2DF74F5A292E5F439FB5A0C81250",
+		["guid_str"] = "m2bVCoxZ",
+		["id"] = 95,
+		["name"] = "路远",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "那北洛同学，有兴趣下周末来看个小比赛么？就在天阿山，当做“课外学习”。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActBlackSceneBG/bg_blackout_03.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am69ly/am69ly_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "6516A3754BA4FC436517E49807C83911",
+		["guid_str"] = "nI2ZlU5Y",
+		["id"] = 96,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/bwg/bwg_amb_powerroom_on",
+				["length"] = 10649,
+				["stop"] = 1,
+			},
+		},
+		["time"] = 2500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 900,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["mute"] = true,
+			["operation"] = 2,
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-260,
+					250,
+				},
+				["scale"] = {
+					1.5,
+					1.5,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 600,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
+		["guid"] = "45191A594223FB4F8DFA839582F2DBC3",
+		["guid_str"] = "ZqTOpFxT",
+		["id"] = 97,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_night_generic",
+				["length"] = 55384,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 1300,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]又被请了一顿竹升面后的北洛拒绝了路远提出的送回家服务，自己打了辆车。\n\n打开群聊简单说明自己快到家了，北洛盯着屏幕几秒，忽然发现他们家的群聊竟然连个名字都没人起过。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-260,
+					250,
+				},
+				["scale"] = {
+					1.5,
+					1.5,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F6811F2D4772C451BB452CB45D64266E",
+		["guid_str"] = "qmkPlAtz",
+		["id"] = 98,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/red/red_amb_bazaar_incar",
+				["length"] = 30205,
+				["loop"] = 1,
+				["volume"] = 0.20000000298023,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]虽然仔细想想倒也合理，无论是强势的妈妈还是一根筋的爸爸都不像是会在意这些事的人，\n\n不然群聊天也不会充斥着各种“1”、“好”、“知道了”和无情的大名。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-260,
+					250,
+				},
+				["scale"] = {
+					1.5,
+					1.5,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "053552934BECD68C5E6664ADA3967483",
+		["guid_str"] = "Fcrw2e7f",
+		["id"] = 99,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]虽然不想承认，北洛也要接受玄戈简直和妈妈一个模子刻出来的事实，也不会在意这种小事。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-260,
+					250,
+				},
+				["scale"] = {
+					1.5,
+					1.5,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "DECE211446C6BAD268FCFA8618E42607",
+		["guid_str"] = "BwaeYOk8",
+		["id"] = 100,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]百无聊赖地向上划着聊天记录，车子不紧不慢地行驶在没几辆车的宽阔马路上，车窗外时不时是超车而过的车辆。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-260,
+					250,
+				},
+				["scale"] = {
+					1.5,
+					1.5,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8B711B6C4B8BBAD9ACFACB8F2802BD51",
+		["guid_str"] = "rMfOf5Ov",
+		["id"] = 101,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]北洛微微降下车窗，看着窗外。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-260,
+					250,
+				},
+				["scale"] = {
+					1.5,
+					1.5,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 200,
+							["time"] = 10,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "BBD5B5444BFB17A8634873803F9FAF2C",
+		["guid_str"] = "Sr46qtcj",
+		["id"] = 102,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-260,
+					250,
+				},
+				["scale"] = {
+					1.5,
+					1.5,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "86400F834B9795A121EEB5A05597134F",
+		["guid_str"] = "tZ6GzHDU",
+		["id"] = 103,
 		["name"] = "北洛",
-		["text"] = "想来看看。",
+		["text"] = "师傅，能再快点么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-260,
+					250,
+				},
+				["scale"] = {
+					1.5,
+					1.5,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "AA10CE7441FC0A0E418D6EB926CD379A",
+		["guid_str"] = "kNLpgccM",
+		["id"] = 104,
+		["name"] = "出租车师傅",
+		["text"] = "怎么小朋友，有急事还是害怕呀，哈哈，放心，我这么多年老司机了，稳得很嘞。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-260,
+					250,
+				},
+				["scale"] = {
+					1.5,
+					1.5,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "C091FB574502E91F5850C6B0B498F372",
+		["guid_str"] = "MqYoj6xH",
+		["id"] = 105,
+		["name"] = "北洛",
+		["text"] = "……没事，您继续开吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]他就是忽然想再听一下引擎的轰鸣声。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-260,
+					250,
+				},
+				["scale"] = {
+					1.5,
+					1.5,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9A419AB949C90BF1E8FC42B537528385",
+		["guid_str"] = "DabATp15",
+		["id"] = 106,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[size 17]想确认一下声音的高低，想确认究竟喜不喜欢。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					-260,
+					250,
+				},
+				["scale"] = {
+					1.5,
+					1.5,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "6294A28848319F736BB68AB2E687ABA9",
+		["guid_str"] = "x1quXFGC",
+		["id"] = 107,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.29411765933037,
+						0.32941177487373,
+						0.40784314274788,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+			},
+		},
+		["guid"] = "753329474B034CCCE73852A476A526A7",
+		["guid_str"] = "l3OsGtb5",
+		["id"] = 108,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["time"] = 1800,
 	},
 }

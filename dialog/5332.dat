@@ -2,6 +2,54 @@
 	{
 		["bg_info"] = {
 			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s020_story_hospital",
+			["length"] = 166285,
+			["operation"] = 1,
+		},
+		["caption_info"] = {
+			["is_show_all"] = true,
+			["text"] = "[size 25][font cusong][c a3bdc8]EP3[/c]  制 动 人 生",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 1500,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 2000,
+						["time"] = 2000,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["guid"] = "B647776B4328C4C25F7351B07EE03B07",
+		["guid_str"] = "t2SHaSFn",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/nether_hospital",
+				["length"] = 59076,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 3500,
+	},
+	{
+		["bg_info"] = {
+			{
 				["config"] = {
 					["tween"] = {
 						{
@@ -40,10 +88,23 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s020_story_hospital",
+			["length"] = 166285,
+			["operation"] = 1,
+		},
 		["guid"] = "0C962534431CFB5677CAB39B85A6CF9C",
 		["guid_str"] = "O0lmwGm8",
-		["id"] = 1,
+		["id"] = 2,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/nether_hospital",
+				["length"] = 59076,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -55,10 +116,10 @@
 		},
 		["guid"] = "9393D92443A3D6AB5AC6D6A403358741",
 		["guid_str"] = "dPQyXRkV",
-		["id"] = 2,
+		["id"] = 3,
 		["introduce"] = {
-			["location"] = "八  院          ",
-			["time"] = "2049年，3月12号之前的某天",
+			["location"] = "钧天市·第八人民医院",
+			["time"] = "黑曜时2049年3月2日  15:10",
 		},
 		["just_auto_play"] = true,
 	},
@@ -97,8 +158,15 @@
 		},
 		["guid"] = "AAD9DCD4482AC94F968F25A13EA8E65F",
 		["guid_str"] = "NsXpN8yb",
-		["id"] = 3,
+		["id"] = 4,
 		["name"] = "住院部护士",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "302今天谁进去探视？",
 	},
 	{
@@ -137,7 +205,7 @@
 								["x"] = 250,
 								["y"] = 0,
 							},
-							["time"] = 400,
+							["time"] = 500,
 						},
 						["tween"] = "RelativePositionChange",
 					},
@@ -152,7 +220,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -164,7 +232,7 @@
 							["direction"] = "right",
 							["dis"] = 100,
 							["end_alpha"] = 1.0,
-							["time"] = 400,
+							["time"] = 500,
 						},
 						["tween"] = "MoveIn",
 					},
@@ -173,8 +241,15 @@
 		},
 		["guid"] = "08EB29F6485B40752C02F88D9FD16164",
 		["guid_str"] = "I3RsJvQz",
-		["id"] = 4,
+		["id"] = 5,
 		["name"] = "北洛",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "我。",
 	},
 	{
@@ -216,7 +291,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -225,7 +300,7 @@
 		},
 		["guid"] = "6301D29D49B8B7B96B0F5DAA7824A2AC",
 		["guid_str"] = "qEuDlYnx",
-		["id"] = 5,
+		["id"] = 6,
 		["name"] = "住院部护士",
 		["text"] = "弟弟啊，那跟我来吧。",
 	},
@@ -273,7 +348,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					-250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -286,7 +361,7 @@
 								["x"] = 250,
 								["y"] = 0,
 							},
-							["time"] = 400,
+							["time"] = 500,
 						},
 						["tween"] = "RelativePositionChange",
 					},
@@ -295,8 +370,15 @@
 		},
 		["guid"] = "50ACDFE942791B413D8260AFABC46356",
 		["guid_str"] = "KON8hdhG",
-		["id"] = 6,
+		["id"] = 7,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["time"] = 1500,
 	},
 	{
@@ -321,6 +403,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -334,7 +420,7 @@
 								["x"] = 250,
 								["y"] = 0,
 							},
-							["time"] = 400,
+							["time"] = 500,
 						},
 						["tween"] = "MoveOut",
 					},
@@ -343,7 +429,15 @@
 		},
 		["guid"] = "1A4E95114DB49279035296B83117DD62",
 		["guid_str"] = "GrUsx0fm",
-		["id"] = 7,
+		["id"] = 8,
+		["soundfx"] = {
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -356,7 +450,7 @@
 								["direction"] = "left",
 								["dis"] = 100,
 								["end_alpha"] = 1.0,
-								["time"] = 1000,
+								["time"] = 1500,
 							},
 							["tween"] = "MoveIn",
 						},
@@ -370,7 +464,7 @@
 		},
 		["guid"] = "90E26D1443C6B4A888E5758F45659F37",
 		["guid_str"] = "ZhZP60YO",
-		["id"] = 8,
+		["id"] = 9,
 		["just_auto_play"] = true,
 		["time"] = 1500,
 	},
@@ -399,7 +493,7 @@
 		},
 		["guid"] = "A4C4FED8426008BE516EBD9205267ED7",
 		["guid_str"] = "tQuOGEQU",
-		["id"] = 9,
+		["id"] = 10,
 	},
 	{
 		["bg_info"] = {
@@ -417,6 +511,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -427,7 +525,7 @@
 							["direction"] = "right",
 							["dis"] = 100,
 							["end_alpha"] = 1.0,
-							["time"] = 400,
+							["time"] = 500,
 						},
 						["tween"] = "MoveIn",
 					},
@@ -436,9 +534,16 @@
 		},
 		["guid"] = "69B4B7324BF416716C309CA3CE59067A",
 		["guid_str"] = "uBvspmac",
-		["id"] = 10,
+		["id"] = 11,
 		["name"] = "北洛",
-		["text"] = "今天带了鳕鱼汤，我做的，凑合喝喝。",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "今天带了鳕鱼汤，我做的，凑合喝吧。",
 	},
 	{
 		["bg_info"] = {
@@ -456,6 +561,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -463,7 +572,7 @@
 		},
 		["guid"] = "B27EDCF14863B499C8AEA8957C7940EE",
 		["guid_str"] = "G7Fmr3RA",
-		["id"] = 11,
+		["id"] = 12,
 		["name"] = "北洛",
 		["text"] = "花玄戈买的。",
 	},
@@ -497,6 +606,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am30bl/am30bl_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -513,7 +626,8 @@
 		},
 		["guid"] = "CCB8DE4C43E6995C4EB88E92A5CF1538",
 		["guid_str"] = "mnqCOW2S",
-		["id"] = 12,
+		["id"] = 13,
+		["text_sound_id"] = 0,
 	},
 	{
 		["bg_info"] = {
@@ -587,7 +701,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -608,7 +722,14 @@
 		},
 		["guid"] = "D48BC4D64C3C2057CFE2ADBEB09F0928",
 		["guid_str"] = "yRYWhwul",
-		["id"] = 13,
+		["id"] = 14,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -662,7 +783,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -671,7 +792,8 @@
 		},
 		["guid"] = "7D84553541424887187922803FC1677A",
 		["guid_str"] = "QPcDdczQ",
-		["id"] = 14,
+		["id"] = 15,
+		["text_sound_id"] = 0,
 	},
 	{
 		["bg_info"] = {
@@ -734,7 +856,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -752,7 +874,7 @@
 		},
 		["guid"] = "2CE0EC3A4712CA4C6E7E2A90A9DC6483",
 		["guid_str"] = "BWuOScYS",
-		["id"] = 15,
+		["id"] = 16,
 	},
 	{
 		["bg_info"] = {
@@ -797,7 +919,7 @@
 		},
 		["guid"] = "2E995FB046A2C2459EFBA5B449BC0D8D",
 		["guid_str"] = "7cMbJoGZ",
-		["id"] = 16,
+		["id"] = 17,
 	},
 	{
 		["bg_info"] = {
@@ -842,7 +964,7 @@
 		},
 		["guid"] = "77294E604D69E84393C46BA3D0310E23",
 		["guid_str"] = "XnbIBnmB",
-		["id"] = 17,
+		["id"] = 18,
 	},
 	{
 		["bg_info"] = {
@@ -887,7 +1009,7 @@
 		},
 		["guid"] = "E19F4DBD4378662170F5E1A8712D90A5",
 		["guid_str"] = "PTuZrk9l",
-		["id"] = 18,
+		["id"] = 19,
 	},
 	{
 		["bg_info"] = {
@@ -929,6 +1051,7 @@
 			["height"] = 150,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
+			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[size 17][font cusong]“[c a3bdc8]当年那枚子弹真的飞到终点了么？[/c]”",
 			["text_align"] = "center",
 			["tween"] = {
@@ -943,7 +1066,7 @@
 		},
 		["guid"] = "905590864A988ACC2D241FADE25EA40B",
 		["guid_str"] = "VqxYGAu7",
-		["id"] = 19,
+		["id"] = 20,
 	},
 	{
 		["bg_info"] = {
@@ -985,12 +1108,13 @@
 			["height"] = 150,
 			["is_append"] = true,
 			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[br][br][br][size 17]一天一天过日子的北洛偶尔会做出这种残酷的假设，然后再否定，\n\n他觉得这更像玄戈会去考虑的事情。\n\n不是他。\n",
 			["text_align"] = "center",
 		},
 		["guid"] = "272D5A1840E7941AD88502948E863844",
 		["guid_str"] = "UeoBg9Av",
-		["id"] = 20,
+		["id"] = 21,
 	},
 	{
 		["bg_info"] = {
@@ -1038,7 +1162,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1059,7 +1183,7 @@
 		},
 		["guid"] = "AA0EF12A419692B9675165A0551AE40F",
 		["guid_str"] = "pYmlzywK",
-		["id"] = 21,
+		["id"] = 22,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1132,7 +1256,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1141,7 +1265,7 @@
 		},
 		["guid"] = "7DCD9C854A401C430F1B23A9EC6F4A2A",
 		["guid_str"] = "OPPXrkRb",
-		["id"] = 22,
+		["id"] = 23,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -1193,7 +1317,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1202,7 +1326,7 @@
 		},
 		["guid"] = "201660F142BF2869D6A7C9B560979FD3",
 		["guid_str"] = "5z1T1lRe",
-		["id"] = 23,
+		["id"] = 24,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1262,7 +1386,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1271,7 +1395,7 @@
 		},
 		["guid"] = "DEC572E0418113B8B589ABBD5769F8EB",
 		["guid_str"] = "x5HjadUz",
-		["id"] = 24,
+		["id"] = 25,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1338,7 +1462,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1347,7 +1471,7 @@
 		},
 		["guid"] = "3BC90A554797F54707D9A49CD9778A1C",
 		["guid_str"] = "Q5qZvlp1",
-		["id"] = 25,
+		["id"] = 26,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1407,7 +1531,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1440,7 +1564,20 @@
 		},
 		["guid"] = "EAEC857C4F2DB0D5CF219993113E79C6",
 		["guid_str"] = "yMHPJ5KA",
-		["id"] = 26,
+		["id"] = 27,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 600,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -1492,7 +1629,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1501,7 +1638,7 @@
 		},
 		["guid"] = "0C4B96214B41AE2B989674974F918F69",
 		["guid_str"] = "JhZCJt3v",
-		["id"] = 27,
+		["id"] = 28,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1561,7 +1698,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1570,7 +1707,7 @@
 		},
 		["guid"] = "EBBB970444666BE64C4108A6DA7DD067",
 		["guid_str"] = "fJs1gaiV",
-		["id"] = 28,
+		["id"] = 29,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1643,7 +1780,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1652,7 +1789,7 @@
 		},
 		["guid"] = "44281C2443AC9496EAA43AB5CDF77CAC",
 		["guid_str"] = "wbZ0gaMa",
-		["id"] = 29,
+		["id"] = 30,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1719,7 +1856,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1728,7 +1865,7 @@
 		},
 		["guid"] = "572A68664D689E5B942B07806A022E6A",
 		["guid_str"] = "os8x1mE4",
-		["id"] = 30,
+		["id"] = 31,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1788,7 +1925,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1797,7 +1934,7 @@
 		},
 		["guid"] = "69FED6F14E9024C387B50FACC6B3B66C",
 		["guid_str"] = "ObsVxYfo",
-		["id"] = 31,
+		["id"] = 32,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -1855,7 +1992,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1864,7 +2001,7 @@
 		},
 		["guid"] = "4318BD8B4C490847E576FB8540095A47",
 		["guid_str"] = "vZhcL9nC",
-		["id"] = 32,
+		["id"] = 33,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1938,7 +2075,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1947,7 +2084,7 @@
 		},
 		["guid"] = "330354124FB2662AAFEC608EFA2FF295",
 		["guid_str"] = "nBqY0EIn",
-		["id"] = 33,
+		["id"] = 34,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2007,7 +2144,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2016,7 +2153,7 @@
 		},
 		["guid"] = "35DC2F494DE72E46912D8698D19B33EF",
 		["guid_str"] = "bdubEpPY",
-		["id"] = 34,
+		["id"] = 35,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2083,7 +2220,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2092,7 +2229,7 @@
 		},
 		["guid"] = "09439D314E6411B6E33521BF8B856A91",
 		["guid_str"] = "BFVJIqDP",
-		["id"] = 35,
+		["id"] = 36,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2152,7 +2289,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2161,7 +2298,7 @@
 		},
 		["guid"] = "F6F753CC451C547BEB1445B808CC7444",
 		["guid_str"] = "EU2ozWAt",
-		["id"] = 36,
+		["id"] = 37,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2228,7 +2365,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2237,7 +2374,7 @@
 		},
 		["guid"] = "96BF72394A53541B8CE942ACA6827647",
 		["guid_str"] = "XgSzR3nb",
-		["id"] = 37,
+		["id"] = 38,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2297,7 +2434,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2306,7 +2443,7 @@
 		},
 		["guid"] = "A07ADF84409F6FEBB85B4CA03D6CDF79",
 		["guid_str"] = "tmYNHz4m",
-		["id"] = 38,
+		["id"] = 39,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2385,7 +2522,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2394,7 +2531,7 @@
 		},
 		["guid"] = "F335AFB64CBBD7543398AB93DA2509D0",
 		["guid_str"] = "gtbCGzgN",
-		["id"] = 39,
+		["id"] = 40,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2464,7 +2601,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2473,7 +2610,7 @@
 		},
 		["guid"] = "9232F3374E1E7E2B21D86C9D3EE55CE9",
 		["guid_str"] = "nrdu7iPo",
-		["id"] = 40,
+		["id"] = 41,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2552,7 +2689,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2561,7 +2698,7 @@
 		},
 		["guid"] = "BC3EE2244B1B8536B65CF5B70CA67FE9",
 		["guid_str"] = "JOj8CHuQ",
-		["id"] = 41,
+		["id"] = 42,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2631,7 +2768,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2640,7 +2777,7 @@
 		},
 		["guid"] = "6BE74084458DBDFD79D622ADDCE578C0",
 		["guid_str"] = "kFLEdLYh",
-		["id"] = 42,
+		["id"] = 43,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2713,7 +2850,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2722,7 +2859,7 @@
 		},
 		["guid"] = "189383B4403F5FD55A06DFB2A0EE233C",
 		["guid_str"] = "eeosrRyd",
-		["id"] = 43,
+		["id"] = 44,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2795,7 +2932,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2815,7 +2952,14 @@
 		},
 		["guid"] = "3393A6D1415CC103099123AB7513A5F0",
 		["guid_str"] = "KZRf72x7",
-		["id"] = 44,
+		["id"] = 45,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2885,7 +3029,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2894,7 +3038,7 @@
 		},
 		["guid"] = "82B398AB41ED10CDA65BEEBD614C3C78",
 		["guid_str"] = "quv3XNXp",
-		["id"] = 45,
+		["id"] = 46,
 		["name"] = "爸爸",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2982,7 +3126,7 @@
 				["path"] = "am30bl/am30bl_young_action1",
 				["pos"] = {
 					200,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3000,7 +3144,7 @@
 		},
 		["guid"] = "A5AA3EF94ABF2F35BA9DE78DE442AFBB",
 		["guid_str"] = "leFh5nBC",
-		["id"] = 46,
+		["id"] = 47,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3072,7 +3216,7 @@
 		},
 		["guid"] = "3736BB50457F4F8B3B8D1CAD7B2C2918",
 		["guid_str"] = "qkZ3b7a8",
-		["id"] = 47,
+		["id"] = 48,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3132,7 +3276,7 @@
 		},
 		["guid"] = "EC9392FE4E84DFAAA5EE31AD0813A6C7",
 		["guid_str"] = "nVHIgM6z",
-		["id"] = 48,
+		["id"] = 49,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3192,7 +3336,7 @@
 		},
 		["guid"] = "709E216743B3D457DB82CC9E5ED2EAF5",
 		["guid_str"] = "Jg2Wvh5A",
-		["id"] = 49,
+		["id"] = 50,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3252,7 +3396,7 @@
 		},
 		["guid"] = "8A996F524739A6D532A638A899615D78",
 		["guid_str"] = "6T6I1FoR",
-		["id"] = 50,
+		["id"] = 51,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3302,7 +3446,7 @@
 		},
 		["guid"] = "F5E7302648A1D8E66B1502A19A1DF1E4",
 		["guid_str"] = "wV1Jk3yV",
-		["id"] = 51,
+		["id"] = 52,
 		["just_auto_play"] = true,
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3330,7 +3474,7 @@
 		},
 		["guid"] = "DD4B617243AEF48969C6EA884DE0C6FD",
 		["guid_str"] = "niYurcWt",
-		["id"] = 52,
+		["id"] = 53,
 		["just_auto_play"] = true,
 	},
 	{
@@ -3358,7 +3502,7 @@
 		},
 		["guid"] = "CF2A70B0417F1C667D569FA90BCE5503",
 		["guid_str"] = "BuPgQbSY",
-		["id"] = 53,
+		["id"] = 54,
 	},
 	{
 		["bg_info"] = {
@@ -3383,8 +3527,14 @@
 		},
 		["guid"] = "01008BBE445203DA9CFE4FB4DCD3C448",
 		["guid_str"] = "cxGO4GAI",
-		["id"] = 54,
+		["id"] = 55,
 		["name"] = "冷嘲热讽的男声",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_chuqian_press",
+				["length"] = 1766,
+			},
+		},
 		["text"] = "这种情形还允许探视甚至还可以出院居家？钧天终于做好准备拥抱「ANNA」了？",
 	},
 	{
@@ -3409,6 +3559,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3428,7 +3582,14 @@
 		},
 		["guid"] = "A9C0145247FF12BE3C078E8E4D65424B",
 		["guid_str"] = "tjm1YR44",
-		["id"] = 55,
+		["id"] = 56,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3452,6 +3613,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3459,9 +3624,9 @@
 		},
 		["guid"] = "75C00A6145C1ADE7E3FE7095CDEC5009",
 		["guid_str"] = "dQ1YDB1M",
-		["id"] = 56,
+		["id"] = 57,
 		["name"] = "平静的女声",
-		["text"] = "它的传染性并无法被证实，被初步诊断确诊的病人没有统一临床表现，「ANNA」这个词也并不符合命名标准。",
+		["text"] = "它的传染性并无法被证实，被初步诊断确诊的病人没有统一的临床表现，「ANNA」这个词也并不符合命名标准。",
 	},
 	{
 		["bg_info"] = {
@@ -3485,6 +3650,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3492,7 +3661,7 @@
 		},
 		["guid"] = "EE7410984E647D28BD5F14B22C3A7B24",
 		["guid_str"] = "cmc5wqgk",
-		["id"] = 57,
+		["id"] = 58,
 		["name"] = "冷嘲热讽的男声",
 		["text"] = "有可能这东西就是速度很快跑在了科学的前面，而人类暂时没本事追上，云医生。",
 	},
@@ -3518,6 +3687,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3525,7 +3698,7 @@
 		},
 		["guid"] = "5BEC346B4D4031CD04959F8B410AB3A8",
 		["guid_str"] = "yiv5n8bi",
-		["id"] = 58,
+		["id"] = 59,
 		["name"] = "冷嘲热讽的男声",
 		["text"] = "从那天的解剖室出来后，这是我得出的结论。",
 	},
@@ -3551,6 +3724,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3558,7 +3735,7 @@
 		},
 		["guid"] = "4D3B04F14433567BFA045FAC467ECA46",
 		["guid_str"] = "MECUFlZ3",
-		["id"] = 59,
+		["id"] = 60,
 		["name"] = "平静的女声",
 		["text"] = "也许，我们更适合长跑。",
 	},
@@ -3584,6 +3761,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3591,7 +3772,7 @@
 		},
 		["guid"] = "C048ADCE4290A62B6EB14ABECE95C9D6",
 		["guid_str"] = "Y9mDH0o6",
-		["id"] = 60,
+		["id"] = 61,
 		["name"] = "冷嘲热讽的男声",
 		["text"] = "……",
 	},
@@ -3617,6 +3798,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3624,7 +3809,7 @@
 		},
 		["guid"] = "09B34FFB4E681C2CDB20BD82D19DB59A",
 		["guid_str"] = "0fewUuPD",
-		["id"] = 61,
+		["id"] = 62,
 		["name"] = "冷嘲热讽的男声",
 		["text"] = "你们人美心善的人是不是都准备了这么一套回答。",
 	},
@@ -3650,6 +3835,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3657,7 +3846,7 @@
 		},
 		["guid"] = "4C20A3A44E1EDCE4D6A97C9A8F1E5E6E",
 		["guid_str"] = "46eVEiqU",
-		["id"] = 62,
+		["id"] = 63,
 		["name"] = "冷嘲热讽的男声",
 		["text"] = "我不会在出院单上签字，不过主治医生是你，请便吧。毕竟我的本职工作是管理死人。",
 	},
@@ -3683,6 +3872,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3690,7 +3883,7 @@
 		},
 		["guid"] = "2F87F8A2495F60D3FCAE9EB0959387A5",
 		["guid_str"] = "FlOUx7mP",
-		["id"] = 63,
+		["id"] = 64,
 		["name"] = "冷嘲热讽的男声",
 		["text"] = "可以死了再来请我。",
 	},
@@ -3729,6 +3922,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3740,7 +3937,7 @@
 								["x"] = 250,
 								["y"] = 0,
 							},
-							["time"] = 400,
+							["time"] = 500,
 						},
 						["tween"] = "RelativePositionChange",
 					},
@@ -3768,7 +3965,7 @@
 							["direction"] = "right",
 							["dis"] = 100,
 							["end_alpha"] = 1.0,
-							["time"] = 400,
+							["time"] = 500,
 						},
 						["tween"] = "MoveIn",
 					},
@@ -3786,7 +3983,14 @@
 		},
 		["guid"] = "3C24A4F7408B52F10F2CA6B8861F60CE",
 		["guid_str"] = "sxYodfJU",
-		["id"] = 64,
+		["id"] = 65,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_door_close",
+				["length"] = 2438,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3812,7 +4016,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3837,8 +4041,15 @@
 		},
 		["guid"] = "7CF28BA444F5418AAB648AB32FB6C908",
 		["guid_str"] = "EArqmtk4",
-		["id"] = 65,
+		["id"] = 66,
 		["name"] = "长发白大褂男人",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "……",
 	},
 	{
@@ -3859,7 +4070,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3890,7 +4101,7 @@
 		},
 		["guid"] = "E3D3608349102E9790D825AE6CB8F9D2",
 		["guid_str"] = "g4kEXqfr",
-		["id"] = 66,
+		["id"] = 67,
 		["name"] = "玄戈",
 		["text"] = "……",
 	},
@@ -3918,7 +4129,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3951,7 +4162,7 @@
 							["delay"] = 400,
 							["direction"] = "right",
 							["dis"] = 100,
-							["time"] = 400,
+							["time"] = 500,
 						},
 						["tween"] = "MoveOut",
 					},
@@ -3960,7 +4171,14 @@
 		},
 		["guid"] = "083CA2BF47A6DDB695AA308EBB496596",
 		["guid_str"] = "cTe8c09A",
-		["id"] = 67,
+		["id"] = 68,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3980,7 +4198,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					250,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4002,8 +4220,15 @@
 		},
 		["guid"] = "7C4A3A8C4040A52049BBCE8BBFC8ADA3",
 		["guid_str"] = "72zbySuM",
-		["id"] = 68,
+		["id"] = 69,
 		["name"] = "玄戈",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "……",
 	},
 	{
@@ -4030,7 +4255,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					150,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4039,7 +4264,7 @@
 		},
 		["guid"] = "E6E1130F4AA575C7A807A5AC63712611",
 		["guid_str"] = "LlExTNrT",
-		["id"] = 69,
+		["id"] = 70,
 		["name"] = "北洛",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4072,7 +4297,7 @@
 				["path"] = "am67xg/am67xg_young_action1",
 				["pos"] = {
 					150,
-					0,
+					-40,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4094,7 +4319,14 @@
 		},
 		["guid"] = "B2E6EF144EB1E443E3B64CB70A0B1B65",
 		["guid_str"] = "HdvOf5Kq",
-		["id"] = 70,
+		["id"] = 71,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4116,6 +4348,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4123,7 +4359,7 @@
 		},
 		["guid"] = "E993F64A4B7B4084341AE19EC1F3D37E",
 		["guid_str"] = "QzkIYp6b",
-		["id"] = 71,
+		["id"] = 72,
 		["name"] = "玄戈",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4158,6 +4394,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am67xg/am67xg_young_action1",
+				["pos"] = {
+					0,
+					-40,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4174,7 +4414,8 @@
 		},
 		["guid"] = "8F62C33B49EF7202B70D38B4BCCBC62E",
 		["guid_str"] = "ShIzuRHC",
-		["id"] = 72,
+		["id"] = 73,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["speaker_info"] = {
 			["anim"] = "doubt",
