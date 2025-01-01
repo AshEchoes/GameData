@@ -1,0 +1,886 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_hospital_06.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[size 17][indent][indent]我拿起白色的卡面，推开内室的小门，却发现正对我的，是一家古朴透着陈旧的电梯。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "33A930F6436CD43AEF3CE9BC8D85DC82",
+		["guid_str"] = "eVGySYKT",
+		["id"] = 1,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["mute"] = true,
+			["operation"] = 2,
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["is_append"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "\n\n[size 17][indent][indent]——是显示早已不用但是没有被封上的那架电梯，当初我还以为是哪任首领的个人喜好。",
+		},
+		["guid"] = "71160B7045D55AF3742916920C408C3A",
+		["guid_str"] = "AkMnhVO6",
+		["id"] = 2,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/nether_hospital",
+				["length"] = 59076,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/bwg/bwg_amb_room_dark",
+				["length"] = 9376,
+				["loop"] = 1,
+				["volume"] = 0.40000000596046,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["is_append"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "\n\n[size 17][indent][indent]我看向一旁昏暗依旧的走廊。",
+		},
+		["guid"] = "847526FA4D883D36241E6CAE91ADF447",
+		["guid_str"] = "nfuIuI65",
+		["id"] = 3,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "heroine/heroine_suit_action1",
+		},
+		["guid"] = "7292FB114B394A3BD3D7AEA2FC1E305F",
+		["guid_str"] = "tAErflpE",
+		["id"] = 4,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "hero/hero_suit_action1",
+		},
+		["name"] = "[rolename]",
+		["text"] = "……？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 500,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "503",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm10tlcadre/bm10tlcadre_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 1000,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "heroine/heroine_suit_action1",
+		},
+		["guid"] = "F712C9C24401E8981B0F18AE6C881482",
+		["guid_str"] = "qI4tYxEK",
+		["id"] = 5,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["sustain_page_count"] = 3,
+				["template_type"] = "image",
+			},
+		},
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "hero/hero_suit_action1",
+		},
+		["name"] = "左枢",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3103_XzMfofAU_m",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "「谒声」[M]先生[/M][F]女士[/F]。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]我顺着声音看去，就见左枢从走廊尽头走来。昏暗的走廊隐隐能看到一束光隐没。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["knowledge_word_info"] = {
+					["id"] = "503",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm10tlcadre/bm10tlcadre_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "heroine/heroine_suit_action1",
+		},
+		["guid"] = "DE4726674EA4950B4A4F719BADF0DF71",
+		["guid_str"] = "lMFzZsjx",
+		["id"] = 6,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "hero/hero_suit_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm10tlcadre/bm10tlcadre_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+			["path"] = "heroine/heroine_suit_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_ScreenSaturation",
+						["delay"] = 0,
+						["end_value"] = 0.40000000596046,
+						["start_value"] = 0.40000000596046,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+			},
+		},
+		["guid"] = "94167C3A475A6EE029D3D680099D0243",
+		["guid_str"] = "Vrqrym6c",
+		["id"] = 7,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+			["path"] = "hero/hero_suit_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_ScreenSaturation",
+						["delay"] = 0,
+						["end_value"] = 0.40000000596046,
+						["start_value"] = 0.40000000596046,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["text"] = "[c a3bdc8]（……那边有路？）[/c]",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 500,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "heroine/heroine_suit_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "BC19CD544D7F0A44A52CBF9FCB0BE8FC",
+		["guid_str"] = "AXNAY9yp",
+		["id"] = 8,
+		["is_player_speaker"] = true,
+		["is_white_base_bg"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "hero/hero_suit_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
+				["length"] = 1153,
+				["volume"] = 1.5,
+			},
+		},
+		["text"] = "那时候……左枢是从这里出来的？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "heroine/heroine_suit_action1",
+		},
+		["guid"] = "4A6558EA4D9DE426854F36A1689AB12E",
+		["guid_str"] = "k4jbCdIL",
+		["id"] = 9,
+		["is_player_speaker"] = true,
+		["is_white_base_bg"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "hero/hero_suit_action1",
+		},
+		["name"] = "[rolename]",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 100,
+			["is_add_garbled"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[size 17][indent][indent]「[rolename]」13楼废弃电梯",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "4BC873554D494AEAA8D43780773C30DD",
+		["guid_str"] = "vUKGUHN4",
+		["id"] = 10,
+		["text_sound_id"] = 18,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 100,
+			["is_add_garbled"] = true,
+			["is_append"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "\n\n[size 17][indent][indent]「余音」34",
+		},
+		["guid"] = "2867809E4ACD55E712377088F9EACE4C",
+		["guid_str"] = "y4oNr1Ez",
+		["id"] = 11,
+		["text_sound_id"] = 18,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "heroine/heroine_suit_action1",
+		},
+		["guid"] = "39DD36C0436D7776DDDE9FABB28DDB7D",
+		["guid_str"] = "RPRGQZE5",
+		["id"] = 12,
+		["is_player_speaker"] = true,
+		["is_white_base_bg"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "hero/hero_suit_action1",
+		},
+		["name"] = "[rolename]",
+		["text"] = "Vein，28楼，13楼，还有那个电梯的监控，临时接入一下。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]我退回暗门后静静等待，34秒后，我重新探出身子。",
+			["text_align"] = "center",
+		},
+		["guid"] = "C9A96F93483C7DB23ED7959B65DA0C67",
+		["guid_str"] = "NitdAQrp",
+		["id"] = 13,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]余音刚从外窗无声地翻进来，用来辅助的道具正被她重新叠成磁带的大小。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af68karas/af68karas_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "F96FB2B1495D9A75705311AF2983301D",
+		["guid_str"] = "pZBxv5z5",
+		["id"] = 14,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af68karas/af68karas_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "heroine/heroine_suit_action1",
+		},
+		["guid"] = "BB333DC64D6C0C9014DA38A0DC88C0EE",
+		["guid_str"] = "mkyG2qE7",
+		["id"] = 15,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "hero/hero_suit_action1",
+		},
+		["name"] = "[rolename]",
+		["text"] = "我不知道下面是什么，避免暴露，你待会儿先在这里别出来。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 100,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[size 17][indent][indent]余音虽不赞同，但把一个磁带盒放在了我手里。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af68karas/af68karas_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "C2E1C84549A1F43EE304F2AB7E95885E",
+		["guid_str"] = "Ep9WeB5p",
+		["id"] = 16,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 100,
+			["is_append"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "\n\n[size 17][indent][indent]等Vein提示临时接入后，我刷卡进入了陈旧的电梯。",
+		},
+		["guid"] = "63BD6D204252DDED39B6BC89B6779B03",
+		["guid_str"] = "DZdSV0kz",
+		["id"] = 17,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "heroine/heroine_suit_action1",
+		},
+		["guid"] = "5E1488174105ADD6ED153AAB186BF818",
+		["guid_str"] = "YzP5wd5c",
+		["id"] = 18,
+		["is_add_garbled"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "hero/hero_suit_action1",
+		},
+		["name"] = "系统提示",
+		["text"] = "提示：临时权限确认使用，已失效。",
+		["text_sound_id"] = 18,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "heroine/heroine_suit_action1",
+		},
+		["guid"] = "6CA5C87F491879E0E80D55BEBFFC1754",
+		["guid_str"] = "UsCJOy1l",
+		["id"] = 19,
+		["is_player_speaker"] = true,
+		["is_white_base_bg"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["path"] = "hero/hero_suit_action1",
+		},
+		["name"] = "[rolename]",
+		["text"] = "……这么严谨，竟然是一次性的，看来没办法复制了……啧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 100,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[size 17][indent][indent]我不知道开门等待我的会是什么，我只是隐约觉得，我在这里是安全的，\n\n[indent][indent]没人会蠢到在天鹿总部让「谒声」消失，戴医生可背不起这个锅。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "1C0623DB4EBC65250261FFB9879E0417",
+		["guid_str"] = "383znGDs",
+		["id"] = 20,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_07.png",
+			},
+			{
+			},
+		},
+		["guid"] = "3DF144C74FAE9DB112A480BA012AF8A1",
+		["guid_str"] = "lyg8HA9v",
+		["id"] = 21,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/elevator_door_open",
+				["length"] = 4247,
+			},
+		},
+	},
+}

@@ -1,8 +1,104 @@
 {
+	[1001] = {
+		["default_unlock"] = false,
+		["event"] = "",
+		["file_type"] = 1,
+		["group_id"] = 1001,
+		["icon"] = "",
+		["list"] = {
+			64064,
+		},
+		["name"] = "第七章活动日常",
+		["name_en"] = "QUEST",
+		["reward_exp"] = {
+		},
+		["reward_items"] = {
+		},
+		["reward_points"] = {
+		},
+		["rewards"] = {
+		},
+		["scheme_id"] = 1,
+		["show_weight"] = 1,
+		["ui_show"] = true,
+	},
+	[1002] = {
+		["default_unlock"] = false,
+		["event"] = "",
+		["file_type"] = 1,
+		["group_id"] = 1002,
+		["icon"] = "",
+		["list"] = {
+			64128,
+			64129,
+		},
+		["name"] = "第七章活动任务",
+		["name_en"] = "QUEST",
+		["reward_exp"] = {
+		},
+		["reward_items"] = {
+			{
+				["reward_activity_chapter_7"] = {
+					3,
+				},
+			},
+			{
+				["reward_activity_chapter_7"] = {
+					6,
+				},
+			},
+			{
+				["reward_activity_chapter_7"] = {
+					7,
+				},
+			},
+			{
+				["reward_activity_chapter_7"] = {
+					24,
+				},
+			},
+			{
+				["reward_activity_chapter_7"] = {
+					8,
+				},
+			},
+		},
+		["reward_points"] = {
+			15,
+			30,
+			45,
+			65,
+			85,
+		},
+		["rewards"] = {
+			[15] = {
+				["exp"] = 0,
+				["point"] = 15,
+			},
+			[30] = {
+				["exp"] = 0,
+				["point"] = 30,
+			},
+			[45] = {
+				["exp"] = 0,
+				["point"] = 45,
+			},
+			[65] = {
+				["exp"] = 0,
+				["point"] = 65,
+			},
+			[85] = {
+				["exp"] = 0,
+				["point"] = 85,
+			},
+		},
+		["show_weight"] = 1,
+		["ui_show"] = true,
+	},
 	[100] = {
 		["default_unlock"] = true,
 		["event"] = "",
-		["file_type"] = 2,
+		["file_type"] = 1,
 		["group_id"] = 100,
 		["icon"] = "",
 		["list"] = {
@@ -75,9 +171,9 @@
 		["group_id"] = 103,
 		["icon"] = "",
 		["list"] = {
+			6594,
 			6593,
 			6592,
-			6594,
 		},
 		["name"] = "",
 		["name_en"] = "STEP_BY_STEP",
@@ -165,10 +261,12 @@
 		["group_id"] = 107,
 		["icon"] = "",
 		["list"] = {
+			6848,
 			6850,
 			6851,
+			6852,
+			6853,
 			6849,
-			6848,
 		},
 		["name"] = "阶段目标",
 		["name_en"] = "GOAL",
@@ -338,14 +436,14 @@
 		["reward_items"] = {
 			{
 				["reward_quest_daily"] = {
-					22,
+					5,
 					8,
 				},
 			},
 			{
 				["reward_quest_daily"] = {
-					6,
-					7,
+					22,
+					25,
 				},
 			},
 			{
@@ -416,9 +514,9 @@
 			12870,
 			12871,
 			12872,
-			12873,
-			12874,
 			12875,
+			12874,
+			12873,
 		},
 		["name"] = "成就",
 		["name_en"] = "QUEST",
@@ -662,10 +760,10 @@
 		["group_id"] = 306,
 		["icon"] = "",
 		["list"] = {
+			19584,
 			19586,
 			19587,
 			19585,
-			19584,
 		},
 		["name"] = "",
 		["name_en"] = "QUEST",
@@ -1122,10 +1220,10 @@
 		["icon"] = "",
 		["list"] = {
 			20800,
-			20802,
+			20801,
 			20803,
 			20804,
-			20801,
+			20802,
 		},
 		["name"] = "",
 		["name_en"] = "QUEST",
@@ -1438,9 +1536,9 @@
 		["group_id"] = 336,
 		["icon"] = "",
 		["list"] = {
+			21507,
 			21504,
 			21505,
-			21507,
 			21506,
 		},
 		["name"] = "",
@@ -1553,6 +1651,50 @@
 				["exp"] = 0,
 				["point"] = 30,
 			},
+		},
+		["show_weight"] = 1,
+		["ui_show"] = true,
+	},
+	[340] = {
+		["default_unlock"] = false,
+		["event"] = "",
+		["file_type"] = 1,
+		["group_id"] = 340,
+		["icon"] = "",
+		["list"] = {
+		},
+		["name"] = "活动日常",
+		["name_en"] = "QUEST",
+		["reward_exp"] = {
+		},
+		["reward_items"] = {
+		},
+		["reward_points"] = {
+		},
+		["rewards"] = {
+		},
+		["scheme_id"] = 1,
+		["show_weight"] = 1,
+		["ui_show"] = true,
+	},
+	[341] = {
+		["default_unlock"] = false,
+		["event"] = "",
+		["file_type"] = 1,
+		["group_id"] = 341,
+		["icon"] = "",
+		["list"] = {
+			21824,
+		},
+		["name"] = "活动主体任务",
+		["name_en"] = "QUEST",
+		["reward_exp"] = {
+		},
+		["reward_items"] = {
+		},
+		["reward_points"] = {
+		},
+		["rewards"] = {
 		},
 		["show_weight"] = 1,
 		["ui_show"] = true,
@@ -1929,7 +2071,7 @@
 	[503] = {
 		["default_unlock"] = false,
 		["event"] = "",
-		["file_type"] = 2,
+		["file_type"] = 1,
 		["group_id"] = 503,
 		["icon"] = "",
 		["list"] = {
@@ -2611,8 +2753,9 @@
 		["group_id"] = 99,
 		["icon"] = "questmenu_icon03",
 		["list"] = {
-			6337,
 			6338,
+			6337,
+			6339,
 			6336,
 		},
 		["name"] = "主线任务",

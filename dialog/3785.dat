@@ -1,0 +1,197 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_18.png",
+			},
+			{
+			},
+		},
+		["guid"] = "8624088C4CF2786A34C16EACEC6ABE7E",
+		["guid_str"] = "iK8zMsS2",
+		["id"] = 1,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/bwg/bwg_amb_powerroom_on",
+				["length"] = 10649,
+				["volume"] = 0.20000000298023,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_18.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 100,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[size 17][indent][indent]推开有些陈旧的铁门，昏暗的房间，安静得呼吸都能听见。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "4ACB2A81486DF8CB97D1048C01710A7F",
+		["guid_str"] = "V7w1RDfz",
+		["id"] = 2,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_18.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 100,
+			["is_append"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "\n\n[size 17][indent][indent]我闻到了奇怪的味道，像是锈气，不确定地看向推门时手套粘上的铁锈渣，不等我仔细辨别，就又听到一个女声。",
+		},
+		["guid"] = "36F26891448EDBE2CED3E78D41DA0367",
+		["guid_str"] = "D4F94Ev2",
+		["id"] = 3,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_18.png",
+			},
+			{
+			},
+		},
+		["guid"] = "66029376482AC92A4E2365B6C1216D84",
+		["guid_str"] = "Mb8nm82M",
+		["id"] = 4,
+		["name"] = "？？？",
+		["text"] = "……走……放我走……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_18.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]我往里走了几步，一个披头散发的女人出现在我面前。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n67queen_real/n67queen_real_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 1000,
+							["end_value"] = 0.0,
+							["start_value"] = 1.0,
+							["time"] = 1000,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "38B853DE47F2AB93C76E7885412D7855",
+		["guid_str"] = "1HncbESM",
+		["id"] = 5,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_18.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n67queen_real/n67queen_real_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "surprise_in",
+			["path"] = "heroine/heroine_suit_action1",
+		},
+		["guid"] = "952E10BD496D4D1ED64AFDA12991CEF6",
+		["guid_str"] = "inPyaLH8",
+		["id"] = 6,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "surprise_in",
+			["path"] = "hero/hero_suit_action1",
+		},
+		["name"] = "[rolename]",
+		["text"] = "！！！！………………你是………………",
+	},
+}

@@ -689,6 +689,42 @@
 		["num_index"] = 1,
 		["type"] = "rc_level_complete",
 	},
+	[128] = {
+		["ID"] = 128,
+		["calc_mode"] = 3,
+		["key1_restriction"] = {
+			["3"] = true,
+		},
+		["key2_restriction"] = {
+			["8511"] = true,
+			["8705"] = true,
+			["8706"] = true,
+			["8707"] = true,
+			["8708"] = true,
+			["8709"] = true,
+		},
+		["key3_restriction"] = {
+			["0"] = true,
+		},
+		["key_index"] = 2,
+		["name"] = "漫巡·浮世·凛阳街道风险区关卡的完成数",
+		["num_index"] = 1,
+		["type"] = "rc_level_complete",
+	},
+	[129] = {
+		["ID"] = 129,
+		["calc_mode"] = 3,
+		["key1_restriction"] = {
+			["3"] = true,
+		},
+		["key2_restriction"] = {
+			["8710"] = true,
+		},
+		["key_index"] = 2,
+		["name"] = "漫巡·浮世·凛阳街道boss",
+		["num_index"] = 1,
+		["type"] = "rc_level_complete",
+	},
 	[12] = {
 		["ID"] = 12,
 		["calc_mode"] = 3,
@@ -1104,6 +1140,66 @@
 			20,
 		},
 		["type"] = "phantom_lv",
+	},
+	[140] = {
+		["ID"] = 140,
+		["calc_mode"] = 3,
+		["key_index"] = 1,
+		["name"] = "特质等级达到2级的烙痕数量",
+		["num_index"] = 1,
+		["num_restriction"] = {
+			1,
+			2,
+		},
+		["type"] = "phantom_count_increase",
+	},
+	[141] = {
+		["ID"] = 141,
+		["calc_mode"] = 3,
+		["key_index"] = 1,
+		["name"] = "特质等级达到3级的烙痕数量",
+		["num_index"] = 1,
+		["num_restriction"] = {
+			1,
+			3,
+		},
+		["type"] = "phantom_count_increase",
+	},
+	[142] = {
+		["ID"] = 142,
+		["calc_mode"] = 3,
+		["key_index"] = 1,
+		["name"] = "特质等级达到4级的烙痕数量",
+		["num_index"] = 1,
+		["num_restriction"] = {
+			1,
+			4,
+		},
+		["type"] = "phantom_count_increase",
+	},
+	[143] = {
+		["ID"] = 143,
+		["calc_mode"] = 3,
+		["key_index"] = 1,
+		["name"] = "特质等级达到5级的烙痕数量",
+		["num_index"] = 1,
+		["num_restriction"] = {
+			1,
+			5,
+		},
+		["type"] = "phantom_count_increase",
+	},
+	[144] = {
+		["ID"] = 144,
+		["calc_mode"] = 3,
+		["key_index"] = 1,
+		["name"] = "特质等级达到6级的烙痕数量",
+		["num_index"] = 1,
+		["num_restriction"] = {
+			1,
+			6,
+		},
+		["type"] = "phantom_count_increase",
 	},
 	[14] = {
 		["ID"] = 14,
@@ -1808,6 +1904,16 @@
 		["num_index"] = 1,
 		["type"] = "terminal_repu",
 	},
+	[1781] = {
+		["ID"] = 1781,
+		["calc_mode"] = 2,
+		["key1_restriction"] = {
+			["9"] = true,
+		},
+		["name"] = "凛阳街道路线声望等级",
+		["num_index"] = 1,
+		["type"] = "terminal_repu",
+	},
 	[1800] = {
 		["ID"] = 1800,
 		["calc_mode"] = 2,
@@ -1991,7 +2097,7 @@
 		["key3_restriction"] = {
 			["2566"] = true,
 		},
-		["name"] = "「基础教学」的T1",
+		["name"] = "「基础教学」的投射物",
 		["num_index"] = 1,
 		["type"] = "level_complete",
 	},
@@ -2005,6 +2111,45 @@
 			["774"] = true,
 		},
 		["name"] = "完成S2-6·「尘中网」",
+		["num_index"] = 1,
+		["type"] = "level_complete",
+	},
+	[1865] = {
+		["ID"] = 1865,
+		["calc_mode"] = 1,
+		["key2_restriction"] = {
+			["10"] = true,
+		},
+		["key3_restriction"] = {
+			["2571"] = true,
+		},
+		["name"] = "「基础教学」的作战区域",
+		["num_index"] = 1,
+		["type"] = "level_complete",
+	},
+	[1866] = {
+		["ID"] = 1866,
+		["calc_mode"] = 1,
+		["key2_restriction"] = {
+			["10"] = true,
+		},
+		["key3_restriction"] = {
+			["2572"] = true,
+		},
+		["name"] = "「基础教学」的格挡",
+		["num_index"] = 1,
+		["type"] = "level_complete",
+	},
+	[1867] = {
+		["ID"] = 1867,
+		["calc_mode"] = 1,
+		["key2_restriction"] = {
+			["10"] = true,
+		},
+		["key3_restriction"] = {
+			["2579"] = true,
+		},
+		["name"] = "「基础教学」的水雷",
 		["num_index"] = 1,
 		["type"] = "level_complete",
 	},
@@ -2371,6 +2516,18 @@
 		["num_restriction"] = {
 			1,
 			3,
+		},
+		["type"] = "card_lv",
+	},
+	[2057] = {
+		["ID"] = 2057,
+		["calc_mode"] = 3,
+		["key_index"] = 1,
+		["name"] = "队长等级lv5",
+		["num_index"] = 1,
+		["num_restriction"] = {
+			1,
+			6,
 		},
 		["type"] = "card_lv",
 	},
@@ -2983,6 +3140,23 @@
 		["num_index"] = 3,
 		["type"] = "rc_complete",
 	},
+	[2311] = {
+		["ID"] = 2311,
+		["calc_mode"] = 2,
+		["key1_restriction"] = {
+			["1"] = true,
+		},
+		["name"] = "零维风洞星星数量-第1期",
+		["num_index"] = 1,
+		["type"] = "abyss_cumulate_count",
+	},
+	[2312] = {
+		["ID"] = 2312,
+		["calc_mode"] = 2,
+		["name"] = "零维风洞星星数量",
+		["num_index"] = 1,
+		["type"] = "abyss_cumulate_count",
+	},
 	[234] = {
 		["ID"] = 234,
 		["calc_mode"] = 1,
@@ -3078,6 +3252,13 @@
 			3,
 		},
 		["type"] = "card_count_increase",
+	},
+	[2400] = {
+		["ID"] = 2400,
+		["calc_mode"] = 2,
+		["name"] = "刻印碑等级到达值的统计",
+		["num_index"] = 1,
+		["type"] = "terminal_display",
 	},
 	[240] = {
 		["ID"] = 240,
@@ -3386,6 +3567,70 @@
 		["name"] = "6星同调者激活数",
 		["num_index"] = 1,
 		["type"] = "card_activate",
+	},
+	[3001] = {
+		["ID"] = 3001,
+		["calc_mode"] = 3,
+		["key2_restriction"] = {
+			["5"] = true,
+			["6"] = true,
+		},
+		["key_index"] = 1,
+		["name"] = "5星、6星同调者异核等级达到2级的数量",
+		["num_index"] = 1,
+		["num_restriction"] = {
+			1,
+			2,
+		},
+		["type"] = "card_count_increase",
+	},
+	[3002] = {
+		["ID"] = 3002,
+		["calc_mode"] = 3,
+		["key2_restriction"] = {
+			["5"] = true,
+			["6"] = true,
+		},
+		["key_index"] = 1,
+		["name"] = "5星、6星同调者异核等级达到4级的数量",
+		["num_index"] = 1,
+		["num_restriction"] = {
+			1,
+			4,
+		},
+		["type"] = "card_count_increase",
+	},
+	[3003] = {
+		["ID"] = 3003,
+		["calc_mode"] = 3,
+		["key2_restriction"] = {
+			["2"] = true,
+			["3"] = true,
+		},
+		["key_index"] = 1,
+		["name"] = "SR、SSR烙痕特质等级达到2级的烙痕数量",
+		["num_index"] = 1,
+		["num_restriction"] = {
+			1,
+			2,
+		},
+		["type"] = "phantom_count_increase",
+	},
+	[3004] = {
+		["ID"] = 3004,
+		["calc_mode"] = 3,
+		["key2_restriction"] = {
+			["2"] = true,
+			["3"] = true,
+		},
+		["key_index"] = 1,
+		["name"] = "SR、SSR烙痕特质等级达到4级的烙痕数量",
+		["num_index"] = 1,
+		["num_restriction"] = {
+			1,
+			4,
+		},
+		["type"] = "phantom_count_increase",
 	},
 	[30] = {
 		["ID"] = 30,
@@ -3853,6 +4098,21 @@
 		["name"] = "4星同调者激活数",
 		["num_index"] = 1,
 		["type"] = "card_activate",
+	},
+	[5000] = {
+		["ID"] = 5000,
+		["calc_mode"] = 3,
+		["key1_restriction"] = {
+			["508"] = true,
+		},
+		["key_index"] = 1,
+		["name"] = "「苏筱」任一非异核技能升至2级",
+		["num_index"] = 1,
+		["num_restriction"] = {
+			1,
+			2,
+		},
+		["type"] = "card_skill_manual",
 	},
 	[500] = {
 		["ID"] = 500,
