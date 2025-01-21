@@ -1,0 +1,205 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogRCPicBG/bg_gate_window_01.png",
+			},
+			{
+			},
+		},
+		["female_characters"] = {
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "heroine/heroine_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["direction"] = "right",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "FFCF1EE848560A6CC0B7DBBFD8FE6112",
+		["guid_str"] = "y8VtCqmP",
+		["id"] = 1,
+		["is_gender_characters"] = true,
+		["just_auto_play"] = true,
+		["male_characters"] = {
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["time"] = 2500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogRCPicBG/bg_gate_window_01.png",
+			},
+			{
+			},
+		},
+		["guid"] = "FB4586C94616117B67B89B988CE964CF",
+		["guid_str"] = "PzcQLYhf",
+		["id"] = 1,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 700,
+					["orig_y"] = 300,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["offset"] = {
+					700,
+					300,
+				},
+				["path"] = "interface/resource/Game/DialogActivityCG/activity_cg_end.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.0,
+							["scale_y"] = 1.0,
+							["time"] = 1000,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.0499999523163,
+							["scale_y"] = 1.0499999523163,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+				},
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/whoosh/Common_Whoosh03",
+				["length"] = 1354,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "D5B0603143A0C626B855088105FDA9D4",
+		["guid_str"] = "OtHHKOLU",
+		["id"] = 1,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 700,
+					["orig_y"] = 300,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["offset"] = {
+					700,
+					300,
+				},
+				["path"] = "interface/resource/Game/DialogActivityCG/activity_cg_end.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+	},
+}
