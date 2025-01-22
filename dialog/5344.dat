@@ -547,6 +547,7 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["body_anim"] = "default_loop",
 				["color"] = {
 					0.27450981736183,
 					0.27450981736183,
@@ -574,9 +575,11 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["body_anim"] = "default_loop",
 				["color"] = {
 					0.27450981736183,
 					0.27450981736183,
@@ -1592,6 +1595,30 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					150,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 800,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -1610,6 +1637,19 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = -50,
+								["y"] = 0,
+							},
+							["time"] = 400,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
 			},
 		},
 		["guid"] = "B2D2A08847A32CE7F105DD8C81A46AB6",
@@ -1617,6 +1657,30 @@
 		["id"] = 37,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					150,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 800,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
 			{
 				["anim"] = "normal_add",
 				["blur"] = {
@@ -1626,11 +1690,24 @@
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
-					0,
-					100,
+					0.0,
+					100.0,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = -50,
+								["y"] = 0,
+							},
+							["time"] = 400,
+						},
+						["tween"] = "RelativePositionChange",
+					},
 				},
 			},
 		},
@@ -1649,6 +1726,30 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					150,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 600,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -1657,7 +1758,7 @@
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "heroine/heroine_plain_action1",
 				["pos"] = {
-					0,
+					-50,
 					130,
 				},
 				["scale"] = {
@@ -1667,6 +1768,19 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = 50,
+								["y"] = 0,
+							},
+							["time"] = 600,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
 			},
 		},
 		["guid"] = "8524A2B74D222BACAF3C719FA6BA3B97",
@@ -1674,6 +1788,30 @@
 		["id"] = 38,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					150,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 600,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
 			{
 				["anim"] = "normal_add",
 				["blur"] = {
@@ -1683,11 +1821,24 @@
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
-					0,
+					-50,
 					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = 50,
+								["y"] = 0,
+							},
+							["time"] = 600,
+						},
+						["tween"] = "RelativePositionChange",
+					},
 				},
 			},
 		},
@@ -3570,7 +3721,7 @@
 			},
 		},
 		["name"] = "余音",
-		["text"] = "监督，考虑到梅德的机体材料强度、密度、质量记忆我们离开的预估时长……暂时让她一个人待在这里是眼下最合理的处理方式。",
+		["text"] = "监督，考虑到梅德的机体材料强度、密度、质量以及我们离开的预估时长……暂时让她一个人待在这里是眼下最合理的处理方式。",
 	},
 	{
 		["bg_info"] = {
@@ -4015,6 +4166,47 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -4048,37 +4240,6 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
 		},
 		["guid"] = "20FB3A474BDBB4CED7910F82D46E29EE",
 		["guid_str"] = "IICFiNnL",
@@ -4099,6 +4260,12 @@
 			},
 		},
 		["name"] = "余音",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_mImrf4mS",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……你这是非法改装，违反了起码16条守则。",
 	},
 	{
@@ -4123,14 +4290,15 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal1",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af68karas/af68karas_action2",
+				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
-					-250,
+					-100,
 					0,
 				},
 				["shadow"] = {
@@ -4150,13 +4318,22 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["is_flip_x"] = true,
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
+				["path"] = "af68karas/af68karas_action2",
+				["pos"] = {
+					-250,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4193,6 +4370,12 @@
 			},
 		},
 		["name"] = "乔一",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_sFc7WgwP",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "嗯嗯嗯好好好知道了知道了——好了！",
 	},
 	{
@@ -4223,14 +4406,15 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af68karas/af68karas_action2",
+				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
-					-250,
+					-100,
 					0,
 				},
 				["shadow"] = {
@@ -4250,13 +4434,16 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
+				["path"] = "af68karas/af68karas_action2",
+				["pos"] = {
+					-250,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4320,14 +4507,15 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af68karas/af68karas_action2",
+				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
-					-250,
+					-100,
 					0,
 				},
 				["shadow"] = {
@@ -4347,13 +4535,22 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["is_flip_x"] = true,
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
+				["path"] = "af68karas/af68karas_action2",
+				["pos"] = {
+					-250,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4390,6 +4587,12 @@
 			},
 		},
 		["name"] = "乔一",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_V23iezf3",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "比起改变这个平台，还是改变自己比较快吧。",
 	},
 	{
@@ -4419,14 +4622,15 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
+				["anim"] = "wink",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af68karas/af68karas_action2",
+				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
-					-250,
+					-100,
 					0,
 				},
 				["shadow"] = {
@@ -4446,13 +4650,22 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["is_flip_x"] = true,
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
+				["path"] = "af68karas/af68karas_action2",
+				["pos"] = {
+					-250,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4489,6 +4702,12 @@
 			},
 		},
 		["name"] = "乔一",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_EhURGja9",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "你看，偶尔违规也是有好处的。",
 	},
 	{
@@ -4539,14 +4758,15 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
+				["anim"] = "wink",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af68karas/af68karas_action2",
+				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
-					-250,
+					-100,
 					0,
 				},
 				["shadow"] = {
@@ -4573,13 +4793,22 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["is_flip_x"] = true,
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
+				["path"] = "af68karas/af68karas_action2",
+				["pos"] = {
+					-250,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4653,6 +4882,7 @@
 		["guid_str"] = "D1lI4cww",
 		["id"] = 72,
 		["just_auto_play"] = true,
+		["time"] = 1000,
 	},
 	{
 		["bg_info"] = {
@@ -4669,30 +4899,6 @@
 			["text_align"] = "center",
 		},
 		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 600,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
 			{
 				["anim"] = "normal1",
 				["blur"] = {
@@ -4717,6 +4923,30 @@
 							["time"] = 600,
 						},
 						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 600,
+						},
+						["tween"] = "FadeIn",
 					},
 				},
 			},
@@ -4747,7 +4977,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4843,6 +5073,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -4876,27 +5127,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -4918,12 +5148,32 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["body_anim"] = "default_loop",
-				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
@@ -4944,27 +5194,6 @@
 						},
 						["tween"] = "MoveIn",
 					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
 				},
 			},
 			{
@@ -5044,6 +5273,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -5059,27 +5309,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -5113,24 +5342,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5144,6 +5356,22 @@
 				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
 					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
+				["pos"] = {
+					300,
 					100,
 				},
 				["shadow"] = {
@@ -5228,6 +5456,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -5255,27 +5504,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -5297,30 +5525,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5334,6 +5539,28 @@
 				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
 					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
+				["pos"] = {
+					300,
 					100,
 				},
 				["shadow"] = {
@@ -5412,6 +5639,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -5427,27 +5675,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -5481,24 +5708,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5512,6 +5722,22 @@
 				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
 					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
+				["pos"] = {
+					300,
 					100,
 				},
 				["shadow"] = {
@@ -5596,6 +5822,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -5611,27 +5858,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -5665,24 +5891,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "doubt_in",
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5696,6 +5905,22 @@
 				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
 					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "doubt_in",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
+				["pos"] = {
+					300,
 					100,
 				},
 				["shadow"] = {
@@ -5780,6 +6005,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -5795,27 +6041,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -5849,24 +6074,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "doubt_in",
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5880,6 +6088,22 @@
 				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
 					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "doubt_in",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
+				["pos"] = {
+					300,
 					100,
 				},
 				["shadow"] = {
@@ -5964,6 +6188,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -5979,27 +6224,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -6033,24 +6257,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "doubt_in",
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -6064,6 +6271,22 @@
 				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
 					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "doubt_in",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
+				["pos"] = {
+					300,
 					100,
 				},
 				["shadow"] = {
@@ -6148,6 +6371,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -6163,27 +6407,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -6217,24 +6440,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "doubt_in",
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -6248,6 +6454,22 @@
 				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
 					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "doubt_in",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
+				["pos"] = {
+					300,
 					100,
 				},
 				["shadow"] = {
@@ -6333,6 +6555,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -6360,27 +6603,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -6402,30 +6624,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -6439,6 +6638,28 @@
 				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
 					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
+				["pos"] = {
+					300,
 					100,
 				},
 				["shadow"] = {
@@ -6516,6 +6737,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -6543,27 +6785,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -6585,30 +6806,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -6622,6 +6820,28 @@
 				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
 					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
+				["pos"] = {
+					300,
 					100,
 				},
 				["shadow"] = {
@@ -6699,6 +6919,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -6726,27 +6967,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "shy",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -6768,30 +6988,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -6805,6 +7002,28 @@
 				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
 					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
+				["pos"] = {
+					300,
 					100,
 				},
 				["shadow"] = {
@@ -6881,6 +7100,21 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -6902,21 +7136,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -6950,6 +7169,21 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -6961,26 +7195,10 @@
 					0.27450981736183,
 					1.0,
 				},
-				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -7065,6 +7283,21 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7096,21 +7329,6 @@
 						},
 						["tween"] = "RelativePositionChange",
 					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
 				},
 			},
 			{
@@ -7148,6 +7366,21 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7174,21 +7407,6 @@
 						},
 						["tween"] = "RelativePositionChange",
 					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
 				},
 			},
 			{
@@ -7283,6 +7501,27 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7310,27 +7549,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7352,6 +7570,27 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7367,27 +7606,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -7466,6 +7684,43 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 400,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["delay"] = 400,
+							["pos"] = {
+								["x"] = 0,
+								["y"] = -100,
+							},
+							["time"] = 600,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7487,21 +7742,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -7535,6 +7775,43 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 400,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["delay"] = 400,
+							["pos"] = {
+								["x"] = 0,
+								["y"] = -100,
+							},
+							["time"] = 600,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7550,21 +7827,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -7649,6 +7911,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7670,21 +7943,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -7718,6 +7976,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7733,21 +8002,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -7790,7 +8044,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]余音往身后看一眼，估算了一下，发现梅德就是在踏出后台范围的后立竿见影上线了。",
+			["text"] = "[size 17]余音往身后看一眼，估算了一下，发现梅德就是在踏出后台范围后立竿见影上线了。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -7833,6 +8087,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7860,27 +8131,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7902,6 +8152,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -7917,27 +8184,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -8014,6 +8260,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8041,27 +8304,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8083,6 +8325,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8098,27 +8357,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -8197,6 +8435,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8218,21 +8467,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -8266,6 +8500,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8281,21 +8526,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -8381,6 +8611,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8408,21 +8649,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8444,6 +8670,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8459,21 +8696,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -8550,6 +8772,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8577,27 +8816,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8619,6 +8837,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8634,27 +8869,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -8733,6 +8947,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8760,27 +8991,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8802,6 +9012,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8817,27 +9044,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -8916,6 +9122,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8937,21 +9154,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -8985,6 +9187,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9000,21 +9213,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -9099,6 +9297,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9114,27 +9329,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -9168,23 +9362,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "normal_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -9196,8 +9374,20 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
-					0,
+					400,
 					100,
 				},
 				["shadow"] = {
@@ -9282,6 +9472,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9297,27 +9504,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -9351,22 +9537,6 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "normal_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9379,8 +9549,20 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
-					0,
+					400,
 					100,
 				},
 				["shadow"] = {
@@ -9465,6 +9647,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9486,21 +9679,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -9534,6 +9712,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9549,21 +9738,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -9648,6 +9822,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9669,21 +9854,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -9717,6 +9887,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9732,21 +9913,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -9831,6 +9997,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9858,27 +10041,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9900,6 +10062,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9915,27 +10094,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -10015,6 +10173,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10036,21 +10205,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -10084,6 +10238,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10099,21 +10264,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -10196,6 +10346,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10217,21 +10378,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -10265,6 +10411,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10280,21 +10437,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -10379,6 +10521,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10406,27 +10565,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10448,6 +10586,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10463,27 +10618,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -10575,6 +10709,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10596,21 +10741,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -10644,6 +10774,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10659,21 +10800,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -10758,6 +10884,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10779,21 +10916,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -10827,6 +10949,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10842,21 +10975,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -10941,6 +11059,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10962,21 +11091,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -11010,6 +11124,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11025,21 +11150,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -11125,6 +11235,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11146,21 +11267,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -11194,6 +11300,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11209,21 +11326,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -11306,6 +11408,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11327,21 +11440,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -11375,6 +11473,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11390,21 +11499,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -11490,6 +11584,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11505,21 +11610,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -11547,6 +11637,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11556,21 +11657,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -11647,6 +11733,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11674,27 +11777,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11716,6 +11798,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11731,27 +11830,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -11830,6 +11908,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11851,21 +11940,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -11899,6 +11973,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -11914,21 +11999,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -12013,6 +12083,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -12034,21 +12115,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -12082,6 +12148,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -12097,21 +12174,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -12197,6 +12259,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -12218,27 +12297,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -12279,6 +12337,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -12294,27 +12369,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -12411,6 +12465,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -12432,21 +12497,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -12480,6 +12530,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -12495,21 +12556,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -12594,6 +12640,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -12615,21 +12672,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -12663,6 +12705,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -12678,21 +12731,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -12778,6 +12816,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -12799,21 +12848,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -12847,6 +12881,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -12862,21 +12907,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -12959,6 +12989,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -12980,21 +13021,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -13028,6 +13054,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -13043,21 +13080,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -13142,6 +13164,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -13157,27 +13196,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -13211,23 +13229,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "surprise_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -13239,8 +13241,20 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
-					0,
+					400,
 					100,
 				},
 				["shadow"] = {
@@ -13325,6 +13339,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -13352,27 +13383,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -13394,6 +13404,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -13409,27 +13436,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -13508,6 +13514,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -13535,27 +13558,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -13577,6 +13579,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -13592,27 +13611,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -13691,6 +13689,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -13706,27 +13721,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -13760,23 +13754,7 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "surprise_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -13788,8 +13766,20 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
-					0,
+					400,
 					100,
 				},
 				["shadow"] = {
@@ -13874,6 +13864,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -13895,21 +13896,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -13943,6 +13929,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -13958,21 +13955,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -14057,6 +14039,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14084,27 +14083,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14126,6 +14104,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14141,27 +14136,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -14240,6 +14214,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14261,21 +14246,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -14309,6 +14279,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14324,21 +14305,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -14423,6 +14389,17 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14444,21 +14421,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -14492,6 +14454,17 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14507,21 +14480,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -14607,6 +14565,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14634,27 +14609,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14676,6 +14630,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14691,27 +14662,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -14788,6 +14738,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14815,27 +14782,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14857,6 +14803,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14872,27 +14835,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -14972,6 +14914,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "serious_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -14987,27 +14946,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -15041,22 +14979,6 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "serious_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15069,8 +14991,20 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
-					0,
+					400,
 					100,
 				},
 				["shadow"] = {
@@ -15153,6 +15087,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "serious_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15168,27 +15119,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -15222,22 +15152,6 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "serious_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15250,8 +15164,20 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
-					0,
+					400,
 					100,
 				},
 				["shadow"] = {
@@ -15281,7 +15207,7 @@
 			},
 		},
 		["name"] = "[rolename]",
-		["text"] = "余音，等一——",
+		["text"] = "余音，等——",
 	},
 	{
 		["bg_info"] = {
@@ -15337,6 +15263,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "serious_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15352,27 +15295,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -15406,22 +15328,6 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "serious_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15434,8 +15340,20 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
-					0,
+					400,
 					100,
 				},
 				["shadow"] = {
@@ -15518,6 +15436,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15545,27 +15480,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15587,6 +15501,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15602,27 +15533,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -15701,6 +15611,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15728,27 +15655,6 @@
 				},
 			},
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15770,6 +15676,23 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15785,27 +15708,6 @@
 				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
 					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
 					100,
 				},
 				["shadow"] = {
@@ -15884,6 +15786,23 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "smile2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15899,27 +15818,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -15953,22 +15851,6 @@
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile2_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					400,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -15981,8 +15863,20 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile2_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
-					0,
+					400,
 					100,
 				},
 				["shadow"] = {
@@ -16078,6 +15972,32 @@
 		},
 		["female_characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
 				["anim"] = "smile2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -16093,36 +16013,6 @@
 				["scale"] = {
 					1.0499999523163,
 					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					0,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -16175,17 +16065,18 @@
 		["just_auto_play"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "smile2_add",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "hero/hero_plain_action1",
-				["pos"] = {
-					400,
-					100,
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -16200,20 +16091,15 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "smile2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_plain_action1",
 				["pos"] = {
-					0,
+					400,
 					100,
 				},
 				["shadow"] = {

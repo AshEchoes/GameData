@@ -589,6 +589,9 @@
 				},
 			},
 		},
+		["sound_control"] = {
+			["effect"] = 20,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -632,6 +635,9 @@
 				},
 			},
 		},
+		["sound_control"] = {
+			["effect"] = 20,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -661,6 +667,9 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_SCXFAll9",
+		},
 		["female_speaker_info"] = {
 			["tween"] = {
 				{
@@ -687,6 +696,9 @@
 					["tween"] = "FadeIn",
 				},
 			},
+		},
+		["sound_control"] = {
+			["effect"] = 20,
 		},
 	},
 	{
@@ -880,10 +892,6 @@
 			},
 			{
 				["config"] = {
-					["tween"] = {
-						{
-						},
-					},
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
@@ -929,6 +937,15 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
 					["tween"] = {
 						{
 							["param"] = {
@@ -942,15 +959,6 @@
 						["count"] = -1,
 						["is_queue"] = true,
 						["path"] = "movies/Desktop/avg/activity_secondnature/activity_secondnature_karas_loopb.bk2",
-					},
-				},
-				["path"] = "",
-			},
-			{
-				["config"] = {
-					["video"] = {
-						["count"] = -1,
-						["is_queue"] = true,
 					},
 				},
 			},

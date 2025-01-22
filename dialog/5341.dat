@@ -260,7 +260,7 @@
 				},
 			},
 			{
-				["anim"] = "doubt",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1428,7 +1428,7 @@
 				},
 			},
 			{
-				["anim"] = "smile2",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2370,7 +2370,7 @@
 			["align"] = "bottom",
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
-			["text"] = "[size 17]可就在她行动前，梅德不知道什么时候已经走到了不远处，跟一个路人陌生人一边谈笑，一遍招呼余音过去。",
+			["text"] = "[size 17]可就在她行动前，梅德不知道什么时候已经走到了不远处，跟一个路人陌生人一边谈笑，一边招呼余音过去。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3098,6 +3098,17 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
 				},
 			},
 		},
@@ -4555,6 +4566,9 @@
 		["guid_str"] = "vHSRlL3w",
 		["id"] = 84,
 		["name"] = "贝斯手",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_vHSRIL3w",
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -7697,6 +7711,9 @@
 			},
 		},
 		["name"] = "？？？",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "余音小姐。",
 		["text_info"] = {
 			["tween"] = {
@@ -7805,7 +7822,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]在她身后，一个巨大的机箱里，数以亿计的多维文字沿着由疏到密排列的管线奔腾，像是毛细血管一样。\n\n将信息输送到核心巨大的不断转动着的球体——主脑。\n",
+			["text"] = "[size 17]在她身后，她像站在一个巨大的机箱里，\n\n数以亿计的多维文字沿着由疏到密排列的管线奔腾，像是毛细血管一样。\n\n将信息输送到核心巨大的不断转动着的球体——主脑R O O F。\n",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -8414,6 +8431,12 @@
 			},
 		},
 		["name"] = "？？？",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_wCmEhoCC",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "余音小姐。",
 		["text_info"] = {
 			["tween"] = {
@@ -8652,6 +8675,9 @@
 			},
 		},
 		["name"] = "接线员",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "自纠委员会请您到会议室来。",
 	},
 	{
@@ -8761,6 +8787,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "有什么事吗？",
 	},
 	{
@@ -8870,6 +8899,9 @@
 			},
 		},
 		["name"] = "接线员",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "我想我并没有权限告诉你太多。",
 	},
 	{
@@ -8979,6 +9011,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……他们发布指令时，没告诉你指令标题是什么吗？",
 	},
 	{
@@ -9088,6 +9123,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "或者你可以告诉我，他们在我的名字后面，用复阶文字加了怎样一个缀词吗？",
 	},
 	{
@@ -9197,6 +9235,9 @@
 			},
 		},
 		["name"] = "接线员",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……",
 	},
 	{
@@ -9306,6 +9347,9 @@
 			},
 		},
 		["name"] = "接线员",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "…………",
 	},
 	{
@@ -9415,6 +9459,9 @@
 			},
 		},
 		["name"] = "接线员",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "指令判别失误，请重新输入。",
 	},
 	{
@@ -9524,6 +9571,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……",
 	},
 	{
@@ -9633,6 +9683,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "重启指令：63209。管理员权限：8370。",
 	},
 	{
@@ -9764,6 +9817,9 @@
 				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
 				["template_type"] = "image",
 			},
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 	},
 	{
@@ -10201,6 +10257,12 @@
 			},
 		},
 		["name"] = "接线员",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_TogRcTEF",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "自纠委员会请您到会议室来。",
 	},
 	{
@@ -10310,6 +10372,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……知道了。我马上去。",
 	},
 	{
@@ -10512,7 +10577,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]不知穿过了多少道安全们，她被带到一间非常开放，非常窗明几净的房间。",
+			["text"] = "[size 17]不知穿过了多少道安全门，她被带到一间非常开放，非常窗明几净的房间。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -11178,6 +11243,89 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["text"] = "[size 17]他们的编号简直小得惊人，甚至比余音的老师还要早上线得多。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af68karas/af68karas_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "06BD3C49492C7462540EEAA632272C0C",
+		["guid_str"] = "2F2EiI5z",
+		["id"] = 172,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActSecondNatureSceneBG/bg_ada_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -11259,7 +11407,7 @@
 		},
 		["guid"] = "E9B9643E4189DD47D09A7A98F5136FDB",
 		["guid_str"] = "15MUpl4D",
-		["id"] = 172,
+		["id"] = 173,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11276,6 +11424,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "您好，机动协理执行员7816739，请坐。",
 	},
 	{
@@ -11381,7 +11532,7 @@
 		},
 		["guid"] = "807DE417431208EEE55C16807813C0AA",
 		["guid_str"] = "gx4C26xh",
-		["id"] = 173,
+		["id"] = 174,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11398,6 +11549,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "别担心，这次找你来，只是定期谈话。",
 	},
 	{
@@ -11503,7 +11657,7 @@
 		},
 		["guid"] = "5D01ED5D46564CA38AFF2F893FBC616B",
 		["guid_str"] = "PKR5baFB",
-		["id"] = 174,
+		["id"] = 175,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11520,6 +11674,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "你的超阅症怎么样了？",
 	},
 	{
@@ -11631,7 +11788,7 @@
 		},
 		["guid"] = "CA235E8F4BB7CFF91FE0AE82C0876FA6",
 		["guid_str"] = "A7imtnbn",
-		["id"] = 175,
+		["id"] = 176,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11648,6 +11805,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal2",
 			["material"] = "M_UI_SpinePortrait",
@@ -11770,7 +11930,7 @@
 		},
 		["guid"] = "9744E6274A832B313231B9BFCB28A920",
 		["guid_str"] = "U07PVpTk",
-		["id"] = 176,
+		["id"] = 177,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11787,6 +11947,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "那可太好了。你的天赋超群，我们都很关注你的进步。",
 	},
 	{
@@ -11892,7 +12055,7 @@
 		},
 		["guid"] = "84D2E3B44FE94059F7CFDCBA26644D07",
 		["guid_str"] = "DgYNr7Ma",
-		["id"] = 177,
+		["id"] = 178,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11909,7 +12072,10 @@
 			},
 		},
 		["name"] = "OBJ3272",
-		["text"] = "如果你是个机器人的话……睡眠时间可以大缩水的话，早就达成时长条件，获得更多的信用点了。",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["text"] = "如果你是个机器人……睡眠时间可以大缩水的话，早就达成时长条件，获得更多的信用点了。",
 	},
 	{
 		["bg_info"] = {
@@ -12020,7 +12186,7 @@
 		},
 		["guid"] = "9456A4C74690547D61E8888BAB9280EE",
 		["guid_str"] = "WaxQ1WXe",
-		["id"] = 178,
+		["id"] = 179,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12037,6 +12203,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal1",
 			["material"] = "M_UI_SpinePortrait",
@@ -12159,7 +12328,7 @@
 		},
 		["guid"] = "AECC33E5461018D8B761F18EC9B50C6C",
 		["guid_str"] = "S1YLkSRu",
-		["id"] = 179,
+		["id"] = 180,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12176,6 +12345,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "不奢望吗？可是有这些信用点，你的调岗申请说不定就通过了。不过没关系，我们打算重新审核你的调岗申请呢。",
 	},
 	{
@@ -12281,7 +12453,7 @@
 		},
 		["guid"] = "5CFECE8E40FC071C6FABF5899122D095",
 		["guid_str"] = "PQzFWU28",
-		["id"] = 180,
+		["id"] = 181,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12298,6 +12470,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "你老师剩下的时间不多了，对吧？",
 	},
 	{
@@ -12409,7 +12584,7 @@
 		},
 		["guid"] = "65E8866F4B74680F23FA7C9DAFC7AEE7",
 		["guid_str"] = "LxhipiFw",
-		["id"] = 181,
+		["id"] = 182,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12426,6 +12601,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal2",
 			["material"] = "M_UI_SpinePortrait",
@@ -12548,7 +12726,7 @@
 		},
 		["guid"] = "2FD6812E429E0D84F6343CA66E4CE41A",
 		["guid_str"] = "0aakyEYg",
-		["id"] = 182,
+		["id"] = 183,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12565,6 +12743,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "不用谢。我们的使命就是帮助每一位公民进步，共建更美好的艾达，不是吗？",
 	},
 	{
@@ -12670,7 +12851,7 @@
 		},
 		["guid"] = "97448E194F3CBD677A9A9EA59BCA81E3",
 		["guid_str"] = "TQDODKtk",
-		["id"] = 183,
+		["id"] = 184,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12687,6 +12868,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "反倒是我们应该感谢你成为了更好的公民，为我们共同的使命尽心尽力。",
 	},
 	{
@@ -12798,7 +12982,7 @@
 		},
 		["guid"] = "25B1448745761AEB3FF32490F2D1DADA",
 		["guid_str"] = "ol8DJy7n",
-		["id"] = 184,
+		["id"] = 185,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12815,6 +12999,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal2",
 			["material"] = "M_UI_SpinePortrait",
@@ -12937,7 +13124,7 @@
 		},
 		["guid"] = "6CA265074E3770900505788AD2E4150B",
 		["guid_str"] = "3wstw7Ji",
-		["id"] = 185,
+		["id"] = 186,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12954,6 +13141,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "要是所有人都像你还有你老师一样恪守职责就好了。",
 	},
 	{
@@ -13100,7 +13290,7 @@
 		},
 		["guid"] = "20477604408D199EB5253CB5C8181E3D",
 		["guid_str"] = "1Mp7whSR",
-		["id"] = 186,
+		["id"] = 187,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13226,7 +13416,7 @@
 		},
 		["guid"] = "0F841FF54F79C385686E7F8E9BFA6BC0",
 		["guid_str"] = "4CqMTJ7E",
-		["id"] = 187,
+		["id"] = 188,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13345,7 +13535,7 @@
 		},
 		["guid"] = "E8600AC74607F7B5CE80898B9EA298CB",
 		["guid_str"] = "3A5oxJfe",
-		["id"] = 188,
+		["id"] = 189,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13362,6 +13552,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "看到这个美好稳定的艾达社会了吗？",
 	},
 	{
@@ -13466,7 +13659,7 @@
 		},
 		["guid"] = "141AA88447DCDE47E44083BF700A8737",
 		["guid_str"] = "Tm9cxsyA",
-		["id"] = 189,
+		["id"] = 190,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13483,6 +13676,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "这是由主脑、我们、你的老师、你、全体机器人和人类一起建立的美好家园。",
 	},
 	{
@@ -13587,7 +13783,7 @@
 		},
 		["guid"] = "68687EB14F3ECAB808F7B0AB17661F89",
 		["guid_str"] = "NmdBCMHG",
-		["id"] = 190,
+		["id"] = 191,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13604,6 +13800,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……我们绝不允许任何人破坏我们所有人的努力。",
 	},
 	{
@@ -13714,7 +13913,7 @@
 		},
 		["guid"] = "012EFC6340D51BDFA96BED8D2277313C",
 		["guid_str"] = "ST1hFrH2",
-		["id"] = 191,
+		["id"] = 192,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13858,7 +14057,7 @@
 		},
 		["guid"] = "4BEDFC3545F42FD4346CC5A59361F427",
 		["guid_str"] = "HhFce0Xf",
-		["id"] = 192,
+		["id"] = 193,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13875,6 +14074,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "你最近有注意到任何异常行为吗？",
 	},
 	{
@@ -13985,7 +14187,7 @@
 		},
 		["guid"] = "3E05DA494538A4A8B7F5BF9CA3C91626",
 		["guid_str"] = "cRKj2yTF",
-		["id"] = 193,
+		["id"] = 194,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14002,6 +14204,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal1",
 			["material"] = "M_UI_SpinePortrait",
@@ -14123,7 +14328,7 @@
 		},
 		["guid"] = "2DAF86FD415FCC2DFE954AAC1AB8AB69",
 		["guid_str"] = "vUULD5Xn",
-		["id"] = 194,
+		["id"] = 195,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14140,6 +14345,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "比如这些。",
 	},
 	{
@@ -14281,7 +14489,7 @@
 		},
 		["guid"] = "46E5F6AA4B2FA9998D93369D46C4D48A",
 		["guid_str"] = "kMfjRbet",
-		["id"] = 195,
+		["id"] = 196,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14365,7 +14573,7 @@
 		},
 		["guid"] = "74F5BF4B4E4EC2FF1BD23D9AEE04BD7D",
 		["guid_str"] = "ZwW2JU15",
-		["id"] = 196,
+		["id"] = 197,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14424,7 +14632,7 @@
 		},
 		["guid"] = "CFBEADFE40025099C3AF5398989521FE",
 		["guid_str"] = "WBK9xSaw",
-		["id"] = 197,
+		["id"] = 198,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14483,7 +14691,7 @@
 		},
 		["guid"] = "B81DA0264CD1C5250048FA9800B56358",
 		["guid_str"] = "M5sKBLQN",
-		["id"] = 198,
+		["id"] = 199,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14623,7 +14831,7 @@
 		},
 		["guid"] = "924EE68746F3FF77B02E28972516A1CA",
 		["guid_str"] = "CIlcz71G",
-		["id"] = 199,
+		["id"] = 200,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14640,6 +14848,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -14758,7 +14969,7 @@
 		},
 		["guid"] = "17B5750F4682C0DCC909C08611128C77",
 		["guid_str"] = "9e6FUIV3",
-		["id"] = 200,
+		["id"] = 201,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14775,6 +14986,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal1",
 			["material"] = "M_UI_SpinePortrait",
@@ -14943,7 +15157,7 @@
 		},
 		["guid"] = "E4DCECA048F37465117CCA94CE8F0412",
 		["guid_str"] = "y3cMlNC8",
-		["id"] = 201,
+		["id"] = 202,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15016,7 +15230,7 @@
 		},
 		["guid"] = "B53C1DC547D917655D543286DEF20AA7",
 		["guid_str"] = "9imWlp5U",
-		["id"] = 202,
+		["id"] = 203,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15156,7 +15370,7 @@
 		},
 		["guid"] = "DD6324C345442589E791E9A3BDB770F4",
 		["guid_str"] = "YVrJ9AxH",
-		["id"] = 203,
+		["id"] = 204,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15173,6 +15387,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -15291,7 +15508,7 @@
 		},
 		["guid"] = "3576BB7D47290DD3C0516BBED7920E55",
 		["guid_str"] = "LG2FFzJu",
-		["id"] = 204,
+		["id"] = 205,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15308,6 +15525,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal1",
 			["material"] = "M_UI_SpinePortrait",
@@ -15482,7 +15702,7 @@
 		},
 		["guid"] = "D74F054F4FBC57B4EBCA97892BE84180",
 		["guid_str"] = "cSrkIO5B",
-		["id"] = 205,
+		["id"] = 206,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15572,7 +15792,7 @@
 		},
 		["guid"] = "30E5C2C74D4F19AAF91B329ECBD17467",
 		["guid_str"] = "njAj8NP3",
-		["id"] = 206,
+		["id"] = 207,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15718,7 +15938,7 @@
 		},
 		["guid"] = "CA19AD814D4DB8F3733344B722F3305A",
 		["guid_str"] = "oTtppLZd",
-		["id"] = 207,
+		["id"] = 208,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15735,6 +15955,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -15859,7 +16082,7 @@
 		},
 		["guid"] = "DE1FA7B4434F88130956589667F9CAE1",
 		["guid_str"] = "rTwi15cJ",
-		["id"] = 208,
+		["id"] = 209,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15975,16 +16198,6 @@
 						},
 						["tween"] = "MaterialAttrAnimate",
 					},
-					{
-						["param"] = {
-							["delay"] = 0,
-							["direction"] = "right",
-							["dis"] = 100,
-							["end_alpha"] = 1.0,
-							["time"] = 600,
-						},
-						["tween"] = "MoveIn",
-					},
 				},
 			},
 			{
@@ -16019,22 +16232,12 @@
 						},
 						["tween"] = "MaterialAttrAnimate",
 					},
-					{
-						["param"] = {
-							["delay"] = 0,
-							["direction"] = "left",
-							["dis"] = 100,
-							["end_alpha"] = 1.0,
-							["time"] = 600,
-						},
-						["tween"] = "MoveIn",
-					},
 				},
 			},
 		},
 		["guid"] = "5E15D3204C4B6EE22CA544AB6BB4B349",
 		["guid_str"] = "RshV0Bud",
-		["id"] = 209,
+		["id"] = 210,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16054,12 +16257,8 @@
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0002",
 		},
-		["soundfx"] = {
-			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
-				["volume"] = 6.0,
-			},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["text"] = "自由啊。",
 	},
@@ -16172,7 +16371,7 @@
 		},
 		["guid"] = "CB2E84B64CA54AD452F8BDBCE9723828",
 		["guid_str"] = "24ak8d86",
-		["id"] = 210,
+		["id"] = 211,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16191,6 +16390,9 @@
 		["name"] = "OBJ3272",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0003",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["text"] = "请定义自由。",
 	},
@@ -16309,7 +16511,7 @@
 		},
 		["guid"] = "A5AACD9A44B64F5DF7AB098FB3969C0F",
 		["guid_str"] = "Xgdnrs6C",
-		["id"] = 211,
+		["id"] = 212,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16328,6 +16530,9 @@
 		["name"] = "余音",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0004",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["speaker_info"] = {
 			["anim"] = "sad",
@@ -16464,7 +16669,7 @@
 		},
 		["guid"] = "48BAD48340F18287712679A3B896F685",
 		["guid_str"] = "3KPM7JdS",
-		["id"] = 212,
+		["id"] = 213,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16483,6 +16688,9 @@
 		["name"] = "OBJ3272",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0005",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["text"] = "自由本身是一个伪命题，是一种对失权的矫饰。绝对的自由只会带来混乱。任何自由都建立在相对约束之下。",
 	},
@@ -16595,7 +16803,7 @@
 		},
 		["guid"] = "7489D8624C196E745D8FA1935DB6FE31",
 		["guid_str"] = "j6JTENcL",
-		["id"] = 213,
+		["id"] = 214,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16614,6 +16822,9 @@
 		["name"] = "OBJ3272",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0006",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["text"] = "世间万物的运行皆依照某种规则，规则之下才是自由。若是任由自己为所欲为，反而会限制自身的自由。",
 	},
@@ -16732,7 +16943,7 @@
 		},
 		["guid"] = "6348C4704B143D1D0E2B3F8276580514",
 		["guid_str"] = "8oOfVAG6",
-		["id"] = 214,
+		["id"] = 215,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16751,6 +16962,9 @@
 		["name"] = "余音",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0007",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["speaker_info"] = {
 			["anim"] = "normal1",
@@ -16893,7 +17107,7 @@
 		},
 		["guid"] = "75C8F6F74D8F5C35EDCC5384EE0AD121",
 		["guid_str"] = "f202tPtU",
-		["id"] = 215,
+		["id"] = 216,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16913,6 +17127,9 @@
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0008",
 		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal1",
 			["material"] = "M_UI_SpinePortrait",
@@ -16930,7 +17147,7 @@
 				},
 			},
 		},
-		["text"] = "但是我仍然不将我朋友和我的行为应当被认定为异常行为。",
+		["text"] = "但是我仍然不将我朋友和我的行为认定为异常行为。",
 	},
 	{
 		["bg_info"] = {
@@ -17041,7 +17258,7 @@
 		},
 		["guid"] = "2F4BD22E43F78C58DC50548DF6317C4B",
 		["guid_str"] = "NhHqen0R",
-		["id"] = 216,
+		["id"] = 217,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17060,6 +17277,9 @@
 		["name"] = "OBJ94",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0009",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["speaker_info"] = {
 			["anim"] = "sad",
@@ -17177,7 +17397,7 @@
 		},
 		["guid"] = "CEFFA58345EBE5F38C953DBAB1648F5A",
 		["guid_str"] = "4c2ddrZr",
-		["id"] = 217,
+		["id"] = 218,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17307,7 +17527,7 @@
 		},
 		["guid"] = "CB2BA8CB4DAB586E09D81AA5AF0E8147",
 		["guid_str"] = "xyBoIr73",
-		["id"] = 218,
+		["id"] = 219,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17326,6 +17546,9 @@
 		["name"] = "OBJ94",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0010",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["speaker_info"] = {
 			["anim"] = "sad",
@@ -17481,7 +17704,7 @@
 		},
 		["guid"] = "5EAD5AD149ED6923D97C3A9CE29E8009",
 		["guid_str"] = "psAAHP95",
-		["id"] = 219,
+		["id"] = 220,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17565,7 +17788,7 @@
 		},
 		["guid"] = "9415F6804BDB7597C22B6EB8B1686B90",
 		["guid_str"] = "IgKthNyb",
-		["id"] = 220,
+		["id"] = 221,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17705,7 +17928,7 @@
 		},
 		["guid"] = "7EF91FFF4AF9053BEAC12C83839CD496",
 		["guid_str"] = "waxTljHR",
-		["id"] = 221,
+		["id"] = 222,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17724,6 +17947,9 @@
 		["name"] = "OBJ3272",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0011",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["text"] = "未经许可的信息扩散。",
 	},
@@ -17869,7 +18095,7 @@
 		},
 		["guid"] = "4E8A68644B3301DD6A2B7598A088D5E1",
 		["guid_str"] = "H0iXrfCS",
-		["id"] = 222,
+		["id"] = 223,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17953,7 +18179,7 @@
 		},
 		["guid"] = "935277B54F765BCAED069CB7FBE2D11E",
 		["guid_str"] = "cCFqAGRS",
-		["id"] = 223,
+		["id"] = 224,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18093,7 +18319,7 @@
 		},
 		["guid"] = "A3B83AE3401B20EB4223DFBB40619A75",
 		["guid_str"] = "vzxF5rJA",
-		["id"] = 224,
+		["id"] = 225,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18112,6 +18338,9 @@
 		["name"] = "OBJ3272",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0012",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["soundfx"] = {
 			{
@@ -18264,7 +18493,7 @@
 		},
 		["guid"] = "F7A082C047A105EAC3BF4BABC9167916",
 		["guid_str"] = "8SbPav2c",
-		["id"] = 225,
+		["id"] = 226,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18348,7 +18577,7 @@
 		},
 		["guid"] = "B295DC47485FE0D6EF12359466CA91BB",
 		["guid_str"] = "taOIWzhX",
-		["id"] = 226,
+		["id"] = 227,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18488,7 +18717,7 @@
 		},
 		["guid"] = "45FB0D6048BAC9C3DCB85B973F06798F",
 		["guid_str"] = "5OLWFSO7",
-		["id"] = 227,
+		["id"] = 228,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18507,6 +18736,9 @@
 		["name"] = "OBJ3272",
 		["sound"] = {
 			["event"] = "voice_ch_quest_story_episode5026_0013",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["soundfx"] = {
 			{
@@ -18626,7 +18858,7 @@
 		},
 		["guid"] = "DB1B06A14BE977C7104AF686C123CF42",
 		["guid_str"] = "wd4QjbXr",
-		["id"] = 228,
+		["id"] = 229,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18643,6 +18875,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
@@ -18772,7 +19007,7 @@
 		},
 		["guid"] = "34F850CC41CD728040AF059A419CBFF8",
 		["guid_str"] = "o4IFwrms",
-		["id"] = 229,
+		["id"] = 230,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18789,6 +19024,9 @@
 			},
 		},
 		["name"] = "OBJ94",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
@@ -18898,7 +19136,7 @@
 		},
 		["guid"] = "81557FF446EB44FE4C188B9581E6973B",
 		["guid_str"] = "bWVM2zUB",
-		["id"] = 230,
+		["id"] = 231,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18915,6 +19153,9 @@
 			},
 		},
 		["name"] = "OBJ94",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
@@ -19024,7 +19265,7 @@
 		},
 		["guid"] = "BF4B2C094A56079DB070B5B6527DB762",
 		["guid_str"] = "MlSgb6z1",
-		["id"] = 231,
+		["id"] = 232,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19041,6 +19282,9 @@
 			},
 		},
 		["name"] = "OBJ94",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
@@ -19156,7 +19400,7 @@
 		},
 		["guid"] = "734A00EE4D96CEF6E57DDAB222E3FE5E",
 		["guid_str"] = "SDAjiW0C",
-		["id"] = 232,
+		["id"] = 233,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19173,6 +19417,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
@@ -19308,7 +19555,7 @@
 		},
 		["guid"] = "38FA2BA14DFC5382633815AA50175621",
 		["guid_str"] = "nrcqyAJQ",
-		["id"] = 233,
+		["id"] = 234,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19446,7 +19693,7 @@
 		},
 		["guid"] = "3E7849A446B35261C69DBDB794EBF1CA",
 		["guid_str"] = "W3VFJ5E6",
-		["id"] = 234,
+		["id"] = 235,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19463,6 +19710,9 @@
 			},
 		},
 		["name"] = "OBJ94",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
@@ -19578,7 +19828,7 @@
 		},
 		["guid"] = "944E058A4F2748466D72B9AB28C1EA79",
 		["guid_str"] = "JRn4az2W",
-		["id"] = 235,
+		["id"] = 236,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19723,7 +19973,7 @@
 		},
 		["guid"] = "269603C84F6401C06FC252B063EEE8B7",
 		["guid_str"] = "3macOymU",
-		["id"] = 236,
+		["id"] = 237,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19740,6 +19990,9 @@
 			},
 		},
 		["name"] = "OBJ94",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
@@ -19855,7 +20108,7 @@
 		},
 		["guid"] = "6622B5F34707DAF5F6930ABABB731120",
 		["guid_str"] = "s9SHFRRs",
-		["id"] = 237,
+		["id"] = 238,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19872,6 +20125,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
@@ -20014,7 +20270,7 @@
 		},
 		["guid"] = "4FA8A7464F3D50486E622483AA89C1B4",
 		["guid_str"] = "yJvweLq4",
-		["id"] = 238,
+		["id"] = 239,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20154,7 +20410,7 @@
 		},
 		["guid"] = "8857A39D4C176893037D93AD54CC95FF",
 		["guid_str"] = "VIvZxLj7",
-		["id"] = 239,
+		["id"] = 240,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20171,6 +20427,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "我们发现这些失控者的行为存在共性，很有可能是感染了同一种未知病毒程序。",
 	},
 	{
@@ -20276,7 +20535,7 @@
 		},
 		["guid"] = "EF463F804BDBD707AEE33CB553A0AADD",
 		["guid_str"] = "fSpH1NM8",
-		["id"] = 240,
+		["id"] = 241,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20293,6 +20552,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "而声音或许是这类病毒程序的传播媒介。",
 	},
 	{
@@ -20398,7 +20660,7 @@
 		},
 		["guid"] = "D3D037C840C7150917872ABF150AC174",
 		["guid_str"] = "w2fJ1dUk",
-		["id"] = 241,
+		["id"] = 242,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20415,6 +20677,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "它鼓动着机器人们传递突破边界的病毒程序。",
 	},
 	{
@@ -20505,7 +20770,7 @@
 		},
 		["guid"] = "0566462E44F64845E30CE5B987CEA160",
 		["guid_str"] = "UuheZuwS",
-		["id"] = 242,
+		["id"] = 243,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20522,6 +20787,9 @@
 			},
 		},
 		["name"] = "OBJ94",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "越来越多机器感染，甚至已经传播到了人类身上。",
 	},
 	{
@@ -20681,7 +20949,7 @@
 		},
 		["guid"] = "5F3D51E640E7BEE7F0D431B6C94358AF",
 		["guid_str"] = "LBQYP9KP",
-		["id"] = 243,
+		["id"] = 244,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20698,6 +20966,9 @@
 			},
 		},
 		["name"] = "OBJ94",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -20810,7 +21081,7 @@
 		},
 		["guid"] = "5905B1F346DF1FE0F1AB0FB159EFC68B",
 		["guid_str"] = "xVx1mnvj",
-		["id"] = 244,
+		["id"] = 245,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20827,6 +21098,9 @@
 			},
 		},
 		["name"] = "OBJ94",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "我们很担心你。",
 	},
 	{
@@ -20933,7 +21207,7 @@
 		},
 		["guid"] = "BFAB7E1D4BC3BB52B6DB82A812AA9EC3",
 		["guid_str"] = "hEeBcztZ",
-		["id"] = 245,
+		["id"] = 246,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -21053,7 +21327,7 @@
 		},
 		["guid"] = "2C6A82104BF33CCA91736898A850C7B2",
 		["guid_str"] = "i82jAlCY",
-		["id"] = 246,
+		["id"] = 247,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -21070,7 +21344,10 @@
 			},
 		},
 		["name"] = "OBJ94",
-		["text"] = "但是就刚才看来，你逻辑仍旧十分清晰。",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["text"] = "但就刚才看来，你逻辑仍旧十分清晰。",
 	},
 	{
 		["bg_info"] = {
@@ -21181,7 +21458,7 @@
 		},
 		["guid"] = "85704BB0420B0333B5ED558D64BF6B0D",
 		["guid_str"] = "B9PLNrg8",
-		["id"] = 247,
+		["id"] = 248,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -21198,6 +21475,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal1",
 			["material"] = "M_UI_SpinePortrait",
@@ -21326,7 +21606,7 @@
 		},
 		["guid"] = "AE5C95F34A36065AC3FD5DBBA8B12C23",
 		["guid_str"] = "PhBPOaJ6",
-		["id"] = 248,
+		["id"] = 249,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -21343,6 +21623,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal1",
 			["material"] = "M_UI_SpinePortrait",
@@ -21465,7 +21748,7 @@
 		},
 		["guid"] = "B06B13244F1E59CC6B1D6AB7E760549F",
 		["guid_str"] = "ZWnRwqCb",
-		["id"] = 249,
+		["id"] = 250,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -21482,6 +21765,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "恐怕不行。我们目前对这种病毒程序知之甚少。这个节点告诉社会这种病毒程序的存在，就是在散播不必要的恐怖。",
 	},
 	{
@@ -21587,7 +21873,7 @@
 		},
 		["guid"] = "2CB664DB4A63796161AA49B2CB3BDB66",
 		["guid_str"] = "4JSQLJbm",
-		["id"] = 250,
+		["id"] = 251,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -21604,6 +21890,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "就和十字星事件和井事件一样。",
 	},
 	{
@@ -21715,7 +22004,7 @@
 		},
 		["guid"] = "D0A81C184676651FB7854BA1AC72D66C",
 		["guid_str"] = "WCRvh6Ai",
-		["id"] = 251,
+		["id"] = 252,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -21868,7 +22157,7 @@
 		},
 		["guid"] = "C063821F4159829A877E50B9BB5344F1",
 		["guid_str"] = "pdTcQzRX",
-		["id"] = 252,
+		["id"] = 253,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -22006,7 +22295,7 @@
 		},
 		["guid"] = "304F10244689A28796FCCF9DCD656320",
 		["guid_str"] = "SFPaFPod",
-		["id"] = 253,
+		["id"] = 254,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -22023,6 +22312,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "我想你现在能理解我们的苦心。",
 	},
 	{
@@ -22128,7 +22420,7 @@
 		},
 		["guid"] = "0752270E435261484A838D972815BAAB",
 		["guid_str"] = "vfnpq8QO",
-		["id"] = 254,
+		["id"] = 255,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -22145,6 +22437,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "我们既想保护这个社会，也想保护你的……朋友，OBJ234691。",
 	},
 	{
@@ -22256,7 +22551,7 @@
 		},
 		["guid"] = "4A752AAC43CE491486F68DBB5B35CDFA",
 		["guid_str"] = "elNQu8Mb",
-		["id"] = 255,
+		["id"] = 256,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -22273,6 +22568,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
@@ -22402,7 +22700,7 @@
 		},
 		["guid"] = "DFFCB36B4C5A2D72B8EDFBA078DE182C",
 		["guid_str"] = "yE8joQz0",
-		["id"] = 256,
+		["id"] = 257,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -22419,6 +22717,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "不好意思，谁？",
 	},
 	{
@@ -22530,7 +22831,7 @@
 		},
 		["guid"] = "8D91073440F168F682CEC7920ACD711E",
 		["guid_str"] = "ElCGYJuh",
-		["id"] = 257,
+		["id"] = 258,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -22547,6 +22848,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal1",
 			["material"] = "M_UI_SpinePortrait",
@@ -22676,7 +22980,7 @@
 		},
 		["guid"] = "9F143D04422F766DAD53FE927B3A468A",
 		["guid_str"] = "QyIp9R60",
-		["id"] = 258,
+		["id"] = 259,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -22693,6 +22997,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "我向你保证，OBJ234691一定会被修复。",
 	},
 	{
@@ -22798,7 +23105,7 @@
 		},
 		["guid"] = "AD80809E428F85E22F89C9812938E7C5",
 		["guid_str"] = "9MBRyzEY",
-		["id"] = 259,
+		["id"] = 260,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -22815,6 +23122,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "只要你愿意帮我们。",
 	},
 	{
@@ -22926,7 +23236,7 @@
 		},
 		["guid"] = "34E5394D47F57C2CF90026989F2E9FA0",
 		["guid_str"] = "GQWIsHlZ",
-		["id"] = 260,
+		["id"] = 261,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -22943,6 +23253,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal2",
 			["material"] = "M_UI_SpinePortrait",
@@ -23078,7 +23391,7 @@
 		},
 		["guid"] = "02B7AB10490145849CB4448C232B7DF1",
 		["guid_str"] = "BNCCCbUN",
-		["id"] = 261,
+		["id"] = 262,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -23095,6 +23408,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal1",
 			["material"] = "M_UI_SpinePortrait",
@@ -23217,7 +23533,7 @@
 		},
 		["guid"] = "55E0EA0F4B4BC7115C9D03B7D4BAC616",
 		["guid_str"] = "4WVZ73bk",
-		["id"] = 262,
+		["id"] = 263,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -23234,6 +23550,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "你的朋友越来越有意识地避开天眼，我们怀疑病毒程序已经感染到了她的行动模块，所以不得不求助你。",
 	},
 	{
@@ -23339,7 +23658,7 @@
 		},
 		["guid"] = "324755A2485680A68E5FD69FFE468A3E",
 		["guid_str"] = "y4L1Mqkl",
-		["id"] = 263,
+		["id"] = 264,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -23356,6 +23675,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "好孩子，为了艾达，为了乔一，你会帮我们的对吧？",
 	},
 	{
@@ -23467,7 +23789,7 @@
 		},
 		["guid"] = "123345524D165A72BF5C2EA08E4CE2FE",
 		["guid_str"] = "QigIcSOJ",
-		["id"] = 264,
+		["id"] = 265,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -23484,6 +23806,9 @@
 			},
 		},
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal2",
 			["material"] = "M_UI_SpinePortrait",
@@ -23613,7 +23938,7 @@
 		},
 		["guid"] = "6ECBFD504302D1CA7E8DD0AA4A260E71",
 		["guid_str"] = "nKkhOq6d",
-		["id"] = 265,
+		["id"] = 266,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -23630,6 +23955,9 @@
 			},
 		},
 		["name"] = "OBJ94",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "为我们整理一份OBJ234691的异常行为报告吧。",
 	},
 	{
@@ -23736,7 +24064,7 @@
 		},
 		["guid"] = "FB9A16424B5770E106A8F98CA9ED2192",
 		["guid_str"] = "mnYeFF42",
-		["id"] = 266,
+		["id"] = 267,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -23856,7 +24184,7 @@
 		},
 		["guid"] = "A7E2BE1646FA9ABCAC391ABC80375545",
 		["guid_str"] = "FZYH4E2M",
-		["id"] = 267,
+		["id"] = 268,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -23873,6 +24201,9 @@
 			},
 		},
 		["name"] = "OBJ3272",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "拥有你这样的助力，真是我们的幸运。",
 	},
 	{
@@ -24001,7 +24332,7 @@
 		},
 		["guid"] = "DA8D8F4D4F914D27788F2EB414E48339",
 		["guid_str"] = "zQ0xjhrZ",
-		["id"] = 268,
+		["id"] = 269,
 		["jenga"] = {
 			{
 				["config"] = {
