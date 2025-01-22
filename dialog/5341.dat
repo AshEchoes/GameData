@@ -21,6 +21,7 @@
 		["guid"] = "E2DB0B474278596D4E52EF94D6C6C0DB",
 		["guid_str"] = "TyOYPcjr",
 		["id"] = 1,
+		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
 				["event"] = "event:/ambience/Amb_RoomTone_home",
@@ -616,7 +617,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -670,7 +671,7 @@
 				},
 			},
 			{
-				["anim"] = "thinking",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1427,7 +1428,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1490,7 +1491,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1712,6 +1713,34 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -1736,30 +1765,6 @@
 							["time"] = 600,
 						},
 						["tween"] = "RelativePositionChange",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["direction"] = "left",
-							["dis"] = 100,
-							["end_alpha"] = 1.0,
-							["time"] = 600,
-						},
-						["tween"] = "MoveIn",
 					},
 				},
 			},
@@ -1790,6 +1795,22 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -1806,18 +1827,6 @@
 					-200,
 					0,
 				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1844,21 +1853,6 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af68karas/af68karas_action3",
-				["pos"] = {
-					-200,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -1872,6 +1866,25 @@
 				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af68karas/af68karas_action3",
+				["pos"] = {
+					-200,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1898,6 +1911,22 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -1914,18 +1943,6 @@
 					-200,
 					0,
 				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1952,6 +1969,22 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -1968,18 +2001,6 @@
 					-200,
 					0,
 				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2007,21 +2028,6 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af68karas/af68karas_action3",
-				["pos"] = {
-					-200,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -2035,6 +2041,25 @@
 				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af68karas/af68karas_action3",
+				["pos"] = {
+					-200,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2060,21 +2085,6 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af68karas/af68karas_action3",
-				["pos"] = {
-					-200,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -2088,6 +2098,25 @@
 				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af68karas/af68karas_action3",
+				["pos"] = {
+					-200,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2123,14 +2152,21 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af68karas/af68karas_action3",
+				["path"] = "af72maid/af72maid_action1",
 				["pos"] = {
-					-200,
+					-150,
 					0,
 				},
 				["shadow"] = {
@@ -2147,19 +2183,16 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "smile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
+				["path"] = "af68karas/af68karas_action3",
+				["pos"] = {
+					-200,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2289,7 +2322,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3181,12 +3214,99 @@
 					["tween"] = {
 						{
 							["param"] = {
-								["am"] = 10,
 								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_concert_10.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af68karas/af68karas_action2",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n81beach/n81beach_tourist_f_02_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "7AEC9E9E4AD26EA2D816C094956B0843",
+		["guid_str"] = "H7KOy66i",
+		["id"] = 59,
+		["just_auto_play"] = true,
+		["time"] = 1500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["am"] = 10,
+								["delay"] = 1000,
 								["duration"] = 500,
 								["time"] = 30,
 							},
 							["tween"] = "Shake",
+						},
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
 						},
 					},
 				},
@@ -3202,7 +3322,7 @@
 		},
 		["guid"] = "BF94D3954FD030293B51A989F7923E19",
 		["guid_str"] = "ZOB51inC",
-		["id"] = 59,
+		["id"] = 60,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -3210,7 +3330,6 @@
 				["length"] = 707,
 			},
 		},
-		["time"] = 1000,
 	},
 	{
 		["bg_info"] = {
@@ -3222,7 +3341,7 @@
 		},
 		["guid"] = "6E2D52C14825017A87BC55AFB80004F7",
 		["guid_str"] = "fuxcG3r5",
-		["id"] = 60,
+		["id"] = 61,
 		["name"] = "灯光师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3250,7 +3369,7 @@
 		},
 		["guid"] = "3260D70D4CBE35F92FE49E9FFF7E9239",
 		["guid_str"] = "v67u127A",
-		["id"] = 61,
+		["id"] = 62,
 		["name"] = "灯光师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3294,7 +3413,7 @@
 		},
 		["guid"] = "6F58CBBC44EDFF8B29DAEE87725FDCE9",
 		["guid_str"] = "JP3yJlOu",
-		["id"] = 62,
+		["id"] = 63,
 		["name"] = "梅德",
 		["soundfx"] = {
 			{
@@ -3359,7 +3478,7 @@
 		},
 		["guid"] = "C3BD60AF47175B90BD0389A5E9A5F0CC",
 		["guid_str"] = "QtVbEhNN",
-		["id"] = 63,
+		["id"] = 64,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3391,7 +3510,7 @@
 		},
 		["guid"] = "E48638424998FF30D29DD49D88079A55",
 		["guid_str"] = "Pp3nq2Sk",
-		["id"] = 64,
+		["id"] = 65,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3426,7 +3545,7 @@
 		},
 		["guid"] = "C0CB79F94182A4835AF217A5EAE481F2",
 		["guid_str"] = "i2ngRenD",
-		["id"] = 65,
+		["id"] = 66,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3458,7 +3577,7 @@
 		},
 		["guid"] = "46ED1401443BDD810479038362E6F5B5",
 		["guid_str"] = "hWfdltl1",
-		["id"] = 66,
+		["id"] = 67,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/karas/avg_karas_guitar_01",
@@ -3497,7 +3616,7 @@
 		},
 		["guid"] = "CB4506BB48CE31CBF09E30A26DAA30E0",
 		["guid_str"] = "yyyglmxT",
-		["id"] = 67,
+		["id"] = 68,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3530,7 +3649,7 @@
 		},
 		["guid"] = "7975493F4BB9EF8B1B29E48CF83E0626",
 		["guid_str"] = "YAqJFpbf",
-		["id"] = 68,
+		["id"] = 69,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3565,7 +3684,7 @@
 		},
 		["guid"] = "469B7C6D403EFF47B664C2BAB99BF37D",
 		["guid_str"] = "XXCGDQvh",
-		["id"] = 69,
+		["id"] = 70,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3597,7 +3716,7 @@
 		},
 		["guid"] = "3DA778F24172545BBAA5A482CAEB4080",
 		["guid_str"] = "U1QpTOYj",
-		["id"] = 70,
+		["id"] = 71,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3630,7 +3749,7 @@
 		},
 		["guid"] = "890530A641F4674D0A36C1B8EB367C2E",
 		["guid_str"] = "uM2KhU2v",
-		["id"] = 71,
+		["id"] = 72,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3665,7 +3784,7 @@
 		},
 		["guid"] = "A49329A94590956CACAABAB6A3B5909E",
 		["guid_str"] = "I7668OBh",
-		["id"] = 72,
+		["id"] = 73,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3722,7 +3841,7 @@
 		},
 		["guid"] = "6D07943E4F07A9F48C328D98EE923880",
 		["guid_str"] = "SEo2uTGL",
-		["id"] = 73,
+		["id"] = 74,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/karas/avg_karas_robot_fall",
@@ -3781,7 +3900,7 @@
 		},
 		["guid"] = "327D9E4E4F69BC7E68A0A7917B17048D",
 		["guid_str"] = "xP3AS3od",
-		["id"] = 74,
+		["id"] = 75,
 		["name"] = "梅德",
 		["soundfx"] = {
 			{
@@ -3835,7 +3954,7 @@
 		},
 		["guid"] = "8EE77A314ACEB23024292F9F6D38D549",
 		["guid_str"] = "p8nTu2hD",
-		["id"] = 75,
+		["id"] = 76,
 		["name"] = "梅德",
 		["soundfx"] = {
 			{
@@ -3889,7 +4008,7 @@
 		},
 		["guid"] = "5233B1A141202C9A7F43749ED2F460F9",
 		["guid_str"] = "ZCgdK4bZ",
-		["id"] = 76,
+		["id"] = 77,
 		["name"] = "梅德",
 		["soundfx"] = {
 			{
@@ -3932,7 +4051,7 @@
 		},
 		["guid"] = "E12B573F4362C1D9E4A3D28765A76F20",
 		["guid_str"] = "0tRDZOPt",
-		["id"] = 77,
+		["id"] = 78,
 		["name"] = "梅德",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3989,7 +4108,7 @@
 		},
 		["guid"] = "91DC6F12404F4E82BB185587374ECA92",
 		["guid_str"] = "aWJgKhmQ",
-		["id"] = 78,
+		["id"] = 79,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4011,7 +4130,7 @@
 		},
 		["guid"] = "A6241CB14214D44DAABB77B877796C83",
 		["guid_str"] = "DTU7l0dA",
-		["id"] = 79,
+		["id"] = 80,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4058,7 +4177,7 @@
 		},
 		["guid"] = "3EC0C52D402CA879CB3B688343958606",
 		["guid_str"] = "YDhJn8JG",
-		["id"] = 80,
+		["id"] = 81,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -4193,7 +4312,7 @@
 		},
 		["guid"] = "8EF81CA943B055968B037086C02A5204",
 		["guid_str"] = "ocm9YeVU",
-		["id"] = 81,
+		["id"] = 82,
 		["name"] = "惊栗乐队全员",
 		["soundfx"] = {
 			{
@@ -4308,7 +4427,7 @@
 		},
 		["guid"] = "BD4A05E142E45255653B2D98C2443BA8",
 		["guid_str"] = "UIQ97MRk",
-		["id"] = 82,
+		["id"] = 83,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4434,7 +4553,7 @@
 		},
 		["guid"] = "DF00B4E34B9B5BB1CA4B4D920A71F0AD",
 		["guid_str"] = "vHSRlL3w",
-		["id"] = 83,
+		["id"] = 84,
 		["name"] = "贝斯手",
 		["soundfx"] = {
 			{
@@ -4554,7 +4673,7 @@
 		},
 		["guid"] = "9C1250764BFFA9669462AA9451001307",
 		["guid_str"] = "jcUqcxOa",
-		["id"] = 84,
+		["id"] = 85,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4711,40 +4830,6 @@
 		},
 		["guid"] = "CC61D6844344D999955200A5E793B689",
 		["guid_str"] = "rLpiduu3",
-		["id"] = 85,
-		["speaker_info"] = {
-			["anim"] = "normal",
-			["material"] = "M_UI_SpinePortrait",
-		},
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_concert_10.png",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["b_use_mask"] = true,
-			["height"] = 150,
-			["is_append"] = true,
-			["is_only_append_separate_tween"] = true,
-			["is_separate_tween"] = true,
-			["text"] = "[size 17][br][br]——他认识自己。",
-			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 600,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
-		},
-		["guid"] = "FA5CD0ED43988D4ACB94E29852BC3781",
-		["guid_str"] = "LmmkYGpu",
 		["id"] = 86,
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4765,7 +4850,41 @@
 			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
-			["text"] = "[size 17][br][br]——糟糕。",
+			["text"] = "[br][br][size 17]——他认识自己。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 600,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "FA5CD0ED43988D4ACB94E29852BC3781",
+		["guid_str"] = "LmmkYGpu",
+		["id"] = 87,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_concert_10.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["text"] = "[br][br][size 17]——糟糕。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -4779,7 +4898,7 @@
 		},
 		["guid"] = "C60C72744CAE3D16C21BBBA41AC502E1",
 		["guid_str"] = "3hwdOmku",
-		["id"] = 87,
+		["id"] = 88,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4826,7 +4945,7 @@
 		},
 		["guid"] = "12C76E02490A8A7E7DDCAAA567DF82CF",
 		["guid_str"] = "H3lq0kOh",
-		["id"] = 88,
+		["id"] = 89,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -4868,7 +4987,7 @@
 		},
 		["guid"] = "9FDFC4AB4042F5DC08E848AF606DBE78",
 		["guid_str"] = "cJHwKUDH",
-		["id"] = 89,
+		["id"] = 90,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4923,7 +5042,7 @@
 		},
 		["guid"] = "3D8CE5234EFF7E6CE11171ADBF2796BD",
 		["guid_str"] = "ZRXTALHI",
-		["id"] = 90,
+		["id"] = 91,
 		["name"] = "贝斯手",
 		["soundfx"] = {
 			{
@@ -5020,7 +5139,7 @@
 		},
 		["guid"] = "5C229F394BFBB88F7716338490102BFC",
 		["guid_str"] = "m0ssDtba",
-		["id"] = 91,
+		["id"] = 92,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -5099,7 +5218,7 @@
 		},
 		["guid"] = "0206F41F467A4598B4CA51B6E995A9AC",
 		["guid_str"] = "kdYeWA9W",
-		["id"] = 92,
+		["id"] = 93,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/karas/avg_karas_robot_move_02",
@@ -5134,7 +5253,7 @@
 		},
 		["guid"] = "73C9494242C2E583BF65AF99EB114D9F",
 		["guid_str"] = "flDRpoeF",
-		["id"] = 93,
+		["id"] = 94,
 		["name"] = "副吉他手",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5166,7 +5285,7 @@
 		},
 		["guid"] = "8A7AB913471EBDB74A1BB5A68A927422",
 		["guid_str"] = "gKC9VoLw",
-		["id"] = 94,
+		["id"] = 95,
 		["name"] = "隔壁房间",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5222,7 +5341,7 @@
 		},
 		["guid"] = "80426D8643D72CA2E29823BC98891CFB",
 		["guid_str"] = "pzimSHOk",
-		["id"] = 95,
+		["id"] = 96,
 		["name"] = "隔壁房间",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5268,7 +5387,7 @@
 		},
 		["guid"] = "D44E63714ECC00BF990C9895C9C0AC88",
 		["guid_str"] = "YCB6FWlm",
-		["id"] = 96,
+		["id"] = 97,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5323,7 +5442,7 @@
 		},
 		["guid"] = "3F734CD545FC56A2C773FE8A8D6AF524",
 		["guid_str"] = "M4Ahs8P9",
-		["id"] = 97,
+		["id"] = 98,
 		["name"] = "余音",
 		["soundfx"] = {
 			{
@@ -5367,7 +5486,7 @@
 		},
 		["guid"] = "FCD5953B418AB93B6576858DB94C2E3C",
 		["guid_str"] = "4Gb6zmL7",
-		["id"] = 98,
+		["id"] = 99,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5402,7 +5521,7 @@
 		},
 		["guid"] = "997A41854E83F301B368DF9043B9D8F9",
 		["guid_str"] = "3nGwXLhs",
-		["id"] = 99,
+		["id"] = 100,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5437,7 +5556,7 @@
 		},
 		["guid"] = "77A3A7D54C716BF9580EA88AAF9C48D0",
 		["guid_str"] = "oG4kzn99",
-		["id"] = 100,
+		["id"] = 101,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5513,7 +5632,7 @@
 		},
 		["guid"] = "89995C3D46649512EA3FCA9CD0E83249",
 		["guid_str"] = "nkkNgo1J",
-		["id"] = 101,
+		["id"] = 102,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -5642,7 +5761,7 @@
 		},
 		["guid"] = "56293D5D48C8EC845A05C1AD5D5C5B04",
 		["guid_str"] = "yerrkgXv",
-		["id"] = 102,
+		["id"] = 103,
 		["name"] = "主唱",
 		["soundfx"] = {
 			{
@@ -5686,7 +5805,7 @@
 		},
 		["guid"] = "12AFB037437DBCF0ABC418BE82E96F91",
 		["guid_str"] = "phKOIplJ",
-		["id"] = 103,
+		["id"] = 104,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5766,7 +5885,7 @@
 		},
 		["guid"] = "69D6B0DD4FE85FA4260CADBD83EE1ED1",
 		["guid_str"] = "PuXG46RA",
-		["id"] = 104,
+		["id"] = 105,
 		["name"] = "余音",
 		["soundfx"] = {
 			{
@@ -5834,7 +5953,7 @@
 		},
 		["guid"] = "F1BBFBC5488AB5451E3FAE83737BEDB8",
 		["guid_str"] = "izj3dgjH",
-		["id"] = 105,
+		["id"] = 106,
 		["name"] = "主唱",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5941,7 +6060,7 @@
 		},
 		["guid"] = "71356AFB49632E2358FBA49D092E14ED",
 		["guid_str"] = "Z4rZfBtb",
-		["id"] = 106,
+		["id"] = 107,
 		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
@@ -6028,7 +6147,7 @@
 		},
 		["guid"] = "804B554144622E5834FAA68AE6FD7B71",
 		["guid_str"] = "rvouWWBt",
-		["id"] = 107,
+		["id"] = 108,
 		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
@@ -6090,7 +6209,7 @@
 		},
 		["guid"] = "65C9C5FE4650A528A547B2B5937A6846",
 		["guid_str"] = "i63b6UgR",
-		["id"] = 108,
+		["id"] = 109,
 		["is_white_base_bg"] = true,
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6158,7 +6277,7 @@
 		},
 		["guid"] = "59A46881496AB1A06EE50C961E0D3888",
 		["guid_str"] = "aF83aIfI",
-		["id"] = 109,
+		["id"] = 110,
 		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
@@ -6238,7 +6357,7 @@
 		},
 		["guid"] = "E69420BB44E416871ED3A591622DCB01",
 		["guid_str"] = "NXnRBcJE",
-		["id"] = 110,
+		["id"] = 111,
 		["is_white_base_bg"] = true,
 		["name"] = "主唱",
 		["soundfx"] = {
@@ -6323,7 +6442,7 @@
 		},
 		["guid"] = "9BF11385431DA3512087FAB9B793F1D9",
 		["guid_str"] = "l9PTVHl3",
-		["id"] = 111,
+		["id"] = 112,
 		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
@@ -6431,7 +6550,7 @@
 		},
 		["guid"] = "AFC17A054DE89936C5639682D7D141A8",
 		["guid_str"] = "GHcBmqzr",
-		["id"] = 112,
+		["id"] = 113,
 		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
@@ -6470,7 +6589,7 @@
 		},
 		["guid"] = "3B426889414D8259C92F0CAA288400DA",
 		["guid_str"] = "gSSrNnnq",
-		["id"] = 113,
+		["id"] = 114,
 		["is_white_base_bg"] = true,
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6504,7 +6623,7 @@
 		},
 		["guid"] = "4D04E3244EF13CE562322895AB0B75FF",
 		["guid_str"] = "NPjcb72A",
-		["id"] = 114,
+		["id"] = 115,
 		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
@@ -6547,7 +6666,7 @@
 		},
 		["guid"] = "5F64010F4CE9CB423745C282CD5C16A0",
 		["guid_str"] = "a6INQjX2",
-		["id"] = 115,
+		["id"] = 116,
 		["is_white_base_bg"] = true,
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6592,7 +6711,7 @@
 		},
 		["guid"] = "DA48C11D4CA6162A83CE8BAEA8A27DAE",
 		["guid_str"] = "6SuOgeXS",
-		["id"] = 116,
+		["id"] = 117,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -6632,7 +6751,7 @@
 		},
 		["guid"] = "F55DE437407B3A05DFE353BD53AFD25D",
 		["guid_str"] = "lhvbjPTH",
-		["id"] = 117,
+		["id"] = 118,
 		["name"] = "副吉他手",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6669,7 +6788,7 @@
 		},
 		["guid"] = "FD0817F744613AD3D95F8F9358A2B9CC",
 		["guid_str"] = "K8zh3V7w",
-		["id"] = 118,
+		["id"] = 119,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6744,7 +6863,7 @@
 		},
 		["guid"] = "8C05F3374F7808063623B3BD7BB2D489",
 		["guid_str"] = "juJhIIPJ",
-		["id"] = 119,
+		["id"] = 120,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -6779,7 +6898,7 @@
 		},
 		["guid"] = "A8D6E67745050D36DF9D0A85D52526AB",
 		["guid_str"] = "pFbTi9lI",
-		["id"] = 120,
+		["id"] = 121,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -6814,7 +6933,7 @@
 		},
 		["guid"] = "D2CBB0CD4B7B0A2D4AC4EFA7CCADB788",
 		["guid_str"] = "yHhsBpBX",
-		["id"] = 121,
+		["id"] = 122,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -6849,7 +6968,7 @@
 		},
 		["guid"] = "A9506D9C49AE28C16AC021A4F5500788",
 		["guid_str"] = "G44wROkG",
-		["id"] = 122,
+		["id"] = 123,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -6905,7 +7024,7 @@
 		},
 		["guid"] = "C805CA92495CD4A38ABE9AB400E481CE",
 		["guid_str"] = "8qw294a3",
-		["id"] = 123,
+		["id"] = 124,
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/whooshbang_01",
@@ -6984,7 +7103,7 @@
 		},
 		["guid"] = "F56172C048A565B221DC0A87B10A9B9D",
 		["guid_str"] = "hAdy47yL",
-		["id"] = 124,
+		["id"] = 125,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7048,7 +7167,7 @@
 		},
 		["guid"] = "C332B3604535D8204392CE8951444B65",
 		["guid_str"] = "TixAYvo8",
-		["id"] = 125,
+		["id"] = 126,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7110,7 +7229,7 @@
 		},
 		["guid"] = "5B0596EC4C17E851BA1863AFB18EBBC5",
 		["guid_str"] = "TIlYPLKz",
-		["id"] = 126,
+		["id"] = 127,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7180,7 +7299,7 @@
 		},
 		["guid"] = "753E64794CDBD8BC4EA2BABC186158BF",
 		["guid_str"] = "bpCq4V1G",
-		["id"] = 127,
+		["id"] = 128,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7273,7 +7392,7 @@
 		},
 		["guid"] = "88FCADA148383EF01AABD7A5C87667B7",
 		["guid_str"] = "PsZH2M5m",
-		["id"] = 128,
+		["id"] = 129,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -7318,7 +7437,7 @@
 		},
 		["guid"] = "F40BE62D48201173DE200E82A9F34D15",
 		["guid_str"] = "Rt4KDyZp",
-		["id"] = 129,
+		["id"] = 130,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -7416,7 +7535,7 @@
 		},
 		["guid"] = "3CADF3CF40B7922143973FB0DE7B0536",
 		["guid_str"] = "gn8FXNrh",
-		["id"] = 130,
+		["id"] = 131,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -7486,7 +7605,7 @@
 		},
 		["guid"] = "7DD6397E405203C714F4F5A1B18FFC3C",
 		["guid_str"] = "eJNglkYk",
-		["id"] = 131,
+		["id"] = 132,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -7561,7 +7680,7 @@
 		},
 		["guid"] = "41A4DE564EDE1CF366B4C8AE26840F34",
 		["guid_str"] = "wCmEhoCC",
-		["id"] = 132,
+		["id"] = 133,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -7646,7 +7765,7 @@
 		},
 		["guid"] = "A861D58445E28DECE7AD0EAE508BA708",
 		["guid_str"] = "qjmlAimP",
-		["id"] = 133,
+		["id"] = 134,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -7723,7 +7842,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 500,
+							["time"] = 800,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -7732,7 +7851,7 @@
 		},
 		["guid"] = "6578C4C141D3B38C300D1AB9D555FDE7",
 		["guid_str"] = "X1VZWxZ8",
-		["id"] = 134,
+		["id"] = 135,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -7787,7 +7906,7 @@
 		},
 		["guid"] = "AB45424D4981340E470471BEF6E5A6FA",
 		["guid_str"] = "cboO6fvL",
-		["id"] = 135,
+		["id"] = 136,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -7842,7 +7961,7 @@
 		},
 		["guid"] = "29A74D6841EB220E4D792E987658DEDF",
 		["guid_str"] = "PoY3mLm9",
-		["id"] = 136,
+		["id"] = 137,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -7897,7 +8016,7 @@
 		},
 		["guid"] = "29D446EF40732B5CCB14E1BBB5AD8CAA",
 		["guid_str"] = "yJDgCH3s",
-		["id"] = 137,
+		["id"] = 138,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -7952,7 +8071,7 @@
 		},
 		["guid"] = "A8FB98DC4A6EA734DDEE8EB0F5B4DCA5",
 		["guid_str"] = "DgKWYUKt",
-		["id"] = 138,
+		["id"] = 139,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8007,7 +8126,7 @@
 		},
 		["guid"] = "224CC1144E5663F5E68614AAF214528B",
 		["guid_str"] = "ziU0tcOm",
-		["id"] = 139,
+		["id"] = 140,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8062,7 +8181,7 @@
 		},
 		["guid"] = "F8CF0DC24FCC9A3CDE88FC8F73E51730",
 		["guid_str"] = "uhz00eyV",
-		["id"] = 140,
+		["id"] = 141,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8118,7 +8237,7 @@
 		},
 		["guid"] = "64735B544C17E329C0C2A69D887CCD3B",
 		["guid_str"] = "Zi747LGv",
-		["id"] = 141,
+		["id"] = 142,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8176,7 +8295,7 @@
 		},
 		["guid"] = "3A3B991E4A7DDFD4430CF3BCF23B04CB",
 		["guid_str"] = "xLY0MjOb",
-		["id"] = 142,
+		["id"] = 143,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8234,7 +8353,7 @@
 		},
 		["guid"] = "FA0FD4C74E0136FD956728AB9502A6E2",
 		["guid_str"] = "EQ53DFjf",
-		["id"] = 143,
+		["id"] = 144,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8278,7 +8397,7 @@
 		},
 		["guid"] = "3816A9DA49F9288EA6D3C6AF4B3CD1D1",
 		["guid_str"] = "VoXzcbUk",
-		["id"] = 144,
+		["id"] = 145,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8338,6 +8457,41 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 600,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8371,44 +8525,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 600,
-						},
-						["tween"] = "FadeIn",
-					},
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "6565BD454E12727CA87AA997794378B1",
 		["guid_str"] = "VrPosWfp",
-		["id"] = 145,
+		["id"] = 146,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8452,6 +8572,34 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8484,37 +8632,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "65419D3244215CDE58393CAC90040339",
 		["guid_str"] = "TogRcTEF",
-		["id"] = 146,
+		["id"] = 147,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8560,6 +8681,40 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8586,43 +8741,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "078D88324C8B56679109588DF6187942",
 		["guid_str"] = "qIn1vDWL",
-		["id"] = 147,
+		["id"] = 148,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8668,6 +8790,34 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8700,37 +8850,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "2E5993A04C80E5C8D9D52582AE0FC7A8",
 		["guid_str"] = "Yr2bw2iX",
-		["id"] = 148,
+		["id"] = 149,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8776,6 +8899,40 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8802,43 +8959,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "A4CC67744E380BA22937A996CA9663F9",
 		["guid_str"] = "xeOLC8Kc",
-		["id"] = 149,
+		["id"] = 150,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8884,6 +9008,40 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -8910,43 +9068,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "13F176094CA6527F0A29DA8F01C79A11",
 		["guid_str"] = "JVb7neXV",
-		["id"] = 150,
+		["id"] = 151,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -8992,6 +9117,34 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9024,37 +9177,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "E0D410054EBE19E9B3040D9A1D63F8A7",
 		["guid_str"] = "rVKK9IJU",
-		["id"] = 151,
+		["id"] = 152,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9100,6 +9226,34 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9132,37 +9286,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "EF4949DB40FD5451FD97D7963BBD4150",
 		["guid_str"] = "qpKFJV7B",
-		["id"] = 152,
+		["id"] = 153,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9208,6 +9335,34 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9240,37 +9395,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "5ABED7E34D2CBC1295343BB64882A6B8",
 		["guid_str"] = "YYiEioZq",
-		["id"] = 153,
+		["id"] = 154,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9316,6 +9444,40 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9342,43 +9504,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "FEF22B0B43B4DFB82E8EBFB9828AA65A",
 		["guid_str"] = "2AnOuitq",
-		["id"] = 154,
+		["id"] = 155,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9424,6 +9553,40 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9450,43 +9613,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "35C2953A4B4F2FCCB554BCA37C6031AB",
 		["guid_str"] = "Fi3sW7K8",
-		["id"] = 155,
+		["id"] = 156,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9542,6 +9672,47 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9575,50 +9746,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
 		},
 		["guid"] = "01B468D5406ECB52E90394BD2EF68CD4",
 		["guid_str"] = "e4JHgC1C",
-		["id"] = 156,
+		["id"] = 157,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9673,7 +9804,7 @@
 		},
 		["guid"] = "7C1BDFC94815F8F9D303D9926BC2E52C",
 		["guid_str"] = "Q6WRBnBb",
-		["id"] = 157,
+		["id"] = 158,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9728,7 +9859,7 @@
 		},
 		["guid"] = "B956F87643606E1E12BB0CA8BC613964",
 		["guid_str"] = "8zQVqM4Q",
-		["id"] = 158,
+		["id"] = 159,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9773,6 +9904,41 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 600,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9806,44 +9972,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 600,
-						},
-						["tween"] = "FadeIn",
-					},
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "B87F0AC345535B58F3007D91EFEDCCC3",
 		["guid_str"] = "dpdWKPbx",
-		["id"] = 159,
+		["id"] = 160,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9888,6 +10020,34 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -9914,37 +10074,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "90D24ECF4C24952FFEFC86850C0B4D03",
 		["guid_str"] = "9tb09YZ8",
-		["id"] = 160,
+		["id"] = 161,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9988,6 +10121,34 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10020,37 +10181,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "C78E342B420AD25DCD54AF8FF270271C",
 		["guid_str"] = "eC3ylqZ8",
-		["id"] = 161,
+		["id"] = 162,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -10096,6 +10230,40 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
 				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10122,43 +10290,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
 		},
 		["guid"] = "8C869A594FD9DE13DC4CB397D71B9097",
 		["guid_str"] = "BLhm7rTO",
-		["id"] = 162,
+		["id"] = 163,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -10240,6 +10375,47 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af72maid/af72maid_action1",
+				["pos"] = {
+					-100,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 600,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
 				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -10273,50 +10449,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af72maid/af72maid_action1",
-				["pos"] = {
-					250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 600,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
 		},
 		["guid"] = "538031B84B0FFA1EF8E5DCA8D4374DFC",
 		["guid_str"] = "APGru5Sw",
-		["id"] = 163,
+		["id"] = 164,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -10413,7 +10549,7 @@
 		},
 		["guid"] = "C46382694286127646BFC09D53A05FDF",
 		["guid_str"] = "1STHOqd3",
-		["id"] = 164,
+		["id"] = 165,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -10542,7 +10678,7 @@
 		},
 		["guid"] = "927C76B94F55A4BBC1C0F3B506B13CCD",
 		["guid_str"] = "DnRALjN0",
-		["id"] = 165,
+		["id"] = 166,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -10680,7 +10816,7 @@
 		},
 		["guid"] = "F8970E2F417C13196D67B7BECB5C0CE9",
 		["guid_str"] = "Tqqt1Yjb",
-		["id"] = 166,
+		["id"] = 167,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -10748,7 +10884,7 @@
 		},
 		["guid"] = "D96B36B346B5BE00CA1382BB992EE531",
 		["guid_str"] = "VexXg71t",
-		["id"] = 167,
+		["id"] = 168,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -10816,7 +10952,7 @@
 		},
 		["guid"] = "FE379DB24F44DC07B60032A20A63893B",
 		["guid_str"] = "n3EefSIp",
-		["id"] = 168,
+		["id"] = 169,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -10906,7 +11042,7 @@
 		},
 		["guid"] = "72E3200741D3DB44FBB6BA833BCB9E6B",
 		["guid_str"] = "H3HUWxPX",
-		["id"] = 169,
+		["id"] = 170,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -10989,7 +11125,7 @@
 		},
 		["guid"] = "243345C941EA052DD251EA82FE1046E2",
 		["guid_str"] = "qCSZXKJd",
-		["id"] = 170,
+		["id"] = 171,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11123,7 +11259,7 @@
 		},
 		["guid"] = "E9B9643E4189DD47D09A7A98F5136FDB",
 		["guid_str"] = "15MUpl4D",
-		["id"] = 171,
+		["id"] = 172,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11245,7 +11381,7 @@
 		},
 		["guid"] = "807DE417431208EEE55C16807813C0AA",
 		["guid_str"] = "gx4C26xh",
-		["id"] = 172,
+		["id"] = 173,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11367,7 +11503,7 @@
 		},
 		["guid"] = "5D01ED5D46564CA38AFF2F893FBC616B",
 		["guid_str"] = "PKR5baFB",
-		["id"] = 173,
+		["id"] = 174,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11495,7 +11631,7 @@
 		},
 		["guid"] = "CA235E8F4BB7CFF91FE0AE82C0876FA6",
 		["guid_str"] = "A7imtnbn",
-		["id"] = 174,
+		["id"] = 175,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11634,7 +11770,7 @@
 		},
 		["guid"] = "9744E6274A832B313231B9BFCB28A920",
 		["guid_str"] = "U07PVpTk",
-		["id"] = 175,
+		["id"] = 176,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11756,7 +11892,7 @@
 		},
 		["guid"] = "84D2E3B44FE94059F7CFDCBA26644D07",
 		["guid_str"] = "DgYNr7Ma",
-		["id"] = 176,
+		["id"] = 177,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -11884,7 +12020,7 @@
 		},
 		["guid"] = "9456A4C74690547D61E8888BAB9280EE",
 		["guid_str"] = "WaxQ1WXe",
-		["id"] = 177,
+		["id"] = 178,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12023,7 +12159,7 @@
 		},
 		["guid"] = "AECC33E5461018D8B761F18EC9B50C6C",
 		["guid_str"] = "S1YLkSRu",
-		["id"] = 178,
+		["id"] = 179,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12145,7 +12281,7 @@
 		},
 		["guid"] = "5CFECE8E40FC071C6FABF5899122D095",
 		["guid_str"] = "PQzFWU28",
-		["id"] = 179,
+		["id"] = 180,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12273,7 +12409,7 @@
 		},
 		["guid"] = "65E8866F4B74680F23FA7C9DAFC7AEE7",
 		["guid_str"] = "LxhipiFw",
-		["id"] = 180,
+		["id"] = 181,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12412,7 +12548,7 @@
 		},
 		["guid"] = "2FD6812E429E0D84F6343CA66E4CE41A",
 		["guid_str"] = "0aakyEYg",
-		["id"] = 181,
+		["id"] = 182,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12534,7 +12670,7 @@
 		},
 		["guid"] = "97448E194F3CBD677A9A9EA59BCA81E3",
 		["guid_str"] = "TQDODKtk",
-		["id"] = 182,
+		["id"] = 183,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12662,7 +12798,7 @@
 		},
 		["guid"] = "25B1448745761AEB3FF32490F2D1DADA",
 		["guid_str"] = "ol8DJy7n",
-		["id"] = 183,
+		["id"] = 184,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12801,7 +12937,7 @@
 		},
 		["guid"] = "6CA265074E3770900505788AD2E4150B",
 		["guid_str"] = "3wstw7Ji",
-		["id"] = 184,
+		["id"] = 185,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -12964,7 +13100,7 @@
 		},
 		["guid"] = "20477604408D199EB5253CB5C8181E3D",
 		["guid_str"] = "1Mp7whSR",
-		["id"] = 185,
+		["id"] = 186,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13090,7 +13226,7 @@
 		},
 		["guid"] = "0F841FF54F79C385686E7F8E9BFA6BC0",
 		["guid_str"] = "4CqMTJ7E",
-		["id"] = 186,
+		["id"] = 187,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13209,7 +13345,7 @@
 		},
 		["guid"] = "E8600AC74607F7B5CE80898B9EA298CB",
 		["guid_str"] = "3A5oxJfe",
-		["id"] = 187,
+		["id"] = 188,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13330,7 +13466,7 @@
 		},
 		["guid"] = "141AA88447DCDE47E44083BF700A8737",
 		["guid_str"] = "Tm9cxsyA",
-		["id"] = 188,
+		["id"] = 189,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13451,7 +13587,7 @@
 		},
 		["guid"] = "68687EB14F3ECAB808F7B0AB17661F89",
 		["guid_str"] = "NmdBCMHG",
-		["id"] = 189,
+		["id"] = 190,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13578,7 +13714,7 @@
 		},
 		["guid"] = "012EFC6340D51BDFA96BED8D2277313C",
 		["guid_str"] = "ST1hFrH2",
-		["id"] = 190,
+		["id"] = 191,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13722,7 +13858,7 @@
 		},
 		["guid"] = "4BEDFC3545F42FD4346CC5A59361F427",
 		["guid_str"] = "HhFce0Xf",
-		["id"] = 191,
+		["id"] = 192,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13849,7 +13985,7 @@
 		},
 		["guid"] = "3E05DA494538A4A8B7F5BF9CA3C91626",
 		["guid_str"] = "cRKj2yTF",
-		["id"] = 192,
+		["id"] = 193,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -13987,7 +14123,7 @@
 		},
 		["guid"] = "2DAF86FD415FCC2DFE954AAC1AB8AB69",
 		["guid_str"] = "vUULD5Xn",
-		["id"] = 193,
+		["id"] = 194,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14145,7 +14281,7 @@
 		},
 		["guid"] = "46E5F6AA4B2FA9998D93369D46C4D48A",
 		["guid_str"] = "kMfjRbet",
-		["id"] = 194,
+		["id"] = 195,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14229,7 +14365,7 @@
 		},
 		["guid"] = "74F5BF4B4E4EC2FF1BD23D9AEE04BD7D",
 		["guid_str"] = "ZwW2JU15",
-		["id"] = 195,
+		["id"] = 196,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14288,7 +14424,7 @@
 		},
 		["guid"] = "CFBEADFE40025099C3AF5398989521FE",
 		["guid_str"] = "WBK9xSaw",
-		["id"] = 196,
+		["id"] = 197,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14347,7 +14483,7 @@
 		},
 		["guid"] = "B81DA0264CD1C5250048FA9800B56358",
 		["guid_str"] = "M5sKBLQN",
-		["id"] = 197,
+		["id"] = 198,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14487,7 +14623,7 @@
 		},
 		["guid"] = "924EE68746F3FF77B02E28972516A1CA",
 		["guid_str"] = "CIlcz71G",
-		["id"] = 198,
+		["id"] = 199,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14622,7 +14758,7 @@
 		},
 		["guid"] = "17B5750F4682C0DCC909C08611128C77",
 		["guid_str"] = "9e6FUIV3",
-		["id"] = 199,
+		["id"] = 200,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14807,7 +14943,7 @@
 		},
 		["guid"] = "E4DCECA048F37465117CCA94CE8F0412",
 		["guid_str"] = "y3cMlNC8",
-		["id"] = 200,
+		["id"] = 201,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -14880,7 +15016,7 @@
 		},
 		["guid"] = "B53C1DC547D917655D543286DEF20AA7",
 		["guid_str"] = "9imWlp5U",
-		["id"] = 201,
+		["id"] = 202,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15020,7 +15156,7 @@
 		},
 		["guid"] = "DD6324C345442589E791E9A3BDB770F4",
 		["guid_str"] = "YVrJ9AxH",
-		["id"] = 202,
+		["id"] = 203,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15155,7 +15291,7 @@
 		},
 		["guid"] = "3576BB7D47290DD3C0516BBED7920E55",
 		["guid_str"] = "LG2FFzJu",
-		["id"] = 203,
+		["id"] = 204,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15346,7 +15482,7 @@
 		},
 		["guid"] = "D74F054F4FBC57B4EBCA97892BE84180",
 		["guid_str"] = "cSrkIO5B",
-		["id"] = 204,
+		["id"] = 205,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15436,7 +15572,7 @@
 		},
 		["guid"] = "30E5C2C74D4F19AAF91B329ECBD17467",
 		["guid_str"] = "njAj8NP3",
-		["id"] = 205,
+		["id"] = 206,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15582,7 +15718,7 @@
 		},
 		["guid"] = "CA19AD814D4DB8F3733344B722F3305A",
 		["guid_str"] = "oTtppLZd",
-		["id"] = 206,
+		["id"] = 207,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15723,7 +15859,7 @@
 		},
 		["guid"] = "DE1FA7B4434F88130956589667F9CAE1",
 		["guid_str"] = "rTwi15cJ",
-		["id"] = 207,
+		["id"] = 208,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15740,6 +15876,459 @@
 			},
 		},
 		["name"] = "余音",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0001",
+		},
+		["speaker_info"] = {
+			["anim"] = "normal1",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "af68karas/af68karas_action2",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_ScreenSaturation",
+						["delay"] = 0,
+						["end_value"] = 0.40000000596046,
+						["start_value"] = 0.40000000596046,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["text"] = "公民合理范围内的自由。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.76951867341995,
+						0.92680162191391,
+						0.99069768190384,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "5E15D3204C4B6EE22CA544AB6BB4B349",
+		["guid_str"] = "RshV0Bud",
+		["id"] = 209,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "OBJ3272",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0002",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "自由啊。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.76951867341995,
+						0.92680162191391,
+						0.99069768190384,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "CB2E84B64CA54AD452F8BDBCE9723828",
+		["guid_str"] = "24ak8d86",
+		["id"] = 210,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "OBJ3272",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0003",
+		},
+		["text"] = "请定义自由。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.76862746477127,
+						0.92549020051956,
+						0.99215686321259,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "A5AACD9A44B64F5DF7AB098FB3969C0F",
+		["guid_str"] = "Xgdnrs6C",
+		["id"] = 211,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "余音",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0004",
+		},
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
@@ -15764,7 +16353,584 @@
 				},
 			},
 		},
-		["text"] = "………………………………",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.76951867341995,
+						0.92680162191391,
+						0.99069768190384,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "48BAD48340F18287712679A3B896F685",
+		["guid_str"] = "3KPM7JdS",
+		["id"] = 212,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "OBJ3272",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0005",
+		},
+		["text"] = "自由本身是一个伪命题，是一种对失权的矫饰。绝对的自由只会带来混乱。任何自由都建立在相对约束之下。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.76951867341995,
+						0.92680162191391,
+						0.99069768190384,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "7489D8624C196E745D8FA1935DB6FE31",
+		["guid_str"] = "j6JTENcL",
+		["id"] = 213,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "OBJ3272",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0006",
+		},
+		["text"] = "世间万物的运行皆依照某种规则，规则之下才是自由。若是任由自己为所欲为，反而会限制自身的自由。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.76862746477127,
+						0.92549020051956,
+						0.99215686321259,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "6348C4704B143D1D0E2B3F8276580514",
+		["guid_str"] = "8oOfVAG6",
+		["id"] = 214,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "余音",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0007",
+		},
+		["speaker_info"] = {
+			["anim"] = "normal1",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "af68karas/af68karas_action2",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_ScreenSaturation",
+						["delay"] = 0,
+						["end_value"] = 0.40000000596046,
+						["start_value"] = 0.40000000596046,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["text"] = "我认同。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.76862746477127,
+						0.92549020051956,
+						0.99215686321259,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "75C8F6F74D8F5C35EDCC5384EE0AD121",
+		["guid_str"] = "f202tPtU",
+		["id"] = 215,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "余音",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0008",
+		},
+		["speaker_info"] = {
+			["anim"] = "normal1",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "af68karas/af68karas_action2",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_ScreenSaturation",
+						["delay"] = 0,
+						["end_value"] = 0.40000000596046,
+						["start_value"] = 0.40000000596046,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+			},
+		},
+		["text"] = "但是我仍然不将我朋友和我的行为应当被认定为异常行为。",
 	},
 	{
 		["bg_info"] = {
@@ -15873,9 +17039,1740 @@
 				},
 			},
 		},
+		["guid"] = "2F4BD22E43F78C58DC50548DF6317C4B",
+		["guid_str"] = "NhHqen0R",
+		["id"] = 216,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "OBJ94",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0009",
+		},
+		["speaker_info"] = {
+			["anim"] = "sad",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "孩子。\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.76862746477127,
+						0.92549020051956,
+						0.99215686321259,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]旁边那个一直没说话的自纠委员会成员终于开口，她那和余音的老师同音色的嗓子听得余音不由自主地安静下来。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "CEFFA58345EBE5F38C953DBAB1648F5A",
+		["guid_str"] = "4c2ddrZr",
+		["id"] = 217,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "sad",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.76862746477127,
+						0.92549020051956,
+						0.99215686321259,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "CB2BA8CB4DAB586E09D81AA5AF0E8147",
+		["guid_str"] = "xyBoIr73",
+		["id"] = 218,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "OBJ94",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0010",
+		},
+		["speaker_info"] = {
+			["anim"] = "sad",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "你还是太年轻。\n",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.76862746477127,
+						0.92549020051956,
+						0.99215686321259,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_museum_08.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]全息投影再次切换。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "5EAD5AD149ED6923D97C3A9CE29E8009",
+		["guid_str"] = "psAAHP95",
+		["id"] = 219,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/nether_hospital",
+				["length"] = 59076,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/red/red_amb_bazaar_street",
+				["length"] = 30442,
+				["loop"] = 1,
+				["volume"] = 0.20000000298023,
+			},
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_hologram",
+				["length"] = 1652,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_museum_08.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]画面中，乔一正在向已注销的机器人发放存储盘。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "9415F6804BDB7597C22B6EB8B1686B90",
+		["guid_str"] = "IgKthNyb",
+		["id"] = 220,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_museum_08.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "7EF91FFF4AF9053BEAC12C83839CD496",
+		["guid_str"] = "waxTljHR",
+		["id"] = 221,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "OBJ3272",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0011",
+		},
+		["text"] = "未经许可的信息扩散。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_museum_08.png",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_scope_lab.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]全息投影再次开始播放。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "4E8A68644B3301DD6A2B7598A088D5E1",
+		["guid_str"] = "H0iXrfCS",
+		["id"] = 222,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/nether_hospital",
+				["length"] = 59076,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/red/red_amb_bazaar_street",
+				["length"] = 30442,
+				["loop"] = 1,
+				["volume"] = 0.20000000298023,
+			},
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_hologram",
+				["length"] = 1652,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_scope_lab.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]乔一偷取安保机器人的换班表，以方便她在不被发现的情况下溜到不被允许的区域活动。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "935277B54F765BCAED069CB7FBE2D11E",
+		["guid_str"] = "cCFqAGRS",
+		["id"] = 223,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_scope_lab.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "A3B83AE3401B20EB4223DFBB40619A75",
+		["guid_str"] = "vzxF5rJA",
+		["id"] = 224,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "OBJ3272",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0012",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "重大违规。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_scope_lab.png",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]全息投影切换。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "F7A082C047A105EAC3BF4BABC9167916",
+		["guid_str"] = "8SbPav2c",
+		["id"] = 225,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/nether_hospital",
+				["length"] = 59076,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/red/red_amb_bazaar_street",
+				["length"] = 30442,
+				["loop"] = 1,
+				["volume"] = 0.20000000298023,
+			},
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_hologram",
+				["length"] = 1652,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]乔一修好路桩时，偷留下几个零件，\n\n专门拿到某个垃圾场交给了某个前段时间声名大噪的通缉犯。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "B295DC47485FE0D6EF12359466CA91BB",
+		["guid_str"] = "taOIWzhX",
+		["id"] = 226,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "45FB0D6048BAC9C3DCB85B973F06798F",
+		["guid_str"] = "5OLWFSO7",
+		["id"] = 227,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "OBJ3272",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5026_0013",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "极度危险行为。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "DB1B06A14BE977C7104AF686C123CF42",
+		["guid_str"] = "wd4QjbXr",
+		["id"] = 228,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "余音",
+		["speaker_info"] = {
+			["anim"] = "sad",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "af68karas/af68karas_action2",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_ScreenSaturation",
+						["delay"] = 0,
+						["end_value"] = 0.40000000596046,
+						["start_value"] = 0.40000000596046,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["text"] = "………………………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n90ada_obj/n90ada_obj_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
 		["guid"] = "34F850CC41CD728040AF059A419CBFF8",
 		["guid_str"] = "o4IFwrms",
-		["id"] = 208,
+		["id"] = 229,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -15928,7 +18825,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
 			},
 		},
 		["caption_info"] = {
@@ -16001,7 +18898,7 @@
 		},
 		["guid"] = "81557FF446EB44FE4C188B9581E6973B",
 		["guid_str"] = "bWVM2zUB",
-		["id"] = 209,
+		["id"] = 230,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16054,7 +18951,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
 			},
 		},
 		["caption_info"] = {
@@ -16127,7 +19024,7 @@
 		},
 		["guid"] = "BF4B2C094A56079DB070B5B6527DB762",
 		["guid_str"] = "MlSgb6z1",
-		["id"] = 210,
+		["id"] = 231,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16180,7 +19077,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
 			},
 		},
 		["caption_info"] = {
@@ -16259,7 +19156,7 @@
 		},
 		["guid"] = "734A00EE4D96CEF6E57DDAB222E3FE5E",
 		["guid_str"] = "SDAjiW0C",
-		["id"] = 211,
+		["id"] = 232,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16332,7 +19229,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
 			},
 		},
 		["caption_info"] = {
@@ -16411,7 +19308,7 @@
 		},
 		["guid"] = "38FA2BA14DFC5382633815AA50175621",
 		["guid_str"] = "nrcqyAJQ",
-		["id"] = 212,
+		["id"] = 233,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16476,7 +19373,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
 			},
 		},
 		["caption_info"] = {
@@ -16549,7 +19446,7 @@
 		},
 		["guid"] = "3E7849A446B35261C69DBDB794EBF1CA",
 		["guid_str"] = "W3VFJ5E6",
-		["id"] = 213,
+		["id"] = 234,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16602,7 +19499,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
 			},
 		},
 		["caption_info"] = {
@@ -16681,7 +19578,7 @@
 		},
 		["guid"] = "944E058A4F2748466D72B9AB28C1EA79",
 		["guid_str"] = "JRn4az2W",
-		["id"] = 214,
+		["id"] = 235,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16753,7 +19650,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
 			},
 		},
 		["caption_info"] = {
@@ -16826,7 +19723,7 @@
 		},
 		["guid"] = "269603C84F6401C06FC252B063EEE8B7",
 		["guid_str"] = "3macOymU",
-		["id"] = 215,
+		["id"] = 236,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -16879,7 +19776,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
 			},
 		},
 		["caption_info"] = {
@@ -16958,7 +19855,7 @@
 		},
 		["guid"] = "6622B5F34707DAF5F6930ABABB731120",
 		["guid_str"] = "s9SHFRRs",
-		["id"] = 216,
+		["id"] = 237,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17049,7 +19946,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
+				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
 			},
 		},
 		["caption_info"] = {
@@ -17117,7 +20014,7 @@
 		},
 		["guid"] = "4FA8A7464F3D50486E622483AA89C1B4",
 		["guid_str"] = "yJvweLq4",
-		["id"] = 217,
+		["id"] = 238,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17257,7 +20154,7 @@
 		},
 		["guid"] = "8857A39D4C176893037D93AD54CC95FF",
 		["guid_str"] = "VIvZxLj7",
-		["id"] = 218,
+		["id"] = 239,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17379,7 +20276,7 @@
 		},
 		["guid"] = "EF463F804BDBD707AEE33CB553A0AADD",
 		["guid_str"] = "fSpH1NM8",
-		["id"] = 219,
+		["id"] = 240,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17501,7 +20398,7 @@
 		},
 		["guid"] = "D3D037C840C7150917872ABF150AC174",
 		["guid_str"] = "w2fJ1dUk",
-		["id"] = 220,
+		["id"] = 241,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17608,7 +20505,7 @@
 		},
 		["guid"] = "0566462E44F64845E30CE5B987CEA160",
 		["guid_str"] = "UuheZuwS",
-		["id"] = 221,
+		["id"] = 242,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17747,10 +20644,44 @@
 					},
 				},
 			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af26fq/af26fq_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenEffectIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
 		},
 		["guid"] = "5F3D51E640E7BEE7F0D431B6C94358AF",
 		["guid_str"] = "LBQYP9KP",
-		["id"] = 222,
+		["id"] = 243,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -17879,7 +20810,7 @@
 		},
 		["guid"] = "5905B1F346DF1FE0F1AB0FB159EFC68B",
 		["guid_str"] = "xVx1mnvj",
-		["id"] = 223,
+		["id"] = 244,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18002,7 +20933,7 @@
 		},
 		["guid"] = "BFAB7E1D4BC3BB52B6DB82A812AA9EC3",
 		["guid_str"] = "hEeBcztZ",
-		["id"] = 224,
+		["id"] = 245,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18122,7 +21053,7 @@
 		},
 		["guid"] = "2C6A82104BF33CCA91736898A850C7B2",
 		["guid_str"] = "i82jAlCY",
-		["id"] = 225,
+		["id"] = 246,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18250,7 +21181,7 @@
 		},
 		["guid"] = "85704BB0420B0333B5ED558D64BF6B0D",
 		["guid_str"] = "B9PLNrg8",
-		["id"] = 226,
+		["id"] = 247,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18395,7 +21326,7 @@
 		},
 		["guid"] = "AE5C95F34A36065AC3FD5DBBA8B12C23",
 		["guid_str"] = "PhBPOaJ6",
-		["id"] = 227,
+		["id"] = 248,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18534,7 +21465,7 @@
 		},
 		["guid"] = "B06B13244F1E59CC6B1D6AB7E760549F",
 		["guid_str"] = "ZWnRwqCb",
-		["id"] = 228,
+		["id"] = 249,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18656,7 +21587,7 @@
 		},
 		["guid"] = "2CB664DB4A63796161AA49B2CB3BDB66",
 		["guid_str"] = "4JSQLJbm",
-		["id"] = 229,
+		["id"] = 250,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18784,7 +21715,7 @@
 		},
 		["guid"] = "D0A81C184676651FB7854BA1AC72D66C",
 		["guid_str"] = "WCRvh6Ai",
-		["id"] = 230,
+		["id"] = 251,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -18937,7 +21868,7 @@
 		},
 		["guid"] = "C063821F4159829A877E50B9BB5344F1",
 		["guid_str"] = "pdTcQzRX",
-		["id"] = 231,
+		["id"] = 252,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19075,7 +22006,7 @@
 		},
 		["guid"] = "304F10244689A28796FCCF9DCD656320",
 		["guid_str"] = "SFPaFPod",
-		["id"] = 232,
+		["id"] = 253,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19197,7 +22128,7 @@
 		},
 		["guid"] = "0752270E435261484A838D972815BAAB",
 		["guid_str"] = "vfnpq8QO",
-		["id"] = 233,
+		["id"] = 254,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19325,7 +22256,7 @@
 		},
 		["guid"] = "4A752AAC43CE491486F68DBB5B35CDFA",
 		["guid_str"] = "elNQu8Mb",
-		["id"] = 234,
+		["id"] = 255,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19471,7 +22402,7 @@
 		},
 		["guid"] = "DFFCB36B4C5A2D72B8EDFBA078DE182C",
 		["guid_str"] = "yE8joQz0",
-		["id"] = 235,
+		["id"] = 256,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19599,7 +22530,7 @@
 		},
 		["guid"] = "8D91073440F168F682CEC7920ACD711E",
 		["guid_str"] = "ElCGYJuh",
-		["id"] = 236,
+		["id"] = 257,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19745,7 +22676,7 @@
 		},
 		["guid"] = "9F143D04422F766DAD53FE927B3A468A",
 		["guid_str"] = "QyIp9R60",
-		["id"] = 237,
+		["id"] = 258,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19867,7 +22798,7 @@
 		},
 		["guid"] = "AD80809E428F85E22F89C9812938E7C5",
 		["guid_str"] = "9MBRyzEY",
-		["id"] = 238,
+		["id"] = 259,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -19995,7 +22926,7 @@
 		},
 		["guid"] = "34E5394D47F57C2CF90026989F2E9FA0",
 		["guid_str"] = "GQWIsHlZ",
-		["id"] = 239,
+		["id"] = 260,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20147,7 +23078,7 @@
 		},
 		["guid"] = "02B7AB10490145849CB4448C232B7DF1",
 		["guid_str"] = "BNCCCbUN",
-		["id"] = 240,
+		["id"] = 261,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20286,7 +23217,7 @@
 		},
 		["guid"] = "55E0EA0F4B4BC7115C9D03B7D4BAC616",
 		["guid_str"] = "4WVZ73bk",
-		["id"] = 241,
+		["id"] = 262,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20408,7 +23339,7 @@
 		},
 		["guid"] = "324755A2485680A68E5FD69FFE468A3E",
 		["guid_str"] = "y4L1Mqkl",
-		["id"] = 242,
+		["id"] = 263,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20536,7 +23467,7 @@
 		},
 		["guid"] = "123345524D165A72BF5C2EA08E4CE2FE",
 		["guid_str"] = "QigIcSOJ",
-		["id"] = 243,
+		["id"] = 264,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20682,7 +23613,7 @@
 		},
 		["guid"] = "6ECBFD504302D1CA7E8DD0AA4A260E71",
 		["guid_str"] = "nKkhOq6d",
-		["id"] = 244,
+		["id"] = 265,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20805,7 +23736,7 @@
 		},
 		["guid"] = "FB9A16424B5770E106A8F98CA9ED2192",
 		["guid_str"] = "mnYeFF42",
-		["id"] = 245,
+		["id"] = 266,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -20925,7 +23856,7 @@
 		},
 		["guid"] = "A7E2BE1646FA9ABCAC391ABC80375545",
 		["guid_str"] = "FZYH4E2M",
-		["id"] = 246,
+		["id"] = 267,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -21070,7 +24001,7 @@
 		},
 		["guid"] = "DA8D8F4D4F914D27788F2EB414E48339",
 		["guid_str"] = "zQ0xjhrZ",
-		["id"] = 247,
+		["id"] = 268,
 		["jenga"] = {
 			{
 				["config"] = {
