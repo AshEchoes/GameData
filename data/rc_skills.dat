@@ -10213,6 +10213,60 @@
 			0.18,
 		},
 	},
+	[10188] = {
+		["addition_damage_type"] = 4,
+		["condition_battletype"] = -1,
+		["condition_humidity"] = -1,
+		["condition_level"] = 0,
+		["connect_prop_value"] = {
+		},
+		["cost"] = {
+			140,
+			140,
+			140,
+		},
+		["desc"] = "场上的同调者生命值高于70%时，额外攻击力提高{1}",
+		["desc_type"] = 1,
+		["element_type"] = {
+			-1,
+		},
+		["encourage_trigger_condition"] = "",
+		["encourage_trigger_condition_desc"] = "",
+		["filter_element_mark"] = 0,
+		["icon"] = "core_153",
+		["id"] = 10188,
+		["is_encourage"] = false,
+		["is_use"] = true,
+		["max_lv"] = 3,
+		["name"] = "精神振奋",
+		["need_blocksystem"] = false,
+		["param_info"] = {
+			{
+				["param_product"] = 105,
+			},
+		},
+		["param_type"] = "num",
+		["passive_id"] = 101999,
+		["passive_lv"] = 3,
+		["passive_voc"] = 80,
+		["point_back"] = 100,
+		["rarity"] = 2,
+		["recommend_attack_rate"] = 1,
+		["recommend_autoskill"] = false,
+		["recommend_dps_rate"] = 1,
+		["recommend_first_level"] = false,
+		["recommend_heal_rate"] = 0,
+		["recommend_rcskill_condi"] = {
+		},
+		["recommend_score_core"] = 1398,
+		["recommend_score_normal"] = 466,
+		["skill_type"] = 1,
+		["upgrade_value"] = {
+			0.1,
+			0.2,
+			0.3,
+		},
+	},
 	[1] = {
 		["addition_damage_type"] = 0,
 		["condition_battletype"] = -1,
@@ -22478,7 +22532,7 @@
 			240,
 			240,
 		},
-		["desc"] = "当有水元素同调者在场时，任意同调者施加的[link type='combat' tid='235']或屏障持续时间结束时，在屏障位置造成一次300半径范围的{1}最终攻击的水元素伤害（视为施加屏障的同调者造成的伤害）",
+		["desc"] = "当有水元素同调者在场时，任意同调者施加的[link type='combat' tid='235']或屏障持续时间结束时，在屏障位置造成一次300半径范围的{2}最终攻击的水元素伤害并对命中目标额外造成当前生命值{1}的[link type='combat' tid='22']（视为施加屏障的同调者造成的伤害；[link type='combat' tid='22']每个目标最多受到1次且首领单位受到的[link type='combat' tid='22']伤害减少80%）",
 		["desc_type"] = 1,
 		["element_type"] = {
 			-1,
@@ -22495,6 +22549,9 @@
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
+			},
+			{
+				["param_value"] = 10,
 			},
 		},
 		["param_type"] = "num",
@@ -22515,9 +22572,9 @@
 		["recommend_score_normal"] = 400,
 		["skill_type"] = 2,
 		["upgrade_value"] = {
-			4,
-			7,
-			10,
+			0.2,
+			0.35,
+			0.5,
 		},
 	},
 	[20222] = {
