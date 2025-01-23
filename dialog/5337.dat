@@ -2133,27 +2133,13 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]余音打开错乱的文件，并没有对卡阻的UB项目直接进行修改。",
+			["text_align"] = "center",
+		},
 		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n85blackout/n85blackout_yiye_f/n85blackout_yiye_f_action1",
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
 			{
 				["anim"] = "normal1",
 				["blur"] = {
@@ -2168,16 +2154,72 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeIn",
 					},
 				},
 			},
 		},
+		["guid"] = "56DE7B0243FE3673952739AC4C2370A6",
+		["guid_str"] = "IXI1zu4q",
+		["id"] = 47,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogRCPicBG/bg_gate_lab.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]反倒是点开不为人注意的UW项目。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af68karas/af68karas_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9467132E4424BA6E2152D8B7A6A6F51F",
+		["guid_str"] = "HGzkwWMv",
+		["id"] = 48,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogRCPicBG/bg_gate_lab.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af68karas/af68karas_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
 		["guid"] = "A26C52544516CFF96D3C31BDC692A2C7",
 		["guid_str"] = "H4XCtQ6o",
-		["id"] = 47,
+		["id"] = 49,
 		["name"] = "余音",
 		["text"] = "UW项目下，32-1、72-6、135-2和203-18的数据排列顺序变了，有75.23%的可能就是它导致了后续TY项目的运算中断。",
 	},
@@ -2251,7 +2293,7 @@
 		},
 		["guid"] = "996EFBD947A8A562CFEDCABC019840D9",
 		["guid_str"] = "vkGh223g",
-		["id"] = 48,
+		["id"] = 50,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -2298,42 +2340,12 @@
 		},
 		["guid"] = "2E8309B84BFEA427F0E2489B8D087DDA",
 		["guid_str"] = "oUxmxwID",
-		["id"] = 49,
+		["id"] = 51,
 		["name"] = "熹尔",
 		["sound_control"] = {
 			["effect"] = 4,
 		},
 		["text"] = "[c a3bdc8]（明明是人类，怎么比仿生机器人还冷冰冰啊？）[/c]",
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/DialogRCPicBG/bg_gate_lab.png",
-			},
-			{
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "surprise",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n85blackout/n85blackout_yiye_f/n85blackout_yiye_f_action1",
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "1807AB1F40FF93DC5294D198BFB80E53",
-		["guid_str"] = "Jma8gXjN",
-		["id"] = 50,
-		["name"] = "熹尔",
-		["sound_control"] = {
-			["effect"] = 4,
-		},
-		["text"] = "[c a3bdc8]（不过……UB的运算优先级远低于TY，怎么可能是由它引发的问题？）[/c]",
 	},
 	{
 		["bg_info"] = {
@@ -2375,7 +2387,7 @@
 		},
 		["guid"] = "FA0E51434CB0A4C6B933CAA86931B5E0",
 		["guid_str"] = "8VwrWohe",
-		["id"] = 51,
+		["id"] = 52,
 	},
 	{
 		["bg_info"] = {
@@ -2409,7 +2421,7 @@
 		},
 		["guid"] = "FA07B0044B202AB864E6B098EAD0E4EA",
 		["guid_str"] = "MiKmYMwX",
-		["id"] = 52,
+		["id"] = 53,
 		["name"] = "部长",
 		["soundfx"] = {
 			{
@@ -2439,6 +2451,37 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]屏幕上，UW项目带动着UB项目，继而影响TY项目……数据字符交错纵横、奔腾不息。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n74researcher_nld_f/n74researcher_nld_f_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8448449249357D7E0E409387A2B1F514",
+		["guid_str"] = "6vJ0KRIM",
+		["id"] = 54,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogRCPicBG/bg_gate_lab.png",
+			},
+			{
+			},
+		},
 		["characters"] = {
 			{
 				["anim"] = "normal",
@@ -2454,7 +2497,7 @@
 		},
 		["guid"] = "F8861E514EAF40C6CEB4D493E32F86D8",
 		["guid_str"] = "wDtec3LK",
-		["id"] = 53,
+		["id"] = 55,
 		["name"] = "部长",
 		["text"] = "余音，谢谢你。",
 	},
@@ -2510,7 +2553,7 @@
 		},
 		["guid"] = "516D275645CBC3313DF03896F74A030A",
 		["guid_str"] = "iEou7LaN",
-		["id"] = 54,
+		["id"] = 56,
 		["name"] = "余音",
 		["text"] = "职责所在。",
 	},
@@ -2537,7 +2580,7 @@
 		},
 		["guid"] = "8789D1794932FD4DC3E61CBAFF168836",
 		["guid_str"] = "aQm23O5n",
-		["id"] = 55,
+		["id"] = 57,
 		["name"] = "余音",
 		["text"] = "信息库中还存有128条同类型的冲突。相关参数我已经发在共享链里了，我们可以分批修复、分批验证。",
 	},
@@ -2593,7 +2636,7 @@
 		},
 		["guid"] = "84A4602B4B22940EB4A0058A7E238C02",
 		["guid_str"] = "Gz2yUOFq",
-		["id"] = 56,
+		["id"] = 58,
 		["name"] = "部长",
 		["text"] = "都听到余音说什么了吧——",
 	},
@@ -2626,7 +2669,7 @@
 		},
 		["guid"] = "1458AD684F37C182332DF588734211E2",
 		["guid_str"] = "04yTAFAA",
-		["id"] = 57,
+		["id"] = 59,
 	},
 	{
 		["bg_info"] = {
@@ -2651,7 +2694,7 @@
 		},
 		["guid"] = "365088144F7457ACC37E88B5A223A027",
 		["guid_str"] = "RddMAE2Q",
-		["id"] = 58,
+		["id"] = 60,
 		["name"] = "部长",
 		["text"] = "熹尔你还愣在这做什么？干活！",
 	},
@@ -2700,7 +2743,7 @@
 		},
 		["guid"] = "4154FCA54B2FD681A8546B97059397C5",
 		["guid_str"] = "pBPCrbLu",
-		["id"] = 59,
+		["id"] = 61,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -2736,7 +2779,7 @@
 		},
 		["guid"] = "5FEC28EA47053B721D811E98AB076774",
 		["guid_str"] = "KLUzcP6E",
-		["id"] = 60,
+		["id"] = 62,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -2779,7 +2822,7 @@
 		},
 		["guid"] = "84018F614E97D16ECF498A9619D6B1E8",
 		["guid_str"] = "kqO3ufBD",
-		["id"] = 61,
+		["id"] = 63,
 		["name"] = "部长",
 		["text"] = "……好了，最后一个补丁也已经验证上传了。本次数据攻击事件就此告一段落。大家辛苦了，咱们今天就都早点回家吧。",
 	},
@@ -2821,7 +2864,7 @@
 		},
 		["guid"] = "601AEB73416CC08C75CAC1B7975036B9",
 		["guid_str"] = "7w1WCILy",
-		["id"] = 62,
+		["id"] = 64,
 	},
 	{
 		["bg_info"] = {
@@ -2840,7 +2883,7 @@
 		},
 		["guid"] = "0D74732E41C0ADA10CB560ABC1B709C1",
 		["guid_str"] = "R1Jd5eki",
-		["id"] = 63,
+		["id"] = 65,
 	},
 	{
 		["bg_info"] = {
@@ -2880,7 +2923,7 @@
 		},
 		["guid"] = "D4411B3A4C2C38593433D2A9E7513D58",
 		["guid_str"] = "SHzhpgaZ",
-		["id"] = 64,
+		["id"] = 66,
 	},
 	{
 		["bg_info"] = {
@@ -2934,7 +2977,7 @@
 		},
 		["guid"] = "FCD551234D8FEFC49FECCE9F1F32B9DB",
 		["guid_str"] = "ZyJUAPB7",
-		["id"] = 65,
+		["id"] = 67,
 		["name"] = "部长",
 		["text"] = "不过明天我们还需要开会对本次事件进行善后。",
 	},
@@ -2967,7 +3010,7 @@
 		},
 		["guid"] = "016E6F094D318FA0D20818A90BDE624C",
 		["guid_str"] = "2AzOCtd4",
-		["id"] = 66,
+		["id"] = 68,
 	},
 	{
 		["bg_info"] = {
@@ -2992,7 +3035,7 @@
 		},
 		["guid"] = "BD507B134DD7BC9371C0739AFF7B15F2",
 		["guid_str"] = "m3UqnZLq",
-		["id"] = 67,
+		["id"] = 69,
 		["name"] = "部长",
 		["text"] = "像是这些乱码文件，如果确认无法逆向恢复，我们需要……",
 	},
@@ -3025,7 +3068,7 @@
 		},
 		["guid"] = "8101FDA04BA7C7F7A296879F5601F346",
 		["guid_str"] = "eH9UpXOp",
-		["id"] = 68,
+		["id"] = 70,
 		["name"] = "熹尔",
 		["sound_control"] = {
 			["effect"] = 4,
@@ -3095,7 +3138,7 @@
 		},
 		["guid"] = "AF2184FD468DECCEC02FE99A4C0C6FEC",
 		["guid_str"] = "IAihwTHH",
-		["id"] = 69,
+		["id"] = 71,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3143,7 +3186,7 @@
 		},
 		["guid"] = "22FE5FC94E3CD68FCB9B088360F9D257",
 		["guid_str"] = "fZJr5Cfe",
-		["id"] = 70,
+		["id"] = 72,
 		["soundfx"] = {
 			{
 				["delay"] = 200,
@@ -3172,7 +3215,7 @@
 		},
 		["guid"] = "082A0B344061C2D914831E9B2563F9A1",
 		["guid_str"] = "tXXrhzQs",
-		["id"] = 71,
+		["id"] = 73,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -3245,7 +3288,7 @@
 		},
 		["guid"] = "57DE86A641CE6FB88EA197889CCF6567",
 		["guid_str"] = "rdq5Ss8y",
-		["id"] = 72,
+		["id"] = 74,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3302,7 +3345,7 @@
 		},
 		["guid"] = "B3ED93C74009E86C423ECF9779DA3A67",
 		["guid_str"] = "JIJgqZL5",
-		["id"] = 73,
+		["id"] = 75,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3359,7 +3402,7 @@
 		},
 		["guid"] = "498608844086DFB9B08883AE38333755",
 		["guid_str"] = "dDs4vaKk",
-		["id"] = 74,
+		["id"] = 76,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3416,7 +3459,7 @@
 		},
 		["guid"] = "F799CD0546F5C46FD8744C94ABF19C4A",
 		["guid_str"] = "U7MuF9hV",
-		["id"] = 75,
+		["id"] = 77,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3473,7 +3516,7 @@
 		},
 		["guid"] = "7FE23E604D898D3DF705F5B5EE077E36",
 		["guid_str"] = "Izh7LJiC",
-		["id"] = 76,
+		["id"] = 78,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3530,7 +3573,7 @@
 		},
 		["guid"] = "75CB8CC042E90ADF4254A6B3F22206BF",
 		["guid_str"] = "1wT23RKX",
-		["id"] = 77,
+		["id"] = 79,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3587,7 +3630,7 @@
 		},
 		["guid"] = "CD7346EA43D4AA160B0EF8BC6935815C",
 		["guid_str"] = "IZCoSEyT",
-		["id"] = 78,
+		["id"] = 80,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -3642,7 +3685,7 @@
 		},
 		["guid"] = "BDB307C144E077DECFD3ED8EDAE3CA75",
 		["guid_str"] = "7x2H6YBR",
-		["id"] = 79,
+		["id"] = 81,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3699,7 +3742,7 @@
 		},
 		["guid"] = "BA4A9A5745EBB3749080C9898EE6687B",
 		["guid_str"] = "ZCJo8rRM",
-		["id"] = 80,
+		["id"] = 82,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3756,7 +3799,7 @@
 		},
 		["guid"] = "F2F47FC64F1011B898596595E1B909A2",
 		["guid_str"] = "wBbDKckK",
-		["id"] = 81,
+		["id"] = 83,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3813,7 +3856,7 @@
 		},
 		["guid"] = "1D54BC2E46652E6FB0B553A77E702310",
 		["guid_str"] = "wEZntpAG",
-		["id"] = 82,
+		["id"] = 84,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3893,7 +3936,7 @@
 		},
 		["guid"] = "F47ED377425330E22BDB3586A776B730",
 		["guid_str"] = "YcAF01Jg",
-		["id"] = 83,
+		["id"] = 85,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -3915,7 +3958,7 @@
 		},
 		["guid"] = "7C495A5F4AD9F61614E9CD9DD949DEEC",
 		["guid_str"] = "cL9VGDJL",
-		["id"] = 84,
+		["id"] = 86,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -3937,7 +3980,7 @@
 		},
 		["guid"] = "2557D6044F4B8399D02A7DB0583F2FC3",
 		["guid_str"] = "NX8gXZqL",
-		["id"] = 85,
+		["id"] = 87,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4010,7 +4053,7 @@
 		},
 		["guid"] = "8902445148BB5C1ECF134DA2618E117A",
 		["guid_str"] = "KyiBWTFs",
-		["id"] = 86,
+		["id"] = 88,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4067,7 +4110,7 @@
 		},
 		["guid"] = "2E21D8F54E45054282DB0FBF0C04D0A8",
 		["guid_str"] = "imBTsLzd",
-		["id"] = 87,
+		["id"] = 89,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4124,7 +4167,7 @@
 		},
 		["guid"] = "B34160E541B050F32BA9DABB2779378D",
 		["guid_str"] = "X9JRPOFJ",
-		["id"] = 88,
+		["id"] = 90,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4181,7 +4224,7 @@
 		},
 		["guid"] = "11EA8EF14D1CD77C3C2C3BB9D002FAAF",
 		["guid_str"] = "F2lcuYN8",
-		["id"] = 89,
+		["id"] = 91,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4236,7 +4279,7 @@
 		},
 		["guid"] = "2225B9AC4554DFE60278BEAAA70BDF18",
 		["guid_str"] = "KtQMeQo9",
-		["id"] = 90,
+		["id"] = 92,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4293,7 +4336,7 @@
 		},
 		["guid"] = "170D0F0C44A7E32CC8D0F787616FFDD2",
 		["guid_str"] = "CTDKAdIL",
-		["id"] = 91,
+		["id"] = 93,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4368,7 +4411,7 @@
 		},
 		["guid"] = "1132FA9C4B30AC8630F6A5B1B991F16D",
 		["guid_str"] = "1NJKWcwA",
-		["id"] = 92,
+		["id"] = 94,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4423,7 +4466,7 @@
 		},
 		["guid"] = "7447B2914C148339CAD715BA6A625F93",
 		["guid_str"] = "nQshzITH",
-		["id"] = 93,
+		["id"] = 95,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4480,7 +4523,7 @@
 		},
 		["guid"] = "CC5DF68044B24BC9331B8C9182AE80E4",
 		["guid_str"] = "MkZB5oyz",
-		["id"] = 94,
+		["id"] = 96,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4535,7 +4578,7 @@
 		},
 		["guid"] = "5933876F48FF7137847E319B433AC5B2",
 		["guid_str"] = "SkzEdZNT",
-		["id"] = 95,
+		["id"] = 97,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4592,7 +4635,7 @@
 		},
 		["guid"] = "4C007F6644E8279F4D8DF18742A6FD93",
 		["guid_str"] = "BMRNlgCy",
-		["id"] = 96,
+		["id"] = 98,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4660,7 +4703,7 @@
 		},
 		["guid"] = "BAA38B744AD0EA06D3CE0D89293EF7A6",
 		["guid_str"] = "iS3iS4yn",
-		["id"] = 97,
+		["id"] = 99,
 		["soundfx"] = {
 			{
 				["delay"] = 300,
@@ -4717,7 +4760,7 @@
 		},
 		["guid"] = "BA1F64EA4CC42868ABB4B8BDF46570A8",
 		["guid_str"] = "KHx808qf",
-		["id"] = 98,
+		["id"] = 100,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/karas/avg_karas_touchpad_loop",
@@ -4796,7 +4839,7 @@
 		},
 		["guid"] = "9D95CEBE449A93B6D47EBF955F22BD78",
 		["guid_str"] = "UyDY4Qop",
-		["id"] = 99,
+		["id"] = 101,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4854,7 +4897,7 @@
 		},
 		["guid"] = "562AEBA64C741DBD35FEAA86F1FB87E8",
 		["guid_str"] = "KJG6xqAw",
-		["id"] = 100,
+		["id"] = 102,
 		["name"] = "讲解员",
 		["sound_control"] = {
 			["effect"] = 48,
@@ -4909,7 +4952,7 @@
 		},
 		["guid"] = "1FD87F9543EB6513CE3619A18CDFD9F2",
 		["guid_str"] = "4pzcVbxe",
-		["id"] = 101,
+		["id"] = 103,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -4953,7 +4996,7 @@
 		},
 		["guid"] = "4E54F5074757EEC398A5D0BDD169B8F2",
 		["guid_str"] = "op3R1jta",
-		["id"] = 102,
+		["id"] = 104,
 		["name"] = "讲解员",
 		["sound_control"] = {
 			["effect"] = 48,
@@ -5002,7 +5045,7 @@
 		},
 		["guid"] = "57C9443349F1D9C84CA6B9BC83997A7A",
 		["guid_str"] = "sX4eOTld",
-		["id"] = 103,
+		["id"] = 105,
 		["name"] = "讲解员",
 		["sound_control"] = {
 			["effect"] = 48,
@@ -5051,7 +5094,7 @@
 		},
 		["guid"] = "BAB8EC3A4486A4BFFE8FB8AA6DB35664",
 		["guid_str"] = "s7eFP6Y8",
-		["id"] = 104,
+		["id"] = 106,
 		["name"] = "讲解员",
 		["sound_control"] = {
 			["effect"] = 48,
@@ -5100,7 +5143,7 @@
 		},
 		["guid"] = "A54CB005495448672F3B2DA3B755B69C",
 		["guid_str"] = "A9bB7wxg",
-		["id"] = 105,
+		["id"] = 107,
 		["name"] = "讲解员",
 		["sound_control"] = {
 			["effect"] = 48,
@@ -5194,7 +5237,7 @@
 		},
 		["guid"] = "30FD5EE44B28E13611459798F322CBEA",
 		["guid_str"] = "846T4UyR",
-		["id"] = 106,
+		["id"] = 108,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/karas/avg_karas_touchpad_loop",
@@ -5243,7 +5286,7 @@
 		},
 		["guid"] = "A4BFF6134B2B41B0244A1996566A44B5",
 		["guid_str"] = "ryo0OXDP",
-		["id"] = 107,
+		["id"] = 109,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5274,7 +5317,7 @@
 		},
 		["guid"] = "F91D23694757012886697EA8B5ED7BD2",
 		["guid_str"] = "QL89wjNl",
-		["id"] = 108,
+		["id"] = 110,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5356,7 +5399,7 @@
 		},
 		["guid"] = "D0042B014CD9E524E43A92A2BF414EB4",
 		["guid_str"] = "8rcWITj4",
-		["id"] = 109,
+		["id"] = 111,
 		["name"] = "白荆科技工作人员",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5412,7 +5455,7 @@
 		},
 		["guid"] = "CFB77F7C4A92D360AFD8938E4D41D32F",
 		["guid_str"] = "99QEw4Yp",
-		["id"] = 110,
+		["id"] = 112,
 		["name"] = "白荆科技工作人员",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5505,7 +5548,7 @@
 		},
 		["guid"] = "CF3DF3E54642FED49FC23B81BF1C1D44",
 		["guid_str"] = "0GroMGDr",
-		["id"] = 111,
+		["id"] = 113,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -5567,7 +5610,7 @@
 		},
 		["guid"] = "A9ED953C454D8926BB9AE38A0F71B156",
 		["guid_str"] = "OvgmSJMn",
-		["id"] = 112,
+		["id"] = 114,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5624,7 +5667,7 @@
 		},
 		["guid"] = "28CD46D64D359565BFFD1CA7555FABCC",
 		["guid_str"] = "WfTt1xed",
-		["id"] = 113,
+		["id"] = 115,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5681,7 +5724,7 @@
 		},
 		["guid"] = "D3C5A3A74010D8010EFC3994C4700669",
 		["guid_str"] = "dGu23gtZ",
-		["id"] = 114,
+		["id"] = 116,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5738,7 +5781,7 @@
 		},
 		["guid"] = "D997BDBA4492E9B7F100048D73F981B3",
 		["guid_str"] = "h1xGBIYb",
-		["id"] = 115,
+		["id"] = 117,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5795,7 +5838,7 @@
 		},
 		["guid"] = "51C3527247A080B6C5C68DACBC71F9F2",
 		["guid_str"] = "CF8mcual",
-		["id"] = 116,
+		["id"] = 118,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5852,7 +5895,7 @@
 		},
 		["guid"] = "3C79E8CA417ED78CBA93E0ABFD8DADFD",
 		["guid_str"] = "Z5pXAaMr",
-		["id"] = 117,
+		["id"] = 119,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5909,7 +5952,7 @@
 		},
 		["guid"] = "FC2E5965423F50FBD56585B150681148",
 		["guid_str"] = "WABHXhHQ",
-		["id"] = 118,
+		["id"] = 120,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -5966,7 +6009,7 @@
 		},
 		["guid"] = "BA2DDC7F46E11BFEB4003881808BA2BB",
 		["guid_str"] = "5vTOkpbt",
-		["id"] = 119,
+		["id"] = 121,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -6021,7 +6064,7 @@
 		},
 		["guid"] = "8A7C7AAA4DE029D1E32B6EA604C0F985",
 		["guid_str"] = "Rm29piey",
-		["id"] = 120,
+		["id"] = 122,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6078,7 +6121,7 @@
 		},
 		["guid"] = "8270E1474018F674D236C98BB05AC2D7",
 		["guid_str"] = "fKL8moLk",
-		["id"] = 121,
+		["id"] = 123,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6135,7 +6178,7 @@
 		},
 		["guid"] = "98CD9E96402086C76F013D8043A15CA6",
 		["guid_str"] = "iP6Vfwy5",
-		["id"] = 122,
+		["id"] = 124,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6192,7 +6235,7 @@
 		},
 		["guid"] = "BB049E704922154F2EA5B1A114F4E79C",
 		["guid_str"] = "Ugbl98MM",
-		["id"] = 123,
+		["id"] = 125,
 		["name"] = "部长",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6249,7 +6292,7 @@
 		},
 		["guid"] = "B28AA3D940E8405C4590E4956B0330D2",
 		["guid_str"] = "k1zOuAhM",
-		["id"] = 124,
+		["id"] = 126,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6317,7 +6360,7 @@
 		},
 		["guid"] = "DFE8E01E46AE8FB2854445A64D6AEFFE",
 		["guid_str"] = "6okQU0Yg",
-		["id"] = 125,
+		["id"] = 127,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -6416,7 +6459,7 @@
 		},
 		["guid"] = "7A69BF5F4D34BAE7F4BF8C9A4E4CEAB6",
 		["guid_str"] = "ISijtwLb",
-		["id"] = 126,
+		["id"] = 128,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -6471,7 +6514,7 @@
 		},
 		["guid"] = "75C9A41941563FABC30BD89A3E64F957",
 		["guid_str"] = "hmWV3wjV",
-		["id"] = 127,
+		["id"] = 129,
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -6526,7 +6569,7 @@
 		},
 		["guid"] = "8CB4AFE54C7A05B8F91FEDA0AAD4F047",
 		["guid_str"] = "HWKnmwR8",
-		["id"] = 128,
+		["id"] = 130,
 		["name"] = "余音",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -6612,7 +6655,7 @@
 		},
 		["guid"] = "8ADDE4DB4C280BBA64D84AA097B24C7D",
 		["guid_str"] = "zWIYac7X",
-		["id"] = 129,
+		["id"] = 131,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
