@@ -1,0 +1,118 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CB_CountEnd"] = false,
+							["CF_CloseSpeed"] = 30.0,
+							["CF_CloseTime"] = 2000.0,
+							["CF_Count"] = 1.0,
+							["CF_Max"] = 1.0,
+							["CF_Min"] = 0.0,
+							["CF_OpenSpeed"] = 10.0,
+							["CF_OpenTime"] = 200.0,
+							["CF_Trend"] = 0.0,
+							["F_CenterWidth"] = 0.8,
+							["F_OpenValue"] = 1.0,
+						},
+						["is_loop"] = false,
+						["material"] = "MI_UI_Blink",
+						["time"] = 3500,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["delay"] = 3500,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineSceneBG/bg_grayline_02.png",
+			},
+			{
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineSceneBG/bg_grayline_02.png",
+			},
+		},
+		["guid"] = "3AACE9074CE261AF474A7287F06D2AAF",
+		["guid_str"] = "Pt3WVcLQ",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_leaves_wind-001",
+				["length"] = 7750,
+			},
+		},
+		["time"] = 5000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineSceneBG/bg_grayline_02.png",
+			},
+			{
+			},
+		},
+		["guid"] = "15D5BE7B453BDEE99852CAB3A0D55828",
+		["guid_str"] = "AF76Z1fJ",
+		["id"] = 2,
+		["name"] = "我",
+		["text"] = "怎么忽然这么大风？嗯？什么东西掉……哦，药瓶，唉。",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineSceneBG/bg_grayline_02.png",
+			},
+			{
+			},
+		},
+		["guid"] = "4A90A71B4BD2EF4528336D8286730808",
+		["guid_str"] = "KJK97E92",
+		["id"] = 3,
+		["selection"] = {
+			5067,
+		},
+		["selection_datas"] = {
+			{
+				["index"] = 1,
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+	},
+}
