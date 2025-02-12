@@ -1113,8 +1113,8 @@
 		},
 		["type"] = 8,
 	},
-	[130] = {
-		["ID"] = 130,
+	[132] = {
+		["ID"] = 132,
 		["anim_frame_anchor"] = {
 			"1;-4",
 		},
@@ -1124,10 +1124,9 @@
 		["anim_frame_scale"] = {
 			0.9,
 		},
-		["auto_generate"] = false,
+		["auto_generate"] = true,
 		["bg_path"] = "jump_bg_institute_boss",
 		["end_offset"] = 8,
-		["event"] = "institute_boss_10",
 		["extra_show_params"] = {
 		},
 		["frame_name"] = "NewNormalTempl",
@@ -1137,7 +1136,8 @@
 			1,
 			-4,
 		},
-		["jump_type"] = 1,
+		["generate_start_event"] = "institute_boss_10",
+		["jump_type"] = 6,
 		["params"] = {
 		},
 		["prior"] = 4,

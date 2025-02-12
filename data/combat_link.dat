@@ -342,7 +342,7 @@
 	[16] = {
 		["ID"] = 16,
 		["description"] = "进入战场中的毒雾区域后，同调者会周期性的受到毒雾伤害，该伤害随同调者在毒雾区域中停留的时间增加而增加",
-		["name"] = "毒雾伤害",
+		["name"] = "毒雾",
 	},
 	[17] = {
 		["ID"] = 17,
@@ -598,6 +598,21 @@
 		["ID"] = 235,
 		["description"] = "屏障受到超出屏障强度的投射物攻击时或破坏屏障效果时会破碎；若屏障以层数计数，则每次消耗层数均视为屏障破碎，但存在8秒冷却时间",
 		["name"] = "屏障破碎",
+	},
+	[236] = {
+		["ID"] = 236,
+		["description"] = "处于[img src=\"Interface/Resource/Game/DrawShow/icon_element02.png\" lift=\"-4\" size=\"28,28\"][c 7eb7e8]水元素[/c]区域上的敌人，受到的[c 7eb7e8]水元素[/c]伤害提升10%。",
+		["name"] = "水元素区域",
+	},
+	[237] = {
+		["ID"] = 237,
+		["description"] = "处于[img src=\"Interface/Resource/Game/DrawShow/icon_element05.png\" lift=\"-4\" size=\"28,28\"][c 8dbfd4]霜元素[/c]区域的敌人，一定时间后将[c 41baff]冻结[/c]。\n冻结后受到霜元素伤害，有概率触发【霜灭】被[c 41baff]直接击败[/c]。",
+		["name"] = "霜元素区域",
+	},
+	[238] = {
+		["ID"] = 238,
+		["description"] = "可使用[c 41baff]【屏障】[/c]阻挡，也可使用带[c 41baff]【拦截】[/c]的技能破坏",
+		["name"] = "投射物",
 	},
 	[23] = {
 		["ID"] = 23,
@@ -961,7 +976,7 @@
 	},
 	[8] = {
 		["ID"] = 8,
-		["description"] = "处于炎元素区域上的敌人，每秒受到1%当前血量的炎元素伤害\n每秒受到的伤害最多不会超过刻印终端属性",
+		["description"] = "处于[img src=\"Interface/Resource/Game/DrawShow/icon_element01.png\" lift=\"-4\" size=\"28,28\"][c dc6e6e]炎元素[/c]区域上的敌人，[c 41baff]每秒[/c]受到当前生命[c 41baff]1%[/c]的炎元素伤害（最多不超过刻印终端属性）。",
 		["name"] = "炎元素区域",
 	},
 	[90] = {
