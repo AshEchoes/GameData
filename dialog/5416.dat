@@ -2921,6 +2921,7 @@
 		["characters"] = {
 			{
 				["anim"] = "surprise",
+				["material"] = "M_UI_SpineMat",
 				["path"] = "am55ssw/am55ssw_young_action1",
 				["tween"] = {
 					{
@@ -2995,15 +2996,6 @@
 				["path"] = "am55ssw/am55ssw_young_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
 				},
 			},
 		},
@@ -3335,10 +3327,10 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]嘴上利索立场分明，心里却带着几分随意，十手卫琢磨着该什么时候按下开始键——无声地下逐客令——",
-			["text_align"] = "center",
+			["height"] = 100,
+			["mask_alpha"] = 0.80000001192093,
+			["text"] = "[size 17][indent][indent][indent]嘴上利索立场分明，心里却带着几分随意，十手卫琢磨着该什么时候按下开始键——[br][br][size 17][indent][indent][indent]无声地下逐客令——",
 		},
 		["characters"] = {
 			{
@@ -3354,6 +3346,15 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
 				},
 			},
 			{
@@ -3375,6 +3376,15 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
 				},
 			},
 		},
@@ -3391,48 +3401,11 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]训练个人项目的时候他不喜欢别人打扰，其他人几次想观战都被他拒绝了。",
-			["text_align"] = "center",
-		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_young_action1",
-				["pos"] = {
-					-300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.0,
-					0.0,
-					0.0,
-					0.62745100259781,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n83paradise/n83paradise_guard_m_01_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
+			["height"] = 100,
+			["is_append"] = true,
+			["mask_alpha"] = 0.80000001192093,
+			["text"] = "[br][br][size 17][indent][indent][indent]训练个人项目的时候他不喜欢别人打扰，其他人几次想观战都被他拒绝了。",
 		},
 		["guid"] = "BB4D5A75476B8F0D4ED20183257E00FA",
 		["guid_str"] = "CyPcp3fX",
@@ -3467,6 +3440,15 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 			{
 				["anim"] = "normal",
@@ -3487,6 +3469,15 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -4467,9 +4458,9 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[size 17]红队按下了RESTART，模拟场内迅速更新了靶标，两个移动目标，半遮掩在掩体后，十手卫下意识抬枪射击。",
+			["text_align"] = "center",
 		},
 		["characters"] = {
 			{
@@ -4541,13 +4532,12 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "\n\n[size 17]砰砰！砰！",
+			["text"] = "[size 20]砰砰！砰！",
+			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
@@ -4590,10 +4580,9 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_append"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "\n\n[size 17]十手卫扣动了两次扳机，同时响起的，还有同步拔枪上膛的红队的配枪，成绩结算显示十手卫中靶一枪。",
+			["text"] = "[size 17]十手卫扣动了两次扳机，同时响起的，还有同步拔枪上膛的红队的配枪，成绩结算显示十手卫中靶一枪。",
+			["text_align"] = "center",
 		},
 		["guid"] = "F463EB6A46E3F702C15E4FBB98B40683",
 		["guid_str"] = "3gNa4rCF",
@@ -4609,10 +4598,9 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_append"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "\n\n[size 17]另一枪他慢了。",
+			["text"] = "[size 17]另一枪他慢了。",
+			["text_align"] = "center",
 		},
 		["guid"] = "9C76BBA345C9C85EBB8906B2C923A26F",
 		["guid_str"] = "rfoVUJvC",
@@ -5641,36 +5629,6 @@
 							["time"] = 0,
 						},
 						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.0,
-					0.0,
-					0.0,
-					0.62745100259781,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n83paradise/n83paradise_guard_m_01_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
 					},
 				},
 			},
@@ -7520,6 +7478,19 @@
 		["id"] = 132,
 		["name"] = "十手卫",
 		["text"] = "？！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 5,
+						["delay"] = 0,
+						["duration"] = 200,
+						["time"] = 5,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -7927,6 +7898,7 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am55ssw/am55ssw_young_action1",
 				["pos"] = {
@@ -7935,6 +7907,24 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 500,
+							["direction"] = "left",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 			{
@@ -7980,27 +7970,6 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_young_action1",
-				["pos"] = {
-					-300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
 					0.0,
 					0.0,
 					0.0,
@@ -8014,6 +7983,15 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -8035,39 +8013,9 @@
 			["b_use_mask"] = true,
 			["height"] = 100,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]训练室里不允许任何私人物品过夜。",
+			["text"] = "[size 17][indent][indent][indent]训练室里不允许任何私人物品过夜。",
 		},
 		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_young_action1",
-				["pos"] = {
-					-300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
@@ -8116,10 +8064,10 @@
 			["height"] = 100,
 			["is_append"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "\n\n[size 17]十手卫回头，发现红队手里拿着个不大像荷包一样的东西，上面绣着一朵红色的茶梅。\n\n明显不像男生会随身携带的东西，仔细看还能发现绣线的针脚非常一般，手艺不怎么样。",
+			["text"] = "[br][br][size 17][indent][indent][indent]十手卫回头，发现红队手里拿着个不大像荷包一样的东西，上面绣着一朵红色的茶梅。[br][br][size 17][indent][indent][indent]明显不像男生会随身携带的东西，仔细看还能发现绣线的针脚非常一般，手艺不怎么样。",
 		},
-		["guid"] = "F392048642510F1EBF671E946C010FF5",
-		["guid_str"] = "37QTazqs",
+		["guid"] = "D036AB6F4DE08D03B04593B0AB641788",
+		["guid_str"] = "KqyzPi1s",
 		["id"] = 143,
 	},
 	{
@@ -8149,9 +8097,21 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
 						},
-						["tween"] = "FadeIn",
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 500,
+							["time"] = 10,
+						},
+						["tween"] = "Shake",
 					},
 				},
 			},
@@ -8664,7 +8624,7 @@
 			["b_use_mask"] = true,
 			["height"] = 100,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]也没钱。",
+			["text"] = "[size 17][indent][indent][indent]也没钱。",
 		},
 		["characters"] = {
 			{
@@ -8716,7 +8676,7 @@
 			["height"] = 100,
 			["is_append"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "\n\n[size 17]其实并不知道有多少存款，从来没查过。",
+			["text"] = "[br][br][size 17][indent][indent][indent]其实并不知道有多少存款，从来没查过。",
 		},
 		["guid"] = "C7EF5B624AEC996BB10AA396B6B7810B",
 		["guid_str"] = "zbcAdWUh",
@@ -8740,7 +8700,7 @@
 			["height"] = 100,
 			["is_append"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "\n\n[size 17]隔壁还没有声音，往常这个时间隔壁的人应该已经找各种由头过来。",
+			["text"] = "[br][br][size 17][indent][indent][indent]隔壁还没有声音，往常这个时间隔壁的人应该已经找各种由头过来。",
 		},
 		["guid"] = "434D5B73444E996A199C5FAEF0A24162",
 		["guid_str"] = "8kEucCl3",
@@ -8780,7 +8740,6 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 100,
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[size 17]要问么？",
 			["text_align"] = "center",

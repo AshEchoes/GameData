@@ -155,6 +155,7 @@
 			["height"] = 100,
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[size 17]门外传来声音。",
+			["text_align"] = "center",
 		},
 		["characters"] = {
 			{
@@ -205,7 +206,8 @@
 			["height"] = 100,
 			["is_append"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "\n\n[size 17]下一秒，门被敲响，然后被打开。",
+			["text"] = "[br][br][size 17]下一秒，门被敲响，然后被打开。",
+			["text_align"] = "center",
 		},
 		["guid"] = "AEEDB6A84AF0514621ECBEA0FF898AFB",
 		["guid_str"] = "1HGEkaMR",
@@ -2359,8 +2361,8 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[size 17]一眼扫到封面的标题。",
 			["text_align"] = "center",
 		},
@@ -2374,6 +2376,15 @@
 				["path"] = "n93reddyq/n93reddyq_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
 				},
 			},
 		},
@@ -2394,21 +2405,19 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]《the Gray Line·边缘灰》",
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.80000001192093,
+			["text"] = "[size 17][font cusong][c a3bdc8]《the Gray Line·边缘灰》[/c]",
 			["text_align"] = "center",
-		},
-		["characters"] = {
-			{
-				["anim"] = "serious",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n93reddyq/n93reddyq_action1",
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
@@ -2444,6 +2453,15 @@
 				["path"] = "n93reddyq/n93reddyq_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -2813,7 +2831,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2882,7 +2900,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
