@@ -21,6 +21,9 @@
 		["guid"] = "F4891D3C4BE65A19AC70B4BF3BD3B5A1",
 		["guid_str"] = "7BTABYsr",
 		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["time"] = 1300,
 	},
 	{
 		["bg_info"] = {
@@ -184,8 +187,12 @@
 		["id"] = 5,
 		["soundfx"] = {
 			{
+				["dir"] = "right",
 				["event"] = "event:/sfx/common/materials/movements/cloth/mm_cloth_l_n",
 				["length"] = 1498,
+				["offset"] = -1000,
+				["position"] = 1,
+				["volume"] = 3.0,
 			},
 		},
 		["speaker_info"] = {
@@ -215,8 +222,11 @@
 		["soundfx"] = {
 			{
 				["delay"] = 400,
+				["dir"] = "right",
 				["event"] = "event:/sfx/story/blackout/avg_blackout_door_open",
 				["length"] = 1125,
+				["offset"] = -1000,
+				["position"] = 1,
 			},
 			{
 				["event"] = "event:/ui/advse/advse_knock02",
@@ -238,7 +248,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1379,7 +1389,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "thinking",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1410,7 +1420,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "thinking",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1441,7 +1451,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "thinking",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1494,7 +1504,7 @@
 		["id"] = 40,
 		["name"] = "我",
 		["speaker_info"] = {
-			["anim"] = "doubt",
+			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
@@ -1510,7 +1520,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "curious",
+				["anim"] = "worry",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1541,7 +1551,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "worry",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1579,7 +1589,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1610,7 +1620,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1732,7 +1742,7 @@
 		["id"] = 47,
 		["name"] = "我",
 		["speaker_info"] = {
-			["anim"] = "normal",
+			["anim"] = "smile",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
@@ -1855,7 +1865,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "doubt",
+				["anim"] = "thinking",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2050,7 +2060,7 @@
 		["id"] = 56,
 		["name"] = "我",
 		["speaker_info"] = {
-			["anim"] = "normal",
+			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
@@ -2274,6 +2284,12 @@
 		["guid"] = "67C4B96E4E80D9DEAB2A93ADFA426C0C",
 		["guid_str"] = "IUvukIoc",
 		["id"] = 62,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/footstep_single",
+				["length"] = 3692,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
@@ -2555,7 +2571,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2655,7 +2671,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2693,7 +2709,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2869,7 +2885,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "curious",
+				["anim"] = "worry",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3007,7 +3023,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "thinking",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3111,6 +3127,8 @@
 		["guid"] = "39DD5A8549F7466D88FF1D845D4A022D",
 		["guid_str"] = "9M2pxZv5",
 		["id"] = 85,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -3123,6 +3141,7 @@
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
+		["time"] = 800,
 	},
 	{
 		["bg_info"] = {
@@ -3134,7 +3153,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "thinking",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3197,7 +3216,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3228,7 +3247,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3250,7 +3269,7 @@
 		["id"] = 88,
 		["name"] = "我",
 		["speaker_info"] = {
-			["anim"] = "normal",
+			["anim"] = "closeeyesmile",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
@@ -3843,8 +3862,43 @@
 		["guid"] = "6EF75B6141AC50B33CCCCAB30525D13C",
 		["guid_str"] = "6P7CNKTL",
 		["id"] = 102,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_07.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["delay_page"] = 0,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
 		["soundfx"] = {
 			{
+				["delay"] = 400,
 				["event"] = "event:/ui/advse/3-2-pencil",
 				["length"] = 2588,
 			},
@@ -3858,18 +3912,7 @@
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 1000,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_02.png",
+				["path"] = "",
 			},
 			{
 				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_07.png",
@@ -3905,6 +3948,12 @@
 		["guid"] = "C22F04A940633E2D91BFB9842C1C49FC",
 		["guid_str"] = "eIAxt1Px",
 		["id"] = 103,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
+				["length"] = 647,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3949,6 +3998,12 @@
 		["guid"] = "CD2810C24893286EDA1625B0B1FF74F6",
 		["guid_str"] = "67me6pMG",
 		["id"] = 104,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
+				["length"] = 647,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3993,6 +4048,12 @@
 		["guid"] = "1851B33F46BB9F9F81DCEE8D598C3EB2",
 		["guid_str"] = "2u9MFDHZ",
 		["id"] = 105,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
+				["length"] = 647,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4037,6 +4098,12 @@
 		["guid"] = "335DB169431C1C4EFDF5EFB17D5E43A2",
 		["guid_str"] = "Qorl2GhF",
 		["id"] = 106,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
+				["length"] = 647,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4081,6 +4148,12 @@
 		["guid"] = "6B9360EF46A7AA753AC74C8CD9876C5B",
 		["guid_str"] = "ZLErztPL",
 		["id"] = 107,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
+				["length"] = 647,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4095,7 +4168,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -4106,13 +4179,30 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
 		["guid"] = "28DE5E614BE5018FD6C1048201F33F8F",
 		["guid_str"] = "bDmtbXru",
 		["id"] = 108,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
+		["time"] = 1800,
 	},
 }

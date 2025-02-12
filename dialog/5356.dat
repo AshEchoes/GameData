@@ -43,6 +43,7 @@
 		["guid"] = "BDFE67214256B40F4897B9ACB09DB2AD",
 		["guid_str"] = "vPotd4ze",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -133,7 +134,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17]下午街边的露天餐厅生意还不错，\n\n不远处有个一群人正在不算大的空地上连接音箱设备，看起来晚点会有表演。",
+			["text"] = "[size 17]下午街边的露天餐厅生意还不错，\n\n不远处有一群人正在不算大的空地上连接音箱设备，看起来晚点会有表演。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -4250,6 +4251,16 @@
 		["guid_str"] = "0Ezs41n9",
 		["id"] = 79,
 		["name"] = "昆西医生",
+		["soundfx"] = {
+			{
+				["dir"] = "right",
+				["event"] = "event:/sfx/story/karas/avg_karas_guitar_01",
+				["length"] = 5014,
+				["loop"] = 1,
+				["offset"] = -1000,
+				["position"] = 1,
+			},
+		},
 		["text"] = "嗯？",
 	},
 	{
@@ -4436,6 +4447,11 @@
 				["length"] = 187000,
 				["loop"] = 1,
 				["volume"] = 0.5,
+			},
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_guitar_01",
+				["length"] = 5014,
+				["stop"] = 1,
 			},
 		},
 	},
@@ -5238,6 +5254,12 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]难怪我觉得「[c a3bdc8]我[/c]」应该喜欢这里。",
+			["text_align"] = "center",
+		},
 		["characters"] = {
 			{
 				["anim"] = "normal",
@@ -5279,8 +5301,6 @@
 		["guid"] = "3253F804440EB3B60986A389EF250B25",
 		["guid_str"] = "BbPUCAEx",
 		["id"] = 97,
-		["name"] = "我",
-		["text"] = "难怪我觉得「[c a3bdc8]我[/c]」应该喜欢这里。",
 	},
 	{
 		["bg_info"] = {
@@ -5800,6 +5820,7 @@
 		["guid"] = "36C91C3543BEFFC37984F9B79DA2847C",
 		["guid_str"] = "C2FuDsdN",
 		["id"] = 106,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -5823,6 +5844,7 @@
 				["stop"] = 1,
 			},
 		},
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -5846,6 +5868,7 @@
 		["guid"] = "9539CA5240AE88081875168B6F81851C",
 		["guid_str"] = "mZF9qEYJ",
 		["id"] = 107,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 	},
 	{
@@ -6304,7 +6327,7 @@
 			["height"] = 200,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17][indent][indent][indent]「魏语则」袁老师今天也加班么？",
+			["text"] = "[size 17][indent][indent][indent]「[c a3bdc8]魏语则[/c]」袁老师今天也加班么？",
 			["tween"] = {
 				{
 					["param"] = {
@@ -6350,7 +6373,7 @@
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[br][br][size 17][indent][indent][indent]「袁清」抱歉哥我这里信号不太好，对……今天也要加班，哥不用管我了！",
+			["text"] = "[br][br][size 17][indent][indent][indent]「[c 59abff]袁清[/c]」抱歉哥我这里信号不太好，对……今天也要加班，哥不用管我了！",
 			["tween"] = {
 				{
 					["param"] = {
@@ -6390,7 +6413,7 @@
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[br][br][size 17][indent][indent][indent]「魏语则」好的，袁老师注意身体。",
+			["text"] = "[br][br][size 17][indent][indent][indent]「[c a3bdc8]魏语则[/c]」好的，袁老师注意身体。",
 			["tween"] = {
 				{
 					["param"] = {
@@ -6442,7 +6465,9 @@
 		["guid"] = "54E0046447BE5EB2275CEDA8AC1A0C61",
 		["guid_str"] = "HmSgAOIc",
 		["id"] = 128,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["time"] = 600,
 	},
 	{
 		["bg_info"] = {
@@ -7002,7 +7027,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17]已经戒掉了。",
+			["text"] = "[size 17][font cusong]已经戒掉了。",
 			["text_align"] = "center",
 		},
 		["guid"] = "B395A8B74355A1DBC5912BBE2E07590F",
@@ -7064,22 +7089,70 @@
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 800,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/DialogActivityActGrayLineSceneBG/bg_grayline_06.png",
 			},
 			{
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_02.png",
 			},
 		},
 		["caption_info"] = {
 			["align"] = "bottom",
-			["b_use_mask"] = true,
 			["text"] = "[size 17]唰唰唰……",
 			["text_align"] = "center",
 		},
 		["guid"] = "7B2A5E3044542B20BA35FDA6A119ED7A",
 		["guid_str"] = "iLU1EI4i",
 		["id"] = 154,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_03.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 800,
+							["delay_page"] = 0,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
 		["soundfx"] = {
 			{
+				["delay"] = 400,
 				["event"] = "event:/ui/advse/3-2-pencil",
 				["length"] = 2588,
 			},
@@ -7088,62 +7161,42 @@
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 1500,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivityActGrayLineSceneBG/bg_grayline_06.png",
-			},
-			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 2000,
-							},
-							["tween"] = "FadeIn",
-						},
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_06.png",
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["text_align"] = "center",
-		},
-		["guid"] = "C7F6E1354B69541DF8003B9745A9C3BB",
-		["guid_str"] = "LnDATX3o",
-		["id"] = 155,
-		["just_auto_play"] = true,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_06.png",
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_03.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17]看了那么多场“电影”，记住了多少不好说。\n\n我好像也知道了自己的名字，但是缺乏真实感，\n\n的确像昆西医生所说，讲给你听的故事，变不成你自己的经历。\n",
-			["text_align"] = "center",
+			["text"] = "[size 17]看了那么多场“电影”，记住了多少不好说。\n\n我好像也知道了自己的名字，但是缺乏真实感，\n\n的确像昆西医生所说，讲给你听的故事，变不成你自己的经历。",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
 						["time"] = 700,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["pos"] = {
+							["x"] = 550,
+							["y"] = 0,
+						},
+						["time"] = 0,
+					},
+					["tween"] = "RelativePositionChange",
+				},
+			},
+			["tween_bg"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -7151,189 +7204,198 @@
 		},
 		["guid"] = "771D9B4A4EABA2C7227DB3ACA30EECE0",
 		["guid_str"] = "EQ2ZHzMz",
-		["id"] = 156,
+		["id"] = 155,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
+				["length"] = 647,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_06.png",
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_03.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17]这两天都没有记东西，倒不是犯懒或者来不及。",
-			["text_align"] = "center",
+			["text"] = "[size 17]这两天都没有记东西，倒不是犯懒或者来不及。\n\n主要是总想着等再回忆起点什么更具体的，再来好好写写“他们”。\n\n太久了，估计很多事情本来就已经忘了，现在反而都在捡起来。",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 700,
+						["time"] = 400,
 					},
 					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["pos"] = {
+							["x"] = 550,
+							["y"] = 0,
+						},
+						["time"] = 0,
+					},
+					["tween"] = "RelativePositionChange",
 				},
 			},
 		},
 		["guid"] = "32CAB4DF4C58FF21E80827B51E28985F",
 		["guid_str"] = "Jg7EbOzs",
-		["id"] = 157,
+		["id"] = 156,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
+				["length"] = 647,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_06.png",
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_03.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_append"] = true,
-			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
-			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[br][br][size 17]主要是总想着等再回忆起点什么更具体的，再来好好写写“他们”。",
-			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 700,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
-		},
-		["guid"] = "1EC6C3B3424AD080424B45ABC45F0D3E",
-		["guid_str"] = "qzpt4sDE",
-		["id"] = 158,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_06.png",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_append"] = true,
-			["is_only_append_separate_tween"] = true,
-			["is_separate_tween"] = true,
-			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[br][br][size 17]太久了，估计很多事情本来就已经忘了，现在反而都在捡起来。",
-			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 700,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
-		},
-		["guid"] = "53C47FE64BD68D969E49C49A377E3863",
-		["guid_str"] = "zIwjmIG2",
-		["id"] = 159,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_06.png",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[size 17]……今天昆西医生说的那些，很像目前为止的印象里，他会编的故事。",
-			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 700,
+						["time"] = 400,
 					},
 					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["end_alpha"] = 1.0,
+						["pos"] = {
+							["x"] = 550,
+							["y"] = 0,
+						},
+						["time"] = 0,
+					},
+					["tween"] = "RelativePositionChange",
 				},
 			},
 		},
 		["guid"] = "860E0F8F49AE78FCA0828C8FB6D24044",
 		["guid_str"] = "W2XuiOPg",
-		["id"] = 160,
+		["id"] = 157,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
+				["length"] = 647,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_06.png",
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_03.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[br][br][br][size 17]「魏先生」。",
-			["text_align"] = "center",
+			["text"] = "[size 17]「魏先生」。",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 700,
+						["time"] = 400,
 					},
 					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["pos"] = {
+							["x"] = 700,
+							["y"] = 0,
+						},
+						["time"] = 0,
+					},
+					["tween"] = "RelativePositionChange",
 				},
 			},
 		},
 		["guid"] = "1C1C297C4FBC087F69032BB878E92E22",
 		["guid_str"] = "ePglFOSE",
-		["id"] = 161,
+		["id"] = 158,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
+				["length"] = 647,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_06.png",
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_03.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[br][br][size 17]好吧。",
-			["text_align"] = "center",
+			["text"] = "[size 17]好吧。",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 700,
+						["time"] = 400,
 					},
 					["tween"] = "FadeIn",
 				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["pos"] = {
+							["x"] = 700,
+							["y"] = 0,
+						},
+						["time"] = 0,
+					},
+					["tween"] = "RelativePositionChange",
+				},
 			},
 		},
-		["guid"] = "8CDE3D3E433B398B37F5C9A132BABDF1",
-		["guid_str"] = "RchDll2o",
-		["id"] = 162,
+		["guid"] = "3E0EF873464A824E88F73EB7511BE339",
+		["guid_str"] = "N37hCO1O",
+		["id"] = 159,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
+				["length"] = 647,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -7349,7 +7411,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_06.png",
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineCGBG/cg_grayline_03.png",
 			},
 			{
 				["config"] = {
@@ -7373,7 +7435,7 @@
 		},
 		["guid"] = "D9AA69E944BB77CCFF67A4B144E4C5AF",
 		["guid_str"] = "PcBjoxTu",
-		["id"] = 163,
+		["id"] = 160,
 		["just_auto_play"] = true,
 	},
 	{
@@ -7386,7 +7448,7 @@
 		},
 		["guid"] = "BEFC06EE4F36D350A678B983D3690CF5",
 		["guid_str"] = "f59WgEmk",
-		["id"] = 164,
+		["id"] = 161,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7420,7 +7482,13 @@
 		},
 		["guid"] = "4D60A27B45A69EFA39A89A8CB2E6FE65",
 		["guid_str"] = "ZqIEak3e",
-		["id"] = 165,
+		["id"] = 162,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/4/40006_Lighter_firestone",
+				["length"] = 1366,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -7438,7 +7506,7 @@
 		},
 		["guid"] = "2ED2DFA0466D36BD60E549887D7C0428",
 		["guid_str"] = "KImFBxWU",
-		["id"] = 166,
+		["id"] = 163,
 	},
 	{
 		["bg_info"] = {
@@ -7456,7 +7524,7 @@
 		},
 		["guid"] = "6ADE31C74EA46047A23938ACB9E53F5F",
 		["guid_str"] = "pjAzhshQ",
-		["id"] = 167,
+		["id"] = 164,
 		["text_sound_id"] = 0,
 	},
 	{
@@ -7485,7 +7553,8 @@
 		},
 		["guid"] = "67CEDB1242E182253AE1EC8EBD2735DA",
 		["guid_str"] = "WBuHXJim",
-		["id"] = 168,
+		["id"] = 165,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["text_sound_id"] = 0,
 	},
