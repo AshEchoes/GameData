@@ -7,9 +7,14 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s234_char_ssw",
+			["length"] = 126000,
+			["operation"] = 1,
+		},
 		["caption_info"] = {
 			["is_show_all"] = true,
-			["text"] = "[font cusong][size 24]— side story —\n",
+			["text"] = "[font zhunyuan][size 24][c 797979]— SIDE STORY —\n",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -24,7 +29,9 @@
 		["guid"] = "F5E5604242F9374BD67AEDBD26750DC0",
 		["guid_str"] = "wxnkThcT",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -51,6 +58,7 @@
 		["guid"] = "89283F704169CBD29A078CA6E20A94E9",
 		["guid_str"] = "1Uu9kF6U",
 		["id"] = 2,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 	},
 	{
@@ -65,6 +73,28 @@
 							},
 							["tween"] = "FadeIn",
 						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
+						},
 					},
 				},
 				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_02.png",
@@ -75,6 +105,32 @@
 		["guid"] = "0408D6A2496744F1588176BAB7E2C827",
 		["guid_str"] = "bQObpFOo",
 		["id"] = 3,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/bwg/bwg_amb_room_dark",
+				["length"] = 9376,
+				["loop"] = 1,
+				["volume"] = 0.40000000596046,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_02.png",
+			},
+			{
+			},
+		},
+		["guid"] = "81CD35984B2CBF1CD4ABD3947752F79F",
+		["guid_str"] = "bqmHGYS7",
+		["id"] = 4,
+		["introduce"] = {
+			["location"] = "海临中央警局",
+			["time"] = " ",
+		},
 		["just_auto_play"] = true,
 	},
 	{
@@ -143,7 +199,7 @@
 		},
 		["guid"] = "5B03073341D70B1A3FB2F59ED76CE735",
 		["guid_str"] = "peKA01tx",
-		["id"] = 4,
+		["id"] = 5,
 		["name"] = "二队队长",
 		["text"] = "谢谢岳副局，帮大忙了，不然还不知道要从哪下手。",
 	},
@@ -195,7 +251,7 @@
 		},
 		["guid"] = "5EE3499A47156C521193CCA3A91279DD",
 		["guid_str"] = "LG7jQf4x",
-		["id"] = 5,
+		["id"] = 6,
 		["name"] = "二队队长",
 		["text"] = "虽然已经请你帮过好多次忙，但还是要感叹一句，你的能力实在是太方便了，简直就是为了这份工作“量身定制”……",
 	},
@@ -230,7 +286,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -247,7 +303,7 @@
 		},
 		["guid"] = "18E110B745F2759D5F629883A3102F3D",
 		["guid_str"] = "DSt0nyBt",
-		["id"] = 6,
+		["id"] = 7,
 	},
 	{
 		["bg_info"] = {
@@ -297,7 +353,7 @@
 		},
 		["guid"] = "F697FC224CED18BC6367E8BFC410E5FB",
 		["guid_str"] = "liBbInEL",
-		["id"] = 7,
+		["id"] = 8,
 		["name"] = "岳重山",
 		["text"] = "没那么夸张，帮忙侦破是应该的。",
 	},
@@ -368,7 +424,14 @@
 		},
 		["guid"] = "41CFE129469BFAF302F37F9E383B983B",
 		["guid_str"] = "jL6LLhrt",
-		["id"] = 8,
+		["id"] = 9,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -424,7 +487,7 @@
 		},
 		["guid"] = "291098BB47673386C786CFA74B834C48",
 		["guid_str"] = "8xZ0uzni",
-		["id"] = 9,
+		["id"] = 10,
 	},
 	{
 		["bg_info"] = {
@@ -480,7 +543,7 @@
 		},
 		["guid"] = "1C93D4C54DD7C35A25C6E8B6123026DE",
 		["guid_str"] = "eG28mZh9",
-		["id"] = 10,
+		["id"] = 11,
 	},
 	{
 		["bg_info"] = {
@@ -530,7 +593,7 @@
 		},
 		["guid"] = "AD4CDA2240F57F8ACD5FE1AB5D98B320",
 		["guid_str"] = "mcx9mNqi",
-		["id"] = 11,
+		["id"] = 12,
 		["name"] = "岳重山",
 		["text"] = "……原来我们在会议室门口。",
 	},
@@ -582,7 +645,7 @@
 		},
 		["guid"] = "566260884DBD1C8AFBA650B64DD6724F",
 		["guid_str"] = "9YQE09kq",
-		["id"] = 12,
+		["id"] = 13,
 		["name"] = "二队队长",
 		["text"] = "啊，对，可不是。",
 	},
@@ -640,7 +703,7 @@
 		},
 		["guid"] = "C25552854F217B308E1C4D844F4876AD",
 		["guid_str"] = "BWEwottZ",
-		["id"] = 13,
+		["id"] = 14,
 	},
 	{
 		["bg_info"] = {
@@ -696,7 +759,7 @@
 		},
 		["guid"] = "07E1BBB443F1FBA6AF771F8633CD3418",
 		["guid_str"] = "G3KfEhCh",
-		["id"] = 14,
+		["id"] = 15,
 	},
 	{
 		["bg_info"] = {
@@ -746,7 +809,7 @@
 		},
 		["guid"] = "70B7EF7445F10CACB3AD799C5E4670A0",
 		["guid_str"] = "CQI3UxsZ",
-		["id"] = 15,
+		["id"] = 16,
 		["name"] = "岳重山",
 		["text"] = "你先回去吧，我去抽根烟。",
 	},
@@ -798,7 +861,7 @@
 		},
 		["guid"] = "26C2058549AD59A772530A96507FF173",
 		["guid_str"] = "7XsDLNxC",
-		["id"] = 16,
+		["id"] = 17,
 		["name"] = "二队队长",
 		["text"] = "好，回见副局。",
 	},
@@ -850,7 +913,7 @@
 		},
 		["guid"] = "0BDE402243F1E4189B1E5EBA59183607",
 		["guid_str"] = "F2IeyhyA",
-		["id"] = 17,
+		["id"] = 18,
 		["name"] = "岳重山",
 		["text"] = "回见。",
 	},
@@ -926,8 +989,23 @@
 		},
 		["guid"] = "47A1FF6043D22A5FC21B749219BBF9C4",
 		["guid_str"] = "SPUd7Ccv",
-		["id"] = 18,
+		["id"] = 19,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["time"] = 1400,
 	},
 	{
 		["bg_info"] = {
@@ -956,9 +1034,20 @@
 		},
 		["guid"] = "7E50AC6C46E439FC82207FA6C781F6EA",
 		["guid_str"] = "gvESas6i",
-		["id"] = 19,
+		["id"] = 20,
 		["name"] = "岳重山",
 		["text"] = "……",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -993,7 +1082,7 @@
 		},
 		["guid"] = "BE1072574558DEF54D6CC8A9578F653C",
 		["guid_str"] = "AhhqlUHw",
-		["id"] = 20,
+		["id"] = 21,
 	},
 	{
 		["bg_info"] = {
@@ -1005,7 +1094,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1022,7 +1111,7 @@
 		},
 		["guid"] = "194D18C94D601CA5EA81E09072346FE5",
 		["guid_str"] = "BiORReVd",
-		["id"] = 21,
+		["id"] = 22,
 		["name"] = "岳重山",
 		["text"] = "……已经这么淡了。",
 	},
@@ -1037,7 +1126,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17]估计再过一两年，甚至几个月，\n\n当年被香烟熏黑的痕迹就会彻底在一次次大扫除中消失。\n",
+			["text"] = "[size 17]估计再过一两年，甚至几个月，\n\n当年被香烟熏黑的痕迹就会彻底在一次次大扫除中消失。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -1077,7 +1166,7 @@
 		},
 		["guid"] = "1A6166C746904115B5DF4EAA6A745CA1",
 		["guid_str"] = "diy7tWX5",
-		["id"] = 22,
+		["id"] = 23,
 	},
 	{
 		["bg_info"] = {
@@ -1105,7 +1194,7 @@
 		},
 		["guid"] = "B2BCA10D4407B5027B61F1ABECAA0D60",
 		["guid_str"] = "OM1bY39A",
-		["id"] = 23,
+		["id"] = 24,
 	},
 	{
 		["bg_info"] = {
@@ -1143,7 +1232,8 @@
 		},
 		["guid"] = "E6798FEF4AF2AB2A77DD1D9071244411",
 		["guid_str"] = "DKE5ucTn",
-		["id"] = 24,
+		["id"] = 25,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 	},
 	{
@@ -1167,7 +1257,8 @@
 		},
 		["guid"] = "2CBE2791490B25CA99EB6C8808CBB8C4",
 		["guid_str"] = "4TIhClXu",
-		["id"] = 25,
+		["id"] = 26,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 	},
 	{
@@ -1195,7 +1286,7 @@
 		},
 		["guid"] = "1CD680FD4FD0AD72B7C4048DCB4D7379",
 		["guid_str"] = "xbxwKilE",
-		["id"] = 26,
+		["id"] = 27,
 	},
 	{
 		["bg_info"] = {
@@ -1223,7 +1314,7 @@
 		},
 		["guid"] = "8DBD5B1F43AED2D1F4A9048B28994745",
 		["guid_str"] = "RnvNdcPP",
-		["id"] = 27,
+		["id"] = 28,
 	},
 	{
 		["bg_info"] = {
@@ -1251,7 +1342,7 @@
 		},
 		["guid"] = "F400EAD74EE89FB2D4ACDB83203E90E5",
 		["guid_str"] = "RIXIYype",
-		["id"] = 28,
+		["id"] = 29,
 	},
 	{
 		["bg_info"] = {
@@ -1279,7 +1370,7 @@
 		},
 		["guid"] = "DAA91B3A424979184A9828896FC30CAB",
 		["guid_str"] = "TdXAAra1",
-		["id"] = 29,
+		["id"] = 30,
 	},
 	{
 		["bg_info"] = {
@@ -1313,7 +1404,7 @@
 		},
 		["guid"] = "B6128E324149FAD97B9FEA90C12E4F51",
 		["guid_str"] = "fogbvjIw",
-		["id"] = 30,
+		["id"] = 31,
 	},
 	{
 		["bg_info"] = {
@@ -1356,7 +1447,14 @@
 		},
 		["guid"] = "89F491D64A716A84038C8EA29E671E0E",
 		["guid_str"] = "GD6oyXKm",
-		["id"] = 31,
+		["id"] = 32,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1381,7 +1479,7 @@
 		},
 		["guid"] = "71C63CBE430FA57029A73589491D02B1",
 		["guid_str"] = "H3D9G3yw",
-		["id"] = 32,
+		["id"] = 33,
 		["name"] = "岳重山",
 		["text"] = "……",
 	},
@@ -1414,7 +1512,7 @@
 		},
 		["guid"] = "CF411AA941E75D09A4718DB47C85AB95",
 		["guid_str"] = "dJG9JHFv",
-		["id"] = 33,
+		["id"] = 34,
 	},
 	{
 		["bg_info"] = {
@@ -1439,7 +1537,7 @@
 		},
 		["guid"] = "A91D52D840B4EBD90859B5A93C71AEAE",
 		["guid_str"] = "QjFdzKER",
-		["id"] = 34,
+		["id"] = 35,
 		["name"] = "岳重山",
 		["text"] = "明天有两场会议……一次面谈……三个部门进度汇报……哦，还有档案筛查。",
 	},
@@ -1472,7 +1570,7 @@
 		},
 		["guid"] = "4ADC73B141DC3F302D6DDDB3A9A02333",
 		["guid_str"] = "VYZj46rG",
-		["id"] = 35,
+		["id"] = 36,
 	},
 	{
 		["bg_info"] = {
@@ -1485,7 +1583,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17]尤其是这个五年前、他轻而易举几乎没受什么困扰就“[c a3bdc8]莫名[/c]”获得的能力，\n\n更是把他“[c a3bdc8]困[/c]”在了一个个小房间内。\n",
+			["text"] = "[size 17]尤其是这个五年前、他轻而易举几乎没受什么困扰就莫名获得的能力，\n\n更是把他“[c a3bdc8]困[/c]”在了无数个闭塞的小小格子内。\n",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -1521,7 +1619,7 @@
 		},
 		["guid"] = "CAFC915240F22B7932449FB130E792D0",
 		["guid_str"] = "M5XifKCI",
-		["id"] = 36,
+		["id"] = 37,
 	},
 	{
 		["bg_info"] = {
@@ -1561,7 +1659,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_04.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
 			},
 		},
 		["caption_info"] = {
@@ -1581,7 +1679,8 @@
 		},
 		["guid"] = "7AA0944946EDF4B6AAB678A1097DE4BE",
 		["guid_str"] = "eLF2a1RU",
-		["id"] = 37,
+		["id"] = 38,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -1610,6 +1709,12 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1629,7 +1734,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_04.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
 			},
 		},
 		["caption_info"] = {
@@ -1677,7 +1782,7 @@
 		},
 		["guid"] = "923BE44C4A88710180DE9E8A50EC8841",
 		["guid_str"] = "lImGluox",
-		["id"] = 38,
+		["id"] = 39,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -1736,7 +1841,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_04.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
 			},
 		},
 		["caption_info"] = {
@@ -1777,7 +1882,7 @@
 		},
 		["guid"] = "5259279E44715257B43DA1A1CF5E68E8",
 		["guid_str"] = "KOXN9lkB",
-		["id"] = 39,
+		["id"] = 40,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -1827,7 +1932,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_04.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
 			},
 		},
 		["caption_info"] = {
@@ -1868,7 +1973,7 @@
 		},
 		["guid"] = "395727254DFA452B57FCF88F7B4B55D6",
 		["guid_str"] = "aFTSl8nv",
-		["id"] = 40,
+		["id"] = 41,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -1898,7 +2003,7 @@
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "n91jmpolice/n91jmpolice_yz/n91jmpolice_yz_action1",
 		},
-		["text"] = "我真的……我是拉伽什实验室第122个杀人犯……",
+		["text"] = "[c ca4243]我真的……我是拉伽什实验室第122个杀人犯……[/c]",
 	},
 	{
 		["bg_info"] = {
@@ -1918,7 +2023,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_04.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
 			},
 		},
 		["caption_info"] = {
@@ -1953,7 +2058,7 @@
 		},
 		["guid"] = "9F55F5B04E7CDC656206979E0F0856BD",
 		["guid_str"] = "JECuBEc3",
-		["id"] = 41,
+		["id"] = 42,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -2002,7 +2107,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_04.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
 			},
 		},
 		["caption_info"] = {
@@ -2012,7 +2117,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2037,7 +2142,7 @@
 		},
 		["guid"] = "DB5A21994EB802F45F286385B886029B",
 		["guid_str"] = "v454MCts",
-		["id"] = 42,
+		["id"] = 43,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -2086,7 +2191,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_04.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
 			},
 		},
 		["caption_info"] = {
@@ -2127,7 +2232,7 @@
 		},
 		["guid"] = "F51C07B24D521D88B4F828A3FDD45966",
 		["guid_str"] = "IExO6QwE",
-		["id"] = 43,
+		["id"] = 44,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -2177,7 +2282,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_04.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
 			},
 		},
 		["caption_info"] = {
@@ -2212,7 +2317,7 @@
 		},
 		["guid"] = "11DD56C7429357A384EA49AF2C02B310",
 		["guid_str"] = "WsPy13Tv",
-		["id"] = 44,
+		["id"] = 45,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -2267,7 +2372,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_04.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
 			},
 			{
 				["config"] = {
@@ -2333,7 +2438,7 @@
 		},
 		["guid"] = "8A796F24408E5559D06DA1A128F40BBD",
 		["guid_str"] = "dGXlZi4v",
-		["id"] = 45,
+		["id"] = 46,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -2352,6 +2457,12 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -2408,7 +2519,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2435,7 +2546,7 @@
 		},
 		["guid"] = "E61B83DF48C6EE81C47545A1D2996706",
 		["guid_str"] = "YjfLxefH",
-		["id"] = 46,
+		["id"] = 47,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -2517,7 +2628,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2537,7 +2648,7 @@
 		},
 		["guid"] = "C797501441663F24EF3533AD62AFBC14",
 		["guid_str"] = "kdXrsCoH",
-		["id"] = 47,
+		["id"] = 48,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -2618,12 +2729,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2643,7 +2754,7 @@
 		},
 		["guid"] = "2DBB9FF143FA6AC001EDCC97F61FC87F",
 		["guid_str"] = "1Pv7wqZz",
-		["id"] = 48,
+		["id"] = 49,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -2719,7 +2830,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2739,7 +2850,7 @@
 		},
 		["guid"] = "326AD1FB4A1A0636ED39388EF3B83A9C",
 		["guid_str"] = "AUgfo8BK",
-		["id"] = 49,
+		["id"] = 50,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -2821,7 +2932,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2841,7 +2952,7 @@
 		},
 		["guid"] = "D546906B48701199244C81A6B6C71D34",
 		["guid_str"] = "krU2pGTm",
-		["id"] = 50,
+		["id"] = 51,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -2927,7 +3038,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2947,7 +3058,7 @@
 		},
 		["guid"] = "32BCA0E3418ECE45EA91D6A5A0CE85BB",
 		["guid_str"] = "L8RhrqTe",
-		["id"] = 51,
+		["id"] = 52,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -3023,7 +3134,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3043,7 +3154,7 @@
 		},
 		["guid"] = "48EDBEC546FDECC76E0F55A5F2E9C246",
 		["guid_str"] = "K9nbpHrH",
-		["id"] = 52,
+		["id"] = 53,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -3125,7 +3236,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3145,7 +3256,7 @@
 		},
 		["guid"] = "4E4A83B44187F7E9518B71A19FAD9FBB",
 		["guid_str"] = "hTLrnjyQ",
-		["id"] = 53,
+		["id"] = 54,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -3231,7 +3342,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3251,7 +3362,7 @@
 		},
 		["guid"] = "F6C6D62B43E4B431BBA6FE882BF0F4CE",
 		["guid_str"] = "ya8yBUT6",
-		["id"] = 54,
+		["id"] = 55,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -3327,7 +3438,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3347,7 +3458,7 @@
 		},
 		["guid"] = "4AB40D404D5EA33019A18784E98D7A2C",
 		["guid_str"] = "cVizycsc",
-		["id"] = 55,
+		["id"] = 56,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -3429,7 +3540,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3449,7 +3560,7 @@
 		},
 		["guid"] = "412CD158420271EDB82F1FB9567E1EFA",
 		["guid_str"] = "4I9fZiYG",
-		["id"] = 56,
+		["id"] = 57,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -3535,7 +3646,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3555,7 +3666,7 @@
 		},
 		["guid"] = "3B393CCC4D39FAA878C6FF9E4B86C2A3",
 		["guid_str"] = "p0cq81Ch",
-		["id"] = 57,
+		["id"] = 58,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -3637,7 +3748,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3657,7 +3768,7 @@
 		},
 		["guid"] = "ED0973274E1CE9AB78D798BF28624771",
 		["guid_str"] = "9ur7zgdt",
-		["id"] = 58,
+		["id"] = 59,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -3738,12 +3849,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "smile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3763,7 +3874,7 @@
 		},
 		["guid"] = "3B7D615B4D748F5540A0F7B41BEEE8C8",
 		["guid_str"] = "KUw0zy9n",
-		["id"] = 59,
+		["id"] = 60,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -3845,7 +3956,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3865,7 +3976,7 @@
 		},
 		["guid"] = "F82F8FC745967EA6A09659885964ED9B",
 		["guid_str"] = "FGqE6Upv",
-		["id"] = 60,
+		["id"] = 61,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -3951,7 +4062,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3971,7 +4082,7 @@
 		},
 		["guid"] = "31E6ED294F8A15AC0DDE128FAE2AEA12",
 		["guid_str"] = "eInQeaPC",
-		["id"] = 61,
+		["id"] = 62,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -4053,7 +4164,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4073,7 +4184,7 @@
 		},
 		["guid"] = "E96312374B7E5F627BCD5896FBB8BEFB",
 		["guid_str"] = "jWwL0sNp",
-		["id"] = 62,
+		["id"] = 63,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -4154,12 +4265,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4179,7 +4290,7 @@
 		},
 		["guid"] = "B743FA3148C15FB56FB6C6904663E2FE",
 		["guid_str"] = "Qn2QLZDr",
-		["id"] = 63,
+		["id"] = 64,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -4261,7 +4372,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4281,7 +4392,7 @@
 		},
 		["guid"] = "016C628C47E8AF491947FE99919069EF",
 		["guid_str"] = "ZCPXv442",
-		["id"] = 64,
+		["id"] = 65,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -4367,7 +4478,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4387,7 +4498,7 @@
 		},
 		["guid"] = "E828934541AA76DC4140C6982A11329C",
 		["guid_str"] = "8rAawIFk",
-		["id"] = 65,
+		["id"] = 66,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -4469,7 +4580,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4489,7 +4600,7 @@
 		},
 		["guid"] = "15F8556B498A8708E3BD1493F2AA0D1A",
 		["guid_str"] = "G87Viors",
-		["id"] = 66,
+		["id"] = 67,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -4575,7 +4686,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4595,7 +4706,7 @@
 		},
 		["guid"] = "D61C09414F6E989AC25029B82D911864",
 		["guid_str"] = "sJQUG8NE",
-		["id"] = 67,
+		["id"] = 68,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -4671,7 +4782,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4691,7 +4802,7 @@
 		},
 		["guid"] = "0D43600743901EB541F68CB2352E7A47",
 		["guid_str"] = "3k6Wx8fv",
-		["id"] = 68,
+		["id"] = 69,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -4773,7 +4884,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4793,7 +4904,7 @@
 		},
 		["guid"] = "41934864495049DB1B8E12914774CDB8",
 		["guid_str"] = "aCpw7s4v",
-		["id"] = 69,
+		["id"] = 70,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -4874,12 +4985,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4899,7 +5010,7 @@
 		},
 		["guid"] = "3C0548104ADB23326AF53FB4EE6324E6",
 		["guid_str"] = "WTCnUFiz",
-		["id"] = 70,
+		["id"] = 71,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -4970,12 +5081,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4995,7 +5106,7 @@
 		},
 		["guid"] = "A53BB05E44B54AC930A5FE9C47156177",
 		["guid_str"] = "bfS1xrOP",
-		["id"] = 71,
+		["id"] = 72,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -5071,7 +5182,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5091,7 +5202,7 @@
 		},
 		["guid"] = "F8703E664DCB1D67D7C4C0AAC277E9A6",
 		["guid_str"] = "u7g4ZNoy",
-		["id"] = 72,
+		["id"] = 73,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -5173,7 +5284,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5193,7 +5304,7 @@
 		},
 		["guid"] = "E19459C84F966C537C3EA8A9BFA8FCBF",
 		["guid_str"] = "lWZARmsa",
-		["id"] = 73,
+		["id"] = 74,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -5274,12 +5385,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5299,7 +5410,7 @@
 		},
 		["guid"] = "236ACACE4F9CE810114EE187A23EFBB7",
 		["guid_str"] = "V4NcMsYO",
-		["id"] = 74,
+		["id"] = 75,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -5375,7 +5486,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5395,7 +5506,7 @@
 		},
 		["guid"] = "F77FDD2040830EFB5AF9F0B47157ED99",
 		["guid_str"] = "D92n1XC5",
-		["id"] = 75,
+		["id"] = 76,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -5477,7 +5588,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5497,7 +5608,7 @@
 		},
 		["guid"] = "F61484BD48931E675B31789D172D0D8E",
 		["guid_str"] = "8rBhhpFE",
-		["id"] = 76,
+		["id"] = 77,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -5589,7 +5700,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5609,7 +5720,7 @@
 		},
 		["guid"] = "659BD8054E291B0B70D499802B964500",
 		["guid_str"] = "48y2pt7h",
-		["id"] = 77,
+		["id"] = 78,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -5638,15 +5749,6 @@
 			},
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "n91jmpolice/n91jmpolice_yz/n91jmpolice_yz_action1",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 600,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
 		},
 		["text"] = "“以后只有你一个人记得”这件事，对不起。",
 	},
@@ -5701,7 +5803,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5721,7 +5823,7 @@
 		},
 		["guid"] = "F1990D0940E381914618B1A2A81A0E89",
 		["guid_str"] = "BGca95zj",
-		["id"] = 78,
+		["id"] = 79,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -5750,15 +5852,6 @@
 			},
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "n91jmpolice/n91jmpolice_yz/n91jmpolice_yz_action1",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 600,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
 		},
 		["text"] = "我逃跑了，对不起。",
 	},
@@ -5802,12 +5895,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5827,7 +5920,7 @@
 		},
 		["guid"] = "9CFFB9544A23AA6C6E28D3A1E98539C5",
 		["guid_str"] = "hNz0qHOP",
-		["id"] = 79,
+		["id"] = 80,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -5912,7 +6005,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n39police/n39police_centre_fjz_young_action1",
+				["path"] = "n39police/n39police_centre_fjz_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5939,7 +6032,8 @@
 		},
 		["guid"] = "F45836D24B8FE26C79E03DAC5DEA193B",
 		["guid_str"] = "LwoO49W4",
-		["id"] = 80,
+		["id"] = 81,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -5968,6 +6062,13 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
+				["length"] = 1153,
+				["volume"] = 1.5,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -5983,12 +6084,6 @@
 		["bg_info"] = {
 			{
 				["config"] = {
-					["color"] = {
-						0.39215686917305,
-						0.44313725829124,
-						0.54117649793625,
-						1.0,
-					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -5999,29 +6094,22 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
 		},
 		["guid"] = "DA37EE0D4D4F757AFD7439BFA1B1D709",
 		["guid_str"] = "3nbgEN5B",
-		["id"] = 81,
+		["id"] = 82,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.39398598670959,
-						0.44408190250397,
-						0.53953492641449,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -6043,21 +6131,13 @@
 		},
 		["guid"] = "E8751F1F48FFEC37CA1DF29EC992B150",
 		["guid_str"] = "ISwhVZfz",
-		["id"] = 82,
+		["id"] = 83,
 		["is_white_base_bg"] = true,
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.39398598670959,
-						0.44408190250397,
-						0.53953492641449,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -6080,21 +6160,13 @@
 		},
 		["guid"] = "2AF3DEB740A721ADDC4B2CA93F37763D",
 		["guid_str"] = "NBZlD7lV",
-		["id"] = 83,
+		["id"] = 84,
 		["is_white_base_bg"] = true,
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.39398598670959,
-						0.44408190250397,
-						0.53953492641449,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -6117,21 +6189,13 @@
 		},
 		["guid"] = "D32F4AC145E57775F448109C47EB136E",
 		["guid_str"] = "O7koPlp9",
-		["id"] = 84,
+		["id"] = 85,
 		["is_white_base_bg"] = true,
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.39398598670959,
-						0.44408190250397,
-						0.53953492641449,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -6154,19 +6218,13 @@
 		},
 		["guid"] = "FE91F6FD40475FE2796885A86A9B0950",
 		["guid_str"] = "cL2S4ZzH",
-		["id"] = 85,
+		["id"] = 86,
 		["is_white_base_bg"] = true,
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
-					["color"] = {
-						0.39398598670959,
-						0.44408190250397,
-						0.53953492641449,
-						1.0,
-					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -6177,7 +6235,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -6200,7 +6258,8 @@
 		},
 		["guid"] = "B79F9EDA4A164DC5F3DED8BB56B9DF3F",
 		["guid_str"] = "xF36H44L",
-		["id"] = 86,
+		["id"] = 87,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 	},
@@ -6228,14 +6287,15 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
 		},
 		["guid"] = "D134E7C848641E57DD1F5F848460947A",
 		["guid_str"] = "EkYBR4Cy",
-		["id"] = 87,
+		["id"] = 88,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6263,6 +6323,13 @@
 				},
 			},
 		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6279,7 +6346,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -6314,7 +6381,7 @@
 		},
 		["guid"] = "274679C441FDFA9261F353960C368B4B",
 		["guid_str"] = "JaIbmdwK",
-		["id"] = 88,
+		["id"] = 89,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6350,7 +6417,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -6372,20 +6439,11 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
 			},
 		},
 		["guid"] = "2D1D51B94E7D4C009FD081ACC8B32275",
 		["guid_str"] = "Rra2yFbR",
-		["id"] = 89,
+		["id"] = 90,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6421,7 +6479,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -6447,7 +6505,7 @@
 		},
 		["guid"] = "9296C7094F882A68A7DB14BFFDA6E45F",
 		["guid_str"] = "7UpFGYzQ",
-		["id"] = 90,
+		["id"] = 91,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6483,7 +6541,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -6509,7 +6567,7 @@
 		},
 		["guid"] = "4D63335D447527FD193BDE979516DE7D",
 		["guid_str"] = "pkFLHpFh",
-		["id"] = 91,
+		["id"] = 92,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6545,7 +6603,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -6571,7 +6629,7 @@
 		},
 		["guid"] = "52D3CBE84503360B516C4586B25D3372",
 		["guid_str"] = "adEMJ769",
-		["id"] = 92,
+		["id"] = 93,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6590,7 +6648,7 @@
 			},
 		},
 		["name"] = "红队",
-		["text"] = "你们对这个职业有过任何程度的“动摇”，无论倾斜于哪方，这次实习的目的都达到了。",
+		["text"] = "对这个职业有过任何程度的“动摇”，无论倾斜于哪方，这次实习的目的都达到了。",
 	},
 	{
 		["bg_info"] = {
@@ -6607,7 +6665,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -6633,7 +6691,7 @@
 		},
 		["guid"] = "039A59E64A160C65564BEAAACF627003",
 		["guid_str"] = "fS6TL4M2",
-		["id"] = 93,
+		["id"] = 94,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6669,7 +6727,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -6695,7 +6753,7 @@
 		},
 		["guid"] = "304408CD4B1DFA280E395F88E54E47DD",
 		["guid_str"] = "tyct4JVS",
-		["id"] = 94,
+		["id"] = 95,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6731,7 +6789,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -6757,7 +6815,7 @@
 		},
 		["guid"] = "3F3B717240B1DCF73D13D18C3DF1ABA7",
 		["guid_str"] = "vvOLXHaF",
-		["id"] = 95,
+		["id"] = 96,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6793,7 +6851,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -6819,7 +6877,7 @@
 		},
 		["guid"] = "5FD2376A47D7E881CD6477AF075E9F54",
 		["guid_str"] = "2aLEBnyo",
-		["id"] = 96,
+		["id"] = 97,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6855,7 +6913,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -6881,7 +6939,7 @@
 		},
 		["guid"] = "2F6D3C16415F44BDC6349FA556EFDB19",
 		["guid_str"] = "p7LYz5Gz",
-		["id"] = 97,
+		["id"] = 98,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6900,7 +6958,7 @@
 			},
 		},
 		["name"] = "红队",
-		["text"] = "至少放在你们身上，这不对，太轻了。它很重，你们写下自己名字的时候感受不到笔的重量。",
+		["text"] = "至少放在你们身上，这不对，太轻了。\n它很重，你们写下自己名字的时候感受不到笔的重量。",
 	},
 	{
 		["bg_info"] = {
@@ -6917,7 +6975,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -6943,7 +7001,7 @@
 		},
 		["guid"] = "32CD70A14BA738C2C6AF228FAE12CCEB",
 		["guid_str"] = "HurXWXDv",
-		["id"] = 98,
+		["id"] = 99,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -6979,7 +7037,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -7005,7 +7063,7 @@
 		},
 		["guid"] = "23C09A194B50C9CC5F63419036C624BA",
 		["guid_str"] = "oKs1O8Rm",
-		["id"] = 99,
+		["id"] = 100,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -7041,7 +7099,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -7067,7 +7125,7 @@
 		},
 		["guid"] = "9F199FF749A9B5761552BAB32132594B",
 		["guid_str"] = "rE3CQJf5",
-		["id"] = 100,
+		["id"] = 101,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -7103,7 +7161,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -7129,7 +7187,7 @@
 		},
 		["guid"] = "6E610B294015D82795DE3CB0FB0C1059",
 		["guid_str"] = "fkkyflFv",
-		["id"] = 101,
+		["id"] = 102,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -7174,7 +7232,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_police_hall_day01.png",
 			},
 			{
 			},
@@ -7209,7 +7267,8 @@
 		},
 		["guid"] = "19963995435FEB81F88042AE2ADE2A72",
 		["guid_str"] = "QAUEZLvo",
-		["id"] = 102,
+		["id"] = 103,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -7237,6 +7296,19 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/bwg/bwg_amb_room_dark",
+				["length"] = 9376,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
+				["length"] = 1153,
+				["volume"] = 1.5,
+			},
+		},
+		["time"] = 1500,
 	},
 	{
 		["bg_info"] = {
@@ -7247,7 +7319,8 @@
 			},
 		},
 		["caption_info"] = {
-			["text"] = "[font cusong]海临中央警局很感谢你们的“誓言”。",
+			["is_show_all"] = true,
+			["text"] = "[font cusong][c 3665ff]海临中央警局很感谢你们的“誓言”。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -7261,7 +7334,7 @@
 		},
 		["guid"] = "D0F5B66146B600778BC50088C0B15CBE",
 		["guid_str"] = "6nMH58Dx",
-		["id"] = 103,
+		["id"] = 104,
 		["text_sound_id"] = 0,
 	},
 	{
@@ -7273,7 +7346,8 @@
 			},
 		},
 		["caption_info"] = {
-			["text"] = "[font cusong]也请各位保护好自己，除了警局，还有人也需要你们。",
+			["is_show_all"] = true,
+			["text"] = "[font cusong][c 3665ff]也请各位保护好自己，除了警局，还有人也需要你们。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -7287,19 +7361,13 @@
 		},
 		["guid"] = "61564F7F43C6284BD336B3838ABD6E00",
 		["guid_str"] = "M1NGX0P4",
-		["id"] = 104,
+		["id"] = 105,
 		["text_sound_id"] = 0,
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
-					["color"] = {
-						0.39215686917305,
-						0.44313725829124,
-						0.54117649793625,
-						1.0,
-					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -7310,7 +7378,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -7331,22 +7399,22 @@
 		},
 		["guid"] = "91541A1B44B2CE4AF4E6FDB13CFA3B3E",
 		["guid_str"] = "mwfMwoxE",
-		["id"] = 105,
+		["id"] = 106,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_daytime_quiet",
+				["length"] = 51692,
+				["loop"] = 1,
+			},
+		},
 		["text_sound_id"] = 0,
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.39398598670959,
-						0.44408190250397,
-						0.53953492641449,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -7368,21 +7436,19 @@
 		},
 		["guid"] = "9A6C0D2A49E5C990A37ED8AE2FC83B77",
 		["guid_str"] = "hSqEQHWm",
-		["id"] = 106,
+		["id"] = 107,
 		["is_white_base_bg"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_cellphone_ringtone_02",
+				["length"] = 2400,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.39398598670959,
-						0.44408190250397,
-						0.53953492641449,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -7405,19 +7471,13 @@
 		},
 		["guid"] = "983C811E46AEF7306FB4F6BB2AE17B34",
 		["guid_str"] = "sDvOo0Ik",
-		["id"] = 107,
+		["id"] = 108,
 		["is_white_base_bg"] = true,
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
-					["color"] = {
-						0.39398598670959,
-						0.44408190250397,
-						0.53953492641449,
-						1.0,
-					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -7430,7 +7490,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -7453,18 +7513,12 @@
 		},
 		["guid"] = "898B57CA49CABC9F9467FABCABDEC74A",
 		["guid_str"] = "2oSvzqe5",
-		["id"] = 108,
+		["id"] = 109,
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
-					["color"] = {
-						0.39398598670959,
-						0.44408190250397,
-						0.53953492641449,
-						1.0,
-					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -7477,7 +7531,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -7500,18 +7554,12 @@
 		},
 		["guid"] = "D61BFB7442286D7231A5C696A67653AA",
 		["guid_str"] = "cU894KQD",
-		["id"] = 109,
+		["id"] = 110,
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
-					["color"] = {
-						0.39398598670959,
-						0.44408190250397,
-						0.53953492641449,
-						1.0,
-					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -7524,7 +7572,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -7547,31 +7595,25 @@
 		},
 		["guid"] = "A46D15F443E6D0468A8E9F96402BE251",
 		["guid_str"] = "d76G8Wo5",
-		["id"] = 110,
+		["id"] = 111,
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
-					["color"] = {
-						0.39398598670959,
-						0.44408190250397,
-						0.53953492641449,
-						1.0,
-					},
 					["tween"] = {
 						{
 							["param"] = {
 								["delay"] = 0,
 								["end_alpha"] = 0.0,
 								["start_alpha"] = 0.69999998807907,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "AlphaChange",
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_city_street_09.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 			},
@@ -7586,7 +7628,7 @@
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 800,
+						["time"] = 2000,
 					},
 					["tween"] = "FadeOut",
 				},
@@ -7594,69 +7636,17 @@
 		},
 		["guid"] = "7B9805BC48723886A2FC18AE44502F7E",
 		["guid_str"] = "GE48YIqU",
-		["id"] = 111,
-		["just_auto_play"] = true,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "",
-			},
-			{
-			},
-		},
-		["guid"] = "3D6EE9434EA29AEE17FAC79535817FF4",
-		["guid_str"] = "U5FAsqJo",
 		["id"] = 112,
-		["jenga"] = {
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
 			{
-				["config"] = {
-					["last_px"] = 1572.0,
-					["last_py"] = 916.0,
-					["orig_x"] = 700,
-					["orig_y"] = 300,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["is_origin_size"] = false,
-				["lens"] = {
-					["attrs"] = {
-						["CF_MakeBottom_Dialog"] = 0.0,
-						["F_ScreenLightness"] = 1.0,
-						["F_ScreenSaturation"] = 0.0,
-					},
-					["in_time"] = 0,
-					["is_loop"] = true,
-					["material"] = "MI_UI_SaturationLightness",
-				},
-				["offset"] = {
-					700,
-					300,
-				},
-				["path"] = "interface/resource/Game/DialogActivityCG/activity_cg_end.png",
-				["template_type"] = "image",
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 0,
-							["time"] = 1500,
-						},
-						["tween"] = "FadeIn",
-					},
-					{
-						["param"] = {
-							["delay"] = 2000,
-							["delay_page"] = 0,
-							["time"] = 1500,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
+				["event"] = "event:/ambience/urban_daytime_quiet",
+				["length"] = 51692,
+				["stop"] = 1,
 			},
 		},
-		["just_auto_play"] = true,
-		["time"] = 3500,
+		["time"] = 2500,
 	},
 	{
 		["bg_info"] = {
@@ -7669,6 +7659,7 @@
 		["guid"] = "DA1182A342A4F035058B40BFB0FEA55A",
 		["guid_str"] = "uyV3zKZZ",
 		["id"] = 113,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -7694,7 +7685,95 @@
 					},
 					{
 						["param"] = {
-							["delay"] = 2000,
+							["delay"] = 3500,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeOut",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 0.89999997615814,
+							["scale_y"] = 0.89999997615814,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/chap6/memory_noise",
+				["length"] = 25730,
+			},
+			{
+				["event"] = "event:/sfx/story/5/3558_sfx_whoosh_away",
+				["length"] = 4500,
+				["volume"] = 0.5,
+			},
+			{
+				["event"] = "event:/sfx/common/whoosh/Common_Whoosh03",
+				["length"] = 1354,
+			},
+		},
+		["time"] = 5500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "3D6EE9434EA29AEE17FAC79535817FF4",
+		["guid_str"] = "U5FAsqJo",
+		["id"] = 114,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 1572.0,
+					["last_py"] = 916.0,
+					["orig_x"] = 700,
+					["orig_y"] = 320,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["lens"] = {
+					["attrs"] = {
+						["CF_MakeBottom_Dialog"] = 0.0,
+						["F_ScreenLightness"] = 1.0,
+						["F_ScreenSaturation"] = 0.0,
+					},
+					["in_time"] = 0,
+					["is_loop"] = true,
+					["material"] = "MI_UI_SaturationLightness",
+				},
+				["offset"] = {
+					700,
+					320,
+				},
+				["path"] = "interface/resource/Game/DialogActivityCG/activity_cg_end.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 3000,
 							["delay_page"] = 0,
 							["time"] = 1500,
 						},
@@ -7704,6 +7783,6 @@
 			},
 		},
 		["just_auto_play"] = true,
-		["time"] = 3500,
+		["time"] = 4500,
 	},
 }
