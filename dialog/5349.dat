@@ -1001,7 +1001,6 @@
 		},
 		["extra_sound"] = {
 			["delay"] = 700,
-			["event"] = "voice_ch_quest_story_episode5027_W2ct3shR",
 			["volume"] = 0.60000002384186,
 		},
 		["guid"] = "62BAC3B041D1D177F5544382D3F2B142",
@@ -1013,6 +1012,11 @@
 			{
 				["event"] = "event:/ambience/m007_amb_clear_wave",
 				["length"] = 61000,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/voice/ch/quest/story/episode5027/W2ct3shR",
+				["length"] = 6962,
 				["loop"] = 1,
 			},
 		},
@@ -1031,7 +1035,7 @@
 		["id"] = 26,
 		["name"] = "我",
 		["sound"] = {
-			["is_sustain"] = true,
+			["event"] = "1",
 		},
 		["text"] = "………………",
 		["text_info"] = {
@@ -1045,6 +1049,8 @@
 				},
 			},
 		},
+		["text_sound_id"] = 0,
+		["time"] = 1400,
 	},
 	{
 		["bg_info"] = {
@@ -1058,6 +1064,13 @@
 		["guid_str"] = "Z39qOiwc",
 		["id"] = 27,
 		["name"] = "我",
+		["soundfx"] = {
+			{
+				["event"] = "event:/voice/ch/quest/story/episode5027/W2ct3shR",
+				["length"] = 6962,
+				["stop"] = 1,
+			},
+		},
 		["text"] = "咳咳……",
 	},
 	{

@@ -4393,6 +4393,9 @@
 			},
 		},
 		["name"] = "温留",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5028_KNlQd71E",
+		},
 		["sound_control"] = {
 			["effect"] = 4,
 		},
@@ -4437,6 +4440,9 @@
 			},
 		},
 		["name"] = "温留",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5028_mWRdRZbM",
+		},
 		["sound_control"] = {
 			["effect"] = 4,
 		},
@@ -5214,10 +5220,6 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5290,33 +5292,8 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5330,6 +5307,26 @@
 							["time"] = 500,
 						},
 						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am34qh/am34qh_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
 					},
 				},
 			},
@@ -5395,21 +5392,6 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
 				["color"] = {
 					0.27450981736183,
 					0.27450981736183,
@@ -5418,10 +5400,6 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5437,6 +5415,7 @@
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am34qh/am34qh_action1",
 		},
 		["text"] = "你来了。",
 	},
@@ -5488,32 +5467,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5575,32 +5529,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5655,33 +5584,8 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5737,37 +5641,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5823,37 +5702,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "dislike",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5909,21 +5763,6 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "thinking",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "despair",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -5936,10 +5775,6 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -5953,8 +5788,9 @@
 			["effect"] = 4,
 		},
 		["speaker_info"] = {
-			["anim"] = "normal",
+			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am34qh/am34qh_action1",
 		},
 		["text"] = "…………",
 	},
@@ -5995,37 +5831,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "anger1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -6082,25 +5893,10 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]清和缓缓转过身来，无甚表情，可温留知道那绝非平静之色。",
+			["text"] = "[size 17]温留被勾起了些脾气，上前想要掰过眼前人的肩膀。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
 			{
 				["anim"] = "doubt",
 				["blur"] = {
@@ -6108,12 +5904,19 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 500,
+							["direction"] = "right",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
 				},
 			},
 		},
@@ -6163,25 +5966,10 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]他还未来得及开口询问，便突然注意到那方碑上一列列熟悉的名字在莫名闪烁。",
+			["text"] = "[size 17]还未来得及开口询问，他忽然注意到那方碑上不断浮现出一列列熟悉的名字。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
 			{
 				["anim"] = "doubt",
 				["blur"] = {
@@ -6189,12 +5977,20 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
 				},
 			},
 		},
@@ -6243,37 +6039,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -6329,37 +6100,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am34qh/am34qh_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
 				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -6416,7 +6162,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]清和眉宇间尽是悲悯之色，温留看着他，不知为何觉得有些陌生。",
+			["text"] = "[size 17]清和终于转过身，眉宇间尽是悲悯之色，温留看着他，不知为何觉得有些陌生，身体也不自觉地因本能退后了几步。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -6434,6 +6180,18 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
 			},
 			{
 				["anim"] = "doubt",
@@ -6442,12 +6200,29 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am71wl/am71wl_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["config"] = {
+								["last_px"] = 0,
+								["last_py"] = 0,
+								["orig_x"] = -300,
+								["orig_y"] = 0,
+								["scale"] = 1,
+								["state"] = 0,
+							},
+							["delay"] = 500,
+							["end_pos"] = {
+								["x"] = -300,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "PositionChange",
+					},
 				},
 			},
 		},
@@ -7442,7 +7217,7 @@
 			["align"] = "bottom",
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
-			["text"] = "[size 17]他从未见过如此强大纯粹的力量，也从未想过清和竟然……竟然就是自己寻找的龙族。",
+			["text"] = "[size 17]他从未见过如此强大纯粹的力量，也从未想过清和竟然就是自己一直在寻找的……",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -8133,6 +7908,7 @@
 		["guid"] = "9068B80247418482BBAAE68E79C82A17",
 		["guid_str"] = "x082INwQ",
 		["id"] = 125,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
