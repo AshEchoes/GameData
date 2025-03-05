@@ -22966,11 +22966,11 @@
 		["connect_prop_value"] = {
 		},
 		["cost"] = {
+			180,
 			240,
-			240,
-			240,
+			300,
 		},
-		["desc"] = "lh卡池ssr",
+		["desc"] = "同调者每施放4次普通攻击，其中第4次施放普通攻击时会选择1个敌方目标（目标会选择该次普通攻击伤害命中的目标中血量较多及精英首领单位），对目标位置造成半径100范围伤害为自身最终攻击{1}的炎元素伤害，该效果每个同调者每5秒最多触发1次",
 		["desc_type"] = 1,
 		["element_type"] = {
 			-1,
@@ -22983,17 +22983,16 @@
 		["is_encourage"] = false,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "lh卡池ssr",
+		["name"] = "烬灼连破",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
-				["param_product"] = 108,
 			},
 		},
 		["param_type"] = "num",
 		["passive_id"] = 101969,
 		["passive_lv"] = 3,
-		["passive_voc"] = 0,
+		["passive_voc"] = 80,
 		["point_back"] = 150,
 		["rarity"] = 3,
 		["recommend_attack_rate"] = 1,
@@ -23007,9 +23006,9 @@
 		["recommend_score_normal"] = 400,
 		["skill_type"] = 2,
 		["upgrade_value"] = {
-			0.1,
-			0.2,
-			0.3,
+			9,
+			18,
+			27,
 		},
 	},
 	[20230] = {
@@ -23024,7 +23023,7 @@
 			240,
 			240,
 		},
-		["desc"] = "lh队长",
+		["desc"] = "同调者的攻击速度提高{2}；且同调者施放普通攻击时，自身刻印攻击提高{1}，持续30秒，最多可叠加5次。\n上述效果炎元素同调者翻倍",
 		["desc_type"] = 1,
 		["element_type"] = {
 			-1,
@@ -23037,17 +23036,21 @@
 		["is_encourage"] = false,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "lh队长",
+		["name"] = "炽锋叠势",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
 				["param_product"] = 108,
 			},
+			{
+				["param_product"] = 114,
+				["param_value"] = 0.2,
+			},
 		},
 		["param_type"] = "num",
 		["passive_id"] = 101970,
 		["passive_lv"] = 3,
-		["passive_voc"] = 0,
+		["passive_voc"] = 80,
 		["point_back"] = 150,
 		["rarity"] = 3,
 		["recommend_attack_rate"] = 1,
@@ -23061,9 +23064,9 @@
 		["recommend_score_normal"] = 400,
 		["skill_type"] = 2,
 		["upgrade_value"] = {
-			0.1,
-			0.2,
-			0.3,
+			0.015,
+			0.03,
+			0.045,
 		},
 	},
 	[20231] = {
@@ -23074,28 +23077,28 @@
 		["connect_prop_value"] = {
 		},
 		["cost"] = {
-			240,
-			240,
-			240,
+			200,
+			200,
+			200,
 		},
-		["desc"] = "BP11",
+		["desc"] = "当有敌方目标处在炎元素区域时，同调者施展主动技能后场上所有同调者获得2层[link type='combat' tid='3']，通过该效果获得的[link type='combat' tid='3']不能超过{1}层",
 		["desc_type"] = 1,
 		["element_type"] = {
 			-1,
 		},
 		["encourage_trigger_condition"] = "",
-		["encourage_trigger_condition_desc"] = "",
+		["encourage_trigger_condition_desc"] = "敌方处于炎元素区域上时同调者施展主动技能获得激励",
 		["filter_element_mark"] = 0,
 		["icon"] = "core_252",
 		["id"] = 20231,
-		["is_encourage"] = false,
+		["is_encourage"] = true,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "BP11",
+		["name"] = "炎境激聚",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
-				["param_product"] = 108,
+				["param_product"] = 100,
 			},
 		},
 		["param_type"] = "num",
@@ -23108,16 +23111,16 @@
 		["recommend_autoskill"] = false,
 		["recommend_dps_rate"] = 1,
 		["recommend_first_level"] = false,
-		["recommend_heal_rate"] = 0,
+		["recommend_heal_rate"] = 1,
 		["recommend_rcskill_condi"] = {
 		},
 		["recommend_score_core"] = 1000,
 		["recommend_score_normal"] = 400,
-		["skill_type"] = 2,
+		["skill_type"] = 3,
 		["upgrade_value"] = {
-			0.1,
-			0.2,
-			0.3,
+			4,
+			7,
+			10,
 		},
 	},
 	[20232] = {
@@ -23236,11 +23239,11 @@
 		["connect_prop_value"] = {
 		},
 		["cost"] = {
-			240,
-			240,
-			240,
+			180,
+			180,
+			180,
 		},
-		["desc"] = "活动卡",
+		["desc"] = "施放战术终端技能时，场上所有同调者回复{1}秒异核充能",
 		["desc_type"] = 1,
 		["element_type"] = {
 			-1,
@@ -23253,11 +23256,10 @@
 		["is_encourage"] = false,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "活动卡",
+		["name"] = "战策充能",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
-				["param_product"] = 108,
 			},
 		},
 		["param_type"] = "num",
@@ -23277,9 +23279,9 @@
 		["recommend_score_normal"] = 400,
 		["skill_type"] = 2,
 		["upgrade_value"] = {
-			0.1,
-			0.2,
-			0.3,
+			10000,
+			20000,
+			30000,
 		},
 	},
 	[20235] = {

@@ -95,6 +95,12 @@
 		["guid_str"] = "5zGvjgMk",
 		["id"] = 1,
 		["name"] = "我",
+		["sound"] = {
+			["volume"] = 0.69999998807907,
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "[c a3bdc8]（没忍住……）[/c]",
 	},
 	{
@@ -618,7 +624,7 @@
 				},
 			},
 			{
-				["anim"] = "doubt",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1608,6 +1614,9 @@
 				},
 			},
 		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ambience/d20_amb_beach_day",
@@ -1676,9 +1685,15 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_1mikxFbV",
+		},
 		["guid"] = "76FFDD7748ADAE53C358A58C379C547D",
 		["guid_str"] = "1mikxFbV",
 		["id"] = 13,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1736,9 +1751,15 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_LrV8Tu6Y",
+		},
 		["guid"] = "D2503DBE4F9E31F709AE7B99C07707CB",
 		["guid_str"] = "LrV8Tu6Y",
 		["id"] = 14,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1784,7 +1805,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 200,
+								["time"] = 400,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -1877,7 +1898,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -1907,7 +1928,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -1918,6 +1939,9 @@
 		["guid_str"] = "9dJQ9hEx",
 		["id"] = 15,
 		["name"] = "我",
+		["sound"] = {
+			["volume"] = 0.89999997615814,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ambience/d20_amb_beach_day",
@@ -1931,6 +1955,26 @@
 			},
 		},
 		["text"] = "跟我回家？",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 2300,
+						["time"] = 300,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 0.0,
+						["start_alpha"] = 0.0,
+						["time"] = 0,
+					},
+					["tween"] = "AlphaChange",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2289,8 +2333,8 @@
 				},
 			},
 		},
-		["guid"] = "B2FB5B5141C34F65811597955FAA5D9A",
-		["guid_str"] = "eA39zhDB",
+		["guid"] = "947AE08B41219CCDCD36BC885AB93FD2",
+		["guid_str"] = "glcUb5JE",
 		["id"] = 18,
 		["name"] = "袁老师",
 		["text"] = "哈哈，你俩看着还挺有缘的~",
@@ -2462,6 +2506,482 @@
 			{
 			},
 		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n92dog_didi/n92dog_didi_action2",
+				["pos"] = {
+					50,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_action3",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n93reddyq/n93reddyq_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "B2FB5B5141C34F65811597955FAA5D9A",
+		["guid_str"] = "eA39zhDB",
+		["id"] = 20,
+		["name"] = "袁老师",
+		["text"] = "则哥担心自己恢复工作后没时间照顾？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.39215686917305,
+						0.49019607901573,
+						0.60784316062927,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.6000000238419,
+								["scale_y"] = 1.6000000238419,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["config"] = {
+									["last_px"] = 0,
+									["last_py"] = 0,
+									["orig_x"] = -30,
+									["orig_y"] = -300,
+									["scale"] = 1,
+									["state"] = 0,
+								},
+								["delay"] = 0,
+								["end_pos"] = {
+									["x"] = -30,
+									["y"] = -300,
+								},
+								["time"] = 0,
+							},
+							["tween"] = "PositionChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_dreamisland_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n92dog_didi/n92dog_didi_action2",
+				["pos"] = {
+					50,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_action3",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n93reddyq/n93reddyq_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "08D3EAEE415CACCEAC462B9E8552C4BD",
+		["guid_str"] = "VeGUg2Cb",
+		["id"] = 21,
+		["name"] = "我",
+		["text"] = "算是吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.39215686917305,
+						0.49019607901573,
+						0.60784316062927,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.6000000238419,
+								["scale_y"] = 1.6000000238419,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["config"] = {
+									["last_px"] = 0,
+									["last_py"] = 0,
+									["orig_x"] = -30,
+									["orig_y"] = -300,
+									["scale"] = 1,
+									["state"] = 0,
+								},
+								["delay"] = 0,
+								["end_pos"] = {
+									["x"] = -30,
+									["y"] = -300,
+								},
+								["time"] = 0,
+							},
+							["tween"] = "PositionChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_dreamisland_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n92dog_didi/n92dog_didi_action2",
+				["pos"] = {
+					50,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_action3",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n93reddyq/n93reddyq_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "E2E40EC14C85B79543A637BA3BF1A5C5",
+		["guid_str"] = "dfGUB750",
+		["id"] = 22,
+		["name"] = "袁老师",
+		["text"] = "那……我可以帮忙，或者寄养在我们公司也行，忘了么，我是宠物学校的。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.39215686917305,
+						0.49019607901573,
+						0.60784316062927,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.6000000238419,
+								["scale_y"] = 1.6000000238419,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["config"] = {
+									["last_px"] = 0,
+									["last_py"] = 0,
+									["orig_x"] = -30,
+									["orig_y"] = -300,
+									["scale"] = 1,
+									["state"] = 0,
+								},
+								["delay"] = 0,
+								["end_pos"] = {
+									["x"] = -30,
+									["y"] = -300,
+								},
+								["time"] = 0,
+							},
+							["tween"] = "PositionChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_dreamisland_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n92dog_didi/n92dog_didi_action2",
+				["pos"] = {
+					50,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_action3",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.39215686917305,
+					0.49019607901573,
+					0.58823531866074,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n93reddyq/n93reddyq_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "6CFBB778435615C793823DB154DA05E5",
+		["guid_str"] = "VWtE5Ci9",
+		["id"] = 23,
+		["name"] = "我",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.39215686917305,
+						0.49019607901573,
+						0.60784316062927,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.6000000238419,
+								["scale_y"] = 1.6000000238419,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["config"] = {
+									["last_px"] = 0,
+									["last_py"] = 0,
+									["orig_x"] = -30,
+									["orig_y"] = -300,
+									["scale"] = 1,
+									["state"] = 0,
+								},
+								["delay"] = 0,
+								["end_pos"] = {
+									["x"] = -30,
+									["y"] = -300,
+								},
+								["time"] = 0,
+							},
+							["tween"] = "PositionChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_dreamisland_01.png",
+			},
+			{
+			},
+		},
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
@@ -2546,7 +3066,7 @@
 		},
 		["guid"] = "3E9ED846455367C120C706A3169BB951",
 		["guid_str"] = "LVZVZPAi",
-		["id"] = 20,
+		["id"] = 24,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -2670,7 +3190,7 @@
 		},
 		["guid"] = "8F9B57F1405A975E399A8394680A72C6",
 		["guid_str"] = "4kS0AsH7",
-		["id"] = 21,
+		["id"] = 25,
 		["name"] = "我",
 		["text"] = "别舔，脏。",
 	},
@@ -2789,7 +3309,7 @@
 		},
 		["guid"] = "00C125CF4D77D9F8B8AB12B3831A7F82",
 		["guid_str"] = "eUNfA1HH",
-		["id"] = 22,
+		["id"] = 26,
 		["name"] = "我",
 		["text"] = "看着挺干净的，不太像是流浪狗，倒像是谁家走丢的。",
 	},
@@ -2908,7 +3428,7 @@
 		},
 		["guid"] = "0D89972A4C7D17FAA63AEA94ABCB308D",
 		["guid_str"] = "dVkWAzK3",
-		["id"] = 23,
+		["id"] = 27,
 		["name"] = "我",
 		["text"] = "先，放进屋看看情况吧。",
 	},
@@ -3027,7 +3547,7 @@
 		},
 		["guid"] = "1F96274E4F2944A029F2BB8351666656",
 		["guid_str"] = "iGPMW1Sa",
-		["id"] = 24,
+		["id"] = 28,
 		["name"] = "小狗",
 		["soundfx"] = {
 			{
@@ -3186,7 +3706,7 @@
 		},
 		["guid"] = "6E9AF9EA4B47D29B09508BB2A556FDF4",
 		["guid_str"] = "kqyclz4q",
-		["id"] = 25,
+		["id"] = 29,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -3219,7 +3739,7 @@
 		},
 		["guid"] = "E540795B445A131E95750F9350659787",
 		["guid_str"] = "p7TH6OFk",
-		["id"] = 26,
+		["id"] = 30,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -3270,7 +3790,7 @@
 		},
 		["guid"] = "EDB3CA5A4A98BE80ECCB50881F882738",
 		["guid_str"] = "6MgtkAgd",
-		["id"] = 27,
+		["id"] = 31,
 		["name"] = "袁老师",
 		["soundfx"] = {
 			{
@@ -3341,7 +3861,7 @@
 		},
 		["guid"] = "A8C3ACF94E96208DFD7A26BF504CC798",
 		["guid_str"] = "Ii9mZeNz",
-		["id"] = 28,
+		["id"] = 32,
 		["name"] = "我",
 		["soundfx"] = {
 			{
@@ -3400,7 +3920,7 @@
 		},
 		["guid"] = "6DA771874048FAA27C56908976FBDE66",
 		["guid_str"] = "SRxY2avv",
-		["id"] = 29,
+		["id"] = 33,
 		["name"] = "袁老师",
 		["text"] = "小狗不错啊。",
 	},
@@ -3452,7 +3972,7 @@
 		},
 		["guid"] = "58DC1BE74F63A079A226DDBE00AF5B6C",
 		["guid_str"] = "ezkglxN4",
-		["id"] = 30,
+		["id"] = 34,
 		["name"] = "袁老师",
 		["text"] = "我就知道哥你会收养它，毕竟你热心又是大好人~",
 	},
@@ -3532,7 +4052,14 @@
 		},
 		["guid"] = "5D6821C14CA087DCC6A2BE89124C3F00",
 		["guid_str"] = "IitK8YXq",
-		["id"] = 31,
+		["id"] = 35,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+				["volume"] = 0.40000000596046,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3600,7 +4127,7 @@
 		},
 		["guid"] = "C8C1E79F4FFDB9BA59F841B3F763FF25",
 		["guid_str"] = "fdRe2RX5",
-		["id"] = 32,
+		["id"] = 36,
 		["name"] = "袁老师",
 		["text"] = "也算是给你找点事情做，感觉哥你好像每天都不知道做什么，发呆都能发很久，虽然不好动有利于伤口恢复吧……但是……那个，今天看完医生后你去干嘛啦？",
 	},
@@ -3652,7 +4179,7 @@
 		},
 		["guid"] = "8E7B4159410EED8371120BAE9F17544F",
 		["guid_str"] = "H3O2rmzT",
-		["id"] = 33,
+		["id"] = 37,
 		["name"] = "我",
 		["text"] = "海边发呆。",
 	},
@@ -3753,7 +4280,7 @@
 		},
 		["guid"] = "217F62CF4361C6233257769330A50329",
 		["guid_str"] = "D1l1HN9T",
-		["id"] = 34,
+		["id"] = 38,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
@@ -3810,7 +4337,7 @@
 		},
 		["guid"] = "9D8AC6924AD51D2A8EAA23B48245930D",
 		["guid_str"] = "L3aEa94e",
-		["id"] = 35,
+		["id"] = 39,
 		["name"] = "袁老师",
 		["text"] = "这是……玻璃？哪来的？哥你拿它干嘛，很危险！",
 	},
@@ -3890,7 +4417,14 @@
 		},
 		["guid"] = "E33598164A5247B49EFA8CAF836732AA",
 		["guid_str"] = "Mj3aE28J",
-		["id"] = 36,
+		["id"] = 40,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+				["volume"] = 0.30000001192093,
+			},
+		},
 		["text_sound_id"] = 5,
 	},
 	{
@@ -3920,7 +4454,7 @@
 		},
 		["guid"] = "1C3DD364470EA4B0D03ECA8239B6DAF1",
 		["guid_str"] = "BSK0AY0l",
-		["id"] = 37,
+		["id"] = 41,
 		["text_sound_id"] = 5,
 	},
 	{
@@ -3950,7 +4484,7 @@
 		},
 		["guid"] = "96C2EC0940DE4171C356BDA964E3E2AE",
 		["guid_str"] = "8jHiN0le",
-		["id"] = 38,
+		["id"] = 42,
 	},
 	{
 		["bg_info"] = {
@@ -4018,7 +4552,7 @@
 		},
 		["guid"] = "DA6B8FC14F972A7E7A4D50B981B994E9",
 		["guid_str"] = "1nT9cnj1",
-		["id"] = 39,
+		["id"] = 43,
 		["name"] = "我",
 		["text"] = "海边发呆的时候捡的，有对小情侣说漂亮，有点好奇。",
 	},
@@ -4070,7 +4604,7 @@
 		},
 		["guid"] = "FAFDF6AC41C54BC7D2D36FAC8C2D5F8E",
 		["guid_str"] = "ixGf3jgV",
-		["id"] = 40,
+		["id"] = 44,
 		["name"] = "袁老师",
 		["text"] = "……哦。",
 	},
@@ -4122,7 +4656,7 @@
 		},
 		["guid"] = "D0CE6E6840E35EB5CEB7E7A99C1778F2",
 		["guid_str"] = "YfhhD52K",
-		["id"] = 41,
+		["id"] = 45,
 		["name"] = "袁老师",
 		["text"] = "哥……你是不是……",
 	},
@@ -4174,7 +4708,7 @@
 		},
 		["guid"] = "3F15B1184CC238741B74C98C8C887D7A",
 		["guid_str"] = "GQMWG6Od",
-		["id"] = 42,
+		["id"] = 46,
 		["name"] = "我",
 		["text"] = "嗯？",
 	},
@@ -4226,7 +4760,7 @@
 		},
 		["guid"] = "ACB51EFD4F00832D5AB19EB619A9EB1C",
 		["guid_str"] = "w7UdnM7H",
-		["id"] = 43,
+		["id"] = 47,
 		["name"] = "袁老师",
 		["text"] = "没、没什么。",
 	},
@@ -4353,7 +4887,7 @@
 		},
 		["guid"] = "286B48E3426F8E0F6A560EBBABEC5127",
 		["guid_str"] = "F2zEjT73",
-		["id"] = 44,
+		["id"] = 48,
 		["name"] = "袁老师",
 		["soundfx"] = {
 			{
@@ -4432,7 +4966,7 @@
 		},
 		["guid"] = "F5E3D30D47A87418C442E7843197E191",
 		["guid_str"] = "Xv6WW2bR",
-		["id"] = 45,
+		["id"] = 49,
 		["name"] = "小狗",
 		["soundfx"] = {
 			{
@@ -4580,7 +5114,7 @@
 		},
 		["guid"] = "45F5CAFE498CB65425DB18941D9FA91B",
 		["guid_str"] = "PTeT0qK1",
-		["id"] = 46,
+		["id"] = 50,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -4613,6 +5147,9 @@
 					},
 				},
 			},
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["soundfx"] = {
 			{
@@ -4727,7 +5264,7 @@
 		},
 		["guid"] = "143BCF154955984AD94C58A3D40D124D",
 		["guid_str"] = "jj9OyxDh",
-		["id"] = 47,
+		["id"] = 51,
 		["name"] = "我",
 		["text"] = "叫……",
 	},
@@ -4799,7 +5336,7 @@
 		},
 		["guid"] = "2C0CB26E4C051215153ED7BE77E0EA21",
 		["guid_str"] = "t8ysp3u2",
-		["id"] = 48,
+		["id"] = 52,
 		["name"] = "我",
 		["text"] = "天……",
 	},
@@ -4866,7 +5403,7 @@
 		},
 		["guid"] = "B4D20FC24F59246F66F519A716FC9375",
 		["guid_str"] = "145HbnEm",
-		["id"] = 49,
+		["id"] = 53,
 		["name"] = "袁老师",
 		["text"] = "什么？",
 	},
@@ -4938,7 +5475,7 @@
 		},
 		["guid"] = "8ABF8D6B432108BCB154B09F52012A08",
 		["guid_str"] = "ilRMEL53",
-		["id"] = 50,
+		["id"] = 54,
 		["name"] = "我",
 		["text"] = "没什么。",
 	},
@@ -5004,7 +5541,7 @@
 		},
 		["guid"] = "1CD27242464091C691D3EFB5B8A1C8CE",
 		["guid_str"] = "IVvH4EwA",
-		["id"] = 51,
+		["id"] = 55,
 	},
 	{
 		["bg_info"] = {
@@ -5074,7 +5611,7 @@
 		},
 		["guid"] = "5A84E1EB4058B82B68D46E8C3E5E9A1A",
 		["guid_str"] = "Sgc0bqzu",
-		["id"] = 52,
+		["id"] = 56,
 		["name"] = "我",
 		["text"] = "叫地地吧，看它很喜欢地板，看不上我的毯子。",
 	},
@@ -5141,7 +5678,7 @@
 		},
 		["guid"] = "377972544B76A83E989E848B719F0E49",
 		["guid_str"] = "9JRKqkED",
-		["id"] = 53,
+		["id"] = 57,
 		["name"] = "袁老师",
 		["text"] = "啊……？",
 	},
@@ -5246,7 +5783,7 @@
 		},
 		["guid"] = "A618EFEB466BF36503DE6287217F1112",
 		["guid_str"] = "eTz89vny",
-		["id"] = 54,
+		["id"] = 58,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["time"] = 2500,
@@ -5272,7 +5809,7 @@
 		},
 		["guid"] = "90AD47E545E0E647B92A80B27312D23B",
 		["guid_str"] = "DIYizg1X",
-		["id"] = 55,
+		["id"] = 59,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -5312,7 +5849,7 @@
 		},
 		["guid"] = "2E71550146B8546350CB36BC6665A190",
 		["guid_str"] = "GxAlbA9v",
-		["id"] = 56,
+		["id"] = 60,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -5330,7 +5867,7 @@
 		},
 		["guid"] = "819AB87F42E3E483FAE7E194E3C7445F",
 		["guid_str"] = "Tfa9hLxI",
-		["id"] = 57,
+		["id"] = 61,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5349,7 +5886,7 @@
 		},
 		["guid"] = "748EDBCF49D6A8AF7A5293B4D5C7BF51",
 		["guid_str"] = "7r2Ef2lQ",
-		["id"] = 58,
+		["id"] = 62,
 		["selection"] = {
 			5077,
 		},

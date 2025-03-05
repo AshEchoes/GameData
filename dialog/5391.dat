@@ -320,7 +320,7 @@
 		["id"] = 9,
 		["name"] = "我",
 		["speaker_info"] = {
-			["anim"] = "normal",
+			["anim"] = "smile",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
@@ -354,8 +354,10 @@
 		["guid"] = "878320044EE1FB6ABC6FAFA7D6FE5E94",
 		["guid_str"] = "gsRDGrMh",
 		["id"] = 10,
-		["is_total_play"] = true,
-		["just_auto_play"] = true,
+		["name"] = "袁老师",
+		["sound"] = {
+			["volume"] = 0.40000000596046,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/4/40005_door_knocks",
@@ -365,9 +367,46 @@
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "魏……则哥！哥！你在家么！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineSceneBG/bg_grayline_01.png",
+			},
+			{
+			},
+		},
+		["guid"] = "8CE6773749312B4310E59FA351252A26",
+		["guid_str"] = "CDJvnNPw",
+		["id"] = 11,
+		["name"] = "我",
+		["speaker_info"] = {
+			["anim"] = "doubt",
+			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
-		["time"] = 1000,
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActGrayLineSceneBG/bg_grayline_01.png",
+			},
+			{
+			},
+		},
+		["guid"] = "2B41D0DF49F09068EFA8538645EBFCA1",
+		["guid_str"] = "Hr2iQSbl",
+		["id"] = 12,
+		["name"] = "我",
+		["speaker_info"] = {
+			["anim"] = "doubt",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action3",
+		},
+		["text"] = "门没锁，可以直接进来。",
 	},
 	{
 		["bg_info"] = {
@@ -404,13 +443,19 @@
 		},
 		["guid"] = "F25063504884982AAE3FCC9C135E0EC1",
 		["guid_str"] = "580dSaEg",
-		["id"] = 11,
+		["id"] = 13,
 		["name"] = "袁老师",
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
 				["length"] = 649,
 				["volume"] = 6.0,
+			},
+			{
+				["dir"] = "center",
+				["event"] = "event:/sfx/story/blackout/avg_blackout_door_open",
+				["length"] = 1125,
+				["volume"] = 1.3999999761581,
 			},
 		},
 		["speaker_info"] = {
@@ -448,7 +493,7 @@
 		},
 		["guid"] = "2231FEDC422EA4C2A5D95F8341A101B7",
 		["guid_str"] = "F9XxSQUL",
-		["id"] = 12,
+		["id"] = 14,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -480,7 +525,7 @@
 		},
 		["guid"] = "F899572B4640E990DD129A8FEDAAF8BC",
 		["guid_str"] = "CULyYE5d",
-		["id"] = 13,
+		["id"] = 15,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -517,7 +562,7 @@
 		},
 		["guid"] = "23631C3344D0EB1BF8E176AA4FC0A930",
 		["guid_str"] = "kS8nvIbH",
-		["id"] = 14,
+		["id"] = 16,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -549,7 +594,7 @@
 		},
 		["guid"] = "59C1F5A14CDF14AB33C2FDB1C4B355DF",
 		["guid_str"] = "jLfsVZNl",
-		["id"] = 15,
+		["id"] = 17,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -586,7 +631,7 @@
 		},
 		["guid"] = "05C795A74FFEAD9C5B1CDA9A57860174",
 		["guid_str"] = "AYmM0S51",
-		["id"] = 16,
+		["id"] = 18,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -618,7 +663,7 @@
 		},
 		["guid"] = "8C2F552F4B4D7F30544F93847412364A",
 		["guid_str"] = "KQGHK5tz",
-		["id"] = 17,
+		["id"] = 19,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -648,7 +693,7 @@
 		},
 		["guid"] = "05CEB5654B63162D10A4D98F735DF5AA",
 		["guid_str"] = "WVTsjR98",
-		["id"] = 18,
+		["id"] = 20,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -693,7 +738,7 @@
 		},
 		["guid"] = "30EFA1AB4EA885087E1A798582B41479",
 		["guid_str"] = "hqvqSwhD",
-		["id"] = 19,
+		["id"] = 21,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -740,7 +785,7 @@
 		},
 		["guid"] = "022C20714A059FB028BBC4B40A2DE868",
 		["guid_str"] = "mBMLWn78",
-		["id"] = 20,
+		["id"] = 22,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -772,7 +817,7 @@
 		},
 		["guid"] = "0FFE185E459B91477A24CEAE7C52FA5A",
 		["guid_str"] = "sUYU1ZmC",
-		["id"] = 21,
+		["id"] = 23,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -809,7 +854,7 @@
 		},
 		["guid"] = "66CDCFDC498E10C93B36E597A8140A44",
 		["guid_str"] = "YA9eTsQd",
-		["id"] = 22,
+		["id"] = 24,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "serious",
@@ -841,7 +886,7 @@
 		},
 		["guid"] = "4B2CBBA047BA4C34FFB4599ACE25E558",
 		["guid_str"] = "8L8yoKsY",
-		["id"] = 23,
+		["id"] = 25,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -878,7 +923,7 @@
 		},
 		["guid"] = "2A4432C540808A788327248B16BA0DB3",
 		["guid_str"] = "j03huUng",
-		["id"] = 24,
+		["id"] = 26,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "serious",
@@ -910,7 +955,7 @@
 		},
 		["guid"] = "D592B24E4A43307CC3A3ECA59FC35F5D",
 		["guid_str"] = "vpHxMnO0",
-		["id"] = 25,
+		["id"] = 27,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -947,7 +992,7 @@
 		},
 		["guid"] = "E069CD2146CEADBBDB58B8904EF1A14E",
 		["guid_str"] = "C7EqVW9l",
-		["id"] = 26,
+		["id"] = 28,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "serious",
@@ -979,7 +1024,7 @@
 		},
 		["guid"] = "A4907BD5431FF4DFBE8FC2929F69B748",
 		["guid_str"] = "wNYzFJTe",
-		["id"] = 27,
+		["id"] = 29,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1016,7 +1061,7 @@
 		},
 		["guid"] = "B38E240B481C658EBDEF39B4F8E4605F",
 		["guid_str"] = "5qQPUuzY",
-		["id"] = 28,
+		["id"] = 30,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1054,7 +1099,7 @@
 		},
 		["guid"] = "7B6A4E6B4DA7B687065899B1641E8139",
 		["guid_str"] = "jYlMpnxk",
-		["id"] = 29,
+		["id"] = 31,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1086,7 +1131,7 @@
 		},
 		["guid"] = "F981799E49695AE212587EAD30D96E6D",
 		["guid_str"] = "7rDuQHKN",
-		["id"] = 30,
+		["id"] = 32,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1117,7 +1162,7 @@
 		},
 		["guid"] = "309A082F4BD0155C7CE1C49984243FE1",
 		["guid_str"] = "vmvnMCxq",
-		["id"] = 31,
+		["id"] = 33,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1154,7 +1199,7 @@
 		},
 		["guid"] = "630D245F45EE56858CBED68CE787227E",
 		["guid_str"] = "a92IPuL9",
-		["id"] = 32,
+		["id"] = 34,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -1186,7 +1231,7 @@
 		},
 		["guid"] = "C0430B00448C66BBD905DE9A436AA313",
 		["guid_str"] = "VWIFLCa1",
-		["id"] = 33,
+		["id"] = 35,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1243,7 +1288,7 @@
 		},
 		["guid"] = "CF3612134E9D66B120678DADB200D0C3",
 		["guid_str"] = "989xBlnk",
-		["id"] = 34,
+		["id"] = 36,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -1277,7 +1322,7 @@
 		},
 		["guid"] = "A8CE13D84CAA95B9E4EB67AD007F3C4E",
 		["guid_str"] = "ADFNNi6A",
-		["id"] = 35,
+		["id"] = 37,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1321,7 +1366,7 @@
 		},
 		["guid"] = "AC5C2A624CE3733651290A8C89BCFB66",
 		["guid_str"] = "CsiHsdAq",
-		["id"] = 36,
+		["id"] = 38,
 		["name"] = "袁老师",
 		["soundfx"] = {
 			{
@@ -1370,7 +1415,7 @@
 		},
 		["guid"] = "265ACA234EDE772166574D8595862A1D",
 		["guid_str"] = "3YFj3onW",
-		["id"] = 37,
+		["id"] = 39,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1402,7 +1447,7 @@
 		},
 		["guid"] = "D15836FB41FE5B673F9C099ACFFC29F8",
 		["guid_str"] = "SwooZeBY",
-		["id"] = 38,
+		["id"] = 40,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1444,7 +1489,7 @@
 		},
 		["guid"] = "110815844FBE65254C7B2E82B601E730",
 		["guid_str"] = "kfCxnQ0U",
-		["id"] = 39,
+		["id"] = 41,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1476,7 +1521,7 @@
 		},
 		["guid"] = "B645E04D446E0A51F8DA3DBA567F707D",
 		["guid_str"] = "dJ2gliJl",
-		["id"] = 40,
+		["id"] = 42,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1519,7 +1564,7 @@
 		},
 		["guid"] = "9083503447D950BFEA7A42A362B660BC",
 		["guid_str"] = "akJKZpKr",
-		["id"] = 41,
+		["id"] = 43,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -1559,7 +1604,7 @@
 		},
 		["guid"] = "D37CD1204061A2C1AC63D7B5713218F0",
 		["guid_str"] = "8YpxBzeO",
-		["id"] = 42,
+		["id"] = 44,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1591,7 +1636,7 @@
 		},
 		["guid"] = "6F0A8D9E42BEB44853250BBF0436759E",
 		["guid_str"] = "oYfTYkue",
-		["id"] = 43,
+		["id"] = 45,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1633,7 +1678,7 @@
 		},
 		["guid"] = "C434AD604F400C148E8CFAA25974ECF9",
 		["guid_str"] = "dW2k2O2I",
-		["id"] = 44,
+		["id"] = 46,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1665,7 +1710,7 @@
 		},
 		["guid"] = "43DFE70D49578D823D4501897C13FEAE",
 		["guid_str"] = "kTV9SzBP",
-		["id"] = 45,
+		["id"] = 47,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1696,7 +1741,7 @@
 		},
 		["guid"] = "6195348640C1131C4AD02B83F1F1289A",
 		["guid_str"] = "o9p44X25",
-		["id"] = 46,
+		["id"] = 48,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1778,7 +1823,7 @@
 		},
 		["guid"] = "7B86DD5D4A54EF30D456B5BFAEA04F66",
 		["guid_str"] = "0Cbum4BC",
-		["id"] = 47,
+		["id"] = 49,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -1839,7 +1884,7 @@
 		},
 		["guid"] = "1FB582C14DFEB74386E2049E48BC5D41",
 		["guid_str"] = "DUE6rC35",
-		["id"] = 48,
+		["id"] = 50,
 		["name"] = "地地",
 		["soundfx"] = {
 			{
@@ -1901,7 +1946,7 @@
 		},
 		["guid"] = "C9154ADD45DC7E8F7C95A186903ECC9A",
 		["guid_str"] = "yk6ZjcHR",
-		["id"] = 49,
+		["id"] = 51,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1963,7 +2008,7 @@
 		},
 		["guid"] = "195218B44C7DE1454921D1A54FAD1269",
 		["guid_str"] = "B9n7JzAi",
-		["id"] = 50,
+		["id"] = 52,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2020,7 +2065,7 @@
 		},
 		["guid"] = "116C1F634144833853A6B6821E93FCA8",
 		["guid_str"] = "OPkYyel6",
-		["id"] = 51,
+		["id"] = 53,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2124,7 +2169,7 @@
 		},
 		["guid"] = "EAC113624DEE28468953908F33A31D4B",
 		["guid_str"] = "7N3BSwCT",
-		["id"] = 52,
+		["id"] = 54,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2183,10 +2228,24 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["height"] = 200,
+			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17][indent]「[c 59abff]袁清[/c]」：医生姐姐，我哥他情况严重么？\n\n[indent]「[c a3bdc8]昆西[/c]」：小袁老师放心，魏先生配合度很高，注意休息，注意保持心态就好。\n\n[indent]「[c 59abff]袁清[/c]」：我看他经常头疼，是不是还得开点什么药啊，不然睡觉都睡不好。\n\n[indent]「[c a3bdc8]昆西[/c]」：不推荐用药，还是慢慢调理吧。",
+			["text"] = "[size 17][indent]「[c 59abff]袁清[/c]」：医生姐姐，我哥他情况严重么？",
 			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 60,
+						["end_alpha"] = 1.0,
+						["time"] = 300,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+			["tween_bg"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
@@ -2198,7 +2257,7 @@
 		},
 		["guid"] = "5F79680144FF621B4D64FEBE15374D5B",
 		["guid_str"] = "Zl0iF3bN",
-		["id"] = 53,
+		["id"] = 55,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2211,6 +2270,246 @@
 				},
 				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
 				["template_type"] = "image",
+			},
+		},
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_dreamisland_01.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 200,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.80000001192093,
+			["text"] = "[size 17][br][br][size 17][indent]「[c a3bdc8]昆西[/c]」：小袁老师放心，魏先生配合度很高，注意休息，注意保持心态就好。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 60,
+						["end_alpha"] = 1.0,
+						["time"] = 300,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_0002",
+		},
+		["guid"] = "A41EA0C645F0B70A4E5A38BFF6B5F409",
+		["guid_str"] = "npTgww0o",
+		["id"] = 56,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_dreamisland_01.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 200,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.80000001192093,
+			["text"] = "[size 17][br][br][size 17][indent]「[c 59abff]袁清[/c]」：我看他经常头疼，是不是还得开点什么药啊，不然睡觉都睡不好。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 60,
+						["end_alpha"] = 1.0,
+						["time"] = 300,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_0003",
+		},
+		["guid"] = "D53DF62141B06CF9CCED27AB6FACF96D",
+		["guid_str"] = "3GxJ7ORd",
+		["id"] = 57,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_dreamisland_01.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 200,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.80000001192093,
+			["text"] = "[size 17][br][br][size 17][indent]「[c a3bdc8]昆西[/c]」：不推荐用药，还是慢慢调理吧。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 60,
+						["end_alpha"] = 1.0,
+						["time"] = 300,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_0004",
+		},
+		["guid"] = "EDAD81A84ED8A097C6BF138F7212D0E4",
+		["guid_str"] = "gAvnFiWX",
+		["id"] = 58,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
 			},
 		},
 		["speaker_info"] = {
@@ -2285,7 +2584,7 @@
 		},
 		["guid"] = "DEE9FC1F4DCC8040563DD98A53F9A5DD",
 		["guid_str"] = "1tOFiOBZ",
-		["id"] = 54,
+		["id"] = 59,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2348,7 +2647,7 @@
 		},
 		["guid"] = "F188BE0B4B137D32A4347FAD91BAB720",
 		["guid_str"] = "IsLA69rS",
-		["id"] = 55,
+		["id"] = 60,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2403,7 +2702,7 @@
 		},
 		["guid"] = "96B8811048CF394347649590000393FF",
 		["guid_str"] = "FDiwbn4U",
-		["id"] = 56,
+		["id"] = 61,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2435,7 +2734,7 @@
 		},
 		["guid"] = "64A060F94F66F9982FA91CA79D971105",
 		["guid_str"] = "RrTxk0Ze",
-		["id"] = 57,
+		["id"] = 62,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2490,7 +2789,7 @@
 		},
 		["guid"] = "463B33AB4E2F919AD79C69AEF7DB5444",
 		["guid_str"] = "6ZWQMzV9",
-		["id"] = 58,
+		["id"] = 63,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2522,7 +2821,7 @@
 		},
 		["guid"] = "1A48A4CE481870DD697F8BAB285E918F",
 		["guid_str"] = "BqrlBqeg",
-		["id"] = 59,
+		["id"] = 64,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2577,7 +2876,7 @@
 		},
 		["guid"] = "31A0D05544FFC0C55F3D69A0CDBF60DA",
 		["guid_str"] = "4hIP73N4",
-		["id"] = 60,
+		["id"] = 65,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2609,7 +2908,7 @@
 		},
 		["guid"] = "4BD728254B8B75BD10409FA571C71E20",
 		["guid_str"] = "YxLGJ5vJ",
-		["id"] = 61,
+		["id"] = 66,
 		["name"] = "袁老师",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2672,7 +2971,7 @@
 		},
 		["guid"] = "02CD153843420736DAD247937C65FEF4",
 		["guid_str"] = "snhgwsmj",
-		["id"] = 62,
+		["id"] = 67,
 		["name"] = "地地",
 		["soundfx"] = {
 			{
@@ -2732,7 +3031,7 @@
 		},
 		["guid"] = "BCE49602497AA3E40A6FC4BDD670E15A",
 		["guid_str"] = "eaVFsYY6",
-		["id"] = 63,
+		["id"] = 68,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["speaker_info"] = {
@@ -2761,7 +3060,7 @@
 		},
 		["guid"] = "F258778047CA329E261ECE84172C89F6",
 		["guid_str"] = "oqsYAaao",
-		["id"] = 64,
+		["id"] = 69,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["speaker_info"] = {
@@ -2801,7 +3100,7 @@
 		},
 		["guid"] = "D8CA1E8B48808CB26E86B2B3564E58A1",
 		["guid_str"] = "7W1W6WHI",
-		["id"] = 65,
+		["id"] = 70,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -2853,7 +3152,7 @@
 		},
 		["guid"] = "351E9E6D4D215743F0519D8320E42FD5",
 		["guid_str"] = "fyXRTdJU",
-		["id"] = 66,
+		["id"] = 71,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
@@ -2902,7 +3201,7 @@
 		},
 		["guid"] = "0CA4746C4146DB0B002167B9D26F7DBD",
 		["guid_str"] = "L3RhbgsM",
-		["id"] = 67,
+		["id"] = 72,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
@@ -2951,7 +3250,7 @@
 		},
 		["guid"] = "44BE009140AA4D2139E6F6AE8E4308E6",
 		["guid_str"] = "uZiEdAV0",
-		["id"] = 68,
+		["id"] = 73,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
@@ -3000,7 +3299,7 @@
 		},
 		["guid"] = "C6678025484FD9F64D3407A0A6706FD4",
 		["guid_str"] = "uOew8jHN",
-		["id"] = 69,
+		["id"] = 74,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
@@ -3046,7 +3345,7 @@
 		},
 		["guid"] = "65D14DF14A7D1E5D30351F830D27887E",
 		["guid_str"] = "kTHDXjzZ",
-		["id"] = 70,
+		["id"] = 75,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -3107,7 +3406,7 @@
 		},
 		["guid"] = "CBD6F0A94E924717E8A4119B5A042B16",
 		["guid_str"] = "4qrkharo",
-		["id"] = 71,
+		["id"] = 76,
 		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
@@ -3217,7 +3516,7 @@
 		},
 		["guid"] = "57281B6247761E9EE4178AAB382A3423",
 		["guid_str"] = "R4jxaEE2",
-		["id"] = 72,
+		["id"] = 77,
 		["introduce"] = {
 			["location"] = "海临中央警局",
 			["time"] = "森罗历1104-03，春",
@@ -3341,7 +3640,7 @@
 		},
 		["guid"] = "87BB24BA4BDD449B7A87FFAD7183C2D8",
 		["guid_str"] = "grr5RPob",
-		["id"] = 73,
+		["id"] = 78,
 		["name"] = "实习新生A",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3415,7 +3714,7 @@
 		},
 		["guid"] = "75E9C8D0400C38C48B2BB2B12DB97D11",
 		["guid_str"] = "ZxznYcK1",
-		["id"] = 74,
+		["id"] = 79,
 		["name"] = "实习新生B",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3583,7 +3882,7 @@
 		},
 		["guid"] = "FAEF029348F47C8F7F89608905BBA30F",
 		["guid_str"] = "RpllTOnH",
-		["id"] = 75,
+		["id"] = 80,
 		["name"] = "郁泽",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3675,7 +3974,7 @@
 		},
 		["guid"] = "2BA24DA94F183A397E78EAB6D86A4863",
 		["guid_str"] = "3kIMZkpK",
-		["id"] = 76,
+		["id"] = 81,
 		["name"] = "岳重山",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3787,7 +4086,7 @@
 		},
 		["guid"] = "5D2C463543C3EF06556F6786122EEE5A",
 		["guid_str"] = "KEcv6x3s",
-		["id"] = 77,
+		["id"] = 82,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3822,7 +4121,7 @@
 		},
 		["guid"] = "746C3A8A47A8CE76E27A4395CBBB3AA0",
 		["guid_str"] = "ENDIe2ss",
-		["id"] = 78,
+		["id"] = 83,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3857,7 +4156,7 @@
 		},
 		["guid"] = "8BD127E0451BAEABE83267A662ED090F",
 		["guid_str"] = "Zd8uNVoT",
-		["id"] = 79,
+		["id"] = 84,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3917,7 +4216,7 @@
 		},
 		["guid"] = "65F3529B4B84349DD1D1D4BC665554C0",
 		["guid_str"] = "6hYVPyF7",
-		["id"] = 80,
+		["id"] = 85,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4009,7 +4308,7 @@
 		},
 		["guid"] = "5878021E4268CAA48C862583FF44B5EA",
 		["guid_str"] = "IA3OsMuS",
-		["id"] = 81,
+		["id"] = 86,
 		["name"] = "郁泽",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4101,7 +4400,7 @@
 		},
 		["guid"] = "0803AE6D4B895A52DB1A1EA1FA25BF40",
 		["guid_str"] = "q1dq63NF",
-		["id"] = 82,
+		["id"] = 87,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4193,7 +4492,7 @@
 		},
 		["guid"] = "BD3450C04D71DC907611AEB9D3DC7D8B",
 		["guid_str"] = "XwbfsvaO",
-		["id"] = 83,
+		["id"] = 88,
 		["name"] = "靳少严",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4319,7 +4618,7 @@
 		},
 		["guid"] = "D285FF924319D641EBBE9A9550F39AA0",
 		["guid_str"] = "cPRYpDQP",
-		["id"] = 84,
+		["id"] = 89,
 		["name"] = "十手卫",
 		["soundfx"] = {
 			{
@@ -4418,7 +4717,7 @@
 		},
 		["guid"] = "0C16A8E445658206AB6929BF2182B254",
 		["guid_str"] = "UWXv2hW4",
-		["id"] = 85,
+		["id"] = 90,
 		["name"] = "靳少严",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4510,7 +4809,7 @@
 		},
 		["guid"] = "1D54B71B4008E79D1DB8E99021D221A4",
 		["guid_str"] = "4oYsVYDG",
-		["id"] = 86,
+		["id"] = 91,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4646,7 +4945,7 @@
 		},
 		["guid"] = "9C5FB35B4A9EA15378422D9CDB7222FB",
 		["guid_str"] = "bGUiHGjp",
-		["id"] = 87,
+		["id"] = 92,
 		["name"] = "郁泽",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4782,7 +5081,7 @@
 		},
 		["guid"] = "71827B1C465BF2708BE0D8882EE5BA32",
 		["guid_str"] = "ynEiCfUq",
-		["id"] = 88,
+		["id"] = 93,
 		["name"] = "实习新生B",
 		["soundfx"] = {
 			{
@@ -4870,7 +5169,7 @@
 		},
 		["guid"] = "3568940E446005A2ED8C349D8E554A34",
 		["guid_str"] = "YrP0QUUg",
-		["id"] = 89,
+		["id"] = 94,
 		["name"] = "岳重山",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4957,7 +5256,7 @@
 		},
 		["guid"] = "1DE255884D88AD0331D7EB8CF825AAF0",
 		["guid_str"] = "ylkxXIKY",
-		["id"] = 90,
+		["id"] = 95,
 		["name"] = "实习新生B",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5038,7 +5337,7 @@
 		},
 		["guid"] = "200138424BACC81608D2DE96DE1DE2E7",
 		["guid_str"] = "3HEaKcSJ",
-		["id"] = 91,
+		["id"] = 96,
 		["name"] = "岳重山",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5164,7 +5463,7 @@
 		},
 		["guid"] = "14B8726B4626B49834326DB38C44154D",
 		["guid_str"] = "7K7gqobi",
-		["id"] = 92,
+		["id"] = 97,
 		["name"] = "实习新生C",
 		["soundfx"] = {
 			{
@@ -5226,7 +5525,7 @@
 		},
 		["guid"] = "65AEBBF74178CA592EB08CA2011CCF80",
 		["guid_str"] = "wkqwfUH0",
-		["id"] = 93,
+		["id"] = 98,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5324,7 +5623,7 @@
 		},
 		["guid"] = "091B6190414E8655A895B2AF6626C5DF",
 		["guid_str"] = "BwxFpo0l",
-		["id"] = 94,
+		["id"] = 99,
 		["name"] = "实习新生D",
 		["soundfx"] = {
 			{
@@ -5405,7 +5704,7 @@
 		},
 		["guid"] = "C5EA142745D1CCA597BEA9A4CD8107B0",
 		["guid_str"] = "uhci9RNM",
-		["id"] = 95,
+		["id"] = 100,
 		["name"] = "实习新生C",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5520,7 +5819,7 @@
 		},
 		["guid"] = "F4B3126F494C0ED27C43168DE67C3F36",
 		["guid_str"] = "AqHFMoHX",
-		["id"] = 96,
+		["id"] = 101,
 		["name"] = "实习新生A",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5605,7 +5904,7 @@
 		},
 		["guid"] = "EAEF52654C416971B08617933288876E",
 		["guid_str"] = "MoV2X1ND",
-		["id"] = 97,
+		["id"] = 102,
 		["name"] = "郁泽",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5666,7 +5965,7 @@
 		},
 		["guid"] = "60A8BA564A5CDCAA61D41E8A1D01CDB6",
 		["guid_str"] = "YvG6ICYG",
-		["id"] = 98,
+		["id"] = 103,
 		["name"] = "众人",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5776,7 +6075,7 @@
 		},
 		["guid"] = "1F0274CF49B1A62502A86E87BFD1064E",
 		["guid_str"] = "CBX8BRTC",
-		["id"] = 99,
+		["id"] = 104,
 		["name"] = "？？？",
 		["soundfx"] = {
 			{
@@ -5838,7 +6137,7 @@
 		},
 		["guid"] = "F78400F14300A443B17CDA92DC863EF2",
 		["guid_str"] = "4ie0Po3A",
-		["id"] = 100,
+		["id"] = 105,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5885,7 +6184,7 @@
 		},
 		["guid"] = "13AEA7EB4EEA3EFDC9E9D6B7DCAFE804",
 		["guid_str"] = "ANjrF0VQ",
-		["id"] = 101,
+		["id"] = 106,
 		["name"] = "女性警官",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5981,7 +6280,7 @@
 		},
 		["guid"] = "E478606A40D6AE28B175CEA848806E4E",
 		["guid_str"] = "cWStGsGW",
-		["id"] = 102,
+		["id"] = 107,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -6106,7 +6405,7 @@
 		},
 		["guid"] = "52C1B053415FD7E6A0E0E48283E71787",
 		["guid_str"] = "JngQc5Dr",
-		["id"] = 103,
+		["id"] = 108,
 		["name"] = "？？？",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6193,13 +6492,13 @@
 		},
 		["guid"] = "C9E8FB64440F405AE92A7AA94C3A9C6D",
 		["guid_str"] = "3udusBAq",
-		["id"] = 104,
+		["id"] = 109,
 		["name"] = "女性警官",
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "嗯，三个院校，一共9人，简历就是我们之前看的那些。",
+		["text"] = "嗯，三个院校，一共9人，简历就是之前我们看的那些。",
 	},
 	{
 		["bg_info"] = {
@@ -6280,7 +6579,7 @@
 		},
 		["guid"] = "DA0F0F124E193A6C5D7E33BAFC12AF6F",
 		["guid_str"] = "XykCOdOX",
-		["id"] = 105,
+		["id"] = 110,
 		["name"] = "？？？",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6386,7 +6685,7 @@
 		},
 		["guid"] = "3F6EE3B84F700B42F77557917DDAB1D3",
 		["guid_str"] = "PojveAQ4",
-		["id"] = 106,
+		["id"] = 111,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -6488,7 +6787,7 @@
 		},
 		["guid"] = "707BD0FB48E9FA243B71C382DD0D438F",
 		["guid_str"] = "7tQb0D3b",
-		["id"] = 107,
+		["id"] = 112,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -6555,7 +6854,7 @@
 		},
 		["guid"] = "D5C2A20B4800D6CBE6A2B6A8EAC5EC93",
 		["guid_str"] = "zXMS3SFm",
-		["id"] = 108,
+		["id"] = 113,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6617,7 +6916,7 @@
 		},
 		["guid"] = "D47F25214E961EAA09821F982224E01B",
 		["guid_str"] = "V8cQmeTZ",
-		["id"] = 109,
+		["id"] = 114,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6679,7 +6978,7 @@
 		},
 		["guid"] = "58E584A44F2F65519673DE96D09C5C19",
 		["guid_str"] = "RWENV7qD",
-		["id"] = 110,
+		["id"] = 115,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6741,7 +7040,7 @@
 		},
 		["guid"] = "CC6891AF4CDA88439BEDFA9692E4F37E",
 		["guid_str"] = "YgqznUhA",
-		["id"] = 111,
+		["id"] = 116,
 		["name"] = "众人",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6816,7 +7115,7 @@
 		},
 		["guid"] = "4988012942D567D31FA42081A8F5472B",
 		["guid_str"] = "1nNor7xm",
-		["id"] = 112,
+		["id"] = 117,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6878,7 +7177,7 @@
 		},
 		["guid"] = "C57D5F564AE76C2B5B3654B843DD54E9",
 		["guid_str"] = "lNymnRob",
-		["id"] = 113,
+		["id"] = 118,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6940,7 +7239,7 @@
 		},
 		["guid"] = "A92606474062B7EAC6701CA911EE7558",
 		["guid_str"] = "gCVWY05a",
-		["id"] = 114,
+		["id"] = 119,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7041,7 +7340,7 @@
 		},
 		["guid"] = "8AF7C8A0488BBEF366FCA7AADA20F0DE",
 		["guid_str"] = "ioSObhYx",
-		["id"] = 115,
+		["id"] = 120,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7142,7 +7441,7 @@
 		},
 		["guid"] = "EC4BCFA24DD8BF096600CF8E0CD4D932",
 		["guid_str"] = "y8AKxaUp",
-		["id"] = 116,
+		["id"] = 121,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7219,7 +7518,7 @@
 		},
 		["guid"] = "DE7F041A47237E5E0FD05F823A973F86",
 		["guid_str"] = "S5WSwt6r",
-		["id"] = 117,
+		["id"] = 122,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7267,7 +7566,7 @@
 		},
 		["guid"] = "B902600A41D86F8A384D0895A6C50E39",
 		["guid_str"] = "tlbdi2i4",
-		["id"] = 118,
+		["id"] = 123,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7344,8 +7643,11 @@
 		},
 		["guid"] = "67668E76496707A7FAF77FBF8E7D868C",
 		["guid_str"] = "iVdPlFO6",
-		["id"] = 119,
+		["id"] = 124,
 		["name"] = "十手卫",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7418,7 +7720,7 @@
 		},
 		["guid"] = "D93207D946C0F2EA6572AFB25258BD51",
 		["guid_str"] = "rAc2AIZy",
-		["id"] = 120,
+		["id"] = 125,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7517,7 +7819,7 @@
 		},
 		["guid"] = "591AFCF7484F112E4C0A36AB004B11F6",
 		["guid_str"] = "KNt86jf4",
-		["id"] = 121,
+		["id"] = 126,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7579,7 +7881,7 @@
 		},
 		["guid"] = "DDECBAF1451C0EE422DBC1BE15404DCA",
 		["guid_str"] = "Mu85eW3U",
-		["id"] = 122,
+		["id"] = 127,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7699,7 +8001,7 @@
 		},
 		["guid"] = "18B9A1BA42275E41B3B32CA40E673C5A",
 		["guid_str"] = "MdU9LJwF",
-		["id"] = 123,
+		["id"] = 128,
 		["name"] = "十手卫",
 		["soundfx"] = {
 			{
@@ -7805,7 +8107,7 @@
 		},
 		["guid"] = "511B9B0544C40FFA01540FA01DB25A06",
 		["guid_str"] = "smge86F3",
-		["id"] = 124,
+		["id"] = 129,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7907,7 +8209,7 @@
 		},
 		["guid"] = "110A3847419309C36E8D648B368F4B18",
 		["guid_str"] = "ERJdTvXW",
-		["id"] = 125,
+		["id"] = 130,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8000,7 +8302,7 @@
 		},
 		["guid"] = "583428B247E83F6AB73A0C83D8127799",
 		["guid_str"] = "zKpi04CM",
-		["id"] = 126,
+		["id"] = 131,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8104,7 +8406,7 @@
 		},
 		["guid"] = "322DD0684340B47C94DF499FAE95F953",
 		["guid_str"] = "d19rOqgL",
-		["id"] = 127,
+		["id"] = 132,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8203,7 +8505,7 @@
 		},
 		["guid"] = "831768254829499D4B306386A9ECA761",
 		["guid_str"] = "Hm6c77BR",
-		["id"] = 128,
+		["id"] = 133,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -8300,7 +8602,7 @@
 		},
 		["guid"] = "2F0506F24CF69A6781229498649BE5DE",
 		["guid_str"] = "IZiMhwqJ",
-		["id"] = 129,
+		["id"] = 134,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -8397,7 +8699,7 @@
 		},
 		["guid"] = "6213B7444257699578D9C0A1E0AF622B",
 		["guid_str"] = "VtX975s7",
-		["id"] = 130,
+		["id"] = 135,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -8499,7 +8801,7 @@
 		},
 		["guid"] = "C6A189D94952DF73572BC6A6556C1083",
 		["guid_str"] = "LsO5nuLJ",
-		["id"] = 131,
+		["id"] = 136,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8592,7 +8894,7 @@
 		},
 		["guid"] = "99F96BA342A2E2E594AB94835ABDF987",
 		["guid_str"] = "TpN11Ibv",
-		["id"] = 132,
+		["id"] = 137,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8691,7 +8993,7 @@
 		},
 		["guid"] = "7141814C436D691E66645C866B6FAB6D",
 		["guid_str"] = "zlCwCZ2n",
-		["id"] = 133,
+		["id"] = 138,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -8793,7 +9095,7 @@
 		},
 		["guid"] = "A0C752734BF255F269247CB583437E1F",
 		["guid_str"] = "v95I2kb1",
-		["id"] = 134,
+		["id"] = 139,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8886,7 +9188,7 @@
 		},
 		["guid"] = "23CE3C304E54F364D44A2781290010DC",
 		["guid_str"] = "mSHi8ag0",
-		["id"] = 135,
+		["id"] = 140,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8990,7 +9292,7 @@
 		},
 		["guid"] = "B1FD68BE4615D0367229A08247F0DDE8",
 		["guid_str"] = "QCuXsXe5",
-		["id"] = 136,
+		["id"] = 141,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9083,7 +9385,7 @@
 		},
 		["guid"] = "FAA985944049E9775799FDA713C22F83",
 		["guid_str"] = "LkVr9bi9",
-		["id"] = 137,
+		["id"] = 142,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9187,7 +9489,7 @@
 		},
 		["guid"] = "4B4676F149192C20662C52A3800D448C",
 		["guid_str"] = "CtN2MzHy",
-		["id"] = 138,
+		["id"] = 143,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9280,7 +9582,7 @@
 		},
 		["guid"] = "5F0BDEDF42931679715548B2B1542647",
 		["guid_str"] = "DMK7x3Pb",
-		["id"] = 139,
+		["id"] = 144,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9384,7 +9686,7 @@
 		},
 		["guid"] = "A8F26C7447AB49F590ECCBB24F36CB08",
 		["guid_str"] = "UEEYX5yk",
-		["id"] = 140,
+		["id"] = 145,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9483,7 +9785,7 @@
 		},
 		["guid"] = "19B7046348F3DF50DC4DA9B4254DE840",
 		["guid_str"] = "8BsnENHL",
-		["id"] = 141,
+		["id"] = 146,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -9574,7 +9876,7 @@
 		},
 		["guid"] = "40BAF7B84CB72467A01BCAA2B0413B0D",
 		["guid_str"] = "zvqFTv0Q",
-		["id"] = 142,
+		["id"] = 147,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9678,7 +9980,7 @@
 		},
 		["guid"] = "0977BD0C4CBD43E24C1743A29D17C7DE",
 		["guid_str"] = "QnQLS1kF",
-		["id"] = 143,
+		["id"] = 148,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9782,7 +10084,7 @@
 		},
 		["guid"] = "A401868D4328623A402C61836F364734",
 		["guid_str"] = "AMn8kSjL",
-		["id"] = 144,
+		["id"] = 149,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9875,7 +10177,7 @@
 		},
 		["guid"] = "8E05FDEE4A1E6EEFFDBF8389A437E9D7",
 		["guid_str"] = "hDHtDCeZ",
-		["id"] = 145,
+		["id"] = 150,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9968,7 +10270,7 @@
 		},
 		["guid"] = "7633C5094F0A17B2D5B122845AEF9166",
 		["guid_str"] = "WdgV0WjD",
-		["id"] = 146,
+		["id"] = 151,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -10072,7 +10374,7 @@
 		},
 		["guid"] = "74D2713D4CADF121DE8189A8F0254A88",
 		["guid_str"] = "ujYtnljW",
-		["id"] = 147,
+		["id"] = 152,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -10176,7 +10478,7 @@
 		},
 		["guid"] = "AABABEF04D9B2D58ED41BF8AA785C1EC",
 		["guid_str"] = "sr2nObY6",
-		["id"] = 148,
+		["id"] = 153,
 		["name"] = "红队",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -10269,7 +10571,7 @@
 		},
 		["guid"] = "09F1000F4DF1C12B34A68FABF7E96E97",
 		["guid_str"] = "nnNYlzPD",
-		["id"] = 149,
+		["id"] = 154,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -10387,7 +10689,7 @@
 		},
 		["guid"] = "998ABB9A4994F4226C632FA844C28BDE",
 		["guid_str"] = "g4whCym8",
-		["id"] = 150,
+		["id"] = 155,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["speaker_info"] = {

@@ -860,6 +860,34 @@
 			{
 			},
 		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n93reddyq/n93reddyq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["guid"] = "FBCD5A444BF81BC7E028D1957CFA681C",
 		["guid_str"] = "2CXirqsr",
 		["id"] = 27,
@@ -1288,7 +1316,7 @@
 				},
 			},
 			{
-				["anim"] = "frighten",
+				["anim"] = "soulout",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2388,7 +2416,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2440,7 +2468,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2842,6 +2870,7 @@
 		["guid"] = "19E1163A4FD86DA6C354E9AC1A4DF093",
 		["guid_str"] = "Vl0guqw1",
 		["id"] = 62,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3279,6 +3308,9 @@
 				},
 			},
 		},
+		["sound_control"] = {
+			["effect"] = 20,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/0-00/tv_static",
@@ -3426,6 +3458,9 @@
 				},
 			},
 		},
+		["sound_control"] = {
+			["effect"] = 20,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
@@ -3526,6 +3561,9 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_2gAs1FcB",
+		},
 		["guid"] = "56CDD2A549D592955874E0A4AB029418",
 		["guid_str"] = "eGiOP1vZ",
 		["id"] = 69,
@@ -3558,6 +3596,9 @@
 					},
 				},
 			},
+		},
+		["sound_control"] = {
+			["effect"] = 20,
 		},
 		["soundfx"] = {
 			{
@@ -3632,6 +3673,10 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["delay"] = 600,
+			["event"] = "voice_ch_quest_story_episode5027_liweRNTi",
+		},
 		["guid"] = "F15A66C34DCBAEEDB67CA9B891EE6751",
 		["guid_str"] = "liweRNTi",
 		["id"] = 70,
@@ -3665,6 +3710,12 @@
 				},
 			},
 		},
+		["sound"] = {
+			["event"] = "1",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/blackout/avg_blackout_leaves_wind-001",
@@ -3678,13 +3729,39 @@
 				["volume"] = 0.0,
 			},
 		},
+		["time"] = 4000,
 	},
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 300,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/DialogActivityActGrayLineSceneBG/bg_grayline_01.png",
 			},
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.89999997615814,
+								["start_alpha"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_white.png",
 			},
 		},
 		["caption_info"] = {
@@ -3723,6 +3800,7 @@
 		["guid"] = "B25406934D6EA23CF3A5238FD7FB714F",
 		["guid_str"] = "1xzB2sJU",
 		["id"] = 71,
+		["is_white_base_bg"] = true,
 		["name"] = "我",
 		["soundfx"] = {
 			{
@@ -4756,6 +4834,6 @@
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
-		["time"] = 1500,
+		["time"] = 1800,
 	},
 }

@@ -2367,7 +2367,7 @@
 		["guid_str"] = "SWzgF9fF",
 		["id"] = 43,
 		["name"] = "昆西医生",
-		["text"] = "那位病人当时的情况很糟糕，躯体化症状明显，失眠，焦虑，呼吸障碍，呕吐，甚至有过轻生的念头。",
+		["text"] = "那位病人当时的情况很糟糕，躯体化症状明显，失眠、焦虑、呼吸障碍、呕吐……甚至有过轻生的念头。",
 	},
 	{
 		["bg_info"] = {
@@ -3080,7 +3080,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3835,7 +3835,7 @@
 		["guid_str"] = "oSTFzQ1f",
 		["id"] = 71,
 		["name"] = "昆西医生",
-		["text"] = "他从小就梦想学医，又很聪明，竟然让他撞大运离开镇子，去了其他地方当学徒，后来甚至还有了正式求学的机会。",
+		["text"] = "他从小就梦想学医，又很聪明，竟然让他撞大运离开了镇子，去了其他地方当学徒，后来甚至还有了正式求学的机会。",
 	},
 	{
 		["bg_info"] = {
@@ -5135,7 +5135,7 @@
 		["guid_str"] = "DgJzTPXA",
 		["id"] = 94,
 		["name"] = "昆西医生",
-		["text"] = "那是个冬天，人却比今天还多，他就在外圈看，虽然看起来有些疲惫，但还是不掩饰喜欢，我凑巧停下来看了两眼表演，他还和我“科普”了几句乐队的信息，看起来很想找个人聊天。",
+		["text"] = "那是个冬天，人却比今天还多，他就站在外圈看，虽然看起来有些疲惫，但还是不掩饰喜欢，我凑巧停下来看了两眼表演，他还和我“科普”了几句乐队的信息，看起来很想找个人聊天。",
 	},
 	{
 		["bg_info"] = {
@@ -5740,7 +5740,7 @@
 		["guid_str"] = "5gg3T8Uy",
 		["id"] = 105,
 		["name"] = "昆西医生",
-		["text"] = "也谢谢魏先生让我看到这场久违的表演。",
+		["text"] = "也谢谢魏先生让我看到这场我不太懂的表演。",
 	},
 	{
 		["bg_info"] = {
@@ -6180,6 +6180,20 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 300,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
 		["guid"] = "E1B464B3421C1F702C0842B0CD2A1D7E",
 		["guid_str"] = "wIWyy8x6",
 		["id"] = 120,
@@ -6350,6 +6364,9 @@
 		["guid"] = "20B7C5AC493D8629B2F6A9AC976BF94D",
 		["guid_str"] = "XNk67ZMF",
 		["id"] = 125,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -6387,9 +6404,15 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_LXLDh5fq",
+		},
 		["guid"] = "B4D63DE140E334EDE70F7FAD7685E983",
 		["guid_str"] = "LXLDh5fq",
 		["id"] = 126,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -6427,9 +6450,15 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_Q7YIel0q",
+		},
 		["guid"] = "1EAEADDA4053B1A40E1487B8239785FE",
 		["guid_str"] = "Q7YIel0q",
 		["id"] = 127,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -6795,6 +6824,7 @@
 		["guid"] = "F61D26744113E27CED2B6FB93A99A728",
 		["guid_str"] = "M7TRKrwN",
 		["id"] = 141,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 	},
 	{
@@ -7114,6 +7144,7 @@
 		["guid"] = "7B2A5E3044542B20BA35FDA6A119ED7A",
 		["guid_str"] = "iLU1EI4i",
 		["id"] = 154,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -7150,6 +7181,7 @@
 				},
 			},
 		},
+		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
 				["delay"] = 400,
@@ -7157,6 +7189,7 @@
 				["length"] = 2588,
 			},
 		},
+		["time"] = 2800,
 	},
 	{
 		["bg_info"] = {
@@ -7378,7 +7411,7 @@
 					["param"] = {
 						["delay"] = 0,
 						["pos"] = {
-							["x"] = 700,
+							["x"] = 730,
 							["y"] = 0,
 						},
 						["time"] = 0,
@@ -7429,13 +7462,15 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = " ",
 			["text_align"] = "center",
 		},
 		["guid"] = "D9AA69E944BB77CCFF67A4B144E4C5AF",
 		["guid_str"] = "PcBjoxTu",
 		["id"] = 160,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 	},
 	{

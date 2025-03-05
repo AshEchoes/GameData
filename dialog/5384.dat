@@ -74,8 +74,13 @@
 				["event"] = "event:/sfx/story/ssw/avg_ssw_fill_cup",
 				["length"] = 3437,
 			},
+			{
+				["event"] = "event:/voice/ch/quest/story/episode5027/v2JR3AEd",
+				["length"] = 20507,
+				["loop"] = 1,
+			},
 		},
-		["time"] = 3500,
+		["time"] = 8000,
 	},
 	{
 		["bg_info"] = {
@@ -96,7 +101,7 @@
 								["delay"] = 0,
 								["end_alpha"] = 1.0,
 								["start_alpha"] = 0.5,
-								["time"] = 200,
+								["time"] = 800,
 							},
 							["tween"] = "AlphaChange",
 						},
@@ -108,13 +113,18 @@
 		["guid"] = "BDFD1F044FAE0E0502BB75BD1DC28AF5",
 		["guid_str"] = "v2JR3AEd",
 		["id"] = 4,
+		["is_total_play"] = true,
 		["name"] = "我",
+		["sound"] = {
+			["event"] = "1",
+		},
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
-		["text"] = "呕……",
+		["text"] = "呕…………",
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -152,11 +162,13 @@
 		["guid"] = "556E40EE4DDAB7D1272762B500E1B64F",
 		["guid_str"] = "vnjp9cGu",
 		["id"] = 5,
+		["is_total_play"] = true,
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -256,6 +268,13 @@
 		["guid_str"] = "TNogw81U",
 		["id"] = 7,
 		["name"] = "我",
+		["soundfx"] = {
+			{
+				["event"] = "event:/voice/ch/quest/story/episode5027/v2JR3AEd",
+				["length"] = 20507,
+				["stop"] = 1,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -511,6 +530,7 @@
 		["guid"] = "7B6511F1458AF9206ED1E9BD1A9DD7C3",
 		["guid_str"] = "33HjoIFf",
 		["id"] = 13,
+		["is_total_play"] = true,
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/3-2-pencil",

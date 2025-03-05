@@ -433,6 +433,17 @@
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["F_CenterX"] = 0.5,
+							["F_CenterY"] = 0.5,
+							["F_Size"] = 1.3,
+						},
+						["is_loop"] = false,
+						["material"] = "MI_UI_RadialBlurBlur",
+					},
+				},
 				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_museum_04.png",
 			},
 			{
@@ -481,7 +492,7 @@
 		["id"] = 9,
 		["name"] = "我",
 		["speaker_info"] = {
-			["anim"] = "normal",
+			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
@@ -1005,6 +1016,13 @@
 		["guid"] = "A998502D43D3BD59B02D89ABA4824C5F",
 		["guid_str"] = "VQbbzDDQ",
 		["id"] = 18,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+				["volume"] = 0.30000001192093,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -1130,7 +1148,7 @@
 		["id"] = 20,
 		["name"] = "我",
 		["speaker_info"] = {
-			["anim"] = "normal",
+			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
@@ -1340,8 +1358,9 @@
 							["F_CenterY"] = 0.5,
 							["F_Size"] = 2.0,
 						},
-						["is_loop"] = true,
+						["is_loop"] = false,
 						["material"] = "MI_UI_RadialBlurBlur",
+						["time"] = 4000,
 					},
 					["tween"] = {
 						{
@@ -1353,6 +1372,15 @@
 							},
 							["tween"] = "AlphaChange",
 						},
+						{
+							["param"] = {
+								["delay"] = 4000,
+								["end_alpha"] = 1.0,
+								["start_alpha"] = 0.60000002384186,
+								["time"] = 1000,
+							},
+							["tween"] = "AlphaChange",
+						},
 					},
 				},
 				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_dreamisland_01.png",
@@ -1360,10 +1388,23 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
 		["guid"] = "5129CB59485BBA91898DFC89B6647687",
 		["guid_str"] = "ZGt7VvnH",
 		["id"] = 26,
-		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1380,7 +1421,6 @@
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/activity_grayline/activity_grayline_touteng_loop.bk2",
-				["sustain_page_count"] = 2,
 				["template_type"] = "video",
 				["tween"] = {
 					{
@@ -1395,8 +1435,8 @@
 					},
 					{
 						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 1,
+							["delay"] = 6500,
+							["delay_page"] = 0,
 							["end_alpha"] = 0.0,
 							["start_alpha"] = 0.5,
 							["time"] = 600,
@@ -1406,58 +1446,19 @@
 				},
 			},
 		},
-		["just_auto_play"] = true,
+		["name"] = "我",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_L1BCur0a",
+		},
 		["soundfx"] = {
 			{
+				["delay"] = 600,
 				["event"] = "event:/sfx/story/karas/avg_karas_heartbeat",
 				["length"] = 4504,
 			},
 		},
-		["time"] = 3000,
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["lens"] = {
-						["attrs"] = {
-							["F_CenterX"] = 0.5,
-							["F_CenterY"] = 0.5,
-							["F_Size"] = 2.0,
-						},
-						["in_time"] = 0,
-						["is_loop"] = false,
-						["material"] = "MI_UI_RadialBlurBlur",
-						["out_time"] = 600,
-						["time"] = 20,
-					},
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["end_alpha"] = 1.0,
-								["start_alpha"] = 0.60000002384186,
-								["time"] = 600,
-							},
-							["tween"] = "AlphaChange",
-						},
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivityActYouniSceneBG/bg_dreamisland_01.png",
-			},
-			{
-			},
-		},
-		["guid"] = "7D50D60E4629F546E616599DDBDF1AAF",
-		["guid_str"] = "L1BCur0a",
-		["id"] = 27,
-		["name"] = "我",
-		["speaker_info"] = {
-			["anim"] = "closeeyeserious",
-			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am55ssw/am55ssw_action3",
-		},
 		["text"] = "啧……又来了。",
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -1475,7 +1476,7 @@
 		},
 		["guid"] = "9D14022746405B917F6BC88D70F5D27E",
 		["guid_str"] = "IZFHFE3k",
-		["id"] = 28,
+		["id"] = 27,
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
@@ -1522,7 +1523,7 @@
 		},
 		["guid"] = "D67EC41041DC61467E2516B75F39A724",
 		["guid_str"] = "ILx1o6io",
-		["id"] = 29,
+		["id"] = 28,
 		["name"] = "地地",
 		["soundfx"] = {
 			{
@@ -1559,12 +1560,21 @@
 		},
 		["guid"] = "59E5C95B4D716EF55604D9A35A3D4190",
 		["guid_str"] = "slnKJvZL",
-		["id"] = 30,
+		["id"] = 29,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["text"] = "我为什么会说你不吃狗粮？我们以前见过？还是……",
 	},
@@ -1591,7 +1601,7 @@
 		},
 		["guid"] = "DCB1D0184EBA625D1B956FB22D272BE1",
 		["guid_str"] = "LbM3JEOP",
-		["id"] = 31,
+		["id"] = 30,
 		["name"] = "地地",
 		["soundfx"] = {
 			{
@@ -1628,12 +1638,21 @@
 		},
 		["guid"] = "9C8B1DCA48F332D1B8F5EBBBACBD667B",
 		["guid_str"] = "JPVrzNAX",
-		["id"] = 32,
+		["id"] = 31,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["text"] = "还是我养过宠物。",
 	},
@@ -1660,7 +1679,7 @@
 		},
 		["guid"] = "295DCAC9470AE9751FA2109DA9C473C9",
 		["guid_str"] = "F8lm7UTx",
-		["id"] = 33,
+		["id"] = 32,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -1711,7 +1730,7 @@
 		},
 		["guid"] = "0B59EE164598CF54BA38B9BDAE8D1713",
 		["guid_str"] = "Rt54EWE1",
-		["id"] = 34,
+		["id"] = 33,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -1761,7 +1780,7 @@
 		},
 		["guid"] = "50F2CF0E4230050AB716C2BA8EFF206C",
 		["guid_str"] = "2bC8yS6O",
-		["id"] = 35,
+		["id"] = 34,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -1815,7 +1834,7 @@
 		},
 		["guid"] = "98F3535240C4DF7D2A1B5AB78E535D7E",
 		["guid_str"] = "Cpj1xaCh",
-		["id"] = 36,
+		["id"] = 35,
 		["name"] = "我",
 		["soundfx"] = {
 			{
@@ -1928,7 +1947,7 @@
 		},
 		["guid"] = "0E28374E43BE6DD9960ECD888645A9BE",
 		["guid_str"] = "2ZokjsWc",
-		["id"] = 37,
+		["id"] = 36,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1954,6 +1973,12 @@
 			},
 		},
 		["name"] = "昆西医生",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_GvV8brkh",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/01-12-whoosh",
@@ -2058,7 +2083,7 @@
 		},
 		["guid"] = "7FCFAE3542B5484D8C17D88BF8C4F3A3",
 		["guid_str"] = "9KHbhbTt",
-		["id"] = 38,
+		["id"] = 37,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2118,7 +2143,7 @@
 		},
 		["guid"] = "5EECFEAF41CD534DE03AF384EBB1B1BE",
 		["guid_str"] = "4Le07rl6",
-		["id"] = 39,
+		["id"] = 38,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -2150,7 +2175,7 @@
 		},
 		["guid"] = "CC7A19934ED02E69E9F6D2A901DC0832",
 		["guid_str"] = "0qzCnalS",
-		["id"] = 40,
+		["id"] = 39,
 		["name"] = "地地",
 		["soundfx"] = {
 			{
@@ -2187,7 +2212,7 @@
 		},
 		["guid"] = "AB4CD425488BBCD96D4E27B9DE642AB5",
 		["guid_str"] = "VQBUvh7S",
-		["id"] = 41,
+		["id"] = 40,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "closeeyesmile",
@@ -2239,7 +2264,7 @@
 		},
 		["guid"] = "59F228B24AEE3F94DFDD9195DEFB23A4",
 		["guid_str"] = "KrHVgYCY",
-		["id"] = 42,
+		["id"] = 41,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -2275,7 +2300,7 @@
 		},
 		["guid"] = "6BE20FB546B086C0D19F7C9961A23A42",
 		["guid_str"] = "iIdhY21c",
-		["id"] = 43,
+		["id"] = 42,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -2302,7 +2327,7 @@
 		},
 		["guid"] = "763EBD1C43E44BD9932E08B297650FDF",
 		["guid_str"] = "hH4sLU0O",
-		["id"] = 44,
+		["id"] = 43,
 	},
 	{
 		["bg_info"] = {
@@ -2320,7 +2345,7 @@
 		},
 		["guid"] = "53C536D8499E4FBB6A222FA9C628777D",
 		["guid_str"] = "XMxON8c3",
-		["id"] = 45,
+		["id"] = 44,
 	},
 	{
 		["bg_info"] = {
@@ -2354,7 +2379,7 @@
 		},
 		["guid"] = "2856FD3A4178DCEDAA2A178A625D7E09",
 		["guid_str"] = "ZJMmNUki",
-		["id"] = 46,
+		["id"] = 45,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2403,7 +2428,7 @@
 		},
 		["guid"] = "B7AF186E4F006861F6C0D2AD8B5986D1",
 		["guid_str"] = "pX309M2b",
-		["id"] = 47,
+		["id"] = 46,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -2426,7 +2451,7 @@
 		},
 		["guid"] = "C65B60B340EBC756A0B0668A4187992D",
 		["guid_str"] = "djYeEDRB",
-		["id"] = 48,
+		["id"] = 47,
 		["name"] = "路人妈妈",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2444,7 +2469,7 @@
 		},
 		["guid"] = "847ED856448EF138F08B1C97BB1AC3DB",
 		["guid_str"] = "riDNAEQE",
-		["id"] = 49,
+		["id"] = 48,
 		["name"] = "路人男孩",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2485,7 +2510,7 @@
 		},
 		["guid"] = "78D050184F20AE4F0352F1B28ADAAEFB",
 		["guid_str"] = "fU8stss0",
-		["id"] = 50,
+		["id"] = 49,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -2515,7 +2540,7 @@
 		},
 		["guid"] = "386BD6AC4CE2D642471CACBBEA9D986C",
 		["guid_str"] = "WtNmqcY7",
-		["id"] = 51,
+		["id"] = 50,
 		["name"] = "我",
 		["soundfx"] = {
 			{
@@ -2585,7 +2610,7 @@
 		},
 		["guid"] = "64948F434E990A3E3B77AAA41E1EC919",
 		["guid_str"] = "VWkhShhS",
-		["id"] = 52,
+		["id"] = 51,
 		["name"] = "地地",
 		["soundfx"] = {
 			{
@@ -2622,7 +2647,7 @@
 		},
 		["guid"] = "C16F86694493A82311ABD9B9FFB8E342",
 		["guid_str"] = "W297PJ9r",
-		["id"] = 53,
+		["id"] = 52,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "surprise",
@@ -2660,7 +2685,7 @@
 		},
 		["guid"] = "02C48E1B44A8A080B276F3A802939FB8",
 		["guid_str"] = "enE2seva",
-		["id"] = 54,
+		["id"] = 53,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2690,7 +2715,7 @@
 		},
 		["guid"] = "5761E29B4150BF772ABCC78EC995EC6F",
 		["guid_str"] = "PV8cjqpx",
-		["id"] = 55,
+		["id"] = 54,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2756,7 +2781,7 @@
 		},
 		["guid"] = "687750FD4320C7874A3C5589FBF9236C",
 		["guid_str"] = "QZLg1KZV",
-		["id"] = 56,
+		["id"] = 55,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -2793,7 +2818,7 @@
 		},
 		["guid"] = "F0679381427DF14ECDF29A9713889195",
 		["guid_str"] = "HoTWWhDn",
-		["id"] = 57,
+		["id"] = 56,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2816,7 +2841,7 @@
 		},
 		["guid"] = "4017B543455AEAACB4F42F9292482998",
 		["guid_str"] = "uAaK8Wbn",
-		["id"] = 58,
+		["id"] = 57,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2858,7 +2883,7 @@
 		},
 		["guid"] = "AEF120064B996AF20E9333984BBA7769",
 		["guid_str"] = "DqCLkJOV",
-		["id"] = 59,
+		["id"] = 58,
 		["name"] = "地地",
 		["soundfx"] = {
 			{
@@ -2901,7 +2926,7 @@
 		},
 		["guid"] = "771FF2B74DD43800AA8DE39E3BFAE325",
 		["guid_str"] = "3o0NOWL1",
-		["id"] = 60,
+		["id"] = 59,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2930,7 +2955,7 @@
 		},
 		["guid"] = "90A8A0B748E6C4A3D66D9D86E473DE42",
 		["guid_str"] = "sRaX5AlS",
-		["id"] = 61,
+		["id"] = 60,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -2968,7 +2993,7 @@
 		},
 		["guid"] = "591AFBD84D59A1666657B794630756C9",
 		["guid_str"] = "V3AjaX24",
-		["id"] = 62,
+		["id"] = 61,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2997,7 +3022,7 @@
 		},
 		["guid"] = "B94DF3DA4EE8896E9DEAB9B64C576BA7",
 		["guid_str"] = "fNyCcy2H",
-		["id"] = 63,
+		["id"] = 62,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3029,7 +3054,7 @@
 		},
 		["guid"] = "037FDFE540CB0FE1BA1F4B8FBF7DC8DC",
 		["guid_str"] = "Wp9fjhdb",
-		["id"] = 64,
+		["id"] = 63,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3086,7 +3111,7 @@
 		},
 		["guid"] = "CE3D605D4630ECCE8B45F4B0E5611808",
 		["guid_str"] = "OHUDwy3j",
-		["id"] = 65,
+		["id"] = 64,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3138,7 +3163,7 @@
 		},
 		["guid"] = "384F5DD34EA2156CC2810D82D434690C",
 		["guid_str"] = "uMwHcqZf",
-		["id"] = 66,
+		["id"] = 65,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
@@ -3179,7 +3204,7 @@
 		},
 		["guid"] = "53DB093A481458F0EAE4B19545985A3D",
 		["guid_str"] = "lWP2OmGP",
-		["id"] = 67,
+		["id"] = 66,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -3237,7 +3262,7 @@
 		},
 		["guid"] = "415C6FAA4E3EE3BE907A5FB7691E02F8",
 		["guid_str"] = "QCNiWEE2",
-		["id"] = 68,
+		["id"] = 67,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -3283,7 +3308,10 @@
 		},
 		["guid"] = "3FA71DA44FB2E753DD0B33A4F7F15510",
 		["guid_str"] = "OvOrJEYz",
-		["id"] = 69,
+		["id"] = 68,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -3325,9 +3353,15 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_RvPIx6gy",
+		},
 		["guid"] = "927AEACE419EEBD7529EB1951E75C1D1",
 		["guid_str"] = "RvPIx6gy",
-		["id"] = 70,
+		["id"] = 69,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -3369,9 +3403,15 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_2kisiwEb",
+		},
 		["guid"] = "45DB032A46E832FEC740CB922FDA27EE",
 		["guid_str"] = "2kisiwEb",
-		["id"] = 71,
+		["id"] = 70,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -3413,9 +3453,18 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_ghWhn8hy",
+		},
 		["guid"] = "9ED4A0F14DBCE40DFF270A80845D488A",
 		["guid_str"] = "ghWhn8hy",
-		["id"] = 72,
+		["id"] = 71,
+		["sound"] = {
+			["event"] = "1",
+		},
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -3426,6 +3475,7 @@
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
+		["time"] = 1900,
 	},
 	{
 		["bg_info"] = {
@@ -3460,7 +3510,7 @@
 		},
 		["guid"] = "82C65A4044DC8BF91888C8BC2A8EAEFA",
 		["guid_str"] = "es0S7Uo8",
-		["id"] = 73,
+		["id"] = 72,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3491,14 +3541,14 @@
 		},
 		["guid"] = "E5E92CA14219C852C961C4BBAE5CBEFD",
 		["guid_str"] = "l6TfI5RT",
-		["id"] = 74,
+		["id"] = 73,
 		["name"] = "我",
 		["speaker_info"] = {
-			["anim"] = "normal",
+			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
-		["text"] = "……",
+		["text"] = "……………………",
 	},
 	{
 		["bg_info"] = {
@@ -3516,7 +3566,7 @@
 		},
 		["guid"] = "62AAB62D499437CB0B5B09B6DE3ED705",
 		["guid_str"] = "zoG3XyNY",
-		["id"] = 75,
+		["id"] = 74,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3552,7 +3602,10 @@
 		},
 		["guid"] = "7C7AFF87449DCA1BE61B2D94DD0780CE",
 		["guid_str"] = "0nMHfTF8",
-		["id"] = 76,
+		["id"] = 75,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -3563,6 +3616,7 @@
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
+		["time"] = 1200,
 	},
 	{
 		["bg_info"] = {
@@ -3594,9 +3648,15 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_OLXjRLNS",
+		},
 		["guid"] = "E018C097460941755791939528BBA4FC",
 		["guid_str"] = "OLXjRLNS",
-		["id"] = 77,
+		["id"] = 76,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -3607,6 +3667,7 @@
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
+		["time"] = 800,
 	},
 	{
 		["bg_info"] = {
@@ -3632,7 +3693,7 @@
 		},
 		["guid"] = "FB33FCE346487C18EB69599F65709DC6",
 		["guid_str"] = "c0DBYMLN",
-		["id"] = 78,
+		["id"] = 77,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3657,7 +3718,7 @@
 		},
 		["guid"] = "303BD3FF491C5642C715EF9FA77A56DD",
 		["guid_str"] = "pgZBK2VJ",
-		["id"] = 79,
+		["id"] = 78,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3674,7 +3735,7 @@
 		},
 		["guid"] = "BFF0AA424290CF4C354ECFABF4FE377F",
 		["guid_str"] = "JkdG60Ag",
-		["id"] = 80,
+		["id"] = 79,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "boring",
@@ -3708,11 +3769,14 @@
 		},
 		["guid"] = "5D4D70EC4AD7C32CC6F9FC8F374DF6FF",
 		["guid_str"] = "1Vzj2BQP",
-		["id"] = 81,
+		["id"] = 80,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/3-2-pencil",
 				["length"] = 2588,
+				["loop"] = 1,
 			},
 		},
 		["speaker_info"] = {
@@ -3742,7 +3806,7 @@
 		},
 		["guid"] = "5498FFAB41A2862203230D8A9B98A77F",
 		["guid_str"] = "lc470ApS",
-		["id"] = 82,
+		["id"] = 81,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["time"] = 800,
@@ -3793,7 +3857,7 @@
 		},
 		["guid"] = "18DDE03A452719DA16FAAE885EE53590",
 		["guid_str"] = "Kzo2uh0p",
-		["id"] = 83,
+		["id"] = 82,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
@@ -3838,7 +3902,7 @@
 		},
 		["guid"] = "9EB9A15E4797AFAF80F71A8FDEBC3FE5",
 		["guid_str"] = "zqpfZlSX",
-		["id"] = 84,
+		["id"] = 83,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/school/sc_deliver_the_paper",
@@ -3890,7 +3954,7 @@
 		},
 		["guid"] = "5BAE48234EE3B91E7959E9BCEC1912F7",
 		["guid_str"] = "T1GDWt1i",
-		["id"] = 85,
+		["id"] = 84,
 		["name"] = "地地",
 		["soundfx"] = {
 			{
@@ -3923,7 +3987,7 @@
 		},
 		["guid"] = "DAA2B92E4E37AF0FB257A79C4BCA5CBA",
 		["guid_str"] = "26EXz7mu",
-		["id"] = 86,
+		["id"] = 85,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3961,7 +4025,7 @@
 		},
 		["guid"] = "C0ED963F45059A7C93473186085574C7",
 		["guid_str"] = "LZeH29Xl",
-		["id"] = 87,
+		["id"] = 86,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3990,7 +4054,7 @@
 		},
 		["guid"] = "F3CCE3F74500102150EA048A6DF7578E",
 		["guid_str"] = "gDuGl4Ro",
-		["id"] = 88,
+		["id"] = 87,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4028,7 +4092,7 @@
 		},
 		["guid"] = "011EEAE84E2458ED3093A9852BD704F3",
 		["guid_str"] = "bB7jLo6m",
-		["id"] = 89,
+		["id"] = 88,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4057,7 +4121,7 @@
 		},
 		["guid"] = "3BFBB0194AB8FF02C5CF6E8FE3B7DC20",
 		["guid_str"] = "4Pfv6gHp",
-		["id"] = 90,
+		["id"] = 89,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4113,7 +4177,7 @@
 		},
 		["guid"] = "0D15961D4209702ABD4C8E9E4E424CCE",
 		["guid_str"] = "II2mIpzB",
-		["id"] = 91,
+		["id"] = 90,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["speaker_info"] = {
@@ -4156,7 +4220,7 @@
 		},
 		["guid"] = "6276A1654B770CFB51B3C79E1645F859",
 		["guid_str"] = "b7OVllZi",
-		["id"] = 92,
+		["id"] = 91,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -4215,7 +4279,7 @@
 		},
 		["guid"] = "0C9BF4014129E2BFF2A2D0BF7012D2DC",
 		["guid_str"] = "ou50PDfD",
-		["id"] = 93,
+		["id"] = 92,
 	},
 	{
 		["bg_info"] = {
@@ -4254,7 +4318,7 @@
 		},
 		["guid"] = "204607F64F4EC003F4F9E4BBBFC6C1EC",
 		["guid_str"] = "s0bfzc2Q",
-		["id"] = 94,
+		["id"] = 93,
 	},
 	{
 		["bg_info"] = {
@@ -4293,7 +4357,7 @@
 		},
 		["guid"] = "673FC3914369501EA9B3D68330BF38E9",
 		["guid_str"] = "9RtryVfT",
-		["id"] = 95,
+		["id"] = 94,
 	},
 	{
 		["bg_info"] = {
@@ -4340,7 +4404,7 @@
 		},
 		["guid"] = "DD7115AC469E22DB3A383FB35D1982A3",
 		["guid_str"] = "ZZBY5keV",
-		["id"] = 96,
+		["id"] = 95,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/01_whoosh_paper_close",
@@ -4366,7 +4430,7 @@
 		},
 		["guid"] = "2FB0C68D472E9ECB65D30C9307428295",
 		["guid_str"] = "L85bp4z4",
-		["id"] = 97,
+		["id"] = 96,
 	},
 	{
 		["bg_info"] = {
@@ -4400,7 +4464,7 @@
 		},
 		["guid"] = "EE37C5F24FBB50623D699188836310E0",
 		["guid_str"] = "qf4j4NUl",
-		["id"] = 98,
+		["id"] = 97,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -4495,7 +4559,7 @@
 		},
 		["guid"] = "C87C7A1348086AD72F7C699CC522CBCA",
 		["guid_str"] = "c8EEJaDy",
-		["id"] = 99,
+		["id"] = 98,
 		["name"] = "我",
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
@@ -4528,7 +4592,7 @@
 		},
 		["guid"] = "F9307A6C46C845FB99E7E18E4795F5C3",
 		["guid_str"] = "vjUd7Qe4",
-		["id"] = 100,
+		["id"] = 99,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/beach/AVG_Beach_AMB",
@@ -4571,7 +4635,7 @@
 		},
 		["guid"] = "1FCE8E52493D2FE83761419248D5A45A",
 		["guid_str"] = "mtupyZoU",
-		["id"] = 101,
+		["id"] = 100,
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
@@ -4593,7 +4657,7 @@
 		},
 		["guid"] = "B0C10F8A498C224E73C73ABCD72A0DED",
 		["guid_str"] = "fagDoqKz",
-		["id"] = 102,
+		["id"] = 101,
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
@@ -4625,7 +4689,7 @@
 		},
 		["guid"] = "2145355245270A9324C065ADC26781F7",
 		["guid_str"] = "nrzuphKX",
-		["id"] = 103,
+		["id"] = 102,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/0-00/tv_static",
@@ -4660,8 +4724,11 @@
 		},
 		["guid"] = "72F614B24A1D0739C9041A82823389F9",
 		["guid_str"] = "rlcAzBcq",
-		["id"] = 104,
+		["id"] = 103,
 		["name"] = "[c 514e75]我",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
@@ -4678,8 +4745,14 @@
 		},
 		["guid"] = "82CADFB54F992A140BB168908D5ABFFA",
 		["guid_str"] = "qouRuprC",
-		["id"] = 105,
+		["id"] = 104,
 		["name"] = "？？？",
+		["sound"] = {
+			["volume"] = 0.5,
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/2-11-tv-amb",
@@ -4691,7 +4764,7 @@
 			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "先生……魏先生！深呼吸，吃药。",
+		["text"] = "先生……魏先生！别想了，深呼吸！",
 	},
 	{
 		["bg_info"] = {
@@ -4703,7 +4776,7 @@
 		},
 		["guid"] = "A733EF624E63E96C3368C78B255730FF",
 		["guid_str"] = "TL5QypaX",
-		["id"] = 106,
+		["id"] = 105,
 		["name"] = "我",
 		["soundfx"] = {
 			{
@@ -4732,7 +4805,7 @@
 		},
 		["guid"] = "72F1A00A4422A62BF6272CB745449FCF",
 		["guid_str"] = "1AnXHUyl",
-		["id"] = 107,
+		["id"] = 106,
 		["is_show_all"] = true,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,

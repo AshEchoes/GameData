@@ -762,7 +762,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "boring",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1093,7 +1093,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -1765,7 +1765,13 @@
 				["event"] = "event:/sfx/story/karas/avg_karas_heartbeat",
 				["length"] = 4504,
 			},
+			{
+				["event"] = "event:/voice/ch/quest/story/episode5027/En88aQJJ",
+				["length"] = 9865,
+				["loop"] = 1,
+			},
 		},
+		["time"] = 3500,
 	},
 	{
 		["bg_info"] = {
@@ -1853,7 +1859,11 @@
 		["guid_str"] = "En88aQJJ",
 		["id"] = 30,
 		["name"] = "我",
-		["text"] = "……",
+		["sound"] = {
+			["event"] = "1",
+		},
+		["text"] = "……………………",
+		["time"] = 6600,
 	},
 	{
 		["bg_info"] = {
@@ -1918,6 +1928,16 @@
 		["guid_str"] = "hTAv5KZv",
 		["id"] = 31,
 		["name"] = "？？？",
+		["sound"] = {
+			["volume"] = 0.30000001192093,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/voice/ch/quest/story/episode5027/En88aQJJ",
+				["length"] = 9865,
+				["stop"] = 1,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
@@ -1973,6 +1993,7 @@
 					0.27450981736183,
 					1.0,
 				},
+				["material"] = "M_UI_SpineMat",
 				["path"] = "am55ssw/am55ssw_action3",
 			},
 		},
@@ -1980,6 +2001,9 @@
 		["guid_str"] = "Ni7NVeLS",
 		["id"] = 32,
 		["name"] = "围观的人群",
+		["sound"] = {
+			["volume"] = 0.30000001192093,
+		},
 		["text"] = "这，这是谁家的孩子？走丢了？",
 	},
 	{
@@ -2090,6 +2114,7 @@
 					0.27450981736183,
 					1.0,
 				},
+				["material"] = "M_UI_SpineMat",
 				["path"] = "am55ssw/am55ssw_action3",
 			},
 		},
@@ -2097,6 +2122,9 @@
 		["guid_str"] = "Wf9W4NLn",
 		["id"] = 34,
 		["name"] = "围观的人群",
+		["sound"] = {
+			["volume"] = 0.30000001192093,
+		},
 		["text"] = "谁认识这孩子的家长？有看到么？",
 	},
 	{
@@ -2148,6 +2176,7 @@
 					0.27450981736183,
 					1.0,
 				},
+				["material"] = "M_UI_SpineMat",
 				["path"] = "am55ssw/am55ssw_action3",
 			},
 		},
@@ -2155,6 +2184,9 @@
 		["guid_str"] = "VtbuYPQf",
 		["id"] = 35,
 		["name"] = "围观的人群",
+		["sound"] = {
+			["volume"] = 0.30000001192093,
+		},
 		["text"] = "……是不是受伤了啊？",
 	},
 	{
@@ -3685,6 +3717,9 @@
 		["guid_str"] = "Ziv3D6EJ",
 		["id"] = 51,
 		["name"] = "我",
+		["sound"] = {
+			["event"] = "1",
+		},
 		["text"] = "……",
 	},
 	{

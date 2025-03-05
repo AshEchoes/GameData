@@ -679,7 +679,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 300,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -5942,6 +5942,7 @@
 		["guid"] = "8D143A3D41B9B70483A405A289741A4A",
 		["guid_str"] = "iiQiqXdg",
 		["id"] = 68,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["time"] = 2500,
@@ -6066,7 +6067,7 @@
 				},
 			},
 		},
-		["text"] = "……",
+		["text"] = "………………",
 		["text_info"] = {
 			["tween"] = {
 				{
@@ -8342,6 +8343,13 @@
 		["guid"] = "70CC71BC4A1ABD47E3934FB4167082DC",
 		["guid_str"] = "UoGph8mu",
 		["id"] = 116,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+				["volume"] = 0.5,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -8465,7 +8473,7 @@
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "好吧我得承认，的确他们的“功效”比较多样，因为魏先生有时候需要一些心理干预。",
+		["text"] = "好吧我得承认，的确它们的“功效”比较多样，因为魏先生有时候需要一些心理干预。",
 	},
 	{
 		["bg_info"] = {
@@ -8629,6 +8637,13 @@
 		["guid"] = "ABDE36324B0E385A661919812B7837CD",
 		["guid_str"] = "ZeTjq4wo",
 		["id"] = 123,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+				["volume"] = 0.40000000596046,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -9317,7 +9332,7 @@
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "没关系，人的记忆很精确，也很模糊，瞬时触发的记忆在之后的某个瞬间被丢弃也很正常。",
+		["text"] = "没关系，人的记忆很精确，也很模糊。\n瞬时触发的记忆在之后某个瞬间被丢弃也很正常。",
 	},
 	{
 		["bg_info"] = {
@@ -10181,7 +10196,7 @@
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "我们也可以将它称之为“合理化”，只要给它足够的时间，它总能把那些沟壑填平，帮助记忆的主人拥有一个完整的故事，尽管他们不一定都是主人真正的经历。",
+		["text"] = "我们也可以将它称之为“合理化”，只要给它足够的时间，它总能把那些沟壑填平，帮助记忆的主人拥有一个完整的故事，尽管它们不一定都是主人真正的经历。",
 	},
 	{
 		["bg_info"] = {
@@ -10274,7 +10289,7 @@
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "客观上，包括创后应激障碍在内的一些连锁心理状态问题，本就需要更多的耐心和时间恢复，于你，于你身边的人，都是如此，不用就这样给自己“提前确诊”，魏先生。",
+		["text"] = "客观上，包括创后应激障碍在内的一些连锁心理状态问题，本就需要更多的耐心和时间恢复，于你、于你身边的人，都是如此，不用就这样给自己“提前确诊”，魏先生。",
 	},
 	{
 		["bg_info"] = {
@@ -10543,11 +10558,19 @@
 		["guid"] = "24BB4F4A4ED6630ADD02C29E791DCC36",
 		["guid_str"] = "MFki6gYp",
 		["id"] = 166,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
+				["length"] = 1153,
+				["volume"] = 0.5,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
+		["text_sound_id"] = 5,
 	},
 	{
 		["bg_info"] = {
@@ -10658,11 +10681,19 @@
 		["guid"] = "D75999D24B0AE5BC885803B41853043F",
 		["guid_str"] = "hbS8k0IL",
 		["id"] = 168,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+				["volume"] = 0.40000000596046,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am55ssw/am55ssw_action3",
 		},
+		["text_sound_id"] = 5,
 	},
 	{
 		["bg_info"] = {
@@ -10847,7 +10878,7 @@
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "那些梦如果还来找你，比起拼命记住梦里的故事，可以去抓住那些让你进入“梦”的引子，就比如……你现在一定还记得刚刚怎么倒下的。",
+		["text"] = "那些梦如果还来找你，比起拼命记住梦里的故事，可以去抓住那些让你进入“梦”的引子，就比如……你现在一定还记得刚刚是怎么倒下的。",
 	},
 	{
 		["bg_info"] = {
@@ -11395,6 +11426,9 @@
 					},
 				},
 			},
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 		["soundfx"] = {
 			{

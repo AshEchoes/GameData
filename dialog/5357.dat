@@ -102,7 +102,7 @@
 				},
 			},
 		},
-		["text"] = "今天的训练就到这里，注意身体，加训要适度。全体都有，解散吧。",
+		["text"] = "今天的训练就到这儿，注意身体，加训要适度。全体都有，解散吧。",
 	},
 	{
 		["bg_info"] = {
@@ -183,7 +183,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -229,7 +229,7 @@
 				0.89999997615814,
 			},
 		},
-		["text"] = "唉……真有活力啊，累死了。",
+		["text"] = "唉……真是体力活啊，累死了。",
 	},
 	{
 		["bg_info"] = {
@@ -435,6 +435,20 @@
 				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
 			},
 			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 300,
+					},
+					["tween"] = "FadeOut",
+				},
 			},
 		},
 		["guid"] = "843B1B22483C8538495CD19706908709",
@@ -1728,6 +1742,9 @@
 		["guid_str"] = "COaedpkH",
 		["id"] = 32,
 		["name"] = "十手卫",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2430,7 +2447,7 @@
 				0.89999997615814,
 			},
 		},
-		["text"] = "只想当个普通小警察，用不着这么大的场子。",
+		["text"] = "只想当个普通小警察，用不着这么大场子。",
 	},
 	{
 		["bg_info"] = {
@@ -2730,7 +2747,7 @@
 				},
 			},
 			{
-				["anim"] = "doubt",
+				["anim"] = "smile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2981,6 +2998,146 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["text"] = "[size 17]刑舟暂时闭上嘴，防止自己再答非所问。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "thinking",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm01xzhou/bm01xzhou_young_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F5D788444B0A8EAF6D535EB1205B9021",
+		["guid_str"] = "Hl9ZJ0oF",
+		["id"] = 51,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				-10,
+			},
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "thinking",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm01xzhou/bm01xzhou_young_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_young_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "DC3AA59B43F00F1FFC9FF1BD16602391",
+		["guid_str"] = "1YJFbgxU",
+		["id"] = 52,
+		["name"] = "邢舟",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_0006",
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-100,
+				-10,
+			},
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
+		["text"] = "当初没想太多，分数合适，和家里商量了一下就报了，不过……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_paradise_06.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
 			["text"] = "[size 17]刑舟深吸口气。",
 			["text_align"] = "center",
 		},
@@ -3024,7 +3181,7 @@
 		},
 		["guid"] = "8E7A846C4BE5C8033A4F65AAF9515F72",
 		["guid_str"] = "Gbwv1XwS",
-		["id"] = 51,
+		["id"] = 53,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3091,7 +3248,7 @@
 		},
 		["guid"] = "93AA160E41C3F155BBEEE6B76FCDBC69",
 		["guid_str"] = "7nn8dhEs",
-		["id"] = 52,
+		["id"] = 54,
 		["name"] = "刑舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3160,7 +3317,7 @@
 		},
 		["guid"] = "D579BC42485B9286F1A7E0899C2620A3",
 		["guid_str"] = "vuHxAvUb",
-		["id"] = 53,
+		["id"] = 55,
 		["name"] = "刑舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3224,7 +3381,7 @@
 		},
 		["guid"] = "3375F1554EBBECEACCD888B7CB6C6AA1",
 		["guid_str"] = "R6fyOFdd",
-		["id"] = 54,
+		["id"] = 56,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3291,7 +3448,7 @@
 		},
 		["guid"] = "DC800F50425192ABA3D53C8F801E370B",
 		["guid_str"] = "RADdlzOc",
-		["id"] = 55,
+		["id"] = 57,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3360,7 +3517,7 @@
 		},
 		["guid"] = "BC35AC154875E05F061E038E8662D4B4",
 		["guid_str"] = "Q2qQbLhH",
-		["id"] = 56,
+		["id"] = 58,
 		["name"] = "刑舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3429,7 +3586,7 @@
 		},
 		["guid"] = "AAD5C01E4CECF31A26BFFA92BFBE0F18",
 		["guid_str"] = "Usm9wmQX",
-		["id"] = 57,
+		["id"] = 59,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3498,7 +3655,7 @@
 		},
 		["guid"] = "90655D70496DDE0D82B2FCBD2DE6C3AA",
 		["guid_str"] = "4gjo1LyN",
-		["id"] = 58,
+		["id"] = 60,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3567,7 +3724,7 @@
 		},
 		["guid"] = "8148F20749BB9BB1D3334F9ECEB2FCA6",
 		["guid_str"] = "McuD1bVy",
-		["id"] = 59,
+		["id"] = 61,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3636,7 +3793,7 @@
 		},
 		["guid"] = "E64808CC4E914D9567D1629A797968FE",
 		["guid_str"] = "gjIpVZU0",
-		["id"] = 60,
+		["id"] = 62,
 		["name"] = "刑舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3705,7 +3862,7 @@
 		},
 		["guid"] = "8CCF78124AE369DBF964D8A6990827E1",
 		["guid_str"] = "p2iuFNwZ",
-		["id"] = 61,
+		["id"] = 63,
 		["name"] = "刑舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3774,7 +3931,7 @@
 		},
 		["guid"] = "BB5689D64639617BB788888B4AF25C83",
 		["guid_str"] = "9cxyf7Ig",
-		["id"] = 62,
+		["id"] = 64,
 		["name"] = "刑舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3838,7 +3995,7 @@
 		},
 		["guid"] = "1D08A0D543503BA1EFE66BB6AD949804",
 		["guid_str"] = "qsuiN6F2",
-		["id"] = 63,
+		["id"] = 65,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3900,7 +4057,7 @@
 		},
 		["guid"] = "E39993F048351F57808A8B84A8BB20A2",
 		["guid_str"] = "urEuZJ0v",
-		["id"] = 64,
+		["id"] = 66,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3967,7 +4124,7 @@
 		},
 		["guid"] = "3579C12C454ED928854224B32611053A",
 		["guid_str"] = "kLhOoKmx",
-		["id"] = 65,
+		["id"] = 67,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4047,7 +4204,7 @@
 		},
 		["guid"] = "FA23271C4B38FA175B5DC89DEC091E16",
 		["guid_str"] = "OlVPnkez",
-		["id"] = 66,
+		["id"] = 68,
 		["name"] = "刑舟",
 		["soundfx"] = {
 			{
@@ -4123,7 +4280,7 @@
 		},
 		["guid"] = "B8564BF0495263CD6CCA4BACB35DB0E8",
 		["guid_str"] = "clcMFuiI",
-		["id"] = 67,
+		["id"] = 69,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4192,7 +4349,7 @@
 		},
 		["guid"] = "930641B94894CE8A9C126FBE993CA325",
 		["guid_str"] = "nsYayqXE",
-		["id"] = 68,
+		["id"] = 70,
 		["name"] = "刑舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4261,7 +4418,7 @@
 		},
 		["guid"] = "B9370E4E4CBD28EF02069D973DFF1B4B",
 		["guid_str"] = "r9rWB1Ev",
-		["id"] = 69,
+		["id"] = 71,
 		["name"] = "刑舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4330,7 +4487,7 @@
 		},
 		["guid"] = "BEC0AA05418A4712C81EC1B8F290FB89",
 		["guid_str"] = "li2ScmBm",
-		["id"] = 70,
+		["id"] = 72,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4400,7 +4557,7 @@
 		},
 		["guid"] = "EF6113FC4DB9863F50C36E8C526DA8D6",
 		["guid_str"] = "IVcdT5gZ",
-		["id"] = 71,
+		["id"] = 73,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4467,7 +4624,7 @@
 		},
 		["guid"] = "5756106D45B0D1AD3E1C2799309D10DA",
 		["guid_str"] = "ktfcvuzm",
-		["id"] = 72,
+		["id"] = 74,
 		["name"] = "刑舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4536,7 +4693,7 @@
 		},
 		["guid"] = "7FB4D909413C07BA573004BFFD011EE9",
 		["guid_str"] = "nplA4WJS",
-		["id"] = 73,
+		["id"] = 75,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4605,7 +4762,7 @@
 		},
 		["guid"] = "D860DB2C40B929A910DFD58F0888B671",
 		["guid_str"] = "TOxpBP8a",
-		["id"] = 74,
+		["id"] = 76,
 		["name"] = "刑舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4675,7 +4832,7 @@
 		},
 		["guid"] = "3D2132AF42A194FE16541A89705DB7C8",
 		["guid_str"] = "07jMMHRZ",
-		["id"] = 75,
+		["id"] = 77,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4742,7 +4899,7 @@
 		},
 		["guid"] = "B770FD5845C20E7C6859FB9560418674",
 		["guid_str"] = "Kbx1yCEa",
-		["id"] = 76,
+		["id"] = 78,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4817,8 +4974,17 @@
 		},
 		["guid"] = "06409B8C4E77963AAC0A81903191A30A",
 		["guid_str"] = "Mp8WS9Qy",
-		["id"] = 77,
+		["id"] = 79,
 		["name"] = "九旻基地成员",
+		["sound"] = {
+			["volume"] = 0.80000001192093,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/4/40005_door_knocks",
+				["length"] = 707,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4899,7 +5065,7 @@
 		},
 		["guid"] = "66EB591A4279B0C3C99F2289AB98240C",
 		["guid_str"] = "0glf1d47",
-		["id"] = 78,
+		["id"] = 80,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4968,7 +5134,7 @@
 		},
 		["guid"] = "6B1459B74207825C3D8904BFD34B6BA2",
 		["guid_str"] = "ablFQnbI",
-		["id"] = 79,
+		["id"] = 81,
 		["name"] = "刑舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5070,7 +5236,7 @@
 		},
 		["guid"] = "EA6F10D4435E96375DB654A1E47ACED2",
 		["guid_str"] = "8Yb6PKe9",
-		["id"] = 80,
+		["id"] = 82,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -5119,7 +5285,7 @@
 		},
 		["guid"] = "FB125D4E46B29DB5729DCB802853C91B",
 		["guid_str"] = "XfQPL4Qq",
-		["id"] = 81,
+		["id"] = 83,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -5196,7 +5362,7 @@
 		},
 		["guid"] = "D4197A2C4B1999FEB094789E87902706",
 		["guid_str"] = "IuCG0Fcv",
-		["id"] = 82,
+		["id"] = 84,
 		["name"] = "十手卫",
 		["text"] = "我就知道是你。",
 	},
@@ -5248,7 +5414,7 @@
 		},
 		["guid"] = "88B1731148DBB7F64B69BCB8418EF9FD",
 		["guid_str"] = "NqOXkzHZ",
-		["id"] = 83,
+		["id"] = 85,
 		["name"] = "岳重山",
 		["text"] = "怎么，除了我没人找你？",
 	},
@@ -5300,7 +5466,7 @@
 		},
 		["guid"] = "A9B47AFF4FC0DBF93044689FBEFBA2F5",
 		["guid_str"] = "1j9SRS1s",
-		["id"] = 84,
+		["id"] = 86,
 		["name"] = "十手卫",
 		["text"] = "谁家好人每次都不进训练室不进宿舍，非要把人叫出来。",
 	},
@@ -5335,7 +5501,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "scornful",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5352,7 +5518,7 @@
 		},
 		["guid"] = "C7F3EC1347E9B11226AC81B6894C8CE0",
 		["guid_str"] = "q4kqI5vl",
-		["id"] = 85,
+		["id"] = 87,
 		["name"] = "岳重山",
 		["text"] = "……一共才两次。",
 	},
@@ -5404,7 +5570,7 @@
 		},
 		["guid"] = "90410829408431968365D08CF59151E4",
 		["guid_str"] = "I7GhuYrn",
-		["id"] = 86,
+		["id"] = 88,
 		["name"] = "岳重山",
 		["text"] = "才待了一年多，你这口音怎么越来越藏不住了。\n",
 	},
@@ -5456,7 +5622,7 @@
 		},
 		["guid"] = "B7C6B1054EA9E35FDB2B0189E121A260",
 		["guid_str"] = "cjV7zx5y",
-		["id"] = 87,
+		["id"] = 89,
 		["name"] = "十手卫",
 		["text"] = "这叫“入乡随俗”。",
 	},
@@ -5508,7 +5674,7 @@
 		},
 		["guid"] = "E7C781D843873D24F877999EDD00DFCC",
 		["guid_str"] = "EgS5czIB",
-		["id"] = 88,
+		["id"] = 90,
 		["name"] = "十手卫",
 		["text"] = "来出差？",
 	},
@@ -5560,7 +5726,7 @@
 		},
 		["guid"] = "66352D814F97E9714FEED9B70A9644D5",
 		["guid_str"] = "Ns7C3n3B",
-		["id"] = 89,
+		["id"] = 91,
 		["name"] = "岳重山",
 		["text"] = "……",
 	},
@@ -5612,7 +5778,7 @@
 		},
 		["guid"] = "6EF024A34E75E758D5FDD780BE11F0BA",
 		["guid_str"] = "8xyjO7RE",
-		["id"] = 90,
+		["id"] = 92,
 		["name"] = "岳重山",
 		["text"] = "嗯，来核对点事情，胤局批的。",
 	},
@@ -5694,7 +5860,7 @@
 		},
 		["guid"] = "B38E4B9D44D0668860637AA4D3E37FF3",
 		["guid_str"] = "T3Y9WINY",
-		["id"] = 91,
+		["id"] = 93,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
@@ -5757,7 +5923,7 @@
 		},
 		["guid"] = "48B560C34D96B15F413175ACB1799594",
 		["guid_str"] = "mx2LXWhN",
-		["id"] = 92,
+		["id"] = 94,
 		["name"] = "十手卫",
 		["text"] = "核对完了？看你这表情，答案好像不怎么让你满意。",
 	},
@@ -5826,7 +5992,7 @@
 		},
 		["guid"] = "5B2294534930B8EDAD65F0A62372ADA6",
 		["guid_str"] = "AWo7jMbS",
-		["id"] = 93,
+		["id"] = 95,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -5898,7 +6064,7 @@
 		},
 		["guid"] = "92C7D33148B721B1A1ED409B96434DC0",
 		["guid_str"] = "CbvlHPBD",
-		["id"] = 94,
+		["id"] = 96,
 	},
 	{
 		["bg_info"] = {
@@ -5948,7 +6114,7 @@
 		},
 		["guid"] = "40308B6F4A1B80FB036C5E81C8E7849D",
 		["guid_str"] = "jhNIj9tC",
-		["id"] = 95,
+		["id"] = 97,
 		["name"] = "十手卫",
 		["text"] = "什么事儿这么生气？名字叫重山，用石头撒气可不太好。",
 	},
@@ -6000,7 +6166,7 @@
 		},
 		["guid"] = "6F19442E41274EDC2F4E53B65C32DF25",
 		["guid_str"] = "XqoUmBgt",
-		["id"] = 96,
+		["id"] = 98,
 		["name"] = "岳重山",
 		["text"] = "……",
 	},
@@ -6052,7 +6218,7 @@
 		},
 		["guid"] = "A9E9A7D346CFECD186730481C8C5D9C3",
 		["guid_str"] = "J9lJzX7j",
-		["id"] = 97,
+		["id"] = 99,
 		["name"] = "岳重山",
 		["text"] = "卫，后悔开那枪么？一枪，所有前途都没了。",
 	},
@@ -6104,7 +6270,7 @@
 		},
 		["guid"] = "9FB18B714C717CC69C21CE814BFBE257",
 		["guid_str"] = "jtppMnvX",
-		["id"] = 98,
+		["id"] = 100,
 		["name"] = "十手卫",
 		["text"] = "不后悔啊。",
 	},
@@ -6162,7 +6328,7 @@
 		},
 		["guid"] = "96154A144438D2D5DF891EB7B781ADFE",
 		["guid_str"] = "arz9hq2r",
-		["id"] = 99,
+		["id"] = 101,
 	},
 	{
 		["bg_info"] = {
@@ -6212,7 +6378,7 @@
 		},
 		["guid"] = "E1967F264D2C69A3D09A658AD2BE5DF2",
 		["guid_str"] = "4KQULoAc",
-		["id"] = 100,
+		["id"] = 102,
 		["name"] = "十手卫",
 		["text"] = "「[c a3bdc8]保密[/c]」，「[c a3bdc8]优先级[/c]」，行动前不交底，因为这些虚与委蛇的东西造成不必要的牺牲，只开那一枪都算我客气。",
 	},
@@ -6264,7 +6430,7 @@
 		},
 		["guid"] = "703AE78D452B114672EA19A40736B5B1",
 		["guid_str"] = "Nw2eUlFY",
-		["id"] = 101,
+		["id"] = 103,
 		["name"] = "十手卫",
 		["text"] = "如果真要论这些东西，那我也有自己的行动最高优先级。",
 	},
@@ -6335,7 +6501,7 @@
 		},
 		["guid"] = "69F1A111428DA18CF9DF02B40B11AE9C",
 		["guid_str"] = "8rKtCxDb",
-		["id"] = 102,
+		["id"] = 104,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -6392,7 +6558,7 @@
 		},
 		["guid"] = "3F8CB82445547AA9013BD387CB8A8275",
 		["guid_str"] = "paZFdQUY",
-		["id"] = 103,
+		["id"] = 105,
 		["name"] = "十手卫",
 		["text"] = "我的武器永远会指向当下的「敌人」，只要我还没脱了这身衣服。",
 	},
@@ -6444,7 +6610,7 @@
 		},
 		["guid"] = "D7C2AD8049CBDDA16C8059AEED16493A",
 		["guid_str"] = "W6SAHrY2",
-		["id"] = 104,
+		["id"] = 106,
 		["name"] = "十手卫",
 		["text"] = "所以很抱歉，你也并不安全，岳警官。",
 	},
@@ -6496,7 +6662,7 @@
 		},
 		["guid"] = "16ABD659460A8417F70ED99ECD9793D2",
 		["guid_str"] = "W3iGZMDl",
-		["id"] = 105,
+		["id"] = 107,
 		["name"] = "岳重山",
 		["text"] = "……",
 	},
@@ -6548,7 +6714,7 @@
 		},
 		["guid"] = "AB387E51463DDF96170AF3871542AC02",
 		["guid_str"] = "OwhIMBj8",
-		["id"] = 106,
+		["id"] = 108,
 		["name"] = "十手卫",
 		["text"] = "不过我倒是一直很纳闷，按理说无论过程如何，我都废了他们的人一条胳膊，为什么九旻还会收我？不把我“贬为庶民压入大牢”都是好的吧。",
 	},
@@ -6583,7 +6749,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "scornful",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -6600,7 +6766,7 @@
 		},
 		["guid"] = "983FD4D6456FA04C535A14A7EA12B548",
 		["guid_str"] = "geRK2ryn",
-		["id"] = 107,
+		["id"] = 109,
 		["name"] = "岳重山",
 		["text"] = "……好好说话。",
 	},
@@ -6652,7 +6818,7 @@
 		},
 		["guid"] = "05ECFB1B48C00F61A8BA3F8F49804475",
 		["guid_str"] = "pebqfYzc",
-		["id"] = 108,
+		["id"] = 110,
 	},
 	{
 		["bg_info"] = {
@@ -6702,7 +6868,7 @@
 		},
 		["guid"] = "2E23F1C8482D13B9C165C5A329133DE2",
 		["guid_str"] = "glDhbBUf",
-		["id"] = 109,
+		["id"] = 111,
 		["name"] = "十手卫",
 		["text"] = "你保的我吧，出息了啊岳队，等我回去给我当领导？",
 	},
@@ -6754,7 +6920,7 @@
 		},
 		["guid"] = "D0CC57E244A7CF2589EC23BF3A7B90E0",
 		["guid_str"] = "MdleTd2I",
-		["id"] = 110,
+		["id"] = 112,
 		["name"] = "岳重山",
 		["text"] = "我还没那个资格，最后是胤局出面担保的。",
 	},
@@ -6806,7 +6972,7 @@
 		},
 		["guid"] = "F10EA33E4B2837164318A0A153336727",
 		["guid_str"] = "5hPCcUCU",
-		["id"] = 111,
+		["id"] = 113,
 		["name"] = "岳重山",
 		["text"] = "很多人都想保你。",
 	},
@@ -6858,7 +7024,7 @@
 		},
 		["guid"] = "90387630403910670695CF937E3292FC",
 		["guid_str"] = "4EFLtLAe",
-		["id"] = 112,
+		["id"] = 114,
 		["name"] = "十手卫",
 		["text"] = "那就谢谢……所有当初想要保我的人。",
 	},
@@ -6910,7 +7076,7 @@
 		},
 		["guid"] = "C5C1CCEC465E996080F5B793459009F9",
 		["guid_str"] = "LO9dSiIh",
-		["id"] = 113,
+		["id"] = 115,
 		["name"] = "十手卫",
 		["text"] = "所以来找我干嘛？纯叙旧？",
 	},
@@ -6962,7 +7128,7 @@
 		},
 		["guid"] = "6166D61F4ECFBEE152861C8DD497B758",
 		["guid_str"] = "Cx3uJZHK",
-		["id"] = 114,
+		["id"] = 116,
 		["name"] = "岳重山",
 		["text"] = "两件事，先听哪个？",
 	},
@@ -7014,7 +7180,7 @@
 		},
 		["guid"] = "9209746149ADB809B6B080807CD07791",
 		["guid_str"] = "rWkU3Nh9",
-		["id"] = 115,
+		["id"] = 117,
 		["name"] = "十手卫",
 		["text"] = "什么事你还要亲自跑过来告诉我……一个一个说呗。",
 	},
@@ -7079,7 +7245,7 @@
 		},
 		["guid"] = "BE532DB64BE01000CE11FDA2193D4967",
 		["guid_str"] = "FNQ1ESu1",
-		["id"] = 116,
+		["id"] = 118,
 		["soundfx"] = {
 			{
 				["delay"] = 500,
@@ -7150,7 +7316,7 @@
 		},
 		["guid"] = "A15C1A034E3EB96B65285CBAA95CCC8B",
 		["guid_str"] = "jS2qlEZQ",
-		["id"] = 117,
+		["id"] = 119,
 		["name"] = "岳重山",
 		["soundfx"] = {
 			{
@@ -7220,7 +7386,7 @@
 		},
 		["guid"] = "7A2C627A4F39C53164BD36B07C924E51",
 		["guid_str"] = "XWy7NHmc",
-		["id"] = 118,
+		["id"] = 120,
 		["name"] = "十手卫",
 		["soundfx"] = {
 			{
@@ -7262,7 +7428,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -7279,7 +7445,7 @@
 		},
 		["guid"] = "9BBA607E42E0156D60DC2EAD03EC7890",
 		["guid_str"] = "yMt6dIaA",
-		["id"] = 119,
+		["id"] = 121,
 		["name"] = "岳重山",
 		["text"] = "……嗯。",
 	},
@@ -7331,7 +7497,7 @@
 		},
 		["guid"] = "1E451DC3469A4B5BD2A03CB17E7B1B93",
 		["guid_str"] = "1PlqJg39",
-		["id"] = 120,
+		["id"] = 122,
 		["name"] = "十手卫",
 		["text"] = "终于舍得回来了，五年多，一点儿消息都没有，我还以为他被人贩子拐卖了。",
 	},
@@ -7389,7 +7555,7 @@
 		},
 		["guid"] = "DA040E034D275BDF51D98DA0002B4A61",
 		["guid_str"] = "Hrw7Vj1M",
-		["id"] = 121,
+		["id"] = 123,
 	},
 	{
 		["bg_info"] = {
@@ -7439,7 +7605,7 @@
 		},
 		["guid"] = "19F15CEA4C9D7E71CB619C9C67E99F9C",
 		["guid_str"] = "CDovFVoH",
-		["id"] = 122,
+		["id"] = 124,
 		["name"] = "十手卫",
 		["text"] = "？怎么了？",
 	},
@@ -7491,7 +7657,7 @@
 		},
 		["guid"] = "1B4B5B40448DD0E5638FF184FD8EEF64",
 		["guid_str"] = "c6OFhDwr",
-		["id"] = 123,
+		["id"] = 125,
 		["name"] = "岳重山",
 		["text"] = "卫，他当年……",
 	},
@@ -7543,7 +7709,7 @@
 		},
 		["guid"] = "7076BEF247407EF18414FFAFA7B93E9E",
 		["guid_str"] = "ihtWJMaW",
-		["id"] = 124,
+		["id"] = 126,
 		["name"] = "岳重山",
 		["text"] = "…………………………",
 	},
@@ -7608,7 +7774,7 @@
 		},
 		["guid"] = "D837CCCF4A56DEB49F69E38670F3F071",
 		["guid_str"] = "xXcNi6pv",
-		["id"] = 125,
+		["id"] = 127,
 		["name"] = "岳重山",
 		["soundfx"] = {
 			{
@@ -7686,7 +7852,7 @@
 		},
 		["guid"] = "57B30818459A55EDBC31B1828B00F2E9",
 		["guid_str"] = "966DxYaH",
-		["id"] = 126,
+		["id"] = 128,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -7743,7 +7909,7 @@
 		},
 		["guid"] = "519F90CF46DEB5E5D2778590176B889E",
 		["guid_str"] = "GreBDm5B",
-		["id"] = 127,
+		["id"] = 129,
 		["name"] = "十手卫",
 		["text"] = "无事献殷勤，非奸即盗。",
 	},
@@ -7816,7 +7982,7 @@
 		},
 		["guid"] = "EC073F3E4C78BCDFBAF6A0852F5131AF",
 		["guid_str"] = "JXx81uIj",
-		["id"] = 128,
+		["id"] = 130,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -7873,7 +8039,7 @@
 		},
 		["guid"] = "9986B7E14D4172D0D4E7EC9658D12F75",
 		["guid_str"] = "7t2FE9P4",
-		["id"] = 129,
+		["id"] = 131,
 		["name"] = "岳重山",
 		["text"] = "你喜欢喝这个？",
 	},
@@ -7925,7 +8091,7 @@
 		},
 		["guid"] = "F90E4E584A8BB16F201CB5A7423FB97B",
 		["guid_str"] = "1hDknxeW",
-		["id"] = 130,
+		["id"] = 132,
 		["name"] = "十手卫",
 		["text"] = "还行吧，偶尔喝。",
 	},
@@ -7977,7 +8143,7 @@
 		},
 		["guid"] = "DD13742244F2568001CFD0B9BC60E5FC",
 		["guid_str"] = "myzdKqgz",
-		["id"] = 131,
+		["id"] = 133,
 		["name"] = "岳重山",
 		["text"] = "我带他去少严门外坐了一会儿，没让他进去。",
 	},
@@ -8029,7 +8195,7 @@
 		},
 		["guid"] = "A803F37941ED8292AB0392BDB1290BCC",
 		["guid_str"] = "sf3HINTt",
-		["id"] = 132,
+		["id"] = 134,
 		["name"] = "十手卫",
 		["text"] = "呼……不进去也好，省得接受不了，少严姑姑家哭过多少次了。",
 	},
@@ -8081,7 +8247,7 @@
 		},
 		["guid"] = "FA4B88944CF144F207927193CE3D328D",
 		["guid_str"] = "tj7Qqr6d",
-		["id"] = 133,
+		["id"] = 135,
 		["name"] = "十手卫",
 		["text"] = "郁泽现在人呢？回来准备干嘛？回……还回局里么？",
 	},
@@ -8133,7 +8299,7 @@
 		},
 		["guid"] = "FB34448246762E55CD75E0A5C08B49D5",
 		["guid_str"] = "1BjVT62O",
-		["id"] = 134,
+		["id"] = 136,
 		["name"] = "岳重山",
 		["text"] = "他刚回来，在海临待一段时间就准备走，也不回局里。",
 	},
@@ -8185,7 +8351,7 @@
 		},
 		["guid"] = "33FD16D14A6EC879A080428CF2B265A9",
 		["guid_str"] = "vGwsvUNp",
-		["id"] = 135,
+		["id"] = 137,
 		["name"] = "十手卫",
 		["text"] = "啊？",
 	},
@@ -8237,7 +8403,7 @@
 		},
 		["guid"] = "6AC4CD814635CC426D412184F89DB619",
 		["guid_str"] = "3hYHY3h0",
-		["id"] = 136,
+		["id"] = 138,
 		["name"] = "岳重山",
 		["text"] = "他……他在外面定居了，说现在不想干这些了，估计下个月走。",
 	},
@@ -8289,7 +8455,7 @@
 		},
 		["guid"] = "54BF59C6498257FD9EB0F8AA693D0BBD",
 		["guid_str"] = "dhuOTgq5",
-		["id"] = 137,
+		["id"] = 139,
 		["name"] = "十手卫",
 		["text"] = "啊………………",
 	},
@@ -8341,7 +8507,7 @@
 		},
 		["guid"] = "968A70C24D45A20DE5814492C26C7758",
 		["guid_str"] = "wwInHDkk",
-		["id"] = 138,
+		["id"] = 140,
 		["name"] = "十手卫",
 		["text"] = "下个月啊……那，以后还回来么？",
 	},
@@ -8393,7 +8559,7 @@
 		},
 		["guid"] = "FB61EFAD4C58FD7B9D16B8A6C7F8E143",
 		["guid_str"] = "HqamnOn7",
-		["id"] = 139,
+		["id"] = 141,
 		["name"] = "岳重山",
 		["text"] = "听他的意思，不打算回来了。",
 	},
@@ -8445,7 +8611,7 @@
 		},
 		["guid"] = "EB3D4D0643B62420AEEAD085DD4BAD69",
 		["guid_str"] = "Bt9OKkCT",
-		["id"] = 140,
+		["id"] = 142,
 		["name"] = "十手卫",
 		["text"] = "哦。\n",
 	},
@@ -8503,7 +8669,7 @@
 		},
 		["guid"] = "9EEBAE104A51AFF2060C1A91BC6D1EBA",
 		["guid_str"] = "2Br8e1sL",
-		["id"] = 141,
+		["id"] = 143,
 	},
 	{
 		["bg_info"] = {
@@ -8553,7 +8719,7 @@
 		},
 		["guid"] = "20E2A95B4C42404E73CB869293B57273",
 		["guid_str"] = "j3oHg2Rw",
-		["id"] = 142,
+		["id"] = 144,
 		["name"] = "十手卫",
 		["text"] = "唉~好吧，那到时候你替我去送送？我还没“刑满释放”呢。",
 	},
@@ -8605,7 +8771,7 @@
 		},
 		["guid"] = "926BE6B94871E623C69D4B8B2F2489E8",
 		["guid_str"] = "ao5FPHpj",
-		["id"] = 143,
+		["id"] = 145,
 		["name"] = "岳重山",
 		["text"] = "好。",
 	},
@@ -8657,7 +8823,7 @@
 		},
 		["guid"] = "9C6354B24541F39C1EE0038DC2D47748",
 		["guid_str"] = "gcpe27st",
-		["id"] = 144,
+		["id"] = 146,
 		["name"] = "十手卫",
 		["text"] = "另外一件事呢？",
 	},
@@ -8720,7 +8886,7 @@
 		},
 		["guid"] = "081615CB46C32B25DCD41E801A4E7D9D",
 		["guid_str"] = "pm6yJL9Y",
-		["id"] = 145,
+		["id"] = 147,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/4/40006_Lighter_firestone",
@@ -8776,7 +8942,7 @@
 		},
 		["guid"] = "5E1E461F43CED46FC6F54E91AD13134A",
 		["guid_str"] = "onZfJ8hm",
-		["id"] = 146,
+		["id"] = 148,
 		["name"] = "十手卫",
 		["text"] = "你怎么……什么时候开始抽的？",
 	},
@@ -8828,7 +8994,7 @@
 		},
 		["guid"] = "19A95BD94E32AC0F2DA4959B44D05EC7",
 		["guid_str"] = "VItcb2P7",
-		["id"] = 147,
+		["id"] = 149,
 		["name"] = "岳重山",
 		["text"] = "没多久。",
 	},
@@ -8880,7 +9046,7 @@
 		},
 		["guid"] = "2029D54245C79D7E26D0329708491346",
 		["guid_str"] = "kN3QSHix",
-		["id"] = 148,
+		["id"] = 150,
 		["name"] = "岳重山",
 		["text"] = "局里接到你亲戚的联系电话。",
 	},
@@ -8932,7 +9098,7 @@
 		},
 		["guid"] = "48313BF6491D921DE20DAB9AC9C80F33",
 		["guid_str"] = "vKiXT3kF",
-		["id"] = 149,
+		["id"] = 151,
 	},
 	{
 		["bg_info"] = {
@@ -8982,7 +9148,7 @@
 		},
 		["guid"] = "05AC9F7F42A8A831EAD530A25B2FF61C",
 		["guid_str"] = "MfyndOja",
-		["id"] = 150,
+		["id"] = 152,
 		["name"] = "岳重山",
 		["text"] = "你姐姐死了。",
 	},
@@ -9045,7 +9211,7 @@
 		},
 		["guid"] = "9844877945505ED6CC3346A5A3909B0A",
 		["guid_str"] = "KWrJkMXs",
-		["id"] = 151,
+		["id"] = 153,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -9102,7 +9268,7 @@
 		},
 		["guid"] = "15C1BCA148E134A4FAD031B50C9382A5",
 		["guid_str"] = "b5PmW51z",
-		["id"] = 152,
+		["id"] = 154,
 		["name"] = "岳重山",
 		["text"] = "来一根？",
 	},
@@ -9167,7 +9333,7 @@
 		},
 		["guid"] = "1964752F46F62BBB8224B2B44113E803",
 		["guid_str"] = "9r2WjA10",
-		["id"] = 153,
+		["id"] = 155,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -9272,9 +9438,12 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_0nHdPNON",
+		},
 		["guid"] = "D260ED3F430E36135E1D3B973DF0B443",
 		["guid_str"] = "TuDlR2lo",
-		["id"] = 154,
+		["id"] = 156,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9303,6 +9472,9 @@
 			},
 		},
 		["name"] = "十手卫",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/01-12-whoosh",
@@ -9348,9 +9520,12 @@
 			["b_use_mask"] = true,
 			["text_align"] = "center",
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5027_WYFVmdjB",
+		},
 		["guid"] = "D75B67D54791AED4A7AA878036D453BC",
 		["guid_str"] = "uYeS2ftN",
-		["id"] = 155,
+		["id"] = 157,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9369,6 +9544,9 @@
 			},
 		},
 		["name"] = "岳重山",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "别抽那东西。",
 	},
 	{
@@ -9414,7 +9592,7 @@
 		},
 		["guid"] = "2FFC8EF44456B327488DD4A370D4B369",
 		["guid_str"] = "x29jtKQI",
-		["id"] = 156,
+		["id"] = 158,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -9545,7 +9723,7 @@
 		},
 		["guid"] = "788790CA40AB34BE19C960801537CC1F",
 		["guid_str"] = "zlcdwB0p",
-		["id"] = 157,
+		["id"] = 159,
 		["is_white_base_bg"] = true,
 		["name"] = "十手卫",
 		["text"] = "………………",
@@ -9584,12 +9762,6 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n39police/n39police_centre_fjz_young_action1",
 				["pos"] = {
@@ -9603,7 +9775,7 @@
 		},
 		["guid"] = "057A8959411A02B77A4119B331B92854",
 		["guid_str"] = "gTHxNyHm",
-		["id"] = 158,
+		["id"] = 160,
 		["is_white_base_bg"] = true,
 		["name"] = "十手卫",
 		["text"] = "吸烟有害健康。",
@@ -9656,12 +9828,6 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n39police/n39police_centre_fjz_young_action1",
 				["pos"] = {
@@ -9675,7 +9841,7 @@
 		},
 		["guid"] = "4F53796440D0019F7028C69D1CD17861",
 		["guid_str"] = "D9FGrmOh",
-		["id"] = 159,
+		["id"] = 161,
 		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
@@ -9750,12 +9916,6 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n39police/n39police_centre_fjz_young_action1",
 				["pos"] = {
@@ -9778,7 +9938,7 @@
 		},
 		["guid"] = "9440CCCA45C45912766B3BA4831BAD58",
 		["guid_str"] = "uVQ7wEkI",
-		["id"] = 160,
+		["id"] = 162,
 		["is_white_base_bg"] = true,
 		["name"] = "十手卫",
 		["soundfx"] = {
@@ -9816,7 +9976,7 @@
 		},
 		["guid"] = "38FB58BF436A22BFF0C8558E48D092FE",
 		["guid_str"] = "6oQMdWbR",
-		["id"] = 161,
+		["id"] = 163,
 		["name"] = "岳重山",
 	},
 	{
@@ -9854,7 +10014,7 @@
 		},
 		["guid"] = "1926DB97424BBCD5D7803EAC8336AA75",
 		["guid_str"] = "zwwyrtr0",
-		["id"] = 162,
+		["id"] = 164,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 	},
