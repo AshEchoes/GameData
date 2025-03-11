@@ -23131,11 +23131,11 @@
 		["connect_prop_value"] = {
 		},
 		["cost"] = {
+			180,
 			240,
-			240,
-			240,
+			300,
 		},
-		["desc"] = "wl卡池ssr",
+		["desc"] = "同调者对敌人造成伤害后，留下标记（同一个敌人只受到一个标记的影响），场上同调者施放自动技能时引爆场上标记，对带标记目标造成施放者最终攻击{1}的物理伤害，若同调者处于隐匿状态时该引爆伤害额外提高{2}（标记引爆后目标5秒内无法再次被添加）",
 		["desc_type"] = 1,
 		["element_type"] = {
 			-1,
@@ -23148,17 +23148,20 @@
 		["is_encourage"] = false,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "wl卡池ssr",
+		["name"] = "追跡痕爆",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
-				["param_product"] = 108,
+			},
+			{
+				["param_product"] = 120,
+				["param_value"] = 0.25,
 			},
 		},
 		["param_type"] = "num",
 		["passive_id"] = 101972,
 		["passive_lv"] = 3,
-		["passive_voc"] = 0,
+		["passive_voc"] = 38,
 		["point_back"] = 150,
 		["rarity"] = 3,
 		["recommend_attack_rate"] = 1,
@@ -23172,9 +23175,9 @@
 		["recommend_score_normal"] = 400,
 		["skill_type"] = 2,
 		["upgrade_value"] = {
-			0.1,
-			0.2,
-			0.3,
+			12,
+			24,
+			36,
 		},
 	},
 	[20233] = {
@@ -23189,7 +23192,7 @@
 			240,
 			240,
 		},
-		["desc"] = "wl队长",
+		["desc"] = "同调者进入隐匿状态时，使场上所有同调者的刻印攻击提高{2}，额外攻击提高{1}，持续45秒且效果不可叠加（进入隐匿的同调者离场或重伤后效果消失），若职业为&lt;轻卫、铁御、尖锋&gt;时该效果翻倍",
 		["desc_type"] = 1,
 		["element_type"] = {
 			-1,
@@ -23202,17 +23205,21 @@
 		["is_encourage"] = false,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "wl队长",
+		["name"] = "影刻方阵",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
+				["param_product"] = 105,
+			},
+			{
 				["param_product"] = 108,
+				["param_value"] = 0.1,
 			},
 		},
 		["param_type"] = "num",
 		["passive_id"] = 101973,
 		["passive_lv"] = 3,
-		["passive_voc"] = 0,
+		["passive_voc"] = 38,
 		["point_back"] = 150,
 		["rarity"] = 3,
 		["recommend_attack_rate"] = 1,
@@ -23221,14 +23228,15 @@
 		["recommend_first_level"] = false,
 		["recommend_heal_rate"] = 0,
 		["recommend_rcskill_condi"] = {
+			2,
 		},
 		["recommend_score_core"] = 1000,
 		["recommend_score_normal"] = 400,
 		["skill_type"] = 2,
 		["upgrade_value"] = {
-			0.1,
+			0.07,
+			0.14,
 			0.2,
-			0.3,
 		},
 	},
 	[20234] = {
