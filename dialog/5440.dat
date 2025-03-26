@@ -7,7 +7,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -21,6 +21,10 @@
 		["guid"] = "6966F2884520EA62AADB97B5BC183708",
 		["guid_str"] = "OoZdwaaM",
 		["id"] = 1,
+		["introduce"] = {
+			["location"] = "DEEP OCEAN",
+			["time"] = " ",
+		},
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -29,6 +33,7 @@
 				["volume"] = 0.20000000298023,
 			},
 		},
+		["time"] = 2500,
 	},
 	{
 		["bg_info"] = {
@@ -1260,21 +1265,15 @@
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 2000,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
-				},
 				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_blood_05.png",
 			},
 			{
 			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17][indent][indent]DEEP OCEAN的空调系统一如往常安静地工作着，\n\n[indent][indent]虽看不到具体温度，却不耽误店里的客人们觉得舒适。",
 		},
 		["characters"] = {
 			{
@@ -1295,7 +1294,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -1326,16 +1325,87 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeOut",
 					},
 				},
 			},
 		},
+		["guid"] = "FAF3497F424FBE3DE498758BADCCD088",
+		["guid_str"] = "CmV2fxdL",
+		["id"] = 24,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_blood_05.png",
+			},
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_moon_01.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "今夜，月亮终于圆了。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "0CB43B1C4F8DDE37E6127CB2A7A3449E",
+		["guid_str"] = "UL28hdEc",
+		["id"] = 25,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/haicuo/avg_haicuo_fengling",
+				["length"] = 9210,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_moon_01.png",
+			},
+			{
+			},
+		},
 		["guid"] = "7101C8C84943DFD79C49E89B74DCCD0B",
 		["guid_str"] = "ngbTPfCl",
-		["id"] = 24,
+		["id"] = 26,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -1344,5 +1414,6 @@
 				["stop"] = 1,
 			},
 		},
+		["time"] = 1800,
 	},
 }
