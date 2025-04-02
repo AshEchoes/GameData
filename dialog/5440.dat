@@ -1406,6 +1406,49 @@
 		["guid_str"] = "ngbTPfCl",
 		["id"] = 26,
 		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["color"] = {
+					0.92093020677567,
+					0.68942755460739,
+					0.32125470042229,
+					1.0,
+				},
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 700,
+					["orig_y"] = 300,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_auto_ratio"] = false,
+				["offset"] = {
+					700,
+					300,
+				},
+				["path"] = "interface/resource/Game/DialogActivityCG/activity_cg_end.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 2500,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -1414,6 +1457,6 @@
 				["stop"] = 1,
 			},
 		},
-		["time"] = 1800,
+		["time"] = 5000,
 	},
 }
