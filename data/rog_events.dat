@@ -2541,8 +2541,7 @@
 				["event_id"] = 23002,
 				["index"] = 2,
 				["is_hide"] = false,
-				["node_pool"] = "node_lottery_normalmap",
-				["selection_type"] = 5,
+				["selection_type"] = 0,
 				["talisman_can_append"] = false,
 				["talisman_res"] = 30002,
 			},
@@ -3145,6 +3144,7 @@
 				},
 			},
 			{
+				["cost_token_value"] = -60,
 				["desc"] = "狠狠刷一段时间。",
 				["event_id"] = 30002,
 				["index"] = 2,
@@ -3153,10 +3153,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_element_role_3",
-				},
-				["token_value"] = {
-					-60,
-					-60,
 				},
 			},
 			{
@@ -3193,6 +3189,7 @@
 				},
 			},
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "选择签收付费快件",
 				["event_id"] = 30003,
 				["index"] = 2,
@@ -3201,10 +3198,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_talisman_rarity_2",
-				},
-				["token_value"] = {
-					-50,
-					-50,
 				},
 			},
 		},
@@ -3218,37 +3211,38 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
-				["desc"] = "吨吨吨吨吨……",
+				["desc"] = "待我休息片刻……",
 				["event_id"] = 30004,
 				["index"] = 1,
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
 			},
 			{
-				["desc"] = "待我休息片刻……",
+				["desc"] = "吨吨吨吨吨……",
 				["event_id"] = 30004,
 				["index"] = 2,
 				["is_hide"] = false,
 				["reward_exp"] = {
-					80,
-					80,
+					50,
+					50,
 				},
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
 			},
 			{
 				["desc"] = "我这才刚上线！",
 				["event_id"] = 30004,
 				["index"] = 3,
 				["is_hide"] = false,
-				["selection_type"] = 0,
-				["talisman_can_append"] = false,
-				["token_value"] = {
+				["reward_exp"] = {
 					100,
 					100,
 				},
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
 			},
 		},
 	},
@@ -3261,6 +3255,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -20,
 				["desc"] = "那就一人一半。",
 				["event_id"] = 30005,
 				["index"] = 1,
@@ -3270,12 +3265,9 @@
 				["talisman_pools"] = {
 					"reward_random_type_phantom_1",
 				},
-				["token_value"] = {
-					-20,
-					-20,
-				},
 			},
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "可以，但你应该吃不了这个。",
 				["event_id"] = 30005,
 				["index"] = 2,
@@ -3284,10 +3276,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_type_phantom_2",
-				},
-				["token_value"] = {
-					-50,
-					-50,
 				},
 			},
 			{
@@ -3466,8 +3454,8 @@
 				["selection_type"] = 0,
 				["talisman_can_append"] = false,
 				["token_value"] = {
-					100,
-					100,
+					50,
+					50,
 				},
 			},
 			{
@@ -3478,8 +3466,8 @@
 				["selection_type"] = 0,
 				["talisman_can_append"] = false,
 				["token_value"] = {
-					50,
-					200,
+					20,
+					150,
 				},
 			},
 		},
@@ -3722,6 +3710,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -100,
 				["desc"] = "（点一份超大碗怪味冰沙）可以尝试一下……",
 				["event_id"] = 30017,
 				["index"] = 1,
@@ -3731,12 +3720,9 @@
 				["talisman_pools"] = {
 					"reward_random_type_phantom_2",
 				},
-				["token_value"] = {
-					-100,
-					-100,
-				},
 			},
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "（拿起小熊轻拍一下）好像有点落灰了……",
 				["event_id"] = 30017,
 				["index"] = 2,
@@ -3745,10 +3731,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_type_phantom_1",
-				},
-				["token_value"] = {
-					-50,
-					-50,
 				},
 			},
 			{
@@ -3774,6 +3756,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -60,
 				["desc"] = "（查询游行路线）",
 				["event_id"] = 30018,
 				["index"] = 1,
@@ -3783,12 +3766,9 @@
 				["talisman_pools"] = {
 					"reward_random_element_role_3",
 				},
-				["token_value"] = {
-					-60,
-					-60,
-				},
 			},
 			{
+				["cost_token_value"] = -30,
 				["desc"] = "（疏散无关群众）",
 				["event_id"] = 30018,
 				["index"] = 2,
@@ -3797,10 +3777,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_element_role_2",
-				},
-				["token_value"] = {
-					-30,
-					-30,
 				},
 			},
 			{
@@ -3825,6 +3801,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -100,
 				["desc"] = "啊这……",
 				["event_id"] = 30019,
 				["index"] = 1,
@@ -3834,12 +3811,9 @@
 				["talisman_pools"] = {
 					"reward_random_type_phantom_2",
 				},
-				["token_value"] = {
-					-100,
-					-100,
-				},
 			},
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "深表同情……",
 				["event_id"] = 30019,
 				["index"] = 2,
@@ -3848,10 +3822,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_type_phantom_1",
-				},
-				["token_value"] = {
-					-50,
-					-50,
 				},
 			},
 			{
@@ -3877,6 +3847,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -60,
 				["desc"] = "这么卷吗……",
 				["event_id"] = 30020,
 				["index"] = 1,
@@ -3886,12 +3857,9 @@
 				["talisman_pools"] = {
 					"reward_random_voc_role_3",
 				},
-				["token_value"] = {
-					-60,
-					-60,
-				},
 			},
 			{
+				["cost_token_value"] = -30,
 				["desc"] = "还是更喜欢热闹一些的地方。",
 				["event_id"] = 30020,
 				["index"] = 2,
@@ -3900,10 +3868,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_voc_role_2",
-				},
-				["token_value"] = {
-					-30,
-					-30,
 				},
 			},
 			{
@@ -3928,6 +3892,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -100,
 				["desc"] = "有危险！",
 				["event_id"] = 30021,
 				["index"] = 1,
@@ -3937,12 +3902,9 @@
 				["talisman_pools"] = {
 					"reward_random_type_phantom_2",
 				},
-				["token_value"] = {
-					-100,
-					-100,
-				},
 			},
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "快救火！",
 				["event_id"] = 30021,
 				["index"] = 2,
@@ -3951,10 +3913,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_type_phantom_1",
-				},
-				["token_value"] = {
-					-50,
-					-50,
 				},
 			},
 			{
@@ -3980,6 +3938,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -60,
 				["desc"] = "我也有点好奇……",
 				["event_id"] = 30022,
 				["index"] = 1,
@@ -3989,12 +3948,9 @@
 				["talisman_pools"] = {
 					"reward_random_element_role_3",
 				},
-				["token_value"] = {
-					-60,
-					-60,
-				},
 			},
 			{
+				["cost_token_value"] = -30,
 				["desc"] = "快住手啊！！",
 				["event_id"] = 30022,
 				["index"] = 2,
@@ -4003,10 +3959,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_element_role_2",
-				},
-				["token_value"] = {
-					-30,
-					-30,
 				},
 			},
 			{
@@ -4031,6 +3983,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -100,
 				["desc"] = "你猜呢~",
 				["event_id"] = 30023,
 				["index"] = 1,
@@ -4040,12 +3993,9 @@
 				["talisman_pools"] = {
 					"reward_random_type_phantom_2",
 				},
-				["token_value"] = {
-					-100,
-					-100,
-				},
 			},
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "那可太多了……",
 				["event_id"] = 30023,
 				["index"] = 2,
@@ -4054,10 +4004,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_type_phantom_1",
-				},
-				["token_value"] = {
-					-50,
-					-50,
 				},
 			},
 			{
@@ -4083,6 +4029,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -60,
 				["desc"] = "用魔法打败魔法！",
 				["event_id"] = 30024,
 				["index"] = 1,
@@ -4092,12 +4039,9 @@
 				["talisman_pools"] = {
 					"reward_random_voc_role_3",
 				},
-				["token_value"] = {
-					-60,
-					-60,
-				},
 			},
 			{
+				["cost_token_value"] = -30,
 				["desc"] = "习惯了就好……",
 				["event_id"] = 30024,
 				["index"] = 2,
@@ -4106,10 +4050,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_voc_role_2",
-				},
-				["token_value"] = {
-					-30,
-					-30,
 				},
 			},
 			{
@@ -4134,6 +4074,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -100,
 				["desc"] = "这个勉强可以吧？",
 				["event_id"] = 30025,
 				["index"] = 1,
@@ -4143,12 +4084,9 @@
 				["talisman_pools"] = {
 					"reward_random_type_phantom_2",
 				},
-				["token_value"] = {
-					-100,
-					-100,
-				},
 			},
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "别太过分……",
 				["event_id"] = 30025,
 				["index"] = 2,
@@ -4157,10 +4095,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_type_phantom_1",
-				},
-				["token_value"] = {
-					-50,
-					-50,
 				},
 			},
 			{
@@ -4186,6 +4120,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -60,
 				["desc"] = "我会速战速决！",
 				["event_id"] = 30026,
 				["index"] = 1,
@@ -4195,12 +4130,9 @@
 				["talisman_pools"] = {
 					"reward_random_element_role_3",
 				},
-				["token_value"] = {
-					-60,
-					-60,
-				},
 			},
 			{
+				["cost_token_value"] = -30,
 				["desc"] = "（摸一下）好烫的灯泡！",
 				["event_id"] = 30026,
 				["index"] = 2,
@@ -4209,10 +4141,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_element_role_2",
-				},
-				["token_value"] = {
-					-30,
-					-30,
 				},
 			},
 			{
@@ -4237,6 +4165,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -100,
 				["desc"] = "是看起来很厉害的泡泡！",
 				["event_id"] = 30027,
 				["index"] = 1,
@@ -4246,12 +4175,9 @@
 				["talisman_pools"] = {
 					"reward_random_type_phantom_2",
 				},
-				["token_value"] = {
-					-100,
-					-100,
-				},
 			},
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "那就麻烦你啦！",
 				["event_id"] = 30027,
 				["index"] = 2,
@@ -4260,10 +4186,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_type_phantom_1",
-				},
-				["token_value"] = {
-					-50,
-					-50,
 				},
 			},
 			{
@@ -4289,6 +4211,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -60,
 				["desc"] = "（直接上手拧泡泡）",
 				["event_id"] = 30028,
 				["index"] = 1,
@@ -4298,12 +4221,9 @@
 				["talisman_pools"] = {
 					"reward_random_voc_role_3",
 				},
-				["token_value"] = {
-					-60,
-					-60,
-				},
 			},
 			{
+				["cost_token_value"] = -30,
 				["desc"] = "（建议重启试试）",
 				["event_id"] = 30028,
 				["index"] = 2,
@@ -4312,10 +4232,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_voc_role_2",
-				},
-				["token_value"] = {
-					-30,
-					-30,
 				},
 			},
 			{
@@ -4340,29 +4256,26 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
-				["desc"] = "就刷一小会儿。",
+				["cost_token_value"] = -60,
+				["desc"] = "狠狠刷一段时间。",
 				["event_id"] = 30029,
 				["index"] = 1,
 				["is_hide"] = false,
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_help_role_2",
+					"reward_random_help_role_3",
 				},
 			},
 			{
-				["desc"] = "狠狠刷一段时间。",
+				["desc"] = "就刷一小会儿。",
 				["event_id"] = 30029,
 				["index"] = 2,
 				["is_hide"] = false,
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_help_role_3",
-				},
-				["token_value"] = {
-					-60,
-					-60,
+					"reward_random_help_role_2",
 				},
 			},
 			{
@@ -4397,6 +4310,7 @@
 				["talisman_can_append"] = false,
 			},
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "（挪走垃圾筐）",
 				["event_id"] = 30030,
 				["index"] = 2,
@@ -4404,10 +4318,6 @@
 				["selection_type"] = 3,
 				["talisman"] = 40130,
 				["talisman_can_append"] = false,
-				["token_value"] = {
-					-50,
-					-50,
-				},
 			},
 		},
 	},
@@ -4426,14 +4336,30 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
 			},
 			{
 				["desc"] = "很奇怪的风味……",
 				["event_id"] = 30101,
 				["index"] = 2,
 				["is_hide"] = false,
-				["rank_has_card"] = true,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
+			},
+			{
+				["desc"] = "没有带锅……",
+				["event_id"] = 30101,
+				["index"] = 3,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					100,
+					100,
+				},
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4454,14 +4380,27 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
 			},
 			{
 				["desc"] = "很奇怪的风味……",
 				["event_id"] = 30102,
 				["index"] = 2,
 				["is_hide"] = false,
-				["selection_type"] = 0,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
+			},
+			{
+				["desc"] = "没有带锅……",
+				["event_id"] = 30102,
+				["index"] = 3,
+				["is_hide"] = false,
+				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 				["token_value"] = {
 					50,
@@ -4485,14 +4424,27 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
 			},
 			{
 				["desc"] = "很奇怪的风味……",
 				["event_id"] = 30103,
-				["exchange_tali_core_develop"] = true,
 				["index"] = 2,
 				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
+			},
+			{
+				["desc"] = "没有带锅……",
+				["event_id"] = 30103,
+				["index"] = 3,
+				["is_hide"] = false,
+				["rank_has_card"] = true,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4513,14 +4465,30 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
 			},
 			{
 				["desc"] = "很奇怪的风味……",
 				["event_id"] = 30111,
 				["index"] = 2,
 				["is_hide"] = false,
-				["rank_has_card"] = true,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
+			},
+			{
+				["desc"] = "没有带锅……",
+				["event_id"] = 30111,
+				["index"] = 3,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					100,
+					100,
+				},
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4541,14 +4509,27 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
 			},
 			{
 				["desc"] = "很奇怪的风味……",
 				["event_id"] = 30112,
 				["index"] = 2,
 				["is_hide"] = false,
-				["selection_type"] = 0,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
+			},
+			{
+				["desc"] = "没有带锅……",
+				["event_id"] = 30112,
+				["index"] = 3,
+				["is_hide"] = false,
+				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 				["token_value"] = {
 					50,
@@ -4572,14 +4553,27 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
 			},
 			{
 				["desc"] = "很奇怪的风味……",
 				["event_id"] = 30113,
-				["exchange_tali_core_develop"] = true,
 				["index"] = 2,
 				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
+			},
+			{
+				["desc"] = "没有带锅……",
+				["event_id"] = 30113,
+				["index"] = 3,
+				["is_hide"] = false,
+				["rank_has_card"] = true,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4600,14 +4594,30 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
+			},
+			{
+				["desc"] = "和对手五五开吧……",
+				["event_id"] = 30121,
+				["index"] = 2,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
 			},
 			{
 				["desc"] = "还能再打十个！",
 				["event_id"] = 30121,
-				["index"] = 2,
+				["index"] = 3,
 				["is_hide"] = false,
-				["rank_has_card"] = true,
+				["reward_exp"] = {
+					100,
+					100,
+				},
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4628,14 +4638,27 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
+			},
+			{
+				["desc"] = "和对手五五开吧……",
+				["event_id"] = 30122,
+				["index"] = 2,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
 			},
 			{
 				["desc"] = "还能再打十个！",
 				["event_id"] = 30122,
-				["index"] = 2,
+				["index"] = 3,
 				["is_hide"] = false,
-				["selection_type"] = 0,
+				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 				["token_value"] = {
 					50,
@@ -4659,14 +4682,27 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
+			},
+			{
+				["desc"] = "和对手五五开吧……",
+				["event_id"] = 30123,
+				["index"] = 2,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
 			},
 			{
 				["desc"] = "还能再打十个！",
 				["event_id"] = 30123,
-				["exchange_tali_core_develop"] = true,
-				["index"] = 2,
+				["index"] = 3,
 				["is_hide"] = false,
+				["rank_has_card"] = true,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4681,20 +4717,36 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
-				["desc"] = "吨吨吨吨吨……",
+				["desc"] = "待我休息片刻……",
 				["event_id"] = 30131,
 				["index"] = 1,
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
+			},
+			{
+				["desc"] = "吨吨吨吨吨……",
+				["event_id"] = 30131,
+				["index"] = 2,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
 			},
 			{
 				["desc"] = "我这才刚上线！",
 				["event_id"] = 30131,
-				["index"] = 2,
+				["index"] = 3,
 				["is_hide"] = false,
-				["rank_has_card"] = true,
+				["reward_exp"] = {
+					100,
+					100,
+				},
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4709,20 +4761,33 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
-				["desc"] = "吨吨吨吨吨……",
+				["desc"] = "待我休息片刻……",
 				["event_id"] = 30132,
 				["index"] = 1,
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
+			},
+			{
+				["desc"] = "吨吨吨吨吨……",
+				["event_id"] = 30132,
+				["index"] = 2,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
 			},
 			{
 				["desc"] = "我这才刚上线！",
 				["event_id"] = 30132,
-				["index"] = 2,
+				["index"] = 3,
 				["is_hide"] = false,
-				["selection_type"] = 0,
+				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 				["token_value"] = {
 					50,
@@ -4740,20 +4805,33 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
-				["desc"] = "吨吨吨吨吨……",
+				["desc"] = "待我休息片刻……",
 				["event_id"] = 30133,
 				["index"] = 1,
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
+			},
+			{
+				["desc"] = "吨吨吨吨吨……",
+				["event_id"] = 30133,
+				["index"] = 2,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
 			},
 			{
 				["desc"] = "我这才刚上线！",
 				["event_id"] = 30133,
-				["exchange_tali_core_develop"] = true,
-				["index"] = 2,
+				["index"] = 3,
 				["is_hide"] = false,
+				["rank_has_card"] = true,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4774,14 +4852,30 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
 			},
 			{
 				["desc"] = "（保持警戒）",
 				["event_id"] = 30141,
 				["index"] = 2,
 				["is_hide"] = false,
-				["rank_has_card"] = true,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
+			},
+			{
+				["desc"] = "（直接离开）",
+				["event_id"] = 30141,
+				["index"] = 3,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					100,
+					100,
+				},
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4802,14 +4896,27 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
 			},
 			{
 				["desc"] = "（保持警戒）",
 				["event_id"] = 30142,
 				["index"] = 2,
 				["is_hide"] = false,
-				["selection_type"] = 0,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
+			},
+			{
+				["desc"] = "（直接离开）",
+				["event_id"] = 30142,
+				["index"] = 3,
+				["is_hide"] = false,
+				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 				["token_value"] = {
 					50,
@@ -4833,14 +4940,27 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
 			},
 			{
 				["desc"] = "（保持警戒）",
 				["event_id"] = 30143,
-				["exchange_tali_core_develop"] = true,
 				["index"] = 2,
 				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
+			},
+			{
+				["desc"] = "（直接离开）",
+				["event_id"] = 30143,
+				["index"] = 3,
+				["is_hide"] = false,
+				["rank_has_card"] = true,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4861,14 +4981,30 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
+			},
+			{
+				["desc"] = "和对手五五开吧……",
+				["event_id"] = 30151,
+				["index"] = 2,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
 			},
 			{
 				["desc"] = "还能再打十个！",
 				["event_id"] = 30151,
-				["index"] = 2,
+				["index"] = 3,
 				["is_hide"] = false,
-				["rank_has_card"] = true,
+				["reward_exp"] = {
+					100,
+					100,
+				},
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4889,14 +5025,27 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
+			},
+			{
+				["desc"] = "和对手五五开吧……",
+				["event_id"] = 30152,
+				["index"] = 2,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
 			},
 			{
 				["desc"] = "还能再打十个！",
 				["event_id"] = 30152,
-				["index"] = 2,
+				["index"] = 3,
 				["is_hide"] = false,
-				["selection_type"] = 0,
+				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 				["token_value"] = {
 					50,
@@ -4920,14 +5069,27 @@
 				["is_hide"] = false,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
-				["terminal_health"] = 30,
+				["terminal_health"] = 40,
+			},
+			{
+				["desc"] = "和对手五五开吧……",
+				["event_id"] = 30153,
+				["index"] = 2,
+				["is_hide"] = false,
+				["reward_exp"] = {
+					50,
+					50,
+				},
+				["selection_type"] = 6,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 20,
 			},
 			{
 				["desc"] = "还能再打十个！",
 				["event_id"] = 30153,
-				["exchange_tali_core_develop"] = true,
-				["index"] = 2,
+				["index"] = 3,
 				["is_hide"] = false,
+				["rank_has_card"] = true,
 				["selection_type"] = 6,
 				["talisman_can_append"] = false,
 			},
@@ -4942,6 +5104,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "（查询游行路线）",
 				["event_id"] = 30201,
 				["index"] = 1,
@@ -4951,12 +5114,9 @@
 				["talisman_pools"] = {
 					"reward_random_talisman_rarity_1",
 				},
-				["token_value"] = {
-					-50,
-					-50,
-				},
 			},
 			{
+				["cost_token_value"] = -100,
 				["desc"] = "（疏散无关群众）",
 				["event_id"] = 30201,
 				["index"] = 2,
@@ -4965,10 +5125,6 @@
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
 					"reward_random_type_phantom_2",
-				},
-				["token_value"] = {
-					-100,
-					-100,
 				},
 			},
 			{
@@ -5035,6 +5191,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "（鲜嫩多汁战斧牛排）",
 				["event_id"] = 30203,
 				["index"] = 1,
@@ -5044,12 +5201,9 @@
 				["talisman_pools"] = {
 					"reward_random_element_role_3",
 				},
-				["token_value"] = {
-					-50,
-					-50,
-				},
 			},
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "（大盘迷迭香烤鸡）",
 				["event_id"] = 30203,
 				["index"] = 2,
@@ -5060,10 +5214,6 @@
 				},
 				["selection_type"] = 0,
 				["talisman_can_append"] = false,
-				["token_value"] = {
-					-50,
-					-50,
-				},
 			},
 			{
 				["desc"] = "（转身离开）",
@@ -5131,6 +5281,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "（加入双份草莓冰淇淋的姜汁可可）",
 				["event_id"] = 30205,
 				["index"] = 1,
@@ -5138,12 +5289,9 @@
 				["rank_has_card"] = true,
 				["selection_type"] = 0,
 				["talisman_can_append"] = false,
-				["token_value"] = {
-					-50,
-					-50,
-				},
 			},
 			{
+				["cost_token_value"] = -50,
 				["desc"] = "（漂浮着冻干鸡肉碎的黎威尔日升）",
 				["event_id"] = 30205,
 				["exchange_tali_core_develop"] = true,
@@ -5151,10 +5299,6 @@
 				["is_hide"] = false,
 				["selection_type"] = 0,
 				["talisman_can_append"] = false,
-				["token_value"] = {
-					-50,
-					-50,
-				},
 			},
 			{
 				["desc"] = "（转身离开）",
@@ -5366,6 +5510,350 @@
 				},
 				["selection_type"] = 0,
 				["talisman_can_append"] = false,
+			},
+		},
+	},
+	[30301] = {
+		["desc"] = "插播一条系统提示——反X能源游行队伍将于半小时后出发，预计时长2-3个小时。",
+		["desc_btn"] = "",
+		["id"] = 30301,
+		["interact_type"] = 1,
+		["max_count"] = -1,
+		["max_show_selection"] = 3,
+		["selection_items"] = {
+			{
+				["cost_token_value"] = -50,
+				["desc"] = "（查询游行路线）",
+				["event_id"] = 30301,
+				["index"] = 1,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["token_value"] = {
+					1,
+					150,
+				},
+			},
+			{
+				["cost_token_value"] = -100,
+				["desc"] = "（疏散无关群众）",
+				["event_id"] = 30301,
+				["index"] = 2,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["token_value"] = {
+					50,
+					300,
+				},
+			},
+			{
+				["desc"] = "（跟盯游行人群）",
+				["event_id"] = 30301,
+				["index"] = 3,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["token_value"] = {
+					50,
+					50,
+				},
+			},
+		},
+	},
+	[30302] = {
+		["desc"] = "插播一条系统提示——反X能源游行队伍将于半小时后出发，预计时长2-3个小时。",
+		["desc_btn"] = "",
+		["id"] = 30302,
+		["interact_type"] = 1,
+		["max_count"] = -1,
+		["max_show_selection"] = 3,
+		["selection_items"] = {
+			{
+				["desc"] = "（查询游行路线）",
+				["event_id"] = 30302,
+				["index"] = 1,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["terminal_health"] = -20,
+				["token_value"] = {
+					50,
+					150,
+				},
+			},
+			{
+				["desc"] = "（疏散无关群众）",
+				["event_id"] = 30302,
+				["index"] = 2,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["terminal_health"] = -40,
+				["token_value"] = {
+					50,
+					300,
+				},
+			},
+			{
+				["desc"] = "（跟盯游行人群）",
+				["event_id"] = 30302,
+				["index"] = 3,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 10,
+			},
+		},
+	},
+	[30303] = {
+		["desc"] = "没力气怎么打BOSS！光喝小甜水填不饱肚子，来看看我为你准备的硬菜，保证让你吃饱了上路~",
+		["desc_btn"] = "",
+		["id"] = 30303,
+		["interact_type"] = 1,
+		["max_count"] = -1,
+		["max_show_selection"] = 3,
+		["selection_items"] = {
+			{
+				["cost_token_value"] = -60,
+				["desc"] = "（鲜嫩多汁战斧牛排）",
+				["event_id"] = 30303,
+				["index"] = 1,
+				["is_hide"] = false,
+				["rank_has_card"] = true,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+			},
+			{
+				["cost_token_value"] = -60,
+				["desc"] = "（大盘迷迭香烤鸡）",
+				["event_id"] = 30303,
+				["index"] = 2,
+				["is_hide"] = false,
+				["selection_type"] = 3,
+				["talisman"] = 40201,
+				["talisman_can_append"] = false,
+			},
+			{
+				["desc"] = "（转身离开）",
+				["event_id"] = 30303,
+				["index"] = 3,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["token_value"] = {
+					50,
+					50,
+				},
+			},
+		},
+	},
+	[30304] = {
+		["desc"] = "前面的道路被一块巨石挡住了，我推不开，监督，您来试试呢？",
+		["desc_btn"] = "",
+		["id"] = 30304,
+		["interact_type"] = 1,
+		["max_count"] = -1,
+		["max_show_selection"] = 3,
+		["selection_items"] = {
+			{
+				["desc"] = "（推开）请叫我大力神！",
+				["event_id"] = 30304,
+				["index"] = 1,
+				["is_hide"] = false,
+				["rank_has_card"] = true,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["terminal_health"] = -10,
+			},
+			{
+				["desc"] = "我能从缝隙里钻过去……",
+				["event_id"] = 30304,
+				["index"] = 2,
+				["is_hide"] = false,
+				["selection_type"] = 3,
+				["talisman"] = 40201,
+				["talisman_can_append"] = false,
+				["terminal_health"] = -20,
+			},
+			{
+				["desc"] = "嘶，不太行……绕路吧……",
+				["event_id"] = 30304,
+				["index"] = 3,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 10,
+			},
+		},
+	},
+	[30305] = {
+		["desc"] = "没力气怎么打BOSS！光喝小甜水填不饱肚子，来看看我为你准备的硬菜，保证让你吃饱了上路~",
+		["desc_btn"] = "",
+		["id"] = 30305,
+		["interact_type"] = 1,
+		["max_count"] = -1,
+		["max_show_selection"] = 3,
+		["selection_items"] = {
+			{
+				["cost_token_value"] = -50,
+				["desc"] = "（鲜嫩多汁战斧牛排）",
+				["event_id"] = 30305,
+				["index"] = 1,
+				["is_hide"] = false,
+				["selection_type"] = 3,
+				["talisman"] = 40202,
+				["talisman_can_append"] = false,
+			},
+			{
+				["cost_token_value"] = -100,
+				["desc"] = "（大盘迷迭香烤鸡）",
+				["event_id"] = 30305,
+				["index"] = 2,
+				["is_hide"] = false,
+				["selection_type"] = 3,
+				["talisman"] = 40203,
+				["talisman_can_append"] = false,
+			},
+			{
+				["desc"] = "（转身离开）",
+				["event_id"] = 30305,
+				["index"] = 3,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["token_value"] = {
+					50,
+					50,
+				},
+			},
+		},
+	},
+	[30306] = {
+		["desc"] = "前面的道路被一块巨石挡住了，我推不开，监督，您来试试呢？",
+		["desc_btn"] = "",
+		["id"] = 30306,
+		["interact_type"] = 1,
+		["max_count"] = -1,
+		["max_show_selection"] = 3,
+		["selection_items"] = {
+			{
+				["desc"] = "（推开）请叫我大力神！",
+				["event_id"] = 30306,
+				["index"] = 1,
+				["is_hide"] = false,
+				["selection_type"] = 3,
+				["talisman"] = 40202,
+				["talisman_can_append"] = false,
+				["terminal_health"] = -20,
+			},
+			{
+				["desc"] = "我能从缝隙里钻过去……",
+				["event_id"] = 30306,
+				["index"] = 2,
+				["is_hide"] = false,
+				["selection_type"] = 3,
+				["talisman"] = 40203,
+				["talisman_can_append"] = false,
+				["terminal_health"] = -40,
+			},
+			{
+				["desc"] = "嘶，不太行……绕路吧……",
+				["event_id"] = 30306,
+				["index"] = 3,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 10,
+			},
+		},
+	},
+	[30307] = {
+		["desc"] = "嗟！来食！赶紧选个爱吃的！然后就精力充沛地上路吧！",
+		["desc_btn"] = "",
+		["id"] = 30307,
+		["interact_type"] = 1,
+		["max_count"] = 1,
+		["max_show_selection"] = 3,
+		["selection_items"] = {
+			{
+				["cost_token_value"] = -50,
+				["desc"] = "（加入双份草莓冰淇淋的姜汁可可）",
+				["event_id"] = 30307,
+				["index"] = 1,
+				["is_hide"] = false,
+				["selection_type"] = 3,
+				["talisman_can_append"] = false,
+				["talisman_pools"] = {
+					"reward_random_talisman_rarity_1",
+				},
+			},
+			{
+				["cost_token_value"] = -100,
+				["desc"] = "（漂浮着冻干鸡肉碎的黎威尔日升）",
+				["event_id"] = 30307,
+				["index"] = 2,
+				["is_hide"] = false,
+				["selection_type"] = 3,
+				["talisman_can_append"] = false,
+				["talisman_pools"] = {
+					"reward_tali_core_develop",
+				},
+			},
+			{
+				["desc"] = "（转身离开）",
+				["event_id"] = 30307,
+				["index"] = 3,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["token_value"] = {
+					50,
+					50,
+				},
+			},
+		},
+	},
+	[30308] = {
+		["desc"] = "前面的道路被一块巨石挡住了，我推不开，监督，您来试试呢？",
+		["desc_btn"] = "",
+		["id"] = 30308,
+		["interact_type"] = 1,
+		["max_count"] = 1,
+		["max_show_selection"] = 3,
+		["selection_items"] = {
+			{
+				["desc"] = "（推开）请叫我大力神！",
+				["event_id"] = 30308,
+				["index"] = 1,
+				["is_hide"] = false,
+				["selection_type"] = 3,
+				["talisman_can_append"] = false,
+				["talisman_pools"] = {
+					"reward_random_talisman_rarity_1",
+				},
+				["terminal_health"] = -20,
+			},
+			{
+				["desc"] = "我能从缝隙里钻过去……",
+				["event_id"] = 30308,
+				["index"] = 2,
+				["is_hide"] = false,
+				["selection_type"] = 3,
+				["talisman_can_append"] = false,
+				["talisman_pools"] = {
+					"reward_tali_core_develop",
+				},
+				["terminal_health"] = -40,
+			},
+			{
+				["desc"] = "嘶，不太行……绕路吧……",
+				["event_id"] = 30308,
+				["index"] = 3,
+				["is_hide"] = false,
+				["selection_type"] = 0,
+				["talisman_can_append"] = false,
+				["terminal_health"] = 10,
 			},
 		},
 	},
