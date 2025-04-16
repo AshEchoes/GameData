@@ -3133,6 +3133,7 @@
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
+				["cost_token_value"] = -30,
 				["desc"] = "就刷一小会儿。",
 				["event_id"] = 30002,
 				["index"] = 1,
@@ -3553,7 +3554,7 @@
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_element_role_2",
+					"reward_random_talisman_rarity_1",
 				},
 			},
 			{
@@ -3564,7 +3565,7 @@
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_type_phantom_1",
+					"reward_random_talisman_rarity_1",
 				},
 			},
 		},
@@ -3596,7 +3597,7 @@
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_type_phantom_1",
+					"reward_random_talisman_rarity_1",
 				},
 			},
 			{
@@ -3629,7 +3630,7 @@
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_voc_role_3",
+					"reward_random_talisman_rarity_1",
 				},
 			},
 			{
@@ -3640,7 +3641,7 @@
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_type_phantom_2",
+					"reward_random_talisman_rarity_1",
 				},
 			},
 			{
@@ -3662,7 +3663,7 @@
 		["desc_btn"] = "",
 		["id"] = 30016,
 		["interact_type"] = 1,
-		["max_count"] = -1,
+		["max_count"] = 1,
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
@@ -3673,7 +3674,7 @@
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_tali_core_develop",
+					"reward_random_talisman_rarity_2",
 				},
 			},
 			{
@@ -3684,7 +3685,7 @@
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_element_role_3",
+					"reward_random_talisman_rarity_1",
 				},
 			},
 			{
@@ -5341,7 +5342,7 @@
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_element_role_3",
+					"reward_random_talisman_rarity_1",
 				},
 			},
 			{
@@ -5349,10 +5350,11 @@
 				["event_id"] = 30206,
 				["index"] = 3,
 				["is_hide"] = false,
-				["selection_type"] = 3,
+				["selection_type"] = 0,
 				["talisman_can_append"] = false,
-				["talisman_pools"] = {
-					"reward_random_type_phantom_2",
+				["token_value"] = {
+					100,
+					100,
 				},
 			},
 		},
@@ -5384,7 +5386,7 @@
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_type_phantom_2",
+					"reward_random_talisman_rarity_1",
 				},
 			},
 			{
@@ -5417,7 +5419,7 @@
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_voc_role_3",
+					"reward_tali_core_develop",
 				},
 			},
 			{
@@ -5428,7 +5430,7 @@
 				["selection_type"] = 3,
 				["talisman_can_append"] = false,
 				["talisman_pools"] = {
-					"reward_random_type_phantom_2",
+					"reward_random_talisman_rarity_1",
 				},
 			},
 			{
@@ -5458,12 +5460,11 @@
 				["event_id"] = 30209,
 				["index"] = 1,
 				["is_hide"] = false,
-				["reward_exp"] = {
-					80,
-					80,
-				},
-				["selection_type"] = 0,
+				["selection_type"] = 3,
 				["talisman_can_append"] = false,
+				["talisman_pools"] = {
+					"reward_random_talisman_rarity_1",
+				},
 			},
 			{
 				["desc"] = "很好听，以后不要唱了。",
@@ -5473,8 +5474,8 @@
 				["selection_type"] = 0,
 				["talisman_can_append"] = false,
 				["token_value"] = {
-					100,
-					100,
+					50,
+					50,
 				},
 			},
 		},
@@ -5492,24 +5493,22 @@
 				["event_id"] = 30210,
 				["index"] = 1,
 				["is_hide"] = false,
-				["reward_exp"] = {
-					80,
-					80,
-				},
-				["selection_type"] = 0,
+				["selection_type"] = 3,
 				["talisman_can_append"] = false,
+				["talisman_pools"] = {
+					"reward_random_talisman_rarity_1",
+				},
 			},
 			{
 				["desc"] = "右。",
 				["event_id"] = 30210,
 				["index"] = 2,
 				["is_hide"] = false,
-				["reward_exp"] = {
-					50,
-					120,
-				},
-				["selection_type"] = 0,
+				["selection_type"] = 3,
 				["talisman_can_append"] = false,
+				["talisman_pools"] = {
+					"reward_random_talisman_rarity_1",
+				},
 			},
 		},
 	},
@@ -5773,7 +5772,7 @@
 		["desc_btn"] = "",
 		["id"] = 30307,
 		["interact_type"] = 1,
-		["max_count"] = 1,
+		["max_count"] = -1,
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
@@ -5819,7 +5818,7 @@
 		["desc_btn"] = "",
 		["id"] = 30308,
 		["interact_type"] = 1,
-		["max_count"] = 1,
+		["max_count"] = -1,
 		["max_show_selection"] = 3,
 		["selection_items"] = {
 			{
