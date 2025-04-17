@@ -365,7 +365,7 @@
 		["attr_type"] = "",
 		["attr_types"] = {
 		},
-		["desc"] = "[link type='combat' tid='4']发生后，己方所有游徒回复[c ffffff]10秒[/c]异核充能。\n刻印攻击提升[c ffffff]10[/c]点，\n每获得一名[c 9e7fbd]蚀属性[/c]同调者增加[c ffffff]5[/c]点。\n[c 8b9fac]上限60点[/c]",
+		["desc"] = "[link type='combat' tid='4']发生后，己方所有游徒回复[c ffffff]1[/c]次主动技能次数。\n刻印攻击提升[c ffffff]10[/c]点，\n每获得一名[c 9e7fbd]蚀属性[/c]同调者增加[c ffffff]5[/c]点。\n[c 8b9fac]上限60点[/c]",
 		["effect_count"] = -1,
 		["effect_desc"] = "外形古典别致的手提箱，锁孔附有炼金回路，从风格上看，应该是来自特默里恩。",
 		["effect_param"] = "",
@@ -609,7 +609,7 @@
 		["attr_types"] = {
 		},
 		["core_talisman_id"] = 12008,
-		["desc"] = "冲锋机械的射击速度提高{1}，场上游徒、筑术师的攻击速度提升[c ffffff]一半[/c]的数值。",
+		["desc"] = "冲锋机械的射击速度提高{1}，同时，场上游徒的攻击速度提升{1}，筑术师的攻击速度提升{2}。",
 		["effect_count"] = -1,
 		["effect_desc"] = "冲锋机械的重要部件，极大提升了装弹效率，使机器可以更快速地进行射击。",
 		["effect_param"] = "",
@@ -1149,7 +1149,7 @@
 		["attr_type"] = "",
 		["attr_types"] = {
 		},
-		["desc"] = "根据[c ffffff]同调者的数量[/c]，提升刻印体质提升，每位同调者提升[c ffffff]5[/c]点刻印体质。",
+		["desc"] = "根据[c ffffff]同调者的数量[/c]，提升刻印体质，每位同调者提升[c ffffff]5[/c]点刻印体质。",
 		["effect_count"] = -1,
 		["effect_desc"] = "白荆员工持有，人手一张，用于上下班打卡及门禁出入。\n80楼以上的特殊场合需激活相应权限才可进入。",
 		["effect_param"] = "",
@@ -3017,7 +3017,7 @@
 		["attr_types"] = {
 		},
 		["core_talisman_id"] = 12015,
-		["desc"] = "使目标受到的来自[c ffffff]能量球[/c]的伤害大幅提升，首领额外承受{1}伤害，其他敌人额外承受{2}伤害。\n每颗[c ffffff]能量球[/c]初始造成[c ffffff]4000[/c]点物理伤害。",
+		["desc"] = "使目标受到的来自[c ffffff]能量球[/c]的伤害大幅提升，首领额外承受{1}伤害，其他敌人额外承受{2}伤害。",
 		["effect_count"] = -1,
 		["effect_desc"] = "AM泡泡群组迭代后的版本，通过内置的助推器加速来加速被释放的能量。",
 		["effect_param"] = "",
@@ -3048,7 +3048,7 @@
 		["attr_types"] = {
 		},
 		["core_talisman_id"] = 12015,
-		["desc"] = "同调者每次释放主动/异核技能后，使所有友方同调者发射{1}颗[c ffffff]能量球[/c]攻击目标。\n每颗[c ffffff]能量球[/c]造成[c ffffff]4000[/c]点物理伤害。",
+		["desc"] = "同调者每次释放主动/异核技能后，使所有友方同调者发射{1}颗[c ffffff]能量球[/c]攻击目标；\n此外，[c 9e7fbd]蚀元素[/c]同调者每施放{2}颗能量球，回复[c ffffff]1[/c]次主动技能次数。",
 		["effect_count"] = -1,
 		["effect_desc"] = "AM泡泡群组迭代后的版本，黑盒内数据转化为能量的效率被大大提升。",
 		["effect_param"] = "",
@@ -3063,7 +3063,7 @@
 		["name"] = "能量黑盒·信息转化",
 		["rarity"] = 2,
 		["script"] = "",
-		["short_desc"] = "释放主动/异核技能后也会发射[c ffffff]能量球[/c]。",
+		["short_desc"] = "释放主动/异核技能后也会发射[c ffffff]能量球[/c]并回复[c 9e7fbd]蚀[/c]同调者技能次数。",
 		["show_idx"] = 56,
 		["sub_type"] = 2,
 		["type"] = 1,
@@ -3716,7 +3716,7 @@
 		["attr_types"] = {
 		},
 		["core_talisman_id"] = 0,
-		["desc"] = "同调者每次普通攻击后，朝当前目标发射[c ffffff]1[/c]颗[c ffffff]物理属性[/c]的[c ffffff]能量球[/c]，造成[c ffffff]4000[/c]点物理伤害。\n提供体质、攻击、专精各[c ffffff]25[/c]点。",
+		["desc"] = "同调者每次普通攻击后，朝当前目标发射[c ffffff]1[/c]颗[c 9e7fbd]蚀元素属性[/c]能量球，造成[c ffffff]3000[/c]点[c 9e7fbd]蚀元素[/c]伤害。\n此外，每获得一名[c 9e7fbd]蚀元素[/c]同调者，同调者的攻击速度提升[c ffffff]15%[/c]。\n提供体质、攻击、专精各[c ffffff]25[/c]点。",
 		["effect_count"] = -1,
 		["effect_desc"] = "【思维演绎】程序研发小组创建的虚拟兵器，被装在长条形的小黑盒子中，虽然外观不起眼，但一经打开会释放大量能量。",
 		["effect_priority"] = 1,
@@ -3730,7 +3730,7 @@
 		["name"] = "核心·能量黑盒",
 		["rarity"] = 3,
 		["script"] = "",
-		["short_desc"] = "同调者普通攻击后发射[c ffffff]能量球[/c]，造成中等物理伤害。",
+		["short_desc"] = "同调者普通攻击后发射[c ffffff]能量球[/c]，造成中等[c 9e7fbd]蚀元素[/c]伤害。",
 		["show_idx"] = 53,
 		["sub_type"] = 2,
 		["type"] = 1,
