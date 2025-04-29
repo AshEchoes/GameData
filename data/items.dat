@@ -5138,7 +5138,7 @@
 		["name"] = "立绘映像·「苦锈」",
 		["phantom_exp"] = 0,
 		["quality"] = 5,
-		["show_usable_hint"] = false,
+		["show_usable_hint"] = true,
 		["source_desc"] = "",
 		["tid"] = 16777500,
 		["usable"] = 1,
@@ -5162,7 +5162,7 @@
 		["name"] = "立绘映像·「浸花影」",
 		["phantom_exp"] = 0,
 		["quality"] = 5,
-		["show_usable_hint"] = false,
+		["show_usable_hint"] = true,
 		["source_desc"] = "",
 		["tid"] = 16777501,
 		["usable"] = 1,
@@ -5240,16 +5240,16 @@
 		["batch_use"] = false,
 		["card_exp"] = 0,
 		["consume_count"] = 1,
-		["desc"] = "",
-		["effect_desc"] = "",
+		["desc"] = "向着记忆中那些难以忘怀的人，伸出手！",
+		["effect_desc"] = "\n通过活动获取，可在【识海甄录】中定位到一名同调者的位置。",
 		["effects"] = {
 		},
 		["expire_type"] = 0,
 		["extra_values"] = {
 		},
-		["icon_id"] = "profile_003",
+		["icon_id"] = "recruit_030",
 		["klass"] = 1,
-		["name"] = "半周年·共鸣",
+		["name"] = "识海甄录·特约协议",
 		["phantom_exp"] = 0,
 		["quality"] = 5,
 		["show_usable_hint"] = false,
@@ -33853,7 +33853,7 @@
 		["batch_use"] = false,
 		["card_exp"] = 0,
 		["consume_count"] = 0,
-		["desc"] = "雪终节义卖会专用币，可用于兑换春天的好运。\n\n活动到期后，系统将对未消耗的雪终币按1:2海隅点数进行回收，海隅点数通过邮件发放。",
+		["desc"] = "雪终节义卖会专用币，可用于兑换春天的好运。",
 		["effect_desc"] = "“雪日初霁，雪终花开。”",
 		["effects"] = {
 		},
@@ -33919,7 +33919,7 @@
 		["batch_use"] = false,
 		["card_exp"] = 0,
 		["consume_count"] = 0,
-		["desc"] = "可在美梦贩卖机兑换心仪商品。\n\n活动到期后，系统将对未消耗的速溶胶囊按1:5海隅点数进行回收，海隅点数通过邮件发放。",
+		["desc"] = "可在美梦贩卖机兑换心仪商品。",
 		["effect_desc"] = "“干杯，速溶美梦！”",
 		["effects"] = {
 		},
@@ -33964,7 +33964,7 @@
 		["batch_use"] = false,
 		["card_exp"] = 0,
 		["consume_count"] = 0,
-		["desc"] = "可在斑斓泡泡扭蛋机抽取奖品。\n\n活动到期后，系统将对未消耗的游艺硬币按1:5海隅点数进行回收，海隅点数通过邮件发放。",
+		["desc"] = "可在斑斓泡泡扭蛋机抽取奖品。",
 		["effect_desc"] = "背面印着一行小字：Buona fortuna.",
 		["effects"] = {
 		},
@@ -33986,7 +33986,7 @@
 		["batch_use"] = false,
 		["card_exp"] = 0,
 		["consume_count"] = 0,
-		["desc"] = "可在营地补给站兑换心仪商品。\n\n活动到期后，系统将对未消耗的乌瑞亚金币按1:5海隅点数进行回收，海隅点数通过邮件发放。",
+		["desc"] = "可在营地补给站兑换心仪商品。",
 		["effect_desc"] = "一枚光华璀璨的金币，正中刻有安斯朵拉之书的形状。",
 		["effects"] = {
 		},
@@ -34008,7 +34008,7 @@
 		["batch_use"] = false,
 		["card_exp"] = 0,
 		["consume_count"] = 0,
-		["desc"] = "可在边境酒馆兑换心仪商品。\n\n活动到期后，系统将对未消耗的旧金属瓶盖按1:5海隅点数进行回收，海隅点数通过邮件发放。",
+		["desc"] = "可在边境酒馆兑换心仪商品。",
 		["effect_desc"] = "边缘略有磨损的瓶盖，记录了茫茫沙尘间的纷繁故旧。",
 		["effects"] = {
 		},
@@ -34030,7 +34030,7 @@
 		["batch_use"] = false,
 		["card_exp"] = 0,
 		["consume_count"] = 0,
-		["desc"] = "可在赤诺交易处兑换心仪商品。\n\n活动到期后，系统将对未消耗的晶化骨殖按1:5海隅点数进行回收，海隅点数通过邮件发放。",
+		["desc"] = "可在赤诺交易处兑换心仪商品。",
 		["effect_desc"] = "“请勿随意取下封贴，小心感染。”",
 		["effects"] = {
 		},
@@ -34052,7 +34052,7 @@
 		["batch_use"] = false,
 		["card_exp"] = 0,
 		["consume_count"] = 0,
-		["desc"] = "可在声浪商店内兑换心仪商品。\n\n活动到期后，系统将对未消耗的音悦卡按1:5海隅点数进行回收，海隅点数通过邮件发放。",
+		["desc"] = "可在声浪商店内兑换心仪商品。",
 		["effect_desc"] = "“让每一刻的聆听都成为礼物。”",
 		["effects"] = {
 		},
@@ -34080,6 +34080,7 @@
 		},
 		["expire_type"] = 0,
 		["extra_values"] = {
+			"activity_roulette_common",
 		},
 		["icon_id"] = "capsuletoys_coin_02",
 		["klass"] = 2,
@@ -34096,7 +34097,7 @@
 		["batch_use"] = false,
 		["card_exp"] = 0,
 		["consume_count"] = 0,
-		["desc"] = "可在海市兑换心仪商品。\n\n活动到期后，系统将对未消耗的海结按1:5海隅点数进行回收，海隅点数通过邮件发放。",
+		["desc"] = "可在海市兑换心仪商品。",
 		["effect_desc"] = "由当康族一枚一枚亲手扭制，味道鲜美。海错种族大都愿意交换此物。",
 		["effects"] = {
 		},
@@ -34162,7 +34163,7 @@
 		["batch_use"] = false,
 		["card_exp"] = 0,
 		["consume_count"] = 0,
-		["desc"] = "观影留念，可在文创产品店兑换心仪商品。\n\n活动到期后，系统将对未消耗的观影券按1:5海隅点数进行回收，海隅点数通过邮件发放。",
+		["desc"] = "观影留念，可在文创产品店兑换心仪商品。",
 		["effect_desc"] = "每一张票券都是一段剧目，\n每一段剧目都是一段人生。",
 		["effects"] = {
 		},

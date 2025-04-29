@@ -25131,11 +25131,11 @@
 		["desc"] = "对处于水元素区域的目标造成水元素伤害时，会为目标施加“迟滞”效果，“迟滞”效果使目标移动速度降低70%且水元素抗性降低{1}，持续5秒，迟滞效果结束后会使目标[link type='combat' tid='13']3秒。重复触发不刷新持续时间",
 		["desc_type"] = 1,
 		["element_type"] = {
-			-1,
+			1,
 		},
 		["encourage_trigger_condition"] = "",
 		["encourage_trigger_condition_desc"] = "",
-		["filter_element_mark"] = 5,
+		["filter_element_mark"] = 1,
 		["icon"] = "core_245",
 		["id"] = 20222,
 		["is_encourage"] = false,
@@ -26129,7 +26129,7 @@
 			240,
 			300,
 		},
-		["desc"] = "当同调者施放异核技能或对敌人触发[link type='combat' tid='9']时，会在目标处（优先选择精英及首领单位）生成一个200范围的区域，持续5秒，每秒对区域内的敌人造成施放者最终攻击{1}的霜元素伤害，每个同调者每20秒最多触发1次",
+		["desc"] = "当同调者施放异核技能或对敌人触发[link type='combat' tid='9']时，会在目标处（优先选择精英及首领单位）每秒持续对目标半径200范围内的敌人造成施放者最终攻击{1}的霜元素伤害，持续5秒，每个同调者每20秒最多触发1次",
 		["desc_type"] = 1,
 		["element_type"] = {
 			-1,
@@ -26167,8 +26167,8 @@
 		["skill_type"] = 2,
 		["upgrade_value"] = {
 			4,
-			6,
-			8,
+			7,
+			10,
 		},
 		["value_unit"] = {
 			1,
