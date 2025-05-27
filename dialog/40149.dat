@@ -2818,7 +2818,7 @@
 			},
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "请问是要我们做什么呢？\n",
+		["text"] = "请问是要我做什么呢？\n",
 	},
 	{
 		["bg_info"] = {
@@ -4221,11 +4221,17 @@
 		["guid"] = "05A331A44B0AD50C81A1E4AFF168FE3F",
 		["guid_str"] = "xwPPq08R",
 		["id"] = 86,
-		["name"] = "哈娜",
+		["name"] = "店员",
 		["speaker_info"] = {
 			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "n01normalwoman_02",
+			["path"] = "n83paradise/n83paradise_prisoner_f_01_action1",
 		},
 		["text"] = "这样的饭，确实能抓住网络看客的眼球。",
 	},
@@ -4433,7 +4439,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5136,10 +5142,11 @@
 			{
 			},
 		},
-		["bgm"] = {
-			["event"] = "event:/bgm/s247_char_dika",
-			["length"] = 119700,
-			["operation"] = 1,
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]店员眨巴眨巴眼，将信将疑地舀了一勺，深呼吸后吞药一般昂头吃了下去。",
+			["text_align"] = "center",
 		},
 		["characters"] = {
 			{
@@ -5160,22 +5167,14 @@
 				},
 			},
 		},
-		["guid"] = "181C6DC640C35D59170A40A82D3A40F2",
-		["guid_str"] = "Ku8IbZQi",
+		["guid"] = "FF39BCDD45FEE81652FFB3B807A21F2F",
+		["guid_str"] = "vgErSAzz",
 		["id"] = 98,
-		["name"] = "哈娜",
-		["soundfx"] = {
-			{
-				["event"] = "event:/sfx/story/tikka/avg_tikka_cute_happy-002",
-				["length"] = 4625,
-			},
-		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "n01normalwoman_02",
 		},
-		["text"] = "太美味了——！！",
 	},
 	{
 		["bg_info"] = {
@@ -5223,11 +5222,10 @@
 			{
 			},
 		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["text"] = "[size 17]店员眨巴眨巴眼，将信将疑地舀了一勺，深呼吸后吞药一般昂头吃了下去。",
-			["text_align"] = "center",
+		["bgm"] = {
+			["event"] = "event:/bgm/s247_char_dika",
+			["length"] = 119700,
+			["operation"] = 1,
 		},
 		["characters"] = {
 			{
@@ -5248,14 +5246,28 @@
 				},
 			},
 		},
-		["guid"] = "FF39BCDD45FEE81652FFB3B807A21F2F",
-		["guid_str"] = "vgErSAzz",
+		["guid"] = "181C6DC640C35D59170A40A82D3A40F2",
+		["guid_str"] = "Ku8IbZQi",
 		["id"] = 99,
+		["name"] = "店员",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/tikka/avg_tikka_cute_happy-002",
+				["length"] = 4625,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "n01normalwoman_02",
+			["path"] = "n83paradise/n83paradise_prisoner_f_01_action1",
 		},
+		["text"] = "太美味了——！！",
 	},
 	{
 		["bg_info"] = {
@@ -5967,6 +5979,85 @@
 							},
 							["tween"] = "RelativePositionChange",
 						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af52dk/af52dk_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "FE21D4CB44587837FA91CB9E059B058B",
+		["guid_str"] = "3JulXMnT",
+		["id"] = 108,
+		["name"] = "哈娜",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode40008_0002",
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n01normalwoman_02",
+		},
+		["text"] = "主厨小姐，该开始迎接客人们了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.5,
+								["scale_y"] = 1.5,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["config"] = {
+									["last_px"] = 0,
+									["last_py"] = 0,
+									["orig_x"] = 380,
+									["orig_y"] = -100,
+									["scale"] = 1,
+									["state"] = 0,
+								},
+								["delay"] = 0,
+								["end_pos"] = {
+									["x"] = 380,
+									["y"] = -100,
+								},
+								["pos"] = {
+									["x"] = 380,
+									["y"] = -100,
+								},
+								["time"] = 0,
+							},
+							["tween"] = "RelativePositionChange",
+						},
 						{
 							["param"] = {
 								["delay"] = 0,
@@ -5987,6 +6078,12 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af52dk/af52dk_action1",
 				["shadow"] = {
@@ -6005,7 +6102,7 @@
 		},
 		["guid"] = "3E44938E46EEF8C7279AFA83B83C2F64",
 		["guid_str"] = "qsXgN2QG",
-		["id"] = 108,
+		["id"] = 109,
 		["just_auto_play"] = true,
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6073,7 +6170,7 @@
 		},
 		["guid"] = "63F923064DA3344F684A848C99EC6FE4",
 		["guid_str"] = "AiSm9jmx",
-		["id"] = 109,
+		["id"] = 110,
 		["just_auto_play"] = true,
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6185,7 +6282,7 @@
 		},
 		["guid"] = "85654150499D219F5FCDA0BBCE45816E",
 		["guid_str"] = "arpjz7qx",
-		["id"] = 110,
+		["id"] = 111,
 		["name"] = "店员",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6286,7 +6383,7 @@
 		},
 		["guid"] = "0CA558AB4936112ADB675292F77471AA",
 		["guid_str"] = "Uu652SHN",
-		["id"] = 111,
+		["id"] = 112,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -6385,7 +6482,7 @@
 		},
 		["guid"] = "06C8A6B14ED02F147946F6B0C0539BAF",
 		["guid_str"] = "zHkuYaRA",
-		["id"] = 112,
+		["id"] = 113,
 		["name"] = "哈娜",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6485,7 +6582,7 @@
 		},
 		["guid"] = "5693C2D54192FCFE459028A227A3E1EC",
 		["guid_str"] = "0pwOmudd",
-		["id"] = 113,
+		["id"] = 114,
 		["name"] = "谛卡",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6497,7 +6594,7 @@
 			},
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "刚帮上忙我也很高兴——每个客人都接受良好真是太好了。",
+		["text"] = "刚帮上忙我也很高兴——每个客人都接受真是太好了。",
 	},
 	{
 		["bg_info"] = {
@@ -6591,7 +6688,7 @@
 		},
 		["guid"] = "5ABFD71C4B56801BB7F488ADFA1070FA",
 		["guid_str"] = "egVi7EMr",
-		["id"] = 114,
+		["id"] = 115,
 		["name"] = "店员",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6692,7 +6789,7 @@
 		},
 		["guid"] = "92D57AAC496CB9B8089C49AA83FEFE4B",
 		["guid_str"] = "9AKi0KgR",
-		["id"] = 115,
+		["id"] = 116,
 		["name"] = "谛卡",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6803,7 +6900,7 @@
 		},
 		["guid"] = "3FC2B40C4CA49B5E44923BAD386B0677",
 		["guid_str"] = "r7ZIgcaQ",
-		["id"] = 116,
+		["id"] = 117,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -6912,10 +7009,13 @@
 				},
 			},
 		},
-		["guid"] = "5C10551B44B897CF65B38DBDEE0464E0",
-		["guid_str"] = "gwP5zuZI",
-		["id"] = 117,
+		["guid"] = "D9BF8D174673F58CDB5C2AB192B39719",
+		["guid_str"] = "3tRu23jF",
+		["id"] = 118,
 		["name"] = "哈娜",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode40008_0003",
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -6923,6 +7023,100 @@
 				["volume"] = 6.0,
 			},
 		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "……你确确实实是一个真正的主厨。祝贺你，你获得了我们的认可。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.5,
+								["scale_y"] = 1.5,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["config"] = {
+									["last_px"] = 0,
+									["last_py"] = 0,
+									["orig_x"] = 380,
+									["orig_y"] = -100,
+									["scale"] = 1,
+									["state"] = 0,
+								},
+								["delay"] = 0,
+								["end_pos"] = {
+									["x"] = 380,
+									["y"] = -100,
+								},
+								["pos"] = {
+									["x"] = 380,
+									["y"] = -100,
+								},
+								["time"] = 0,
+							},
+							["tween"] = "RelativePositionChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_11.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af52dk/af52dk_action1",
+				["pos"] = {
+					200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n01normalwoman_02",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "5C10551B44B897CF65B38DBDEE0464E0",
+		["guid_str"] = "gwP5zuZI",
+		["id"] = 119,
+		["name"] = "哈娜",
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -7032,7 +7226,7 @@
 		},
 		["guid"] = "4D2B92F94169E15EE4A44790384FB7DC",
 		["guid_str"] = "KfeEiF1n",
-		["id"] = 118,
+		["id"] = 120,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -7137,7 +7331,7 @@
 		},
 		["guid"] = "273468854677DA958221EFB86035EF55",
 		["guid_str"] = "NPyTh7j2",
-		["id"] = 119,
+		["id"] = 121,
 		["name"] = "谛卡",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7243,7 +7437,7 @@
 		},
 		["guid"] = "AC9DB3CA4370C75E2BFF9FBD19750C57",
 		["guid_str"] = "7HjpMcWt",
-		["id"] = 120,
+		["id"] = 122,
 		["name"] = "店员",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7344,7 +7538,7 @@
 		},
 		["guid"] = "EE6C7D3B4A27BEE0E4A9F88243ED08E0",
 		["guid_str"] = "odGJILFc",
-		["id"] = 121,
+		["id"] = 123,
 		["name"] = "谛卡",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7450,7 +7644,7 @@
 		},
 		["guid"] = "7E1E3AE04E598E94E44239B8E1E1286B",
 		["guid_str"] = "3pUesfGu",
-		["id"] = 122,
+		["id"] = 124,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -7508,6 +7702,9 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["b_use_lock_pos"] = true,
+		},
 		["characters"] = {
 			{
 				["anim"] = "serious",
@@ -7548,8 +7745,11 @@
 		},
 		["guid"] = "041CCF5E40B62AB402FB24A12073DB13",
 		["guid_str"] = "j9PTUMO8",
-		["id"] = 123,
+		["id"] = 125,
 		["name"] = "谛卡",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode40008_0004",
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -7648,8 +7848,11 @@
 		},
 		["guid"] = "F9B2FCF2408332FF25E3C39A024BC42A",
 		["guid_str"] = "8dobjXaA",
-		["id"] = 124,
+		["id"] = 126,
 		["name"] = "哈娜",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode40008_0005",
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -7754,7 +7957,7 @@
 		},
 		["guid"] = "58DA6DD14F69C9AD2B97E19CD770CE32",
 		["guid_str"] = "Yii9t3b2",
-		["id"] = 125,
+		["id"] = 127,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -7858,7 +8061,7 @@
 		},
 		["guid"] = "0C01CD704B38EAD82B097EBF9812AB8A",
 		["guid_str"] = "S4VrqkQj",
-		["id"] = 126,
+		["id"] = 128,
 		["name"] = "店员",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7959,7 +8162,7 @@
 		},
 		["guid"] = "6C7D085B4825301981F448B76878FB30",
 		["guid_str"] = "KWPkl3f7",
-		["id"] = 127,
+		["id"] = 129,
 		["name"] = "谛卡",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8065,7 +8268,7 @@
 		},
 		["guid"] = "BDB360574CD454B5FCAC0F81C01C72A7",
 		["guid_str"] = "ZOBSvOxR",
-		["id"] = 128,
+		["id"] = 130,
 		["name"] = "店员",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8166,7 +8369,7 @@
 		},
 		["guid"] = "E372B1A94F8C728B9B3E30AB8F00A89A",
 		["guid_str"] = "Kc7A7cjI",
-		["id"] = 129,
+		["id"] = 131,
 		["name"] = "谛卡",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8224,7 +8427,7 @@
 		},
 		["guid"] = "2483532849A583F92DAEBFBA180DD609",
 		["guid_str"] = "vTom5FWv",
-		["id"] = 130,
+		["id"] = 132,
 		["just_auto_play"] = true,
 		["male_characters"] = {
 			{
@@ -8291,7 +8494,7 @@
 		},
 		["guid"] = "EA7CF6E642A5802F645E7096ABD66663",
 		["guid_str"] = "vg2aRLcM",
-		["id"] = 131,
+		["id"] = 133,
 	},
 	{
 		["bg_info"] = {
@@ -8315,7 +8518,7 @@
 		},
 		["guid"] = "652FBE374B5BFE0258DA81BD458FF033",
 		["guid_str"] = "xNr2yJZx",
-		["id"] = 132,
+		["id"] = 134,
 	},
 	{
 		["bg_info"] = {
@@ -8339,7 +8542,7 @@
 		},
 		["guid"] = "627DAC794856D14DCE2B3DB4960BD667",
 		["guid_str"] = "RhwRNqJp",
-		["id"] = 133,
+		["id"] = 135,
 	},
 	{
 		["bg_info"] = {
@@ -8390,7 +8593,7 @@
 		},
 		["guid"] = "33A05A1B47667EFADCC6FAA31C1C42AE",
 		["guid_str"] = "UE3kSyDK",
-		["id"] = 134,
+		["id"] = 136,
 		["name"] = "谛卡",
 		["soundfx"] = {
 			{
@@ -8444,7 +8647,7 @@
 		},
 		["guid"] = "06BCF3DE418E0366DA8874A902BFB0D5",
 		["guid_str"] = "JVrUCq6y",
-		["id"] = 135,
+		["id"] = 137,
 	},
 	{
 		["bg_info"] = {
@@ -8483,7 +8686,7 @@
 		},
 		["guid"] = "C1AD7F3C4F5BD5FF5C59FD863A15D87D",
 		["guid_str"] = "3zyTlpWr",
-		["id"] = 136,
+		["id"] = 138,
 		["name"] = "谛卡",
 		["text"] = "能不能告诉我，你在找什么呢，奥莉温？",
 	},
@@ -8542,7 +8745,7 @@
 		},
 		["guid"] = "D1705DB840ACB3AE46678686879B0BC0",
 		["guid_str"] = "g5cr4C8w",
-		["id"] = 137,
+		["id"] = 139,
 		["just_auto_play"] = true,
 	},
 }
