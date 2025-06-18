@@ -887,7 +887,7 @@
 								["delay"] = 0,
 								["end_alpha"] = 0.0,
 								["start_alpha"] = 0.60000002384186,
-								["time"] = 3000,
+								["time"] = 2000,
 							},
 							["tween"] = "AlphaChange",
 						},
@@ -898,8 +898,22 @@
 			{
 			},
 		},
-		["guid"] = "28A1E72443F85372D5BAADABFAEAD3B3",
-		["guid_str"] = "HCFeioYv",
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["guid"] = "86D3F6B84FC2903E2514DBAF429E7ABD",
+		["guid_str"] = "xEFGkUsr",
 		["id"] = 19,
 		["is_total_play"] = true,
 		["jenga"] = {
@@ -913,9 +927,7 @@
 					["state"] = 0,
 				},
 				["is_origin_size"] = false,
-				["is_queue"] = true,
 				["is_ratio_full"] = true,
-				["is_stage"] = true,
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/chapter08/cg_8_countdown_05.bk2",
@@ -931,9 +943,9 @@
 					},
 					{
 						["param"] = {
-							["delay"] = 4020,
+							["delay"] = 3200,
 							["delay_page"] = 0,
-							["time"] = 200,
+							["time"] = 300,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -943,37 +955,32 @@
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
-				["delay"] = 4010,
+				["event"] = "event:/sfx/story/0-00/0-0-whoosh",
+				["length"] = 4026,
+			},
+			{
+				["delay"] = 900,
+				["event"] = "event:/sfx/story/8/avg_chapter8_glitch",
+				["length"] = 1600,
+				["volume"] = 2.0,
+			},
+			{
+				["delay"] = 300,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count_3",
+				["length"] = 2384,
+			},
+			{
+				["delay"] = 2000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count_2",
+				["length"] = 2657,
+			},
+			{
+				["delay"] = 3400,
 				["event"] = "event:/sfx/story/0-00/0-0-whoosh",
 				["length"] = 4026,
 				["volume"] = 2.0,
 			},
-			{
-				["delay"] = 20,
-				["event"] = "event:/sfx/story/8/avg_chapter8_count",
-				["length"] = 1880,
-			},
-			{
-				["delay"] = 1020,
-				["event"] = "event:/sfx/story/8/avg_chapter8_count",
-				["length"] = 1880,
-			},
-			{
-				["delay"] = 2020,
-				["event"] = "event:/sfx/story/8/avg_chapter8_count",
-				["length"] = 1880,
-			},
-			{
-				["delay"] = 3020,
-				["event"] = "event:/sfx/story/8/avg_chapter8_count",
-				["length"] = 1880,
-			},
-			{
-				["delay"] = 4020,
-				["event"] = "event:/sfx/story/8/avg_chapter8_count",
-				["length"] = 1880,
-			},
 		},
-		["time"] = 5700,
+		["time"] = 5000,
 	},
 }

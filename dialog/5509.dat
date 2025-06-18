@@ -770,6 +770,13 @@
 		["guid_str"] = "JVIiVGH6",
 		["id"] = 15,
 		["name"] = "苏筱",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "监督没事，就在我旁边……嗯，你跟他们都讲一声吧。",
 	},
 	{
@@ -2476,6 +2483,7 @@
 			{
 				["event"] = "event:/ui/advse/3-7-PoliceCar",
 				["length"] = 6215,
+				["loop"] = 1,
 				["volume"] = 0.5,
 			},
 		},
@@ -2723,6 +2731,14 @@
 		["guid_str"] = "4y6OmC6b",
 		["id"] = 58,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/3-7-PoliceCar",
+				["length"] = 6215,
+				["loop"] = 1,
+				["volume"] = 0.10000000149012,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2836,9 +2852,15 @@
 		},
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
-				["volume"] = 6.0,
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+				["volume"] = 2.0,
+			},
+			{
+				["event"] = "event:/sfx/story/blackout/ssr0055_in",
+				["length"] = 14866,
+				["loop"] = 1,
+				["volume"] = 0.30000001192093,
 			},
 		},
 	},
@@ -2994,6 +3016,14 @@
 			},
 		},
 		["name"] = "？？？",
+		["soundfx"] = {
+			{
+				["delay"] = 200,
+				["event"] = "event:/ui/advse/clothing",
+				["length"] = 0,
+				["volume"] = 2.0,
+			},
+		},
 		["text"] = "你看起来比较狼狈。",
 	},
 	{
@@ -3172,13 +3202,6 @@
 			},
 		},
 		["just_auto_play"] = true,
-		["soundfx"] = {
-			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
-				["volume"] = 6.0,
-			},
-		},
 		["time"] = 1000,
 	},
 	{
@@ -3332,9 +3355,15 @@
 		["name"] = "司旸",
 		["soundfx"] = {
 			{
+				["delay"] = 200,
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
 				["length"] = 649,
 				["volume"] = 6.0,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+				["volume"] = 2.0,
 			},
 		},
 		["text"] = "事情虽然算是告一段落了，但对那位执行官[M]先生[/M][F]小姐[/F]来说，应该是某件事的开始吧。",
@@ -3939,6 +3968,17 @@
 				["template_type"] = "video",
 			},
 		},
+		["soundfx"] = {
+			{
+				["delay"] = 3000,
+				["event"] = "event:/sfx/story/7/cg_7_tianlu01_in",
+				["length"] = 1762,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_low_long",
+				["length"] = 4615,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -4336,6 +4376,11 @@
 			{
 				["event"] = "event:/ui/advse/3-7-PoliceCar",
 				["length"] = 6215,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/blackout/ssr0055_in",
+				["length"] = 14866,
 				["stop"] = 1,
 			},
 		},

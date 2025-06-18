@@ -64,7 +64,8 @@
 			["b_use_mask"] = true,
 			["height"] = 150,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17][indent][indent]一边进门，师兄和白鸟梓一边做了简单的自我介绍，而后双双陷入沉默。",
+			["text"] = "[size 17]一边进门，师兄和白鸟梓一边做了简单的自我介绍，而后双双陷入沉默。",
+			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
@@ -92,7 +93,8 @@
 			["height"] = 150,
 			["is_append"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]\n\n[indent][indent]师兄的话一向不算多，除了偶尔插几句，其余都放任筱筱独自说个不停.\n\n[size 17][indent][indent]白鸟梓最初虽然脸色不佳，但也在和筱筱的一来一回间渐渐缓和了不少。",
+			["text"] = "[size 17]\n\n师兄的话一向不算多，除了偶尔插几句，其余都放任筱筱独自说个不停。\n\n[size 17]白鸟梓最初虽然脸色不佳，但也在和筱筱的一来一回间渐渐缓和了不少。",
+			["text_align"] = "center",
 		},
 		["guid"] = "4FBA65F140B053D009A5288F12DADBA2",
 		["guid_str"] = "20dzEG5M",
@@ -128,6 +130,9 @@
 					["tween"] = "Shake",
 				},
 			},
+		},
+		["voice_effect"] = {
+			["event"] = "sweeper",
 		},
 	},
 	{
@@ -237,6 +242,9 @@
 		["id"] = 8,
 		["name"] = "Sweeper-EX",
 		["text"] = "主人，欢迎回来~",
+		["voice_effect"] = {
+			["event"] = "sweeper",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -314,6 +322,9 @@
 		["id"] = 10,
 		["name"] = "Sweeper-EX",
 		["text"] = "Sweeper在日常巡逻呀，因为大家都放假了，为了安全起见，Sweeper必须巡视每个角落！可是白荆大楼太大了……Sweeper中途去充了电，终于巡逻到了这里。",
+		["voice_effect"] = {
+			["event"] = "sweeper",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -476,6 +487,9 @@
 		["id"] = 14,
 		["name"] = "Sweeper-EX",
 		["text"] = "好耶！",
+		["voice_effect"] = {
+			["event"] = "sweeper",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -565,8 +579,15 @@
 				["length"] = 495,
 				["volume"] = 5.0,
 			},
+			{
+				["event"] = "event:/sfx/story/8/avg_chapter8_glitch",
+				["length"] = 1600,
+			},
 		},
 		["text"] = "耶——[c a3bdc8][*滋啦滋啦*][/c]",
+		["voice_effect"] = {
+			["event"] = "sweeper",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -707,8 +728,30 @@
 				["length"] = 649,
 				["volume"] = 6.0,
 			},
+			{
+				["event"] = "event:/sfx/story/8/avg_chapter8_glitch",
+				["length"] = 1600,
+			},
+			{
+				["delay"] = 2000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_glitch",
+				["length"] = 1600,
+			},
+			{
+				["delay"] = 4000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_glitch",
+				["length"] = 1600,
+			},
+			{
+				["delay"] = 6000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_glitch",
+				["length"] = 1600,
+			},
 		},
 		["text"] = "正在定位……正在定位……丢失……开启……",
+		["voice_effect"] = {
+			["event"] = "sweeper",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -912,8 +955,15 @@
 				["length"] = 495,
 				["volume"] = 6.0,
 			},
+			{
+				["event"] = "event:/sfx/story/8/avg_chapter8_glitch",
+				["length"] = 1600,
+			},
 		},
 		["text"] = "开启……",
+		["voice_effect"] = {
+			["event"] = "sweeper",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -963,6 +1013,9 @@
 			},
 		},
 		["text"] = "安全模式已开启。",
+		["voice_effect"] = {
+			["event"] = "sweeper",
+		},
 	},
 	{
 		["bg_info"] = {
