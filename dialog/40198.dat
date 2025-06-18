@@ -61,14 +61,24 @@
 			{
 			},
 		},
-		["guid"] = "F80A9921466CDC4227C1FDBA08B264D1",
-		["guid_str"] = "R4oJcwRK",
-		["id"] = 2,
-		["introduce"] = {
-			["location"] = "庆典",
-			["time"] = "22:38",
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]庆典摊位旁，孩子们仍旧围在波丝旁边，研究着怎么过关，\n\n田偌望着田莹笑盈盈的侧脸，一时有些出神。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 600,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
-		["just_auto_play"] = true,
+		["guid"] = "D3B523244C208AF983590982D7D46B66",
+		["guid_str"] = "cKQVzUGJ",
+		["id"] = 2,
 	},
 	{
 		["bg_info"] = {
@@ -79,10 +89,23 @@
 			},
 		},
 		["caption_info"] = {
-			["text"] = "田偌在街上看着大家讨论，他穿着便服很不适应，他本来以为今天晚上没时间陪田莹过来要值班没想到被放假了。\n",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]本以为今晚需要值班肯定没有时间陪田莹出门，不想竟然被通知放假。\n\n他低头看了眼身上的便服，明明是自己的衣服，却意外地有些不适应。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 600,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
-		["guid"] = "D3B523244C208AF983590982D7D46B66",
-		["guid_str"] = "cKQVzUGJ",
+		["guid"] = "0EF7410E4BB14C052984FF98AF8DA00F",
+		["guid_str"] = "31Wa3hmx",
 		["id"] = 3,
 	},
 	{
@@ -102,11 +125,57 @@
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
 			},
 			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_03.png",
 			},
 		},
 		["guid"] = "2851F3964C0520C40AA08EB00EAEABAA",
 		["guid_str"] = "ymK2S3wd",
 		["id"] = 4,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/01-12-whoosh",
@@ -115,10 +184,918 @@
 		},
 	},
 	{
-		["guid"] = "C743B2444E7A43EE841A41BACA3A6709",
-		["guid_str"] = "bAYceCEv",
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_03.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "010",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am45tr/am45tr_plain_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_action1",
+				["pos"] = {
+					250,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["cycle"] = -1,
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "731F92A44778C997995BFBB651DE572E",
+		["guid_str"] = "8CUNXGeV",
 		["id"] = 5,
-		["text"] = "回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆回忆",
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "田偌",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3107_m4OkAAgg",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["text"] = "副队，你现在在哪个科帮忙呢？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_03.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am45tr/am45tr_plain_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_action1",
+				["pos"] = {
+					250,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["cycle"] = -1,
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "5D858CD34BEF38A30ADDB2AD3A8E5EF7",
+		["guid_str"] = "Hwv11hdJ",
+		["id"] = 6,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "十手卫",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3107_EmwJWVol",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["text"] = "按需，唉，工作经验丰富就会被这么用~",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_03.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "010",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am45tr/am45tr_plain_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_action1",
+				["pos"] = {
+					250,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "6529B87545496069B1DE87AC7BC4CED5",
+		["guid_str"] = "BCMaFFnr",
+		["id"] = 7,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "田偌",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3107_kEnWgY2A",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["text"] = "咱们……还得这样多久啊？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_03.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am45tr/am45tr_plain_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "19",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-50,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_action1",
+				["pos"] = {
+					250,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["cycle"] = -1,
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "33BD48B74955550720B9F4AB77D328B8",
+		["guid_str"] = "IvPHFxPn",
+		["id"] = 8,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "十手卫",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3107_PAgeB2ht",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["text"] = "不知道啊，先这么干着吧，好在也都是普通科调过来的，轻车熟路了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_03.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "010",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am45tr/am45tr_plain_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_action1",
+				["pos"] = {
+					250,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "ABAD09294A34B5EE34930CA4E49673A3",
+		["guid_str"] = "d0MFMYz1",
+		["id"] = 9,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "田偌",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3107_NsBYoi3Q",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["text"] = "副队，R.E.D.还会在么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_03.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am45tr/am45tr_plain_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "19",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-50,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_action1",
+				["pos"] = {
+					250,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["cycle"] = -1,
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "38C4569442C7C13A0EC37799AA7D9241",
+		["guid_str"] = "37z70teY",
+		["id"] = 10,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "十手卫",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3107_6QjQumcg",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["text"] = "想那么多干嘛，你“假期”也结束了，明天先去三科报道。暂时换个屋，又不是让你把警服脱了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_nightmarket_03.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am45tr/am45tr_plain_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "19",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-50,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am55ssw/am55ssw_action1",
+				["pos"] = {
+					250,
+					80,
+				},
+				["scale"] = {
+					0.94999998807907,
+					0.94999998807907,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["cycle"] = -1,
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "9AC00A5D43B7065F1C24B2BDD354DC58",
+		["guid_str"] = "ykBMTlx8",
+		["id"] = 11,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["name"] = "十手卫",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_low_long",
+				["length"] = 4615,
+				["volume"] = 1.5,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -130,7 +1107,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -160,15 +1137,8 @@
 		},
 		["guid"] = "02F7340B45B7FC7A00476EA332792AD6",
 		["guid_str"] = "2ZzJe13P",
-		["id"] = 6,
+		["id"] = 12,
 		["name"] = "田偌",
-		["soundfx"] = {
-			{
-				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
-				["length"] = 1153,
-				["volume"] = 1.5,
-			},
-		},
 		["text"] = "……",
 	},
 	{
@@ -202,7 +1172,7 @@
 		},
 		["guid"] = "D063AF7844F594E0F10E2CBF6D582381",
 		["guid_str"] = "levUstgb",
-		["id"] = 7,
+		["id"] = 13,
 		["name"] = "田偌",
 		["text"] = "卫副队也不知道被派去执行什么任务了，归队时间完全未知……唉……",
 	},
@@ -217,7 +1187,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]忽然他注意到灰锈安静地看着什么方向。",
+			["text"] = "[size 17]在周围的嘈杂“掩护”下，田偌忍不住重重叹了口气，转头忽然注意到灰锈正安静地看向某个方位。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -243,7 +1213,7 @@
 		},
 		["guid"] = "2805F046498B9483F9DC7DB8ABBD1F90",
 		["guid_str"] = "UHGqNpGP",
-		["id"] = 8,
+		["id"] = 14,
 	},
 	{
 		["bg_info"] = {
@@ -276,7 +1246,7 @@
 		},
 		["guid"] = "DE49A1C8411C38A09FEA7693DECA66F2",
 		["guid_str"] = "E4lSy0Az",
-		["id"] = 9,
+		["id"] = 15,
 		["name"] = "田偌",
 		["text"] = "灰锈小姐？怎么了，你在……看什么？",
 	},
@@ -295,8 +1265,13 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["knowledge_word_info"] = {
+					["anchor"] = "right",
 					["id"] = "454",
 					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_axe_action1",
@@ -319,7 +1294,7 @@
 		},
 		["guid"] = "23D1D7E842D7FEAE8FBE9D86B19186C1",
 		["guid_str"] = "ZLagk9e3",
-		["id"] = 10,
+		["id"] = 16,
 		["name"] = "灰锈",
 		["soundfx"] = {
 			{
@@ -394,7 +1369,7 @@
 		},
 		["guid"] = "FF287E7149528B38571E9B8637320817",
 		["guid_str"] = "Z4Ks0uFi",
-		["id"] = 11,
+		["id"] = 17,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{

@@ -775,6 +775,9 @@
 			},
 		},
 		["name"] = "长谣",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "嗯？这不是我拿来的那些……你做了一把新的给谣谣么？",
 	},
 	{
@@ -866,6 +869,9 @@
 			},
 		},
 		["name"] = "瞳",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "合手么？",
 	},
 	{
@@ -949,6 +955,9 @@
 			},
 		},
 		["name"] = "长谣",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "非常合手，谢谢！",
 	},
 	{
@@ -1040,6 +1049,9 @@
 			},
 		},
 		["name"] = "瞳",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "这就是你一定要在今晚完成的很重要的事？",
 	},
 	{
@@ -1123,6 +1135,9 @@
 			},
 		},
 		["name"] = "长谣",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "是呀，平时瞳叔叔那么忙，谣谣也不好意思老是来打扰，攒了一大堆要修的东西呢，今天……",
 	},
 	{
@@ -1214,6 +1229,9 @@
 			},
 		},
 		["name"] = "瞳",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "我今天也很忙。",
 	},
 	{
@@ -1297,6 +1315,9 @@
 			},
 		},
 		["name"] = "长谣",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……",
 	},
 	{
@@ -1373,6 +1394,9 @@
 			},
 		},
 		["name"] = "长谣",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "修东西也不算挡箭牌，是真的需要！不过说实话我确实是有点累，最近不知道怎么了，老是睡不好，但是这个理由稍微有点说不出口……",
 	},
 	{
@@ -1464,6 +1488,9 @@
 			},
 		},
 		["name"] = "瞳",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……",
 	},
 	{
@@ -1548,6 +1575,9 @@
 			},
 		},
 		["name"] = "瞳",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "休息吧，不能在这里试用。",
 	},
 	{
@@ -1642,6 +1672,9 @@
 			},
 		},
 		["name"] = "长谣",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -2064,6 +2097,9 @@
 			},
 		},
 		["name"] = "瞳",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2295,6 +2331,9 @@
 			},
 		},
 		["name"] = "长谣",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……",
 	},
 	{
@@ -2530,6 +2569,9 @@
 			},
 		},
 		["name"] = "长谣",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -2792,6 +2834,9 @@
 			},
 		},
 		["name"] = "瞳",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "长谣，醒醒。",
 		["text_info"] = {
 			["tween"] = {
@@ -2888,6 +2933,9 @@
 			},
 		},
 		["name"] = "长谣",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……唔，谁……",
 	},
 	{
@@ -2916,6 +2964,15 @@
 			["b_use_mask"] = true,
 			["text"] = "[size 16]【中央广播·[rolename]】……目前大楼内发生异常情况，Vein系统遭到入侵，并有可疑分子潜入。\n\n接下来我们将根据工牌定位依次与大家会合。请各位保持冷静，原地待命，在救援赶来之前保证自身安全……",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -3050,6 +3107,9 @@
 			},
 		},
 		["name"] = "长谣",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -3241,6 +3301,15 @@
 			["b_use_mask"] = true,
 			["text"] = "[size 16]【中央广播·[rolename]】瞳老师，我们会带着OverTalk会议室以下的同事前往会合，\n\n但上来还需要一些时间，请您协助接应OverTalk会议室以上的同事。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -3673,6 +3742,10 @@
 				["length"] = 2450,
 				["loop"] = 1,
 			},
+			{
+				["event"] = "event:/sfx/story/0-08/zhihe_explode",
+				["length"] = 2769,
+			},
 		},
 	},
 	{
@@ -3785,7 +3858,7 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 50,
+			["height"] = 100,
 			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]说着瞳便向着实验室的方向离去，长谣刚要跟上，忽然发现瞳交握的双手比往常用力些，这才发觉——",
 			["text_align"] = "center",
@@ -3822,6 +3895,26 @@
 		["guid"] = "CFB5571A4C24F32BCF471F8F52F18EE8",
 		["guid_str"] = "EdT1DYon",
 		["id"] = 50,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 100,
+			["is_append"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]\n\n这一路上，瞳甚少活动他的左臂。",
+			["text_align"] = "center",
+		},
+		["guid"] = "6DA7D7704109C56EB171558E32AC2A38",
+		["guid_str"] = "UOQpMhiv",
+		["id"] = 51,
 	},
 	{
 		["bg_info"] = {
@@ -3912,7 +4005,7 @@
 		},
 		["guid"] = "4BEC18CF4F9880AA019DAAB0BE6ACED1",
 		["guid_str"] = "7OwpQobe",
-		["id"] = 51,
+		["id"] = 52,
 		["name"] = "长谣",
 		["text"] = "胳膊不舒服么？",
 	},
@@ -3926,7 +4019,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal1",
+				["anim"] = "thinking",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3988,7 +4081,7 @@
 		},
 		["guid"] = "963CF12D455EB0AA617C7191E38A6072",
 		["guid_str"] = "Og5gcazU",
-		["id"] = 52,
+		["id"] = 53,
 		["name"] = "瞳",
 		["text"] = "还好。",
 	},
@@ -4064,9 +4157,9 @@
 		},
 		["guid"] = "4B1638B14319D1334759F5BCFE339495",
 		["guid_str"] = "flolxDFC",
-		["id"] = 53,
+		["id"] = 54,
 		["name"] = "长谣",
-		["text"] = "骗人，十二哥哥去遥城之前说过不让你一个人调试手臂的。他那么兢兢业业地当信使，你就这样对他。",
+		["text"] = "骗人，十二哥哥去遥城之前说过不让你一个人调试手臂的。\n他那么兢兢业业地当信使，你就这样对他。",
 	},
 	{
 		["bg_info"] = {
@@ -4140,7 +4233,7 @@
 		},
 		["guid"] = "626A989C4CC56360DCC83EB6A64A26D4",
 		["guid_str"] = "Um6mU9IW",
-		["id"] = 54,
+		["id"] = 55,
 		["name"] = "瞳",
 		["text"] = "只是去送信而已。",
 	},
@@ -4216,7 +4309,7 @@
 		},
 		["guid"] = "C66963AD4334D69DA5848A8789791BF3",
 		["guid_str"] = "Zn9aJejP",
-		["id"] = 55,
+		["id"] = 56,
 		["name"] = "长谣",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4240,18 +4333,13 @@
 			["align"] = "bottom",
 			["b_use_mask"] = true,
 			["text"] = "[size 17]瞳还未开口，几只千纸鹤再次从楼梯处冒头。",
+			["text_align"] = "center",
 		},
 		["characters"] = {
 			{
 				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am15t/am15t_action1",
@@ -4305,7 +4393,7 @@
 		},
 		["guid"] = "7D3BA55F4AEA0ECE212F40A2D809FFE8",
 		["guid_str"] = "oB2BIUzF",
-		["id"] = 56,
+		["id"] = 57,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4387,7 +4475,7 @@
 		},
 		["guid"] = "44127D3F46C0035B4194D78DD6FDE524",
 		["guid_str"] = "IrBw1IJE",
-		["id"] = 57,
+		["id"] = 58,
 		["name"] = "瞳",
 		["speaker_info"] = {
 			["anim"] = "smile",
@@ -4496,7 +4584,7 @@
 		},
 		["guid"] = "5A32C25E4D70908E57358891A414D49C",
 		["guid_str"] = "2e3F2uia",
-		["id"] = 58,
+		["id"] = 59,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["time"] = 1800,

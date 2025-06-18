@@ -28,7 +28,7 @@
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/chapter08/cg_8_05_tiandizhiyan_loop.bk2",
-				["sustain_page_count"] = 6,
+				["sustain_page_count"] = 8,
 				["template_type"] = "video",
 			},
 			{
@@ -82,8 +82,17 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]司旸吸了力量，睁眼，力量覆盖全城，描述。",
+			["text"] = "[size 17]分出胜负的瞬间，灰锈用力将波丝推开，随后便像被攫住灵魂般钉在原地。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "0B2741974504D356B9F9A7BFCD704A10",
 		["guid_str"] = "yQn3m8zD",
@@ -100,7 +109,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]吸收力量的目的，蜘蛛的变化，天眼查开",
+			["text"] = "[size 17]伴随着如同撕裂与啃噬般的痛苦，她化作一团混着猩红的乌黑色雾气飞出，混入司旸脚下某种蔓延的阴影中。",
 			["text_align"] = "center",
 		},
 		["guid"] = "15BBEA8B444AA6385C357F819E028465",
@@ -118,7 +127,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]感觉字幕渲染下氛围就行不需要写什么台词",
+			["text"] = "[size 17]不同寻常的气息在空气中流动，无法以语言形容的色彩遍布天空，满月已被一只巨大的眼瞳所取代。",
 			["text_align"] = "center",
 		},
 		["guid"] = "F5EC538A4E3E106E8570F1BF95C7105B",
@@ -136,13 +145,49 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["text"] = "[size 16]司旸叹息着睁开眼，仿佛有生命般，一股扭曲混沌的奇异力量在顷刻间化为数不清的无形丝线，\n\n无限向着四周延伸，直至将整个城市全部覆盖。",
+			["text_align"] = "center",
+		},
+		["guid"] = "D9E1102843C0D36B89C6DE8F01137553",
+		["guid_str"] = "bb727usn",
+		["id"] = 5,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]——「[c 8b3cff]网[/c]」已结成，没有任何人可以逃过那只眼瞳的注视。",
+			["text_align"] = "center",
+		},
+		["guid"] = "FFB66EC64444777366A9BBAEE623BD7D",
+		["guid_str"] = "ZP63N2Y0",
+		["id"] = 6,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
 			["text_align"] = "center",
 		},
 		["guid"] = "839C73FB49F26C6BC446DB85B4AB8156",
 		["guid_str"] = "C9ZapU3a",
-		["id"] = 5,
+		["id"] = 7,
 		["name"] = "波丝",
-		["text"] = "这便是真正的……克图尔特的“法则”。",
+		["text"] = "这便是真正的……克图尔特的“[c 8b3cff]法则[/c]”。",
 	},
 	{
 		["bg_info"] = {
@@ -154,7 +199,7 @@
 		},
 		["guid"] = "FD53F5054EB512CC3652A88B68DF420A",
 		["guid_str"] = "qB5Sm9r9",
-		["id"] = 6,
+		["id"] = 8,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -170,11 +215,22 @@
 				["tween"] = {
 					{
 						["param"] = {
-							["delay"] = 0,
+							["delay"] = 1000,
 							["delay_page"] = 0,
-							["time"] = 1500,
+							["time"] = 2000,
 						},
 						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+							["value_type"] = 1,
+						},
+						["tween"] = "AlphaChange",
 					},
 				},
 			},
@@ -188,5 +244,6 @@
 				["volume"] = 2.0,
 			},
 		},
+		["time"] = 3500,
 	},
 }

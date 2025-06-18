@@ -4,9 +4,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.29803922772408,
+						0.31764706969261,
+						0.50980395078659,
 						1.0,
 					},
 					["tween"] = {
@@ -41,9 +41,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.29803922772408,
+						0.31764706969261,
+						0.50980395078659,
 						1.0,
 					},
 				},
@@ -66,9 +66,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.29803922772408,
+						0.31764706969261,
+						0.50980395078659,
 						1.0,
 					},
 					["tween"] = {
@@ -94,9 +94,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.29803922772408,
+						0.31764706969261,
+						0.50980395078659,
 						1.0,
 					},
 					["tween"] = {
@@ -122,19 +122,109 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
 						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 500,
+							},
+							["tween"] = "FadeIn",
 						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.29803922772408,
+						0.31764706969261,
+						0.50980395078659,
+						1.0,
 					},
 				},
 				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
 			},
+		},
+		["characters"] = {
 			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 		},
 		["guid"] = "2FFF4D18431E1FB6B042448CDC73E746",
@@ -144,7 +234,6 @@
 		["speaker_info"] = {
 			["anim"] = "worry",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "……",
 	},
@@ -153,9 +242,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -163,9 +252,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "7F93CC54414B70FE5A7B2AAAF8FBBF94",
@@ -175,7 +316,6 @@
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "砚砚。",
 	},
@@ -184,9 +324,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -194,9 +334,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "9957832141E77CDD036F3A89612FCDB3",
@@ -206,7 +406,6 @@
 		["speaker_info"] = {
 			["anim"] = "worry",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "嗯？",
 	},
@@ -215,9 +414,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -225,9 +424,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "039D20A94298E568555529A44A7C04C6",
@@ -237,7 +488,6 @@
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "想什么呢？这么出神。",
 	},
@@ -246,9 +496,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -256,9 +506,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "969671254313C5DBC7A60296D1B38C83",
@@ -268,7 +578,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "在想……“二哥”什么时候能忙完～",
 	},
@@ -277,9 +586,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -287,9 +596,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "0492BD754DD5F486822EECA34182EECE",
@@ -299,7 +660,6 @@
 		["speaker_info"] = {
 			["anim"] = "closeeyesmile",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "可是那位白荆的执行官和你说了些什么？",
 	},
@@ -308,9 +668,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -318,9 +678,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "F5F479174459818BADAC35A708A14768",
@@ -330,7 +750,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "没说什么，见你与传闻中不同，心下奇怪罢了。",
 	},
@@ -339,9 +758,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -349,9 +768,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "BE48DEAB407CA4DA37F34A86B98B0345",
@@ -361,7 +832,6 @@
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "强龙难压地头蛇，在海临行事，九旻基地的身份会比遥城风家的名头要方便很多。",
 	},
@@ -370,9 +840,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -380,9 +850,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "9B0BFD69466A8D306FAE408DB8F2A984",
@@ -392,7 +922,6 @@
 		["speaker_info"] = {
 			["anim"] = "worry",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "还说呢，这么大张旗鼓，大家还以为你是来“兴师问罪”的。",
 	},
@@ -401,9 +930,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -411,9 +940,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "A7F1940C4C6D58DAB803C4931226D5B6",
@@ -423,7 +1004,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile2",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "要是放老二来接你，恐怕还不只这个阵仗。",
 	},
@@ -432,9 +1012,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -442,14 +1022,76 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
 			["text"] = "[size 17]狄砚下意识在脑海中想象了一下，一边想着还好没有真的发生一边微笑着叹了口气。",
 			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
 		},
 		["guid"] = "52BDC9A842093DE2985FF8BAB2C52C97",
 		["guid_str"] = "HJAJgpon",
@@ -464,9 +1106,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -474,9 +1116,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "C6CCE7E643ACB61D77D375A99CA50242",
@@ -486,7 +1180,6 @@
 		["speaker_info"] = {
 			["anim"] = "serious",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "大哥知道你并不想回去，但不由我们信任的人看顾，总是不能放心。",
 	},
@@ -495,9 +1188,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -505,9 +1198,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "07B802C14230D3C2488E98A574E1B761",
@@ -517,7 +1270,6 @@
 		["speaker_info"] = {
 			["anim"] = "worry",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "哥哥是说……遥城研究院？",
 	},
@@ -526,9 +1278,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -536,9 +1288,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "89E7BCDD4ECF838C6059BCBECFA4F89A",
@@ -548,7 +1352,6 @@
 		["speaker_info"] = {
 			["anim"] = "serious",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "海临在异化综合征的研究上虽始终走在前列，但遥城也未曾落后。不然无异那孩子感染时，乐家也不会急于将他接回。",
 	},
@@ -557,9 +1360,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -567,9 +1370,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "7077B13D419C53260A61119E30E5CD86",
@@ -579,7 +1434,6 @@
 		["speaker_info"] = {
 			["anim"] = "serious",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "你现在的状态，可不比他要强。",
 	},
@@ -588,9 +1442,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -598,9 +1452,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "632E51314D57053D1D01BF80D4BFE9E0",
@@ -610,7 +1524,6 @@
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "我很清楚自己的身体状态，但是大哥，当真只是为了治疗么？",
 	},
@@ -619,9 +1532,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -629,9 +1542,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "C0336814420F47778B7D7098CD772190",
@@ -641,7 +1606,6 @@
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "我不否认，此前那则关于“葵花福利院”的报道一出，白荆科技在社会上的风评略有下降，个中缘由作为内部人员的你想必比我更清楚。",
 	},
@@ -650,9 +1614,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -660,9 +1624,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "E1DAADCD4C8DCEE3C0FBA49AD760BFEC",
@@ -672,7 +1688,6 @@
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "各方势力暗流涌动，白荆的立场也变得微妙，我们冒不得险。",
 	},
@@ -681,9 +1696,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -691,9 +1706,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "BF185F7C43515F3AD3CB70BB4E7CE8D2",
@@ -703,7 +1770,6 @@
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "在这场博弈中，那位年轻的执行官能够占据主动的几率很小。",
 	},
@@ -712,9 +1778,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -722,9 +1788,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "D76BA9E241A309FF83A991AB66B49E6D",
@@ -734,7 +1860,6 @@
 		["speaker_info"] = {
 			["anim"] = "worry",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "因为有更上层的人针对？",
 	},
@@ -743,9 +1868,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -753,9 +1878,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "430E066341076873B342E0A9ABE778D2",
@@ -765,7 +1942,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile1",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "不博弈，才能利于不败之地，可以现在的白荆科技，还走不上那个位置。",
 	},
@@ -774,9 +1950,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -784,9 +1960,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "C319F81A4CD78B01DAA641952A84018B",
@@ -796,7 +2032,6 @@
 		["speaker_info"] = {
 			["anim"] = "worry",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "…………",
 	},
@@ -805,9 +2040,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -815,9 +2050,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "09A0CFDD48C3BB6BBCC38BBC940A3504",
@@ -827,7 +2114,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile1",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "不高兴了？",
 	},
@@ -836,9 +2122,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -846,9 +2132,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "EABAC218463AB527F18B7B9B54FADDD9",
@@ -858,7 +2204,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile4",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "不会，若没有当初与大哥那场谈话，我或许要再晚一阵子才能下定决心做出改变。",
 	},
@@ -867,9 +2212,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -877,9 +2222,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "4B8F128B465A656414A0D0A58EA03D95",
@@ -889,7 +2294,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile4",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "而且我相信[M]他[/M][F]她[/F]……",
 	},
@@ -898,9 +2302,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -908,9 +2312,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "6DF19DDC4B79E9487A77A2A45910B7C0",
@@ -920,7 +2384,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile4",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "即使不在身旁，我们的目标也是一致的，只要各自安好，必有再会之期。",
 	},
@@ -929,9 +2392,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -939,9 +2402,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "F45744B94F43681EE63AB28F713AFA7C",
@@ -951,7 +2466,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile2",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "看来出门一趟，又成熟了不少。",
 	},
@@ -960,9 +2474,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -970,9 +2484,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "36EC2AC64D37F03752DF9B9922E0CCD4",
@@ -982,7 +2556,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile4",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "……",
 	},
@@ -991,9 +2564,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -1001,9 +2574,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "5DD5C0C94676DB5A428B818A4E189049",
@@ -1013,7 +2646,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile4",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "下次见面的时候可要好好介绍自己的身份，不能再唬人了！",
 	},
@@ -1022,9 +2654,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -1032,9 +2664,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "79A8C7EB4DF43E62F23B0E80CE8AF325",
@@ -1044,7 +2728,6 @@
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "这是自然。",
 	},
@@ -1053,9 +2736,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -1063,9 +2746,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "8006898145BA797D2B9FFC9EACEBF86A",
@@ -1075,7 +2810,6 @@
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "离遥城还有几个小时，休息一会吧，到家我会叫你。",
 	},
@@ -1084,9 +2818,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -1094,9 +2828,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "8D1841CE4B44AA833579D7875E38C1A2",
@@ -1106,7 +2900,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile4",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "好。",
 	},
@@ -1115,9 +2908,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -1132,9 +2925,69 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "2DDA2D904CE710745AB88BA2D426E845",
@@ -1150,7 +3003,6 @@
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "？",
 	},
@@ -1159,15 +3011,33 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 500,
+							},
+							["tween"] = "FadeIn",
+						},
 					},
 				},
 				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
 			},
 			{
+				["config"] = {
+					["color"] = {
+						0.42745098471642,
+						0.44313725829124,
+						0.61960786581039,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 		},
 		["caption_info"] = {
@@ -1205,6 +3075,74 @@
 				},
 			},
 		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["guid"] = "FFD3A7F741DB9F19A39734ABFC9437BE",
 		["guid_str"] = "K4dd55hT",
 		["id"] = 38,
@@ -1225,9 +3163,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 				},
@@ -1252,9 +3190,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 				},
@@ -1281,15 +3219,109 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 400,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.42745098471642,
+						0.44313725829124,
+						0.61960786581039,
 						1.0,
 					},
 				},
 				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
 			},
+		},
+		["characters"] = {
 			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 		},
 		["guid"] = "4F8522BA49C689691A0E7DB8C4F02A06",
@@ -1299,7 +3331,6 @@
 		["speaker_info"] = {
 			["anim"] = "serious",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 		["text"] = "大哥，我……",
 	},
@@ -1308,28 +3339,98 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
+			},
+			{
+				["config"] = {
+					["color"] = {
+						0.42745098471642,
+						0.44313725829124,
+						0.61960786581039,
 						1.0,
 					},
 				},
 				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
 			},
-			{
-			},
 		},
 		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
 			["text"] = "[size 17]风入淮安抚地拍了拍她的肩膀，点点头。",
 			["text_align"] = "center",
 		},
-		["guid"] = "DBDDC91D424260D2985C03881A945764",
-		["guid_str"] = "0ukGwkZz",
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "514",
+					["is_enabled"] = true,
+					["offset"] = {
+						120,
+						-250,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "3628A1424D87103DD28C329B4B3D24D6",
+		["guid_str"] = "Gp7WDH0m",
 		["id"] = 42,
 		["speaker_info"] = {
-			["anim"] = "surprise",
+			["anim"] = "serious",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af08fyz/af08fyz_action2",
 		},
 	},
 	{
@@ -1337,9 +3438,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -1347,9 +3448,61 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-300,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_FadeMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 0.69999998807907,
+							["start_value"] = 0.69999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "2141190E40334662CCC3AFA5C8069B09",
@@ -1359,7 +3512,6 @@
 		["speaker_info"] = {
 			["anim"] = "serious",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
 		},
 		["text"] = "掉头。",
 	},
@@ -1368,9 +3520,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -1392,7 +3544,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
@@ -1473,22 +3625,22 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 500,
+								["time"] = 400,
 							},
 							["tween"] = "FadeIn",
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
@@ -1515,15 +3667,93 @@
 					},
 				},
 			},
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-150,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 150,
+							["end_alpha"] = 1.0,
+							["time"] = 300,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["am"] = 15,
+							["delay"] = 0,
+							["duration"] = 400,
+							["time"] = 25,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
 		},
 		["guid"] = "52247B6442F203780F8318A78A53EE68",
 		["guid_str"] = "YJxDUaeK",
 		["id"] = 45,
 		["name"] = "风入淮",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am75huai/am75huai_action2",
+			["offset"] = {
+				3,
+				0,
+			},
 			["tween"] = {
 				{
 					["param"] = {
@@ -1550,9 +3780,9 @@
 			{
 				["config"] = {
 					["color"] = {
-						0.29745811223984,
-						0.31738087534904,
-						0.51162791252136,
+						0.42583021521568,
+						0.44376277923584,
+						0.61860466003418,
 						1.0,
 					},
 					["tween"] = {
@@ -1565,13 +3795,71 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_car_01.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_car_03.png",
 			},
 			{
 			},
 		},
-		["guid"] = "077F24874567FBB045C1DC90FAA2EDBD",
-		["guid_str"] = "n2sBOjz7",
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am75huai/am75huai_action2",
+				["pos"] = {
+					-150,
+					80,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					300,
+					75,
+				},
+				["scale"] = {
+					1.1499999761581,
+					1.1499999761581,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "F8FA8BDC40572964F0D3DD8301E78398",
+		["guid_str"] = "W1nX4peC",
 		["id"] = 46,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -1584,7 +3872,102 @@
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "n93reddyq/n93reddyq_action1",
+			["offset"] = {
+				3,
+				0,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 25,
+					},
+					["tween"] = "Shake",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.80000001192093,
+								["start_alpha"] = 0.0,
+								["time"] = 1000,
+							},
+							["tween"] = "AlphaChange",
+						},
+						{
+							["param"] = {
+								["delay"] = 5000,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.80000001192093,
+								["time"] = 2000,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_ratio_full"] = true,
+						["path"] = "movies/Desktop/avg/chapter08/ui_cg_8_kv_loop2.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "5236CD504C97A2C0E2FAA3A73335662B",
+		["guid_str"] = "1btMAPuc",
+		["id"] = 47,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 1207.0,
+					["last_py"] = 826.0,
+					["orig_x"] = 500,
+					["orig_y"] = 250,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_keep_finish"] = true,
+				["is_queue"] = true,
+				["is_stage"] = true,
+				["offset"] = {
+					500,
+					250,
+				},
+				["ori_size_h"] = 184,
+				["ori_size_w"] = 560,
+				["path"] = "movies/Desktop/avg/common/chaptertheend_8.bk2",
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 5000,
+							["delay_page"] = 0,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["time"] = 7000,
 	},
 }

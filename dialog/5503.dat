@@ -2,12 +2,115 @@
 	{
 		["bg_info"] = {
 			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "B43123AA481D96FC10E557973AFA7FE6",
+		["guid_str"] = "GgpvavQB",
+		["id"] = 1,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter08/cg_8_countdown_11.bk2",
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 3900,
+							["delay_page"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-00/0-0-whoosh",
+				["length"] = 4026,
+			},
+			{
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 1000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 2000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 3000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 4000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+		},
+		["time"] = 5000,
+	},
+	{
+		["bg_info"] = {
+			{
 				["config"] = {
 					["color"] = {
 						0.4548188149929,
 						0.5587939620018,
 						0.66976743936539,
 						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
+						},
 					},
 				},
 				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_airport_02.png",
@@ -19,14 +122,12 @@
 			["event"] = "event:/bgm/s009_biome_debris",
 			["length"] = 133081,
 			["operation"] = 1,
+			["volume"] = 0.80000001192093,
 		},
 		["guid"] = "E147A7764C13E59F826AD5B5F93EDF76",
 		["guid_str"] = "qIZeHHcL",
-		["id"] = 1,
-		["introduce"] = {
-			["location"] = "天境特区·轨道交通运输总站",
-			["time"] = "22:58",
-		},
+		["id"] = 2,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -53,15 +154,50 @@
 			{
 			},
 		},
+		["guid"] = "8264A0BB4686B88D96A405A19D1AB8C7",
+		["guid_str"] = "7qPABMpY",
+		["id"] = 3,
+		["introduce"] = {
+			["location"] = "天境特区·轨道交通运输总站",
+			["time"] = "森罗历1121-07-21  23:01",
+		},
+		["just_auto_play"] = true,
+		["time"] = 3700,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.4548188149929,
+						0.5587939620018,
+						0.66976743936539,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_airport_02.png",
+			},
+			{
+			},
+		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]人来人往，人可多，就是最大的乘车站，还有24小时的线路，贼热闹。",
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]夜渐渐深了，但天境交通运输总站依然人来人往。\n\n这里是海临重要的综合交通枢纽之一，设有24小时运营的线路，从早到晚都是熙熙攘攘，十分热闹。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "22892BFA4DDA99066BD2A19CD782F300",
 		["guid_str"] = "W0SM0ckl",
-		["id"] = 2,
+		["id"] = 4,
 	},
 	{
 		["bg_info"] = {
@@ -82,7 +218,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]田偌看着人头攒动的车站只觉得背脊正一点点僵硬沉重，他拿起通讯仪。",
+			["text"] = "[size 17]但眼下田偌看着人头攒动的车站，只觉得背脊正一点点变得僵硬沉重，他拿起通讯仪。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -112,7 +248,7 @@
 		},
 		["guid"] = "B7C4F03C4946AB2631057197CBF2271E",
 		["guid_str"] = "gGBZqi6w",
-		["id"] = 3,
+		["id"] = 5,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -140,7 +276,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]还有62分钟，还有8处危机。",
+			["text"] = "[size 17]还有59分钟，还有7处危机，想来是体育场的危机已经被无声化解。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -158,7 +294,7 @@
 		},
 		["guid"] = "5CEE71DC4C46A057EC436A8511B1CFA6",
 		["guid_str"] = "YDzhD6Is",
-		["id"] = 4,
+		["id"] = 6,
 	},
 	{
 		["bg_info"] = {
@@ -197,7 +333,7 @@
 		},
 		["guid"] = "F042C67F4839C7C35A97D6A814DAB778",
 		["guid_str"] = "iGUDzNlC",
-		["id"] = 5,
+		["id"] = 7,
 	},
 	{
 		["bg_info"] = {
@@ -218,7 +354,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]充满了科技感，的确像是西陵重工和御雀通信的手笔。[br][br][size 17]田偌手伸进口袋，握紧即使换了便装也从不离身的R.E.D.警徽。",
+			["text"] = "[size 17]整套系统充满了科技感，的确像是西陵重工和御雀通信的手笔。[br][br][size 17]田偌手伸进口袋，握紧即使换了便装也从不离身的R.E.D.警徽。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -247,7 +383,7 @@
 		},
 		["guid"] = "9116949E47364B1A08E22EA104192F2F",
 		["guid_str"] = "z5hqGCoE",
-		["id"] = 6,
+		["id"] = 8,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -301,7 +437,7 @@
 		},
 		["guid"] = "B7CE51E940907AF403300EA2FA583DF3",
 		["guid_str"] = "xqaKqkN6",
-		["id"] = 7,
+		["id"] = 9,
 		["name"] = "田偌",
 		["text"] = "……得快点。",
 	},
@@ -318,8 +454,8 @@
 					["tween"] = {
 						{
 							["param"] = {
-								["delay"] = 1000,
-								["time"] = 500,
+								["delay"] = 500,
+								["time"] = 1000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -356,7 +492,8 @@
 		},
 		["guid"] = "175405A74E014B93691F15BE83A7E91C",
 		["guid_str"] = "glwDDFVU",
-		["id"] = 8,
+		["id"] = 10,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -365,29 +502,47 @@
 				["volume"] = 6.0,
 			},
 		},
+		["time"] = 1900,
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.94901961088181,
+						0.76078432798386,
+						0.76078432798386,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
 		},
 		["guid"] = "37D4362649C6B986B23954BFC0AB6D3F",
 		["guid_str"] = "Fh53Cmkg",
-		["id"] = 9,
+		["id"] = 11,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -405,7 +560,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -443,7 +616,7 @@
 		},
 		["guid"] = "2490673D42D474EF1D2FDFB1A6027B0C",
 		["guid_str"] = "Ecnfz6R8",
-		["id"] = 10,
+		["id"] = 12,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -455,7 +628,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -481,7 +672,7 @@
 		},
 		["guid"] = "5E6E60D145729BBD80891E9FD4DC5EEC",
 		["guid_str"] = "64btDuv4",
-		["id"] = 11,
+		["id"] = 13,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/0-06/0002_phone_calling_beep_lp",
@@ -492,7 +683,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -518,14 +727,35 @@
 		},
 		["guid"] = "DA6CBBC549642B9C4BF3E692500C9842",
 		["guid_str"] = "qgClECT2",
-		["id"] = 12,
-		["name"] = "警员A",
+		["id"] = 14,
+		["name"] = "警员A·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "喂你好，三科。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -553,14 +783,32 @@
 		},
 		["guid"] = "CD2D36E14ACDD62BB7FE6EBD60AB08AA",
 		["guid_str"] = "wJPsT1lL",
-		["id"] = 13,
+		["id"] = 15,
 		["name"] = "田偌",
 		["text"] = "陆警官么！我是田偌，今晚是你们值班对么，刘队在吗？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -586,14 +834,35 @@
 		},
 		["guid"] = "02A02D3A4461DA63C7A96990E1A4AD57",
 		["guid_str"] = "tq2ZtVu0",
-		["id"] = 14,
-		["name"] = "警员A",
+		["id"] = 16,
+		["name"] = "警员A·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "哦田儿啊，诶是我们值班，老刘在，等着，老刘——电话！",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -619,21 +888,42 @@
 		},
 		["guid"] = "EEDAD37845DD12D2E449FB9DD475C008",
 		["guid_str"] = "4P5lsdKO",
-		["id"] = 15,
-		["name"] = "刘警官",
-		["text"] = "喂，小田，找我？怎么看显示还是个公用电话？",
+		["id"] = 17,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["text"] = "喂，小田，找我？看显示还是个公用电话？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -654,14 +944,32 @@
 		},
 		["guid"] = "9309567B4E1C5B11DB209496AD3455A1",
 		["guid_str"] = "jKgwBgFH",
-		["id"] = 16,
+		["id"] = 18,
 		["name"] = "田偌",
 		["text"] = "出了些事通讯仪暂时无法使用，刘队，我收到情报，可能有人会对天境运输总站进行爆炸袭击，咱们能派人疏散人群么！",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -687,21 +995,42 @@
 		},
 		["guid"] = "5D51221E44BFA416907EF09D84497040",
 		["guid_str"] = "eNfmg12T",
-		["id"] = 17,
-		["name"] = "刘警官",
+		["id"] = 19,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "？？什么？？田偌警官，这种事不能张口就来。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -722,14 +1051,32 @@
 		},
 		["guid"] = "EEC570704F7CA642E4C2138829B9D4CE",
 		["guid_str"] = "qRoieMQ3",
-		["id"] = 18,
+		["id"] = 20,
 		["name"] = "田偌",
 		["text"] = "情况有些复杂，简单说明就是有人针对白荆科技进行布局，海临多处地点都将面临危机，其他几处已经有人在处理，但是运输站情况特殊，需要官方警力支援！",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -755,14 +1102,35 @@
 		},
 		["guid"] = "6F03902F4F8C66697A221E87DACE28B0",
 		["guid_str"] = "AcDS1cVX",
-		["id"] = 19,
-		["name"] = "刘警官",
+		["id"] = 21,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "？不是，等会儿，白荆科技？怎么跟运输站扯上的？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -790,14 +1158,35 @@
 		},
 		["guid"] = "4BFCE1334D4FAC52C9C7A4926C6D1B17",
 		["guid_str"] = "1rgJgN1u",
-		["id"] = 20,
+		["id"] = 22,
 		["name"] = "田偌",
-		["text"] = "刘队，我说的都是真的，不知道你们有没有收到报案，西棠街I.I.O.I.体验店周围发生不明爆炸，庆典现场也有小骚乱，这些很可能都是有预谋有计划的针对性袭击，同样可能存在危险的地点还有8处。",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5039_1rgJgN1uA",
+		},
+		["text"] = "刘队，我说的都是真的，不知道你们有没有收到报案，西棠街I.I.O.I.体验店周围发生不明爆炸，庆典现场也有小骚乱，这些很可能都是有预谋有计划的针对性袭击。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -823,14 +1212,35 @@
 		},
 		["guid"] = "F440D69446241EC3533445947BADA779",
 		["guid_str"] = "fpSiBmAg",
-		["id"] = 21,
-		["name"] = "刘警官",
+		["id"] = 23,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "小田。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -856,14 +1266,35 @@
 		},
 		["guid"] = "AD95A7624E5FD6D5E8F42495FE8EA58E",
 		["guid_str"] = "kED2DlIt",
-		["id"] = 22,
-		["name"] = "刘警官",
+		["id"] = 24,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "不是哥不想帮你，我跟老卫从进局里就认识，我信他，所以他信得过的人我肯定信得过。但是不说那些你知我知的弯弯绕绕，这种单纯依靠猜测无凭无据的“危机预警”过不了任何一关。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -889,21 +1320,42 @@
 		},
 		["guid"] = "D60D081144319542C589CE8F7E4CCE66",
 		["guid_str"] = "Oe3nSjTz",
-		["id"] = 23,
-		["name"] = "刘警官",
+		["id"] = 25,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "我们是普通科，没有你们过去几年那些“特权”，你懂么。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -924,21 +1376,39 @@
 		},
 		["guid"] = "709320E344390D125A9EF2B07411CF83",
 		["guid_str"] = "zPEK8rxz",
-		["id"] = 24,
+		["id"] = 26,
 		["name"] = "田偌",
-		["text"] = "我就算一直在普通科，遇到今天的事，也同样会打电话向领导求助。即使不管那些弯弯绕绕，R.E.D.到底挡了谁的路，危险侵犯的是这里往来的普通民众的生命安全！刘警官，这里会出现大批量伤亡！",
+		["text"] = "我就算一直在普通科，遇到今天的事，也同样会打电话向领导求助。即使不管那些弯弯绕绕，R.E.D.到底挡了谁的路，危险侵犯的是这里往来的普通民众的生命安全！\n刘警官，这里会出现大批量伤亡！",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -959,14 +1429,32 @@
 		},
 		["guid"] = "9623BF1E437A7D0CA76DE9B7D0E133AF",
 		["guid_str"] = "ZdBTUmI5",
-		["id"] = 25,
+		["id"] = 27,
 		["name"] = "田偌",
 		["text"] = "我们首先是警察！！是手握警徽宣过誓的警卫！！",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -992,14 +1480,35 @@
 		},
 		["guid"] = "C2C2C1B84D78E0E183E00D952DF53E3B",
 		["guid_str"] = "7vFgh22K",
-		["id"] = 26,
-		["name"] = "刘警官",
+		["id"] = 28,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "……………………",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -1025,14 +1534,35 @@
 		},
 		["guid"] = "34B913B94EC63E22518D329304AF558F",
 		["guid_str"] = "RVztiQbr",
-		["id"] = 27,
-		["name"] = "刘警官",
+		["id"] = 29,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "[c a3bdc8][**森罗文明语**][/c]，到底是年轻，什么话说出来都不觉得矫情。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -1058,21 +1588,42 @@
 		},
 		["guid"] = "94BC4AF54C9DB21BDB59589BB06D16AD",
 		["guid_str"] = "nd1rZVfI",
-		["id"] = 28,
-		["name"] = "刘警官",
-		["text"] = "你刚刚说的保真吧？R.E.D.从来不出假警我信你可别让我下不来台啊，等一会儿配合一下，我让老陆他们也去演一波。",
+		["id"] = 30,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["text"] = "你刚刚说的保真吧？R.E.D.从来不出假警，我信你你可别让我下不来台啊，等一会儿配合一下，我让老陆他们也去演一波。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1093,14 +1644,32 @@
 		},
 		["guid"] = "92BD79364628F7ACFFDE6C8760C65377",
 		["guid_str"] = "nkHeoqe3",
-		["id"] = 29,
+		["id"] = 31,
 		["name"] = "田偌",
 		["text"] = "……都是实情……谢谢您刘队。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -1126,21 +1695,42 @@
 		},
 		["guid"] = "F1B3131E4F3C7DD538590B9B94F61090",
 		["guid_str"] = "YE5pjK69",
-		["id"] = 30,
-		["name"] = "刘警官",
+		["id"] = 32,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "谢啥，你谢你副队长去吧。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "surprise1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1159,14 +1749,35 @@
 		},
 		["guid"] = "7D37D25C466F3319575FA4A796B13E2F",
 		["guid_str"] = "vN1v9zkB",
-		["id"] = 31,
-		["name"] = "刘警官",
+		["id"] = 33,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "咳咳……田警官！你那边什么声音？？喂！出什么事儿了么！",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -1179,7 +1790,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1",
+				["anim"] = "surprise2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1192,12 +1803,30 @@
 		},
 		["guid"] = "8AE47EC04785368C167313A9B7589B54",
 		["guid_str"] = "WCLrOTWe",
-		["id"] = 32,
+		["id"] = 34,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -1225,14 +1854,32 @@
 		},
 		["guid"] = "FEC86D4746205ACD74B8669D5A6D9D83",
 		["guid_str"] = "XXr65iNA",
-		["id"] = 33,
+		["id"] = 35,
 		["name"] = "田偌",
 		["text"] = "我……",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -1258,14 +1905,35 @@
 		},
 		["guid"] = "F9ECEDF34EB8FEFE83919BB97BC0B615",
 		["guid_str"] = "z89P2Cf6",
-		["id"] = 34,
-		["name"] = "刘警官",
-		["text"] = "行我知道了，你在那边先安抚好人群，我们这就去找上面走流——？！副局？？你怎么——",
+		["id"] = 36,
+		["name"] = "刘警官·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["text"] = "行我知道了，你在那边先安抚好人群，我们这就去找上面走流——？！\n副局？？你怎么——",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -1291,12 +1959,40 @@
 		},
 		["guid"] = "73AB1CB4455628A5EF6D389081E09383",
 		["guid_str"] = "FQilzSgl",
-		["id"] = 35,
+		["id"] = 37,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/0-01-chair-fall",
+				["length"] = 0,
+				["volume"] = 0.10000000149012,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -1320,18 +2016,54 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 200,
+							["time"] = 29,
+						},
+						["tween"] = "Shake",
+					},
+				},
 			},
 		},
 		["guid"] = "956EDE70484467D03D5A64A6DDA5EE21",
 		["guid_str"] = "PLkUoYcA",
-		["id"] = 36,
+		["id"] = 38,
 		["name"] = "田偌",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "喂？喂？刘队？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["config"] = {
+					["color"] = {
+						0.94883722066879,
+						0.75906980037689,
+						0.75906980037689,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -1357,25 +2089,44 @@
 		},
 		["guid"] = "1ADDAAF845706802E8E92FB8BE736848",
 		["guid_str"] = "kXCrcs65",
-		["id"] = 37,
-		["name"] = "岳重山",
+		["id"] = 39,
+		["name"] = "岳重山·公共通讯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "田偌警官，30秒，汇报当前情况。",
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.94901961088181,
+						0.76078432798386,
+						0.76078432798386,
+						1.0,
+					},
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
 					["tween"] = {
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2500,
 							},
 							["tween"] = "FadeOut",
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+				["path"] = "interface/resource/Game/Dialog05SceneBG/bg_room_017.png",
 			},
 			{
 			},
@@ -1410,7 +2161,8 @@
 		},
 		["guid"] = "CC54D0E6431411FCF5F75E9C2A7E2D2C",
 		["guid_str"] = "gcolQ8iq",
-		["id"] = 38,
+		["id"] = 40,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -1419,10 +2171,44 @@
 				["stop"] = 1,
 			},
 		},
+		["time"] = 3500,
 	},
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_chapter_05_bg.png",
 			},
 			{
@@ -1430,11 +2216,7 @@
 		},
 		["guid"] = "A907C77E42515B280C84FEA797AE0691",
 		["guid_str"] = "HSdqYzs5",
-		["id"] = 39,
-		["introduce"] = {
-			["location"] = "地点：",
-			["time"] = "23：07",
-		},
+		["id"] = 41,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -1458,11 +2240,38 @@
 			{
 			},
 		},
+		["guid"] = "9889CCBA4A697D06744B02B7E9960891",
+		["guid_str"] = "XeNLOPUz",
+		["id"] = 42,
+		["introduce"] = {
+			["location"] = "燃星庆典·附近顶层",
+			["time"] = "森罗历1121-07-21 23:07",
+		},
+		["just_auto_play"] = true,
+		["time"] = 3700,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_chapter_05_bg.png",
+			},
+			{
+			},
+		},
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]天台环境描写",
+			["text"] = "[size 17]夜空依然如被打翻的油彩一般，呈现出诡异的绚丽。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -1491,7 +2300,7 @@
 		},
 		["guid"] = "CE450A18423663B843E53D864009788F",
 		["guid_str"] = "xZCVuYqr",
-		["id"] = 40,
+		["id"] = 43,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -1511,7 +2320,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]他手里握着波丝给的小方块，地图上有标记，自己在哪，灰锈没有，不过没关系，大家都以为跟自己在一起之类的",
+			["text"] = "[size 17]司旸站在天台边缘，将波丝临走时赠予的匣子轻轻抛起，然后重新握在掌心。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1529,7 +2338,7 @@
 		},
 		["guid"] = "EED2C7E244375074232931B4DA2CA47E",
 		["guid_str"] = "M0OLMpUG",
-		["id"] = 41,
+		["id"] = 44,
 	},
 	{
 		["bg_info"] = {
@@ -1546,7 +2355,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "thinking",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1559,7 +2368,7 @@
 		},
 		["guid"] = "2866274C443AF1BEC1B809B9C2106EE5",
 		["guid_str"] = "3SJ2KsQy",
-		["id"] = 42,
+		["id"] = 45,
 		["name"] = "司旸",
 		["text"] = "第一次梦到那座塔是1120年2月16日。",
 	},
@@ -1578,7 +2387,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "thinking",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1591,7 +2400,7 @@
 		},
 		["guid"] = "563DC8D14327ED06E6022C9B9876DC85",
 		["guid_str"] = "hgLsqRLF",
-		["id"] = 43,
+		["id"] = 46,
 		["name"] = "司旸",
 		["text"] = "第一次使用梦里的能力是1121年3月5日。",
 	},
@@ -1623,7 +2432,7 @@
 		},
 		["guid"] = "412B03324ED77AFF9275528E83E1F5CB",
 		["guid_str"] = "3h2t1hMF",
-		["id"] = 44,
+		["id"] = 47,
 		["name"] = "司旸",
 		["text"] = "第一次全部释放力量是今天，1121年7月21日。",
 	},
@@ -1642,7 +2451,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1655,7 +2464,7 @@
 		},
 		["guid"] = "0AF28F0543F263858CC7E18FCDBCC7FA",
 		["guid_str"] = "seVR5ihM",
-		["id"] = 45,
+		["id"] = 48,
 		["name"] = "司旸",
 		["text"] = "平行时空真神奇。",
 	},
@@ -1670,7 +2479,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]司旸抬起头，高处的夜风吹得披风猎猎作响。",
+			["text"] = "[size 17]司旸抬起头，高处的夜风吹得风衣猎猎作响。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1688,7 +2497,7 @@
 		},
 		["guid"] = "35EC9803409F1CA39FE2C298204F4DDE",
 		["guid_str"] = "gZeKPzpo",
-		["id"] = 46,
+		["id"] = 49,
 	},
 	{
 		["bg_info"] = {
@@ -1718,7 +2527,7 @@
 		},
 		["guid"] = "4386407741FACD8C149412A7AFCCB165",
 		["guid_str"] = "d2B8saLy",
-		["id"] = 47,
+		["id"] = 50,
 		["name"] = "司旸",
 		["text"] = "虽然我现在只能看见有只可怕的眼睛，但是……月色想必不错，希望不会有人正巧抬头看过来。",
 	},
@@ -1737,7 +2546,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1750,7 +2559,7 @@
 		},
 		["guid"] = "B935316E4B89440DF31A4B9D692591D0",
 		["guid_str"] = "EJNw93Gt",
-		["id"] = 48,
+		["id"] = 51,
 		["name"] = "司旸",
 		["text"] = "说不定会被当做想要轻生的可怜人。",
 	},
@@ -1765,7 +2574,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]虽然这么说着，司旸却没有退回安全区，依旧站在探出来地短架上，“俯瞰”着脚下的一切。",
+			["text"] = "[size 17]虽然这么说着，司旸却没有退回安全区，依旧站在探出来的短架上，“俯瞰”着脚下的一切。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1783,7 +2592,7 @@
 		},
 		["guid"] = "BF076BF1426417AF31B4729E4D817110",
 		["guid_str"] = "0BQOxIrv",
-		["id"] = 49,
+		["id"] = 52,
 	},
 	{
 		["bg_info"] = {
@@ -1796,7 +2605,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]一旁的诡异的并不能完全称为机械的蜘蛛正同步着画面，无数被标记出的【XXXXX】正在海临城里移动，无法判断终点。",
+			["text"] = "[size 17]一旁诡异的并不能完全称为机械的蜘蛛正同步着画面，无数被标记出的可疑目标正在海临城里移动，无法判断终点。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1814,7 +2623,7 @@
 		},
 		["guid"] = "93CE5124461D4E02534173B2B2001337",
 		["guid_str"] = "V8svGfCS",
-		["id"] = 50,
+		["id"] = 53,
 	},
 	{
 		["bg_info"] = {
@@ -1831,7 +2640,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "thinking",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1844,7 +2653,7 @@
 		},
 		["guid"] = "969939AD4267050AFD79528F3820A4E0",
 		["guid_str"] = "wu3lyLJz",
-		["id"] = 51,
+		["id"] = 54,
 		["name"] = "司旸",
 		["text"] = "也算是新体验，记一下当做素材好了。",
 	},
@@ -1876,7 +2685,7 @@
 		},
 		["guid"] = "7B0C7E6A4DCF8FEE414230839988DA8D",
 		["guid_str"] = "Z6TcSR8E",
-		["id"] = 52,
+		["id"] = 55,
 		["name"] = "司旸",
 		["text"] = "还有55分钟，田警官那边想必不会顺利，不知道另外几位能不能完成任务。",
 	},
@@ -1909,7 +2718,7 @@
 		},
 		["guid"] = "C256C84845CC846DC6343E929E47B5C1",
 		["guid_str"] = "dhWYxM8a",
-		["id"] = 53,
+		["id"] = 56,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/8/avg_chapter8_spider_morph",
@@ -1946,8 +2755,40 @@
 		},
 		["guid"] = "BA2936614F9983EC194E6DA6F0B401F6",
 		["guid_str"] = "G2uesphp",
-		["id"] = 54,
+		["id"] = 57,
 		["name"] = "通讯对面的声音",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 		["text"] = "喂……喂？能听到么，呃，那边的麻雀先生？不是……他真的叫麻雀么？",
 	},
 	{
@@ -1979,8 +2820,31 @@
 		},
 		["guid"] = "BDEB4815425CBEBF48D002A2536E0F00",
 		["guid_str"] = "6e2olAnL",
-		["id"] = 55,
+		["id"] = 58,
 		["name"] = "通讯对面的声音",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "我怎么知道。",
 	},
 	{
@@ -2012,8 +2876,31 @@
 		},
 		["guid"] = "DAA1E998417A27C2CDAF4DA39D707B23",
 		["guid_str"] = "bEjRKWgt",
-		["id"] = 56,
+		["id"] = 59,
 		["name"] = "通讯对面的声音",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "肯定不是吧。",
 	},
 	{
@@ -2044,7 +2931,7 @@
 		},
 		["guid"] = "C2873B6D4E51807EC5AF83A0C1745FA5",
 		["guid_str"] = "5wePiXXN",
-		["id"] = 57,
+		["id"] = 60,
 		["name"] = "司旸",
 		["text"] = "？",
 	},
@@ -2077,8 +2964,40 @@
 		},
 		["guid"] = "24B46E30484B4353DF3E26834BEFA98E",
 		["guid_str"] = "GhBw9f8i",
-		["id"] = 58,
+		["id"] = 61,
 		["name"] = "通讯对面的声音",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 		["text"] = "麻雀先生好，你也是鸟么太好了我也是！！",
 	},
 	{
@@ -2110,8 +3029,31 @@
 		},
 		["guid"] = "93B2B50941509492C5D00D9A3D0702CB",
 		["guid_str"] = "h9Kwcqf0",
-		["id"] = 59,
+		["id"] = 62,
 		["name"] = "通讯对面的声音",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "太吵了别占用频道听不见了。",
 	},
 	{
@@ -2143,8 +3085,31 @@
 		},
 		["guid"] = "11161E794EF6DAC3F7F28CA089C801E6",
 		["guid_str"] = "04owRCzi",
-		["id"] = 60,
+		["id"] = 63,
 		["name"] = "通讯对面的声音",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "这东西是这么换频段么，怎么完全没声音。",
 	},
 	{
@@ -2176,8 +3141,31 @@
 		},
 		["guid"] = "25C0FCA1464455A4AB46869905E2BCF7",
 		["guid_str"] = "PSvMmIH2",
-		["id"] = 61,
+		["id"] = 64,
 		["name"] = "通讯对面的声音",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "别拿过来！！！",
 	},
 	{
@@ -2209,8 +3197,31 @@
 		},
 		["guid"] = "7E45F7B04174CBFCCD5E4AB26F2CBF8B",
 		["guid_str"] = "3Ca8QQsX",
-		["id"] = 62,
+		["id"] = 65,
 		["name"] = "通讯对面的声音",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "……你原来真的怕……我不说了我不说了，喂？喂？那边的先生你在么？",
 	},
 	{
@@ -2241,7 +3252,7 @@
 		},
 		["guid"] = "24B7E5DE4C820BFE6D4709BE4B42A0D1",
 		["guid_str"] = "BuONg4Il",
-		["id"] = 63,
+		["id"] = 66,
 		["name"] = "司旸",
 		["text"] = "………………",
 	},
@@ -2273,7 +3284,7 @@
 		},
 		["guid"] = "7DE871274B2B77496A73BB9B0C0719EE",
 		["guid_str"] = "EpnhhXN2",
-		["id"] = 64,
+		["id"] = 67,
 		["name"] = "司旸",
 		["text"] = "在，请讲。",
 	},
@@ -2306,8 +3317,31 @@
 		},
 		["guid"] = "8C11C3204B2C4A4DC4551682B79C5403",
 		["guid_str"] = "3I6pxYqV",
-		["id"] = 65,
+		["id"] = 68,
 		["name"] = "通讯对面的声音",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "我们已经按照你同步的信息找到了全部可疑车辆，可以进行下一步指示了。",
 	},
 	{
@@ -2339,7 +3373,7 @@
 		},
 		["guid"] = "10DD99EA453EF2BFC05335BEF84D0644",
 		["guid_str"] = "2P4HT4gn",
-		["id"] = 66,
+		["id"] = 69,
 	},
 	{
 		["bg_info"] = {
@@ -2369,7 +3403,7 @@
 		},
 		["guid"] = "FF51F97E4B634F97CAC1E790EF8B51EB",
 		["guid_str"] = "PFILnRKN",
-		["id"] = 67,
+		["id"] = 70,
 		["name"] = "司旸",
 		["text"] = "全部跟上了？",
 	},
@@ -2402,8 +3436,31 @@
 		},
 		["guid"] = "AAB620DD43F6161A7E0F5987CA4A404A",
 		["guid_str"] = "cQpfQmr2",
-		["id"] = 68,
+		["id"] = 71,
 		["name"] = "通讯对面的声音",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "嗯，我们“人”比较多，这也是你们派岚相同学找我们协助的原因吧。",
 	},
 	{
@@ -2455,7 +3512,9 @@
 		},
 		["guid"] = "BB9D094C412157788257A282101879A7",
 		["guid_str"] = "TcALK5Yp",
-		["id"] = 69,
+		["id"] = 72,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
 				["event"] = "event:/ambience/urban_daytime_quiet",
@@ -2468,6 +3527,7 @@
 				["stop"] = 1,
 			},
 		},
+		["time"] = 1000,
 	},
 	{
 		["bg_info"] = {
@@ -2496,10 +3556,10 @@
 		},
 		["guid"] = "D4814AFE4A45EA3D3D55A992647AC197",
 		["guid_str"] = "V2KPLpob",
-		["id"] = 70,
+		["id"] = 73,
 		["introduce"] = {
-			["location"] = "XX区·云霄探险乐园",
-			["time"] = "23:10",
+			["location"] = "商陆区·云霄探险乐园",
+			["time"] = "森罗历1121-07-21  23:10",
 		},
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -2509,6 +3569,7 @@
 				["loop"] = 1,
 			},
 		},
+		["time"] = 3700,
 	},
 	{
 		["bg_info"] = {
@@ -2542,6 +3603,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
 				["scale"] = {
 					0.95999997854233,
 					0.95999997854233,
@@ -2559,10 +3624,40 @@
 					},
 				},
 			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am41wj/am41wj_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
 		},
 		["guid"] = "50842D0C4D1F4F8EB545D4A0AF4B52C6",
 		["guid_str"] = "wx6debAc",
-		["id"] = 71,
+		["id"] = 74,
 		["name"] = "紫都",
 		["text"] = "小朋友们难得有机会光明正大晚上跑出来玩，一个个配合得紧，脚程也快~",
 	},
@@ -2584,12 +3679,22 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
 				["scale"] = {
 					0.95999997854233,
 					0.95999997854233,
@@ -2597,18 +3702,9 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
 			},
 			{
-				["anim"] = "shy1",
+				["anim"] = "proud",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2619,7 +3715,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am41wj/am41wj_action1",
 				["pos"] = {
-					0,
+					-300,
 					100,
 				},
 				["shadow"] = {
@@ -2628,18 +3724,28 @@
 				["tween"] = {
 					{
 						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
+							["delay"] = 2000,
+							["direction"] = "left",
+							["dis"] = 40,
+							["time"] = 400,
 						},
-						["tween"] = "FadeIn",
+						["tween"] = "MoveOut",
 					},
 				},
 			},
 		},
 		["guid"] = "4886013644238179AA9F2C89F3262575",
 		["guid_str"] = "p83flVAc",
-		["id"] = 72,
+		["id"] = 75,
 		["name"] = "无咎",
+		["soundfx"] = {
+			{
+				["delay"] = 2000,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "诶别舔别舔哈哈哈！",
 	},
 	{
@@ -2672,6 +3778,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
 				["scale"] = {
 					0.95999997854233,
 					0.95999997854233,
@@ -2679,46 +3789,36 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
-			{
-				["anim"] = "shy1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am41wj/am41wj_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
 			},
 		},
 		["guid"] = "C5E6C2124151F78932F8979031825E55",
 		["guid_str"] = "faycFrUI",
-		["id"] = 73,
-		["name"] = "「麻雀先生」",
-		["text"] = "原来如此，不会造成什么骚乱么？",
+		["id"] = 76,
+		["name"] = "「麻雀先生」·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
+		["text"] = "原来如此，不过这么大批量地派出辛西亚，不会造成什么骚乱么？",
 	},
 	{
 		["bg_info"] = {
@@ -2738,7 +3838,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2752,6 +3852,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
 				["scale"] = {
 					0.95999997854233,
 					0.95999997854233,
@@ -2759,12 +3863,32 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = -300,
+								["y"] = 0,
+							},
+							["time"] = 600,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
 			},
 		},
 		["guid"] = "34A1510342CCC77B7309BDB3535E4806",
 		["guid_str"] = "YOR9pyfT",
-		["id"] = 74,
+		["id"] = 77,
 		["name"] = "紫都",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "麻雀先生放心，辛西亚同样是擅长隐藏的族群，毕竟我们是风的朋友，没有我的指令它们不会乱来的。大家作为海临优秀居民一定不会做出任何破坏公共治安的事，优秀的对外形象一直是鹿路运输最重要的一环，你们说对吧~",
 	},
 	{
@@ -2785,30 +3909,6 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af12zd/af12zd_action1",
-				["scale"] = {
-					0.95999997854233,
-					0.95999997854233,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
 				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -2820,37 +3920,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am41wj/am41wj_action1",
 				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
-				["pos"] = {
-					-300,
+					0,
 					100,
 				},
 				["shadow"] = {
@@ -2869,7 +3939,7 @@
 		},
 		["guid"] = "46A52EBE4953EDA69C40C689D09424B3",
 		["guid_str"] = "hOvKQvAr",
-		["id"] = 75,
+		["id"] = 78,
 		["name"] = "无咎",
 		["text"] = "对外形象是什么意思？",
 	},
@@ -2901,29 +3971,10 @@
 					0.27450981736183,
 					1.0,
 				},
-				["knowledge_word_info"] = {
-					["id"] = "393",
-					["is_enabled"] = true,
-				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am41wj/am41wj_action1",
 				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
-				["pos"] = {
-					-300,
+					0,
 					100,
 				},
 				["shadow"] = {
@@ -2933,8 +3984,40 @@
 		},
 		["guid"] = "A1DAC9E844CA75AB73CD5F96410C5997",
 		["guid_str"] = "5kqJ1CqS",
-		["id"] = 76,
-		["name"] = "北洛",
+		["id"] = 79,
+		["name"] = "北洛·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 		["text"] = "夸你。",
 	},
 	{
@@ -2966,39 +4049,36 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am41wj/am41wj_action1",
 				["pos"] = {
-					300,
+					0,
 					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
-				["pos"] = {
-					-300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 200,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
 				},
 			},
 		},
 		["guid"] = "616BF29943177C05F55940B86110464D",
 		["guid_str"] = "RwODFBrP",
-		["id"] = 77,
+		["id"] = 80,
 		["name"] = "无咎",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "真的么姐！",
 	},
 	{
@@ -3025,65 +4105,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "proud",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["knowledge_word_info"] = {
-					["id"] = "393",
-					["is_enabled"] = true,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am41wj/am41wj_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
-				["pos"] = {
-					-300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "smile",
+				["anim"] = "snicker",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3112,7 +4134,7 @@
 		},
 		["guid"] = "05B449A64C4D81B0C5A9F3905C9BC1DF",
 		["guid_str"] = "fXqJeDGi",
-		["id"] = 78,
+		["id"] = 81,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -3164,9 +4186,9 @@
 		},
 		["guid"] = "56E5402D420285E494097888E9E7450C",
 		["guid_str"] = "GxqP0i9x",
-		["id"] = 79,
+		["id"] = 82,
 		["name"] = "紫都",
-		["text"] = "小鹿们正带着先生分配的装置追踪地图标记的目标。我和小小鸟刚刚赶到云霄探险乐园，路遥和小岚在栖云商业广场，北洛在最远的金玲大桥，我们都没有发现已经在附近停留的带有白荆LOGO的车辆，地图也同样没有可疑标记。",
+		["text"] = "小鹿们正带着先生分配的装置追踪地图标记的目标。我和小小鸟刚刚赶到云霄探险乐园，路遥和小岚在栖云商业广场，北洛在最远的金铃大桥，我们都没有发现已经在附近停留的带有白荆LOGO的车辆，地图也同样没有可疑标记。",
 	},
 	{
 		["bg_info"] = {
@@ -3211,7 +4233,7 @@
 		},
 		["guid"] = "EE029A714071CD79422014B88AA26813",
 		["guid_str"] = "taiCZFru",
-		["id"] = 80,
+		["id"] = 83,
 		["name"] = "紫都",
 		["text"] = "顺便一说，这些车辆好像都是无人驾驶哦。",
 	},
@@ -3256,8 +4278,40 @@
 		},
 		["guid"] = "38B2C4CD4F49654A82F22586468051A2",
 		["guid_str"] = "EG6qOXlG",
-		["id"] = 81,
-		["name"] = "「麻雀先生」",
+		["id"] = 84,
+		["name"] = "「麻雀先生」·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 		["text"] = "怪不得移动如此规律。",
 	},
 	{
@@ -3301,8 +4355,31 @@
 		},
 		["guid"] = "A5AFA83D4EE61A928D78D1BEEBA28091",
 		["guid_str"] = "16CIswpH",
-		["id"] = 82,
-		["name"] = "「麻雀先生」",
+		["id"] = 85,
+		["name"] = "「麻雀先生」·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "我影像追踪的是全部带有白荆标志、型号统一的运输车，而你们前往的这几处地点是我们推测的终点，这些车辆中可能有终点是这几处的，也可能并没有。",
 	},
 	{
@@ -3323,40 +4400,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["knowledge_word_info"] = {
-					["anchor"] = "right",
-					["id"] = "273",
-					["is_enabled"] = true,
-					["offset"] = {
-						-100,
-						-50,
-					},
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3375,21 +4419,35 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
 			},
 		},
 		["guid"] = "CE783F704F1BE08C8C02F7848865AA9E",
 		["guid_str"] = "eLAGKn6g",
-		["id"] = 83,
-		["name"] = "北洛",
+		["id"] = 86,
+		["name"] = "北洛·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "你们是对的。",
 	},
 	{
@@ -3414,20 +4472,17 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["anchor"] = "right",
-					["id"] = "273",
-					["is_enabled"] = true,
-					["offset"] = {
-						-100,
-						-50,
-					},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
-				["pos"] = {
-					0,
-					100,
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3436,8 +4491,31 @@
 		},
 		["guid"] = "55C9AB574166363EAA9C3391F35AD336",
 		["guid_str"] = "Gy5c8CdN",
-		["id"] = 84,
-		["name"] = "北洛",
+		["id"] = 87,
+		["name"] = "北洛·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "我听到重型卡车的声音了，还有辛西亚的声音。",
 	},
 	{
@@ -3462,59 +4540,50 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
-				["pos"] = {
-					0,
-					100,
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "doubt",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["knowledge_word_info"] = {
-					["anchor"] = "right",
-					["id"] = "505",
-					["is_enabled"] = true,
-					["offset"] = {
-						-300,
-						-300,
-					},
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am29lx/am29lx_action1",
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
 				},
 			},
 		},
 		["guid"] = "E1C459614944B3E2F40897A381EA7342",
 		["guid_str"] = "4aHmugDM",
-		["id"] = 85,
-		["name"] = "岚相",
+		["id"] = 88,
+		["name"] = "岚相·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "……你这都能听到？",
 	},
 	{
@@ -3539,59 +4608,51 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["id"] = "273",
-					["is_enabled"] = true,
-					["offset"] = {
-						0,
-						-50,
-					},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
-				["pos"] = {
-					0,
-					100,
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
-			{
-				["anim"] = "doubt",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am29lx/am29lx_action1",
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
 				},
 			},
 		},
 		["guid"] = "B7AA06E648190103BE327284C94228D9",
 		["guid_str"] = "pA0ULreW",
-		["id"] = 86,
-		["name"] = "北洛",
-		["text"] = "想上金玲大桥只有一条路，我来的路上顺手放了几个范围监听器，大桥对面是天隙禁区，一般车辆禁止通过，而这个时间也早就过了特殊车辆准许过桥作业的时间，所以——",
+		["id"] = 89,
+		["name"] = "北洛·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
+		["text"] = "想上金铃大桥只有一条路，我来的路上顺手放了几个范围监听器，大桥对面是天隙禁区，一般车辆禁止通过，而这个时间也早就过了特殊车辆准许过桥作业的时间，所以——",
 	},
 	{
 		["bg_info"] = {
@@ -3615,19 +4676,17 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["id"] = "273",
-					["is_enabled"] = true,
-					["offset"] = {
-						0,
-						-50,
-					},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
-				["pos"] = {
-					0,
-					100,
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3636,8 +4695,31 @@
 		},
 		["guid"] = "9730FAB44B2057FD83022BAF1882CDD7",
 		["guid_str"] = "5MX6TMKQ",
-		["id"] = 87,
-		["name"] = "北洛",
+		["id"] = 90,
+		["name"] = "北洛·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "来者多半不善。",
 	},
 	{
@@ -3662,66 +4744,48 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
-				["pos"] = {
-					0,
-					100,
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["knowledge_word_info"] = {
-					["id"] = "269",
-					["is_enabled"] = true,
-					["offset"] = {
-						100,
-						-50,
-					},
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["direction"] = "left",
-							["dis"] = 100,
-							["end_alpha"] = 1.0,
-							["time"] = 500,
-						},
-						["tween"] = "MoveIn",
-					},
 				},
 			},
 		},
 		["guid"] = "BA17E05E464E976D070CE09B1B35A5B4",
 		["guid_str"] = "MVZGPSaX",
-		["id"] = 88,
-		["name"] = "唐路遥",
-		["soundfx"] = {
-			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
-				["volume"] = 6.0,
+		["id"] = 91,
+		["name"] = "唐路遥·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
 			},
 		},
 		["text"] = "除了我们这三处还有什么地方可能有危险？",
@@ -3755,7 +4819,11 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3763,8 +4831,31 @@
 		},
 		["guid"] = "E0AC107143F6CB211D1940B9B2AAD9BE",
 		["guid_str"] = "EsPJtm3q",
-		["id"] = 89,
-		["name"] = "「麻雀先生」",
+		["id"] = 92,
+		["name"] = "「麻雀先生」·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "凌空体育场，有人去处理了，另外可能的是天境特区轨道交通总站。",
 	},
 	{
@@ -3785,45 +4876,124 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["id"] = "0269",
-					["is_enabled"] = true,
-					["offset"] = {
-						50,
-						-300,
-					},
+				["color"] = {
+					0.73985934257507,
+					0.85319781303406,
+					0.93023252487183,
+					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
 				["tween"] = {
 					{
 						["param"] = {
-							["am"] = 5,
+							["am"] = 10,
 							["delay"] = 0,
 							["duration"] = 200,
-							["time"] = 5,
+							["time"] = 20,
 						},
 						["tween"] = "Shake",
 					},
 				},
 			},
 		},
-		["guid"] = "6C3919D34D218E6EEEB1388D56EA5A6B",
-		["guid_str"] = "V2fjGdn1",
-		["id"] = 90,
-		["name"] = "唐路遥",
+		["guid"] = "6671863E49389D8520DBB09F03128ECB",
+		["guid_str"] = "lqRpZUS9",
+		["id"] = 93,
+		["name"] = "众人",
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
 				["length"] = 649,
 				["volume"] = 6.0,
+			},
+		},
+		["text"] = "！！！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.28112491965294,
+						0.38971012830734,
+						0.53488373756409,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySummer24SceneBG/bg_beach_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "6C3919D34D218E6EEEB1388D56EA5A6B",
+		["guid_str"] = "V2fjGdn1",
+		["id"] = 94,
+		["name"] = "唐路遥·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
 			},
 		},
 		["text"] = "什么？！天境总站的客流量是整个海临最多的，那里要是遭到袭击绝对是排除天隙事件外近20年性质最恶劣公共事件！R.E.D.去那儿了么，不管能不能拦下那些车，或者那些车是不是唯一的袭击手段都太危险了，最好能官方配合疏散人群！",
@@ -3846,7 +5016,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3857,7 +5027,11 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3865,8 +5039,31 @@
 		},
 		["guid"] = "F680BF4E441E1C8C5022A1A0DEF4BF1E",
 		["guid_str"] = "IkW22Q4y",
-		["id"] = 91,
-		["name"] = "「麻雀先生」",
+		["id"] = 95,
+		["name"] = "「麻雀先生」·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "田警官在40分钟前出发去天境总站，根据他的情报没发现停留的可疑车辆，他正在运作疏散人群的相关事宜，不过如唐先生所言，那里人流密集，还有24小时运营的交通线，想要层层上报获得许可，难度可想而知。",
 	},
 	{
@@ -3887,7 +5084,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3898,34 +5095,10 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "doubt1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
-				["pos"] = {
-					0,
-					100,
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3934,11 +5107,39 @@
 		},
 		["guid"] = "86CDD0D844895653DE38EC8C9575A255",
 		["guid_str"] = "RHsib9Ul",
-		["id"] = 92,
-		["name"] = "北洛",
+		["id"] = 96,
+		["name"] = "北洛·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["speaker_info"] = {
-			["anim"] = "doubt1",
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
 			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["text"] = "R.E.D.也不行？他们不是权限等级很高么。",
 	},
@@ -3960,7 +5161,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3971,7 +5172,11 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3979,8 +5184,31 @@
 		},
 		["guid"] = "2232953D42B3B314FB4943A8415D2AEA",
 		["guid_str"] = "M3WjaZNM",
-		["id"] = 93,
-		["name"] = "「麻雀先生」",
+		["id"] = 97,
+		["name"] = "「麻雀先生」·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "田偌警官今天放假。",
 	},
 	{
@@ -4001,20 +5229,22 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["id"] = "0269",
-					["is_enabled"] = true,
-					["offset"] = {
-						50,
-						-300,
-					},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4022,8 +5252,31 @@
 		},
 		["guid"] = "14C9D6474CF4C13C4110FBAFD533A9D8",
 		["guid_str"] = "STNo2uvz",
-		["id"] = 94,
-		["name"] = "唐路遥",
+		["id"] = 98,
+		["name"] = "唐路遥·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "意思是……R.E.D.今年没有被安排维护庆典治安，往年不是都……",
 	},
 	{
@@ -4044,20 +5297,22 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["id"] = "0269",
-					["is_enabled"] = true,
-					["offset"] = {
-						50,
-						-300,
-					},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4065,8 +5320,31 @@
 		},
 		["guid"] = "169FC8394774F1538F72F9AEBAB9A606",
 		["guid_str"] = "g96SbCtZ",
-		["id"] = 95,
+		["id"] = 99,
 		["name"] = "唐路遥",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "……",
 	},
 	{
@@ -4087,20 +5365,22 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["id"] = "0269",
-					["is_enabled"] = true,
-					["offset"] = {
-						50,
-						-300,
-					},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "af12zd/af12zd_action1",
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4108,8 +5388,31 @@
 		},
 		["guid"] = "9957631A42E6E8742EE3DDAECF2CB103",
 		["guid_str"] = "3aUlyOMJ",
-		["id"] = 96,
-		["name"] = "唐路遥",
+		["id"] = 100,
+		["name"] = "唐路遥·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "好的，明白了，谢谢。",
 	},
 	{
@@ -4130,26 +5433,68 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
+				["knowledge_word_info"] = {
+					["id"] = "393",
+					["is_enabled"] = true,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "am41wj/am41wj_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "up",
+							["dis"] = 50,
+							["end_alpha"] = 1.0,
+							["time"] = 300,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
 		["guid"] = "BFEA2FD74C0E23E4D1BD6CAF0EF60CD2",
 		["guid_str"] = "6wvBMCha",
-		["id"] = 97,
+		["id"] = 101,
 		["name"] = "无咎",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4158,7 +5503,6 @@
 				-120,
 				10,
 			},
-			["path"] = "am41wj/am41wj_action1",
 		},
 		["text"] = "啊？明白什么了？",
 	},
@@ -4184,14 +5528,31 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "am41wj/am41wj_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4199,12 +5560,39 @@
 		},
 		["guid"] = "E6376CE7447D6BC2CBB095BEEA239612",
 		["guid_str"] = "ovSC6xpj",
-		["id"] = 98,
-		["name"] = "北洛",
+		["id"] = 102,
+		["name"] = "北洛·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["speaker_info"] = {
-			["anim"] = "doubt1",
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am30bl/am30bl_action1",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["text"] = "今年警察指望不上，不是一伙的，明白？",
 	},
@@ -4226,18 +5614,39 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
+				["knowledge_word_info"] = {
+					["id"] = "393",
+					["is_enabled"] = true,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "am41wj/am41wj_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4245,7 +5654,7 @@
 		},
 		["guid"] = "FEDBEF6E4C5C0EEE4E915795CE806A1E",
 		["guid_str"] = "KonZoSmT",
-		["id"] = 99,
+		["id"] = 103,
 		["name"] = "无咎",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4254,7 +5663,6 @@
 				-120,
 				10,
 			},
-			["path"] = "am41wj/am41wj_action1",
 		},
 		["text"] = "那我们跟谁一伙？金主大人么？",
 	},
@@ -4276,33 +5684,22 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "am41wj/am41wj_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4316,6 +5713,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
 				["scale"] = {
 					0.95999997854233,
 					0.95999997854233,
@@ -4323,20 +5724,11 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
 			},
 		},
 		["guid"] = "90F1994D4A74A9199FDEA2B238721434",
 		["guid_str"] = "aEwGNa9d",
-		["id"] = 100,
+		["id"] = 104,
 		["name"] = "紫都",
 		["speaker_info"] = {
 			["anim"] = "doubt",
@@ -4370,8 +5762,18 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
 				["scale"] = {
 					0.95999997854233,
 					0.95999997854233,
@@ -4379,59 +5781,63 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
 			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["id"] = "273",
-					["is_enabled"] = true,
-					["offset"] = {
-						0,
-						-50,
-					},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
+				["path"] = "am41wj/am41wj_action1",
 				["pos"] = {
-					0,
+					-300,
 					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
 			},
 		},
 		["guid"] = "215816424CC53194272BF6BD4BFC2022",
 		["guid_str"] = "quxts94q",
-		["id"] = 101,
-		["name"] = "北洛",
+		["id"] = 105,
+		["name"] = "北洛·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["speaker_info"] = {
-			["anim"] = "doubt",
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
 			["material"] = "M_UI_SpinePortrait",
 			["offset"] = {
-				-120,
-				10,
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
 			},
 		},
 		["text"] = "你和紫都，唐路遥和土匪，我单干。",
@@ -4458,41 +5864,43 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am30bl/am30bl_action1",
+				["path"] = "am41wj/am41wj_action1",
 				["pos"] = {
-					0,
+					-300,
 					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
 			},
 			{
-				["anim"] = "doubt",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["anchor"] = "right",
-					["id"] = "505",
-					["is_enabled"] = true,
-					["offset"] = {
-						-300,
-						-300,
-					},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am29lx/am29lx_action1",
+				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4500,14 +5908,29 @@
 		},
 		["guid"] = "89679373414199ED7AEF668765472584",
 		["guid_str"] = "4LVljbzV",
-		["id"] = 102,
-		["name"] = "岚相",
+		["id"] = 106,
+		["name"] = "岚相·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["speaker_info"] = {
-			["anim"] = "doubt",
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
 			["material"] = "M_UI_SpinePortrait",
 			["offset"] = {
-				-120,
-				10,
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
 			},
 		},
 		["text"] = "谁是土匪？？",
@@ -4530,61 +5953,87 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "doubt",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am29lx/am29lx_action1",
+				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
 				},
 			},
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["id"] = "0269",
-					["is_enabled"] = true,
-					["offset"] = {
-						50,
-						-300,
-					},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "am41wj/am41wj_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
 				},
 			},
 		},
 		["guid"] = "6403C0604E22F34C172EB385EAC6BBC5",
 		["guid_str"] = "TYPskmU7",
-		["id"] = 103,
-		["name"] = "唐路遥",
+		["id"] = 107,
+		["name"] = "唐路遥·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["speaker_info"] = {
-			["anim"] = "closeeyeserious",
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
 			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["text"] = "祖宗求你少说两句！",
 	},
@@ -4617,7 +6066,36 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am47ly/am47ly_action2",
+				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["scale"] = {
+					0.95999997854233,
+					0.95999997854233,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am41wj/am41wj_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4625,11 +6103,30 @@
 		},
 		["guid"] = "881EBA794AC0CBD373453BA7F67213B8",
 		["guid_str"] = "akT7lo7C",
-		["id"] = 104,
-		["name"] = "「麻雀先生」",
+		["id"] = 108,
+		["name"] = "「麻雀先生」·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["speaker_info"] = {
-			["anim"] = "closeeyeserious",
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
 			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
 		},
 		["text"] = "田警官那边迫于形势无法乐观估计，按照最坏的预计，34处移动目标的终点甚至可以全部是天境特区。",
 	},
@@ -4651,7 +6148,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4665,6 +6162,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af12zd/af12zd_action1",
+				["pos"] = {
+					300,
+					0,
+				},
 				["scale"] = {
 					0.95999997854233,
 					0.95999997854233,
@@ -4676,17 +6177,58 @@
 					{
 						["param"] = {
 							["delay"] = 0,
+							["pos"] = {
+								["x"] = -300,
+								["y"] = 0,
+							},
+							["time"] = 600,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am41wj/am41wj_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
 							["time"] = 200,
 						},
-						["tween"] = "FadeIn",
+						["tween"] = "FadeOut",
 					},
 				},
 			},
 		},
 		["guid"] = "71ED06F743F5358709E3A08D2A73D2DA",
 		["guid_str"] = "mR5zBlvZ",
-		["id"] = 105,
+		["id"] = 109,
 		["name"] = "紫都",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
@@ -4734,11 +6276,30 @@
 		},
 		["guid"] = "14B5870E439DD56C1E3F59A5FEE23EF4",
 		["guid_str"] = "6aJ3OLof",
-		["id"] = 106,
-		["name"] = "「麻雀先生」",
+		["id"] = 110,
+		["name"] = "「麻雀先生」·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["speaker_info"] = {
-			["anim"] = "closeeyeserious",
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
 			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
 		},
 		["text"] = "嗯，麻烦把送过去的装置投放到车辆的任意位置，我这边能看到，有遗漏也无妨，可以进行二次追踪。",
 	},
@@ -4785,7 +6346,7 @@
 		},
 		["guid"] = "D62B95654ECA4F57B0F61DAA7E0905BA",
 		["guid_str"] = "oZeqlU1T",
-		["id"] = 107,
+		["id"] = 111,
 		["name"] = "紫都",
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
@@ -4811,9 +6372,18 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]下一秒，紫都乘在辛西亚身上，辛西亚一脚蹬地飞上天空，悠扬的笛声响起，环绕在附近，和更远的彼方。",
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]紫都乘在辛西亚身上，辛西亚一脚蹬地飞上天空，悠扬的笛声响起，环绕在附近，和更远的彼方。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -4834,20 +6404,27 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["direction"] = "up",
+							["dis"] = 30,
+							["time"] = 400,
 						},
-						["tween"] = "FadeOut",
+						["tween"] = "MoveOut",
 					},
 				},
 			},
 		},
 		["guid"] = "88418E164BCBA1512EA79D91607000A0",
 		["guid_str"] = "kMlnF7ql",
-		["id"] = 108,
+		["id"] = 112,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/player/af12zd/skill_NormalHabit_celtic",
 				["length"] = 2600,
+				["volume"] = 2.0,
+			},
+			{
+				["event"] = "event:/cs/ultra/af12zd/af12zd_full_sfx",
+				["length"] = 16285,
 			},
 		},
 		["speaker_info"] = {
@@ -4869,7 +6446,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -4880,73 +6457,15 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am74tsuki/am74tsuki_action3",
-				["pos"] = {
-					-300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "smile",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af12zd/af12zd_action1",
-				["pos"] = {
-					300,
-					0,
-				},
-				["scale"] = {
-					0.95999997854233,
-					0.95999997854233,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-		},
 		["guid"] = "E1FD60194BF38994DAF73DA30FC9CC35",
 		["guid_str"] = "LLfHElxH",
-		["id"] = 109,
+		["id"] = 113,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
 		},
+		["time"] = 1800,
 	},
 }
