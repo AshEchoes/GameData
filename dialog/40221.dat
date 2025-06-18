@@ -3776,6 +3776,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n95blood_kimono_f/n95blood_kimono_f_01/n95blood_kimono_f_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3784,6 +3788,39 @@
 						["param"] = {
 							["delay"] = 0,
 							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 400,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_m/n95blood_kimono_m_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
 							["dis"] = 100,
 							["end_alpha"] = 1.0,
 							["time"] = 400,

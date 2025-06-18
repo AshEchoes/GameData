@@ -3573,13 +3573,22 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 500,
 							},
 							["tween"] = "FadeIn",
 						},
+						{
+							["param"] = {
+								["delay"] = 5000,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
 					},
 					["video"] = {
+						["is_keep_finish"] = true,
 						["is_queue"] = true,
+						["is_stage"] = true,
 						["path"] = "movies/Desktop/avg/chapter08/cg_8_countdown_15.bk2",
 					},
 				},
@@ -3591,6 +3600,7 @@
 		["guid"] = "7B14BC134C6397460CFF3EA47C487C15",
 		["guid_str"] = "VKopmZjM",
 		["id"] = 43,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -3598,44 +3608,31 @@
 				["event"] = "event:/sfx/story/8/avg_chapter8_count",
 				["length"] = 1880,
 			},
-		},
-	},
-	{
-		["bg_info"] = {
 			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 1000,
-								["time"] = 1500,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
-					["video"] = {
-						["is_queue"] = true,
-						["is_ratio_full"] = true,
-						["path"] = "movies/Desktop/avg/chapter08/cg_8_countdown_15.bk2",
-					},
-				},
-				["path"] = "",
+				["event"] = "event:/sfx/story/0-00/0-0-whoosh",
+				["length"] = 4026,
 			},
 			{
+				["delay"] = 2000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
 			},
-		},
-		["guid"] = "CBF654E840340B241C286894D07F0BE8",
-		["guid_str"] = "K3yQAGkK",
-		["id"] = 44,
-		["just_auto_play"] = true,
-		["soundfx"] = {
 			{
-				["delay"] = 500,
-				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
-				["length"] = 1153,
-				["volume"] = 1.5,
+				["delay"] = 3000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 4000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 5000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
 			},
 		},
-		["time"] = 2500,
+		["time"] = 7000,
 	},
 }

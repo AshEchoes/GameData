@@ -1733,7 +1733,7 @@
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "元桃桃",
-		["text"] = "那……波丝姐姐灰锈姐姐我可以去西陵重工参观么！求求了，救救我的作业吧——",
+		["text"] = "那……波丝姐姐灰锈姐姐我可以去西陵重工参观么！求求你们了，救救我的作业吧——",
 	},
 	{
 		["bg_info"] = {
@@ -2040,10 +2040,20 @@
 		["guid"] = "5068636D49C44BD663A5EAA4AB9E2DF6",
 		["guid_str"] = "wm0bIkhA",
 		["id"] = 40,
+		["just_auto_play"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
 		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/red/red_amb_street_crowd",
+				["length"] = 24342,
+				["loop"] = 1,
+				["volume"] = 0.20000000298023,
+			},
+		},
+		["time"] = 4000,
 	},
 	{
 		["bg_info"] = {
@@ -2744,6 +2754,10 @@
 				["length"] = 5800,
 				["loop"] = 1,
 				["volume"] = 0.40000000596046,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
 			},
 		},
 	},

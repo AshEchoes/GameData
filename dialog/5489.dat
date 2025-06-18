@@ -67,6 +67,15 @@
 			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]全员休假期的白荆科技130层的建筑完全称得上一句“荒无人烟”，\n\n除了个别无法长期离开人工环节的实验需要，所有另有合适居所的人都暂时告别了集体生活。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 300,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "D070747A48E02D935AAEA2B787BF4EA1",
 		["guid_str"] = "pf1aL46o",
@@ -482,7 +491,7 @@
 			["anim"] = "smile1_add",
 		},
 		["name"] = "霍冉",
-		["text"] = "这也要凑合？！监督你们不是几乎每年都会去逛么。",
+		["text"] = "这还算凑合？！监督你们不是几乎每年都会去逛么。",
 	},
 	{
 		["bg_info"] = {
@@ -4421,7 +4430,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5813,7 +5822,6 @@
 				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_corridor.png",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_door_02.png",
 			},
 		},
 		["caption_info"] = {
@@ -5880,6 +5888,7 @@
 		["guid"] = "7368BB86420E9D367EB8868535C5C19B",
 		["guid_str"] = "ZBbOIuSg",
 		["id"] = 93,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_characters"] = {
 			{

@@ -1338,7 +1338,7 @@
 						["param"] = {
 							["delay"] = 0,
 							["delay_page"] = 0,
-							["time"] = 1000,
+							["time"] = 500,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -1348,9 +1348,25 @@
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
-				["delay"] = 1000,
-				["event"] = "event:/sfx/story/8/avg_chapter8_count",
-				["length"] = 1880,
+				["delay"] = 100,
+				["event"] = "event:/sfx/story/0-00/0-0-whoosh",
+				["length"] = 4026,
+			},
+			{
+				["delay"] = 600,
+				["event"] = "event:/sfx/story/8/avg_chapter8_glitch",
+				["length"] = 1600,
+				["volume"] = 2.0,
+			},
+			{
+				["delay"] = 1100,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count_2",
+				["length"] = 2657,
+			},
+			{
+				["delay"] = 300,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count_3",
+				["length"] = 2384,
 			},
 		},
 		["time"] = 6000,

@@ -1607,7 +1607,7 @@
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "我不否认，此前那则关于“葵花福利院”的报道一出，白荆科技在社会上的风评略有下降，个中缘由作为内部人员的你想必比我更清楚。",
+		["text"] = "我不否认，此前的那些报道一出，白荆科技在社会上的风评略有下降，个中缘由作为内部人员的你想必比我更清楚。",
 	},
 	{
 		["bg_info"] = {
@@ -2139,7 +2139,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2229,7 +2229,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2319,7 +2319,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2491,7 +2491,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3895,6 +3895,7 @@
 				},
 			},
 		},
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -3912,7 +3913,7 @@
 						},
 						{
 							["param"] = {
-								["delay"] = 5000,
+								["delay"] = 6000,
 								["end_alpha"] = 0.0,
 								["start_alpha"] = 0.80000001192093,
 								["time"] = 2000,
@@ -3959,7 +3960,7 @@
 				["tween"] = {
 					{
 						["param"] = {
-							["delay"] = 5000,
+							["delay"] = 6000,
 							["delay_page"] = 0,
 							["time"] = 2000,
 						},
@@ -3968,6 +3969,18 @@
 				},
 			},
 		},
-		["time"] = 7000,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-08/get_coin",
+				["length"] = 2998,
+			},
+			{
+				["delay"] = 1000,
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_low_long",
+				["length"] = 4615,
+			},
+		},
+		["time"] = 8000,
 	},
 }
