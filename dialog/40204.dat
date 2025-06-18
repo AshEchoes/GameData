@@ -85,8 +85,12 @@
 							["tween"] = "AlphaChange",
 						},
 					},
+					["video"] = {
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter08/cg_8_countdown_14.bk2",
+					},
 				},
-				["path"] = "interface/resource/Game/Dialog08CGBG/cg_8_21.png",
+				["path"] = "",
 			},
 			{
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_03.png",
@@ -111,16 +115,29 @@
 					["tween"] = {
 						{
 							["param"] = {
-								["delay"] = 0,
+								["delay"] = 1000,
 								["end_alpha"] = 0.0,
 								["start_alpha"] = 0.80000001192093,
 								["time"] = 1500,
 							},
 							["tween"] = "AlphaChange",
 						},
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.80000001192093,
+								["start_alpha"] = 0.80000001192093,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter08/cg_8_countdown_14.bk2",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog08CGBG/cg_8_21.png",
+				["path"] = "",
 			},
 			{
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_03.png",
@@ -1120,9 +1137,12 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 500,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 700,
 						},
-						["tween"] = "FadeIn",
+						["tween"] = "MoveIn",
 					},
 				},
 			},
@@ -1415,7 +1435,7 @@
 		["guid_str"] = "lnOLX3hB",
 		["id"] = 27,
 		["name"] = "瞳",
-		["text"] = "之后我也会控制射击/激光的角度。",
+		["text"] = "之后我也会控制射击的角度。",
 	},
 	{
 		["bg_info"] = {

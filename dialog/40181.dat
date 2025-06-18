@@ -26,6 +26,7 @@
 		["guid"] = "AAA32EED46AE8CE9B173049803B3540F",
 		["guid_str"] = "FR8rz0vj",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -128,7 +129,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]不知不觉终于到了接近入口的地方，\n\n我远远看到在白荆科技门口远远一瞥看见的长衫男人正站在不远处，\n\n像是察觉到我的视线，他也很快看向我们。",
+			["text"] = "[size 17]不知不觉终于到了接近入口的地方，\n\n我远远看见在宿舍走廊碰过面的长衫男人正站在不远处，\n\n像是察觉到我的视线，他也很快看向我们。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -730,7 +731,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]狄砚停下脚步，周围都是赶笑闹的人群，到处都是聊天声笑闹声，\n\n金色的灯光下，我忽然注意到狄砚被鬓发遮得七七八八的耳垂上空荡荡的。",
+			["text"] = "[size 17]人群笑闹着走过，周围到处回荡着欢声笑语，狄砚停下脚步，\n\n一片流光溢彩的灯光中，我忽然注意到狄砚几乎隐藏在鬓发后面的耳垂上空荡荡的。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -828,7 +829,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]她很久没出门了。",
+			["text"] = "[size 17]她已经很久没出门了。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -925,7 +926,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "worry",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1019,7 +1020,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "worry",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1134,7 +1135,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "worry",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1226,7 +1227,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "worry",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2039,7 +2040,116 @@
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "[rolename]",
-		["text"] = "我想暂时叫它……「二次病变」，把它当成一种更罕见“所有人”都有可能面对的“科学化病理”，就像五年前推出的「X细胞异化综合征」和一样，我们一定能找到其中的规律和办法。",
+		["text"] = "我想暂时叫它……「[c 59abff]二次病变[/c]」。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "worry",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "heroine/heroine_action1",
+				["pos"] = {
+					-250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "2A36BB0747A68ED957DEE0BE47132E11",
+		["guid_str"] = "Nd8yz0PS",
+		["id"] = 25,
+		["is_player_speaker"] = true,
+		["male_characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_action1",
+				["pos"] = {
+					-250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile4",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "把它当成一种更罕见“所有人”都有可能面对的“科学化病理”，就像五年前推出的「Ｘ细胞异化综合征」一样，我们一定能找到其中的规律和办法。",
 	},
 	{
 		["bg_info"] = {
@@ -2052,7 +2162,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]风悄悄吹过，灯光下，尽管已有消退迹象，狄砚耳后的羽管还是没有完全被耳侧的头发隐藏。",
+			["text"] = "[size 17]风悄悄吹过，尽管已有消退的迹象，狄砚耳后的羽管还是在飘动的发丝间若隐若现。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2103,7 +2213,7 @@
 		},
 		["guid"] = "9CD8A7524EECA8E430CEACAC1D73DBFA",
 		["guid_str"] = "Sl8gW22m",
-		["id"] = 25,
+		["id"] = 26,
 		["male_characters"] = {
 			{
 				["anim"] = "normal_add",
@@ -2205,7 +2315,7 @@
 		},
 		["guid"] = "91B9DE6F4E3E2EF34EE6B084C2AE8097",
 		["guid_str"] = "700w1Ebr",
-		["id"] = 26,
+		["id"] = 27,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -2314,7 +2424,7 @@
 		},
 		["guid"] = "2AFEF83341D80ACEA7107F81ADA5AC26",
 		["guid_str"] = "y9dym2zg",
-		["id"] = 27,
+		["id"] = 28,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -2419,7 +2529,7 @@
 		},
 		["guid"] = "F57562F74600A55959D7E08D6EACF958",
 		["guid_str"] = "i8L7tCnf",
-		["id"] = 28,
+		["id"] = 29,
 		["male_characters"] = {
 			{
 				["anim"] = "normal_add",
@@ -2520,7 +2630,7 @@
 		},
 		["guid"] = "62F12F3547381F622FB0A3A74FCBB707",
 		["guid_str"] = "tdt4kE5h",
-		["id"] = 29,
+		["id"] = 30,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -2627,7 +2737,7 @@
 		},
 		["guid"] = "9D18042A4C2D55D802F3F4B9B4AA079B",
 		["guid_str"] = "Z8dLchMo",
-		["id"] = 30,
+		["id"] = 31,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -2734,7 +2844,7 @@
 		},
 		["guid"] = "593EAB954BE43C1A8F1557B125716B62",
 		["guid_str"] = "YlFxKWde",
-		["id"] = 31,
+		["id"] = 32,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -2792,7 +2902,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile4",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2838,7 +2948,7 @@
 		},
 		["guid"] = "17DBEF9348D6996D3840FDB531504AEE",
 		["guid_str"] = "YmjQfuNf",
-		["id"] = 32,
+		["id"] = 33,
 		["male_characters"] = {
 			{
 				["anim"] = "normal_add",
@@ -2884,7 +2994,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "shy",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2930,7 +3040,7 @@
 		},
 		["guid"] = "8D9EF18F460B5036280927AEE4A9769D",
 		["guid_str"] = "vJ0TMNZu",
-		["id"] = 33,
+		["id"] = 34,
 		["male_characters"] = {
 			{
 				["anim"] = "normal_add",
@@ -2978,33 +3088,26 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am23fql/am23fql_action1",
-				["pos"] = {
-					0,
-					70,
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af08fyz/af08fyz_action2",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeIn",
-					},
 				},
 			},
 		},
 		["guid"] = "3ABC9E4E42C3B124859ECCAA4908F747",
 		["guid_str"] = "BiEsapog",
-		["id"] = 34,
+		["id"] = 35,
 		["name"] = "狄砚的哥哥",
 		["text"] = "二位讲完悄悄话了？",
 	},
@@ -3018,30 +3121,29 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am23fql/am23fql_action1",
-				["pos"] = {
-					0,
-					70,
-				},
+				["path"] = "af08fyz/af08fyz_action2",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
 			},
 		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "surprise_in",
+		},
 		["guid"] = "B37DFB3E44221633F934C789FAE07D1C",
 		["guid_str"] = "k238pUYH",
-		["id"] = 35,
+		["id"] = 36,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "surprise_in",
+		},
 		["name"] = "[rolename]&狄砚",
 		["text"] = "！",
 	},
@@ -3066,19 +3168,24 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am23fql/am23fql_action1",
-				["pos"] = {
-					0,
-					70,
-				},
+				["path"] = "am75huai/am75huai_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
 		["guid"] = "BBC42FAC4F3412132CE8C493ADC57F6D",
 		["guid_str"] = "JfpanC0S",
-		["id"] = 36,
+		["id"] = 37,
 	},
 	{
 		["bg_info"] = {
@@ -3101,11 +3208,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am23fql/am23fql_action1",
-				["pos"] = {
-					0,
-					70,
-				},
+				["path"] = "am75huai/am75huai_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3116,13 +3219,14 @@
 		},
 		["guid"] = "BDC20955403483AADDA26EA813F3BE42",
 		["guid_str"] = "kX4IoGhg",
-		["id"] = 37,
+		["id"] = 38,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
+			["anim"] = "smile1_add",
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "[rolename]",
-		["text"] = "感谢烨少校给小砚和我们留出时间，还望路上小心，一路顺风。",
+		["text"] = "感谢烨少将给小砚和我们留出时间，还望路上小心，一路顺风",
 	},
 	{
 		["bg_info"] = {
@@ -3145,24 +3249,22 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am23fql/am23fql_action1",
-				["pos"] = {
-					0,
-					70,
-				},
+				["path"] = "am75huai/am75huai_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
 			},
 		},
 		["female_speaker_info"] = {
+			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
 		},
 		["guid"] = "E8A79E7B4AD4164B869E3AB25EA5F9DB",
 		["guid_str"] = "pxW0D8Xn",
-		["id"] = 38,
+		["id"] = 39,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
+			["anim"] = "dislike2_add",
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "[rolename]",
@@ -3178,16 +3280,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am23fql/am23fql_action1",
-				["pos"] = {
-					0,
-					70,
-				},
+				["path"] = "am75huai/am75huai_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3195,7 +3293,7 @@
 		},
 		["guid"] = "2C54682D434D9242E7FEEB98CFD8B79E",
 		["guid_str"] = "KMw443JC",
-		["id"] = 39,
+		["id"] = 40,
 		["name"] = "狄砚的哥哥",
 		["text"] = "那我带砚砚走了，再会，执行官[M]先生[/M][F]小姐[/F]。",
 	},
@@ -3209,7 +3307,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3220,11 +3318,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am23fql/am23fql_action1",
-				["pos"] = {
-					0,
-					70,
-				},
+				["path"] = "am75huai/am75huai_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3235,7 +3329,7 @@
 		},
 		["guid"] = "276D91BE46A161D8D05A8AB4EA999786",
 		["guid_str"] = "opsSAnwx",
-		["id"] = 40,
+		["id"] = 41,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
@@ -3254,7 +3348,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]狄砚朝我挥挥手，不知道是不是错觉，我觉得狄砚的哥哥也抬了抬嘴角。\n\n我看着二人离开的背影，目光不自觉集中在男人的步履上，直至消失。",
+			["text"] = "[size 17]狄砚朝我挥挥手，不知道是不是错觉，我恍惚感觉狄砚的哥哥也抬了抬嘴角。\n\n看着二人离开的背影，我的目光不自觉集中在男人的步履上，直至消失。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3279,11 +3373,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am23fql/am23fql_action1",
-				["pos"] = {
-					0,
-					70,
-				},
+				["path"] = "am75huai/am75huai_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3303,7 +3393,7 @@
 		},
 		["guid"] = "4F9E23C04A747971EFD0BE92FEDB349B",
 		["guid_str"] = "NT2Mbamu",
-		["id"] = 41,
+		["id"] = 42,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
 		},
@@ -3321,7 +3411,7 @@
 		},
 		["guid"] = "EA31CF064A6B6A52C026B6BE545A76D3",
 		["guid_str"] = "nSiYARy9",
-		["id"] = 42,
+		["id"] = 43,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
@@ -3357,7 +3447,7 @@
 		},
 		["guid"] = "F1D88315422414B3E2BAA6BED6175BF7",
 		["guid_str"] = "t9eKdGPk",
-		["id"] = 43,
+		["id"] = 44,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
 		},
@@ -3383,7 +3473,7 @@
 		},
 		["guid"] = "F5B79A7F4F6492868214E2BB29467D22",
 		["guid_str"] = "qaLGAy5j",
-		["id"] = 44,
+		["id"] = 45,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -3442,7 +3532,7 @@
 		},
 		["guid"] = "9F2D676349A882188FA1E58D551E1932",
 		["guid_str"] = "CczDKI3P",
-		["id"] = 45,
+		["id"] = 46,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3488,7 +3578,7 @@
 		},
 		["guid"] = "0BF077C443A9BEFF77B125A8924BBF5B",
 		["guid_str"] = "HDeNnXgS",
-		["id"] = 46,
+		["id"] = 47,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -3507,7 +3597,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1_add",
+				["anim"] = "surprise2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3538,7 +3628,7 @@
 		},
 		["guid"] = "B891CFCE4F6C2E1074BF2D83E533015A",
 		["guid_str"] = "kX5DM6CF",
-		["id"] = 47,
+		["id"] = 48,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3596,7 +3686,7 @@
 		},
 		["guid"] = "E81054E240CBF7AC54519D8D3CD2384A",
 		["guid_str"] = "aIhJoheM",
-		["id"] = 48,
+		["id"] = 49,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3642,7 +3732,7 @@
 		},
 		["guid"] = "13CD63C840FB91671DA97497FB45029C",
 		["guid_str"] = "wfZdXTAv",
-		["id"] = 49,
+		["id"] = 50,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -3713,7 +3803,7 @@
 		},
 		["guid"] = "9727E5534964A1981135598DF138C543",
 		["guid_str"] = "fAvDOC3H",
-		["id"] = 50,
+		["id"] = 51,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3772,7 +3862,7 @@
 		},
 		["guid"] = "F1C0A89344248CC4524D20A8458AB232",
 		["guid_str"] = "wI0zOWDM",
-		["id"] = 51,
+		["id"] = 52,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3875,7 +3965,7 @@
 		},
 		["guid"] = "08F5DEE945422E12BDED438BE933DE38",
 		["guid_str"] = "i33NO8Z9",
-		["id"] = 52,
+		["id"] = 53,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3943,13 +4033,13 @@
 		},
 		["guid"] = "880E85A6411E78513CF36A85C7335737",
 		["guid_str"] = "Hfzpx20w",
-		["id"] = 53,
+		["id"] = 54,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "参加庆典的男人",
-		["text"] = "……………………",
+		["text"] = "………………",
 	},
 	{
 		["bg_info"] = {
@@ -3961,7 +4051,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1_add",
+				["anim"] = "wronged2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3983,6 +4073,19 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1200,
+							["pos"] = {
+								["x"] = 200,
+								["y"] = 0,
+							},
+							["time"] = 600,
+						},
+						["tween"] = "RelativePositionChange",
+					},
 				},
 			},
 			{
@@ -4075,7 +4178,7 @@
 		},
 		["guid"] = "86FAECCF4D6050A64F13FA86342596A2",
 		["guid_str"] = "8TafAexU",
-		["id"] = 54,
+		["id"] = 55,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4106,7 +4209,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1_add",
+				["anim"] = "wronged2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4120,7 +4223,7 @@
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "af50nvzhu/af50nvzhu_action1",
 				["pos"] = {
-					-200,
+					0,
 					100,
 				},
 				["shadow"] = {
@@ -4133,7 +4236,7 @@
 		},
 		["guid"] = "2C631BF8464503C74BB03BB0394D2799",
 		["guid_str"] = "flcglJeR",
-		["id"] = 55,
+		["id"] = 56,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
@@ -4152,8 +4255,9 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["delay"] = 800,
+			["height"] = 100,
 			["mask_alpha"] = 0.5,
-			["text"] = "…………",
+			["text"] = "………",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -4181,7 +4285,7 @@
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "af50nvzhu/af50nvzhu_action1",
 				["pos"] = {
-					-200,
+					0,
 					100,
 				},
 				["shadow"] = {
@@ -4205,7 +4309,7 @@
 		},
 		["guid"] = "A82475CB4759658ACD4F6B8C53D00F7B",
 		["guid_str"] = "5EEtQlXQ",
-		["id"] = 56,
+		["id"] = 57,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
 		},
@@ -4215,6 +4319,32 @@
 				["length"] = 549,
 				["volume"] = 6.0,
 			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 100,
+			["is_append"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "\n\n………………………",
+			["text_align"] = "center",
+		},
+		["female_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "4FEE3F2A44720E4D346297AF417517C0",
+		["guid_str"] = "ERTSDmyC",
+		["id"] = 58,
+		["male_speaker_info"] = {
+			["body_anim"] = "default_loop",
 		},
 	},
 }

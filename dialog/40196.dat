@@ -21,6 +21,7 @@
 		["guid"] = "0163929A4F3106F5F5E0C7991713EC1B",
 		["guid_str"] = "3RJOt9Ut",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -179,7 +180,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]聊天发不出去，moment刷不出来，言雀将通讯仪锁屏塞回包里。",
+			["text"] = "[size 17]聊天发不出去，moment刷新不出来，言雀将通讯仪锁屏塞回包里。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -450,6 +451,9 @@
 		["guid_str"] = "ZZmd5mYE",
 		["id"] = 10,
 		["name"] = "言雀",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "proud",
 			["material"] = "M_UI_SpinePortrait",
@@ -643,7 +647,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -677,9 +681,8 @@
 			},
 		},
 		["speaker_info"] = {
-			["anim"] = "smile",
+			["anim"] = "tongue",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af58yq/af58yq_action1",
 		},
 	},
 	{
@@ -879,7 +882,7 @@
 			["anim"] = "smile",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "嘿嘿……嗯，我学习梳这个发型学了很久呢，还在moment上分享过教程。",
+		["text"] = "嘿嘿……嗯，我学习梳这个发型学了很久呢，还在moment上面分享过教程。",
 	},
 	{
 		["bg_info"] = {
@@ -962,26 +965,14 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "sad",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n65bird_yq/n65bird_yq_action2",
+				["path"] = "af58yq/af58yq_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["direction"] = "left",
-							["dis"] = 100,
-							["end_alpha"] = 1.0,
-							["time"] = 400,
-						},
-						["tween"] = "MoveIn",
-					},
 				},
 			},
 		},
@@ -991,14 +982,19 @@
 		["name"] = "言雀",
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/story/5/small_bird_flap",
-				["length"] = 1269,
+				["delay"] = 1600,
+				["event"] = "event:/sfx/player/af58yq/af58yq_bird_chirp",
+				["length"] = 1359,
+			},
+			{
+				["delay"] = 1400,
+				["event"] = "event:/sfx/player/af58yq/af58yq_bird_chirp",
+				["length"] = 1359,
 			},
 		},
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af58yq/af58yq_action1",
 		},
 		["text"] = "可能是？啊大米饭你回来了！",
 	},
@@ -1024,14 +1020,33 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n65bird_yq/n65bird_yq_action2",
+				["scale"] = {
+					0.5,
+					0.5,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
 		["guid"] = "CE15300D4AE820DA761F80997BDD4E2B",
 		["guid_str"] = "vb9toSZ5",
 		["id"] = 21,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/01_appear_cute",
+				["length"] = 694,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
@@ -1048,14 +1063,23 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "sad",
+				["anim"] = "anger1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n65bird_yq/n65bird_yq_action2",
+				["path"] = "af58yq/af58yq_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -1066,7 +1090,6 @@
 		["speaker_info"] = {
 			["anim"] = "anger1",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af58yq/af58yq_action1",
 		},
 		["text"] = "大米饭，言御竟然放你自己过来？！",
 	},
@@ -1618,36 +1641,19 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n43sunflower/n43sunflower_girl_02_action1",
-				["pos"] = {
-					-250,
-					0,
-				},
+				["path"] = "af58yq/af58yq_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n14jk/n14jk_action1",
-				["pos"] = {
-					250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -1892,7 +1898,7 @@
 		["guid_str"] = "Ftizt0xx",
 		["id"] = 37,
 		["name"] = "超级不友善的声音",
-		["text"] = "你要50买我的然后卖她们600？！",
+		["text"] = "[size 20]你要50买我的然后卖她们600？！",
 		["text_info"] = {
 			["tween"] = {
 				{
@@ -2024,10 +2030,61 @@
 			},
 		},
 		["caption_info"] = {
+			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]——本人好像比声音还不好惹。",
 			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "dislike",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am29lx/am29lx_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n88tianlu/n88tianlu_thug_m/n88tianlu_thug_m_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
 		},
 		["guid"] = "9AFDFFEF467ADB7377F96989EBA62549",
 		["guid_str"] = "7AvXHAv7",
@@ -2042,14 +2099,66 @@
 			},
 		},
 		["caption_info"] = {
+			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]言雀微微低下头往队伍里躲了躲。",
+			["text"] = "[size 17]被堵住的男人先前还想“理论”，然而下一秒就在对方来者不善掏出甩棍的动作下哑了火，\n\n在忍受了一句比一句难听的言语攻击后，才终于找了个机会溜走。",
 			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "dislike",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am29lx/am29lx_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "pain",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n88tianlu/n88tianlu_thug_m/n88tianlu_thug_m_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["direction"] = "right",
+							["dis"] = 100,
+							["time"] = 600,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
 		},
 		["guid"] = "02DD550F4A6442E455E1759910089426",
 		["guid_str"] = "sMjlMKNz",
 		["id"] = 41,
+		["soundfx"] = {
+			{
+				["delay"] = 1000,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2062,7 +2171,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]总之就是岚相把黄牛骂走了写不动了吐了，然后岚相走过来就盯着大米饭看",
+			["text"] = "[size 17]言雀一边在心里暗暗叫好，一边微微低下头往队伍里躲了躲，\n\n但对方似乎瞬间就锁定了目标，朝这边走过来。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2073,6 +2182,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am29lx/am29lx_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2116,12 +2229,16 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am29lx/am29lx_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2143,6 +2260,31 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af58yq/af58yq_action1",
+				["pos"] = {
+					350,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -2155,6 +2297,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am29lx/am29lx_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2167,7 +2313,6 @@
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af58yq/af58yq_action1",
 		},
 		["text"] = "？",
 	},
@@ -2187,18 +2332,32 @@
 		},
 		["characters"] = {
 			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af58yq/af58yq_action1",
+				["pos"] = {
+					350,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am29lx/am29lx_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2228,12 +2387,38 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af58yq/af58yq_action1",
+				["pos"] = {
+					350,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am29lx/am29lx_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2255,7 +2440,23 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af58yq/af58yq_action1",
+				["pos"] = {
+					350,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2267,6 +2468,10 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am29lx/am29lx_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2279,7 +2484,6 @@
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af58yq/af58yq_action1",
 		},
 		["text"] = "？？？",
 	},
@@ -2299,12 +2503,16 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "sad",
+				["anim"] = "blankly",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n65bird_yq/n65bird_yq_action2",
+				["scale"] = {
+					0.5,
+					0.5,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2345,7 +2553,6 @@
 		["speaker_info"] = {
 			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af58yq/af58yq_action1",
 		},
 	},
 	{
@@ -2362,10 +2569,54 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n65bird_yq/n65bird_yq_action2",
+				["path"] = "af58yq/af58yq_action1",
+				["pos"] = {
+					350,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am29lx/am29lx_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -2376,7 +2627,6 @@
 		["speaker_info"] = {
 			["anim"] = "shy",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "af58yq/af58yq_action1",
 		},
 		["text"] = "它……最、最近有点胖，了……不是故意的，对不——呀！",
 	},
@@ -2416,8 +2666,43 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n65bird_yq/n65bird_yq_action2",
+				["path"] = "af58yq/af58yq_action1",
+				["pos"] = {
+					350,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am29lx/am29lx_action1",
+				["pos"] = {
+					-200,
+					0,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2427,18 +2712,9 @@
 							["delay"] = 0,
 							["direction"] = "left",
 							["dis"] = 100,
-							["time"] = 300,
+							["time"] = 200,
 						},
-						["tween"] = "MoveOut",
-					},
-					{
-						["param"] = {
-							["am"] = 10,
-							["delay"] = 0,
-							["duration"] = 300,
-							["time"] = 25,
-						},
-						["tween"] = "Shake",
+						["tween"] = "FadeOut",
 					},
 				},
 			},
@@ -2582,11 +2858,12 @@
 			["event"] = "event:/bgm/s193_bat_boss_crab_oneshot",
 			["length"] = 182000,
 			["operation"] = 1,
+			["volume"] = 0.80000001192093,
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]不等话音落下，气球就一个个接连",
+			["text"] = "[size 17]不等话音落下，气球像是触发了某种连锁反应般一个个接连爆炸。",
 			["text_align"] = "center",
 		},
 		["guid"] = "618BBC7745EA28F9794DBCAB7C6EB906",
@@ -2609,13 +2886,19 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]总之是棚子要倒，一旁有一堆车模型",
+			["text"] = "[size 17]炸开的冲击比想象中更大，连摊位旁边展示用的汽车模型都跟着震了几震，\n\n支撑临时棚的金属杆也在这股力量下摇摇欲坠，眼见着就要塌下来。",
 			["text_align"] = "center",
 		},
 		["guid"] = "612FFFDA45BD071E2B8F90B51E0613CD",
 		["guid_str"] = "v8f1Y7aR",
 		["id"] = 55,
 		["is_white_base_bg"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/surong/avg_sr_dropweapon",
+				["length"] = 3824,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "shy",
 			["material"] = "M_UI_SpinePortrait",
@@ -2695,7 +2978,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]然后岚相这样那样，但是另一处也要倒了",
+			["text"] = "[size 17]岚相的行动更快，话未出口人已冲过人群，抵住了摇晃的杆子，\n\n然而与此同时，另一边也在倒下的边缘。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2790,7 +3073,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]然而人太多了哇要出踩踏事故了。",
+			["text"] = "[size 17]人群早已乱成一团，想要逃离危险的想法占据了所有意识，大人小孩都在不自觉互相推搡着。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2804,11 +3087,29 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 80,
+							["time"] = 300,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
 			},
 		},
 		["guid"] = "951B61DE49E92C511EDC94B32F4F2401",
 		["guid_str"] = "pV9a9LGp",
 		["id"] = 59,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "shy",
 			["material"] = "M_UI_SpinePortrait",
@@ -2825,7 +3126,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]下一秒司旸出来神兵天降虽然没有台词但是谢谢了哥们。",
+			["text"] = "[size 17]秩序眼看就要失控，一个黑色的身影突然闪身过去，稳稳地扶住了另一边的金属支柱。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2849,6 +3150,16 @@
 							["time"] = 500,
 						},
 						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
 					},
 				},
 			},
@@ -2878,25 +3189,28 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am29lx/am29lx_action1",
+				["path"] = "am74tsuki/am74tsuki_action3",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
 				["tween"] = {
 					{
 						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
 							["delay"] = 0,
 							["direction"] = "right",
 							["dis"] = 100,
 							["end_alpha"] = 1.0,
-							["time"] = 400,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
 						},
-						["tween"] = "FadeIn",
+						["tween"] = "MaterialAttrAnimate",
 					},
 				},
 			},
@@ -2906,8 +3220,18 @@
 		["id"] = 61,
 		["name"] = "岚相",
 		["speaker_info"] = {
-			["anim"] = "shy",
+			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am29lx/am29lx_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["text"] = "！……你是？",
 	},
@@ -2927,14 +3251,26 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am29lx/am29lx_action1",
+				["path"] = "am74tsuki/am74tsuki_action3",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
 				},
 			},
 		},
@@ -2958,7 +3294,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]对方不知有没有同样认出一面之缘的人，表情淡淡，镜片的眼睛没什么波澜，\n\n他将金属杆重新插好，等待工作人员赶来才慢慢放开手。",
+			["text"] = "[size 17]对方不知有没有同样认出一面之缘的人，\n\n只是表情淡然地将金属杆重新插好，等待工作人员赶来才慢慢放开手，镜片后的眼睛没什么波澜。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2975,13 +3311,13 @@
 				["tween"] = {
 					{
 						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
 							["delay"] = 0,
-							["direction"] = "right",
-							["dis"] = 100,
-							["end_alpha"] = 1.0,
-							["time"] = 500,
+							["end_value"] = 0.0,
+							["start_value"] = 1.0,
+							["time"] = 1000,
 						},
-						["tween"] = "FadeIn",
+						["tween"] = "MaterialAttrAnimate",
 					},
 				},
 			},
@@ -3077,7 +3413,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]工作人员紧张万分，急得原地转圈，刚要再说什么，就被打断。",
+			["text"] = "[size 17]工作人员不知为何显得紧张万分，一时间急得原地转圈，刚要再说什么，就被一个惊讶的声音打断。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3194,7 +3530,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3264,7 +3600,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]司旸朝工作人员点点头又摆摆手，就将虎口带上零星血迹的右手插进口袋，打了声招呼。",
+			["text"] = "[size 17]司旸朝工作人员点点头又摆摆手，将虎口带上零星血迹的右手插进口袋，打了声招呼。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3533,6 +3869,9 @@
 		["guid_str"] = "26vUX5LA",
 		["id"] = 71,
 		["name"] = "？？？",
+		["sound"] = {
+			["volume"] = 0.40000000596046,
+		},
 		["speaker_info"] = {
 			["anim"] = "shy",
 			["material"] = "M_UI_SpinePortrait",
@@ -3647,10 +3986,6 @@
 					0,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3709,10 +4044,6 @@
 					0,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3740,7 +4071,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]没回答言雀的话，言御稍微喘着粗气看向周围明显是事故发生惊魂未定的现场，一把把言雀拉出来，\n\n看到司旸也只来得及点头打个招呼根本没时间插句问他怎么也在这里。",
+			["text"] = "[size 17]言御没有答话，只是稍微喘着粗气看向周围明显因发生事故还混乱着的现场，\n\n一把把言雀拉到旁边，对她身后的司旸也是匆匆点头打个招呼，根本没有时间询问对方出现在这里的原因。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3760,10 +4091,6 @@
 				["pos"] = {
 					0,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3807,10 +4134,6 @@
 				["pos"] = {
 					-250,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3903,10 +4226,6 @@
 					-250,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3969,10 +4288,6 @@
 				["pos"] = {
 					-250,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4049,10 +4364,6 @@
 					-250,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4119,10 +4430,6 @@
 				["pos"] = {
 					-250,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4199,10 +4506,6 @@
 					-250,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4256,7 +4559,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4312,10 +4615,6 @@
 					-250,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4330,7 +4629,7 @@
 				},
 			},
 			{
-				["anim"] = "surprise",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4385,7 +4684,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "struggle",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4394,10 +4693,6 @@
 				["pos"] = {
 					-250,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4468,10 +4763,6 @@
 					-250,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4529,7 +4820,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -4551,10 +4842,6 @@
 				["pos"] = {
 					-250,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4614,6 +4901,7 @@
 		["guid"] = "0F2471544ECBE855F63360805A7DFEC7",
 		["guid_str"] = "9ncjTV6g",
 		["id"] = 86,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -4626,5 +4914,6 @@
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
 		},
+		["time"] = 1800,
 	},
 }

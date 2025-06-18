@@ -42,12 +42,61 @@
 			{
 			},
 		},
+		["guid"] = "30B46A0F4CFAB7D0B2F476959B79EB44",
+		["guid_str"] = "a7n4805G",
+		["id"] = 2,
+		["introduce"] = {
+			["location"] = "白荆科技总部·1F大厅",
+			["time"] = "森罗历1121-07-21  20:56",
+		},
+		["just_auto_play"] = true,
+		["time"] = 3800,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
 		["caption_info"] = {
-			["text"] = "进门的路上，师兄和白鸟梓做了简单的自我介绍，师兄一向话不算多，放任筱筱独自说个不停，白鸟梓",
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17][indent][indent]一边进门，师兄和白鸟梓一边做了简单的自我介绍，而后双双陷入沉默。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "AB36BBCB4E12109334A5C3A952251D8E",
 		["guid_str"] = "CL3XbWZ6",
-		["id"] = 2,
+		["id"] = 3,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["is_append"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]\n\n[indent][indent]师兄的话一向不算多，除了偶尔插几句，其余都放任筱筱独自说个不停.\n\n[size 17][indent][indent]白鸟梓最初虽然脸色不佳，但也在和筱筱的一来一回间渐渐缓和了不少。",
+		},
+		["guid"] = "4FBA65F140B053D009A5288F12DADBA2",
+		["guid_str"] = "20dzEG5M",
+		["id"] = 4,
 	},
 	{
 		["bg_info"] = {
@@ -64,7 +113,7 @@
 		},
 		["guid"] = "D85B54B942B332DC6655FB8F5A5471C1",
 		["guid_str"] = "r8rhAZzV",
-		["id"] = 3,
+		["id"] = 5,
 		["name"] = "？？？",
 		["text"] = "主人——",
 		["text_info"] = {
@@ -95,7 +144,7 @@
 		},
 		["guid"] = "D2323D734028DC807B0102918D44A862",
 		["guid_str"] = "QSl3c4t4",
-		["id"] = 4,
+		["id"] = 6,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -115,7 +164,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "一句形容sweeper的字幕",
+			["text"] = "[size 17]熟悉的绿色闯入眼帘，见我们回来，小机器人收起刚拿出来的清扫工具。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -149,12 +198,12 @@
 		},
 		["guid"] = "CFAB64374415845A99E948AD623E7FAF",
 		["guid_str"] = "NoFfeHxd",
-		["id"] = 5,
+		["id"] = 7,
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
-				["volume"] = 6.0,
+				["event"] = "event:/sfx/player/ax01sweeper/single/sw_single_movement_01",
+				["length"] = 1239,
+				["volume"] = 5.0,
 			},
 		},
 	},
@@ -185,7 +234,7 @@
 		},
 		["guid"] = "65914FD643AFA775CD15EAB1383C45F2",
 		["guid_str"] = "yMDxbdoX",
-		["id"] = 6,
+		["id"] = 8,
 		["name"] = "Sweeper-EX",
 		["text"] = "主人，欢迎回来~",
 	},
@@ -226,14 +275,14 @@
 		},
 		["guid"] = "90018E0B4BFEB2CFA846E88DA6224B3C",
 		["guid_str"] = "o8NyTwfl",
-		["id"] = 7,
+		["id"] = 9,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
 			["body_anim"] = "surprise_in",
 		},
 		["name"] = "[rolename]",
-		["text"] = "sweeper，你怎么在这里？",
+		["text"] = "Sweeper，你怎么在这里？",
 	},
 	{
 		["bg_info"] = {
@@ -262,9 +311,9 @@
 		},
 		["guid"] = "623693F84F0EC2ABFDED08BE096CA192",
 		["guid_str"] = "I4Gdxa8g",
-		["id"] = 8,
+		["id"] = 10,
 		["name"] = "Sweeper-EX",
-		["text"] = "sweeper在日常巡逻呀，因为大家都放假了，为了安全起见，sweeper必须巡视每个角落！可是白荆大楼太大了……sweeper中途去充了电，终于巡逻到了这里。",
+		["text"] = "Sweeper在日常巡逻呀，因为大家都放假了，为了安全起见，Sweeper必须巡视每个角落！可是白荆大楼太大了……Sweeper中途去充了电，终于巡逻到了这里。",
 	},
 	{
 		["bg_info"] = {
@@ -302,13 +351,13 @@
 		},
 		["guid"] = "A3CB7DBF4E150E365E30FBA08656B122",
 		["guid_str"] = "Yq84qZNT",
-		["id"] = 9,
+		["id"] = 11,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "[rolename]",
-		["text"] = "怪不得你最近的耗电量上涨得有些不正常，虽然就算这样也还是有点高，是该更换部件了么？",
+		["text"] = "怪不得你最近的耗电量上涨得有些不正常，不过就算这样也还是有点高，是该更换部件了么？",
 	},
 	{
 		["bg_info"] = {
@@ -346,7 +395,7 @@
 		},
 		["guid"] = "6283CE8E43CEEBB6FB812B9007307115",
 		["guid_str"] = "5q2dQ82v",
-		["id"] = 10,
+		["id"] = 12,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
@@ -389,7 +438,7 @@
 		},
 		["guid"] = "6407866F4A7267409D3AC19811AA954F",
 		["guid_str"] = "f6WMUYFB",
-		["id"] = 11,
+		["id"] = 13,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
@@ -424,7 +473,7 @@
 		},
 		["guid"] = "1BA1161342EF4999110C0890D7F67B57",
 		["guid_str"] = "RsWY3XJF",
-		["id"] = 12,
+		["id"] = 14,
 		["name"] = "Sweeper-EX",
 		["text"] = "好耶！",
 	},
@@ -439,7 +488,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]sweeper举起爪子。",
+			["text"] = "[size 17]Sweeper举起爪子。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -461,7 +510,14 @@
 		},
 		["guid"] = "B35A136841876A9C6CA25C86742BF5BC",
 		["guid_str"] = "opCiMjIi",
-		["id"] = 13,
+		["id"] = 15,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/player/ax01sweeper/single/sw_single_movement_02",
+				["length"] = 503,
+				["volume"] = 4.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -501,16 +557,16 @@
 		},
 		["guid"] = "D571863B400D03351C0DC7AD4A326DA1",
 		["guid_str"] = "pWdzPdPT",
-		["id"] = 14,
+		["id"] = 16,
 		["name"] = "Sweeper-EX",
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
-				["volume"] = 6.0,
+				["event"] = "event:/sfx/player/ax01sweeper/single/sw_single_movement_04",
+				["length"] = 495,
+				["volume"] = 5.0,
 			},
 		},
-		["text"] = "耶——[滋啦滋啦]",
+		["text"] = "耶——[c a3bdc8][*滋啦滋啦*][/c]",
 	},
 	{
 		["bg_info"] = {
@@ -549,7 +605,7 @@
 		},
 		["guid"] = "4D0CF0404CC3102A3F61D3B5A4F2C138",
 		["guid_str"] = "yEJru7AI",
-		["id"] = 15,
+		["id"] = 17,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -569,7 +625,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]我小心翼翼把手从sweeper头上移开。",
+			["text"] = "[size 17]我小心翼翼把手从Sweeper头上移开。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -591,7 +647,7 @@
 		},
 		["guid"] = "F2850B3F4B9B7F752879EDA67B4E59C1",
 		["guid_str"] = "lIQHRLbX",
-		["id"] = 16,
+		["id"] = 18,
 	},
 	{
 		["bg_info"] = {
@@ -631,12 +687,12 @@
 		},
 		["guid"] = "8B6862F54E729A433146EF93644786DF",
 		["guid_str"] = "3DNc74lm",
-		["id"] = 17,
+		["id"] = 19,
 		["name"] = "Sweeper-EX",
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
+				["event"] = "event:/sfx/player/ax01sweeper/single/sw_single_movement_04",
+				["length"] = 495,
 				["volume"] = 6.0,
 			},
 			{
@@ -698,7 +754,7 @@
 		},
 		["guid"] = "7DC6948E4D2FE3E08382F182BB3E5531",
 		["guid_str"] = "vIMA4rYU",
-		["id"] = 18,
+		["id"] = 20,
 		["name"] = "白鸟梓",
 		["text"] = "它……坏了？",
 	},
@@ -747,9 +803,9 @@
 		},
 		["guid"] = "79324E484FEF5EB4E055D198B926564A",
 		["guid_str"] = "SeaRCDOa",
-		["id"] = 19,
+		["id"] = 21,
 		["name"] = "苏筱",
-		["text"] = "sweeper？你怎么了？",
+		["text"] = "Sweeper？你怎么了？",
 	},
 	{
 		["bg_info"] = {
@@ -799,18 +855,12 @@
 		},
 		["guid"] = "27A237F34CCFADF4970C6C9103CD204D",
 		["guid_str"] = "XrRqQJBo",
-		["id"] = 20,
+		["id"] = 22,
 		["name"] = "Sweeper-EX",
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
-				["volume"] = 6.0,
-			},
-			{
-				["delay"] = 200,
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
+				["event"] = "event:/sfx/player/ax01sweeper/single/sw_single_movement_01",
+				["length"] = 1239,
 				["volume"] = 6.0,
 			},
 		},
@@ -854,12 +904,12 @@
 		},
 		["guid"] = "A0FB51904225EEF095DDD7B385758410",
 		["guid_str"] = "SDnxkHwr",
-		["id"] = 21,
+		["id"] = 23,
 		["name"] = "Sweeper-EX",
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
+				["event"] = "event:/sfx/player/ax01sweeper/single/sw_single_movement_04",
+				["length"] = 495,
 				["volume"] = 6.0,
 			},
 		},
@@ -903,12 +953,12 @@
 		},
 		["guid"] = "07E5461A422A5CF716EA0AABF3A1A44F",
 		["guid_str"] = "b7Dm1Mcl",
-		["id"] = 22,
+		["id"] = 24,
 		["name"] = "Sweeper-EX",
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
+				["event"] = "event:/sfx/player/ax01sweeper/single/sw_single_movement_05",
+				["length"] = 398,
 				["volume"] = 6.0,
 			},
 		},
@@ -951,7 +1001,7 @@
 		},
 		["guid"] = "39511E904E9EEC5C18419DAE7006E0AB",
 		["guid_str"] = "piEJ6mMp",
-		["id"] = 23,
+		["id"] = 25,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -971,7 +1021,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]不等我说完，下一秒，sweeper的镜头红光一闪。",
+			["text"] = "[size 17]不等我说完，下一秒，Sweeper的镜头红光一闪。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1004,17 +1054,17 @@
 		},
 		["guid"] = "E8B82CCF4F84077DCBBBE7946A1B87F7",
 		["guid_str"] = "ZHMN5UB4",
-		["id"] = 24,
+		["id"] = 26,
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
+				["event"] = "event:/sfx/player/ax01sweeper/single/sw_single_movement_01",
+				["length"] = 1239,
 				["volume"] = 6.0,
 			},
 			{
 				["delay"] = 200,
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
+				["event"] = "event:/sfx/player/ax01sweeper/single/sw_single_movement_03",
+				["length"] = 374,
 				["volume"] = 6.0,
 			},
 		},
@@ -1038,6 +1088,7 @@
 				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 		},
 		["caption_info"] = {
@@ -1094,7 +1145,7 @@
 		},
 		["guid"] = "96505D9F494A76E1DB9BC4A09220C5AC",
 		["guid_str"] = "MW2v1mjo",
-		["id"] = 25,
+		["id"] = 27,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/items/props/d001/d001_gear_01_explode_02",
@@ -1126,7 +1177,8 @@
 		},
 		["guid"] = "7FA7D2C7480B63DCDB46E8875DAD2F2B",
 		["guid_str"] = "vxHYUdTF",
-		["id"] = 26,
+		["id"] = 28,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["time"] = 1500,
 	},

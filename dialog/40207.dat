@@ -55,6 +55,13 @@
 		["guid_str"] = "2uvUIWdE",
 		["id"] = 1,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_night_generic",
+				["length"] = 55384,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -449,6 +456,19 @@
 		["guid_str"] = "P7BR88iJ",
 		["id"] = 6,
 		["name"] = "司旸",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 600,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -683,6 +703,14 @@
 		["guid"] = "DA2473544CC3032FB64B03879AABC691",
 		["guid_str"] = "3njrJ7Ms",
 		["id"] = 9,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/player/af35sy/af35sy_skill_slot01_sp_enchanting",
+				["length"] = 3875,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -762,7 +790,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -788,15 +816,6 @@
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 2000,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
 				},
 				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
 			},
@@ -818,12 +837,63 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am74tsuki/am74tsuki_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 500,
+							["time"] = 700,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
 			},
 		},
 		["guid"] = "3A316865458E45A093FF628135FDCD83",
 		["guid_str"] = "j5tFeMDR",
 		["id"] = 11,
 		["name"] = "司旸",
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_night_generic",
+				["length"] = 55384,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/0-03/0002_magic_appease_lp",
+				["length"] = 10561,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -868,12 +938,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am74tsuki/am74tsuki_action1",
+				["path"] = "am74tsuki/am74tsuki_action2",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -926,7 +996,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am74tsuki/am74tsuki_action1",
+				["path"] = "am74tsuki/am74tsuki_action2",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -935,8 +1005,55 @@
 		["guid"] = "0B1F0A3145BC5495785046907EDDB5C2",
 		["guid_str"] = "ezWwP6F5",
 		["id"] = 13,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_queue"] = true,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter08/cg_8_12_guiling_01_loop.bk2",
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_queue"] = true,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter08/cg_8_12_guiling_01_in.bk2",
+				["template_type"] = "video",
+			},
+		},
 		["name"] = "司旸",
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/1-08-sword-hit-ground",
+				["length"] = 0,
+			},
+		},
 		["text"] = "谢谢你的力量，灰锈女士。",
+		["voice_effect"] = {
+			["event"] = "cthulhu",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -989,8 +1106,64 @@
 		["guid"] = "054750814A4E0FC3CDC735A775D451E2",
 		["guid_str"] = "GghpFyZx",
 		["id"] = 14,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_queue"] = true,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter08/cg_8_12_guiling_02_loop.bk2",
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_queue"] = true,
+				["is_ratio_full"] = true,
+				["is_stage"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter08/cg_8_12_guiling_02_in.bk2",
+				["template_type"] = "video",
+			},
+		},
 		["name"] = "司旸",
+		["sound"] = {
+			["volume"] = 2.0,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/avg_school_mist_dispersed",
+				["length"] = 3276,
+			},
+			{
+				["event"] = "event:/sfx/story/ourea/fireball_tree_burn",
+				["length"] = 19875,
+				["volume"] = 0.60000002384186,
+			},
+		},
 		["text"] = "归零。",
+		["voice_effect"] = {
+			["event"] = "cthulhu",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1060,6 +1233,126 @@
 		["guid"] = "E6DB136C47EEE6686D36A0A7F18C938E",
 		["guid_str"] = "QWV6WAMN",
 		["id"] = 15,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_black.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 500,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-03/0002_magic_appease_lp",
+				["length"] = 10561,
+				["stop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 4000,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 400,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.0,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+					["video"] = {
+						["is_keep_finish"] = true,
+						["is_queue"] = true,
+						["is_ratio_full"] = true,
+						["is_stage"] = true,
+						["path"] = "movies/Desktop/avg/chapter08/cg_8_countdown_16.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "6FF3CAA645E8BEE983CA2A86B27D7FC7",
+		["guid_str"] = "l9kKRouP",
+		["id"] = 1,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_black.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["delay"] = 1000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+		},
+		["time"] = 6000,
 	},
 }

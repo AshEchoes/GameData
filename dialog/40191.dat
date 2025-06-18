@@ -43,6 +43,8 @@
 		["guid"] = "E66A63AB457DD348698F6BB2BFBB70B9",
 		["guid_str"] = "bpq1Y5hY",
 		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/office_roomtone_lp",
@@ -50,6 +52,24 @@
 				["loop"] = 1,
 			},
 		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["guid"] = "713ECDEE4FDC7ED0412056865B2CFFC3",
+		["guid_str"] = "DcQ4muSk",
+		["id"] = 2,
+		["introduce"] = {
+			["location"] = "白荆科技总部·1F大厅",
+			["time"] = "森罗历1121-07-21  20:59",
+		},
+		["just_auto_play"] = true,
+		["time"] = 3700,
 	},
 	{
 		["bg_info"] = {
@@ -100,7 +120,7 @@
 		},
 		["guid"] = "8A747C87462C6E021AE033979245D67C",
 		["guid_str"] = "m7B8OuLq",
-		["id"] = 2,
+		["id"] = 3,
 		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
@@ -128,7 +148,7 @@
 		},
 		["guid"] = "9EB170DB4F5D0E8B0C3FFAB42BD48A95",
 		["guid_str"] = "N8KjDr9P",
-		["id"] = 3,
+		["id"] = 4,
 	},
 	{
 		["bg_info"] = {
@@ -178,7 +198,7 @@
 		},
 		["guid"] = "E597E04D481507B4460A5496C418101E",
 		["guid_str"] = "iqQMynJ9",
-		["id"] = 4,
+		["id"] = 5,
 		["name"] = "苏筱",
 		["soundfx"] = {
 			{
@@ -227,7 +247,7 @@
 		},
 		["guid"] = "0C795D644E272D4E499D9DB6FEDF0E56",
 		["guid_str"] = "MXM7Ermf",
-		["id"] = 5,
+		["id"] = 6,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -285,7 +305,7 @@
 		},
 		["guid"] = "FFD5F863439C809E891EA7B9250043F6",
 		["guid_str"] = "mwhKEKlV",
-		["id"] = 6,
+		["id"] = 7,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -339,7 +359,7 @@
 		},
 		["guid"] = "F1159359488448F93B97E9A4AAA56A37",
 		["guid_str"] = "jlsDTaZb",
-		["id"] = 7,
+		["id"] = 8,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -366,7 +386,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "anger3",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -417,15 +437,15 @@
 		},
 		["guid"] = "66F149FF48844A248C2C129C4741EF23",
 		["guid_str"] = "ZN0wIahD",
-		["id"] = 8,
+		["id"] = 9,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
 		},
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
+				["event"] = "event:/sfx/player/ax01sweeper/single/sw_single_movement_01",
+				["length"] = 1239,
 				["volume"] = 6.0,
 			},
 		},
@@ -440,7 +460,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "anger2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -462,13 +482,16 @@
 		},
 		["guid"] = "F3AA085641BEDFDC39B389B0D3206B2C",
 		["guid_str"] = "gugPUcaG",
-		["id"] = 9,
+		["id"] = 10,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "Sweeper-EX",
 		["text"] = "……侵……",
+		["voice_effect"] = {
+			["event"] = "sweeper",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -518,7 +541,7 @@
 		},
 		["guid"] = "8C83C4C84C5B1AB0B7C4B284538E6833",
 		["guid_str"] = "PAGwMRgL",
-		["id"] = 10,
+		["id"] = 11,
 		["name"] = "苏筱",
 		["soundfx"] = {
 			{
@@ -580,14 +603,14 @@
 		},
 		["guid"] = "3AD26B544433B0109EEDBDB3B94C3EC8",
 		["guid_str"] = "OGRN8lK2",
-		["id"] = 11,
+		["id"] = 12,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "[rolename]",
-		["text"] = "我没事，sweeper没有攻击欲望，模块都暂停了。",
+		["text"] = "我没事，Sweeper没有攻击欲望，模块都暂停了。",
 	},
 	{
 		["bg_info"] = {
@@ -621,13 +644,16 @@
 		},
 		["guid"] = "7C1723084F993AEC561CF3BB9B86C413",
 		["guid_str"] = "lKXiSpoX",
-		["id"] = 12,
+		["id"] = 13,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "Sweeper-EX",
 		["text"] = "……侵……入侵……",
+		["voice_effect"] = {
+			["event"] = "sweeper",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -677,7 +703,7 @@
 		},
 		["guid"] = "52B48A9C49BD31CD170281BE766C2F08",
 		["guid_str"] = "M8sAndUe",
-		["id"] = 13,
+		["id"] = 14,
 		["name"] = "苏筱",
 		["text"] = "……他在说什么？",
 	},
@@ -725,7 +751,7 @@
 		},
 		["guid"] = "80A1E471467F69BFC77C698C4EC00454",
 		["guid_str"] = "2KyqnFPH",
-		["id"] = 14,
+		["id"] = 15,
 		["name"] = "白汲",
 		["text"] = "………………",
 	},
@@ -761,9 +787,9 @@
 		},
 		["guid"] = "3D2CEEFE43E6B3D36F6333A655CAAC34",
 		["guid_str"] = "COQ5fWyk",
-		["id"] = 15,
+		["id"] = 16,
 		["name"] = "白汲",
-		["text"] = "[M]师弟[/M][F]师妹[/F]，我记得你说过sweeper的身体里实际上同步备份了白荆大楼最核心的防御系统，警告级别比Vein OS还高半级……",
+		["text"] = "[M]师弟[/M][F]师妹[/F]，我记得你说过Sweeper的身体里实际上同步备份了白荆大楼最核心的防御系统，警告级别比Vein OS还高半级……",
 	},
 	{
 		["bg_info"] = {
@@ -803,7 +829,7 @@
 		},
 		["guid"] = "EFF8A27C44281D20328E31AC1D245E8E",
 		["guid_str"] = "aUGuQa40",
-		["id"] = 16,
+		["id"] = 17,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -822,7 +848,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -836,18 +862,29 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 200,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
+				},
 			},
 		},
 		["female_speaker_info"] = {
-			["anim"] = "serious_add",
+			["anim"] = "anger_add",
 			["body_anim"] = "default_loop",
 		},
 		["guid"] = "A9930F3F4E672A65376795B04DA3123B",
 		["guid_str"] = "RjEvDt7L",
-		["id"] = 17,
+		["id"] = 18,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
-			["anim"] = "serious_add",
+			["anim"] = "anger_add",
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "白汲&[rolename]",
@@ -903,7 +940,7 @@
 		},
 		["guid"] = "56D593BA499BEC91E4FD2FB49863D8A1",
 		["guid_str"] = "dN8fx58h",
-		["id"] = 18,
+		["id"] = 19,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -911,8 +948,8 @@
 		["name"] = "Sweeper-EX",
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
+				["event"] = "event:/sfx/player/ax01sweeper/single/sw_single_movement_01",
+				["length"] = 1239,
 				["volume"] = 6.0,
 			},
 			{
@@ -921,8 +958,17 @@
 				["length"] = 649,
 				["volume"] = 6.0,
 			},
+			{
+				["delay"] = 3300,
+				["event"] = "event:/sfx/story/bwg/bwg_amb_poweroff",
+				["length"] = 1669,
+				["volume"] = 3.0,
+			},
 		},
 		["text"] = "主人！发现入侵！",
+		["voice_effect"] = {
+			["event"] = "sweeper",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -951,6 +997,7 @@
 				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 		},
 		["caption_info"] = {
@@ -965,7 +1012,7 @@
 		},
 		["guid"] = "955830124DB5890238A0AB871C22B643",
 		["guid_str"] = "jKPys1eo",
-		["id"] = 19,
+		["id"] = 20,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -993,7 +1040,7 @@
 		},
 		["guid"] = "8FBB62B643AF3254A0C29AAFE868B4C0",
 		["guid_str"] = "Umrwydkd",
-		["id"] = 20,
+		["id"] = 21,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1109,7 +1156,7 @@
 		},
 		["guid"] = "9EB2816444ED6DB1E1D3E692AA75A0DD",
 		["guid_str"] = "NzCb5lQQ",
-		["id"] = 21,
+		["id"] = 22,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1223,7 +1270,7 @@
 		},
 		["guid"] = "3D5B77D243878638C927C3BEAE320135",
 		["guid_str"] = "9QOjMzuV",
-		["id"] = 22,
+		["id"] = 23,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1250,12 +1297,13 @@
 				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]不等话音落下，大厅里一直安静的展示和巡逻设备纷纷动了起来。",
+			["text"] = "[size 17]不等话音落下，大厅里一直安静的用于展示和巡逻的设备纷纷动了起来。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1290,7 +1338,7 @@
 		},
 		["guid"] = "FEE08EA4497BC7F692E7568DB9D916C3",
 		["guid_str"] = "9XXjoZ8Y",
-		["id"] = 23,
+		["id"] = 24,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1354,7 +1402,7 @@
 		},
 		["guid"] = "86D2A96B4D84509AD0D7ACBF3B401AD0",
 		["guid_str"] = "soRTyEhq",
-		["id"] = 24,
+		["id"] = 25,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1367,7 +1415,7 @@
 				["volume"] = 6.0,
 			},
 		},
-		["text"] = "？？它们怎么也像sweeper……[rolename]！你看大门！要关上了！",
+		["text"] = "？？它们怎么也像Sweeper……[rolename]！你看大门！要关上了！",
 	},
 	{
 		["bg_info"] = {
@@ -1436,7 +1484,7 @@
 		},
 		["guid"] = "9C764BEF4A7F6B9DFAA221925D58C076",
 		["guid_str"] = "qam2VlhC",
-		["id"] = 25,
+		["id"] = 26,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1454,7 +1502,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[indent][indent][size 17]从里面看过去，白荆科技的大楼正在缓缓关闭。\n\n[indent][indent]不止大门，目之所及处，所有窗户和通道口也纷纷封闭，转瞬间就准备完成空间隔绝。\n\n[indent][indent]这是白荆大楼最高级别的紧急全封锁指令，针对内外某处发生不可控事件时开启的最严密防护网，\n\n[indent][indent]无论是物理性破坏还是流动性逸散都可以有效隔离。\n",
+			["text"] = "[size 17][indent][indent]从里面看过去，白荆科技的大楼正在缓缓关闭。\n\n[indent][indent]不止大门，目之所及处，所有窗户和通道口也纷纷封闭，转瞬间就准备完成空间隔绝。\n\n[indent][indent]这是白荆大楼最高级别的紧急全封锁指令，针对内外某处发生不可控事件时开启的最严密防护网，\n\n[indent][indent]无论是物理性破坏还是流动性逸散都可以有效隔离。\n",
 			["tween"] = {
 				{
 					["param"] = {
@@ -1471,7 +1519,7 @@
 		},
 		["guid"] = "D9FE1EDC4F1771910C96988CDC708092",
 		["guid_str"] = "2M285jaG",
-		["id"] = 26,
+		["id"] = 27,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1495,7 +1543,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]——可很明显，当下的状况并非如此。",
+			["text"] = "[size 17][indent][indent]——可很明显，当下的状况并非如此。",
 			["tween"] = {
 				{
 					["param"] = {
@@ -1512,7 +1560,7 @@
 		},
 		["guid"] = "D2C66B3E4844AFC71A9A5A9594B49199",
 		["guid_str"] = "LAB0xYyS",
-		["id"] = 27,
+		["id"] = 28,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1561,7 +1609,7 @@
 		},
 		["guid"] = "7C0548824BE54F597E48C3964DF024AD",
 		["guid_str"] = "bykanXYF",
-		["id"] = 28,
+		["id"] = 29,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1648,7 +1696,7 @@
 		},
 		["guid"] = "A346FDCB4938F614C19FD1A580079807",
 		["guid_str"] = "tnndEU5K",
-		["id"] = 29,
+		["id"] = 30,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1710,7 +1758,7 @@
 		},
 		["guid"] = "F414A8EE43D08FAFD504C0B58AE631CE",
 		["guid_str"] = "ogriRAgy",
-		["id"] = 30,
+		["id"] = 31,
 		["is_white_base_bg"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -1743,7 +1791,7 @@
 		},
 		["guid"] = "129844934FF946ACE68208BFFEA74E37",
 		["guid_str"] = "7dHwyNJw",
-		["id"] = 31,
+		["id"] = 32,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1792,7 +1840,7 @@
 		},
 		["guid"] = "857F72F0442AF9EA0645AC8D3C5B37F9",
 		["guid_str"] = "HNd34ckN",
-		["id"] = 32,
+		["id"] = 33,
 		["is_white_base_bg"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -1802,6 +1850,16 @@
 			{
 				["event"] = "event:/sfx/story/karas/avg_karas_robot_chest_03",
 				["length"] = 924,
+			},
+			{
+				["event"] = "event:/sfx/player/af36ez/ez_skill_ultra_b",
+				["length"] = 2393,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/player/am40xiu/am40xiu_ultra_fx",
+				["length"] = 6969,
+				["loop"] = 1,
 			},
 		},
 	},
@@ -1825,7 +1883,7 @@
 		},
 		["guid"] = "40D5EC9440C84C3062B9DC9E4D7D924A",
 		["guid_str"] = "C76nke0r",
-		["id"] = 33,
+		["id"] = 34,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1882,7 +1940,7 @@
 		},
 		["guid"] = "72C97403414C3EED76253F84262816B2",
 		["guid_str"] = "siQzzmB7",
-		["id"] = 34,
+		["id"] = 35,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1949,7 +2007,7 @@
 		},
 		["guid"] = "F4BD5CE047121CA1485270AEB8C6822C",
 		["guid_str"] = "e6QmNceh",
-		["id"] = 35,
+		["id"] = 36,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1983,12 +2041,13 @@
 				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]一群刚刚启动的机器人横冲直撞了过来。",
+			["text"] = "[size 17]一群刚刚启动的机器人全部朝着我们的方向冲了过来。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -2044,7 +2103,7 @@
 		},
 		["guid"] = "63BB65F947BB0FD7937CC394F08B295D",
 		["guid_str"] = "xNi8ZLDx",
-		["id"] = 36,
+		["id"] = 37,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2055,5 +2114,41 @@
 				["length"] = 2669,
 			},
 		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["am"] = 15,
+								["delay"] = 0,
+								["duration"] = 1000,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "F545F13B4AA20265DE7177B0E60411EE",
+		["guid_str"] = "CuMd3KDt",
+		["id"] = 38,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["time"] = 1800,
 	},
 }

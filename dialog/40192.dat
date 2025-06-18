@@ -21,6 +21,7 @@
 		["guid"] = "B99509BB4727BB3A2ED057A0B1C08F14",
 		["guid_str"] = "w6ySExLR",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -540,19 +541,8 @@
 			},
 		},
 		["caption_info"] = {
-			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[font cusong][size 25]2:58:30，10",
 			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 500,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
 		},
 		["female_characters"] = {
 			{
@@ -585,6 +575,44 @@
 		["guid_str"] = "Msn9fVZd",
 		["id"] = 12,
 		["is_gender_characters"] = true,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter08/cg_8_countdown_01.bk2",
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 4800,
+							["delay_page"] = 0,
+							["time"] = 700,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
 		["male_characters"] = {
 			{
 				["anim"] = "serious_add",
@@ -612,6 +640,38 @@
 				},
 			},
 		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-00/0-0-whoosh",
+				["length"] = 4026,
+			},
+			{
+				["delay"] = 310,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 1310,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 2310,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 3310,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 4310,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+		},
+		["time"] = 5500,
 	},
 	{
 		["bg_info"] = {
@@ -626,6 +686,15 @@
 			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]剩下几人也纷纷拿出通讯仪，四个通讯仪凑在一处，\n\n屏幕上显示的信息完全相同，数字也在有条不紊地跳动。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "99A0D7D7486F8FCE3153D0812DF0C325",
 		["guid_str"] = "vq5pwFNU",
@@ -1989,7 +2058,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 300,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -2068,9 +2137,21 @@
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 800,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
 			},
 			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 		},
 		["characters"] = {
@@ -2127,7 +2208,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2174,7 +2255,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2221,7 +2302,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2261,7 +2342,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2308,7 +2389,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2348,7 +2429,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2395,7 +2476,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2445,7 +2526,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2503,7 +2584,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2568,7 +2649,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2617,7 +2698,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2706,7 +2787,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2768,7 +2849,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2828,7 +2909,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2885,7 +2966,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2947,7 +3028,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -2976,7 +3057,7 @@
 				},
 			},
 			{
-				["anim"] = "smile2",
+				["anim"] = "closeeye",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3004,7 +3085,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -3039,7 +3120,7 @@
 				},
 			},
 			{
-				["anim"] = "smile2",
+				["anim"] = "week",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3065,7 +3146,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -3094,7 +3175,7 @@
 				},
 			},
 			{
-				["anim"] = "smile1",
+				["anim"] = "wry",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3122,7 +3203,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -3151,7 +3232,7 @@
 				},
 			},
 			{
-				["anim"] = "smile1",
+				["anim"] = "wry",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3173,6 +3254,7 @@
 			},
 		},
 		["female_speaker_info"] = {
+			["anim"] = "smile1_add",
 			["body_anim"] = "default_loop",
 		},
 		["guid"] = "41FC869C4FAC02D1C9507B879071B8CB",
@@ -3180,6 +3262,7 @@
 		["id"] = 53,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
+			["anim"] = "smile1_add",
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "[rolename]",
@@ -3188,7 +3271,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -3245,12 +3328,12 @@
 		["guid_str"] = "1Vo64f9Z",
 		["id"] = 54,
 		["name"] = "苏筱",
-		["text"] = "师兄你说得我好慌。",
+		["text"] = "啊，我都忘了我们是回来做实验的了……节哀。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -3316,7 +3399,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -3382,7 +3465,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -3478,7 +3561,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -3512,7 +3595,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
@@ -3535,12 +3618,13 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
+			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
 			["text"] = "………………………………",
 			["text_align"] = "center",
@@ -3580,9 +3664,23 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_corridor_02.png",
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
 			},
 			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 2000,
+					},
+					["tween"] = "FadeOut",
+				},
 			},
 		},
 		["female_speaker_info"] = {
@@ -3592,6 +3690,7 @@
 		["guid"] = "8A29FD5B4D9C656CB727938B05C870BF",
 		["guid_str"] = "h2NPwcHd",
 		["id"] = 61,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -3604,5 +3703,6 @@
 				["stop"] = 1,
 			},
 		},
+		["time"] = 3000,
 	},
 }

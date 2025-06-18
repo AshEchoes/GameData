@@ -35,7 +35,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -43,6 +43,7 @@
 		["guid"] = "5AF74F5C42B58B1F40499EB907745944",
 		["guid_str"] = "kwXbbbql",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -56,7 +57,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -65,15 +66,16 @@
 		["guid_str"] = "8sfZQALA",
 		["id"] = 2,
 		["introduce"] = {
-			["location"] = "庆典街道",
-			["time"] = "8：50",
+			["location"] = "燃星庆典·现场",
+			["time"] = "森罗历1121-07月21  20:50",
 		},
 		["just_auto_play"] = true,
+		["time"] = 3700,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -82,6 +84,9 @@
 		["guid_str"] = "0KQWNWfE",
 		["id"] = 3,
 		["name"] = "叫卖声A",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5030_mqu4JA24",
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -118,7 +123,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -127,6 +132,9 @@
 		["guid_str"] = "bwUiuvmh",
 		["id"] = 4,
 		["name"] = "叫卖声B",
+		["sound"] = {
+			["volume"] = 0.5,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -163,7 +171,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -227,14 +235,14 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -272,7 +280,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -285,7 +293,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -305,6 +313,15 @@
 							["time"] = 400,
 						},
 						["tween"] = "RelativePositionChange",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 200,
+							["time"] = 10,
+						},
+						["tween"] = "Shake",
 					},
 				},
 			},
@@ -341,58 +358,31 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n03normalboy",
+				["path"] = "am29lx/am29lx_action1",
 				["pos"] = {
-					-100,
-					150,
+					-50,
+					0,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 400,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					100,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 400,
-						},
-						["tween"] = "FadeIn",
-					},
 				},
 			},
 		},
@@ -402,28 +392,15 @@
 		["name"] = "小男孩",
 		["speaker_info"] = {
 			["anim"] = "normal",
-			["color"] = {
-				0.0,
-				0.0,
-				0.0,
-				0.62745100259781,
-			},
 			["material"] = "M_UI_SpinePortrait",
-			["offset"] = {
-				-100,
-				10,
-			},
-			["scale"] = {
-				0.94999998807907,
-				0.94999998807907,
-			},
+			["path"] = "n03normalboy",
 		},
-		["text"] = "妈妈你看！那个哥哥手里的就是《星之艾斯黛尔》里的小鸟骑士，是不是很可爱！我们也去排队吧好不好好不好求你了——",
+		["text"] = "妈妈你看！那个哥哥手里的就是《星之艾斯黛尔》里的小鸟骑士，是不是很可爱！\n我们也去排队吧好不好好不好求你了——",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -434,26 +411,17 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n03normalboy",
+				["path"] = "am29lx/am29lx_action1",
 				["pos"] = {
-					-100,
-					150,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					100,
-					100,
+					-50,
+					0,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -465,29 +433,16 @@
 		["id"] = 9,
 		["name"] = "年轻妈妈",
 		["speaker_info"] = {
-			["anim"] = "normal",
-			["color"] = {
-				0.0,
-				0.0,
-				0.0,
-				0.62745100259781,
-			},
+			["anim"] = "smile",
 			["material"] = "M_UI_SpinePortrait",
-			["offset"] = {
-				-100,
-				10,
-			},
-			["scale"] = {
-				0.94999998807907,
-				0.94999998807907,
-			},
+			["path"] = "n07lywife/n07lywife_action1",
 		},
 		["text"] = "那个要排好久的，宝贝不累么？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -498,26 +453,17 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n03normalboy",
+				["path"] = "am29lx/am29lx_action1",
 				["pos"] = {
-					-100,
-					150,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					100,
-					100,
+					-50,
+					0,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -530,28 +476,15 @@
 		["name"] = "小男孩",
 		["speaker_info"] = {
 			["anim"] = "normal",
-			["color"] = {
-				0.0,
-				0.0,
-				0.0,
-				0.62745100259781,
-			},
 			["material"] = "M_UI_SpinePortrait",
-			["offset"] = {
-				-100,
-				10,
-			},
-			["scale"] = {
-				0.94999998807907,
-				0.94999998807907,
-			},
+			["path"] = "n03normalboy",
 		},
 		["text"] = "不累不累，你看哥哥都喜欢！我们这就去吧！",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -564,39 +497,15 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n03normalboy",
+				["path"] = "am29lx/am29lx_action1",
 				["pos"] = {
-					-100,
-					150,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 400,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					100,
-					100,
+					-50,
+					0,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -637,22 +546,23 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n03normalboy",
+				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					100,
-					150,
+					300,
+					120,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -668,15 +578,15 @@
 				},
 			},
 			{
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
+				["path"] = "n03normalboy",
 				["pos"] = {
-					300,
 					100,
+					150,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -749,12 +659,28 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n07lywife/n07lywife_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
@@ -771,27 +697,6 @@
 				["pos"] = {
 					100,
 					150,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					300,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -849,7 +754,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -861,6 +766,22 @@
 			["text_align"] = "center",
 		},
 		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n07lywife/n07lywife_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
@@ -877,27 +798,6 @@
 				["pos"] = {
 					100,
 					150,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					300,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -953,12 +853,28 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n07lywife/n07lywife_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
@@ -969,21 +885,6 @@
 				["pos"] = {
 					100,
 					150,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					300,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1038,12 +939,28 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n07lywife/n07lywife_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
@@ -1066,28 +983,7 @@
 				},
 			},
 			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1138,7 +1034,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -1146,10 +1042,26 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]岚相其实也完全看不见，但是他还是凭借着记忆和辨识力分辨出了方向，抬起带满银饰的手指了一个方向。",
+			["text"] = "[size 17]岚相其实也完全看不见，但是他还是凭借着记忆和辨识力分辨出了方向，抬起带满银饰的手指了指。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n07lywife/n07lywife_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
@@ -1166,27 +1078,6 @@
 				["pos"] = {
 					100,
 					150,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					300,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1242,12 +1133,28 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n07lywife/n07lywife_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
@@ -1270,28 +1177,7 @@
 				},
 			},
 			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1342,12 +1228,28 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n07lywife/n07lywife_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
@@ -1358,21 +1260,6 @@
 				["pos"] = {
 					100,
 					150,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					300,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1427,12 +1314,28 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n07lywife/n07lywife_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
@@ -1443,21 +1346,6 @@
 				["pos"] = {
 					100,
 					150,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					300,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1512,12 +1400,28 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n07lywife/n07lywife_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
@@ -1534,27 +1438,6 @@
 				["pos"] = {
 					100,
 					150,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					300,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1612,12 +1495,28 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n07lywife/n07lywife_action1",
+				["pos"] = {
+					300,
+					120,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
 			{
 				["anim"] = "normal",
 				["blur"] = {
@@ -1628,21 +1527,6 @@
 				["pos"] = {
 					100,
 					150,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
-				["pos"] = {
-					300,
-					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1697,7 +1581,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -1705,20 +1589,21 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]说着把从口袋里拿了一个波板糖放到岚相手里，拉着“小傻子”走了。",
+			["text"] = "[size 17]说着从口袋里拿了一个波板糖放到岚相手里，拉着“小傻子”走了。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n03normalboy",
+				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					100,
-					150,
+					300,
+					120,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1736,15 +1621,15 @@
 				},
 			},
 			{
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n37dw_m/n37dw_m_action1",
+				["path"] = "n03normalboy",
 				["pos"] = {
-					300,
 					100,
+					150,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1815,7 +1700,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -1828,7 +1713,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "shy",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1841,11 +1726,29 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 200,
+							["time"] = 30,
+						},
+						["tween"] = "Shake",
+					},
+				},
 			},
 		},
 		["guid"] = "96DA131F4FFD2A1B37C21B9C87E5D355",
 		["guid_str"] = "lHAO1R72",
 		["id"] = 24,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 5.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -1868,7 +1771,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -1881,7 +1784,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1932,7 +1835,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_06.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 				["config"] = {

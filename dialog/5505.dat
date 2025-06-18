@@ -3,14 +3,17 @@
 		["bg_info"] = {
 			{
 				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -23,24 +26,48 @@
 		["guid"] = "6779735B4A1669C3712148A4587CCB3A",
 		["guid_str"] = "IW6Hr4TP",
 		["id"] = 1,
-		["introduce"] = {
-			["location"] = "凌空体育场",
-			["time"] = "23:20",
-		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_daytime_quiet",
+				["length"] = 51692,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s250_chara_xlsz",
+			["length"] = 120459,
+			["operation"] = 1,
+		},
+		["guid"] = "BC3DEB2F446BBD43D16EB4B9F6526020",
+		["guid_str"] = "4ENudfFP",
+		["id"] = 2,
+		["introduce"] = {
+			["location"] = "银湾区·凌空体育场",
+			["time"] = "森罗历1121-07-21  23:25",
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_daytime_quiet",
+				["length"] = 51692,
+				["loop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -48,12 +75,30 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]演唱会已经散场，人走光了。玉如笙拿着找到的东西过来。",
+			["text"] = "[size 17]演唱会已经散场，之前还充斥着震耳欲聋的呼喊声的场馆渐渐重归寂静。",
+			["text_align"] = "center",
+		},
+		["guid"] = "0FC5D4BA4AD6EB58020EA0ABC53C8022",
+		["guid_str"] = "EYZeuAWH",
+		["id"] = 3,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]波丝注视着屏幕中Binary Star的录像，察觉到玉如笙走过来才移开视线。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -98,29 +143,28 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 500,
 						},
 						["tween"] = "FadeIn",
 					},
 				},
 			},
 		},
-		["guid"] = "0FC5D4BA4AD6EB58020EA0ABC53C8022",
-		["guid_str"] = "EYZeuAWH",
-		["id"] = 2,
+		["guid"] = "89CFE8DA4601ED0ABE0B409756B94373",
+		["guid_str"] = "fFrruDcB",
+		["id"] = 4,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -166,22 +210,14 @@
 		},
 		["guid"] = "8BE943E74EC8B3242FBAF8BD18C581D9",
 		["guid_str"] = "JRDEqSXr",
-		["id"] = 3,
+		["id"] = 5,
 		["name"] = "玉如笙",
 		["text"] = "查到了，灯被人提前动过手脚，只需要用这个打穿一侧的天花板，就可以让整片灯带一起掉落。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -214,6 +250,14 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
@@ -227,22 +271,14 @@
 		},
 		["guid"] = "A5AF8E1D49405CAE8558CAB786878C73",
 		["guid_str"] = "5dBkqcxH",
-		["id"] = 4,
+		["id"] = 6,
 		["name"] = "波丝",
 		["text"] = "白荆科技生产，用于工业领域的X能微粒切割气枪。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -288,29 +324,21 @@
 		},
 		["guid"] = "F25BCC3641A6FFF33B40E8BA28AFB22C",
 		["guid_str"] = "q96ozEMr",
-		["id"] = 5,
+		["id"] = 7,
 		["name"] = "玉如笙",
 		["text"] = "你需要带回去么？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -335,6 +363,14 @@
 				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
@@ -349,22 +385,14 @@
 		},
 		["guid"] = "69626711491FAAD959D1C39E1CEB85D4",
 		["guid_str"] = "kZs1b5jI",
-		["id"] = 6,
+		["id"] = 8,
 		["name"] = "波丝",
 		["text"] = "不必，既然会丢在现场，就说明上面不会残留任何能作为证据的痕迹，这只是一件崭新的商品。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -397,6 +425,14 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
@@ -410,29 +446,20 @@
 		},
 		["guid"] = "D1D91E894C0C398F6544BCAD101CE442",
 		["guid_str"] = "egDIpAFd",
-		["id"] = 7,
+		["id"] = 9,
 		["name"] = "波丝",
 		["text"] = "只是，有些奇怪……",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[size 17]从各方传来的消息来看，这场游戏始终遵循着共同的规则，比起地点，实际是围绕着车的轨迹。[br][br][size 17]同一地点也不会有多次“意外”发生，相当守规矩。",
 			["text_align"] = "center",
@@ -463,7 +490,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 500,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -487,7 +514,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 500,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -496,20 +523,12 @@
 		},
 		["guid"] = "7C0EF1464C977D3161FCBD965DC45950",
 		["guid_str"] = "wKyk5POO",
-		["id"] = 8,
+		["id"] = 10,
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -517,27 +536,18 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["height"] = 200,
-			["is_append"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 17]此地的危险已经被自己解决，数字也相应减少了。",
+			["text"] = "[size 17]此地的危险已经被自己解决，数字也相应减少了。",
 			["text_align"] = "center",
 		},
 		["guid"] = "BF62132D42BE484021C40E8CFB52F425",
 		["guid_str"] = "FsEaUkLO",
-		["id"] = 9,
+		["id"] = 11,
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -564,27 +574,19 @@
 		},
 		["guid"] = "A89AC9DE47D7C42C6408B89D647E25A3",
 		["guid_str"] = "Z6RCAngK",
-		["id"] = 10,
+		["id"] = 12,
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -608,16 +610,24 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 500,
 						},
 						["tween"] = "FadeIn",
 					},
 				},
 			},
 			{
-				["anim"] = "serious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
@@ -632,7 +642,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 500,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -641,22 +651,14 @@
 		},
 		["guid"] = "4AD4DA5943B291EADE47028618C51369",
 		["guid_str"] = "JRaxegj8",
-		["id"] = 11,
+		["id"] = 13,
 		["name"] = "波丝",
 		["text"] = "事情已了，我也该告辞了。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -702,29 +704,21 @@
 		},
 		["guid"] = "A42D6E79493C0D32048A03B8E7ECEC8B",
 		["guid_str"] = "rmWueYJ3",
-		["id"] = 12,
+		["id"] = 14,
 		["name"] = "玉如笙",
 		["text"] = "辛苦了，今天时机赶得不好，正巧让你遇到这样一幕。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -750,6 +744,14 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
@@ -763,29 +765,21 @@
 		},
 		["guid"] = "AC1C0A1841944B92104D13A0A846D355",
 		["guid_str"] = "lyCTCwqo",
-		["id"] = 13,
+		["id"] = 15,
 		["name"] = "波丝",
 		["text"] = "怎么会，今天亲眼见过，才知道真是两颗很耀眼的星星。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -811,6 +805,14 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
@@ -824,22 +826,14 @@
 		},
 		["guid"] = "5B3D4C824A670C2B2C2F10951E6E4FBE",
 		["guid_str"] = "QodbPN4t",
-		["id"] = 14,
+		["id"] = 16,
 		["name"] = "波丝",
 		["text"] = "她们身上的确有一种魔力，可以在出现时吸引所有人的目光。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -885,29 +879,21 @@
 		},
 		["guid"] = "8003256048794A621CABCC95D9BA1FB7",
 		["guid_str"] = "7AtXIPUj",
-		["id"] = 15,
+		["id"] = 17,
 		["name"] = "玉如笙",
 		["text"] = "独特的“自我”，这正是偶像需要具备的能力，我的工作就是挖掘出这一点，并将其展现给所有人。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -933,6 +919,14 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
@@ -946,22 +940,14 @@
 		},
 		["guid"] = "ACD0B34D47670E260419449AAB273F8F",
 		["guid_str"] = "brQ5azVi",
-		["id"] = 16,
+		["id"] = 18,
 		["name"] = "波丝",
 		["text"] = "没想到经纪人小姐会对同调者有这么高的评价。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -1007,22 +993,14 @@
 		},
 		["guid"] = "BB2BF33C468C258B654ABD8617F13E8E",
 		["guid_str"] = "S1iOBSUz",
-		["id"] = 17,
+		["id"] = 19,
 		["name"] = "玉如笙",
 		["text"] = "我之所以签下她们，就是看中了这种品质，与是同调者还是普通人无关。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -1068,22 +1046,14 @@
 		},
 		["guid"] = "ECF2472F436DA89158BD72AAEF8816EF",
 		["guid_str"] = "rCcZBZ5W",
-		["id"] = 18,
+		["id"] = 20,
 		["name"] = "玉如笙",
 		["text"] = "不如说，能在重重身份下清晰地认知到自己，并不容易。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -1116,6 +1086,14 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["pos"] = {
@@ -1129,22 +1107,14 @@
 		},
 		["guid"] = "287CEA3E445E2950BB618E9CEB527A0D",
 		["guid_str"] = "7o0rkSMK",
-		["id"] = 19,
+		["id"] = 21,
 		["name"] = "波丝",
 		["text"] = "……",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -1190,22 +1160,14 @@
 		},
 		["guid"] = "D92F5FCF42D583B7F93A3898E3FFC4DB",
 		["guid_str"] = "zZqE17lv",
-		["id"] = 20,
+		["id"] = 22,
 		["name"] = "玉如笙",
 		["text"] = "不论如何，欢迎二位在闲暇时前来，提前说一声，我会准备好前排的座位。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
 			},
@@ -1237,6 +1199,14 @@
 				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
@@ -1251,7 +1221,7 @@
 		},
 		["guid"] = "F98C5F0C4BAEB1AE88699FA688417D31",
 		["guid_str"] = "5lMPoecY",
-		["id"] = 21,
+		["id"] = 23,
 		["name"] = "波丝",
 		["text"] = "盛情难却。",
 	},
@@ -1259,26 +1229,31 @@
 		["bg_info"] = {
 			{
 				["config"] = {
-					["color"] = {
-						0.21631152927876,
-						0.4025496840477,
-						0.46046513319016,
-						1.0,
-					},
 					["tween"] = {
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 1500,
 							},
 							["tween"] = "FadeOut",
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_11.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_01.png",
 			},
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 		},
 		["characters"] = {
@@ -1307,7 +1282,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -1331,7 +1306,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -1340,13 +1315,25 @@
 		},
 		["guid"] = "A5FEF16A406A145A23118D87C67313F0",
 		["guid_str"] = "UZXxC8yY",
-		["id"] = 22,
+		["id"] = 24,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_daytime_quiet",
+				["length"] = 51692,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/ambience/urban_night_generic",
+				["length"] = 55384,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -1356,6 +1343,14 @@
 				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
@@ -1378,14 +1373,21 @@
 		},
 		["guid"] = "31D27ECC4E7A2B719E3EB8B249D3FBC8",
 		["guid_str"] = "mzmYXCis",
-		["id"] = 23,
+		["id"] = 25,
 		["name"] = "波丝",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "“自我”……么。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -1393,7 +1395,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]蜘蛛来电。",
+			["text"] = "[size 17]波丝睁开眼睛，感觉到乖巧的机械蜘蛛跳上肩头，同时传来了熟悉的声音。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1401,6 +1403,14 @@
 				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
@@ -1411,12 +1421,18 @@
 		},
 		["guid"] = "3E1B592E4C637C585F51C5911C6D7ABE",
 		["guid_str"] = "yXvjaZOb",
-		["id"] = 24,
+		["id"] = 26,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/8/avg_chapter8_spider_morph",
+				["length"] = 2600,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -1427,6 +1443,14 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["shadow"] = {
@@ -1436,14 +1460,14 @@
 		},
 		["guid"] = "B7CCC35D44125A8A18BD4AB7AC292E8C",
 		["guid_str"] = "M1fJ0Ep4",
-		["id"] = 25,
+		["id"] = 27,
 		["name"] = "波丝",
 		["text"] = "看数字，只剩下最后一处了。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -1469,14 +1493,37 @@
 		},
 		["guid"] = "98A89CA64304E6E0A6F4A7A6F49D466B",
 		["guid_str"] = "vBOWSsyU",
-		["id"] = 26,
+		["id"] = 28,
 		["name"] = "司旸",
-		["text"] = "嗯，群众疏散的工作进行得十分顺利，鹿路运输的各位功不可没，最后一处不用麻烦他们，还有我自己去就够了。",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
+		["text"] = "嗯，群众疏散的工作进行得十分顺利，鹿路运输的各位功不可没，最后一处不用麻烦他们，我自己去就够了。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -1487,6 +1534,14 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["shadow"] = {
@@ -1496,14 +1551,14 @@
 		},
 		["guid"] = "C7ABCBBB4F9996146218868943CA630C",
 		["guid_str"] = "84fCqpNb",
-		["id"] = 27,
+		["id"] = 29,
 		["name"] = "波丝",
 		["text"] = "对方在哪？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -1529,14 +1584,37 @@
 		},
 		["guid"] = "D81A962B4F21F174110952B633834D52",
 		["guid_str"] = "QrgV8tDS",
-		["id"] = 28,
+		["id"] = 30,
 		["name"] = "司旸",
-		["text"] = "看车辆集中的方向，应该是富运集团，那些伪装成白荆科技的车辆可能就是出自他们的手笔，我在追踪时发现的。",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
+		["text"] = "看车辆集中的方向，应该是富运集团，那些伪装成白荆科技的车辆就是出自他们的手笔，我在追踪时发现的。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -1544,7 +1622,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]终止投影。",
+			["text"] = "[size 17]眼前的海临概况地图投影闪了闪，无声地消失在空气中。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1564,12 +1642,12 @@
 		},
 		["guid"] = "4DC2FC864AB7601C405DF4B11EAAC9D7",
 		["guid_str"] = "ZmVv0fqE",
-		["id"] = 29,
+		["id"] = 31,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -1595,14 +1673,37 @@
 		},
 		["guid"] = "88D868BC4AC321809007E0A5D36F78FD",
 		["guid_str"] = "jBjrUrcC",
-		["id"] = 30,
+		["id"] = 32,
 		["name"] = "司旸",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "为了自己方便，投影信息我就暂时终止同步了。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -1628,23 +1729,54 @@
 		},
 		["guid"] = "5E6C38384498689F4A8348BAE9EAFEAB",
 		["guid_str"] = "h0Sp9OI2",
-		["id"] = 31,
+		["id"] = 33,
 		["name"] = "司旸",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "你那边很棘手？如果是寻常情况，应该用不了这么长时间。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
@@ -1655,21 +1787,21 @@
 		},
 		["guid"] = "B1A945CC432CE4C0BD12078BFACA05B5",
 		["guid_str"] = "jgJqgWMj",
-		["id"] = 32,
+		["id"] = 34,
 		["name"] = "波丝",
 		["text"] = "的确是发现了些东西，有人试图藏在别人的阴影里浑水摸鱼，还故意留下尾巴扰乱视线。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1682,14 +1814,14 @@
 		},
 		["guid"] = "9452C2BF4185E7E163D49D9588A54925",
 		["guid_str"] = "BNpMbhHa",
-		["id"] = 33,
+		["id"] = 35,
 		["name"] = "波丝",
-		["text"] = "可惜，实在有些拙劣。",
+		["text"] = "可惜，实在是有些拙劣。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -1715,14 +1847,83 @@
 		},
 		["guid"] = "90BF5DCC4F23947CAC9674BDB6E95A89",
 		["guid_str"] = "zPBmGvSp",
-		["id"] = 34,
+		["id"] = 36,
 		["name"] = "司旸",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "看来白荆科技和执行官[M]先生[/M][F]女士[/F]，还真是得罪了不少人。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "22110F904FD5D5B527E6829D02D86E7A",
+		["guid_str"] = "KuTuZnQp",
+		["id"] = 37,
+		["name"] = "波丝",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -1738,31 +1939,34 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
 			},
 		},
-		["guid"] = "22110F904FD5D5B527E6829D02D86E7A",
-		["guid_str"] = "KuTuZnQp",
-		["id"] = 35,
-		["name"] = "波丝",
-		["text"] = "……",
+		["guid"] = "B8F714CC4ED1D3AB2CF2528977A27141",
+		["guid_str"] = "n8xk9b2t",
+		["id"] = 38,
+		["is_white_base_bg"] = true,
+		["just_auto_play"] = true,
+		["time"] = 1500,
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 200,
-							},
-							["tween"] = "FadeIn",
-						},
-					},
 					["video"] = {
+						["count"] = -1,
 						["is_queue"] = true,
+						["is_ratio_full"] = true,
 						["is_stage"] = true,
-						["path"] = "movies/Desktop/avg/chapter08/cg_8_04_luozubeiying_in.bk2",
+						["path"] = "movies/Desktop/avg/chapter08/cg_8_04_luozubeiying_loop.bk2",
 					},
 				},
 				["path"] = "",
@@ -1783,7 +1987,7 @@
 						["is_stage"] = true,
 					},
 				},
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 		},
 		["characters"] = {
@@ -1810,8 +2014,61 @@
 		},
 		["guid"] = "AF984AD747D0CF55CA2BF2861546459C",
 		["guid_str"] = "a0YvFgBC",
-		["id"] = 36,
+		["id"] = 39,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_queue"] = true,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter08/cg_8_04_luozubeiying_in.bk2",
+				["template_type"] = "video",
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["sustain_page_count"] = 22,
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 0,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/avg_5_pounce_dwon_amb_wind_loop",
+				["length"] = 12237,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/7/cg_7_tianlu02_in",
+				["length"] = 4110,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1836,9 +2093,23 @@
 		},
 		["guid"] = "5BB3C3E44F56D7767A34BD8386547E11",
 		["guid_str"] = "hofkok0n",
-		["id"] = 37,
+		["id"] = 40,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "关于X能匣，马尔斯已经提出了最新一版的试用与改进报告。",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1863,12 +2134,27 @@
 		},
 		["guid"] = "9CF8F8EE42170ED3E35E3E942B6011DF",
 		["guid_str"] = "xGYyN30I",
-		["id"] = 38,
+		["id"] = 41,
 		["name"] = "波丝",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "af69xlsz/af69xlsz_brolly_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_ScreenSaturation",
+						["delay"] = 0,
+						["end_value"] = 0.40000000596046,
+						["start_value"] = 0.40000000596046,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+			},
 		},
 		["text"] = "是，我们看到了。",
 	},
@@ -1895,8 +2181,11 @@
 		},
 		["guid"] = "8717BC154E4598056B8BA5A042A27421",
 		["guid_str"] = "fI2DrLlx",
-		["id"] = 39,
+		["id"] = 42,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "内心可是有疑问？",
 	},
 	{
@@ -1922,12 +2211,27 @@
 		},
 		["guid"] = "38E21409453B7836826CA29DB75D8D5D",
 		["guid_str"] = "rHbgW1t2",
-		["id"] = 40,
+		["id"] = 43,
 		["name"] = "波丝",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "af69xlsz/af69xlsz_brolly_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_ScreenSaturation",
+						["delay"] = 0,
+						["end_value"] = 0.40000000596046,
+						["start_value"] = 0.40000000596046,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+			},
 		},
 		["text"] = "西陵近来同时推进了好几项X能武器的研究，官方想做什么？又或者是……",
 	},
@@ -1954,12 +2258,27 @@
 		},
 		["guid"] = "2B1285504CB080CCDB4AEE9CDDA0F2F1",
 		["guid_str"] = "HGOcyoc0",
-		["id"] = 41,
+		["id"] = 44,
 		["name"] = "波丝",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "af69xlsz/af69xlsz_brolly_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_ScreenSaturation",
+						["delay"] = 0,
+						["end_value"] = 0.40000000596046,
+						["start_value"] = 0.40000000596046,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+			},
 		},
 		["text"] = "海临将要发生什么？",
 	},
@@ -1986,8 +2305,11 @@
 		},
 		["guid"] = "45972F554EB22347AD15EBBD525622E7",
 		["guid_str"] = "H8Xpp6bV",
-		["id"] = 42,
+		["id"] = 45,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……",
 	},
 	{
@@ -2013,8 +2335,11 @@
 		},
 		["guid"] = "E49D2EDB4F0188234E3292BE092F6158",
 		["guid_str"] = "6542HNd7",
-		["id"] = 43,
+		["id"] = 46,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "推进X能武器的发展势在必行，收到了要求，我也无可奈何。",
 	},
 	{
@@ -2040,8 +2365,11 @@
 		},
 		["guid"] = "4EE719534EB445A417DEC7B79F265380",
 		["guid_str"] = "wInii8jx",
-		["id"] = 44,
+		["id"] = 47,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "不过这些进度数据都是机密，除了有权限的人，不得共享给西陵以外的任何人。",
 	},
 	{
@@ -2073,7 +2401,10 @@
 		},
 		["guid"] = "A14B0B604C445D539F25A6A905DF5F46",
 		["guid_str"] = "YPJHV489",
-		["id"] = 45,
+		["id"] = 48,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2098,12 +2429,27 @@
 		},
 		["guid"] = "BAC9BE4D4E42CCE8167E1781FD525443",
 		["guid_str"] = "58D2EIvP",
-		["id"] = 46,
+		["id"] = 49,
 		["name"] = "波丝",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "af69xlsz/af69xlsz_brolly_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_ScreenSaturation",
+						["delay"] = 0,
+						["end_value"] = 0.40000000596046,
+						["start_value"] = 0.40000000596046,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+			},
 		},
 		["text"] = "您是说……",
 	},
@@ -2130,8 +2476,11 @@
 		},
 		["guid"] = "85602D134CCD3B37428D858279217C59",
 		["guid_str"] = "bJQxfHHs",
-		["id"] = 47,
+		["id"] = 50,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "是的，任何人。",
 	},
 	{
@@ -2157,12 +2506,27 @@
 		},
 		["guid"] = "99E8643F4ED5B96708C5D395E7BBBF08",
 		["guid_str"] = "wznNhf5e",
-		["id"] = 48,
+		["id"] = 51,
 		["name"] = "波丝",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
-			["anim"] = "normal",
+			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "af69xlsz/af69xlsz_brolly_action1",
+			["tween"] = {
+				{
+					["param"] = {
+						["attr_key"] = "F_ScreenSaturation",
+						["delay"] = 0,
+						["end_value"] = 0.40000000596046,
+						["start_value"] = 0.40000000596046,
+						["time"] = 0,
+					},
+					["tween"] = "MaterialAttrAnimate",
+				},
+			},
 		},
 		["text"] = "我明白了。",
 	},
@@ -2189,8 +2553,11 @@
 		},
 		["guid"] = "96785BE5495BFC36249C7A86469156E7",
 		["guid_str"] = "zX4KY3bS",
-		["id"] = 49,
+		["id"] = 52,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "目前X能匣的应用还十分有限，毕竟是将同调者的能力以一种强制手段压缩放入这小小的匣子里，释放时的威力远远比不上同调者本身的施为。",
 	},
 	{
@@ -2216,8 +2583,11 @@
 		},
 		["guid"] = "3C3F68E04AC41D743AD80B8A5362ABD3",
 		["guid_str"] = "dSo8msCv",
-		["id"] = 50,
+		["id"] = 53,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "不过假以时日，它必定会成为当今社会中一项相当重要的技术。",
 	},
 	{
@@ -2243,8 +2613,11 @@
 		},
 		["guid"] = "A0277F4F4094FD2E6E7B3585D9FA37E4",
 		["guid_str"] = "wC9LYopR",
-		["id"] = 51,
+		["id"] = 54,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "他们不会放过这个机会，届时即使我们“毫无成果”，也会有其他人。",
 	},
 	{
@@ -2270,8 +2643,11 @@
 		},
 		["guid"] = "16F12B8F4BF7CBC148EB07982B60D0CE",
 		["guid_str"] = "KGWFTp1t",
-		["id"] = 52,
+		["id"] = 55,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "这不仅仅是一项技术，还代表着「我」的立场，「西陵」的立场。",
 	},
 	{
@@ -2297,8 +2673,11 @@
 		},
 		["guid"] = "7EF8A64B462C53CF2390A19DCC96982D",
 		["guid_str"] = "VuT0DunQ",
-		["id"] = 53,
+		["id"] = 56,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "也同时会将它的知情人带入选择和自证的陷阱。",
 	},
 	{
@@ -2324,8 +2703,11 @@
 		},
 		["guid"] = "7F461CB749D2417D61EF1EA18D3957B3",
 		["guid_str"] = "HHdXZyjg",
-		["id"] = 54,
+		["id"] = 57,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "越多人参与其中，这张利益与情感纠葛的大网就会越复杂，直至所有人都无法挣脱。",
 	},
 	{
@@ -2351,8 +2733,11 @@
 		},
 		["guid"] = "7F9F59F44DA5385EB28339868E11C5DF",
 		["guid_str"] = "BlgFula7",
-		["id"] = 55,
+		["id"] = 58,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "我不能不谨慎。",
 	},
 	{
@@ -2378,23 +2763,17 @@
 		},
 		["guid"] = "490CF36F46A92FDEE514B99AA9FB5C14",
 		["guid_str"] = "M1W2ovJm",
-		["id"] = 56,
+		["id"] = 59,
 		["name"] = "嫘祖",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "毕竟，我们当下并不是那个「破局之人」。",
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 200,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
@@ -2410,7 +2789,99 @@
 						["is_queue"] = true,
 					},
 				},
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+			},
+		},
+		["guid"] = "DF02F29743CCD972E0E7DF83559A3B7F",
+		["guid_str"] = "pc3n06py",
+		["id"] = 60,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_white.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["delay"] = 500,
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
+			},
+		},
+		["guid"] = "B3E6A4B0406BB3E08A3512A6F4128D9B",
+		["guid_str"] = "rwAps9Ay",
+		["id"] = 61,
+		["is_white_base_bg"] = true,
+		["just_auto_play"] = true,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 		},
 		["characters"] = {
@@ -2418,6 +2889,14 @@
 				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
@@ -2428,7 +2907,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 500,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -2437,14 +2916,22 @@
 		},
 		["guid"] = "18A703D940A13B96AD9CE2BEEBDF50DA",
 		["guid_str"] = "05O0C13x",
-		["id"] = 57,
+		["id"] = 62,
+		["is_white_base_bg"] = true,
 		["name"] = "波丝",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/avg_5_pounce_dwon_amb_wind_loop",
+				["length"] = 12237,
+				["stop"] = 1,
+			},
+		},
 		["text"] = "终究……只是立场不同。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -2455,6 +2942,14 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						200,
+						-300,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_brolly_action1",
 				["shadow"] = {
@@ -2464,14 +2959,14 @@
 		},
 		["guid"] = "1E3E3BC84549CA99AD2A7DB9229281AA",
 		["guid_str"] = "YuHAhF02",
-		["id"] = 58,
+		["id"] = 63,
 		["name"] = "波丝",
 		["text"] = "或许我们也该想清楚自己应在的位置，司旸先生。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -2497,8 +2992,27 @@
 		},
 		["guid"] = "843AA1304964CB957B0BBF8F8EF3B5AE",
 		["guid_str"] = "KP7DlCi8",
-		["id"] = 59,
+		["id"] = 64,
 		["name"] = "司旸",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "……",
 	},
 	{
@@ -2515,7 +3029,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_05.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_08.png",
 			},
 			{
 			},
@@ -2550,7 +3064,7 @@
 		},
 		["guid"] = "6554077144DE9730FB9AF9B77EA3D377",
 		["guid_str"] = "J3F2QWtY",
-		["id"] = 60,
+		["id"] = 65,
 		["just_auto_play"] = true,
 	},
 }

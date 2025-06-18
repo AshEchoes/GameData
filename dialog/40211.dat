@@ -22,6 +22,14 @@
 		["guid_str"] = "XRgO4eLn",
 		["id"] = 1,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/red/red_amb_bazaar_street",
+				["length"] = 30442,
+				["loop"] = 1,
+				["volume"] = 0.30000001192093,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -64,6 +72,13 @@
 		["guid_str"] = "wPWAZ6GS",
 		["id"] = 2,
 		["name"] = "元桃桃",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "大家快过来，还有十五秒就要放烟花啦！",
 	},
 	{
@@ -77,7 +92,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]田偌还没有赶回来，但是红珠已经回到现场，周围的人群喧闹到了顶峰，\n\n大家没情绪传染，又因为一晚上的辛苦，此时都由衷地笑着。",
+			["text"] = "[size 17]田偌还没有赶回来，但是红珠已经回到现场，周围的人群喧闹到了顶峰，\n\n大家被情绪传染，即使历经一晚上的辛苦，此时却都由衷地笑着。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -348,6 +363,12 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -461,6 +482,12 @@
 			},
 		},
 		["name"] = "司旸",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5034_vEV76hjN",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "准备交白卷？不是看完漫画了？",
 	},
 	{
@@ -522,6 +549,14 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["id"] = "340",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-400,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am56yy/am56yy_action1",
 				["pos"] = {
@@ -567,6 +602,12 @@
 			},
 		},
 		["name"] = "言御",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5034_oY6GxAd5",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "有言雀参加，哪还用得上别人，比起这个……",
 	},
 	{
@@ -673,6 +714,12 @@
 			},
 		},
 		["name"] = "司旸",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5034_1zt8awJw",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "在意底座上那个烟花模型？",
 	},
 	{
@@ -734,6 +781,14 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["id"] = "340",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-400,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am56yy/am56yy_action1",
 				["pos"] = {
@@ -779,6 +834,12 @@
 			},
 		},
 		["name"] = "言御",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5034_80EZhdKa",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "你也注意到了？",
 	},
 	{
@@ -885,6 +946,12 @@
 			},
 		},
 		["name"] = "司旸",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5034_kWkgDLmx",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "嗯，看到“烟花”第一反应想到的就会是庆典现场，但这范围未免太广，而且我们人已经在这了，根本就是无效提示。",
 	},
 	{
@@ -1036,7 +1103,14 @@
 				["template_type"] = "image",
 			},
 		},
+		["just_auto_play"] = true,
 		["name"] = "司旸",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1063,6 +1137,15 @@
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_axe_action1",
@@ -1108,6 +1191,12 @@
 			},
 		},
 		["name"] = "灰锈",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5036_3FOQyhKM",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "数字，代表“意外”，即“示威”的数量。",
 	},
 	{
@@ -1135,6 +1224,15 @@
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_axe_action1",
@@ -1173,6 +1271,12 @@
 			},
 		},
 		["name"] = "灰锈",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5036_P4M1ZPvK",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "官方庆典的奖品却和我们的“私人谜题”紧密相关……奖励机制限制了所有人的行动速度和轨迹，让我们左支右绌。",
 	},
 	{
@@ -1202,6 +1306,14 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["id"] = "8",
+					["is_enabled"] = true,
+					["offset"] = {
+						250,
+						-100,
+					},
+				},
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "af07hr/af07hr_action1",
 				["pos"] = {
@@ -1250,6 +1362,12 @@
 			},
 		},
 		["name"] = "霍冉",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5036_6EOP2YmY",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "到底是谁……",
 	},
 	{
@@ -1277,6 +1395,15 @@
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "454",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af69xlsz/af69xlsz_axe_action1",
@@ -1322,6 +1449,12 @@
 			},
 		},
 		["name"] = "灰锈",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5036_xQodU2sO",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "那就要看，白荆科技究竟树立了怎样的敌人，能让贵司被迫“暂时歇业”，却又还想在这期间借题发挥，不肯放过一丝一毫。",
 	},
 	{
@@ -1349,6 +1482,14 @@
 				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "010",
+					["is_enabled"] = true,
+					["offset"] = {
+						60,
+						-250,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am45tr/am45tr_plain_action1",
@@ -1394,6 +1535,12 @@
 			},
 		},
 		["name"] = "田偌",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5036_mVFG0UlJ",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……难道是……",
 	},
 	{
@@ -1421,6 +1568,14 @@
 				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "010",
+					["is_enabled"] = true,
+					["offset"] = {
+						60,
+						-250,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am45tr/am45tr_plain_action1",
@@ -1459,6 +1614,12 @@
 			},
 		},
 		["name"] = "田偌",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5036_tVIeIULd",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "出世间？",
 	},
 	{
@@ -1562,7 +1723,14 @@
 				["template_type"] = "image",
 			},
 		},
+		["just_auto_play"] = true,
 		["name"] = "司旸",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1591,6 +1759,14 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["id"] = "344",
+					["is_enabled"] = true,
+					["offset"] = {
+						500,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "af58yq/af58yq_action1",
 				["pos"] = {
@@ -1687,6 +1863,12 @@
 			},
 		},
 		["name"] = "言雀",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5033_zjZQRnGv",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "2：41，9，是什么意思啊？",
 	},
 	{
@@ -1759,6 +1941,15 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "340",
+					["is_enabled"] = true,
+					["offset"] = {
+						-200,
+						-400,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am56yy/am56yy_action1",
 				["pos"] = {
@@ -1804,6 +1995,12 @@
 			},
 		},
 		["name"] = "言御",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5033_JZONFW5f",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "…………………………………………",
 	},
 	{
@@ -1876,6 +2073,15 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "340",
+					["is_enabled"] = true,
+					["offset"] = {
+						-200,
+						-400,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am56yy/am56yy_action1",
 				["pos"] = {
@@ -1921,6 +2127,12 @@
 			},
 		},
 		["name"] = "言御",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5033_2GBYc7hv",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "司旸，我们还有其他办法联系白荆科技和监督么？",
 	},
 	{
@@ -2084,6 +2296,13 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
+				["length"] = 1153,
+				["volume"] = 1.5,
+			},
+		},
 	},
 	{
 		["bg_info"] = {

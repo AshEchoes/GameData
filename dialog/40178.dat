@@ -13,7 +13,7 @@
 						},
 						{
 							["param"] = {
-								["anchor"] = "top_left",
+								["anchor"] = "center",
 								["delay"] = 0,
 								["mode"] = "linear",
 								["scale_x"] = 1.0499999523163,
@@ -24,7 +24,7 @@
 						},
 						{
 							["param"] = {
-								["anchor"] = "top_left",
+								["anchor"] = "center",
 								["delay"] = 0,
 								["mode"] = "linear",
 								["scale_x"] = 1.0,
@@ -37,7 +37,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -62,6 +62,7 @@
 		["guid"] = "B7A6BFAD4D0FAF037964EF884194EBC5",
 		["guid_str"] = "fwCOnLbS",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_characters"] = {
 			{
@@ -98,7 +99,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -125,7 +126,7 @@
 		["id"] = 2,
 		["introduce"] = {
 			["location"] = "燃星庆典·现场",
-			["time"] = "20:00",
+			["time"] = "森罗历1121-07-21  20:00",
 		},
 		["just_auto_play"] = true,
 		["male_characters"] = {
@@ -145,18 +146,30 @@
 				},
 			},
 		},
+		["time"] = 3600,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
-			["text"] = "[size 17]几句关于这个烟花大会的介绍，为啥每年都有，庆祝啥。",
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]燃星庆典，来自于从前人们为了驱逐黑暗、寄托美好愿景的行为，后来才逐渐成为节日。\n\n每逢盛夏时节，无数烟火升上夜空，点燃星光，是海临每年最热闹的节日之一。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "19A074E84678DEB84C1D58B03BA7CF34",
 		["guid_str"] = "iTMRm8sy",
@@ -165,7 +178,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -173,7 +186,8 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]元桃桃手里拿着庆典导览手册仔细阅读。",
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]晚饭已经接近尾声，大家各自闲聊，就着元桃桃手里的庆典导览手册讨论着接下来的安排。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -219,7 +233,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -250,7 +264,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -301,7 +315,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -342,7 +356,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -406,7 +420,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -447,7 +461,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -498,14 +512,14 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -551,7 +565,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -592,7 +606,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -628,7 +642,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -698,14 +712,14 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
+				["anim"] = "despair",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -762,7 +776,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -803,7 +817,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -848,12 +862,12 @@
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "元桃桃",
-		["text"] = "叛徒……这串棉花糖好好看我要拍给莎莎和谣谣馋死她们两个！让他们两个一个班级假期郊游一个“有更重要的事情一定要在今晚完成”不肯出来，哼。",
+		["text"] = "叛徒……这串棉花糖好好看我要拍给莎莎和谣谣馋死她们两个！让她们两个一个班级假期郊游一个“有更重要的事情一定要在今晚完成”不肯出来，哼。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -897,7 +911,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -938,24 +952,20 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1_add",
+				["anim"] = "closeeyesmile_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["body_anim"] = "default_loop",
 				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af35sy/af35sy_action1",
-				["pos"] = {
-					180,
-					0,
-				},
+				["path"] = "af35sy/af35sy_action3",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -979,7 +989,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1023,7 +1033,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1073,7 +1083,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1109,12 +1119,12 @@
 		["guid_str"] = "Zy56Oaas",
 		["id"] = 23,
 		["name"] = "霍冉",
-		["text"] = "白荆科技还不够你写的非要跑去SCOPE，你能看懂？报告不会打算抄药物成本表吧？上次你在作文上抄玻璃汽水成分表的事儿大家可都记着呢啊。",
+		["text"] = "白荆科技还不够你写的非要跑去SCOPE，你能看懂？报告不会打算抄药物成分表吧？\n上次你在作文上抄玻璃汽水成分表的事儿大家可都记着呢啊。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1159,12 +1169,12 @@
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "元桃桃",
-		["text"] = "……我！谁说我要抄成分表了！这次怎么也要抄员工守则！白荆最近不方便参观嘛，我可不想被抓着问东问西。",
+		["text"] = "……我！谁说我要抄成分表了！这次怎么也要抄员工守则！\n白荆最近不方便参观嘛，我可不想被抓着问东问西。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1214,7 +1224,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1264,7 +1274,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1308,7 +1318,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1358,7 +1368,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1402,7 +1412,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1452,14 +1462,14 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1502,7 +1512,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1546,7 +1556,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1590,7 +1600,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1634,7 +1644,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1678,14 +1688,14 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1728,7 +1738,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1768,7 +1778,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1861,7 +1871,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
 			},
@@ -1933,9 +1943,48 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CB_CountEnd"] = false,
+							["CF_CloseSpeed"] = 15.0,
+							["CF_CloseTime"] = 200.0,
+							["CF_Count"] = 1.0,
+							["CF_Max"] = 1.0,
+							["CF_Min"] = 0.0,
+							["CF_OpenSpeed"] = 15.0,
+							["CF_OpenTime"] = 200.0,
+							["CF_Trend"] = 0.0,
+							["F_CenterWidth"] = 0.8,
+							["F_OpenValue"] = 1.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = false,
+						["material"] = "MI_UI_Blink",
+						["out_time"] = 2000,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 2000,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_02.png",
 			},
 			{
+				["config"] = {
+					["color"] = {
+						0.37317472696304,
+						0.50314366817474,
+						0.6418604850769,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 		},
 		["bgm"] = {
@@ -1999,7 +2048,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2008,7 +2065,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.30000001192093,
-			["text"] = "[size 17]耳边是吵闹的人群和熟悉的日常聊天，大脑跟着放空，\n\n我拿出通讯仪放在一旁，屏幕上的时间安静走动，我盯着数字发起呆。",
+			["text"] = "[size 17]耳边是吵闹的人群和熟悉的日常聊天，大脑也不由得跟着放空，\n\n我拿出通讯仪放在一旁，屏幕上的时间安静走动，我盯着数字发起呆。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -2035,7 +2092,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2074,7 +2139,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2095,7 +2168,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2137,7 +2218,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2179,7 +2268,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2212,7 +2309,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2249,7 +2354,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2291,7 +2404,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2324,7 +2445,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2366,7 +2495,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2379,7 +2516,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2403,14 +2540,22 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2445,7 +2590,26 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 1.0,
+								["time"] = 1000,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2524,6 +2688,48 @@
 		["guid"] = "BD32FA6F456D25AFB95492B85BAFB625",
 		["guid_str"] = "FjyOlpDM",
 		["id"] = 53,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/activity_paradise/activity_paradise_cg6_small_loop.bk2",
+				["sustain_page_count"] = 4,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.5,
+							["start_alpha"] = 0.0,
+							["time"] = 1000,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 3,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.5,
+							["time"] = 1000,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
 		},
@@ -2533,12 +2739,37 @@
 				["length"] = 649,
 				["volume"] = 6.0,
 			},
+			{
+				["event"] = "event:/sfx/story/paradise/AVG_Paradise_MonsterMovement_lp",
+				["length"] = 5800,
+				["loop"] = 1,
+				["volume"] = 0.40000000596046,
+			},
 		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2588,7 +2819,26 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2637,7 +2887,26 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 1.0,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 1000,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2701,11 +2970,26 @@
 			["anim"] = "surprise_add",
 			["body_anim"] = "surprise_in",
 		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/paradise/AVG_Paradise_MonsterMovement_lp",
+				["length"] = 5800,
+				["stop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2741,7 +3025,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2792,7 +3084,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2817,6 +3117,7 @@
 			},
 		},
 		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
 			["body_anim"] = "default_loop",
 		},
 		["guid"] = "F855E2224CAE7607F02717B0D47DA3B7",
@@ -2824,6 +3125,7 @@
 		["id"] = 59,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "[rolename]",
@@ -2832,7 +3134,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2874,7 +3184,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},
@@ -2916,7 +3234,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_01.png",
+				["config"] = {
+					["color"] = {
+						0.37254902720451,
+						0.50196081399918,
+						0.64313727617264,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
 			},

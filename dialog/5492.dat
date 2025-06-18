@@ -2,14 +2,119 @@
 	{
 		["bg_info"] = {
 			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "033DC7894793BB4CE20335B52F9D2352",
+		["guid_str"] = "0lvNWh3X",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter08/cg_8_countdown_04.bk2",
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 3900,
+							["delay_page"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-00/0-0-whoosh",
+				["length"] = 4026,
+			},
+			{
+				["delay"] = 40,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 1000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 2000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 3000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+			},
+			{
+				["delay"] = 4000,
+				["event"] = "event:/sfx/story/8/avg_chapter8_count",
+				["length"] = 1880,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 4500,
+	},
+	{
+		["bg_info"] = {
+			{
 				["config"] = {
 					["tween"] = {
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
 						},
 					},
 				},
@@ -20,7 +125,12 @@
 		},
 		["guid"] = "0E424AF641AB8919400CFE9BE5836D27",
 		["guid_str"] = "rpRcFJg2",
-		["id"] = 1,
+		["id"] = 2,
+		["introduce"] = {
+			["location"] = "燃星庆典",
+			["time"] = "森罗历1121-07-21  21:37",
+		},
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -41,29 +151,18 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["height"] = 200,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]和大家告别后，鸢和言御向IIOI的方向走去。",
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]即使是这个时间，人流量依然没有减少的趋势，源源不断地向夜市聚集。",
 			["text_align"] = "center",
-		},
-		["guid"] = "2FEC3D42402404C5D60EEDA0D4BCECD6",
-		["guid_str"] = "4YK0r062",
-		["id"] = 2,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_city_street_10.png",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
 			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_append"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 17]即使是这个时间，人流量依然没有减少的趋势，源源不断地向夜市聚集。",
-			["text_align"] = "center",
 		},
 		["guid"] = "32EDDF6349C4F08C698177B61B0F5DBC",
 		["guid_str"] = "CtSnOkXR",
@@ -81,8 +180,8 @@
 			["b_use_mask"] = true,
 			["height"] = 200,
 			["is_append"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 17]两人逆着人群艰难行走，两名女孩路过，正在掰一根分享装棒冰，嬉笑声顺着晚风吹到了鸢的耳旁。[br][br][size 17]长发被风吹动着擦过肩膀，鸢回头看去，背影已经融入人海，无法分辨那对好朋友的身影。",
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][size 17]前往I.I.O.I.体验店的路上，言御和鸢逆着人群艰难行走。[br][br][size 17]两名女孩路过，正在掰一根分享装棒冰，嬉笑声顺着晚风吹到了鸢的耳旁。[br][br][size 17]长发被风吹动着擦过肩膀，鸢回头看去，背影已经融入人海，无法分辨那对好朋友的身影。",
 			["text_align"] = "center",
 		},
 		["guid"] = "FD0C6C684B80CDF0341962BFB9753243",
@@ -101,6 +200,20 @@
 			["event"] = "event:/bgm/s169_story_memory",
 			["length"] = 146000,
 			["operation"] = 1,
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -203,10 +316,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -327,10 +436,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -373,7 +478,7 @@
 				},
 			},
 			{
-				["anim"] = "doubt",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -382,10 +487,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -430,7 +531,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -445,10 +546,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -512,10 +609,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -559,7 +652,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -577,10 +670,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -643,10 +732,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -707,10 +792,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -773,10 +854,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -879,10 +956,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -931,65 +1004,17 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]巷子是一条靠近居民区的清静小路，只偶然有人路过，无需“逆流而上”，两人的速度加快了不少。[br][br][size 17]冷白的路灯洒下光辉，与黑暗共同组成了一条似乎没有尽头的路。",
 			["text_align"] = "center",
-		},
-		["characters"] = {
-			{
-				["anim"] = "normal_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af35sy/af35sy_action2",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
 					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am56yy/am56yy_action1",
-				["pos"] = {
-					-300,
-					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["direction"] = "right",
-							["dis"] = 100,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
@@ -1028,6 +1053,15 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 			{
 				["anim"] = "normal",
@@ -1049,12 +1083,17 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -1097,6 +1136,15 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 4000,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
 			},
 			{
 				["anim"] = "normal",
@@ -1115,12 +1163,41 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "shy_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af35sy/af35sy_action3",
+				["pos"] = {
+					300,
+					0,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 4000,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 4000,
+						},
+						["tween"] = "AlphaChange",
+					},
 				},
 			},
 		},
@@ -1181,10 +1258,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -1248,10 +1321,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1314,10 +1383,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1355,7 +1420,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -1427,10 +1492,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1472,7 +1533,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -1492,10 +1553,18 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
-			["mask_alpha"] = 0.80000001192093,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]——曾经很长一段时间里，他独自照镜子时也是同样的神情。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "77D8CBB444579989DD6F6B8ABD6EC484",
 		["guid_str"] = "aKCT7LG0",
@@ -1504,7 +1573,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -1525,9 +1594,8 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["height"] = 200,
-			["is_append"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 17]或许并不值得惊讶，无论是异世来客还是“本地人”，同调者们都在努力适应新的身份和环境，[br][br][size 17]在一日日的生活背后，那些过往和故事轻易不会再提起，但从未被忘记。",
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]或许并不值得惊讶，无论是异世来客还是“本地人”，同调者们都在努力适应新的身份和环境，[br][br][size 17]在一日日的生活背后，那些过往和故事轻易不会再提起，但从未被忘记。",
 			["text_align"] = "center",
 		},
 		["guid"] = "5AE8F44F41BC28F3C8C8679F9C621327",
@@ -1537,7 +1605,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -1559,7 +1627,7 @@
 			["b_use_mask"] = true,
 			["height"] = 200,
 			["is_append"] = true,
-			["mask_alpha"] = 0.80000001192093,
+			["mask_alpha"] = 0.5,
 			["text"] = "[br][br][size 17]转眼间，他们从路灯的光芒中走出，鸢的表情也隐没在黑暗中。",
 			["text_align"] = "center",
 		},
@@ -1570,7 +1638,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -1631,10 +1699,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1656,7 +1720,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -1676,7 +1740,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "smile_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1716,10 +1780,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1734,7 +1794,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -1776,7 +1836,7 @@
 				},
 			},
 			{
-				["anim"] = "doubt",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1795,10 +1855,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1808,12 +1864,12 @@
 		["guid_str"] = "nwhayuNu",
 		["id"] = 28,
 		["name"] = "言御",
-		["text"] = "原来鸢小姐也住在旧城区？",
+		["text"] = "原来鸢小姐也住在旧城区。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -1907,10 +1963,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -1925,7 +1977,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -1967,7 +2019,7 @@
 				},
 			},
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1986,10 +2038,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2004,7 +2052,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2030,7 +2078,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2046,7 +2094,7 @@
 				},
 			},
 			{
-				["anim"] = "cold",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2065,10 +2113,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2081,7 +2125,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2102,7 +2146,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]幕】御雀通信和白荆科技开始合作后，两人也有过工作上的接触，但从没谈论过相关的话题。",
+			["text"] = "[size 17]御雀通信和白荆科技开始合作后，两人也有过工作上的接触，但从没谈论过相关的话题。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2123,7 +2167,7 @@
 				},
 			},
 			{
-				["anim"] = "cold",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2142,10 +2186,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2158,7 +2198,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2200,7 +2240,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2218,10 +2258,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2237,7 +2273,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2298,10 +2334,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2316,7 +2348,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2376,10 +2408,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2394,7 +2422,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2436,7 +2464,7 @@
 				},
 			},
 			{
-				["anim"] = "closeeyesmile",
+				["anim"] = "scornful",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2454,10 +2482,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2473,7 +2497,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2493,7 +2517,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "smile1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2533,10 +2557,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2551,7 +2571,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2612,10 +2632,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2625,12 +2641,12 @@
 		["guid_str"] = "xKXvLoG7",
 		["id"] = 38,
 		["name"] = "言御",
-		["text"] = "还有水管生锈、下大雨的时候渗水、燃气不好使之类的……出问题的次数太多，又不能一直找人帮忙，最后只好全都由自己来。",
+		["text"] = "还有水管生锈、下大雨的时候渗水、燃气不好使之类的……\n出问题的次数太多，又不能一直找人帮忙，最后只好全都由自己来。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2650,7 +2666,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2690,10 +2706,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2708,7 +2720,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2769,10 +2781,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2787,7 +2795,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2848,10 +2856,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2864,7 +2868,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -2924,10 +2928,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -2943,7 +2943,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3003,10 +3003,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3016,12 +3012,12 @@
 		["guid_str"] = "yfBEO88i",
 		["id"] = 43,
 		["name"] = "鸢",
-		["text"] = "你说的是不是卖炒饼隔壁的那位瘦高的阿姨？我以前去买夜宵总能遇到她。前两天路过的时候还见到了，看着都没有什么变化。",
+		["text"] = "你说的是不是卖炒饼隔壁的那位瘦高的阿姨？我以前去买夜宵总能遇到她。\n前两天路过的时候还见到了，看着都没有什么变化。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3063,7 +3059,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3082,10 +3078,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3100,7 +3092,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3120,7 +3112,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1_add",
+				["anim"] = "smile3_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3160,10 +3152,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3178,7 +3166,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3204,7 +3192,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "smile3_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3239,10 +3227,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3255,7 +3239,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3275,7 +3259,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "closeeyesmile_add",
+				["anim"] = "smile3_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3315,10 +3299,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3333,7 +3313,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3385,10 +3365,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3401,7 +3377,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3421,7 +3397,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "sad_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3460,10 +3436,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3479,7 +3451,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3499,7 +3471,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "sad_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3521,7 +3493,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3539,10 +3511,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3558,7 +3526,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3619,10 +3587,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3637,7 +3601,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3657,7 +3621,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "closeeyeserious_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3697,10 +3661,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3715,7 +3675,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3741,7 +3701,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious_add",
+				["anim"] = "closeeyeserious_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3767,10 +3727,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3783,7 +3739,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3803,7 +3759,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "guilt_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3817,13 +3773,22 @@
 					},
 				},
 				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af35sy/af35sy_action2",
+				["path"] = "af35sy/af35sy_action3",
 				["pos"] = {
 					300,
 					0,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 			{
@@ -3842,10 +3807,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3861,7 +3822,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3881,7 +3842,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "guilt_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3893,7 +3854,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af35sy/af35sy_action2",
+				["path"] = "af35sy/af35sy_action3",
 				["pos"] = {
 					300,
 					0,
@@ -3903,7 +3864,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3921,10 +3882,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -3940,7 +3897,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -3999,10 +3956,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4018,7 +3971,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -4062,7 +4015,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4077,10 +4030,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4096,7 +4045,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -4138,7 +4087,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4156,10 +4105,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4175,7 +4120,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -4217,7 +4162,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4236,10 +4181,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4254,7 +4195,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -4298,7 +4239,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4314,10 +4255,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4332,7 +4269,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -4393,10 +4330,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4411,7 +4344,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -4453,7 +4386,7 @@
 				},
 			},
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4471,10 +4404,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4490,7 +4419,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -4510,7 +4439,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "surprise_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4549,10 +4478,6 @@
 				["pos"] = {
 					-300,
 					100,
-				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -4568,7 +4493,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -4610,7 +4535,7 @@
 				},
 			},
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4629,10 +4554,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4647,7 +4568,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -4708,10 +4629,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4726,7 +4643,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
 			},
 			{
 				["config"] = {
@@ -4746,7 +4663,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "sad_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4786,25 +4703,151 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
 			},
 		},
-		["guid"] = "D2EE047140C8A8F12F40C4A5FC4558AA",
-		["guid_str"] = "Gn7GjeV6",
+		["guid"] = "13F080B740082153A63D5AB81D80F281",
+		["guid_str"] = "TykZlYdU",
 		["id"] = 66,
 		["name"] = "鸢",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5035_Gn7GjeV6",
+		},
 		["text"] = "监督……",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["direction"] = "left",
+								["dis"] = 50,
+								["time"] = 2000,
+							},
+							["tween"] = "MoveOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog01SceneBG/bg_alley_08.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 500,
+								["direction"] = "left",
+								["dis"] = 50,
+								["end_alpha"] = 1.0,
+								["time"] = 1000,
+							},
+							["tween"] = "MoveIn",
+						},
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.0,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["id"] = "36",
+					["is_enabled"] = true,
+					["offset"] = {
+						250,
+						-20,
+					},
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af35sy/af35sy_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "D2EE047140C8A8F12F40C4A5FC4558AA",
+		["guid_str"] = "Gn7GjeV6",
+		["id"] = 67,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_daytime_quiet",
+				["length"] = 51692,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 1800,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 				["config"] = {
@@ -4848,6 +4891,27 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 500,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
 			},
 			{
 				["anim"] = "normal",
@@ -4869,25 +4933,33 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
 				},
 			},
 		},
 		["guid"] = "8EBB116341652DB82627CC8002D2BB63",
 		["guid_str"] = "toYhwBxV",
-		["id"] = 67,
+		["id"] = 68,
 		["name"] = "言御",
 		["text"] = "我们到了。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 				["config"] = {
@@ -4908,9 +4980,18 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["height"] = 200,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]说着话，走到地方了。被勒令停业后已经好久没开门，不过还亮着灯。",
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]小巷的尽头连接着海临最繁华的商业街之一，这里是海临的中心城，无数耳熟能详的品牌与店铺都坐落于此——[br][br][size 17]白荆科技旗下的I.I.O.I.体验店也是一样。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -4955,10 +5036,6 @@
 					-300,
 					100,
 				},
-				["scale"] = {
-					1.0499999523163,
-					1.0499999523163,
-				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4975,45 +5052,12 @@
 		},
 		["guid"] = "3268C29342ED21F9E8354AB72FF76C0B",
 		["guid_str"] = "HDfxRVZI",
-		["id"] = 68,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
-			},
-			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 1000,
-								["direction"] = "left",
-								["dis"] = 100,
-								["time"] = 1000,
-							},
-							["tween"] = "MoveOut",
-						},
-					},
-				},
-			},
-		},
-		["caption_info"] = {
-			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_append"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 17]鸢这边开门，言御顺便看了一眼倒计时",
-			["text_align"] = "center",
-		},
-		["guid"] = "5A50B9074BD875B32C665B8FA87A24A4",
-		["guid_str"] = "SoDU9K94",
 		["id"] = 69,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 				["config"] = {
@@ -5035,18 +5079,18 @@
 			["b_use_mask"] = true,
 			["height"] = 200,
 			["is_append"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 17]门开了，两人走进店铺，iioi环境描写",
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][size 17]虽然被勒令休业后所有的体验店就不再开门，但店内依然保持着亮灯的状态。",
 			["text_align"] = "center",
 		},
-		["guid"] = "554844C84ECCF0147B5F2CAFD629B2B8",
-		["guid_str"] = "6RfZSWAI",
+		["guid"] = "5A50B9074BD875B32C665B8FA87A24A4",
+		["guid_str"] = "SoDU9K94",
 		["id"] = 70,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 				["config"] = {
@@ -5068,13 +5112,57 @@
 			["b_use_mask"] = true,
 			["height"] = 200,
 			["is_append"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 17]几台失灵的sweeper动了起来。",
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][size 17]鸢刷卡开门，言御也跟在后面走了进去。体验店内，作为商品的机器人们安静地站在展示柜内，看起来并无异样。",
+			["text_align"] = "center",
+		},
+		["guid"] = "554844C84ECCF0147B5F2CAFD629B2B8",
+		["guid_str"] = "6RfZSWAI",
+		["id"] = 71,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["cycle"] = 2,
+								["delay"] = 0,
+								["time"] = 200,
+							},
+							["tween"] = "Breathe",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 1000,
+								["direction"] = "left",
+								["dis"] = 100,
+								["time"] = 1000,
+							},
+							["tween"] = "MoveOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_red.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][size 17]然而就在两人准备四处走走查看情况时，玻璃柜内突然射出几道诡异的红光。",
 			["text_align"] = "center",
 		},
 		["guid"] = "1EFA5F68472CE035C304EDA423856740",
 		["guid_str"] = "UpOOv264",
-		["id"] = 71,
+		["id"] = 72,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/player/ax01sweeper/ax01_skill_ultra_a",
@@ -5087,7 +5175,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
 			},
 			{
 				["config"] = {
@@ -5107,8 +5195,37 @@
 		},
 		["guid"] = "97DE4FFD48B71BAC9B7349885DEACBE4",
 		["guid_str"] = "2wm1QPRE",
-		["id"] = 72,
+		["id"] = 73,
 		["name"] = "量产型家用机器人",
 		["text"] = "清洁模式启动。",
+		["voice_effect"] = {
+			["event"] = "sweeper",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_02.png",
+			},
+			{
+			},
+		},
+		["guid"] = "2D7615F947E23DF77D4F6FB271942C45",
+		["guid_str"] = "x8MZ1yts",
+		["id"] = 74,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["time"] = 1800,
 	},
 }
