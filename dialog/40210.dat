@@ -26,6 +26,7 @@
 		["guid"] = "9DEA99424393028B4EAEB1A5D7CADE2F",
 		["guid_str"] = "ZAf2fByC",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -54,6 +55,7 @@
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_office_04.png",
 			},
 			{
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_office_04.png",
 			},
 		},
 		["caption_info"] = {
@@ -631,7 +633,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "scornful1_add",
+				["anim"] = "sad3_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1157,7 +1159,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]办公室的家具开始固定，家具开始收缩，地面开始裂开，\n\n电子屏上第一次弹出倒计时以外的字样。\n",
+			["text"] = "[size 17]办公室的家具开始固定、收缩，地面开始裂开，\n\n电子屏上第一次弹出倒计时以外的字样。\n",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -1787,6 +1789,13 @@
 			["anim"] = "anger_add",
 			["body_anim"] = "default_loop",
 		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2023,6 +2032,7 @@
 		["guid"] = "BC6B4E4547FAA976FBD652AA365E2974",
 		["guid_str"] = "KeU0sML9",
 		["id"] = 40,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",

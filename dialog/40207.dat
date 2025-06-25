@@ -54,6 +54,7 @@
 		["guid"] = "2F7C97B94272477AC06083B105C0F494",
 		["guid_str"] = "2uvUIWdE",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -989,6 +990,22 @@
 				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
 			},
 		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_show_all"] = true,
+			["text"] = "[size 17][font cusong]谢谢你的力量  灰锈女士",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 700,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 		["characters"] = {
 			{
 				["anim"] = "normal",
@@ -1022,6 +1039,7 @@
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/chapter08/cg_8_12_guiling_01_loop.bk2",
+				["play_delay_time"] = 200,
 				["sustain_page_count"] = 2,
 				["template_type"] = "video",
 			},
@@ -1041,16 +1059,27 @@
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/chapter08/cg_8_12_guiling_01_in.bk2",
 				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 		},
-		["name"] = "司旸",
+		["sound"] = {
+			["volume"] = 1.5,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/1-08-sword-hit-ground",
 				["length"] = 0,
 			},
 		},
-		["text"] = "谢谢你的力量，灰锈女士。",
 		["voice_effect"] = {
 			["event"] = "cthulhu",
 		},
@@ -1090,6 +1119,32 @@
 				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
 			},
 		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["text"] = "[size 17][font cusong]归 零",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 700,
+						["time"] = 600,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 0.0,
+						["start_alpha"] = 0.0,
+						["time"] = 0,
+					},
+					["tween"] = "AlphaChange",
+				},
+			},
+		},
 		["characters"] = {
 			{
 				["anim"] = "normal",
@@ -1102,6 +1157,11 @@
 					["material"] = "M_UI_SpineShadow",
 				},
 			},
+		},
+		["extra_sound"] = {
+			["delay"] = 1000,
+			["event"] = "voice_ch_quest_story_episode5043_GghpFyZx",
+			["volume"] = 2.0,
 		},
 		["guid"] = "054750814A4E0FC3CDC735A775D451E2",
 		["guid_str"] = "GghpFyZx",
@@ -1145,8 +1205,8 @@
 				["template_type"] = "video",
 			},
 		},
-		["name"] = "司旸",
 		["sound"] = {
+			["event"] = "1",
 			["volume"] = 2.0,
 		},
 		["soundfx"] = {
@@ -1160,7 +1220,6 @@
 				["volume"] = 0.60000002384186,
 			},
 		},
-		["text"] = "归零。",
 		["voice_effect"] = {
 			["event"] = "cthulhu",
 		},
@@ -1233,6 +1292,7 @@
 		["guid"] = "E6DB136C47EEE6686D36A0A7F18C938E",
 		["guid_str"] = "QWV6WAMN",
 		["id"] = 15,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1321,6 +1381,7 @@
 		["guid"] = "6FF3CAA645E8BEE983CA2A86B27D7FC7",
 		["guid_str"] = "l9kKRouP",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {

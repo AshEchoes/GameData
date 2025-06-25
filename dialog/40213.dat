@@ -10,6 +10,15 @@
 		["female_bg_info"] = {
 			{
 				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 500,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
 					["video"] = {
 						["is_queue"] = true,
 						["is_ratio_full"] = true,
@@ -21,6 +30,26 @@
 			},
 			{
 				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.0,
+								["time"] = 500,
+							},
+							["tween"] = "AlphaChange",
+						},
+						{
+							["param"] = {
+								["delay"] = 500,
+								["end_alpha"] = 1.0,
+								["start_alpha"] = 0.0,
+								["time"] = 20,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
@@ -38,6 +67,15 @@
 		["male_bg_info"] = {
 			{
 				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 500,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
 					["video"] = {
 						["is_queue"] = true,
 						["is_ratio_full"] = true,
@@ -49,6 +87,26 @@
 			},
 			{
 				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.0,
+								["time"] = 500,
+							},
+							["tween"] = "AlphaChange",
+						},
+						{
+							["param"] = {
+								["delay"] = 500,
+								["end_alpha"] = 1.0,
+								["start_alpha"] = 0.0,
+								["time"] = 20,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,

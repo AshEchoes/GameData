@@ -2,7 +2,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_templefair_07.png",
 			},
 			{
 			},
@@ -27,6 +27,16 @@
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/chapter08/cg_8_10_siyanghuitou_in.bk2",
 				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 		},
 		["just_auto_play"] = true,
@@ -37,13 +47,13 @@
 				["stop"] = 1,
 			},
 			{
-				["event"] = "event:/sfx/story/0-03/0002_magic_appease_lp",
-				["length"] = 10561,
+				["event"] = "event:/sfx/story/8/cg_8_10_siyanghuitou_in",
+				["length"] = 8700,
 				["loop"] = 1,
 			},
 			{
-				["event"] = "event:/sfx/story/8/cg_8_10_siyanghuitou_in",
-				["length"] = 8700,
+				["event"] = "event:/sfx/story/blackout/avg_blackout_leaves_wind-001",
+				["length"] = 7750,
 				["loop"] = 1,
 			},
 		},

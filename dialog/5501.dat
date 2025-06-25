@@ -940,7 +940,7 @@
 			["anim"] = "serious_add",
 		},
 		["name"] = "白鸟梓",
-		["text"] = "……他还说不要在人前使用会惹来麻烦，弄巧成拙还可以引来杀身之祸，但要是……你在场就没问题。",
+		["text"] = "……他还说不要在人前使用会惹来麻烦，弄巧成拙还可能引来杀身之祸，但要是……你在场就没问题。",
 	},
 	{
 		["bg_info"] = {
@@ -1419,7 +1419,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1",
+				["anim"] = "wink",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2883,13 +2883,33 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
 					},
 				},
 				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_museum_07.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+		},
+		["guid"] = "A5722E0B45C45CF31CF28D843A7AB161",
+		["guid_str"] = "ZcUgxEHI",
+		["id"] = 56,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
 			},
 			{
 				["config"] = {
@@ -2903,6 +2923,15 @@
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
 					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
 				},
 				["path"] = "interface/resource/Game/DialogRCPicBG/bg_gate_office.png",
 			},
@@ -2912,7 +2941,8 @@
 		},
 		["guid"] = "476B58694A98F4007964A796910FCB08",
 		["guid_str"] = "U78OeAD3",
-		["id"] = 56,
+		["id"] = 57,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2956,6 +2986,7 @@
 				["length"] = 2491,
 			},
 		},
+		["time"] = 1500,
 	},
 	{
 		["bg_info"] = {
@@ -3065,7 +3096,7 @@
 		},
 		["guid"] = "6CB7AD1A40C5A8D5CC35DFB3FFE14961",
 		["guid_str"] = "9hpLHbu3",
-		["id"] = 57,
+		["id"] = 58,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3184,7 +3215,7 @@
 		},
 		["guid"] = "ED982BB3475E15B697C2F98B0F606ED5",
 		["guid_str"] = "neXmoqbC",
-		["id"] = 58,
+		["id"] = 59,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3303,7 +3334,7 @@
 		},
 		["guid"] = "22F2E611451A429456DF58A56D0C3EC8",
 		["guid_str"] = "OQBr4U7S",
-		["id"] = 59,
+		["id"] = 60,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3423,7 +3454,7 @@
 		},
 		["guid"] = "4EE6CDD9433AA18A27087EAF70FF8677",
 		["guid_str"] = "NjFKAk7w",
-		["id"] = 60,
+		["id"] = 61,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3542,7 +3573,7 @@
 		},
 		["guid"] = "9A4753234E38807503A9FE9F0E624A7B",
 		["guid_str"] = "hYVHZ8RB",
-		["id"] = 61,
+		["id"] = 62,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3661,7 +3692,7 @@
 		},
 		["guid"] = "7CBDD27F4BEA112E94F412A3CDE6AF7B",
 		["guid_str"] = "jK7C6cJD",
-		["id"] = 62,
+		["id"] = 63,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3780,7 +3811,7 @@
 		},
 		["guid"] = "4D62EBC54FE4EA433FB30BA7451CF1D2",
 		["guid_str"] = "eWHBR2fg",
-		["id"] = 63,
+		["id"] = 64,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3900,7 +3931,7 @@
 		},
 		["guid"] = "048A96D54EF7821ADD8CCFBC8319C53F",
 		["guid_str"] = "bTuwMDxu",
-		["id"] = 64,
+		["id"] = 65,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -4019,7 +4050,7 @@
 		},
 		["guid"] = "552160084E6FC673B26F84AFF651CC9D",
 		["guid_str"] = "1D1vZ1gf",
-		["id"] = 65,
+		["id"] = 66,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -4138,7 +4169,7 @@
 		},
 		["guid"] = "6A39CF8D4DD6580D2C47D395AE3FA9AA",
 		["guid_str"] = "idnzjY9l",
-		["id"] = 66,
+		["id"] = 67,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -4258,7 +4289,7 @@
 		},
 		["guid"] = "0577542A4301FA0B856A318E376E1061",
 		["guid_str"] = "n2m2bpgj",
-		["id"] = 67,
+		["id"] = 68,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -4377,7 +4408,7 @@
 		},
 		["guid"] = "B6A2A33347718F6E14F74C9A83960B9D",
 		["guid_str"] = "7USjO91G",
-		["id"] = 68,
+		["id"] = 69,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -4402,7 +4433,7 @@
 		["sound_control"] = {
 			["effect"] = 4,
 		},
-		["text"] = "就这样背着[M]师弟[/M][F]师妹[/F]打起“退位让贤”的主意，您的强势作风无论是[rolename]还是筱筱恐怕一时间都无法应接，瞳老师还更像些。",
+		["text"] = "就这样背着[M]师弟[/M][F]师妹[/F]打起“退位让贤”的主意，您的强势作风无论是[rolename]还是筱筱恐怕一时间都无法接应，瞳老师还更像些。",
 	},
 	{
 		["bg_info"] = {
@@ -4492,7 +4523,7 @@
 		},
 		["guid"] = "B7ACB8BF48B66DBD97BFD6B1A059EEFE",
 		["guid_str"] = "yFdjHOzY",
-		["id"] = 69,
+		["id"] = 70,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -4607,7 +4638,7 @@
 		},
 		["guid"] = "CD6B450A419BD50B13B11FA418B6AA5E",
 		["guid_str"] = "cCoTp3EL",
-		["id"] = 70,
+		["id"] = 71,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -4722,7 +4753,7 @@
 		},
 		["guid"] = "1406F48E4321A9D307BAC09297EB94B4",
 		["guid_str"] = "ARI4NLwq",
-		["id"] = 71,
+		["id"] = 72,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -4841,7 +4872,7 @@
 		},
 		["guid"] = "5342AC0D49FA496D43EAF3B7CCF3C4A2",
 		["guid_str"] = "4PTaLcZw",
-		["id"] = 72,
+		["id"] = 73,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -4956,7 +4987,7 @@
 		},
 		["guid"] = "C6F745854BBCEC76946E9A9CE78EF199",
 		["guid_str"] = "jGY2WsDh",
-		["id"] = 73,
+		["id"] = 74,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -5075,7 +5106,7 @@
 		},
 		["guid"] = "C74288C142AB851E5D2773813BED0C41",
 		["guid_str"] = "lb5noRpu",
-		["id"] = 74,
+		["id"] = 75,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -5190,7 +5221,7 @@
 		},
 		["guid"] = "1B98994E490DC164EB6D94BBC4AE26CC",
 		["guid_str"] = "MGHFgnA6",
-		["id"] = 75,
+		["id"] = 76,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -5309,7 +5340,7 @@
 		},
 		["guid"] = "697983BE44F3E524F91FF0BE6656FC15",
 		["guid_str"] = "1iCnIr8f",
-		["id"] = 76,
+		["id"] = 77,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -5424,7 +5455,7 @@
 		},
 		["guid"] = "A9F433DC4CE2B45E8570F087D9A367D5",
 		["guid_str"] = "tnJ8ucIu",
-		["id"] = 77,
+		["id"] = 78,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -5543,7 +5574,7 @@
 		},
 		["guid"] = "928453F54B64A2FE44CB428CDF1AB138",
 		["guid_str"] = "uMwDASp8",
-		["id"] = 78,
+		["id"] = 79,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -5658,7 +5689,7 @@
 		},
 		["guid"] = "5B899FD243B5F3D2224892B4943B907B",
 		["guid_str"] = "jDuiuj47",
-		["id"] = 79,
+		["id"] = 80,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -5773,7 +5804,7 @@
 		},
 		["guid"] = "84A880B64C450F377187A59E5182461D",
 		["guid_str"] = "fi0vz5cu",
-		["id"] = 80,
+		["id"] = 81,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -5888,7 +5919,7 @@
 		},
 		["guid"] = "F6936E754D35ABC5586E0BAC053FD074",
 		["guid_str"] = "spMIPxFH",
-		["id"] = 81,
+		["id"] = 82,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6007,7 +6038,7 @@
 		},
 		["guid"] = "B83131144936EDF71F0FE494F330774E",
 		["guid_str"] = "mIyPjSoh",
-		["id"] = 82,
+		["id"] = 83,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6126,7 +6157,7 @@
 		},
 		["guid"] = "D998B3D54D0EDBF20A5E7893BFE58C50",
 		["guid_str"] = "WV1yKKhc",
-		["id"] = 83,
+		["id"] = 84,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6241,7 +6272,7 @@
 		},
 		["guid"] = "7DC298F840476BCADDD6229C10F2DCBC",
 		["guid_str"] = "a848EZmQ",
-		["id"] = 84,
+		["id"] = 85,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6360,7 +6391,7 @@
 		},
 		["guid"] = "C3934C3743D236C1F463FEA0F8855A76",
 		["guid_str"] = "gJWFFCrh",
-		["id"] = 85,
+		["id"] = 86,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6479,7 +6510,7 @@
 		},
 		["guid"] = "944780DC4894E7F4B232498074D0A0CF",
 		["guid_str"] = "9UewuqEP",
-		["id"] = 86,
+		["id"] = 87,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6594,7 +6625,7 @@
 		},
 		["guid"] = "383A5B47458987FD21A1419E132B0A98",
 		["guid_str"] = "uJ61fH3K",
-		["id"] = 87,
+		["id"] = 88,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6713,7 +6744,7 @@
 		},
 		["guid"] = "1845B7714C705D41F963BA895C06B53D",
 		["guid_str"] = "V8NtDmbN",
-		["id"] = 88,
+		["id"] = 89,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6828,7 +6859,7 @@
 		},
 		["guid"] = "B61BDF6B45F6DACC84CA2A9FE48DC88A",
 		["guid_str"] = "Cr9Sa2f5",
-		["id"] = 89,
+		["id"] = 90,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6947,7 +6978,7 @@
 		},
 		["guid"] = "D625C9C14FE00E1F7F0FDB9D6DE640A9",
 		["guid_str"] = "9wxnTyDN",
-		["id"] = 90,
+		["id"] = 91,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6972,7 +7003,7 @@
 		["sound_control"] = {
 			["effect"] = 4,
 		},
-		["text"] = "[M][rolename][/M][rolename][F][/F]不知道，筱筱编在了头发里，我一直插在口袋上，您说的，“要一直带着”。",
+		["text"] = "[M][rolename][/M][F][rolename][/F]不知道，筱筱编在了头发里，我一直插在口袋上，您说的，“要一直带着”。",
 	},
 	{
 		["bg_info"] = {
@@ -7062,7 +7093,7 @@
 		},
 		["guid"] = "079D062F47AF41EAB2ECC48CAF172C83",
 		["guid_str"] = "x7iwK9hb",
-		["id"] = 91,
+		["id"] = 92,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -7181,7 +7212,7 @@
 		},
 		["guid"] = "266B22754DAAD6C2C2DF49AF64B1848A",
 		["guid_str"] = "QvPnuqRn",
-		["id"] = 92,
+		["id"] = 93,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -7296,7 +7327,7 @@
 		},
 		["guid"] = "A3D06CE4477A7865AD2B3C8004BE4B9F",
 		["guid_str"] = "PkyBHImY",
-		["id"] = 93,
+		["id"] = 94,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -7411,7 +7442,7 @@
 		},
 		["guid"] = "0903D9FB49587F057151FFAFAC0E886C",
 		["guid_str"] = "Sat3d0DN",
-		["id"] = 94,
+		["id"] = 95,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -7530,7 +7561,7 @@
 		},
 		["guid"] = "57BC654E46019998754164A24458711F",
 		["guid_str"] = "FMgJMDSQ",
-		["id"] = 95,
+		["id"] = 96,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -7674,7 +7705,7 @@
 		},
 		["guid"] = "94767DDB49DFBA1770051BB4487A0BBB",
 		["guid_str"] = "bQYhXBpA",
-		["id"] = 96,
+		["id"] = 97,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
 		},
@@ -7732,7 +7763,7 @@
 		},
 		["guid"] = "2F78E5CE4A281D9C2C7DB3A7AD2DFF33",
 		["guid_str"] = "tDxrQM2A",
-		["id"] = 97,
+		["id"] = 98,
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -7791,7 +7822,7 @@
 		},
 		["guid"] = "FB6989D34DFF6B08F2174E84FC13E86F",
 		["guid_str"] = "tzMl6DFF",
-		["id"] = 98,
+		["id"] = 99,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
 		},
@@ -7867,7 +7898,7 @@
 		},
 		["guid"] = "9D241FB94422C863EDA14DAEDD183213",
 		["guid_str"] = "v4uLZU90",
-		["id"] = 99,
+		["id"] = 100,
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",

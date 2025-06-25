@@ -21,6 +21,7 @@
 		["guid"] = "4EDDCFD749FC705A5D4CD6B440F989A7",
 		["guid_str"] = "XRgO4eLn",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -303,7 +304,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 2000,
+								["time"] = 1500,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -369,6 +370,7 @@
 				["length"] = 2491,
 			},
 		},
+		["time"] = 1500,
 	},
 	{
 		["bg_info"] = {
@@ -976,7 +978,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 2000,
+								["time"] = 1500,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -1064,6 +1066,7 @@
 		["guid"] = "B7EA77F4406BD98FD2B02690A48EA8AA",
 		["guid_str"] = "acO6T9SY",
 		["id"] = 14,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -1087,6 +1090,7 @@
 				["length"] = 1846,
 			},
 		},
+		["time"] = 1500,
 	},
 	{
 		["bg_info"] = {
@@ -1640,7 +1644,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 2000,
+								["time"] = 1500,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -1707,6 +1711,7 @@
 				["length"] = 1846,
 			},
 		},
+		["time"] = 1500,
 	},
 	{
 		["bg_info"] = {
@@ -2131,7 +2136,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 2000,
+								["time"] = 1700,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -2230,6 +2235,7 @@
 		["guid"] = "9D9E72654C98190CB9E4C4BDF5D7F761",
 		["guid_str"] = "bFViaQVy",
 		["id"] = 25,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -2263,6 +2269,7 @@
 				["volume"] = 1.5,
 			},
 		},
+		["time"] = 1700,
 	},
 	{
 		["bg_info"] = {
@@ -2324,6 +2331,9 @@
 			},
 		},
 		["name"] = "司旸",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5043_SdSt5fQYmix",
+		},
 		["speaker_info"] = {
 			["anim"] = "serious",
 			["material"] = "M_UI_SpinePortrait",
@@ -2331,13 +2341,42 @@
 			["tween"] = {
 				{
 					["param"] = {
-						["delay"] = 0,
+						["delay"] = 500,
 						["time"] = 400,
 					},
 					["tween"] = "FadeIn",
 				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 0.0,
+						["start_alpha"] = 0.0,
+						["time"] = 0,
+					},
+					["tween"] = "AlphaChange",
+				},
 			},
 		},
 		["text"] = "不对……还在继续是因为……",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 500,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 0.0,
+						["start_alpha"] = 0.0,
+						["time"] = 0,
+					},
+					["tween"] = "AlphaChange",
+				},
+			},
+		},
 	},
 }
