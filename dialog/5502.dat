@@ -379,6 +379,9 @@
 		["id"] = 6,
 		["name"] = "芙蕖",
 		["text"] = "今天非常感谢大家的到来！每个人都有好好享受了么！",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -439,6 +442,9 @@
 		["guid_str"] = "bFq8SsdM",
 		["id"] = 7,
 		["name"] = "众人",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "[size 22]有！！！",
 		["text_info"] = {
 			["tween"] = {
@@ -510,6 +516,9 @@
 		["id"] = 8,
 		["name"] = "芙蕖",
 		["text"] = "可以和大家相遇，在所有人的支持和鼓励下站在舞台上一起唱歌，对我们来说真的是最最幸福的事！",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -519,7 +528,7 @@
 						{
 							["param"] = {
 								["cycle"] = 1,
-								["delay"] = 1000,
+								["delay"] = 8000,
 								["time"] = 100,
 							},
 							["tween"] = "Breathe",
@@ -579,6 +588,9 @@
 		["id"] = 9,
 		["name"] = "芙蕖",
 		["text"] = "那么最后，我们一起来拍照吧！要用最灿烂的笑容哦~3、2、1……啊！",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -639,10 +651,22 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "",
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["cycle"] = 1,
+								["delay"] = 6000,
+								["time"] = 200,
+							},
+							["tween"] = "Breathe",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_02.png",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_stage_02.png",
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_white.png",
 			},
 		},
 		["caption_info"] = {
@@ -692,6 +716,9 @@
 		["id"] = 11,
 		["name"] = "芙蕖",
 		["text"] = "让我们再来一次！3、2、1！耶！",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -745,6 +772,9 @@
 		["id"] = 12,
 		["name"] = "芙蕖",
 		["text"] = "Binary Star会一直闪耀~今后也请大家继续支持我们！",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -911,6 +941,9 @@
 		["id"] = 15,
 		["name"] = "芙蕖",
 		["text"] = "怎么办呀，真的很舍不得和大家说再见，司危，我们不能最后再唱一首么？",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1019,7 +1052,13 @@
 		["guid_str"] = "XtjittHj",
 		["id"] = 17,
 		["name"] = "芙蕖",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5037_JHcpldeC",
+		},
 		["text"] = "大家呢？有没有人像我一样，突然觉得今夜还有一点不完整~",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1072,7 +1111,13 @@
 		["guid_str"] = "JHcpldeC",
 		["id"] = 18,
 		["name"] = "芙蕖",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5037_JHcpldeC1",
+		},
 		["text"] = "想不想和我们再一次合唱那首歌！",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1134,6 +1179,9 @@
 		["guid_str"] = "zTr3RAD0",
 		["id"] = 19,
 		["name"] = "众人",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "想！！！！！！",
 		["text_info"] = {
 			["tween"] = {
@@ -1251,6 +1299,9 @@
 		["id"] = 21,
 		["name"] = "芙蕖&司危",
 		["text"] = "《偶像自白书》！",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3238,6 +3289,9 @@
 		["id"] = 52,
 		["name"] = "芙蕖",
 		["text"] = "非常感谢大家愿意留下来和我们一起完成《偶像自白书》的表演，这次可是真的要结束了。在最后的最后，就让司危来为今晚说一句告别语吧！",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3452,8 +3506,15 @@
 		["guid"] = "1F8CED4144B0169C9732B3A41617FF0C",
 		["guid_str"] = "GNuSWmnQ",
 		["id"] = 56,
+		["just_auto_play"] = true,
 		["name"] = "芙蕖",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5037_fuqu001",
+		},
 		["text"] = "那么就是这样，再次感谢大家的到来，让我们下次再——",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3499,7 +3560,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3514,7 +3575,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4149,6 +4210,9 @@
 		["id"] = 68,
 		["name"] = "芙蕖",
 		["text"] = "…………",
+		["voice_effect"] = {
+			["event"] = "microphone",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -4638,6 +4702,9 @@
 		["guid_str"] = "hGSxXib3",
 		["id"] = 79,
 		["name"] = "芙蕖",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5037_h63eugXh",
+		},
 		["text"] = "从决定登上舞台的那一刻起我就开始坚信，我们会在这里创造一个属于自己的新世界。",
 	},
 	{
@@ -4669,6 +4736,9 @@
 		["guid_str"] = "h63eugXh",
 		["id"] = 80,
 		["name"] = "芙蕖",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5037_fuqu003",
+		},
 		["text"] = "所以无论发生什么……",
 	},
 	{
@@ -4740,6 +4810,9 @@
 		["guid_str"] = "MnNccEhD",
 		["id"] = 82,
 		["name"] = "芙蕖",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5037_fuqu004",
+		},
 		["text"] = "我都不会再害怕了。",
 	},
 	{
