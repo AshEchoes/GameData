@@ -405,20 +405,20 @@
 		["max_count"] = 7,
 		["related_activity_id"] = 31,
 		["show_type"] = 3,
-		["sign_desc"] = "[size 30]定巡之礼·[/size][size 48]${activity_name}[/size][size 30]·上[/size]#活动期间，累积签到7日，即可获得共计同调线索x7",
+		["sign_desc"] = "[size 30]定巡之礼·[/size][size 48]${activity_name}[/size]#活动期间，累积签到7日，即可获得共计同调线索x7",
+		["sign_img_path"] = "version_sign_bg_activity_chapters_9",
 		["tid"] = 41,
 		["type"] = 1,
 	},
 	[42] = {
 		["can_supplement"] = false,
 		["common_reward_path"] = "reward_dailysign_version",
-		["event"] = "activity_chapter_9_2",
+		["event"] = "activity_chapter_9_2_close",
 		["institute_limit"] = 0,
 		["institute_money"] = 0,
 		["max_count"] = 7,
-		["related_activity_id"] = 31,
 		["show_type"] = 3,
-		["sign_desc"] = "[size 30]定巡之礼·[/size][size 48]${activity_name}[/size][size 30]·下[/size]#活动期间，累积签到7日，即可获得共计同调线索x7",
+		["sign_desc"] = "[size 30]定巡之礼·[/size][size 48]${activity_name}[/size]#活动期间，累积签到7日，即可获得共计同调线索x7",
 		["tid"] = 42,
 		["type"] = 1,
 	},
@@ -449,6 +449,65 @@
 		["sign_img_path"] = "summer",
 		["tid"] = 44,
 		["type"] = 2,
+	},
+	[45] = {
+		["can_supplement"] = false,
+		["common_reward_path"] = "reward_dailysign_onehalf",
+		["event"] = "activity_sign_onehalf",
+		["hud_icon"] = "smallmenu_20",
+		["institute_limit"] = 0,
+		["institute_money"] = 0,
+		["max_count"] = 42,
+		["show_type"] = 6,
+		["sign_desc"] = "[c f0fdff]灼愿千重庆典[/c]",
+		["sign_img_path"] = "summer2",
+		["tid"] = 45,
+		["type"] = 2,
+	},
+	[46] = {
+		["can_supplement"] = true,
+		["common_reward_path"] = "reward_dailysign_1",
+		["cumulative_reward"] = {
+			[14] = {
+				["reward_dailysign"] = {
+					103,
+				},
+			},
+			[21] = {
+				["reward_dailysign"] = {
+					104,
+				},
+			},
+			[28] = {
+				["reward_dailysign"] = {
+					105,
+				},
+			},
+			[3] = {
+				["reward_dailysign"] = {
+					101,
+				},
+			},
+			[7] = {
+				["reward_dailysign"] = {
+					102,
+				},
+			},
+		},
+		["event"] = "activity_chapter_9_2_open",
+		["institute_limit"] = 0,
+		["institute_money"] = 0,
+		["max_count"] = 31,
+		["scheme_id"] = 3,
+		["show_type"] = 0,
+		["supplementary_cost"] = {
+			{
+				["count"] = 1,
+				["tid"] = 33554433,
+			},
+		},
+		["tid"] = 46,
+		["type"] = 1,
 	},
 	[4] = {
 		["can_supplement"] = false,
