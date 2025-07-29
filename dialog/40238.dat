@@ -1,0 +1,686 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["am"] = 15,
+								["delay"] = 0,
+								["duration"] = 2000,
+								["time"] = 25,
+							},
+							["tween"] = "Shake",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+			},
+		},
+		["guid"] = "A697F28F4EB51BBE3DFEFAA64B148AEA",
+		["guid_str"] = "kA68i9h1",
+		["id"] = 1,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/Amb_RoomTone",
+				["length"] = 34459,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/0-01/0007_buildingcrash",
+				["length"] = 8987,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_d1_zhixuebeiying_loop",
+				["length"] = 3033,
+				["loop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]脚下的地面随着整栋楼一起剧烈晃动，我们努力维持平衡，同时拼了命一路狂奔。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "551B5BB44C1E132FA1DC84BE430E8CBA",
+		["guid_str"] = "E2GUNSoZ",
+		["id"] = 2,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]后方的地板在一节节塌陷，而前面似乎没有尽头。",
+			["text_align"] = "center",
+		},
+		["guid"] = "AAB5D5134BAAA51F1404AFA02C1AC3C9",
+		["guid_str"] = "ZGKoxax1",
+		["id"] = 3,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am29lx/am29lx_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 300,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "263EC30341175657EB5FB9911680CEC6",
+		["guid_str"] = "w4N1fvN4",
+		["id"] = 4,
+		["name"] = "岚相",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "不反击么！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am29lx/am29lx_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "ED094C02472C402FBBF751A5EC09C7A0",
+		["guid_str"] = "QlHHB20t",
+		["id"] = 5,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "他是这个空间的主人，在这里，我们没有胜算！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am29lx/am29lx_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "E08FDB184D48B817A4E204A416182339",
+		["guid_str"] = "bOKyHGoN",
+		["id"] = 6,
+		["name"] = "岚相",
+		["text"] = "那怎么办！就这么一直逃？",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["duration"] = 400,
+						["time"] = 25,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am29lx/am29lx_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "498E9C6B4A045B53483D1987C2F0E2F0",
+		["guid_str"] = "C4ZRFm1s",
+		["id"] = 7,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "必须得找到出口！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["cycle"] = 2,
+								["delay"] = 400,
+								["time"] = 200,
+							},
+							["tween"] = "Breathe",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]像是感受到了我的迫切，口袋中突然闪烁起了异样的光彩。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am29lx/am29lx_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "D1DF7B884C65BF31D38C69BBD642DA3D",
+		["guid_str"] = "HqjebbEj",
+		["id"] = 8,
+		["is_white_base_bg"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_whoosh_03",
+				["length"] = 7684,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["cycle"] = 2,
+								["delay"] = 500,
+								["time"] = 400,
+							},
+							["tween"] = "Breathe",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.5,
+								["start_alpha"] = 0.5,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]我的手覆上口袋外侧，摸到一张硬质卡片。\n\n与此同时，前方的门也在发光，似乎有什么像花一样的形状在凝结，但我没有时间细看。\n",
+			["text_align"] = "center",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "2BA2358D4E8B2239A798B2B2AC593990",
+		["guid_str"] = "qn0ATTHK",
+		["id"] = 9,
+		["is_white_base_bg"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_whoosh_02",
+				["length"] = 7307,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["cycle"] = 2,
+								["delay"] = 0,
+								["time"] = 400,
+							},
+							["tween"] = "Breathe",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.5,
+								["start_alpha"] = 0.5,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]我的手覆上口袋外侧，摸到一张硬质卡片。\n\n与此同时，前方的门也在发光，似乎有什么像花一样的形状在凝结，但我没有时间细看。\n",
+			["text_align"] = "center",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "1EFA01E34277184D59269DA2D5280198",
+		["guid_str"] = "kI2GVbx4",
+		["id"] = 10,
+		["is_white_base_bg"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_whoosh_03",
+				["length"] = 7684,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 20]来不及思考了——",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["duration"] = 400,
+						["time"] = 25,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "F428C13948AC25156AF056ADFCAAAFA9",
+		["guid_str"] = "TQ3iHEzI",
+		["id"] = 11,
+		["is_white_base_bg"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "7FEE061A4A066D491223E9833CE61F65",
+		["guid_str"] = "ncL3PoMO",
+		["id"] = 12,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "进那扇门！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["am"] = 15,
+								["delay"] = 0,
+								["duration"] = 500,
+								["time"] = 25,
+							},
+							["tween"] = "Shake",
+						},
+						{
+							["param"] = {
+								["cycle"] = 2,
+								["delay"] = 100,
+								["time"] = 200,
+							},
+							["tween"] = "Breathe",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.5,
+								["start_alpha"] = 0.5,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.30000001192093,
+			["text"] = "[size 17]话音未落，我的手已经摸到把手，猛地用力。",
+			["text_align"] = "center",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "3680D66D4FF1C74379ED5797B3BA02F5",
+		["guid_str"] = "NGpbvFXC",
+		["id"] = 13,
+		["is_white_base_bg"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/avg_chapter9_door_palace_pushopen",
+				["length"] = 3054,
+				["loop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.30000001192093,
+			["text"] = "[size 17]白色光芒大盛，直至吞没我们所有人。",
+			["text_align"] = "center",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "8DC9F9A0463C51908AA21F95C1DDC528",
+		["guid_str"] = "EdZawAsb",
+		["id"] = 14,
+		["is_white_base_bg"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_whoosh_01",
+				["length"] = 7508,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_append"] = true,
+			["mask_alpha"] = 0.30000001192093,
+			["text"] = " ",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "03600E4E42AEDBA294F0929B1562E010",
+		["guid_str"] = "KSV82UE6",
+		["id"] = 15,
+		["is_white_base_bg"] = true,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["time"] = 1500,
+	},
+}

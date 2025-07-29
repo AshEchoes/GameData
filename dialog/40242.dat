@@ -1,0 +1,1981 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["F_CenterX"] = 0.5,
+							["F_CenterY"] = 0.5,
+							["F_Size"] = 2.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_RadialBlurBlur",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_11.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+		},
+		["guid"] = "A879BEDA4E7DAC3EA71BB4BBAE0298C6",
+		["guid_str"] = "yeP9MFCn",
+		["id"] = 1,
+		["is_white_base_bg"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/amb_forest_charm",
+				["length"] = 30000,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/9/avg_chapter9_amb_battlefield_crowd_loop",
+				["length"] = 30030,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_flame_blast",
+				["length"] = 10875,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]无数人来回奔走，传令的敲击声在四周震动着荡开，\n\n姜宁看到地上自己和十手卫的影子，又看向好像已经注意到二人格格不入的血露薇守卫，\n\n一把拉下十手卫躲到柱子后面。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 600,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "8C4EAB8C45F780B65E278B9131614031",
+		["guid_str"] = "D3Rvc3UU",
+		["id"] = 2,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["guid"] = "54179EBF45F81FF3FB619E9D330D660B",
+		["guid_str"] = "Vx5754dN",
+		["id"] = 3,
+		["name"] = "姜宁",
+		["speaker_info"] = {
+			["anim"] = "anger",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+		["text"] = "他们能看见我们，躲起来！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_m/n95blood_kimono_m_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 400,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_01/n95blood_kimono_f_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 400,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "589EC19B4D241E9431D52C852B3918B2",
+		["guid_str"] = "8dzvQgZ4",
+		["id"] = 4,
+		["name"] = "血露薇成员A",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "anger",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "魁主有令，所有人撤离！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_m/n95blood_kimono_m_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_01/n95blood_kimono_f_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "1F1F212649C4AD2EE489F4B88590D46E",
+		["guid_str"] = "IecnEk2f",
+		["id"] = 5,
+		["name"] = "血露薇成员B",
+		["speaker_info"] = {
+			["anim"] = "anger",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "撤离？？可魁主大人和守门人大人不是还在——",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_m/n95blood_kimono_m_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_01/n95blood_kimono_f_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "65D3EACA4C81707C605FD3B511CE7D92",
+		["guid_str"] = "egJ5c3cb",
+		["id"] = 6,
+		["name"] = "修",
+		["speaker_info"] = {
+			["anim"] = "anger",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "他们人呢！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["duration"] = 400,
+						["time"] = 25,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_m/n95blood_kimono_m_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_01/n95blood_kimono_f_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "4357E0474F604939BE9430943FBE3C75",
+		["guid_str"] = "nMk4VuDD",
+		["id"] = 7,
+		["name"] = "血露薇成员A",
+		["speaker_info"] = {
+			["anim"] = "anger",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "！修大人！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_m/n95blood_kimono_m_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_01/n95blood_kimono_f_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "3C45EFFE4E60950DFFB38597473673D1",
+		["guid_str"] = "NClxbm61",
+		["id"] = 8,
+		["name"] = "血露薇成员B",
+		["speaker_info"] = {
+			["anim"] = "anger",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "在，在前方山脚。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_m/n95blood_kimono_m_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_01/n95blood_kimono_f_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "06363E1B4854B42A97181587F72F69B7",
+		["guid_str"] = "fn324obo",
+		["id"] = 9,
+		["name"] = "修",
+		["speaker_info"] = {
+			["anim"] = "anger",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "他既已下令，你们先走，我去寻他们！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["duration"] = 400,
+						["time"] = 25,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_m/n95blood_kimono_m_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_01/n95blood_kimono_f_01_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["guid"] = "5AA9A19B435C6269B029089C06C17F78",
+		["guid_str"] = "U3iXVIRV",
+		["id"] = 10,
+		["name"] = "姜宁",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+		["text"] = "……………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["guid"] = "4A253A904A56792B26A5FF842B99243D",
+		["guid_str"] = "nBCjT6yJ",
+		["id"] = 11,
+		["name"] = "十手卫",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+		["text"] = "这是……当年那场动乱？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["guid"] = "936CE3894E19A2BE5CA4FEBEE20ACFC5",
+		["guid_str"] = "3U0g8dfs",
+		["id"] = 12,
+		["name"] = "姜宁",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+		["text"] = "……嗯。我们注意避开人群，跟上去看看吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["guid"] = "3FFCB6994FE6505A72BA7DAE46AF62A8",
+		["guid_str"] = "W16sw47M",
+		["id"] = 13,
+		["name"] = "十手卫",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+		["text"] = "也好，就算我们躲在这里，「鬼」也应该会主动找上门，不如看看葫芦里卖的什么药。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_01.png",
+			},
+			{
+			},
+		},
+		["guid"] = "1F15C10A41E19F1ADC6CB1B3AD1161D6",
+		["guid_str"] = "8ltI6BEV",
+		["id"] = 14,
+		["just_auto_play"] = true,
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "3FA3FEF246BE875C42854682742AA0F5",
+		["guid_str"] = "loIp4Gqv",
+		["id"] = 15,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/avg_chapter9_bone_stab_cinematic",
+				["length"] = 1964,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_f1_xueluweineiluan_bg_loop",
+				["length"] = 6733,
+				["loop"] = 1,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "930BF7AA49C311FCD20C48ACF590AC34",
+		["guid_str"] = "C6ESQjmJ",
+		["id"] = 16,
+		["name"] = "修",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "魁主！前方火势太盛，还是先退下另寻他法！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "F870117747F0721FC2F0D2A3ECDACB7B",
+		["guid_str"] = "L8t4NCHy",
+		["id"] = 17,
+		["name"] = "前代魁主",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "……修？怎么一个个都回来了，信重，你们夫妻二人——",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "8E21B9184441C1C0EFE221B2543130F4",
+		["guid_str"] = "InIeAzQ1",
+		["id"] = 18,
+		["name"] = "白鸟信重",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "恕难从命，守门人职责在此，信重不倒下，他们就休想越过这里。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "F31A5EC3424CFE4CD2CD7EA56245A35D",
+		["guid_str"] = "hv5ZAuRw",
+		["id"] = 19,
+		["name"] = "白鸟椿",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "魁主大人，你一人注定不敌，我们先走，也不过多活一时半刻，又有何用。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "3959F7AE47219912FF7669BF16422A2B",
+		["guid_str"] = "H4nyCrqx",
+		["id"] = 20,
+		["name"] = "前代魁主",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "……………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "FCF8D3F34AA516093835868EFB0D0DC3",
+		["guid_str"] = "zlkF9NJg",
+		["id"] = 21,
+		["name"] = "前代魁主",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "人生如露薇，命数无常……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "A7EC3B8E4E42A8CC7FCEC08C32A8FE44",
+		["guid_str"] = "2KCs8I4W",
+		["id"] = 22,
+		["name"] = "前代魁主",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "也好……也好……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "B0EFC3A64CDCEB5B49ADE1BF4047AF13",
+		["guid_str"] = "3ZHNxW0j",
+		["id"] = 23,
+		["name"] = "前代魁主",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "那便随我来吧，这场因私欲而起的大火，就用我们的血来浇灭，虽本无此打算，但这之后——",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "6043718F4E1812D9856E54A393AD4453",
+		["guid_str"] = "Hvd6zc3d",
+		["id"] = 24,
+		["name"] = "前代魁主",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "露薇长存。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "992706E84D6AE28BEBF3E091B6EFAFD3",
+		["guid_str"] = "9VPPZogX",
+		["id"] = 25,
+		["name"] = "修",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "魁主……！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["duration"] = 400,
+						["time"] = 25,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "B03E7A0E4210AD7A016273AFD1180B26",
+		["guid_str"] = "CWpsSw8s",
+		["id"] = 26,
+		["name"] = "前代魁主",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "和尚，你不同，你会活着看到这场大火被扑灭。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "D87BDA544533C880F1C1298AE2C18F28",
+		["guid_str"] = "GRgN2te1",
+		["id"] = 27,
+		["name"] = "前代魁主",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "这之后麻烦看好小宁，还有白鸟家的孩子。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "81F5CBC6411D440293B8EBAB8D2A6A80",
+		["guid_str"] = "u2F6y1Yl",
+		["id"] = 28,
+		["name"] = "前代魁主",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "记住我说的，莫须强求。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["text"] = "[size 17]……………………………………",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "8B4D4E1443FE2903EC897A84513AFF7B",
+		["guid_str"] = "3Y2pVuYL",
+		["id"] = 29,
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "7379074E4462D6E1876727AB7B5D7598",
+		["guid_str"] = "iXxFPWKx",
+		["id"] = 30,
+		["name"] = "十手卫",
+		["speaker_info"] = {
+			["anim"] = "dispirited",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+		["text"] = "那年你多大？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "3B8BAE5F44E0725FFEBB269E48CAC560",
+		["guid_str"] = "8icxPY91",
+		["id"] = 31,
+		["name"] = "姜宁",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+		["text"] = "13，同年接替了魁主的位子。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "84F8E060420CF6DF304B888780711B45",
+		["guid_str"] = "lVtZVscC",
+		["id"] = 32,
+		["name"] = "十手卫",
+		["speaker_info"] = {
+			["anim"] = "dispirited",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+		["text"] = "小梓也是这年当上新的守门人的？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "A30CC7354A58252928C125BDB4205815",
+		["guid_str"] = "ruzRb8hO",
+		["id"] = 33,
+		["name"] = "姜宁",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+		["text"] = "没有，守门人位子空缺了一段时间，我答应了小梓，在她能舞起刀和人比拼前，暂且留着。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "22CBCE06415A54A7496477ACA13AC5E2",
+		["guid_str"] = "EsICh0qp",
+		["id"] = 34,
+		["name"] = "十手卫",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "4FBE010D44CA931F0E2BC995F499DC74",
+		["guid_str"] = "Q7VfdCVQ",
+		["id"] = 35,
+		["name"] = "十手卫",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+		["text"] = "你觉得这里谁是「鬼」。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "A7E1D7EC4B4AED579946148F28AF30D4",
+		["guid_str"] = "m93292iL",
+		["id"] = 36,
+		["name"] = "姜宁",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+		["text"] = "真冷静啊，小叔叔。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "3D8E25014ADBFB74D0EA8BAAECA1D92B",
+		["guid_str"] = "rDqmQFxK",
+		["id"] = 37,
+		["name"] = "十手卫",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+		["text"] = "我们能看到这段故事，你当时也在？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "7FADD603461064FECCB4C49468217ED2",
+		["guid_str"] = "o7qOASpL",
+		["id"] = 38,
+		["name"] = "姜宁",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+		["text"] = "我在守卫那里被拦下了，闯不进来，等火把这一片都烧了个七七八八后，修補佐一个人出来把我带走了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "1D86D94C48319BE097CE599BAF2B27EF",
+		["guid_str"] = "3R9ymFO4",
+		["id"] = 39,
+		["name"] = "姜宁",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+		["text"] = "这段记忆……应该也是演给我们看的吧，事实上我并没有见过他们最后一面，自然也不知道他们都说过什么。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "FE5C03FC4961CFC11F9BC287C5BFB89A",
+		["guid_str"] = "OfNfz9cQ",
+		["id"] = 40,
+		["name"] = "姜宁",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+		["text"] = "刚好，不如我们直接去问问，正巧我也有些话想说。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_loop.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_bg_loop.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]姜宁踏出步子站在台阶底，刚要拾级而上，忽然周围的一切都静止了，\n\n二人看着十手椿转过头，十手卫看着对方手里的十手，也沉默地握住了腰间的武器。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "F5C4D12A4A614897761759A1ED0F1DA0",
+		["guid_str"] = "UzFltHow",
+		["id"] = 41,
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_bg_loop.bk2",
+					},
+				},
+			},
+		},
+		["guid"] = "CCE1CA9A44CB70F1C62B7DA1D74AC4E4",
+		["guid_str"] = "86tPVDi7",
+		["id"] = 42,
+		["name"] = "十手卫",
+		["speaker_info"] = {
+			["anim"] = "anger",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+		["text"] = "……果然你是「鬼」，从我们二人的脑子里找一个共同的念想，也只能是你了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_bg_loop.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]“十手椿”不语，只是握着伞中的十手，踩着木屐走来，\n\n干枯枫叶的断裂声在大火燃烧声中莫名刺耳，直到她逆光而立。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "44AD9D864C9E0595C7A66D90C9F04133",
+		["guid_str"] = "NyYWDWaj",
+		["id"] = 43,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/footstep_single",
+				["length"] = 3692,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_bg_loop.bk2",
+					},
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_02/n95blood_kimono_f_02_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 0.94999998807907,
+							["scale_y"] = 0.94999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.0,
+							["scale_y"] = 1.0,
+							["time"] = 700,
+						},
+						["tween"] = "ScaleIn",
+					},
+				},
+			},
+		},
+		["guid"] = "CD67287C40CFCD1E1481B0AEC8DDB55A",
+		["guid_str"] = "yXgp6lKH",
+		["id"] = 44,
+		["name"] = "十手椿？",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["event"] = "event:/sfx/story/ourea/clothing_m_1_reverb",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "十手卫，你不曾后悔，心里却知此番依旧谁也救不下。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_bg_loop.bk2",
+					},
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_02/n95blood_kimono_f_02_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "D539AF834B1678F78CB87C9E40F46B9D",
+		["guid_str"] = "VMiCdCrZ",
+		["id"] = 45,
+		["name"] = "十手卫",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+		["text"] = "………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_bg_loop.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]“十手椿”又转头看向姜宁，姜宁不自觉握紧烟杆，身体紧绷。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_02/n95blood_kimono_f_02_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "17ADAA1A4B0684F5C267EBBC8E9B7986",
+		["guid_str"] = "wzWr9wWv",
+		["id"] = 46,
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_bg_loop.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_02/n95blood_kimono_f_02_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "9E0B041A494747D81666C3AD92F2AD68",
+		["guid_str"] = "Au7eoj6j",
+		["id"] = 47,
+		["name"] = "十手椿？",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "年轻微末的「魁主」，你又能为几人一直庇荫，又有何人需要？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_bg_loop.bk2",
+					},
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_02/n95blood_kimono_f_02_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "6D888A764F47CE79056BC794F98F262D",
+		["guid_str"] = "nbEXhVsQ",
+		["id"] = 48,
+		["name"] = "姜宁",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am10jn/am10jn_action2",
+		},
+		["text"] = "……！！！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_f1_xueluweineiluan_bg_loop.bk2",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]漫天的火光中，“十手椿”抽出伞中的十手，挟着未燃尽的枯叶猛地冲过来。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "n95blood_kimono_f/n95blood_kimono_f_02/n95blood_kimono_f_02_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.1000000238419,
+							["scale_y"] = 1.1000000238419,
+							["time"] = 400,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+					{
+						["param"] = {
+							["am"] = 15,
+							["delay"] = 0,
+							["duration"] = 400,
+							["time"] = 25,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "E8D4664C4CFD047E3F8B34A67614B9A4",
+		["guid_str"] = "giYXi3YW",
+		["id"] = 49,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/ourea/clothing_s_1_reverb",
+				["length"] = 549,
+				["volume"] = 3.0,
+			},
+			{
+				["event"] = "event:/sfx/story/ourea/clothing_m_1_reverb",
+				["length"] = 1199,
+				["volume"] = 2.0,
+			},
+			{
+				["event"] = "event:/sfx/story/9/avg_chapter9_dagger_flyby",
+				["length"] = 662,
+			},
+			{
+				["delay"] = 100,
+				["event"] = "event:/sfx/story/9/avg_chapter9_dagger_flyby",
+				["length"] = 662,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am55ssw/am55ssw_action7",
+		},
+	},
+}
