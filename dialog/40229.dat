@@ -1224,7 +1224,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1277,7 +1277,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1722,7 +1722,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]苏筱无措茫然地转头，就看见舞鹤织雪一直安静地站在一旁，目光冷淡，\n\n周身不知何时又飞舞起纷飞的纸片，手里的剪刀则反射着冷硬的光。",
+			["text"] = "[size 17]苏筱无措茫然地转头，发现舞鹤织雪一直安静地站在一旁，目光冷淡，\n\n周身不知何时又飞舞起雪白的纸片，手里的剪刀则反射着冷硬的光。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2091,6 +2091,95 @@
 		["guid_str"] = "ZClMJXAl",
 		["id"] = 38,
 		["name"] = "白汲？",
+		["text"] = "…………………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["is_ratio_full"] = true,
+						["path"] = "movies/Desktop/avg/chapter03/cg_3_13_xinxibeiqiang_01_paper_renhou.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_city_highstreet_06.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]下一秒，“白汲”手中的小鸟惊叫着腾空而起。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm07pro/bm07pro_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_VertMaskIntensity",
+							["delay"] = 0,
+							["end_value"] = 1.0,
+							["start_value"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.0,
+							["scale_y"] = 1.0,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.1000000238419,
+							["scale_y"] = 1.1000000238419,
+							["time"] = 600,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 600,
+							["time"] = 25,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+		},
+		["guid"] = "C05D4008498CC300A67431AAF43555B2",
+		["guid_str"] = "0VESKqYR",
+		["id"] = 39,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/whoosh/WhooshReverse",
@@ -2098,6 +2187,5 @@
 				["volume"] = 2.0,
 			},
 		},
-		["text"] = "…………………………",
 	},
 }

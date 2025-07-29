@@ -1677,11 +1677,25 @@
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_05.png",
 			},
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_05.png",
 			},
 		},
 		["caption_info"] = {
 			["mask_alpha"] = 0.30000001192093,
-			["text"] = "[size 17][font cusong]你便是「未来」。",
+			["text"] = "[size 17][font cusong]你便是「[c 8CC9FF]未来[/c]」。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -1700,6 +1714,7 @@
 		["guid"] = "A6CE364A4B54A37DAF7E7F8E04E72445",
 		["guid_str"] = "vPqmDCKu",
 		["id"] = 39,
+		["is_white_base_bg"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1747,17 +1762,71 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["is_append"] = true,
+			["mask_alpha"] = 0.30000001192093,
+			["text"] = " ",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "D833A1D241E01A6EC37E9090E8B21173",
+		["guid_str"] = "Dy4MIAKr",
+		["id"] = 41,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_05.png",
+			},
+			{
+			},
+		},
 		["female_speaker_info"] = {
 			["anim"] = "surprise_add",
 			["body_anim"] = "surprise_in",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "9EE3823742603058ADB3D4B48DE0767F",
 		["guid_str"] = "RyQNmEpD",
-		["id"] = 41,
+		["id"] = 42,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
 			["body_anim"] = "surprise_in",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["name"] = "[rolename]",
 		["text"] = "？？？？",
@@ -1776,7 +1845,7 @@
 		},
 		["guid"] = "3F2B23024E00BEE1CFF1608459FDDEC4",
 		["guid_str"] = "yjglJEiz",
-		["id"] = 42,
+		["id"] = 43,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -1810,7 +1879,7 @@
 		},
 		["guid"] = "F3322A0847F211DEC198D99294622E4F",
 		["guid_str"] = "NqWWwEiK",
-		["id"] = 43,
+		["id"] = 44,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {

@@ -1758,6 +1758,15 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "17",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-100,
+					},
+				},
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "af50nvzhu/af50nvzhu_action4",
 				["pos"] = {
@@ -1922,9 +1931,21 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_06.png",
 			},
 			{
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
 			},
 		},
 		["caption_info"] = {
@@ -1948,7 +1969,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_06.png",
 			},
 			{
 			},
@@ -1982,7 +2003,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_06.png",
 			},
 			{
 			},
