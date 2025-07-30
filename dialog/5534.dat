@@ -1102,6 +1102,14 @@
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["color"] = {
+						0.41176471114159,
+						0.52156865596771,
+						0.59607845544815,
+						1.0,
+					},
+				},
 				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
@@ -1112,12 +1120,6 @@
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
 				},
 				["is_clip"] = true,
 				["material"] = "M_UI_SpineMat",
@@ -3249,6 +3251,9 @@
 				},
 			},
 		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
 		["guid"] = "8F87D4ED4A1EB6DFCD196CA11646B546",
 		["guid_str"] = "e8h1FCLn",
 		["id"] = 32,
@@ -3270,6 +3275,9 @@
 					["material"] = "M_UI_SpineShadow",
 				},
 			},
+		},
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
 		},
 		["name"] = "[rolename]",
 		["text"] = "如果有一天，同调者面临再次异化，或者说再次病变的可能，SCOPE至今为止的成果面临全部归零的风险——",
@@ -3336,6 +3344,9 @@
 				},
 			},
 		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+		},
 		["guid"] = "09BDC70046567C4D1F505B9F2A4F5861",
 		["guid_str"] = "5rTSPaqN",
 		["id"] = 33,
@@ -3357,6 +3368,9 @@
 					["material"] = "M_UI_SpineShadow",
 				},
 			},
+		},
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
 		},
 		["name"] = "[rolename]",
 		["text"] = "你会怎么做？",
@@ -3601,6 +3615,9 @@
 				},
 			},
 		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+		},
 		["guid"] = "4CC3C6DC45166A25D9CE7B96580B51C0",
 		["guid_str"] = "ihSURQG7",
 		["id"] = 36,
@@ -3622,6 +3639,9 @@
 					["material"] = "M_UI_SpineShadow",
 				},
 			},
+		},
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
 		},
 		["name"] = "[rolename]",
 		["text"] = "什么？",
@@ -5069,7 +5089,7 @@
 		["sound_control"] = {
 			["effect"] = 32,
 		},
-		["text"] = "原来还是一个需要“选择”打给谁的场合啊。",
+		["text"] = "原来还是一个需要选择打给谁的场合啊。",
 	},
 	{
 		["bg_info"] = {
@@ -5271,7 +5291,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5337,10 +5357,13 @@
 			},
 		},
 		["name"] = "白汲",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5046_JyQBwrdu",
+		},
 		["sound_control"] = {
 			["effect"] = 32,
 		},
-		["text"] = "[rolename]。",
+		["text"] = "[M][rolename]。[/M][F][rolename]。[/F]",
 	},
 	{
 		["bg_info"] = {
@@ -5360,7 +5383,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5720,7 +5743,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "closeeye",
+				["anim"] = "wry",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},

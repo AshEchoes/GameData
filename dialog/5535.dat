@@ -358,18 +358,7 @@
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 500,
-							},
-							["tween"] = "FadeIn",
-						},
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_06.png",
+				["path"] = "",
 			},
 			{
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
@@ -413,6 +402,46 @@
 		["guid"] = "3901BE6D43181913C8FE0385B3D69D91",
 		["guid_str"] = "lih4hCRX",
 		["id"] = 9,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_loop1.bk2",
+				["sustain_page_count"] = 6,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 1.0,
+							["start_alpha"] = 1.0,
+							["time"] = 700,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 5,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -467,6 +496,7 @@
 						["tween"] = "FadeOut",
 					},
 				},
+				["z_order"] = 5,
 			},
 		},
 		["soundfx"] = {

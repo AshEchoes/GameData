@@ -7,7 +7,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 200,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -18,9 +18,23 @@
 			{
 			},
 		},
+		["guid"] = "9E40672D4E114AAF26F43FB9B034EA02",
+		["guid_str"] = "OiH0XVBa",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
+			},
+			{
+			},
+		},
 		["characters"] = {
 			{
-				["anim"] = "pain_add",
+				["anim"] = "scornful2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -47,7 +61,7 @@
 		},
 		["guid"] = "73F0838F45B2D5083D7C56B76249F722",
 		["guid_str"] = "azD2mwNs",
-		["id"] = 1,
+		["id"] = 2,
 		["name"] = "舞鹤织雪",
 		["soundfx"] = {
 			{
@@ -103,7 +117,7 @@
 		},
 		["guid"] = "E6256FA147D476296B4D7CBA48B9345F",
 		["guid_str"] = "PRAD3k5R",
-		["id"] = 2,
+		["id"] = 3,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -152,7 +166,7 @@
 		},
 		["guid"] = "03951F254E30FF03092B35BB4458C66F",
 		["guid_str"] = "VM1170lx",
-		["id"] = 3,
+		["id"] = 4,
 	},
 	{
 		["bg_info"] = {
@@ -164,7 +178,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "pain_add",
+				["anim"] = "anger1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -191,7 +205,7 @@
 		},
 		["guid"] = "17FE7B0942B9FFD6690FB6B35F505527",
 		["guid_str"] = "liXxWfBE",
-		["id"] = 4,
+		["id"] = 5,
 		["name"] = "舞鹤织雪",
 		["text"] = "坐上去，我累了，这里要塌了，没了落脚点我们打不过她，还是赶快离开得好。",
 	},
@@ -205,7 +219,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "pain_add",
+				["anim"] = "anger1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -229,10 +243,10 @@
 		},
 		["guid"] = "449C57C84E7C6DD0FA4DFBA9CDF3CE02",
 		["guid_str"] = "mXHfaEcS",
-		["id"] = 5,
+		["id"] = 6,
 		["name"] = "苏筱",
 		["speaker_info"] = {
-			["anim"] = "normal_add",
+			["anim"] = "anger_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
 			["offset"] = {
 				-160,
@@ -256,10 +270,18 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 100,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]看着舞鹤织雪明显不算好的脸色，苏筱难得没反驳，利索地翻身上去，朝我伸出手。",
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]看着舞鹤织雪明显不算好的脸色，苏筱难得没反驳，利索地翻身上去，朝我伸出手。\n\n[size 17]我握上筱筱的手，腿上刚要用力，忽然想起什么，回过头。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -296,39 +318,6 @@
 		},
 		["guid"] = "19E289A74918DD8DF7DBCFAD28EB8C18",
 		["guid_str"] = "c7fZxyX2",
-		["id"] = 6,
-		["speaker_info"] = {
-			["anim"] = "normal_add",
-			["material"] = "M_UI_SpineCharacterPortraitNormal",
-			["offset"] = {
-				-160,
-				40,
-			},
-			["path"] = "af50nvzhu/af50nvzhu_action4",
-			["scale"] = {
-				0.93000000715256,
-				0.93000000715256,
-			},
-		},
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["b_use_mask"] = true,
-			["height"] = 100,
-			["is_append"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 17]我握上筱筱的手，腿上刚要用力，忽然想起什么，回过头。",
-			["text_align"] = "center",
-		},
-		["guid"] = "F4ADE2AD4248A1861D9B77AAAF874707",
-		["guid_str"] = "RvGP6q7R",
 		["id"] = 7,
 		["speaker_info"] = {
 			["anim"] = "normal_add",
@@ -476,7 +465,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious_add",
+				["anim"] = "anger2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -526,10 +515,9 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_separate_tween"] = true,
+			["height"] = 150,
 			["is_show_all"] = true,
-			["mask_alpha"] = 0.80000001192093,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]不对。",
 			["text_align"] = "center",
 			["tween"] = {
@@ -601,12 +589,12 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
+			["height"] = 150,
 			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["mask_alpha"] = 0.80000001192093,
+			["mask_alpha"] = 0.5,
 			["text"] = "[br][br][size 17]有什么不对。",
 			["text_align"] = "center",
 			["tween"] = {
@@ -645,12 +633,12 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
+			["height"] = 150,
 			["is_append"] = true,
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["mask_alpha"] = 0.80000001192093,
+			["mask_alpha"] = 0.5,
 			["text"] = "[br][br][size 17]有什么东西被我忽略了。",
 			["text_align"] = "center",
 			["tween"] = {
@@ -820,6 +808,12 @@
 			},
 		},
 		["name"] = "舞鹤织雪",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5058_ztJ0ZMY8",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/01-12-whoosh",
@@ -969,6 +963,12 @@
 			},
 		},
 		["name"] = "舞鹤织雪",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5058_HkBOKEZR",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/01-12-whoosh",
@@ -1095,6 +1095,12 @@
 			},
 		},
 		["name"] = "舞鹤织雪",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5058_aCXb9eXg",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -1127,13 +1133,13 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 200,
+								["time"] = 600,
 							},
 							["tween"] = "FadeIn",
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_12.png",
 			},
 			{
 				["config"] = {
@@ -1250,6 +1256,12 @@
 			},
 		},
 		["name"] = "舞鹤织雪",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5058_Sbz6bZji",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/01-12-whoosh",
@@ -1285,272 +1297,7 @@
 						["material"] = "MI_UI_SaturationLightness",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
-			},
-			{
-				["config"] = {
-					["lens"] = {
-						["attrs"] = {
-							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
-						},
-						["in_time"] = 0,
-						["is_loop"] = true,
-						["material"] = "MI_UI_SaturationLightness",
-					},
-				},
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "serious_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af56whzx/af56whzx_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["mode"] = "linear",
-							["scale_x"] = 1.0,
-							["scale_y"] = 1.0,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
-		},
-		["female_speaker_info"] = {
-			["anim"] = "doubt1_add",
-			["body_anim"] = "default_loop",
-			["tween"] = {
-				{
-					["param"] = {
-						["attr_key"] = "F_ScreenSaturation",
-						["delay"] = 0,
-						["end_value"] = 0.40000000596046,
-						["start_value"] = 0.40000000596046,
-						["time"] = 0,
-					},
-					["tween"] = "MaterialAttrAnimate",
-				},
-			},
-		},
-		["guid"] = "1306B8D647167A7C1D157FBAD47BD86F",
-		["guid_str"] = "pVYFugMi",
-		["id"] = 18,
-		["is_player_speaker"] = true,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
-		["male_speaker_info"] = {
-			["anim"] = "doubt1_add",
-			["body_anim"] = "default_loop",
-			["tween"] = {
-				{
-					["param"] = {
-						["attr_key"] = "F_ScreenSaturation",
-						["delay"] = 0,
-						["end_value"] = 0.40000000596046,
-						["start_value"] = 0.40000000596046,
-						["time"] = 0,
-					},
-					["tween"] = "MaterialAttrAnimate",
-				},
-			},
-		},
-		["name"] = "[rolename]",
-		["speaker_info"] = {
-			["anim"] = "normal_add",
-			["material"] = "M_UI_SpineCharacterPortraitNormal",
-			["offset"] = {
-				-160,
-				40,
-			},
-			["scale"] = {
-				0.93000000715256,
-				0.93000000715256,
-			},
-		},
-		["text"] = "什么？",
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["lens"] = {
-						["attrs"] = {
-							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
-						},
-						["in_time"] = 0,
-						["is_loop"] = true,
-						["material"] = "MI_UI_SaturationLightness",
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
-			},
-			{
-				["config"] = {
-					["lens"] = {
-						["attrs"] = {
-							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
-						},
-						["in_time"] = 0,
-						["is_loop"] = true,
-						["material"] = "MI_UI_SaturationLightness",
-					},
-				},
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "normal_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af56whzx/af56whzx_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.40000000596046,
-							["mode"] = "linear",
-							["scale_x"] = 1.0,
-							["scale_y"] = 1.0,
-							["start_value"] = 0.40000000596046,
-							["time"] = 0,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
-		},
-		["female_speaker_info"] = {
-			["anim"] = "doubt1_add",
-			["body_anim"] = "default_loop",
-			["tween"] = {
-				{
-					["param"] = {
-						["attr_key"] = "F_ScreenSaturation",
-						["delay"] = 0,
-						["end_value"] = 0.40000000596046,
-						["start_value"] = 0.40000000596046,
-						["time"] = 0,
-					},
-					["tween"] = "MaterialAttrAnimate",
-				},
-			},
-		},
-		["guid"] = "92E86BE740B7332C14635297FBC878EA",
-		["guid_str"] = "QmBLSNhk",
-		["id"] = 19,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
-				["template_type"] = "image",
-			},
-		},
-		["male_speaker_info"] = {
-			["anim"] = "doubt1_add",
-			["body_anim"] = "default_loop",
-			["tween"] = {
-				{
-					["param"] = {
-						["attr_key"] = "F_ScreenSaturation",
-						["delay"] = 0,
-						["end_value"] = 0.40000000596046,
-						["start_value"] = 0.40000000596046,
-						["time"] = 0,
-					},
-					["tween"] = "MaterialAttrAnimate",
-				},
-			},
-		},
-		["name"] = "舞鹤织雪",
-		["speaker_info"] = {
-			["anim"] = "normal_add",
-			["material"] = "M_UI_SpineCharacterPortraitNormal",
-			["offset"] = {
-				-160,
-				40,
-			},
-			["scale"] = {
-				0.93000000715256,
-				0.93000000715256,
-			},
-		},
-		["text"] = "没什么，字面意思夸她数学成绩好而已。",
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["lens"] = {
-						["attrs"] = {
-							["CF_MakeBottom_Dialog"] = 0.0,
-							["F_ScreenLightness"] = 1.2,
-							["F_ScreenSaturation"] = 0.3,
-						},
-						["in_time"] = 0,
-						["is_loop"] = true,
-						["material"] = "MI_UI_SaturationLightness",
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_12.png",
 			},
 			{
 				["config"] = {
@@ -1618,7 +1365,7 @@
 		},
 		["guid"] = "CFB623BF4C0B65F2BE6E4695E2D56760",
 		["guid_str"] = "0lbS69lo",
-		["id"] = 20,
+		["id"] = 18,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1650,6 +1397,12 @@
 			},
 		},
 		["name"] = "舞鹤织雪",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5058_hhKD0QuL",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "normal_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -1682,13 +1435,13 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 200,
+								["time"] = 600,
 							},
 							["tween"] = "FadeOut",
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_12.png",
 			},
 			{
 				["config"] = {
@@ -1701,6 +1454,15 @@
 						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 600,
+							},
+							["tween"] = "FadeIn",
+						},
 					},
 				},
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_07.png",
@@ -1805,7 +1567,8 @@
 		},
 		["guid"] = "1EAA586D426CF8A0AC787B8E29FCBEE4",
 		["guid_str"] = "MWKIkQHm",
-		["id"] = 21,
+		["id"] = 19,
+		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1837,6 +1600,12 @@
 			},
 		},
 		["name"] = "舞鹤织雪",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5058_xuKnD8sX",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/01-12-whoosh",
@@ -1989,7 +1758,8 @@
 		},
 		["guid"] = "11F516204F7782D62106B1924BD93B04",
 		["guid_str"] = "qLMWOHWJ",
-		["id"] = 22,
+		["id"] = 20,
+		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2007,6 +1777,7 @@
 				["ori_size_h"] = 886,
 				["ori_size_w"] = 1920,
 				["path"] = "movies/Desktop/avg/chapter01/cg_story_1_4_zhixuehand_loop.bk2",
+				["play_delay_time"] = 490,
 				["template_type"] = "video",
 				["tween"] = {
 					{
@@ -2015,6 +1786,32 @@
 							["delay_page"] = 0,
 							["end_alpha"] = 1.0,
 							["start_alpha"] = 1.0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 886,
+				["ori_size_w"] = 1920,
+				["path"] = "movies/Desktop/avg/chapter01/cg_story_1_4_zhixuehand_in.bk2",
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
 							["time"] = 200,
 						},
 						["tween"] = "FadeIn",
@@ -2128,8 +1925,9 @@
 		},
 		["guid"] = "5106C1B54816AB40670CC4A2802D55DA",
 		["guid_str"] = "eP4eGozi",
-		["id"] = 23,
+		["id"] = 21,
 		["is_player_speaker"] = true,
+		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2238,7 +2036,7 @@
 		},
 		["guid"] = "7F226E4D43E0774D3F29678A06643059",
 		["guid_str"] = "nYgxlQb6",
-		["id"] = 24,
+		["id"] = 22,
 		["name"] = "舞鹤织雪",
 		["text"] = "嗯？这有什么好看的？",
 	},
@@ -2276,7 +2074,7 @@
 		},
 		["guid"] = "1B09762947E08DFC6F6409934D4F7148",
 		["guid_str"] = "uNh6Qw3n",
-		["id"] = 25,
+		["id"] = 23,
 	},
 	{
 		["bg_info"] = {
@@ -2315,7 +2113,7 @@
 		},
 		["guid"] = "C8D2323846DE77C88E018A8458296421",
 		["guid_str"] = "bB6VkmWM",
-		["id"] = 26,
+		["id"] = 24,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -2362,7 +2160,7 @@
 		},
 		["guid"] = "2C97CB674AFFFA57614DC0B01F682476",
 		["guid_str"] = "iqmvpp1H",
-		["id"] = 27,
+		["id"] = 25,
 	},
 	{
 		["bg_info"] = {
@@ -2374,7 +2172,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious_add",
+				["anim"] = "snicker_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2392,7 +2190,7 @@
 		},
 		["guid"] = "9B9A129B4AF501D2E3C7ED85F398453D",
 		["guid_str"] = "3ytfgfze",
-		["id"] = 28,
+		["id"] = 26,
 		["name"] = "舞鹤织雪",
 		["text"] = "你到底什么时候能和小苏姐姐一样单纯啊，小监督。",
 	},
@@ -2406,7 +2204,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious_add",
+				["anim"] = "snicker_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2430,7 +2228,7 @@
 		},
 		["guid"] = "FED2507748124B297460F7AB4CF059B8",
 		["guid_str"] = "cqngVkPK",
-		["id"] = 29,
+		["id"] = 27,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -2458,9 +2256,18 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.80000001192093,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]我顾不得解释，赶紧抓住对方还没收回去的左手，接着朝苏筱大喊。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -2497,7 +2304,7 @@
 		},
 		["guid"] = "B451D23942A9107A7380138EF7FFBCE7",
 		["guid_str"] = "99u4CPBh",
-		["id"] = 30,
+		["id"] = 28,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/9/cg_9_00_suxiao_loop",
@@ -2532,10 +2339,16 @@
 			{
 			},
 		},
+		["female_speaker_info"] = {
+			["anim"] = "anger_add",
+		},
 		["guid"] = "E14856BB4A6099815F9D7EA20644AE71",
 		["guid_str"] = "R22xzGHM",
-		["id"] = 31,
+		["id"] = 29,
 		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "anger_add",
+		},
 		["name"] = "[rolename]",
 		["speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -2562,13 +2375,22 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]苏筱顾不得回话，赶紧手上用劲，拼命拉着两个人的体重，同一时刻，千纸鹤振动翅膀，缓慢腾空而起。",
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]苏筱顾不得回话，赶紧手上用劲，拼命拉着两个人的体重，\n\n同一时刻，千纸鹤振动翅膀，缓慢腾空而起。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "B11004BE488105430DC641A9E814C456",
 		["guid_str"] = "qQH2tXkG",
-		["id"] = 32,
+		["id"] = 30,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/9/avg_chapter9_paper_move_long",
@@ -2597,9 +2419,23 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
 		["guid"] = "56FE2E6643422D961DE76DB31A79DEB0",
 		["guid_str"] = "eT7dOskM",
-		["id"] = 33,
+		["id"] = 31,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "anger_add",
@@ -2627,13 +2463,22 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.80000001192093,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]苏筱被纸塑的翅膀挡住，完全看不到下面，只能咬牙喊着。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "8B7BC0D64E01592A421DC6AE4688A3E1",
 		["guid_str"] = "pOW9KFO5",
-		["id"] = 34,
+		["id"] = 32,
 		["speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -2656,15 +2501,31 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
 		["female_speaker_info"] = {
-			["anim"] = "serious_add",
+			["anim"] = "surprise_add",
+			["body_anim"] = "doubt_in",
 		},
 		["guid"] = "6452FF2B4725D1A445F0BB86CB7183BB",
 		["guid_str"] = "5BSwmvlO",
-		["id"] = 35,
+		["id"] = 33,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
-			["anim"] = "serious_add",
+			["anim"] = "surprise_add",
+			["body_anim"] = "surprise_in",
 		},
 		["name"] = "[rolename]",
 		["speaker_info"] = {
@@ -2692,13 +2553,22 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.80000001192093,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]我呆呆地看着下方，舞鹤织雪的手和前几天一样被我紧紧抓着。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "18609F68459DBB0ABA4D68A7A0287425",
 		["guid_str"] = "jSHPSbMo",
-		["id"] = 36,
+		["id"] = 34,
 		["speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -2721,9 +2591,23 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
 		["guid"] = "A02DAF3B4FE1F30F0142FB890604E0DB",
 		["guid_str"] = "b0lMlzhX",
-		["id"] = 37,
+		["id"] = 35,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "anger_add",
@@ -2750,14 +2634,14 @@
 			},
 		},
 		["female_speaker_info"] = {
-			["anim"] = "serious_add",
+			["anim"] = "surprise_add",
 		},
 		["guid"] = "B0DA1DF24ECA0F0EE80EA198018DE6A9",
 		["guid_str"] = "ZZOKKUoO",
-		["id"] = 38,
+		["id"] = 36,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
-			["anim"] = "serious_add",
+			["anim"] = "surprise_add",
 		},
 		["name"] = "[rolename]",
 		["speaker_info"] = {
@@ -2773,7 +2657,7 @@
 				0.93000000715256,
 			},
 		},
-		["text"] = "…………………………",
+		["text"] = "…………………………………………",
 	},
 	{
 		["bg_info"] = {
@@ -2784,14 +2668,14 @@
 			},
 		},
 		["female_speaker_info"] = {
-			["anim"] = "serious_add",
+			["anim"] = "anger_add",
 		},
 		["guid"] = "556478334F7C0888704DA5AA063CF860",
 		["guid_str"] = "iuCrOMTk",
-		["id"] = 39,
+		["id"] = 37,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
-			["anim"] = "serious_add",
+			["anim"] = "anger_add",
 		},
 		["name"] = "[rolename]",
 		["speaker_info"] = {
@@ -2830,13 +2714,13 @@
 		},
 		["caption_info"] = {
 			["is_show_all"] = true,
-			["text"] = "[c ca4243][size 17]都说了，教主算得真准。[/c]",
+			["text"] = "[size 17][font zhunyuan][c f76a57]都说了，教主算得真准。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 400,
+						["time"] = 700,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -2847,7 +2731,7 @@
 		},
 		["guid"] = "C36697A24876A986B6572E98A26E68B7",
 		["guid_str"] = "XqY38MGy",
-		["id"] = 40,
+		["id"] = 38,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 		},
@@ -2896,7 +2780,7 @@
 		},
 		["guid"] = "BB8430824E699B45DF64D1A37C55C51E",
 		["guid_str"] = "4XlYHvSQ",
-		["id"] = 41,
+		["id"] = 39,
 		["is_gender_bg"] = true,
 		["just_auto_play"] = true,
 		["male_bg_info"] = {
@@ -2915,10 +2799,6 @@
 		},
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/story/9/cg_9_f3_butongdao_out",
-				["length"] = 3733,
-			},
-			{
 				["delay"] = 1000,
 				["event"] = "event:/sfx/story/9/avg_chapter9_paperbridge_construct",
 				["length"] = 2933,
@@ -2928,6 +2808,10 @@
 				["delay"] = 1000,
 				["event"] = "event:/sfx/story/9/avg_chapter9_paper_move_long",
 				["length"] = 3470,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_f3_butongdao_out",
+				["length"] = 3733,
 			},
 		},
 	},
@@ -2942,6 +2826,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[size 17]素白的纸张漫天飞舞，像是飘起了一场没有冷意的大雪，我茫然地看向四周，又看向说话的人。",
 			["text_align"] = "center",
 		},
@@ -2961,7 +2846,7 @@
 		},
 		["guid"] = "C1CE60994039EB37808B3BA8CEF19500",
 		["guid_str"] = "OdUvNL1O",
-		["id"] = 42,
+		["id"] = 40,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
@@ -2989,6 +2874,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[size 17]舞鹤织雪的手和前几天一样被我紧紧抓着。",
 			["text_align"] = "center",
 		},
@@ -3008,7 +2894,7 @@
 		},
 		["guid"] = "5BECA25D4F23E2C2B96EEEBC20921C40",
 		["guid_str"] = "oeuoSvZi",
-		["id"] = 43,
+		["id"] = 41,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
@@ -3036,7 +2922,8 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]可这一次，我感受到的，只有一张纸的重量。",
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[size 17]可这一次我感受到的，只有一张纸的重量。",
 			["text_align"] = "center",
 		},
 		["female_bg_info"] = {
@@ -3055,7 +2942,7 @@
 		},
 		["guid"] = "92E5A4B64D39978661214DBB566B56D0",
 		["guid_str"] = "cz7Do1Gh",
-		["id"] = 44,
+		["id"] = 42,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
@@ -3101,7 +2988,7 @@
 		},
 		["guid"] = "89A02E3543939F0BABF07981C1932DF0",
 		["guid_str"] = "qRr6rBxQ",
-		["id"] = 45,
+		["id"] = 43,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
@@ -3149,7 +3036,7 @@
 		},
 		["guid"] = "A7C0BFF4432D1B6E8C65AA926BE34BB0",
 		["guid_str"] = "gdSrQXko",
-		["id"] = 46,
+		["id"] = 44,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
@@ -3197,7 +3084,7 @@
 		},
 		["guid"] = "2D33BFDA4E5BF267E731DABD8A33775A",
 		["guid_str"] = "ynLl3hKn",
-		["id"] = 47,
+		["id"] = 45,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
@@ -3227,22 +3114,13 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["height"] = 200,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]一张纸的重量从手中消失了，她轻轻落回原地，再次挥手，[br][br][size 17]无数一路上都漫无目的四散飘落的纸片像是得到了最终的命令，从看不到尽头的空间尽头快速窜起，像一阵白色的飓风。",
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17]一张纸的重量从手中消失了。\n\n她轻轻落回原地，再次挥手，\n\n无数一路上都漫无目的四散飘落的纸片像是得到了最终的命令，\n\n从看不到尽头的空间尽头快速窜起，像一阵白色的飓风。",
 			["text_align"] = "center",
 		},
 		["female_bg_info"] = {
 			{
 				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 1000,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
@@ -3252,25 +3130,15 @@
 				["path"] = "",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
 			},
 		},
 		["guid"] = "7EC1AA564FC7E67267B88FAA358547A5",
 		["guid_str"] = "z9MQgZUX",
-		["id"] = 48,
+		["id"] = 46,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 1000,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
@@ -3280,7 +3148,6 @@
 				["path"] = "",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
 			},
 		},
 		["soundfx"] = {
@@ -3300,24 +3167,13 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
-			["is_append"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 17]本来已经没“力气”飞向更高处的巨形纸鹤被这一片白茫茫的风吹着，瞬间拔高，向着一路以来的目的地飞行。",
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17]本来已经没“力气”飞向更高处的巨形纸鹤被这一片白茫茫的风吹着，瞬间拔高，\n\n向着一路以来的目的地飞行。",
 			["text_align"] = "center",
 		},
 		["female_bg_info"] = {
 			{
 				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 1000,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
@@ -3331,19 +3187,11 @@
 		},
 		["guid"] = "ECFBE69046AB41AF3BB6C7822573B1BF",
 		["guid_str"] = "5nwiNxAf",
-		["id"] = 49,
+		["id"] = 47,
+		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 1000,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
@@ -3353,7 +3201,6 @@
 				["path"] = "",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
 			},
 		},
 	},
@@ -3378,12 +3225,71 @@
 			},
 		},
 		["caption_info"] = {
-			["text"] = "[size 20]织雪！！！！！",
+			["text"] = "[size 20][font cusong]织雪！！！！！",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 10,
+						["delay"] = 0,
+						["duration"] = 200,
+						["time"] = 20,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+		["female_bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 800,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_f.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
 		},
 		["guid"] = "4D9B460C49E0301E704F8B9D07217385",
 		["guid_str"] = "9bdtqCOb",
-		["id"] = 50,
+		["id"] = 48,
+		["is_gender_bg"] = true,
+		["is_white_base_bg"] = true,
+		["male_bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 800,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_m.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/haicuo/magic_whoosh",
@@ -3410,9 +3316,25 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["is_show_all"] = true,
+			["text"] = "[size 20][font cusong]织雪！！！！！",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 2000,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
 		["guid"] = "CFB477424E77D17ABE7387AA9962BFE8",
 		["guid_str"] = "YUKX69am",
-		["id"] = 51,
+		["id"] = 49,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 	},
 }

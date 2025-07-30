@@ -207,7 +207,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -223,6 +223,13 @@
 							["time"] = 200,
 						},
 						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 4000,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
 					},
 				},
 			},
@@ -243,6 +250,44 @@
 							["time"] = 200,
 						},
 						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n93reddyq/n93reddyq_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 4000,
+							["time"] = 0,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 4000,
+							["duration"] = 500,
+							["time"] = 10,
+						},
+						["tween"] = "Shake",
 					},
 				},
 			},
@@ -375,7 +420,7 @@
 				},
 			},
 			{
-				["anim"] = "serious",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -436,9 +481,17 @@
 				},
 			},
 			{
-				["anim"] = "serious",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "515",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-350,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am55ssw/am55ssw_action4",
@@ -486,7 +539,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "cold",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -634,9 +687,17 @@
 				},
 			},
 			{
-				["anim"] = "serious",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "515",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-350,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am55ssw/am55ssw_action4",
@@ -947,9 +1008,9 @@
 		["id"] = 18,
 		["name"] = "十手卫",
 		["speaker_info"] = {
-			["anim"] = "surprise",
+			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am55ssw/am55ssw_action4",
+			["path"] = "am55ssw/am55ssw_action7",
 		},
 		["text"] = "小丁！",
 		["text_info"] = {
@@ -1253,20 +1314,12 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["id"] = "515",
-					["is_enabled"] = true,
-					["offset"] = {
-						0,
-						-350,
-					},
-				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -1334,6 +1387,10 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+					},
 				},
 			},
 		},
@@ -1434,20 +1491,12 @@
 				},
 			},
 			{
-				["anim"] = "doubt",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["knowledge_word_info"] = {
-					["id"] = "515",
-					["is_enabled"] = true,
-					["offset"] = {
-						0,
-						-350,
-					},
-				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -1492,7 +1541,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1505,7 +1554,7 @@
 					},
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -1617,7 +1666,7 @@
 					},
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -2014,7 +2063,7 @@
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[font cusong][c f79d34]诸位——[/c]",
+			["text"] = "[font cusong][c f79d34]诸 位[/c][br][br][font cusong][c f79d34]可 还 尽 兴 [/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -2054,38 +2103,15 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5055_QyKIW6pv",
+		},
 		["guid"] = "94FFF99B4B2C54F5892A08AB53CC6819",
 		["guid_str"] = "zAxWxYnN",
 		["id"] = 38,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_07.png",
-			},
-			{
-			},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
-		["caption_info"] = {
-			["b_use_mask"] = true,
-			["is_separate_tween"] = true,
-			["is_show_all"] = true,
-			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[font cusong][c f79d34]可还尽兴。[/c]",
-			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 400,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
-		},
-		["guid"] = "AB51625B477B2759CAC683A242C28160",
-		["guid_str"] = "MogQdJHX",
-		["id"] = 39,
 	},
 	{
 		["bg_info"] = {
@@ -2119,7 +2145,7 @@
 		},
 		["guid"] = "BA8E0AC2470D7CA1BE3FD6ADE6B9FFE2",
 		["guid_str"] = "ipZhlXaS",
-		["id"] = 40,
+		["id"] = 39,
 		["name"] = "丁苑青",
 		["text"] = "……！",
 		["text_info"] = {
@@ -2179,7 +2205,7 @@
 		},
 		["guid"] = "097088204328E136738B339B83D6B96F",
 		["guid_str"] = "pWFF4SE8",
-		["id"] = 41,
+		["id"] = 40,
 		["just_auto_play"] = true,
 	},
 }

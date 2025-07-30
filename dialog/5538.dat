@@ -3847,7 +3847,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n93reddyq/n93reddyq_action2",
 				["pos"] = {
-					400,
+					450,
 					0,
 				},
 				["shadow"] = {
@@ -3918,9 +3918,22 @@
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["cycle"] = 1,
+								["delay"] = 1000,
+								["time"] = 100,
+							},
+							["tween"] = "Breathe",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_07.png",
 			},
 			{
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_white.png",
 			},
 		},
 		["caption_info"] = {
@@ -4254,6 +4267,14 @@
 				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["knowledge_word_info"] = {
+					["id"] = "515",
+					["is_enabled"] = true,
+					["offset"] = {
+						0,
+						-350,
+					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am55ssw/am55ssw_action4",

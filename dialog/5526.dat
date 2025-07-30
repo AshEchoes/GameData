@@ -652,7 +652,7 @@
 		["guid_str"] = "wG8EYjoy",
 		["id"] = 7,
 		["name"] = "霍冉",
-		["text"] = "这破天气还要坚持出来，精神头也太好了把，官方看这种天气就不能发个通知说恶劣天气注意安全别来凑热闹么！",
+		["text"] = "这破天气还要坚持出来，精神头也太好了吧，官方看这种天气就不能发个通知说恶劣天气注意安全别来凑热闹么！",
 	},
 	{
 		["bg_info"] = {
@@ -938,7 +938,7 @@
 				},
 			},
 			{
-				["anim"] = "smile1",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1218,7 +1218,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]平静到有些冷淡的声音打断了一直持续的谈话，有些拥挤的车内安静下来。众人不再交流，一致看向瞳。",
+			["text"] = "[size 17]平静到有些冷淡的声音打断了一直持续的谈话，有些拥挤的车内安静下来。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1308,7 +1308,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]平静到有些冷淡的声音打断了一直持续的谈话，有些拥挤的车内安静下来。",
+			["text"] = "[size 17]瞳双手交握放于膝上，从语气到姿态与平日看起来都没什么不同，车外雨声不停，平静沉稳的声音不不容置疑地盖过了那一层噪音。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -6187,7 +6187,7 @@
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/common/screen_mask_rain.bk2",
-				["sustain_page_count"] = 19,
+				["sustain_page_count"] = 20,
 				["template_type"] = "video",
 				["tween"] = {
 					{
@@ -6197,6 +6197,14 @@
 							["time"] = 1000,
 						},
 						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 19,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
 					},
 				},
 			},
@@ -7338,6 +7346,9 @@
 		["id"] = 103,
 		["name"] = "十手卫",
 		["text"] = "嗯。这种事行动中不会隐瞒，但也要避免节外生枝。",
+		["voice_effect"] = {
+			["event"] = "mask",
+		},
 	},
 	{
 		["bg_info"] = {

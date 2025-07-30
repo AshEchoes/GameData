@@ -484,6 +484,9 @@
 		["guid_str"] = "hETWzzBh",
 		["id"] = 8,
 		["name"] = "池",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5046_liuchi003",
+		},
 		["text"] = "她想不想活是不是将计就计我不关心，但和我说这种话……",
 	},
 	{
@@ -630,7 +633,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "sneer",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1671,7 +1674,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2681,7 +2684,7 @@
 		["guid_str"] = "ld6QBvIW",
 		["id"] = 41,
 		["name"] = "江昙",
-		["text"] = "葵，你相信神，是真的存在的么？",
+		["text"] = "葵，你相信神，是真实存在的么？",
 	},
 	{
 		["bg_info"] = {
@@ -2915,6 +2918,9 @@
 		["guid_str"] = "Gb53cIpb",
 		["id"] = 44,
 		["is_total_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/9/avg_chapter9_amb_bell_distant_loop",
@@ -2944,8 +2950,12 @@
 							["tween"] = "FadeIn",
 						},
 					},
+					["video"] = {
+						["count"] = -1,
+						["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_loop2.bk2",
+					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_06.png",
+				["path"] = "",
 			},
 			{
 			},
@@ -3008,7 +3018,14 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_06.png",
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_loop2.bk2",
+					},
+				},
+				["path"] = "",
 			},
 			{
 			},
@@ -3308,16 +3325,52 @@
 					["tween"] = {
 						{
 							["param"] = {
+								["delay"] = 2000,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+					["video"] = {
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_loop2.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.0,
+								["time"] = 3000,
+							},
+							["tween"] = "AlphaChange",
+						},
+						{
+							["param"] = {
+								["delay"] = 3000,
+								["time"] = 500,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
 								["delay"] = 5000,
 								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
 					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_loop1.bk2",
+					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_06.png",
-			},
-			{
 			},
 		},
 		["guid"] = "5DCAEEA94B67ED4EE8FBB181B206C137",
@@ -3325,6 +3378,39 @@
 		["id"] = 47,
 		["is_total_play"] = true,
 		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_.bk2",
+				["play_delay_time"] = 1000,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1000,
+							["delay_page"] = 0,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 5000,
+							["delay_page"] = 0,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
 			{
 				["config"] = {
 					["last_px"] = 0,
@@ -3360,7 +3446,7 @@
 						["tween"] = "FadeOut",
 					},
 				},
-				["z_order"] = 7,
+				["z_order"] = 20,
 			},
 		},
 		["just_auto_play"] = true,
