@@ -9,7 +9,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "doubt1_add",
+				["anim"] = "sad_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -60,7 +60,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "doubt1_add",
+				["anim"] = "sad_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -106,7 +106,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "doubt1_add",
+				["anim"] = "sad_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -119,6 +119,15 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
 				},
 			},
 		},
@@ -132,30 +141,6 @@
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_office_04.png",
 			},
 			{
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "doubt1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af50nvzhu/af50nvzhu_action4",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
 			},
 		},
 		["female_speaker_info"] = {
@@ -294,6 +279,7 @@
 		["guid_str"] = "aj0kBIro",
 		["id"] = 6,
 		["is_gender_bg"] = true,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_bg_info"] = {
 			{
@@ -367,7 +353,6 @@
 		["guid_str"] = "PPFFGSKY",
 		["id"] = 7,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -466,7 +451,6 @@
 		["guid_str"] = "3ZRbxWrM",
 		["id"] = 9,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -559,7 +543,6 @@
 		["guid_str"] = "TCrIBZqD",
 		["id"] = 11,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -652,7 +635,6 @@
 		["guid_str"] = "T38qE9ap",
 		["id"] = 13,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -742,7 +724,6 @@
 		["guid_str"] = "57x0075D",
 		["id"] = 15,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -758,7 +739,7 @@
 			},
 		},
 		["name"] = "[rolename]",
-		["text"] = "你指什么，不会是担心漏水吧，放心，这里结实着呢，而且现在开门就是天台，某种程度比130层方便多了~",
+		["text"] = "你指什么，不会是担心漏水吧？\n放心，这里结实着呢，而且现在开门就是天台，某种程度比130层方便多了~",
 	},
 	{
 		["bg_info"] = {
@@ -872,7 +853,6 @@
 		["guid_str"] = "PGvCCMVP",
 		["id"] = 18,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -888,7 +868,7 @@
 			},
 		},
 		["name"] = "[rolename]",
-		["text"] = "嗯，白荆科技也成立五年了。",
+		["text"] = "嗯，大家知道白荆树的LOGO也五年了。",
 	},
 	{
 		["bg_info"] = {
@@ -921,6 +901,7 @@
 				["config"] = {
 					["video"] = {
 						["count"] = -1,
+						["is_queue"] = true,
 						["path"] = "movies/Desktop/avg/chapter09/cg_9_h1_qianshousuxiao_loop_m.bk2",
 					},
 				},
@@ -961,7 +942,6 @@
 		["guid_str"] = "UXNQ88FE",
 		["id"] = 20,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -1140,7 +1120,6 @@
 		["guid_str"] = "YqbfHAxx",
 		["id"] = 24,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -1177,13 +1156,34 @@
 					["video"] = {
 						["is_queue"] = true,
 						["is_stage"] = true,
-						["path"] = "movies/Desktop/avg/chapter00/cg_0_0_nvzhu_out.bk2",
 					},
 				},
 				["path"] = "",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_office_04.png",
+			},
+		},
+		["female_bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_h1_qianshousuxiao_loop_f.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
 			},
 		},
 		["female_speaker_info"] = {
@@ -1192,7 +1192,44 @@
 		["guid"] = "ED5B2FF049654DBFD34FE2A4934A86CD",
 		["guid_str"] = "lKyfBD6D",
 		["id"] = 25,
+		["is_gender_bg"] = true,
+		["is_white_base_bg"] = true,
 		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 886,
+				["ori_size_w"] = 1920,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_nvzhu_out.bk2",
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
 			{
 				["config"] = {
 					["last_px"] = 0,
@@ -1209,7 +1246,7 @@
 						["param"] = {
 							["delay"] = 0,
 							["delay_page"] = 0,
-							["time"] = 200,
+							["time"] = 400,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -1217,6 +1254,29 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["male_bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_h1_qianshousuxiao_loop_m.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 		},
@@ -1253,7 +1313,6 @@
 						["count"] = -1,
 						["is_queue"] = true,
 						["is_stage"] = true,
-						["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher02_loop.bk2",
 					},
 				},
 			},
@@ -1261,7 +1320,45 @@
 		["guid"] = "FA2EEA3D472CC075F452568D8443BF5D",
 		["guid_str"] = "JHXyp2LA",
 		["id"] = 26,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
 		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 886,
+				["ori_size_w"] = 1920,
+				["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher01_b.bk2",
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
 			{
 				["config"] = {
 					["last_px"] = 0,
@@ -1283,24 +1380,11 @@
 				["volume"] = 1.5,
 			},
 		},
+		["time"] = 1200,
 	},
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 500,
-							},
-							["tween"] = "FadeIn",
-						},
-					},
-					["video"] = {
-						["path"] = "movies/Desktop/avg/chapter00/cg_story_0_0_qgx_white_2_loop.bk2",
-					},
-				},
 				["path"] = "",
 			},
 			{
@@ -1317,7 +1401,6 @@
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter00/cg_0_0_teacher02_loop.bk2",
 					},
 				},
 			},
@@ -1325,7 +1408,44 @@
 		["guid"] = "EF31199C4FE087366597BB82E7183DBA",
 		["guid_str"] = "2MOdSyun",
 		["id"] = 27,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
 		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 886,
+				["ori_size_w"] = 1920,
+				["path"] = "movies/Desktop/avg/chapter00/cg_story_0_0_qgx_white_2_loop.bk2",
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
 			{
 				["config"] = {
 					["last_px"] = 0,
@@ -1346,5 +1466,6 @@
 				["length"] = 1846,
 			},
 		},
+		["time"] = 1800,
 	},
 }

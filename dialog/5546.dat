@@ -21,45 +21,6 @@
 		["guid"] = "9CCF355C409E6D0B771F6FB4E14B8CBF",
 		["guid_str"] = "JPO1PyUd",
 		["id"] = 1,
-		["jenga"] = {
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
-				},
-				["count"] = -1,
-				["is_origin_size"] = false,
-				["is_queue"] = true,
-				["is_ratio_full"] = true,
-				["ori_size_h"] = 888,
-				["ori_size_w"] = 1928,
-				["path"] = "movies/Desktop/avg/chapter09/cg_9_d1_zhixuebeiying_loop.bk2",
-				["sustain_page_count"] = 11,
-				["template_type"] = "video",
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 0,
-							["time"] = 1000,
-						},
-						["tween"] = "FadeIn",
-					},
-					{
-						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 11,
-							["time"] = 1000,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-		},
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -75,6 +36,7 @@
 				["volume"] = 0.5,
 			},
 		},
+		["time"] = 100,
 	},
 	{
 		["bg_info"] = {
@@ -92,16 +54,15 @@
 		},
 		["caption_info"] = {
 			["align"] = "bottom",
-			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]有人说，纸鹤可以代替主人飞到更远的地方。[/c]",
+			["text"] = "[size 17][font zhunyuan][c f76a57]有人说，纸鹤可以代替主人飞到更远的地方。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 400,
+						["time"] = 500,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -119,6 +80,7 @@
 		["guid"] = "81CA01A94F0BAB4CBE8A498FBD0CC53F",
 		["guid_str"] = "bktuSX14",
 		["id"] = 2,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -136,10 +98,9 @@
 		},
 		["caption_info"] = {
 			["align"] = "bottom",
-			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]于是，我好像在很多地方叠过很多纸鹤。[/c]",
+			["text"] = "[size 17][font zhunyuan][c f76a57]于是，我好像在很多地方叠过很多纸鹤。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -154,6 +115,7 @@
 		["guid"] = "0D9866AB4D36CEB8A6E0878EF1D910FF",
 		["guid_str"] = "LlsCiy5I",
 		["id"] = 3,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -174,7 +136,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]曾经希望它们飞到餐桌上，[/c]",
+			["text"] = "[size 17][font zhunyuan][c f76a57]曾经希望它们飞到餐桌上，[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -189,6 +151,61 @@
 		["guid"] = "FE27BF884C1569BF5AF2CFB1128D72F2",
 		["guid_str"] = "mljgnJ0Z",
 		["id"] = 4,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter09/cg_9_d1_zhixuebeiying_loop.bk2",
+				["sustain_page_count"] = 8,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.2999999523163,
+							["scale_y"] = 1.2999999523163,
+							["time"] = 40000,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 9000,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["pos"] = {
+								["x"] = -200,
+								["y"] = -20,
+							},
+							["time"] = 40000,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -209,7 +226,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]告诉他们我虽然不是那个我，但很爱他们，谢谢陪我过的每一个生日。[/c]",
+			["text"] = "[size 17][font zhunyuan][c f76a57]告诉他们我虽然不是那个我，但很爱他们，谢谢陪我过的每一个生日。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -224,6 +241,7 @@
 		["guid"] = "264169A7454D98C73CD46B8B0D9E2C66",
 		["guid_str"] = "UODKzJP7",
 		["id"] = 5,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -244,7 +262,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]后来我又希望它们飞到实验台上，[/c]",
+			["text"] = "[size 17][font zhunyuan][c f76a57]后来我又希望它们飞到实验台上，[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -259,6 +277,7 @@
 		["guid"] = "BCBD1BBE4B2F57AE30771095E754F5A7",
 		["guid_str"] = "TKdHCbiT",
 		["id"] = 6,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -279,10 +298,10 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]告诉[M]他[/M][F]她[/F]快跑，实验塔快要关闭，毒气可不分人类还是行尸。[/c]",
+			["text"] = "[size 17][font zhunyuan][c f76a57]告诉[M]他[/M][F]她[/F]快跑，实验塔快要关闭，毒气可不分人类还是行尸。[/c]",
 			["text_align"] = "center",
-			["text_female"] = "[size 17][font cusong][c ca4243]告诉她快跑，实验塔快要关闭，毒气可不分人类还是行尸。[/c]",
-			["text_male"] = "[size 17][font cusong][c ca4243]告诉他快跑，实验塔快要关闭，毒气可不分人类还是行尸。[/c]",
+			["text_female"] = "[size 17][font zhunyuan][c f76a57]告诉她快跑，实验塔快要关闭，毒气可不分人类还是行尸。[/c]",
+			["text_male"] = "[size 17][font zhunyuan][c f76a57]告诉他快跑，实验塔快要关闭，毒气可不分人类还是行尸。[/c]",
 			["tween"] = {
 				{
 					["param"] = {
@@ -296,6 +315,7 @@
 		["guid"] = "5601BFF34FCD2C77E2AD749644C28657",
 		["guid_str"] = "r4Y7lfjH",
 		["id"] = 7,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -316,7 +336,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]…………[/c]",
+			["text"] = "[size 17][font zhunyuan][c f76a57]…………[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -331,6 +351,7 @@
 		["guid"] = "50B82DFF439D17CFA6E23FAF9B4F3168",
 		["guid_str"] = "AR7ETL5S",
 		["id"] = 8,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -351,7 +372,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]如果这些真的是织雪的记忆，[/c]",
+			["text"] = "[size 17][font zhunyuan][c f76a57]如果这些真的是织雪的记忆，[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -366,6 +387,7 @@
 		["guid"] = "4779D8264800CF6778E6B8B1C03E3B81",
 		["guid_str"] = "rwlMXSeH",
 		["id"] = 9,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -386,7 +408,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]如果它们真的是……[/c]",
+			["text"] = "[size 17][font zhunyuan][c f76a57]如果它们真的是……[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -401,6 +423,7 @@
 		["guid"] = "29CBF1FC450FED1A5658BABA6CC4EECC",
 		["guid_str"] = "AGAgAJKj",
 		["id"] = 10,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -433,18 +456,19 @@
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/chapter09/cg_9_d2_zhixuexiao_loopb.bk2",
-				["sustain_page_count"] = 8,
+				["sustain_page_count"] = 7,
 				["template_type"] = "video",
 				["tween"] = {
 					{
 						["param"] = {
 							["delay"] = 0,
 							["delay_page"] = 0,
-							["time"] = 1000,
+							["time"] = 1500,
 						},
 						["tween"] = "FadeIn",
 					},
 				},
+				["z_order"] = 2,
 			},
 		},
 		["just_auto_play"] = true,
@@ -483,13 +507,14 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]无论如何，还得谢谢那位让我醒过来的人。[/c]",
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17][font zhunyuan][c f76a57]无论如何，还得谢谢那位让我醒过来的人。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 400,
+						["time"] = 600,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -498,7 +523,7 @@
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 400,
+						["time"] = 600,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -507,6 +532,7 @@
 		["guid"] = "BFBB406A44126362871FE19BA452E031",
 		["guid_str"] = "reh5WE8p",
 		["id"] = 12,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -521,7 +547,8 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]让我遇见本来的我，和另一个你。[/c]",
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17][font zhunyuan][c f76a57]让我遇见本来的我，和另一个你。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -536,6 +563,7 @@
 		["guid"] = "59D4FCF14CDF430DB724B4AF89FD64DB",
 		["guid_str"] = "bvDM1ZZ4",
 		["id"] = 13,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -550,36 +578,8 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]真好。[/c]",
-			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 400,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
-		},
-		["guid"] = "36741A584AEE4701F070F29A2A83C0E7",
-		["guid_str"] = "fhswLYw0",
-		["id"] = 14,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["is_separate_tween"] = true,
-			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]希望这次，纸鹤真的能飞到更远的地方，[/c]",
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17][font zhunyuan][c f76a57]希望这次，纸鹤真的能飞到更远的地方，[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -593,7 +593,8 @@
 		},
 		["guid"] = "A57BF39D41CDEF44E57E95B6581B998E",
 		["guid_str"] = "CxKk6r3R",
-		["id"] = 15,
+		["id"] = 14,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -608,7 +609,8 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]不过也不用太远，13公里刚刚好。[/c]",
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17][font zhunyuan][c f76a57]不过也不用太远，13公里刚刚好。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -622,7 +624,8 @@
 		},
 		["guid"] = "A124E73A423478C9DC8FD29D5C210E69",
 		["guid_str"] = "fZnrtWuW",
-		["id"] = 16,
+		["id"] = 15,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -637,7 +640,8 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]就停在你的办公桌上吧。[/c]",
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17][font zhunyuan][c f76a57]就停在你的办公桌上吧。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -651,7 +655,8 @@
 		},
 		["guid"] = "6DC50D2748DCDE79F920C1B2A1B94E4A",
 		["guid_str"] = "Qvwol0TP",
-		["id"] = 17,
+		["id"] = 16,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -666,7 +671,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong][c ca4243]小研究员。[/c]",
+			["text"] = "[size 17][font zhunyuan][c f76a57]小研究员。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -680,7 +685,7 @@
 		},
 		["guid"] = "EAC146494D337B5E87422DA1D93D6C88",
 		["guid_str"] = "I9ZeYvNT",
-		["id"] = 18,
+		["id"] = 17,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -705,7 +710,7 @@
 						["param"] = {
 							["delay"] = 0,
 							["delay_page"] = 0,
-							["time"] = 200,
+							["time"] = 800,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -713,13 +718,15 @@
 						["param"] = {
 							["delay"] = 0,
 							["delay_page"] = 1,
-							["time"] = 1000,
+							["time"] = 3500,
 						},
 						["tween"] = "FadeOut",
 					},
 				},
+				["z_order"] = 3,
 			},
 		},
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -731,7 +738,8 @@
 		},
 		["guid"] = "4455539D40C562621FA8EF9A4AD8DF74",
 		["guid_str"] = "oCUsObPJ",
-		["id"] = 19,
+		["id"] = 18,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -740,5 +748,6 @@
 				["stop"] = 1,
 			},
 		},
+		["time"] = 3500,
 	},
 }

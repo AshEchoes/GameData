@@ -212,7 +212,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]钟楼下方已经开始慢慢恢复成正常构造，空中也已经再找不到一张飘扬的纸片。",
+			["text"] = "[size 17]钟楼下方已经开始慢慢恢复成正常构造，空中也再找不到一张飘扬的纸片。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -500,7 +500,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]言御最先到达，本想开口说什么，忽然像是感觉到什么不寻常的气氛，没有开口。",
+			["text"] = "[size 17]言御最先到达，本想开口说什么，忽然像是感觉到什么不寻常的气氛，没有出声。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -632,7 +632,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]没时间继续沉溺，",
+			["text"] = "[size 17]没时间继续沉溺在情绪里，我们还有必须要做的、也是最重要的一件事。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1349,7 +1349,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]众人一愣，没料到会有这种反应，岚相明显想说什么，被言御拉住，悄悄说了什么。",
+			["text"] = "[size 17]众人一愣，没料到会有这种反应，岚相明显想说什么，被言御拉住，悄悄耳语了几句。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1443,7 +1443,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]我盯着正在眼前的大门。",
+			["text"] = "[size 17]我盯着眼前的大门，繁复的浮雕与炫目的金色无端让人感到刺眼。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -1681,6 +1681,9 @@
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
 		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1717,6 +1720,9 @@
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
 		},
 	},
 	{
@@ -1873,6 +1879,21 @@
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.1000000238419,
+								["scale_y"] = 1.1000000238419,
+								["time"] = 800,
+							},
+							["tween"] = "ScaleIn",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_09.png",
 			},
 			{
@@ -1894,6 +1915,23 @@
 				},
 			},
 		},
+		["female_characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "heroine/heroine_action1",
+				["pos"] = {
+					0.0,
+					100.0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
 		["female_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1901,6 +1939,23 @@
 		["guid"] = "98C48BC54B69F6CDFC332A9903B3940B",
 		["guid_str"] = "RR3VDXHw",
 		["id"] = 44,
+		["male_characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_action1",
+				["pos"] = {
+					0.0,
+					100.0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1914,9 +1969,20 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.1000000238419,
+								["scale_y"] = 1.1000000238419,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
 						},
 					},
 				},
@@ -1963,6 +2029,7 @@
 				["loop"] = 1,
 			},
 		},
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -2012,8 +2079,17 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.30000001192093,
-			["text"] = "形容一下宫殿。",
+			["text"] = "[size 17]蜡烛的火苗被推开门的气流拂动，在华丽空旷的厅堂中摇曳出奇诡的影子。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "D1D8549D42A6ED850A67DA9CE8A3EFA8",
 		["guid_str"] = "ijo7tMXc",
@@ -2038,7 +2114,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.30000001192093,
-			["text"] = "重点描述下王座。",
+			["text"] = "[size 17]深红色地毯从入口一直延伸到尽头，直至七级台阶上的王座脚下。\n\n王座的装饰并不繁复，高大的靠背与扶手上的花纹在烛光中微微发亮。",
 			["text_align"] = "center",
 		},
 		["guid"] = "3CBB5CD143B68EF9F96EDB9BBC40B77F",
@@ -2064,12 +2140,38 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.30000001192093,
+			["text"] = "[size 17]犹如打磨锋利的野心。",
+			["text_align"] = "center",
+		},
+		["guid"] = "CE68DF8C47D2233EC2C0C7A9376A0139",
+		["guid_str"] = "DyZIgiCQ",
+		["id"] = 49,
+		["is_white_base_bg"] = true,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/bg_clock_03.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.30000001192093,
 			["text"] = "[size 17]进来之后受控的感觉瞬间消失，就在我以为会看到琴初本尊的时候，\n\n注意到长阶角落，一个女人正站在那里。",
 			["text_align"] = "center",
 		},
 		["guid"] = "2740FD2F4407B362C06097B9D2F524CB",
 		["guid_str"] = "5DdUq3ZE",
-		["id"] = 49,
+		["id"] = 50,
 		["is_white_base_bg"] = true,
 	},
 	{
@@ -2089,7 +2191,7 @@
 		},
 		["guid"] = "172FD7DB4B7E2BFD3E4F4C8A92AE30DB",
 		["guid_str"] = "toCRnsRt",
-		["id"] = 50,
+		["id"] = 51,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "surprise2_add",
@@ -2124,7 +2226,7 @@
 		},
 		["guid"] = "F01F90914E2848B3C2A0B8BB3CB818D7",
 		["guid_str"] = "jsvmLs5d",
-		["id"] = 51,
+		["id"] = 52,
 		["name"] = "「魁主」",
 		["speaker_info"] = {
 			["anim"] = "cold",
@@ -2151,7 +2253,7 @@
 		},
 		["guid"] = "E67E4BE94CC777B99C66D38DD29EA250",
 		["guid_str"] = "MofwVBbs",
-		["id"] = 52,
+		["id"] = 53,
 		["name"] = "「魁主」",
 		["speaker_info"] = {
 			["anim"] = "cold",
@@ -2169,7 +2271,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -2187,7 +2289,8 @@
 		},
 		["guid"] = "5F601879433F9B40C66E42A25309D935",
 		["guid_str"] = "11IUCpDy",
-		["id"] = 53,
+		["id"] = 54,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["speaker_info"] = {
 			["anim"] = "cold",

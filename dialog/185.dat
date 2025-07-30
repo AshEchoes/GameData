@@ -45,6 +45,14 @@
 		["id"] = 1,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-01-lab-amb",
+				["length"] = 17614,
+				["loop"] = 1,
+				["volume"] = 0.30000001192093,
+			},
+		},
 		["time"] = 2800,
 	},
 	{
@@ -157,6 +165,12 @@
 		["guid"] = "81B80507430FDE9ABAFCFBA8EB8A42A5",
 		["guid_str"] = "LiGEI3vm",
 		["id"] = 3,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/elevator_door_reach",
+				["length"] = 751,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2782,6 +2796,18 @@
 		["guid"] = "E36DAD684B96DE8ABC0A87B8FB391C92",
 		["guid_str"] = "8TYa2GAD",
 		["id"] = 49,
+		["soundfx"] = {
+			{
+				["delay"] = 300,
+				["event"] = "event:/sfx/story/5/elevator_door_open",
+				["length"] = 4247,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3147,6 +3173,7 @@
 		["guid"] = "4C64445246217CCBB7391F8816F8D9C7",
 		["guid_str"] = "N0MhRjGa",
 		["id"] = 56,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3187,6 +3214,15 @@
 				},
 			},
 		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-03/0007_alarm_lp",
+				["length"] = 4072,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 1500,
 	},
 	{
 		["bg_info"] = {
@@ -3354,6 +3390,18 @@
 		["id"] = 59,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-01-lab-amb",
+				["length"] = 17614,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/0-03/0007_alarm_lp",
+				["length"] = 4072,
+				["stop"] = 1,
+			},
+		},
 		["time"] = 4000,
 	},
 }

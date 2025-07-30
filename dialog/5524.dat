@@ -95,6 +95,7 @@
 		["guid_str"] = "PbWrFXQ5",
 		["id"] = 1,
 		["is_player_speaker"] = true,
+		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -517,6 +518,12 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3035_YWC6X4jY",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
 			["body_anim"] = "default_loop",
@@ -638,6 +645,12 @@
 			},
 		},
 		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3035_ExaLaxeM",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
 			["body_anim"] = "default_loop",
@@ -723,7 +736,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 200,
+								["time"] = 500,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -745,7 +758,7 @@
 		["guid_str"] = "bUcMCUN0",
 		["id"] = 6,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
+		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -773,6 +786,15 @@
 		["male_bg_info"] = {
 			{
 				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 500,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
@@ -914,7 +936,6 @@
 		["guid_str"] = "GPXawAlG",
 		["id"] = 8,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -1114,7 +1135,6 @@
 		["guid_str"] = "etFGgdVV",
 		["id"] = 11,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -1314,7 +1334,6 @@
 		["guid_str"] = "9n7lp45S",
 		["id"] = 14,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -1573,7 +1592,6 @@
 		["guid_str"] = "RLgaV56R",
 		["id"] = 18,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -1602,7 +1620,7 @@
 				0.93000000715256,
 			},
 		},
-		["text"] = "是的，还一次都没有敲响过，不过新闻上说大概会在明天或者后天正式开始播报森罗时间。",
+		["text"] = "是的，还一次都没有敲响过，不过新闻上说大概会在后天正式开始播报森罗时间。",
 	},
 	{
 		["bg_info"] = {
@@ -1700,6 +1718,7 @@
 				["config"] = {
 					["video"] = {
 						["count"] = -1,
+						["is_queue"] = true,
 						["path"] = "movies/Desktop/avg/chapter09/cg_9_h1_qianshousuxiao_loop_m.bk2",
 					},
 				},
@@ -1753,7 +1772,6 @@
 		["guid_str"] = "y45bwjEU",
 		["id"] = 21,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -1934,7 +1952,6 @@
 		["guid_str"] = "o5LfC4sQ",
 		["id"] = 24,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -2056,12 +2073,12 @@
 		["guid_str"] = "qq84iCHX",
 		["id"] = 26,
 		["is_gender_bg"] = true,
-		["is_player_speaker"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
 					["video"] = {
 						["count"] = -1,
+						["is_queue"] = true,
 						["path"] = "movies/Desktop/avg/chapter09/cg_9_h1_qianshousuxiao_loop_m.bk2",
 					},
 				},
@@ -2283,6 +2300,41 @@
 			{
 			},
 		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1200,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 200,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
 		["female_bg_info"] = {
 			{
 				["config"] = {
@@ -2304,6 +2356,17 @@
 				["path"] = "",
 			},
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_office_04.png",
 			},
 		},
@@ -2314,6 +2377,7 @@
 		["guid_str"] = "eitKVkGY",
 		["id"] = 30,
 		["is_gender_bg"] = true,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_bg_info"] = {
 			{
@@ -2336,6 +2400,17 @@
 				["path"] = "",
 			},
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_gate_office_04.png",
 			},
 		},
@@ -2366,6 +2441,7 @@
 				0.93000000715256,
 			},
 		},
+		["time"] = 1600,
 	},
 	{
 		["bg_info"] = {
@@ -2398,15 +2474,6 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
 				},
 			},
 		},
@@ -2721,7 +2788,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "dislike1_add",
+				["anim"] = "wronged2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3282,7 +3349,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -3326,6 +3393,7 @@
 		["guid"] = "2A628B394E9FB4D37EF59A992D47A50A",
 		["guid_str"] = "c7VNnn1A",
 		["id"] = 52,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "smile1_add",
@@ -3347,6 +3415,6 @@
 				["volume"] = 0.30000001192093,
 			},
 		},
-		["time"] = 3000,
+		["time"] = 3500,
 	},
 }

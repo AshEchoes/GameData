@@ -11,6 +11,28 @@
 							},
 							["tween"] = "FadeIn",
 						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
+						},
 					},
 				},
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_blood_01.png",
@@ -26,6 +48,7 @@
 		["guid"] = "C3BA607E4220F2822D4F818C2A3D4B93",
 		["guid_str"] = "DZ4FUCaK",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -554,7 +577,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -627,7 +650,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "dispirited",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -679,7 +702,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "dispirited",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -710,7 +733,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "doubt",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -725,7 +748,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "dispirited",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1431,6 +1454,7 @@
 		["guid"] = "734800324833CEC14F83A2BD1E149E1B",
 		["guid_str"] = "zM7TrHyA",
 		["id"] = 25,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -2550,6 +2574,7 @@
 		["guid"] = "6F47BB754B29E189E10DD8B4178C7DAE",
 		["guid_str"] = "6OwPPVBd",
 		["id"] = 45,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -2569,7 +2594,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "snicker1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2628,6 +2653,17 @@
 		["id"] = 46,
 		["name"] = "姜宁",
 		["text"] = "原来是这时候，姑姑还没嫁入白鸟家，那我可能也才出生不久吧……",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2691,7 +2727,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3024,7 +3060,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3076,7 +3112,7 @@
 				},
 			},
 			{
-				["anim"] = "snicker1",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3107,7 +3143,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3284,7 +3320,7 @@
 				},
 			},
 			{
-				["anim"] = "serious",
+				["anim"] = "dispirited",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3428,6 +3464,7 @@
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_11.png",
 			},
 			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_11.png",
 			},
 		},
 		["caption_info"] = {

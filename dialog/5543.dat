@@ -42,7 +42,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]解决完忽然出现的小怪，二人没有选择直接上去，而是在下面的侧墙观察。[br][br][size 17]余波还没过去，鸢难受地看向窗外，企图缓解一下，忽然她看到屏蔽外墙闪现了一瞬间，又很快消失。",
+			["text"] = "[size 17]看着满地躺倒的敌人，二人依然选择留在下面的侧墙观察。[br][br][size 17]余波还没过去，鸢的视线落出窗外，企图暗自平复一下不适感，却忽然捕捉到屏蔽外墙出现了一瞬间又立刻消失的闪动。",
 			["text_align"] = "center",
 		},
 		["guid"] = "0151908A451092204E9916A4D43D4B0C",
@@ -262,7 +262,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]言御转头，却没看到什么防护网，但从他的角度，[br][br][size 17]刚好能看到地面上隐藏起来的装置，还有一旁忙碌，但好像遇到什么事的人。",
+			["text"] = "[size 17]言御转头，没能发现防护网的变化，[br][br][size 17]但从他的角度刚好能看到地面上隐藏起来的装置，还有一旁忙碌奔走好像遇到什么问题的人。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -375,7 +375,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]言御拿出通讯仪，忍着头疼接入了外部行动小队的通讯频道——[br][br][size 17]这是监督给作为临时通讯搭建人之一的他的特权，方便行动中做出校正判断。",
+			["text"] = "[size 17]言御拿出通讯仪，忍着头疼接入了外部行动小队的通讯频道——[br][br][size 17]这是作为临时通讯搭建人之一，监督给予他的特权，方便其在行动中做出校正判断。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1221,12 +1221,12 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]精神余震没有结束，二人一边警惕可能冒出来的小怪一边，",
+			["text"] = "[size 17]精神余震没有结束，二人一边警惕着可能冒出来的敌人，一边继续观察着外面的情形。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise_add",
+				["anim"] = "pain_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1242,7 +1242,7 @@
 				},
 			},
 			{
-				["anim"] = "serious",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1536,7 +1536,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]通讯仪传来声音",
+			["text"] = "[size 17]通讯仪也同时传来其他人的示警。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2785,7 +2785,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]鸢抬头看着已经变得遥不可及的，她跳出来的窗户，从这个角度，窗沿几乎已经看不清了。",
+			["text"] = "[size 17]鸢抬头看着已经变得遥不可及的、她跳出来的那扇窗户，从这里望去，窗沿几乎已经看不清了。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3425,7 +3425,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]鸢站在原地叹了口气，又向四周的人群看去。他们看起来的确已经恢复了正常，根本意识不到自己刚才被控制了。",
+			["text"] = "[size 17]危机解除，通讯仪里传来大家报平安的声音。[br][br][size 17]眼看人群已经恢复，似乎根本没意识到自己受到了控制，鸢紧绷的神经渐渐放松下来。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3442,9 +3442,50 @@
 				},
 			},
 		},
+		["guid"] = "711E88DB422D3D18F4ABA0A63B2F3427",
+		["guid_str"] = "VXUPQPFE",
+		["id"] = 70,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.80000001192093,
+			["text"] = "[size 17]疲惫后知后觉地涌上来，正当她准备移动到安全位置休息时，突然注意到人群中有两个女孩。[br][br][size 17]她们明显也受到了影响，可其中一个还是下意识将自己的朋友护在怀里堵住耳朵，像是试图减轻对方的一些痛苦。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af35sy/af35sy_action2",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["guid"] = "C2D7A0724A5DF11E691283AD436CBB62",
 		["guid_str"] = "sYr0kDef",
-		["id"] = 70,
+		["id"] = 71,
 	},
 	{
 		["bg_info"] = {
@@ -3461,16 +3502,33 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["body_anim"] = "default_loop",
+				["knowledge_word_info"] = {
+					["id"] = "36",
+					["is_enabled"] = true,
+					["offset"] = {
+						250,
+						-20,
+					},
+				},
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "af35sy/af35sy_action2",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 		},
 		["guid"] = "F9FB0DC74A680361DF92D4BFBB6E9FC5",
 		["guid_str"] = "r4bI7O3L",
-		["id"] = 71,
+		["id"] = 72,
 		["name"] = "鸢",
 		["text"] = "嗯？",
 	},
@@ -3485,7 +3543,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]鸢忍不住走过去，在两人面前蹲下。",
+			["text"] = "[size 17]应该是被周围失去理智的人牵连，短发女孩的手臂上出现了几处小伤口，鸢忍不住走过去蹲下。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3515,7 +3573,7 @@
 		},
 		["guid"] = "EF8B938D4C330F605BD1F58596E99962",
 		["guid_str"] = "UHvHenPF",
-		["id"] = 72,
+		["id"] = 73,
 		["soundfx"] = {
 			{
 				["delay"] = 200,
@@ -3536,7 +3594,6 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]短发女孩的手臂上出现了几处小伤口，应该是被周围的人牵连到的。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3600,20 +3657,6 @@
 					},
 				},
 			},
-		},
-		["guid"] = "10E7DB0342CCC943BD9BCEB68DE9D16D",
-		["guid_str"] = "t7g3ByTx",
-		["id"] = 73,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
-			},
-			{
-			},
-		},
-		["characters"] = {
 			{
 				["anim"] = "normal_add",
 				["blur"] = {
@@ -3640,6 +3683,38 @@
 						},
 						["tween"] = "MoveIn",
 					},
+				},
+			},
+		},
+		["guid"] = "10E7DB0342CCC943BD9BCEB68DE9D16D",
+		["guid_str"] = "t7g3ByTx",
+		["id"] = 74,
+		["just_auto_play"] = true,
+		["time"] = 1000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af35sy/af35sy_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
 				},
 			},
 			{
@@ -3687,7 +3762,7 @@
 		},
 		["guid"] = "03BBB44046DB83178CB5A5AFBBE44D50",
 		["guid_str"] = "OyH9RjQZ",
-		["id"] = 74,
+		["id"] = 75,
 		["name"] = "鸢",
 		["soundfx"] = {
 			{
@@ -3779,7 +3854,7 @@
 		},
 		["guid"] = "01A64F4B40D9F3EFC7DFC9ADDDC65226",
 		["guid_str"] = "MstRNvZy",
-		["id"] = 75,
+		["id"] = 76,
 		["name"] = "短发女孩",
 		["text"] = "……",
 	},
@@ -3864,7 +3939,7 @@
 		},
 		["guid"] = "583B6EC743ED9E96B15DA18DEED8E8B0",
 		["guid_str"] = "wMDVydZT",
-		["id"] = 76,
+		["id"] = 77,
 		["name"] = "长发女孩",
 		["text"] = "你受伤了？呜，伤口很疼吧，我给你吹吹，呼……呼……",
 	},
@@ -3949,7 +4024,7 @@
 		},
 		["guid"] = "5DE6527246CDA66B3BF16B8F3E33B8E5",
 		["guid_str"] = "bzHfJVas",
-		["id"] = 77,
+		["id"] = 78,
 		["name"] = "短发女孩",
 		["text"] = "不用，我没事的。",
 	},
@@ -4023,7 +4098,7 @@
 		},
 		["guid"] = "E6A6320E46A752758749F48BD5232058",
 		["guid_str"] = "iDtldtqW",
-		["id"] = 78,
+		["id"] = 79,
 		["name"] = "鸢",
 		["text"] = "别担心，是轻微的擦伤，养几天就会好的。",
 	},
@@ -4097,7 +4172,7 @@
 		},
 		["guid"] = "33F411314EC148F0826DA4B138B1C40A",
 		["guid_str"] = "cFBhKL9g",
-		["id"] = 79,
+		["id"] = 80,
 		["name"] = "鸢",
 		["text"] = "你们两个是自己来的么？爸爸妈妈呢？",
 	},
@@ -4182,7 +4257,7 @@
 		},
 		["guid"] = "5BD7D6D1458971DDE9802A83E85E3DFE",
 		["guid_str"] = "8chIJH9N",
-		["id"] = 80,
+		["id"] = 81,
 		["name"] = "长发女孩",
 		["text"] = "……",
 	},
@@ -4256,7 +4331,7 @@
 		},
 		["guid"] = "58991DED44562057878847ADD3E3A048",
 		["guid_str"] = "y37mhKjz",
-		["id"] = 81,
+		["id"] = 82,
 		["name"] = "鸢",
 		["text"] = "你们……不会是偷偷溜出来的吧？",
 	},
@@ -4341,7 +4416,7 @@
 		},
 		["guid"] = "2C264FEC4026C72A45AC0597D60F4244",
 		["guid_str"] = "m1FqW2AS",
-		["id"] = 82,
+		["id"] = 83,
 		["name"] = "短发女孩",
 		["text"] = "是我……",
 	},
@@ -4426,7 +4501,7 @@
 		},
 		["guid"] = "B1EC5EA0436827FE899E79A9743E9A57",
 		["guid_str"] = "R8VOIUso",
-		["id"] = 83,
+		["id"] = 84,
 		["name"] = "长发女孩",
 		["text"] = "是我的主意，明天是我的生日，之前听人说全视钟塔会在这一天敲响，我就拉着她出来，想要看完敲钟再回去……",
 	},
@@ -4511,7 +4586,7 @@
 		},
 		["guid"] = "52FF32724774E08198A25198C48CC442",
 		["guid_str"] = "Wi4O9CSr",
-		["id"] = 84,
+		["id"] = 85,
 		["name"] = "长发女孩",
 		["text"] = "没想到会让你受伤……早知道我绝对不会出来的。",
 	},
@@ -4585,7 +4660,7 @@
 		},
 		["guid"] = "02AF825A42DFBF35C6F24F9E11B93282",
 		["guid_str"] = "iLucfHOF",
-		["id"] = 85,
+		["id"] = 86,
 		["name"] = "鸢",
 		["text"] = "你的心情我明白，可这样实在太不安全了。我还是送你们回家吧，好么？",
 	},
@@ -4670,7 +4745,7 @@
 		},
 		["guid"] = "DB4DF98241145BF49FBDA2BEABFB516B",
 		["guid_str"] = "LH8jqsOf",
-		["id"] = 86,
+		["id"] = 87,
 		["name"] = "长发女孩",
 		["text"] = "不用了大姐姐，我们家就在那边，走十分钟就到。",
 	},
@@ -4685,7 +4760,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]需要字幕",
+			["text"] = "[size 17]女孩乖巧地对着鸢摆摆手，随即拉起朋友的手准备转身离开。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -4737,12 +4812,6 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["body_anim"] = "default_loop",
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "af35sy/af35sy_action2",
 				["pos"] = {
@@ -4756,7 +4825,7 @@
 		},
 		["guid"] = "538C75574BC6D7B62F6A9BB37D24E841",
 		["guid_str"] = "9s3wq2f8",
-		["id"] = 87,
+		["id"] = 88,
 	},
 	{
 		["bg_info"] = {
@@ -4828,7 +4897,7 @@
 		},
 		["guid"] = "3544FFD144EA974743FF3F86FC7D6CDA",
 		["guid_str"] = "chSvniR6",
-		["id"] = 88,
+		["id"] = 89,
 		["name"] = "鸢",
 		["text"] = "等一下。",
 	},
@@ -4948,7 +5017,7 @@
 		},
 		["guid"] = "076BFA0648F1E5012852EF8F0BC8D39F",
 		["guid_str"] = "xoJejLWn",
-		["id"] = 89,
+		["id"] = 90,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -5033,7 +5102,7 @@
 		},
 		["guid"] = "86A0EC0C4C9E153402D4519CA0B28D0F",
 		["guid_str"] = "bg8qiWo2",
-		["id"] = 90,
+		["id"] = 91,
 		["name"] = "鸢",
 		["text"] = "送给你们。",
 	},
@@ -5118,7 +5187,7 @@
 		},
 		["guid"] = "4CCEC53F47CFB4E52C7FD8ACD1E25395",
 		["guid_str"] = "Hmot5fbI",
-		["id"] = 91,
+		["id"] = 92,
 		["name"] = "长发女孩",
 		["text"] = "啊，这个头饰好好看……真的要送给我们？姐姐你看起来很珍惜它们。",
 	},
@@ -5192,7 +5261,7 @@
 		},
 		["guid"] = "5D0220A74EE1C369F3086FB0CF9F6FE4",
 		["guid_str"] = "ARKe1rzC",
-		["id"] = 92,
+		["id"] = 93,
 		["name"] = "鸢",
 		["text"] = "虽然这个礼物也很难弥补没看成敲钟仪式的遗憾，不过，生日快乐。已经过了零点，应该可以说了吧。",
 	},
@@ -5277,7 +5346,7 @@
 		},
 		["guid"] = "5E0D4F8C4AB82A8F93E72694BF4E3812",
 		["guid_str"] = "g4SrtgcV",
-		["id"] = 93,
+		["id"] = 94,
 		["name"] = "短发女孩",
 		["text"] = "啊，生日快乐！",
 	},
@@ -5362,7 +5431,7 @@
 		},
 		["guid"] = "BF45BFD94D43703ED09E2AB796C23255",
 		["guid_str"] = "zeXYcBJv",
-		["id"] = 94,
+		["id"] = 95,
 		["name"] = "长发女孩",
 		["text"] = "嘿嘿，谢谢！",
 	},
@@ -5447,7 +5516,7 @@
 		},
 		["guid"] = "287460FB4640FA290CCB00B324A003FF",
 		["guid_str"] = "fO3z5EbC",
-		["id"] = 95,
+		["id"] = 96,
 		["name"] = "短发女孩",
 		["text"] = "我也可以有礼物么？可是……妈妈说不能随便接受别人的东西。",
 	},
@@ -5521,7 +5590,7 @@
 		},
 		["guid"] = "CE4AD625424E851A7809839A50A3A8EE",
 		["guid_str"] = "g7YnkwNw",
-		["id"] = 96,
+		["id"] = 97,
 		["name"] = "鸢",
 		["text"] = "这是祝福，也是奖励，因为你刚刚很勇敢地保护着自己的朋友。",
 	},
@@ -5595,7 +5664,7 @@
 		},
 		["guid"] = "C21CA12D44CC38176BC1BA8FE6AF505A",
 		["guid_str"] = "wfT5lEfe",
-		["id"] = 97,
+		["id"] = 98,
 		["name"] = "鸢",
 		["text"] = "以前我的朋友也像你一样勇敢，我很珍惜她，也很感谢她，就想着送给她这样一份礼物，和我的刚好凑成一对。",
 	},
@@ -5669,7 +5738,7 @@
 		},
 		["guid"] = "428766C5451EB28B3AE213950346C44F",
 		["guid_str"] = "jg1INYVr",
-		["id"] = 98,
+		["id"] = 99,
 		["name"] = "鸢",
 		["text"] = "现在……你们或许更适合它。",
 	},
@@ -5749,7 +5818,7 @@
 		},
 		["guid"] = "88089DE14C5641105873FEBD943C864B",
 		["guid_str"] = "fEzNoM3q",
-		["id"] = 99,
+		["id"] = 100,
 	},
 	{
 		["bg_info"] = {
@@ -5832,7 +5901,7 @@
 		},
 		["guid"] = "D9D0003A4FA938B555D18FB70029B968",
 		["guid_str"] = "ipZVJ56W",
-		["id"] = 100,
+		["id"] = 101,
 		["name"] = "短发女孩",
 		["text"] = "但是……",
 	},
@@ -5912,7 +5981,7 @@
 		},
 		["guid"] = "7351B19248035399536B69BBA8C3A605",
 		["guid_str"] = "fzjbLVMJ",
-		["id"] = 101,
+		["id"] = 102,
 	},
 	{
 		["bg_info"] = {
@@ -5995,7 +6064,7 @@
 		},
 		["guid"] = "FA42A2A540A34F4EF53EDF84A18D1D98",
 		["guid_str"] = "MD4mc3jU",
-		["id"] = 102,
+		["id"] = 103,
 		["name"] = "短发女孩",
 		["text"] = "……",
 	},
@@ -6080,7 +6149,7 @@
 		},
 		["guid"] = "DA066C9B49609E62E0BF02818CB4D774",
 		["guid_str"] = "m8V988bO",
-		["id"] = 103,
+		["id"] = 104,
 		["name"] = "长发女孩",
 		["text"] = "谢谢姐姐，我们会好好保存的。",
 	},
@@ -6154,7 +6223,7 @@
 		},
 		["guid"] = "DCBAB5254D333DAF0801A5948276943D",
 		["guid_str"] = "FqqDrv7Y",
-		["id"] = 104,
+		["id"] = 105,
 		["name"] = "鸢",
 		["text"] = "嗯，回家吧。",
 	},
@@ -6257,7 +6326,7 @@
 		},
 		["guid"] = "5703111648A781D5CDC853B11D68EDD6",
 		["guid_str"] = "CajqF9iR",
-		["id"] = 105,
+		["id"] = 106,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -6300,7 +6369,7 @@
 		},
 		["guid"] = "B8F588634DF1253848DBDA8B166DE641",
 		["guid_str"] = "tlXzqzJr",
-		["id"] = 106,
+		["id"] = 107,
 		["name"] = "鸢",
 		["text"] = "以后……也要好好保护你身边的朋友，一直一直在一起啊。",
 	},
@@ -6332,7 +6401,7 @@
 		},
 		["guid"] = "404BC8784CD3947A78F9A8909A8D8DE4",
 		["guid_str"] = "2JAfENud",
-		["id"] = 107,
+		["id"] = 108,
 		["name"] = "？？？",
 		["text"] = "………………",
 	},
@@ -6362,7 +6431,7 @@
 			["b_use_mask"] = true,
 			["height"] = 100,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]风轻轻吹动，鸢觉得有什么被别到了自己的发上。[br][br][size 17]抬起手，一只闪着月色的鸢尾正躺在手中。",
+			["text"] = "[size 17]风轻轻吹动，鸢觉得有什么被别到了自己的发上。[br][br][size 17]抬起手，一枝闪着月色的鸢尾正躺在手中。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -6394,7 +6463,7 @@
 		},
 		["guid"] = "F8FCD0EE40CD054B1C7E09A97637CC1D",
 		["guid_str"] = "xH3o1jqE",
-		["id"] = 108,
+		["id"] = 109,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/player/af35sy/af35sy_skill_ultra_a",
@@ -6427,7 +6496,7 @@
 		},
 		["guid"] = "438FED8645BA881060C02EBB0787656A",
 		["guid_str"] = "uF7ey4u7",
-		["id"] = 109,
+		["id"] = 110,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6491,7 +6560,7 @@
 		},
 		["guid"] = "5DABBBBE4B2E28BF162942A0BD7EF8ED",
 		["guid_str"] = "zaGfPaMv",
-		["id"] = 110,
+		["id"] = 111,
 	},
 	{
 		["bg_info"] = {
@@ -6509,7 +6578,7 @@
 		},
 		["guid"] = "212ACBDF4485073E965304B176265C35",
 		["guid_str"] = "t0Xr45x6",
-		["id"] = 111,
+		["id"] = 112,
 		["name"] = "鸢",
 		["text"] = "对——",
 	},
@@ -6529,7 +6598,7 @@
 		},
 		["guid"] = "7000190B4270E562B1B215813CFD74EC",
 		["guid_str"] = "wzxsIUZc",
-		["id"] = 112,
+		["id"] = 113,
 		["name"] = "七叶",
 		["text"] = "这次又要为了什么说对不起呀？",
 	},
@@ -6549,7 +6618,7 @@
 		},
 		["guid"] = "F7491D9A4BF8C4ACA5F5218BB0C72862",
 		["guid_str"] = "u5fPEqOD",
-		["id"] = 113,
+		["id"] = 114,
 		["name"] = "七叶",
 		["text"] = "那么多人劝过你，你也该改改这个毛病啦，小鸢很好，我希望更多人喜欢你，比我更喜欢。",
 	},
@@ -6569,7 +6638,7 @@
 		},
 		["guid"] = "DE55E7724FF66B148939D9B23192952C",
 		["guid_str"] = "6q2lIKoB",
-		["id"] = 114,
+		["id"] = 115,
 		["name"] = "鸢",
 		["text"] = "全森罗也没有几个人像你眼光这么差……",
 	},
@@ -6589,7 +6658,7 @@
 		},
 		["guid"] = "C4614D0646B399D263DF6CB8B41FC5E5",
 		["guid_str"] = "Ht4XI5C1",
-		["id"] = 115,
+		["id"] = 116,
 		["name"] = "鸢",
 		["text"] = "你也很好，我也希望所有人都喜欢你，变成那个模样并不是你想要的……",
 	},
@@ -6609,7 +6678,7 @@
 		},
 		["guid"] = "67A9261745D9EE730DD0C8A4A4EF412E",
 		["guid_str"] = "IBcCjZRB",
-		["id"] = 116,
+		["id"] = 117,
 		["name"] = "七叶",
 		["text"] = "我没有你想象中那么好啦，我也有很多不好的小心思。比如……比如我其实一点都不想死，我也很害怕，我因为这种害怕害死了莱利和小远，我还……想和你永远藏在那个花园里……哪怕你也会死。",
 	},
@@ -6629,7 +6698,7 @@
 		},
 		["guid"] = "3F25BBEB439B3A15DD5F2892254BA12F",
 		["guid_str"] = "h9gDzJ5t",
-		["id"] = 117,
+		["id"] = 118,
 		["name"] = "七叶",
 		["text"] = "怎么样？你不知道吧~",
 	},
@@ -6649,7 +6718,7 @@
 		},
 		["guid"] = "341393DF461FBEDB654B20A7C5F901FF",
 		["guid_str"] = "PbzPDhjB",
-		["id"] = 118,
+		["id"] = 119,
 		["name"] = "鸢",
 		["text"] = "你从来没说过……",
 	},
@@ -6669,7 +6738,7 @@
 		},
 		["guid"] = "8CA81A2D47D5D3C69F7A5AB54EAFB1A8",
 		["guid_str"] = "i3healFw",
-		["id"] = 119,
+		["id"] = 120,
 		["name"] = "七叶",
 		["text"] = "但我很开心你选择了离开，因为那个选择，你才真正救了我。",
 	},
@@ -6689,7 +6758,7 @@
 		},
 		["guid"] = "836D0C8541EA7F1F6E101CAC502B01B1",
 		["guid_str"] = "9BYc3Krp",
-		["id"] = 120,
+		["id"] = 121,
 		["name"] = "鸢",
 		["text"] = "………………",
 	},
@@ -6709,7 +6778,7 @@
 		},
 		["guid"] = "70622C984FB1C5D69926319B3A54856A",
 		["guid_str"] = "20zW2DIC",
-		["id"] = 121,
+		["id"] = 122,
 		["name"] = "鸢",
 		["text"] = "七叶，你会怪我放弃最后的机会，没把箭对准葵么？",
 	},
@@ -6729,7 +6798,7 @@
 		},
 		["guid"] = "DC24C715497B0A9FE2A68FBDD149F2F3",
 		["guid_str"] = "JJf01ZB8",
-		["id"] = 122,
+		["id"] = 123,
 		["name"] = "七叶",
 		["text"] = "怎么会。",
 	},
@@ -6749,7 +6818,7 @@
 		},
 		["guid"] = "43F5E1CF466DD73E78EF21AE0A8DDB32",
 		["guid_str"] = "EjEVuxXl",
-		["id"] = 123,
+		["id"] = 124,
 		["name"] = "七叶",
 		["text"] = "伤害别人其实是一件很痛苦也很困难的事，小鸢这么漂亮的箭，就是要乘着月光跳舞呀。",
 	},
@@ -6769,7 +6838,7 @@
 		},
 		["guid"] = "2EF9AE0E4BDD09E0FAAA77BA04C6F82E",
 		["guid_str"] = "usWAwPq7",
-		["id"] = 124,
+		["id"] = 125,
 		["name"] = "七叶",
 		["text"] = "就是看见它，我才过来找到了你。",
 	},
@@ -6789,7 +6858,7 @@
 		},
 		["guid"] = "5614EC2442445B02E256C7A8CE5AA19C",
 		["guid_str"] = "SCYiwmCa",
-		["id"] = 125,
+		["id"] = 126,
 		["name"] = "鸢",
 		["text"] = "其实今晚一直在下雨。",
 	},
@@ -6809,7 +6878,7 @@
 		},
 		["guid"] = "86766F0343C9DC6C7166BCB797AB487B",
 		["guid_str"] = "RPNOI3XM",
-		["id"] = 126,
+		["id"] = 127,
 		["name"] = "鸢",
 		["text"] = "只是不知道是不是运气好，我跳出来的时候，它好像刚好停下，月亮才会出现。",
 	},
@@ -6829,7 +6898,7 @@
 		},
 		["guid"] = "8C0D863340D4B613394FC69D37679FDD",
 		["guid_str"] = "FvFnxqHR",
-		["id"] = 127,
+		["id"] = 128,
 		["name"] = "七叶",
 		["text"] = "是么，那我们的运气真好。",
 	},
@@ -6849,7 +6918,7 @@
 		},
 		["guid"] = "B1CC7E6A4F6584442E60A1BD66E92F6E",
 		["guid_str"] = "05zeIz8I",
-		["id"] = 128,
+		["id"] = 129,
 		["name"] = "七叶",
 		["text"] = "小鸢，我要走了，最后说一次再见吧。",
 	},
@@ -6869,14 +6938,25 @@
 		},
 		["guid"] = "409400374D4836DBCC0970979BA9B23F",
 		["guid_str"] = "9t3dfG3o",
-		["id"] = 129,
+		["id"] = 130,
 		["name"] = "七叶",
 		["text"] = "谢谢你回过头，找到我。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "",
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_white.png",
 			},
 			{
 				["config"] = {
@@ -6889,7 +6969,7 @@
 		},
 		["guid"] = "0ECF6F994E9484351243479889DA58D6",
 		["guid_str"] = "yMmZ3cxJ",
-		["id"] = 130,
+		["id"] = 131,
 		["name"] = "鸢",
 		["text"] = "嗯，再见。",
 	},
@@ -6927,7 +7007,7 @@
 		},
 		["guid"] = "6AB0A1FE4E70BFA9404E479C0E05E314",
 		["guid_str"] = "m3qgX22g",
-		["id"] = 131,
+		["id"] = 132,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/player/af35sy/af35sy_skill_ultra_b",
@@ -6958,7 +7038,7 @@
 		},
 		["guid"] = "848BD81F484EFAC157A61B8B06BACE39",
 		["guid_str"] = "fwt4XiXR",
-		["id"] = 132,
+		["id"] = 133,
 	},
 	{
 		["bg_info"] = {
@@ -6987,7 +7067,7 @@
 		},
 		["guid"] = "4F7EDD724E00B229BD9F6E8E76BA9C24",
 		["guid_str"] = "sOe7nEWO",
-		["id"] = 133,
+		["id"] = 134,
 		["just_auto_play"] = true,
 	},
 }

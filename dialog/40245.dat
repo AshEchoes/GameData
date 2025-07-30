@@ -35,7 +35,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_alley_01.png",
 			},
 			{
 			},
@@ -55,7 +55,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_alley_01.png",
 			},
 			{
 			},
@@ -64,15 +64,15 @@
 		["guid_str"] = "nJ3LyxbC",
 		["id"] = 2,
 		["introduce"] = {
-			["location"] = "锦葵街道西山苑27-101",
-			["time"] = "   ",
+			["location"] = "锦葵街道·西山苑27-101",
+			["time"] = "未知时间",
 		},
 		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_alley_01.png",
 			},
 			{
 			},
@@ -99,7 +99,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_alley_01.png",
 			},
 			{
 			},
@@ -139,7 +139,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_alley_01.png",
 			},
 			{
 			},
@@ -192,7 +192,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_alley_01.png",
 			},
 			{
 			},
@@ -220,7 +220,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_alley_01.png",
 			},
 			{
 			},
@@ -248,7 +248,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_alley_01.png",
 			},
 			{
 			},
@@ -257,7 +257,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]轻轻拧动。\n",
+			["text"] = "[size 17]轻轻拧动。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -293,7 +293,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog02SceneBG/bg_alley_05.png",
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_alley_01.png",
 			},
 			{
 			},
@@ -301,6 +301,7 @@
 		["guid"] = "5EB2144744D53AAABFF91F89F60BCEC0",
 		["guid_str"] = "q5NpONtA",
 		["id"] = 9,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -341,7 +342,9 @@
 		["guid"] = "22ED06F94CA480F62E7760989DCD1DF1",
 		["guid_str"] = "nj01ecxN",
 		["id"] = 10,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
+		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
 				["event"] = "event:/ambience/urban_daytime_quiet",
@@ -383,6 +386,15 @@
 			["mask_alpha"] = 0.30000001192093,
 			["text"] = "[size 17]他沉默地进门，穿过不大的客厅来到厨房门口，\n\n系着围裙的二人正在灶台前忙活，空气中传来熟悉的菜香。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "44B1AB6F4FAF3A91622B1E9843282310",
 		["guid_str"] = "wSUVzB1n",
@@ -913,9 +925,31 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 400,
+							["time"] = 600,
 						},
 						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 0.94999998807907,
+							["scale_y"] = 0.94999998807907,
+							["time"] = 0,
+						},
+						["tween"] = "ScaleIn",
+					},
+					{
+						["param"] = {
+							["anchor"] = "center",
+							["delay"] = 0,
+							["mode"] = "linear",
+							["scale_x"] = 1.0,
+							["scale_y"] = 1.0,
+							["time"] = 600,
+						},
+						["tween"] = "ScaleIn",
 					},
 				},
 			},
@@ -1165,6 +1199,9 @@
 		["guid_str"] = "87Ct5Y4f",
 		["id"] = 33,
 		["name"] = "言修平",
+		["sound"] = {
+			["volume"] = 0.40000000596046,
+		},
 		["text"] = "儿子，吃饭啦。",
 		["text_info"] = {
 			["tween"] = {
@@ -1336,7 +1373,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.30000001192093,
-			["text"] = "[size 17]言御刚要拿起筷子，忽然停下手，\n\n看向这个角度刚好隐藏在拐角的房门口，一手习惯性扶上椅背。\n",
+			["text"] = "[size 17]言御刚要拿起筷子，忽然停下手，\n\n看向这个角度刚好隐藏在拐角的房门口，一手习惯性扶上椅背。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -2286,7 +2323,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					-200,
+					-330,
 					120,
 				},
 				["shadow"] = {
@@ -2316,7 +2353,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n01normalman_01",
 				["pos"] = {
-					200,
+					330,
 					100,
 				},
 				["shadow"] = {
@@ -2332,6 +2369,29 @@
 					},
 				},
 			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action3",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "up",
+							["dis"] = 40,
+							["end_alpha"] = 1.0,
+							["time"] = 400,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
 		},
 		["guid"] = "E3775A29413717BFA5E93FAFBBBFE4B8",
 		["guid_str"] = "YN7DDRRN",
@@ -2340,7 +2400,6 @@
 		["speaker_info"] = {
 			["anim"] = "smile1",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am56yy/am56yy_action3",
 		},
 		["text"] = "今年海临一定要下大雪，我还想打雪仗，这次一定一雪前耻不让爸奸计得逞！",
 	},
@@ -2367,7 +2426,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					-200,
+					-330,
 					120,
 				},
 				["shadow"] = {
@@ -2388,9 +2447,20 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n01normalman_01",
 				["pos"] = {
-					200,
+					330,
 					100,
 				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action3",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2429,7 +2499,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					-200,
+					-330,
 					120,
 				},
 				["shadow"] = {
@@ -2450,9 +2520,20 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n01normalman_01",
 				["pos"] = {
-					200,
+					330,
 					100,
 				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action3",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2465,7 +2546,6 @@
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am56yy/am56yy_action3",
 		},
 		["text"] = "？",
 	},
@@ -2492,7 +2572,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					-200,
+					-330,
 					120,
 				},
 				["shadow"] = {
@@ -2513,9 +2593,20 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n01normalman_01",
 				["pos"] = {
-					200,
+					330,
 					100,
 				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action3",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -2554,7 +2645,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					-200,
+					-330,
 					120,
 				},
 				["shadow"] = {
@@ -2575,11 +2666,55 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n01normalman_01",
 				["pos"] = {
-					200,
+					330,
 					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 300,
+							["pos"] = {
+								["x"] = -130,
+								["y"] = 0,
+							},
+							["time"] = 500,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action3",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 200,
+							["time"] = 20,
+						},
+						["tween"] = "Shake",
+					},
+					{
+						["param"] = {
+							["delay"] = 400,
+							["direction"] = "down",
+							["dis"] = 40,
+							["time"] = 380,
+						},
+						["tween"] = "MoveOut",
+					},
 				},
 			},
 		},
@@ -2592,11 +2727,16 @@
 				["event"] = "event:/sfx/story/ourea/cloth_grab_heavy",
 				["length"] = 870,
 			},
+			{
+				["delay"] = 300,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 4.0,
+			},
 		},
 		["speaker_info"] = {
 			["anim"] = "smile2",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am56yy/am56yy_action3",
 		},
 		["text"] = "哎呦！",
 	},
@@ -2629,7 +2769,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					-200,
+					-330,
 					120,
 				},
 				["shadow"] = {
@@ -2690,7 +2830,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					-200,
+					-330,
 					120,
 				},
 				["shadow"] = {
@@ -2724,7 +2864,7 @@
 		["id"] = 65,
 		["name"] = "言御",
 		["speaker_info"] = {
-			["anim"] = "normal",
+			["anim"] = "doubt",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am56yy/am56yy_action3",
 		},
@@ -2753,11 +2893,24 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					-200,
+					-330,
 					120,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = 130,
+								["y"] = 0,
+							},
+							["time"] = 400,
+						},
+						["tween"] = "RelativePositionChange",
+					},
 				},
 			},
 			{
@@ -2786,6 +2939,13 @@
 		["guid_str"] = "kxI5NHh6",
 		["id"] = 66,
 		["name"] = "叶红",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 4.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3157,16 +3317,15 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["is_separate_tween"] = true,
 			["is_show_all"] = true,
-			["mask_alpha"] = 0.30000001192093,
-			["text"] = "[size 17]——1116年4月1日。",
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[size 17][font cusong]——1116年4月1日。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 500,
+						["time"] = 700,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -3175,6 +3334,12 @@
 		["guid"] = "8178412A459A676F81B1DD92CD5FCC52",
 		["guid_str"] = "o92fFYEk",
 		["id"] = 72,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/whooshbang_01",
+				["length"] = 0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
@@ -3267,7 +3432,7 @@
 		["id"] = 74,
 		["name"] = "言御",
 		["speaker_info"] = {
-			["anim"] = "surprise",
+			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "am56yy/am56yy_action3",
 		},
@@ -3374,7 +3539,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "sad",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3433,7 +3598,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "sad",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3462,14 +3627,31 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "sad",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am56yy/am56yy_action3",
+				["pos"] = {
+					0,
+					40,
+				},
+				["scale"] = {
+					1.1000000238419,
+					1.1000000238419,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -3505,6 +3687,14 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am56yy/am56yy_action3",
+				["pos"] = {
+					0,
+					40,
+				},
+				["scale"] = {
+					1.1000000238419,
+					1.1000000238419,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3528,14 +3718,31 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am56yy/am56yy_action3",
+				["pos"] = {
+					0,
+					90,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -3571,6 +3778,14 @@
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am56yy/am56yy_action3",
+				["pos"] = {
+					0,
+					90,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -3602,6 +3817,15 @@
 				["path"] = "am56yy/am56yy_action3",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -4158,7 +4382,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]这是陷阱吧？",
+			["text"] = "[size 17][font cusong]这是陷阱吧？",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -4233,45 +4457,23 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.0,
-					0.0,
-					0.0,
-					0.62745100259781,
-				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n07lywife/n07lywife_action1",
-				["pos"] = {
-					-200,
-					120,
-				},
+				["path"] = "am56yy/am56yy_action3",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.0,
-					0.0,
-					0.0,
-					0.62745100259781,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n01normalman_01",
-				["pos"] = {
-					200,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -4282,7 +4484,6 @@
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am56yy/am56yy_action3",
 		},
 		["text"] = "真的可以……？可是你们不是一直说工作……",
 	},
@@ -4315,6 +4516,15 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 			{
 				["anim"] = "normal",
@@ -4335,6 +4545,15 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -4420,45 +4639,23 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.0,
-					0.0,
-					0.0,
-					0.62745100259781,
-				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n07lywife/n07lywife_action1",
-				["pos"] = {
-					-200,
-					120,
-				},
+				["path"] = "am56yy/am56yy_action5",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.0,
-					0.0,
-					0.0,
-					0.62745100259781,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n01normalman_01",
-				["pos"] = {
-					200,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -4469,7 +4666,6 @@
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am56yy/am56yy_action3",
 		},
 		["text"] = "…………",
 	},
@@ -4502,11 +4698,20 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					-200,
+					-330,
 					120,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 			{
@@ -4523,9 +4728,29 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n01normalman_01",
 				["pos"] = {
-					200,
+					330,
 					100,
 				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action3",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4563,7 +4788,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					-200,
+					-330,
 					120,
 				},
 				["shadow"] = {
@@ -4584,9 +4809,20 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n01normalman_01",
 				["pos"] = {
-					200,
+					330,
 					100,
 				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action3",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -4640,11 +4876,20 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n07lywife/n07lywife_action1",
 				["pos"] = {
-					-200,
+					-330,
 					120,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
 				},
 			},
 			{
@@ -4661,21 +4906,49 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n01normalman_01",
 				["pos"] = {
-					200,
+					330,
 					100,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action3",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
 			},
 		},
-		["guid"] = "2DCCACBB44AB9BC27342459845EBA768",
-		["guid_str"] = "OrW4IhNG",
+		["guid"] = "6603DBF948EE8E32F0D5EDBCF2096D59",
+		["guid_str"] = "fXmZIIRN",
 		["id"] = 101,
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am56yy/am56yy_action3",
 		},
 	},
 	{
@@ -4688,45 +4961,23 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.0,
-					0.0,
-					0.0,
-					0.62745100259781,
-				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n07lywife/n07lywife_action1",
-				["pos"] = {
-					-200,
-					120,
-				},
+				["path"] = "am56yy/am56yy_action5",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.0,
-					0.0,
-					0.0,
-					0.62745100259781,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n01normalman_01",
-				["pos"] = {
-					200,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeIn",
+					},
 				},
 			},
 		},
@@ -4737,7 +4988,6 @@
 		["speaker_info"] = {
 			["anim"] = "serious",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am56yy/am56yy_action3",
 		},
 		["text"] = "……………………",
 	},

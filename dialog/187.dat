@@ -7,6 +7,9 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["length"] = 182312,
+		},
 		["guid"] = "0C17D43A4968E598D9D8DD9E2E7179F4",
 		["guid_str"] = "ivEeAGS5",
 		["id"] = 1,
@@ -41,7 +44,7 @@
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/chapter09/cg_9_e1_quheai_loopa.bk2",
-				["sustain_page_count"] = 14,
+				["sustain_page_count"] = 15,
 				["template_type"] = "video",
 				["tween"] = {
 					{
@@ -56,6 +59,13 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/cg_9_e1_quheai_loopa",
+				["length"] = 3866,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["guid"] = "7006550F41636F2D9155A8AA876B6747",
@@ -149,6 +159,27 @@
 		["guid"] = "76C0A15A4A4A1B4EBC94B0A99F4CFF49",
 		["guid_str"] = "FubouuOU",
 		["id"] = 13,
+		["name"] = "曲观玄",
+		["text"] = "这可不能告诉你。",
+	},
+	{
+		["guid"] = "DA365E9D4BD3B9D25A3D718CB64F9E32",
+		["guid_str"] = "Mv0lQFpA",
+		["id"] = 14,
+		["name"] = "埃斯特班",
+		["text"] = "玄，如果我不曾记错，你的目的是毁了它。但纷争并不会因此休止，它无关紧要。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["guid"] = "455CD8B046C6F0F00A0966AC84813410",
+		["guid_str"] = "8H6b0OsY",
+		["id"] = 15,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -165,7 +196,7 @@
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/chapter09/cg_9_e1_quheai_loopb.bk2",
-				["sustain_page_count"] = 5,
+				["sustain_page_count"] = 3,
 				["template_type"] = "video",
 				["tween"] = {
 					{
@@ -178,30 +209,15 @@
 					},
 					{
 						["param"] = {
-							["delay"] = 2000,
-							["delay_page"] = 4,
+							["delay"] = 4000,
+							["delay_page"] = 2,
 							["time"] = 600,
 						},
 						["tween"] = "FadeOut",
 					},
 				},
-				["z_order"] = 2,
 			},
 		},
-		["name"] = "曲观玄",
-		["text"] = "这可不能告诉你。",
-	},
-	{
-		["guid"] = "DA365E9D4BD3B9D25A3D718CB64F9E32",
-		["guid_str"] = "Mv0lQFpA",
-		["id"] = 14,
-		["name"] = "埃斯特班",
-		["text"] = "玄，如果我不曾记错，你的目的是毁了它。但纷争并不会因此休止，它无关紧要。",
-	},
-	{
-		["guid"] = "455CD8B046C6F0F00A0966AC84813410",
-		["guid_str"] = "8H6b0OsY",
-		["id"] = 15,
 		["name"] = "曲观玄",
 		["text"] = "……",
 	},
@@ -213,6 +229,13 @@
 		["text"] = "也许的确如你所说。但无论是毁掉还是保护，都与你无关，埃斯特班。",
 	},
 	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
 		["guid"] = "6C0FF221410D78FAE0DE659209F7595F",
 		["guid_str"] = "BJYeglvL",
 		["id"] = 17,
@@ -232,7 +255,7 @@
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/chapter09/cg_9_e1_quheai_loopc.bk2",
-				["play_delay_time"] = 1300,
+				["play_delay_time"] = 3300,
 				["sustain_page_count"] = 2,
 				["template_type"] = "video",
 				["tween"] = {
@@ -261,7 +284,7 @@
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/chapter09/cg_9_e1_quheai_btoc.bk2",
-				["play_delay_time"] = 1000,
+				["play_delay_time"] = 3000,
 				["sustain_page_count"] = 2,
 				["template_type"] = "video",
 				["tween"] = {
@@ -278,6 +301,13 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["soundfx"] = {
+			{
+				["delay"] = 3000,
+				["event"] = "event:/sfx/story/9/cg_9_e1_quheai_btoc",
+				["length"] = 733,
+			},
+		},
 		["text"] = "不，该叫你……晓，我的弟弟。",
 	},
 	{
@@ -293,6 +323,6 @@
 		["id"] = 18,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
-		["time"] = 3000,
+		["time"] = 3300,
 	},
 }

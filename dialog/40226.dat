@@ -7,7 +7,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 2000,
+								["time"] = 4000,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -29,7 +29,7 @@
 								["mode"] = "linear",
 								["scale_x"] = 1.0,
 								["scale_y"] = 1.0,
-								["time"] = 2000,
+								["time"] = 4000,
 							},
 							["tween"] = "ScaleIn",
 						},
@@ -60,6 +60,7 @@
 		["guid"] = "6F1D38084FA690B101BB2AA7439D62C0",
 		["guid_str"] = "uLHJb2Wx",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["male_characters"] = {
@@ -86,7 +87,18 @@
 				["loop"] = 1,
 				["volume"] = 0.40000000596046,
 			},
+			{
+				["event"] = "event:/ambience/d31_church_bell ",
+				["length"] = 0,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/ambience/d31_church_bell",
+				["length"] = 11500,
+				["stop"] = 1,
+			},
 		},
+		["time"] = 4000,
 	},
 	{
 		["bg_info"] = {
@@ -270,7 +282,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 2000,
+								["time"] = 1500,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -286,6 +298,7 @@
 		["guid"] = "C177C3494AC44EFA7DAFF4B8CB8C37A0",
 		["guid_str"] = "qcc7GsVz",
 		["id"] = 6,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -322,6 +335,7 @@
 				["length"] = 2491,
 			},
 		},
+		["time"] = 1500,
 	},
 	{
 		["bg_info"] = {
@@ -393,6 +407,9 @@
 			},
 		},
 		["name"] = "「宁先生」",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3102_u2u2B9aD",
+		},
 		["sound_control"] = {
 			["effect"] = 4,
 		},
@@ -570,6 +587,9 @@
 			},
 		},
 		["name"] = "「宁先生」",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3102_8xp3mPB8",
+		},
 		["sound_control"] = {
 			["effect"] = 4,
 		},
@@ -747,6 +767,9 @@
 			},
 		},
 		["name"] = "「宁先生」",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode3102_ZWj1OWrM",
+		},
 		["sound_control"] = {
 			["effect"] = 4,
 		},
@@ -1109,6 +1132,7 @@
 		["guid"] = "6B16D0134E1198A5D22B03B9DACE32C1",
 		["guid_str"] = "jcXxRVJK",
 		["id"] = 20,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1140,6 +1164,7 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["time"] = 1500,
 	},
 	{
 		["bg_info"] = {
@@ -1163,6 +1188,17 @@
 		},
 		["name"] = "[rolename]",
 		["text"] = "这里是……什么地方，你是谁？",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1173,6 +1209,7 @@
 			},
 		},
 		["caption_info"] = {
+			["align"] = "bottom",
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.30000001192093,
 			["text"] = "[size 17]算是意料之中，那个缥缈的声音并没有立刻响起。",
@@ -1348,14 +1385,15 @@
 			},
 		},
 		["caption_info"] = {
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.30000001192093,
-			["text"] = "[size 17][font cusong]……因为纷争。枯萎总会到来，而新芽已不在，便想找到它……",
+			["text"] = "[size 17][font cusong]……因为纷争。\n\n枯萎总会到来，而新芽已不在，\n\n便想找到它……",
 			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 800,
+						["time"] = 1000,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -1383,14 +1421,15 @@
 		},
 		["caption_info"] = {
 			["is_separate_tween"] = true,
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.30000001192093,
-			["text"] = "[size 17][font cusong]你并不完整。这里是起源，是终结，是初生之地也是归处，却无法继续让你成熟，你需要萌发……你正在萌发……",
+			["text"] = "[size 17][font cusong]你并不完整。\n\n这里是起源，是终结，是初生之地也是归处。\n\n却无法继续让你成熟，\n\n你需要萌发……\n\n你正在萌发……",
 			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 800,
+						["time"] = 1000,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -1430,6 +1469,17 @@
 		},
 		["name"] = "[rolename]",
 		["text"] = "……什么？不完整是说……我不是同调者？",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1544,14 +1594,15 @@
 			},
 		},
 		["caption_info"] = {
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.30000001192093,
-			["text"] = "[size 17][font cusong]枯萎总会到来，而新芽已不在，他们便出发，便去寻找它……",
+			["text"] = "[size 17][font cusong]枯萎总会到来，而新芽已不在。\n\n他们便出发，便去寻找它……",
 			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 800,
+						["time"] = 1000,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -1578,14 +1629,15 @@
 			},
 		},
 		["caption_info"] = {
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.30000001192093,
-			["text"] = "[size 17][font cusong]第13颗种子，为你许下最初的本源，你在萌发，在抽芽……",
+			["text"] = "[size 17][font cusong]第13颗种子，\n\n为你许下最初的本源，\n\n你在萌发，在抽芽……",
 			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 800,
+						["time"] = 1000,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -1612,6 +1664,7 @@
 			},
 		},
 		["caption_info"] = {
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.30000001192093,
 			["text"] = "[size 17][font cusong]他们会找到它。",
 			["text_align"] = "center",
@@ -1619,7 +1672,7 @@
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 800,
+						["time"] = 1000,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -1646,6 +1699,7 @@
 			},
 		},
 		["caption_info"] = {
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.30000001192093,
 			["text"] = "[size 17][font cusong]找到你。",
 			["text_align"] = "center",
@@ -1653,7 +1707,7 @@
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 800,
+						["time"] = 1000,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -1694,14 +1748,15 @@
 			},
 		},
 		["caption_info"] = {
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.30000001192093,
-			["text"] = "[size 17][font cusong]你便是「[c 8CC9FF]未来[/c]」。",
+			["text"] = "[size 17][font cusong]你便是「[c 8CC9FF] 未来 [/c]」。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 800,
+						["time"] = 1000,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -1729,14 +1784,15 @@
 			},
 		},
 		["caption_info"] = {
+			["is_show_all"] = true,
 			["mask_alpha"] = 0.30000001192093,
-			["text"] = "[size 17][font cusong]我的孩子，将他们带回来好么，告诉你会遇见的他们，我很想念……",
+			["text"] = "[size 17][font cusong]我的孩子，将他们带回来好么。\n\n告诉你会遇见的他们，\n\n我很想念……",
 			["text_align"] = "center",
 			["tween"] = {
 				{
 					["param"] = {
 						["delay"] = 0,
-						["time"] = 800,
+						["time"] = 1000,
 					},
 					["tween"] = "FadeIn",
 				},
@@ -1789,6 +1845,7 @@
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
 		},
+		["time"] = 1000,
 	},
 	{
 		["bg_info"] = {
@@ -1858,11 +1915,20 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["F_CenterX"] = 0.5,
+							["F_CenterY"] = 0.5,
+							["F_Size"] = 2.0,
+						},
+						["is_loop"] = true,
+						["material"] = "MI_UI_RadialBlurBlur",
+					},
 					["tween"] = {
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 3000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -1880,6 +1946,7 @@
 		["guid"] = "F3322A0847F211DEC198D99294622E4F",
 		["guid_str"] = "NqWWwEiK",
 		["id"] = 44,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {
@@ -1898,5 +1965,6 @@
 				["volume"] = 1.5,
 			},
 		},
+		["time"] = 4000,
 	},
 }

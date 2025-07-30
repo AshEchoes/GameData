@@ -1308,7 +1308,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]平静到有些冷淡的声音打断了一直持续的谈话，有些拥挤的车内安静下来。众人不再交流，一致看向瞳。",
+			["text"] = "[size 17]平静到有些冷淡的声音打断了一直持续的谈话，有些拥挤的车内安静下来。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1420,7 +1420,7 @@
 		["guid_str"] = "73KGTY2M",
 		["id"] = 19,
 		["name"] = "瞳",
-		["text"] = "敌人总数量不明，但拥有不明改造体、异形生物等多类杂兵，根据最新情报，疑似还可使用能力不明的次抛同调者——即可视为作战工具人。",
+		["text"] = "敌人总数量不明，但拥有不明改造体、异形生物等多类杂兵，根据最新情报，疑似还可使用能力不明的次抛同调者——即作战工具人。",
 	},
 	{
 		["bg_info"] = {
@@ -1524,39 +1524,10 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am15t/am15t_action1",
-				["pos"] = {
-					0,
-					50,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-		},
-		["guid"] = "07866E1944F9CEDF95F5B5B1E72D5017",
-		["guid_str"] = "rhNLLxlE",
+		["guid"] = "2C15FF524239C65AF686D1A4D5B0379F",
+		["guid_str"] = "pUm4AbOB",
 		["id"] = 22,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1567,21 +1538,35 @@
 					["scale"] = 1,
 					["state"] = 0,
 				},
+				["lens"] = {
+					["attrs"] = {
+						["F_BlockSize0"] = 30.0,
+						["F_BlockSize1"] = 20.0,
+						["F_BlockSize2"] = 10.0,
+						["F_LineScale"] = 7.3,
+						["F_Offset"] = 3.0,
+						["F_Spped"] = 100.0,
+					},
+					["in_time"] = 0,
+					["is_loop"] = true,
+					["material"] = "MI_UI_Glitch",
+				},
 				["path"] = "interface/resource/Game/Dialog09CGBG/cg_9_1_info_yuki.png",
+				["sustain_page_count"] = 3,
 				["template_type"] = "image",
 				["tween"] = {
 					{
 						["param"] = {
 							["delay"] = 0,
 							["delay_page"] = 0,
-							["time"] = 500,
+							["time"] = 900,
 						},
 						["tween"] = "FadeIn",
 					},
 				},
 			},
 		},
-		["name"] = "瞳",
+		["just_auto_play"] = true,
 		["speaker_info"] = {
 			["material"] = "M_UI_SpinePortrait",
 			["offset"] = {
@@ -1594,7 +1579,64 @@
 				0.89999997615814,
 			},
 		},
-		["text"] = "「千羽鹤」，异世界未登记同调者，本人透露名为舞鹤织雪，能力为「纸」，在7.21出世间袭击事件中成为弃子，目前行踪不明，虽然我们的执行官称她大概率不会再作为敌人出现，不过此人性格莫测难辨，虽然对出世间忠诚度极低但疑似有其他身份。",
+		["time"] = 1000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40982154011726,
+						0.52027499675751,
+						0.59534883499146,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
+			},
+			{
+			},
+		},
+		["guid"] = "07866E1944F9CEDF95F5B5B1E72D5017",
+		["guid_str"] = "rhNLLxlE",
+		["id"] = 23,
+		["name"] = "瞳",
+		["speaker_info"] = {
+			["anim"] = "normal1",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-170,
+				-180,
+			},
+			["path"] = "am15t/am15t_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 1.0,
+						["start_alpha"] = 1.0,
+						["time"] = 200,
+					},
+					["tween"] = "AlphaChange",
+				},
+			},
+		},
+		["text"] = "「千羽鹤」，异世界未登记同调者，本人透露名为舞鹤织雪，能力为「纸」，在7.21出世间袭击事件中成为弃子，目前行踪不明，虽然我们的执行官称她对出世间忠诚度极低，大概率不会再作为敌人出现，不过此人性格莫测难辨，疑似有其他身份。",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1614,7 +1656,7 @@
 		},
 		["guid"] = "70689B7149B5C1A12AFE2183CDA11C04",
 		["guid_str"] = "qDXgfVzI",
-		["id"] = 23,
+		["id"] = 24,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1625,29 +1667,21 @@
 					["scale"] = 1,
 					["state"] = 0,
 				},
-				["path"] = "interface/resource/Game/Dialog09CGBG/cg_9_1_info_yuki.png",
-				["template_type"] = "image",
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
+				["lens"] = {
+					["attrs"] = {
+						["F_BlockSize0"] = 30.0,
+						["F_BlockSize1"] = 20.0,
+						["F_BlockSize2"] = 10.0,
+						["F_LineScale"] = 7.3,
+						["F_Offset"] = 3.0,
+						["F_Spped"] = 100.0,
 					},
-				},
-			},
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
+					["in_time"] = 0,
+					["is_loop"] = true,
+					["material"] = "MI_UI_Glitch",
 				},
 				["path"] = "interface/resource/Game/Dialog09CGBG/cg_9_1_info_chi.png",
+				["sustain_page_count"] = 2,
 				["template_type"] = "image",
 				["tween"] = {
 					{
@@ -1659,11 +1693,12 @@
 						["tween"] = "FadeIn",
 					},
 				},
+				["z_order"] = 2,
 			},
 		},
 		["name"] = "瞳",
 		["speaker_info"] = {
-			["anim"] = "serious",
+			["anim"] = "normal2",
 			["material"] = "M_UI_SpinePortrait",
 			["offset"] = {
 				-170,
@@ -1675,7 +1710,7 @@
 				0.89999997615814,
 			},
 		},
-		["text"] = "「柳叶刀」，本名柳池，精神类能力，可以针对人产生的各种情绪进行攻击，疑似为半年前失去行踪的连环恶性事件真凶，性格恶劣手段残忍，道德感极弱，在出世间主要担任改造及异核摘取、移植相关技术类工作。",
+		["text"] = "「柳叶刀」，本名柳池，精神类能力，可以针对人产生的各种情绪进行攻击，疑似为半年前失去行踪的连环恶性事件真凶，性格恶劣手段残忍，道德感极弱，在出世间主要担任改造及异核摘取、移植等相关技术类工作。",
 	},
 	{
 		["bg_info"] = {
@@ -1695,7 +1730,7 @@
 		},
 		["guid"] = "F1343C7742D700D15BE23B967C558A56",
 		["guid_str"] = "MXCYX9p6",
-		["id"] = 24,
+		["id"] = 25,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1706,40 +1741,33 @@
 					["scale"] = 1,
 					["state"] = 0,
 				},
-				["path"] = "interface/resource/Game/Dialog09CGBG/cg_9_1_info_chi.png",
-				["template_type"] = "image",
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
+				["lens"] = {
+					["attrs"] = {
+						["F_BlockSize0"] = 30.0,
+						["F_BlockSize1"] = 20.0,
+						["F_BlockSize2"] = 10.0,
+						["F_LineScale"] = 7.3,
+						["F_Offset"] = 3.0,
+						["F_Spped"] = 100.0,
 					},
-				},
-			},
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
+					["in_time"] = 0,
+					["is_loop"] = true,
+					["material"] = "MI_UI_Glitch",
 				},
 				["path"] = "interface/resource/Game/Dialog09CGBG/cg_9_1_info_chuxing.png",
+				["sustain_page_count"] = 2,
 				["template_type"] = "image",
 				["tween"] = {
 					{
 						["param"] = {
 							["delay"] = 0,
 							["delay_page"] = 0,
-							["time"] = 500,
+							["time"] = 700,
 						},
 						["tween"] = "FadeIn",
 					},
 				},
+				["z_order"] = 3,
 			},
 		},
 		["name"] = "瞳",
@@ -1776,7 +1804,7 @@
 		},
 		["guid"] = "3E3B412E4AECD12DB357159DF471E52F",
 		["guid_str"] = "TTPfrWI7",
-		["id"] = 25,
+		["id"] = 26,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1787,30 +1815,21 @@
 					["scale"] = 1,
 					["state"] = 0,
 				},
-				["path"] = "interface/resource/Game/Dialog09CGBG/cg_9_1_info_chuxing.png",
-				["template_type"] = "image",
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
+				["lens"] = {
+					["attrs"] = {
+						["F_BlockSize0"] = 30.0,
+						["F_BlockSize1"] = 20.0,
+						["F_BlockSize2"] = 10.0,
+						["F_LineScale"] = 7.3,
+						["F_Offset"] = 3.0,
+						["F_Spped"] = 100.0,
 					},
-				},
-			},
-			{
-				["config"] = {
-					["last_px"] = 0,
-					["last_py"] = 0,
-					["orig_x"] = 0,
-					["orig_y"] = 0,
-					["scale"] = 1,
-					["state"] = 0,
+					["in_time"] = 0,
+					["is_loop"] = true,
+					["material"] = "MI_UI_Glitch",
 				},
 				["path"] = "interface/resource/Game/Dialog09CGBG/cg_9_1_info_tan.png",
-				["sustain_page_count"] = 2,
+				["sustain_page_count"] = 6,
 				["template_type"] = "image",
 				["tween"] = {
 					{
@@ -1821,15 +1840,8 @@
 						},
 						["tween"] = "FadeIn",
 					},
-					{
-						["param"] = {
-							["delay"] = 0,
-							["delay_page"] = 1,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
-					},
 				},
+				["z_order"] = 4,
 			},
 		},
 		["name"] = "瞳",
@@ -1846,7 +1858,7 @@
 				0.89999997615814,
 			},
 		},
-		["text"] = "「圣女」，登记名江昙，在出世间内拥有仅次于「教主」的地位，虽未登记为同调者，但之所以被教众称为「圣女」，正是因为她是出世间中第一个成为同调者，拥有力量，并被宣传给当时教众奉上神坛的人。",
+		["text"] = "「圣女」，登记名江昙，在出世间内拥有仅次于「教主」的地位，虽未登记为同调者，但之所以被教众称为「圣女」，正是因为她是出世间中第一个成为同调者，并被宣传给当时教众奉上神坛的人。",
 	},
 	{
 		["bg_info"] = {
@@ -1902,7 +1914,7 @@
 		},
 		["guid"] = "16F31FD54D7AA6CE0DE591A02EE35347",
 		["guid_str"] = "1lSXu4bv",
-		["id"] = 26,
+		["id"] = 27,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -1959,8 +1971,21 @@
 		},
 		["guid"] = "7633FEB54CD1C3BDBE240BB198973F34",
 		["guid_str"] = "8DRGNLrD",
-		["id"] = 27,
+		["id"] = 28,
 		["name"] = "瞳",
+		["speaker_info"] = {
+			["anim"] = "closeeyeserious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-170,
+				-180,
+			},
+			["path"] = "am15t/am15t_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
 		["text"] = "敌人行事谨慎，而这种组织收获信徒的手段，往往并不需要那么明确的“佐证”，也不需要看见“真相”，只要恰到好处的让愚人被蛊惑、愿意相信就可以了。",
 	},
 	{
@@ -1979,31 +2004,23 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am15t/am15t_action1",
-				["pos"] = {
-					0,
-					50,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "DA60174B4310E533DDD880A5CBAADDCD",
 		["guid_str"] = "z6LAX4Lq",
-		["id"] = 28,
+		["id"] = 29,
 		["name"] = "瞳",
+		["speaker_info"] = {
+			["anim"] = "closeeyeserious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-170,
+				-180,
+			},
+			["path"] = "am15t/am15t_action1",
+			["scale"] = {
+				0.89999997615814,
+				0.89999997615814,
+			},
+		},
 		["text"] = "当然，也有可能当时的见证者已经都被处理。",
 	},
 	{
@@ -2051,7 +2068,7 @@
 		},
 		["guid"] = "A358584649B15FC1C5C87C87BF1B59D9",
 		["guid_str"] = "9FLoXRec",
-		["id"] = 29,
+		["id"] = 30,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "serious_add",
@@ -2123,7 +2140,7 @@
 		},
 		["guid"] = "441739B145851BED60BD85BF9FD80AA8",
 		["guid_str"] = "AAPbTDNJ",
-		["id"] = 30,
+		["id"] = 31,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2133,6 +2150,19 @@
 					["orig_y"] = 0,
 					["scale"] = 1,
 					["state"] = 0,
+				},
+				["lens"] = {
+					["attrs"] = {
+						["F_BlockSize0"] = 30.0,
+						["F_BlockSize1"] = 20.0,
+						["F_BlockSize2"] = 10.0,
+						["F_LineScale"] = 7.3,
+						["F_Offset"] = 3.0,
+						["F_Spped"] = 100.0,
+					},
+					["in_time"] = 0,
+					["is_loop"] = true,
+					["material"] = "MI_UI_Glitch",
 				},
 				["path"] = "interface/resource/Game/Dialog09CGBG/cg_9_1_info_qin.png",
 				["sustain_page_count"] = 2,
@@ -2155,6 +2185,7 @@
 						["tween"] = "FadeOut",
 					},
 				},
+				["z_order"] = 5,
 			},
 		},
 		["name"] = "瞳",
@@ -2221,7 +2252,7 @@
 		},
 		["guid"] = "FFA154134BD9FC5C373E1FB3C8C97E9A",
 		["guid_str"] = "uD3GALJf",
-		["id"] = 31,
+		["id"] = 32,
 		["name"] = "瞳",
 		["text"] = "以上关于敌人的情报大多来自于血露薇，先前同步的资料上更为详细，请诸位务必熟记。",
 	},
@@ -2270,7 +2301,7 @@
 		},
 		["guid"] = "7892047E444D7659F2E90080DDD2AB7D",
 		["guid_str"] = "F4E9pBi0",
-		["id"] = 32,
+		["id"] = 33,
 	},
 	{
 		["bg_info"] = {
@@ -2320,7 +2351,7 @@
 		},
 		["guid"] = "CD3EAEC2411804F744198CB49B41364D",
 		["guid_str"] = "ND8Lfwkc",
-		["id"] = 33,
+		["id"] = 34,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
@@ -2360,7 +2391,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "normal2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2381,7 +2412,7 @@
 		},
 		["guid"] = "1AFA726347ADEB9FA0B8B3B6E9373E62",
 		["guid_str"] = "k7Cm37TY",
-		["id"] = 34,
+		["id"] = 35,
 		["name"] = "瞳",
 		["text"] = "接下来，人员和行动分配，由白荆科技执行官[rolename]向大家确认。",
 	},
@@ -2403,7 +2434,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "normal1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2433,7 +2464,7 @@
 		},
 		["guid"] = "126E32BC49052DAAE472209CF838C567",
 		["guid_str"] = "F4oQifeG",
-		["id"] = 35,
+		["id"] = 36,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt2_add",
@@ -2500,7 +2531,7 @@
 		},
 		["guid"] = "5235CEAC4E346DFA3A2523BCC4970EB7",
 		["guid_str"] = "vtiFG4Wb",
-		["id"] = 36,
+		["id"] = 37,
 	},
 	{
 		["bg_info"] = {
@@ -2546,14 +2577,14 @@
 			},
 		},
 		["female_speaker_info"] = {
-			["anim"] = "dislike2_add",
+			["anim"] = "smile2_add",
 		},
 		["guid"] = "82A28C714B412BED1B2A0C80562346A3",
 		["guid_str"] = "ppmKXt3Y",
-		["id"] = 37,
+		["id"] = 38,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
-			["anim"] = "dislike2_add",
+			["anim"] = "smile2_add",
 		},
 		["name"] = "[rolename]",
 		["speaker_info"] = {
@@ -2628,7 +2659,8 @@
 		},
 		["guid"] = "373F0A224F420875458D869AE2789533",
 		["guid_str"] = "DGwL5Q0H",
-		["id"] = 38,
+		["id"] = 39,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "dislike2_add",
@@ -2646,7 +2678,7 @@
 				0.93000000715256,
 			},
 		},
-		["time"] = 600,
+		["time"] = 500,
 	},
 	{
 		["bg_info"] = {
@@ -2666,11 +2698,11 @@
 		},
 		["female_characters"] = {
 			{
-				["anim"] = "serious_add",
+				["anim"] = "closeeye_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["body_anim"] = "default_loop",
+				["body_anim"] = "shy_in",
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "heroine/heroine_action1",
 				["pos"] = {
@@ -2688,7 +2720,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 500,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -2700,16 +2732,15 @@
 		},
 		["guid"] = "5BEB42CE4C10D51AE1FBB29FBF85AD49",
 		["guid_str"] = "fxhF4E0h",
-		["id"] = 39,
+		["id"] = 40,
 		["is_gender_characters"] = true,
-		["just_auto_play"] = true,
 		["male_characters"] = {
 			{
-				["anim"] = "serious_add",
+				["anim"] = "closeeye_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["body_anim"] = "default_loop",
+				["body_anim"] = "shy_in",
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "hero/hero_action1",
 				["pos"] = {
@@ -2727,7 +2758,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 500,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -2737,6 +2768,7 @@
 		["male_speaker_info"] = {
 			["anim"] = "dislike2_add",
 		},
+		["name"] = "[rolename]",
 		["speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2750,6 +2782,8 @@
 				0.93000000715256,
 			},
 		},
+		["text"] = "…………………………",
+		["time"] = 1000,
 	},
 	{
 		["bg_info"] = {
@@ -2794,7 +2828,7 @@
 		},
 		["guid"] = "9D2CEB644C3052C2A74B209F145800C5",
 		["guid_str"] = "LArvsk68",
-		["id"] = 40,
+		["id"] = 41,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -2835,7 +2869,7 @@
 				0.93000000715256,
 			},
 		},
-		["text"] = "我作为行动队队长，向今天参与作战的各位确认行动安排，计划如下：\n本次行动分为内外三队，分别负责正面迎击、周边隔离和外围待命支援。\n里面，8个人，行动队长是我，参战人员苏筱、鸢、言御、马尔斯、岚相、血露薇",
+		["text"] = "我作为行动队队长，向今天参与作战的各位确认行动安排，计划如下：",
 	},
 	{
 		["bg_info"] = {
@@ -2880,7 +2914,8 @@
 		},
 		["guid"] = "C2A32AE24625C7B7E557ED8A695E54DE",
 		["guid_str"] = "aEy7nnEp",
-		["id"] = 41,
+		["id"] = 42,
+		["is_append"] = true,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -2921,7 +2956,7 @@
 				0.93000000715256,
 			},
 		},
-		["text"] = "人数8人，内部行动人员：",
+		["text"] = "\n本次行动分为内外三队，分别负责正面迎击、周边隔离和外围待命支援。",
 	},
 	{
 		["bg_info"] = {
@@ -2966,7 +3001,7 @@
 		},
 		["guid"] = "3A29ADA04DCAE6394F430A9D974EBB30",
 		["guid_str"] = "4uzRlM4J",
-		["id"] = 42,
+		["id"] = 43,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -3007,7 +3042,7 @@
 				0.93000000715256,
 			},
 		},
-		["text"] = "监督独角戏最后再写",
+		["text"] = "进入钟塔迎战的为特别行动队，队长由我担任，参战人员苏筱、鸢、言御、马尔斯、岚相、血露薇「魁主」及其麾下成员，共8人。",
 	},
 	{
 		["bg_info"] = {
@@ -3052,7 +3087,7 @@
 		},
 		["guid"] = "7B01575B4686D4DA95C42795EBBB6845",
 		["guid_str"] = "hVbY2Mr3",
-		["id"] = 43,
+		["id"] = 44,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -3093,7 +3128,7 @@
 				0.93000000715256,
 			},
 		},
-		["text"] = "因为无法请求官方",
+		["text"] = "周边隔离这边，为了避免行动过程中各种不可控因素可能会在民众中间引起骚乱，也为了最大程度保护外部的安全，我们准备了四台防护装置，它们会在开启后形成肉眼无法分辨的防护网，分别由孔秘书、波丝、柚理、余音负责。",
 	},
 	{
 		["bg_info"] = {
@@ -3138,7 +3173,7 @@
 		},
 		["guid"] = "862F4009438061CD26A2509E350D3721",
 		["guid_str"] = "nD2gzsZD",
-		["id"] = 44,
+		["id"] = 45,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -3179,7 +3214,179 @@
 				0.93000000715256,
 			},
 		},
-		["text"] = "最后，由于行动无法获得任何官方层面的遮掩和支持，无论最终成功还是失败，无论是出世间这个组织，还是白荆科技组织同调者出动，都无法对外公开，这是一次完全沉默的，只有这座钟楼知道的对决。",
+		["text"] = "接下来是由各组织成员组成的外围待命小组，负责机动支援，作为这次行动中重要的后备力量，统一听从瞳老师调配。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40982154011726,
+						0.52027499675751,
+						0.59534883499146,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
+			},
+			{
+			},
+		},
+		["female_characters"] = {
+			{
+				["anim"] = "closeeye_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "shy_in",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "heroine/heroine_action1",
+				["pos"] = {
+					0,
+					160,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "dislike2_add",
+		},
+		["guid"] = "594B623D4E241CF8B9CE2986E141BF97",
+		["guid_str"] = "FFcMmonr",
+		["id"] = 46,
+		["is_gender_characters"] = true,
+		["male_characters"] = {
+			{
+				["anim"] = "closeeye_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "surprise_in",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_action1",
+				["pos"] = {
+					0,
+					180,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["male_speaker_info"] = {
+			["anim"] = "dislike2_add",
+		},
+		["name"] = "[rolename]",
+		["speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "由于行动无法获得任何官方层面的遮掩和支持，无论最终成功还是失败，无论是出世间这个组织，还是白荆科技组织同调者出动，都无法对外公开，这是一次完全沉默的，只有这座钟塔知道的对决。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40982154011726,
+						0.52027499675751,
+						0.59534883499146,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
+			},
+			{
+			},
+		},
+		["female_characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "heroine/heroine_action1",
+				["pos"] = {
+					0,
+					160,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "dislike2_add",
+		},
+		["guid"] = "386128D54C9A4C1810AF5F9895FBB79D",
+		["guid_str"] = "JRs3MSlx",
+		["id"] = 47,
+		["is_gender_characters"] = true,
+		["male_characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_action1",
+				["pos"] = {
+					0,
+					180,
+				},
+				["scale"] = {
+					1.2000000476837,
+					1.2000000476837,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["male_speaker_info"] = {
+			["anim"] = "dislike2_add",
+		},
+		["name"] = "[rolename]",
+		["speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "虽然说过很多遍感谢的话，这里也并不适合讲这类话，但是——",
 	},
 	{
 		["bg_info"] = {
@@ -3224,7 +3431,7 @@
 		},
 		["guid"] = "1BE9328B4ABB3F72B97ED087F89FA021",
 		["guid_str"] = "LjB48jrP",
-		["id"] = 45,
+		["id"] = 48,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -3265,7 +3472,7 @@
 				0.93000000715256,
 			},
 		},
-		["text"] = "虽然说过很多遍感谢的话，这里也并不适合讲这类话，但是——\n感谢各位的通力合作，白荆……不，不止白荆科技，只有赢下这场豪赌，「我们」才有更多资格谈未来，谈「我们」。",
+		["text"] = "感谢各位的通力合作，白荆……不，不止白荆科技，只有赢下这场豪赌，「我们」才有更多资格谈未来，谈「我们」。",
 	},
 	{
 		["bg_info"] = {
@@ -3310,7 +3517,7 @@
 		},
 		["guid"] = "65713CDC4BBD8BAD4AD037953FA9671D",
 		["guid_str"] = "v1f4ttS1",
-		["id"] = 46,
+		["id"] = 49,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -3371,7 +3578,7 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.80000001192093,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]一派沉默，我忽然从长段的输出中“回过神”，看着面前一个个熟悉的面孔，轻咳了一声。",
 			["text_align"] = "center",
 		},
@@ -3411,7 +3618,7 @@
 		},
 		["guid"] = "24DE5AD544B14DD2498E03B6D82630D7",
 		["guid_str"] = "peUsUnDO",
-		["id"] = 47,
+		["id"] = 50,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -3509,7 +3716,7 @@
 		},
 		["guid"] = "694BBB9D42BFED5DB1921F96B0B714EC",
 		["guid_str"] = "YpaMFlpv",
-		["id"] = 48,
+		["id"] = 51,
 		["name"] = "瞳",
 		["text"] = "……",
 	},
@@ -3564,7 +3771,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
+				["path"] = "am10jn/am10jn_action2",
 				["pos"] = {
 					0,
 					120,
@@ -3589,7 +3796,7 @@
 		},
 		["guid"] = "D4333C0F48CCF08980D3E6A5F2567157",
 		["guid_str"] = "9mV5Lk9L",
-		["id"] = 49,
+		["id"] = 52,
 		["name"] = "「魁主」",
 		["text"] = "非常成功的动员，受教了，cheers。",
 	},
@@ -3622,7 +3829,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
+				["path"] = "am10jn/am10jn_action2",
 				["pos"] = {
 					0,
 					120,
@@ -3638,7 +3845,7 @@
 		},
 		["guid"] = "63DD1A234D1220DF6BDFA2BA94CC84BC",
 		["guid_str"] = "EY4ZtO5V",
-		["id"] = 50,
+		["id"] = 53,
 	},
 	{
 		["bg_info"] = {
@@ -3658,35 +3865,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "wink",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
-				["pos"] = {
-					0,
-					120,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3702,7 +3881,7 @@
 				["path"] = "am56yy/am56yy_action1",
 				["pos"] = {
 					0,
-					200,
+					215,
 				},
 				["scale"] = {
 					1.2000000476837,
@@ -3724,7 +3903,7 @@
 		},
 		["guid"] = "659CB9ED499ED77D19E8E7B84DAC8F35",
 		["guid_str"] = "Tsw8v8ri",
-		["id"] = 51,
+		["id"] = 54,
 		["name"] = "言御",
 		["text"] = "还是第一次听监督[M]先生[/M][F]小姐[/F]一口气说这么多，在校时应该也经常作为代表讲话吧。",
 	},
@@ -3746,35 +3925,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am56yy/am56yy_action1",
-				["pos"] = {
-					0,
-					200,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "normal_add",
+				["anim"] = "serious_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3788,9 +3939,9 @@
 					},
 				},
 				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af35sy/af35sy_action3",
+				["path"] = "af35sy/af35sy_action2",
 				["pos"] = {
-					-50,
+					-100,
 					80,
 				},
 				["scale"] = {
@@ -3813,7 +3964,7 @@
 		},
 		["guid"] = "F845FEBD4C15EC08EA4EECA794EBA1A3",
 		["guid_str"] = "Z3JckJzH",
-		["id"] = 52,
+		["id"] = 55,
 		["name"] = "鸢",
 		["text"] = "谢谢……监督和各位给我的这次机会，也谢谢技术部和西陵重工的各位帮我的重弩进行了升级，我会努力让这把箭矢帮上忙的。",
 	},
@@ -3834,35 +3985,6 @@
 			},
 		},
 		["characters"] = {
-			{
-				["anim"] = "normal_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af35sy/af35sy_action3",
-				["pos"] = {
-					-50,
-					80,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
 			{
 				["anim"] = "serious_add",
 				["blur"] = {
@@ -3903,7 +4025,7 @@
 		},
 		["guid"] = "0FC7158B4F783720669D5FBA341D6AF8",
 		["guid_str"] = "qLQrmI7J",
-		["id"] = 53,
+		["id"] = 56,
 		["name"] = "田偌",
 		["text"] = "作为官方人员，我被明令禁止参与，我不想脱下这身衣服，但也不想置身事外，如果有我能帮上忙的，尽管吩咐，哪怕是必要时假传些命令事后接受处分也无所谓。",
 	},
@@ -3992,7 +4114,7 @@
 		},
 		["guid"] = "D5A68BFF42A5E272C19283AFFF76090A",
 		["guid_str"] = "UytQALDK",
-		["id"] = 54,
+		["id"] = 57,
 		["name"] = "霍冉",
 		["text"] = "哪能让田警官你把警服脱了，咱们今天所有人怎么穿着制服来的，就要怎么穿着制服回去，我随时待命！",
 	},
@@ -4042,7 +4164,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4084,7 +4206,7 @@
 		},
 		["guid"] = "98C14F24436A2B576A6012B2C30F9B04",
 		["guid_str"] = "EZMO7Wwt",
-		["id"] = 55,
+		["id"] = 58,
 		["name"] = "岚相",
 		["soundfx"] = {
 			{
@@ -4184,7 +4306,7 @@
 		},
 		["guid"] = "5BE4EE2D45AB0023CD78D3987C10942D",
 		["guid_str"] = "zQqYjpba",
-		["id"] = 56,
+		["id"] = 59,
 		["name"] = "苏筱",
 		["text"] = "唔？你们天鹿没有什么……呃，战前动员之类的吗？",
 	},
@@ -4206,35 +4328,6 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "doubt1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af50nvzhu/af50nvzhu_action4",
-				["pos"] = {
-					0,
-					150,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -4243,7 +4336,7 @@
 				["path"] = "af71tln/af71tln_action1",
 				["pos"] = {
 					0,
-					100,
+					85,
 				},
 				["scale"] = {
 					1.2000000476837,
@@ -4265,7 +4358,7 @@
 		},
 		["guid"] = "3B8602854A35C43A7C8E4F8585005B5D",
 		["guid_str"] = "PKVSOZZw",
-		["id"] = 57,
+		["id"] = 60,
 		["name"] = "柚理",
 		["text"] = "这一般是「代言人」的工作，左枢先生……以前左枢先生偶尔会做，首领就……",
 	},
@@ -4287,7 +4380,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "dislike",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4326,39 +4419,10 @@
 					},
 				},
 			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af71tln/af71tln_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
 		},
 		["guid"] = "6C4B0A6C4D85726AAF1569B3A58B12A4",
 		["guid_str"] = "8hb5aFCJ",
-		["id"] = 58,
+		["id"] = 61,
 		["name"] = "岚相",
 		["text"] = "boss还用干这个？给个眼神下属就应该领会并且做出相应行动，不然就是不配待在天鹿的废物。",
 	},
@@ -4451,7 +4515,7 @@
 		},
 		["guid"] = "BB6D9EA34D85CABB19B474BD7EC7B5B5",
 		["guid_str"] = "RdBIFFB3",
-		["id"] = 59,
+		["id"] = 62,
 		["name"] = "苏筱",
 		["text"] = "呃………好吧………血露薇也这样吗？",
 	},
@@ -4473,41 +4537,12 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "dislike1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af50nvzhu/af50nvzhu_action4",
-				["pos"] = {
-					0,
-					150,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
+				["path"] = "am10jn/am10jn_action2",
 				["pos"] = {
 					0,
 					100,
@@ -4532,7 +4567,7 @@
 		},
 		["guid"] = "7872BAEC4B4D9ED6D993FBBA9FB02680",
 		["guid_str"] = "8WYX05yU",
-		["id"] = 60,
+		["id"] = 63,
 		["name"] = "「魁主」",
 		["text"] = "唔~比起天鹿的话，应该还是要多不少“人文关怀”，我们很懂礼让的。",
 	},
@@ -4553,34 +4588,6 @@
 			},
 		},
 		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
-				["pos"] = {
-					0,
-					100,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
 			{
 				["anim"] = "normal1",
 				["blur"] = {
@@ -4621,7 +4628,7 @@
 		},
 		["guid"] = "CD9964D94AB29576279B70BBEDAEDB42",
 		["guid_str"] = "UYdhIaZ5",
-		["id"] = 61,
+		["id"] = 64,
 		["name"] = "余音",
 		["text"] = "原来如此。",
 	},
@@ -4711,7 +4718,7 @@
 		},
 		["guid"] = "0F6BE68042D1617F96918BB57ADD3EB6",
 		["guid_str"] = "6T1rj3up",
-		["id"] = 62,
+		["id"] = 65,
 		["name"] = "苏筱",
 		["text"] = "不余音，这肯定是假的。",
 	},
@@ -4801,7 +4808,7 @@
 		},
 		["guid"] = "383A0B9E42650121C9EBC58A67D68591",
 		["guid_str"] = "fuotpJ8K",
-		["id"] = 63,
+		["id"] = 66,
 		["name"] = "余音",
 		["text"] = "可是这位先生各项身体数值完全没波动，并不符合一般人说谎时的生理表现。",
 	},
@@ -4851,12 +4858,12 @@
 				},
 			},
 			{
-				["anim"] = "smile2",
+				["anim"] = "wink",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
+				["path"] = "am10jn/am10jn_action2",
 				["pos"] = {
 					0,
 					100,
@@ -4881,7 +4888,7 @@
 		},
 		["guid"] = "2B542FD34F9510FE195AD5A3F5B15E0C",
 		["guid_str"] = "UdHqKld4",
-		["id"] = 64,
+		["id"] = 67,
 		["name"] = "「魁主」",
 		["text"] = "……",
 	},
@@ -4903,35 +4910,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile2",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
-				["pos"] = {
-					0,
-					100,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4970,7 +4949,7 @@
 		},
 		["guid"] = "8AC88D404B99D34E6564A1BC0C1DB772",
 		["guid_str"] = "cByoeJOC",
-		["id"] = 65,
+		["id"] = 68,
 		["name"] = "波丝",
 		["text"] = "感谢小先知邀请西陵重工参与此次行动，虽然我们也同样作为“官方人员”，不过和田警官不同，行动相对自由事后也更好脱身，灰锈不在，希望白荆和西陵联合赶制的这批屏蔽装置能发挥它应有的力量。",
 	},
@@ -4992,7 +4971,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5022,7 +5001,7 @@
 		},
 		["guid"] = "A837BE734C56930225510595C8623664",
 		["guid_str"] = "kYDFAMXj",
-		["id"] = 66,
+		["id"] = 69,
 		["name"] = "波丝",
 		["text"] = "不过或许用不上这些反而才是好事，毕竟这说明此次行动对外面构不成我们先前担心的威胁。",
 	},
@@ -5043,34 +5022,6 @@
 			},
 		},
 		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "af69xlsz/af69xlsz_brolly_action1",
-				["pos"] = {
-					0,
-					100,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
 			{
 				["anim"] = "normal_add",
 				["blur"] = {
@@ -5112,7 +5063,7 @@
 		},
 		["guid"] = "83788B4043F67163678F7CAE03F6D9B2",
 		["guid_str"] = "2WylLm80",
-		["id"] = 67,
+		["id"] = 70,
 		["name"] = "马尔斯",
 		["text"] = "按照最坏情况估计，不排除部分倒塌的可能性，外围的防护网是重中之重。",
 	},
@@ -5134,36 +5085,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "am44mes/am44mes_action1",
-				["pos"] = {
-					0,
-					200,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5202,7 +5124,7 @@
 		},
 		["guid"] = "09C0482049886BC6ECCF2F9E5DB3776E",
 		["guid_str"] = "I3mxAmyQ",
-		["id"] = 68,
+		["id"] = 71,
 		["name"] = "孔秘书",
 		["text"] = "确保外面的安全，里面的各位才能放开手脚吧。",
 	},
@@ -5224,7 +5146,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5254,7 +5176,7 @@
 		},
 		["guid"] = "FD6B15E2410D460CC27A389BD3EA9E73",
 		["guid_str"] = "PAtAOlWX",
-		["id"] = 69,
+		["id"] = 72,
 		["name"] = "孔秘书",
 		["text"] = "执行官[M]先生[/M][F]小姐[/F]放心，姬先生说了，有熊虽然无法提供更多战力帮助，也没法操纵局势，但请放心放手去做，他尽量兜底。",
 	},
@@ -5276,7 +5198,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5306,7 +5228,7 @@
 		},
 		["guid"] = "A3D63E854ACE37E6BBA107B2A980CD14",
 		["guid_str"] = "w2wty2Je",
-		["id"] = 70,
+		["id"] = 73,
 		["name"] = "孔秘书",
 		["text"] = "别让他亏太多就行，他压力也很大的，电话都不方便直接打给你，我目前对外是“带病休假”状态，才能过来帮忙。",
 	},
@@ -5328,34 +5250,6 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n89yx/n89yx_assistant/n89yx_assistant_action1",
-				["pos"] = {
-					0,
-					120,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
 				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
@@ -5376,8 +5270,8 @@
 					200,
 				},
 				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
+					1.1699999570847,
+					1.1699999570847,
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
@@ -5395,7 +5289,7 @@
 		},
 		["guid"] = "41CDC10D4723E679046D1E900C54F083",
 		["guid_str"] = "F4MRntHr",
-		["id"] = 71,
+		["id"] = 74,
 		["name"] = "言御",
 		["text"] = "“别亏太多”啊……据我粗略计算，最近一段时间，白荆科技已经损失了——",
 	},
@@ -5416,34 +5310,6 @@
 			},
 		},
 		["characters"] = {
-			{
-				["anim"] = "smile2",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am56yy/am56yy_action1",
-				["pos"] = {
-					0,
-					200,
-				},
-				["scale"] = {
-					1.2000000476837,
-					1.2000000476837,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
 			{
 				["anim"] = "shock_add",
 				["blur"] = {
@@ -5485,7 +5351,7 @@
 		},
 		["guid"] = "FF232B7B42A156FBA150BA9AB273885C",
 		["guid_str"] = "CzeEJHhd",
-		["id"] = 72,
+		["id"] = 75,
 		["name"] = "苏筱",
 		["text"] = "啊啊啊别说了不要说那个数字！我会对海隅点数彻底失去概念！",
 	},
@@ -5575,7 +5441,7 @@
 		},
 		["guid"] = "CD89697A436710009CE22393F5BBC815",
 		["guid_str"] = "Jn3wETgp",
-		["id"] = 73,
+		["id"] = 76,
 		["name"] = "田偌",
 		["text"] = "勉强可以想象……",
 	},
@@ -5674,7 +5540,7 @@
 		},
 		["guid"] = "E39B5E7A4B58B0B6B9F376B2D68302C4",
 		["guid_str"] = "atGxoGGx",
-		["id"] = 74,
+		["id"] = 77,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
@@ -5734,7 +5600,7 @@
 		},
 		["guid"] = "00A6E5634FABCD1EF9DA3394BA2EEE38",
 		["guid_str"] = "mu8o67Jq",
-		["id"] = 75,
+		["id"] = 78,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 		},
@@ -5799,7 +5665,7 @@
 		},
 		["guid"] = "B097DB1543F10F8399317CBC05DEE4BF",
 		["guid_str"] = "fOChDhlJ",
-		["id"] = 76,
+		["id"] = 79,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -5859,7 +5725,7 @@
 		},
 		["guid"] = "A48B85C44E8E746A4D9C5B9F5281442E",
 		["guid_str"] = "gpTcqWUZ",
-		["id"] = 77,
+		["id"] = 80,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 		},
@@ -5885,8 +5751,8 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["is_show_all"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]祝我们成功！",
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17][font zhunyuan]祝我们成功！",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -5934,7 +5800,7 @@
 		},
 		["guid"] = "0195D3B44A38E044057D15ADD49163A5",
 		["guid_str"] = "brfpAcIh",
-		["id"] = 78,
+		["id"] = 81,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 		},
@@ -5997,7 +5863,7 @@
 		},
 		["guid"] = "6801876A4044CA723ADC5E9D6A02FDEB",
 		["guid_str"] = "bspC4WIb",
-		["id"] = 79,
+		["id"] = 82,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -6077,7 +5943,7 @@
 		},
 		["guid"] = "5DA0EDDC429966B477570E98A7CE2BBB",
 		["guid_str"] = "j2QvE9Ik",
-		["id"] = 80,
+		["id"] = 83,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -6148,7 +6014,7 @@
 		},
 		["guid"] = "41A3640D4A91B55B7C82F6920273A97C",
 		["guid_str"] = "yHGGz3HB",
-		["id"] = 81,
+		["id"] = 84,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -6175,7 +6041,7 @@
 			["anim"] = "dislike1_add",
 		},
 		["name"] = "[rolename]",
-		["text"] = "还有10分钟，最后准备一下吧。",
+		["text"] = "最后准备一下吧。",
 	},
 	{
 		["bg_info"] = {
@@ -6237,7 +6103,7 @@
 		},
 		["guid"] = "107AE938410233345CE559867CEA2E38",
 		["guid_str"] = "0wojaa8C",
-		["id"] = 82,
+		["id"] = 85,
 		["is_gender_characters"] = true,
 		["just_auto_play"] = true,
 		["male_characters"] = {
@@ -6289,7 +6155,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -6302,7 +6168,8 @@
 		},
 		["guid"] = "FE59CBC945237F7EAEE7DF8D6CA116C4",
 		["guid_str"] = "AhDLadbN",
-		["id"] = 83,
+		["id"] = 86,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6377,12 +6244,22 @@
 						},
 						["tween"] = "MoveIn",
 					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
 				},
 			},
 		},
 		["guid"] = "2075B343472BE1F2FDD895B5BABB271C",
 		["guid_str"] = "eBJI61LB",
-		["id"] = 84,
+		["id"] = 87,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -6391,7 +6268,7 @@
 				["volume"] = 6.0,
 			},
 		},
-		["time"] = 800,
+		["time"] = 700,
 	},
 	{
 		["bg_info"] = {
@@ -6420,7 +6297,7 @@
 		},
 		["guid"] = "2B8DC28448A9AF7FAB8337A8E0ADF766",
 		["guid_str"] = "gryLnBKz",
-		["id"] = 85,
+		["id"] = 88,
 		["name"] = "血露薇手下",
 		["text"] = "……………………",
 	},
@@ -6493,7 +6370,7 @@
 		},
 		["guid"] = "9D3F0CAC4660B9AE01B11A99B2649A25",
 		["guid_str"] = "dkz9qkUR",
-		["id"] = 86,
+		["id"] = 89,
 		["name"] = "田偌",
 		["soundfx"] = {
 			{
@@ -6561,7 +6438,7 @@
 		},
 		["guid"] = "547DBFD848D62E871F9FC99E7C008BD8",
 		["guid_str"] = "aAejHuI1",
-		["id"] = 87,
+		["id"] = 90,
 		["name"] = "田偌",
 		["text"] = "这么新的建筑，几位应该不至于弄倒吧………………嗯？",
 	},
@@ -6643,7 +6520,7 @@
 		},
 		["guid"] = "416A08EE451E1A58E879B98D3EC92A19",
 		["guid_str"] = "zPJ3wY2G",
-		["id"] = 88,
+		["id"] = 91,
 		["name"] = "血露薇手下",
 		["soundfx"] = {
 			{
@@ -6712,7 +6589,7 @@
 		},
 		["guid"] = "168B8466462933A634D86BB2B15BC2F4",
 		["guid_str"] = "8TqMQrqF",
-		["id"] = 89,
+		["id"] = 92,
 		["name"] = "田偌",
 		["text"] = "你是……血露薇的战斗成员？",
 	},
@@ -6766,7 +6643,7 @@
 		},
 		["guid"] = "C14535B9494996EE3C4A9CB54DE4FA2C",
 		["guid_str"] = "8mD6MlzB",
-		["id"] = 90,
+		["id"] = 93,
 		["name"] = "血露薇手下",
 		["text"] = "…………",
 	},
@@ -6820,7 +6697,7 @@
 		},
 		["guid"] = "EB3DD7DA45C59D51E1C4678EC4A9E41B",
 		["guid_str"] = "1BkMjFQT",
-		["id"] = 91,
+		["id"] = 94,
 	},
 	{
 		["bg_info"] = {
@@ -6880,7 +6757,7 @@
 		},
 		["guid"] = "4CF34C764966C2FB250A199E9DE04EDD",
 		["guid_str"] = "n2w6FEst",
-		["id"] = 92,
+		["id"] = 95,
 		["name"] = "田偌",
 		["text"] = "[c a3bdc8]（怎么感觉有点……）[/c]",
 	},
@@ -6942,7 +6819,7 @@
 		},
 		["guid"] = "D929E3AB4980A95E77B38B9800FCA55C",
 		["guid_str"] = "wEYPUeDp",
-		["id"] = 93,
+		["id"] = 96,
 		["name"] = "田偌",
 		["text"] = "你好，我是海临中央——",
 	},
@@ -7002,12 +6879,11 @@
 		},
 		["guid"] = "CEC29ABA460832598351D5A965EF9509",
 		["guid_str"] = "X3NN3K2s",
-		["id"] = 94,
+		["id"] = 97,
 		["name"] = "姜宁",
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am10jn/am10jn_action2",
 		},
 		["text"] = "田警官。",
 	},
@@ -7087,7 +6963,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
+				["path"] = "am10jn/am10jn_action2",
 				["pos"] = {
 					-300,
 					0,
@@ -7111,7 +6987,7 @@
 		},
 		["guid"] = "ACD0DD364EE2CA91047EEF851D90A613",
 		["guid_str"] = "tE9iZsYi",
-		["id"] = 95,
+		["id"] = 98,
 		["name"] = "田偌",
 		["soundfx"] = {
 			{
@@ -7167,7 +7043,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
+				["path"] = "am10jn/am10jn_action2",
 				["pos"] = {
 					-300,
 					0,
@@ -7179,7 +7055,7 @@
 		},
 		["guid"] = "CBE05A0F48195A7771007EBB77EAD258",
 		["guid_str"] = "gIRkhr1y",
-		["id"] = 96,
+		["id"] = 99,
 		["name"] = "姜宁",
 		["text"] = "西陵重工的波丝小姐好像在找你。",
 	},
@@ -7228,7 +7104,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
+				["path"] = "am10jn/am10jn_action2",
 				["pos"] = {
 					-300,
 					0,
@@ -7240,7 +7116,7 @@
 		},
 		["guid"] = "6DB948DF4A59DEEDFD88BF82AE964D3F",
 		["guid_str"] = "72u0d93D",
-		["id"] = 97,
+		["id"] = 100,
 		["name"] = "田偌",
 		["text"] = "啊？哦，好。",
 	},
@@ -7294,7 +7170,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
+				["path"] = "am10jn/am10jn_action2",
 				["pos"] = {
 					-300,
 					0,
@@ -7342,7 +7218,7 @@
 		},
 		["guid"] = "A531C17B4C41E544FED0DB8024CCA3AE",
 		["guid_str"] = "06UIo13F",
-		["id"] = 98,
+		["id"] = 101,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -7407,7 +7283,7 @@
 		},
 		["guid"] = "C6B948CE47C7F97C093F13AE922621DF",
 		["guid_str"] = "1cQLIXmh",
-		["id"] = 99,
+		["id"] = 102,
 		["name"] = "姜宁",
 		["text"] = "还是打算进去再说？",
 	},
@@ -7432,7 +7308,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
+				["path"] = "am10jn/am10jn_action2",
 				["pos"] = {
 					-300,
 					0,
@@ -7459,7 +7335,7 @@
 		},
 		["guid"] = "7AF00F124F1EA01078260D96A720D03A",
 		["guid_str"] = "wEGG4qOm",
-		["id"] = 100,
+		["id"] = 103,
 		["name"] = "十手卫",
 		["text"] = "嗯。这种事行动中不会隐瞒，但也要避免节外生枝。",
 	},
@@ -7478,7 +7354,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
+				["path"] = "am10jn/am10jn_action2",
 				["pos"] = {
 					-300,
 					0,
@@ -7511,7 +7387,7 @@
 		},
 		["guid"] = "DA21C5A74C6EBE70DE49C8862308B889",
 		["guid_str"] = "7o8zUkHp",
-		["id"] = 101,
+		["id"] = 104,
 		["name"] = "姜宁",
 		["text"] = "好吧。",
 	},
@@ -7523,7 +7399,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -7541,7 +7417,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am10jn/am10jn_action3",
+				["path"] = "am10jn/am10jn_action2",
 				["pos"] = {
 					-300,
 					0,
@@ -7592,7 +7468,7 @@
 		},
 		["guid"] = "08845988406432E9626154B2F71BE9D5",
 		["guid_str"] = "fTsNN2qK",
-		["id"] = 102,
+		["id"] = 105,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -7616,7 +7492,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -7629,7 +7505,7 @@
 		},
 		["guid"] = "BCFAD016483208D1485E90BC5E493063",
 		["guid_str"] = "xTmyZGMS",
-		["id"] = 103,
+		["id"] = 106,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -7660,10 +7536,19 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[size 17]大家已经全部离开前往各自的待命地点，我独自坐在车内，[br][br][size 17]看着路边信号灯的红色映在无数滴水珠中，随着雨在车窗上留下无数蜿蜒的痕迹，仿佛含有某种警告的意味。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "09F1C3024D6E1382B1AE438433B42F64",
 		["guid_str"] = "qewoisMD",
-		["id"] = 104,
+		["id"] = 107,
 	},
 	{
 		["bg_info"] = {
@@ -7689,7 +7574,7 @@
 		},
 		["guid"] = "1E71832746EA11BB12CC54B8E3A5FC40",
 		["guid_str"] = "i7ymNyhr",
-		["id"] = 105,
+		["id"] = 108,
 	},
 	{
 		["bg_info"] = {
@@ -7708,11 +7593,23 @@
 			},
 		},
 		["caption_info"] = {
+			["b_use_mask"] = true,
 			["mask_alpha"] = 0.80000001192093,
+			["text"] = " ",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
 		},
 		["guid"] = "9F29952440299544F81BE38CD2DA79FD",
 		["guid_str"] = "rmibU5yL",
-		["id"] = 106,
+		["id"] = 109,
 		["is_player_speaker"] = true,
 		["name"] = "[rolename]",
 		["text"] = "最后再检查一下装备吧。",

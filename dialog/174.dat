@@ -97,6 +97,13 @@
 		["id"] = 2,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/rain_indoors",
+				["length"] = 61714,
+				["loop"] = 1,
+			},
+		},
 		["time"] = 3400,
 	},
 	{
@@ -145,6 +152,13 @@
 		["guid_str"] = "50QxMRHp",
 		["id"] = 3,
 		["name"] = "刑舟",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/yemo/yemo_spotlight",
+				["length"] = 1135,
+				["loop"] = 1,
+			},
+		},
 		["text"] = "我不会……如你……所愿……无论……",
 	},
 	{
@@ -197,6 +211,16 @@
 		["id"] = 4,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/4-1_footstep_sand",
+				["length"] = 2468,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_low_long",
+				["length"] = 4615,
+			},
+		},
 		["time"] = 2500,
 	},
 	{
@@ -1265,7 +1289,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 500,
+								["time"] = 700,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -1353,6 +1377,9 @@
 		["guid_str"] = "1EF4f4xr",
 		["id"] = 57,
 		["name"] = "刑舟",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5062_4bB1pOWS",
+		},
 		["text"] = "……我们对师父……好像都有点太狠心了……",
 	},
 	{
@@ -1373,6 +1400,9 @@
 		["guid_str"] = "ZHnc9tUn",
 		["id"] = 58,
 		["name"] = "岳重山",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5062_G1sN2tXe",
+		},
 		["text"] = "……………………",
 	},
 	{
@@ -1421,7 +1451,14 @@
 		["guid_str"] = "4bB1pOWS",
 		["id"] = 59,
 		["name"] = "岳重山",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/whoosh/WhooshReverse",
+				["length"] = 1329,
+			},
+		},
 		["text"] = "再见，刑舟警官。",
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -1460,9 +1497,25 @@
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
-				["delay"] = 400,
+				["delay"] = 200,
 				["event"] = "event:/ui/advse/01-12-whoosh",
 				["length"] = 2491,
+			},
+			{
+				["event"] = "event:/ambience/rain_indoors",
+				["length"] = 61714,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/bwg/bwg_amb_powerroom_on",
+				["length"] = 10649,
+				["loop"] = 1,
+				["volume"] = 0.30000001192093,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_low_long",
+				["length"] = 4615,
+				["volume"] = 2.0,
 			},
 		},
 	},

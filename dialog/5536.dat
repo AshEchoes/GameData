@@ -3,12 +3,6 @@
 		["bg_info"] = {
 			{
 				["config"] = {
-					["color"] = {
-						0.41176471114159,
-						0.52156865596771,
-						0.59607845544815,
-						1.0,
-					},
 					["tween"] = {
 						{
 							["param"] = {
@@ -19,7 +13,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_06.png",
 			},
 			{
 			},
@@ -36,6 +30,43 @@
 			["location"] = "全视钟塔外·指挥中心",
 			["time"] = "森罗历1121-08-12",
 		},
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_queue"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/common/screen_mask_rain.bk2",
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 3,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -48,15 +79,7 @@
 	{
 		["bg_info"] = {
 			{
-				["config"] = {
-					["color"] = {
-						0.41176471114159,
-						0.52156865596771,
-						0.59607845544815,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_06.png",
 			},
 			{
 			},
@@ -81,10 +104,20 @@
 						0.59607845544815,
 						1.0,
 					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
 				},
 				["path"] = "interface/resource/Game/DialogActivityActspring24SceneBG/bg_newyear_14.png",
 			},
 			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_06.png",
 			},
 		},
 		["caption_info"] = {
@@ -112,7 +145,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 500,
+							["time"] = 1000,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -818,6 +851,9 @@
 		["guid_str"] = "hoEIIauH",
 		["id"] = 12,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "居然接通了，还以为瞳先生此刻忙得晕头转向，没空理会我这个闲人。",
 	},
 	{
@@ -968,6 +1004,9 @@
 		["guid_str"] = "vxb8uh3r",
 		["id"] = 14,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "瞳先生远在海临，对遥城的消息还是如此灵通。",
 	},
 	{
@@ -1197,6 +1236,9 @@
 		["guid_str"] = "ZCbfjzmc",
 		["id"] = 17,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "……",
 	},
 	{
@@ -1268,6 +1310,9 @@
 		["guid_str"] = "4XlwZDSV",
 		["id"] = 18,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "你们那边进展如何？",
 	},
 	{
@@ -1418,6 +1463,9 @@
 		["guid_str"] = "pNx4aR4E",
 		["id"] = 20,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "对你们来说有何区别？",
 	},
 	{
@@ -1568,6 +1616,9 @@
 		["guid_str"] = "y7P7bHvs",
 		["id"] = 22,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "此事毕竟不只关乎海临，隐在暗处的人过多，哪怕同在岸边的我们也难以一一辨别。",
 	},
 	{
@@ -1639,6 +1690,9 @@
 		["guid_str"] = "ewsVxbSE",
 		["id"] = 23,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "何况……最近风波不断，除了风家，其他世家也遇到了不同程度的袭击。谁敢断言自己真的在“岸上”。",
 	},
 	{
@@ -1710,6 +1764,9 @@
 		["guid_str"] = "rKPqS9c7",
 		["id"] = 24,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "说起来，此前我还收到一封烨少将的来信。",
 	},
 	{
@@ -1860,6 +1917,9 @@
 		["guid_str"] = "aVS5uCKn",
 		["id"] = 26,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "毕竟是两位至亲遇袭，切身之事，自然关心。",
 	},
 	{
@@ -2089,6 +2149,9 @@
 		["guid_str"] = "T2rhaABt",
 		["id"] = 29,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "也许，他们自身就是混在人群中的“影子”，看似近在眼前，本体却不知站在多远的地方。",
 	},
 	{
@@ -2160,6 +2223,9 @@
 		["guid_str"] = "WBWZ0JEk",
 		["id"] = 30,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "至于本体的身份……就不在这则通讯的讨论范围之内了。",
 	},
 	{
@@ -2310,6 +2376,9 @@
 		["guid_str"] = "pNig1U39",
 		["id"] = 32,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "刚回来时不太乐观，现下各项数据总算是趋于稳定，不必担心。",
 	},
 	{
@@ -2381,6 +2450,9 @@
 		["guid_str"] = "etU3QZ8b",
 		["id"] = 33,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "不过，准备什么时候告诉[M]他[/M][F]她[/F]？现在恐怕只有这位执行官还不知道此事了。",
 	},
 	{
@@ -2531,6 +2603,9 @@
 		["guid_str"] = "fCApJlOx",
 		["id"] = 35,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "那……",
 	},
 	{
@@ -2760,6 +2835,9 @@
 		["guid_str"] = "jQbcTGQS",
 		["id"] = 38,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "这个自然。",
 	},
 	{
@@ -2839,7 +2917,7 @@
 		["guid_str"] = "fbm6anNc",
 		["id"] = 39,
 		["name"] = "瞳",
-		["text"] = "不过，我没想到负责来探听消息的人会是你。",
+		["text"] = "不过没想到是你来打。",
 	},
 	{
 		["bg_info"] = {
@@ -2910,6 +2988,9 @@
 		["guid_str"] = "Vqns0DuR",
 		["id"] = 40,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "欧阳少恭的确很积极，但若由他来打这则通讯，聊的恐怕就不是这些了。",
 	},
 	{
@@ -2974,6 +3055,7 @@
 		["guid"] = "01A1B0114E2BA6B627C8BC8DB009BC40",
 		["guid_str"] = "S1hQWv9t",
 		["id"] = 41,
+		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/7/avg_chapter7_telephone",
@@ -3051,6 +3133,9 @@
 		["guid_str"] = "7OB75j5E",
 		["id"] = 42,
 		["name"] = "巫炤",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "业务繁忙，我不多打扰，回见。",
 	},
 	{
@@ -3265,6 +3350,15 @@
 				["operation"] = 1,
 				["path"] = "movies/Desktop/avg/common/spine_com_b.bk2",
 				["role_index"] = 1,
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 		},
 		["female_characters"] = {
@@ -3440,6 +3534,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "喂，听得到么？",
 	},
 	{
@@ -3646,6 +3743,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "嗯，是我，怎么这么惊讶，几个月没见，不会连声音都听不出来了吧。",
 	},
 	{
@@ -3852,6 +3952,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "就因为错过了，所以我猜[M]他[/M][F]她[/F]现在应该不方便？",
 	},
 	{
@@ -4165,6 +4268,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "怎么样，还顺利么？",
 	},
 	{
@@ -4371,6 +4477,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "瞳，你好像开始有脾气了。",
 	},
 	{
@@ -4413,7 +4522,7 @@
 				},
 			},
 			{
-				["anim"] = "serious",
+				["anim"] = "thinking",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4577,6 +4686,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "我当然记得，你也明知道我指的不是这个。",
 	},
 	{
@@ -4676,6 +4788,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "……要变天了。",
 	},
 	{
@@ -4987,6 +5102,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "唔……应该快见到了，我有预感。",
 	},
 	{
@@ -5193,6 +5311,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "……",
 	},
 	{
@@ -5399,6 +5520,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "我希望我会……我承认，可能还是因为老了吧，预料到会被问什么问题，竟然偶尔会生出些“逃避”的心态，同时也想找到些……“温和”的答案。",
 	},
 	{
@@ -5498,6 +5622,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "但是，瞳，要变天了，不止海临，不止十一国，甚至可能不止森罗……",
 	},
 	{
@@ -5597,6 +5724,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "我暂时还不能回去，我需要“牵制”一些东西，以我现在的能力来说，需要花费大量心力。",
 	},
 	{
@@ -5910,6 +6040,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "可以这么说。但同时我得承认……其中也有着我一点……这几年慢慢生出来的小小私心，如果真的是[M]他[/M][F]她[/F]，那就更加……",
 	},
 	{
@@ -6009,6 +6142,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "希望你们原谅我。",
 	},
 	{
@@ -6322,6 +6458,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "有时间我会尽量给[M]他[/M][F]她[/F]打电话的，不如……就等你们清扫完战场好好睡一觉后。",
 	},
 	{
@@ -6429,7 +6568,7 @@
 			},
 		},
 		["name"] = "瞳",
-		["text"] = "我不会告诉他你来过电话，也会尽力为[M]他[/M][F]她[/F]提供更多帮助，保证[M]他[/M][F]她[/F]的人身安全，你自己多保重，再会。",
+		["text"] = "我不会告诉[M]他[/M][F]她[/F]你来过电话，也会尽力为[M]他[/M][F]她[/F]提供更多帮助，保证[M]他[/M][F]她[/F]的人身安全，你自己多保重，再会。",
 	},
 	{
 		["bg_info"] = {
@@ -6528,6 +6667,9 @@
 			},
 		},
 		["name"] = "曲观玄",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "再会。",
 	},
 	{
@@ -7995,6 +8137,9 @@
 		["guid_str"] = "WHXjWywQ",
 		["id"] = 95,
 		["name"] = "马尔斯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "瞳先生，什么事？",
 	},
 	{
@@ -8129,6 +8274,9 @@
 		["guid_str"] = "YXl4aGQT",
 		["id"] = 97,
 		["name"] = "马尔斯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "目前还没找到，内部结构坚固，不知是否藏有其他控制开关。",
 	},
 	{
@@ -8263,6 +8411,9 @@
 		["guid_str"] = "u7nJTXLK",
 		["id"] = 99,
 		["name"] = "马尔斯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "很紧急？",
 	},
 	{
@@ -8475,6 +8626,9 @@
 		["guid_str"] = "gL8AjIxE",
 		["id"] = 102,
 		["name"] = "马尔斯",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "我知道了，马上去四周再找——唔！",
 		["text_info"] = {
 			["tween"] = {
@@ -8619,6 +8773,9 @@
 		["guid_str"] = "3XDBYsFs",
 		["id"] = 104,
 		["name"] = "霍冉",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious_add",
 			["body_anim"] = "default_loop",
@@ -8627,7 +8784,6 @@
 				-200,
 				-10,
 			},
-			["path"] = "af07hr/af07hr_action1",
 			["scale"] = {
 				0.93000000715256,
 				0.93000000715256,
@@ -8827,6 +8983,9 @@
 		["guid_str"] = "x1YgyhuA",
 		["id"] = 107,
 		["name"] = "孔秘书",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "……是意识类能力在入侵……！各位都还……撑得住么？",
 	},
 	{
@@ -8893,6 +9052,9 @@
 		["guid_str"] = "KUIIP4OP",
 		["id"] = 108,
 		["name"] = "余音",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "尚在可控……可控范围内……",
 	},
 	{
@@ -8959,6 +9121,9 @@
 		["guid_str"] = "aJRA3wY3",
 		["id"] = 109,
 		["name"] = "柚理",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "2号点位有敌人出现！是……出世间的那些……",
 	},
 	{
@@ -9025,6 +9190,9 @@
 		["guid_str"] = "XZR56IVN",
 		["id"] = 110,
 		["name"] = "波丝",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "……3号这边也是！",
 	},
 	{
@@ -9159,6 +9327,9 @@
 		["guid_str"] = "ZPNEnVRz",
 		["id"] = 112,
 		["name"] = "霍冉",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious_add",
 			["body_anim"] = "default_loop",
@@ -9167,7 +9338,6 @@
 				-200,
 				-10,
 			},
-			["path"] = "af07hr/af07hr_action1",
 			["scale"] = {
 				0.93000000715256,
 				0.93000000715256,
@@ -9239,6 +9409,9 @@
 		["guid_str"] = "JOPnXEDu",
 		["id"] = 113,
 		["name"] = "孔秘书",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["text"] = "共同袭击么……大家，小心应战！",
 	},
 	{

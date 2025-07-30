@@ -93,6 +93,23 @@
 				},
 			},
 		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/bg_clock_01",
+				["length"] = 4833,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/enemy/b08qthh/b08qthh_slot05_in",
+				["length"] = 2833,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_a1_liuchibeitong_loopa",
+				["length"] = 2966,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -160,6 +177,11 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s254_the_end",
+			["length"] = 133000,
+			["operation"] = 1,
+		},
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
@@ -218,6 +240,16 @@
 					},
 				},
 				["z_order"] = 2,
+			},
+		},
+		["noise"] = {
+			["length"] = 0,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/enemy/b03xz/slot_04_in",
+				["length"] = 3346,
+				["loop"] = 1,
 			},
 		},
 	},
@@ -686,6 +718,19 @@
 				["z_order"] = 3,
 			},
 		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/enemy/b03xz/slot_04",
+				["length"] = 4214,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/enemy/b03xz/stun_loop",
+				["length"] = 7941,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -751,6 +796,13 @@
 		["guid"] = "BE2A07FD4B700D1C71D7E38F373B20CF",
 		["guid_str"] = "dDlDIe9M",
 		["id"] = 23,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/cg_9_a1_liuchibeitong_loopa",
+				["length"] = 2966,
+				["stop"] = 1,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "sad_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -770,15 +822,6 @@
 						["time"] = 400,
 					},
 					["tween"] = "FadeIn",
-				},
-				{
-					["param"] = {
-						["delay"] = 0,
-						["end_alpha"] = 0.0,
-						["start_alpha"] = 0.0,
-						["time"] = 0,
-					},
-					["tween"] = "AlphaChange",
 				},
 			},
 		},
@@ -821,8 +864,15 @@
 		["guid_str"] = "TILOYIOo",
 		["id"] = 24,
 		["name"] = "苏筱",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/enemy/b03xz/stun_loop",
+				["length"] = 7941,
+				["stop"] = 1,
+			},
+		},
 		["speaker_info"] = {
-			["anim"] = "sad_add",
+			["anim"] = "closeeyeserious_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
 			["offset"] = {
 				-160,
@@ -947,7 +997,7 @@
 			["is_only_append_separate_tween"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.40000000596046,
-			["text"] = "[size 17]\n\n视线转向门外，或许是和徒弟谈好了由他自己解决，起隐隐看见那道沉默的身影。\n\n好人也在受难。",
+			["text"] = "[size 17]\n\n视线转向门外，或许是和徒弟谈好了由他自己解决，能隐隐看见那道沉默的身影。\n\n好人也在受难。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -1122,6 +1172,12 @@
 		["guid"] = "31C2579B42A0EC221D4A33A998C883F0",
 		["guid_str"] = "w0T6AGtc",
 		["id"] = 30,
+		["sound"] = {
+			["volume"] = 1.2999999523163,
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "sad_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -1372,6 +1428,18 @@
 			["anim"] = "surprise_add",
 			["body_anim"] = "surprise_in",
 		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_whoosh_03",
+				["length"] = 7684,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_whoosh_03",
+				["length"] = 7684,
+				["loop"] = 1,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "sad_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -1553,6 +1621,13 @@
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
 			["body_anim"] = "surprise_in",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_low_long",
+				["length"] = 4615,
+				["volume"] = 2.0,
+			},
 		},
 		["speaker_info"] = {
 			["anim"] = "sad_add",

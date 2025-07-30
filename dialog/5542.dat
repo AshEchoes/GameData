@@ -47,7 +47,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]放下出了点故障的通讯器，被隔到了另一区域的鸢和言御看着面前延伸向上的楼梯，对视了一眼。",
+			["text"] = "[size 17]放下通讯器，远在另一区域的鸢和言御看着面前延伸向上的楼梯，对视了一眼。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -116,7 +116,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]看着周围的环境，言御感慨了一声。",
+			["text"] = "[size 17]看着已经面目全非的周围，言御轻笑，由衷地发出感慨。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -137,7 +137,7 @@
 				},
 			},
 			{
-				["anim"] = "serious",
+				["anim"] = "smile1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -370,20 +370,22 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 800,
+							["direction"] = "left",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
 			},
 			{
 				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
-				},
-				["knowledge_word_info"] = {
-					["anchor"] = "right",
-					["id"] = "340",
-					["is_enabled"] = true,
-					["offset"] = {
-						-200,
-						-400,
-					},
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am56yy/am56yy_action1",
@@ -393,6 +395,18 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 500,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
 				},
 			},
 		},
@@ -410,22 +424,38 @@
 						{
 							["param"] = {
 								["delay"] = 0,
+								["direction"] = "left",
+								["dis"] = 100,
 								["time"] = 1000,
 							},
-							["tween"] = "FadeOut",
+							["tween"] = "MoveOut",
 						},
 					},
 				},
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_09.png",
 			},
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["direction"] = "right",
+								["dis"] = 100,
+								["end_alpha"] = 1.0,
+								["time"] = 1000,
+							},
+							["tween"] = "MoveIn",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_07.png",
 			},
 		},
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]一句字幕，就是俩人前进但是啥也没有，就说话了，不是不务正业",
+			["text"] = "[size 17]两人小心翼翼地沿着道路前行，随时警惕着可能会出现的敌人，但这条路线却出乎意料地平静。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -435,12 +465,6 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["body_anim"] = "default_loop",
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "af35sy/af35sy_action2",
 				["pos"] = {
@@ -454,9 +478,12 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
 						},
-						["tween"] = "FadeOut",
+						["tween"] = "MoveIn",
 					},
 				},
 			},
@@ -478,16 +505,77 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
 						},
-						["tween"] = "FadeOut",
+						["tween"] = "MoveIn",
 					},
+				},
+			},
+		},
+		["guid"] = "116858FF462DEC7F2FE898A6371BFE0C",
+		["guid_str"] = "8hSyfvd2",
+		["id"] = 8,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_07.png",
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]走了许久后，鸢缓缓开口。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af35sy/af35sy_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					-300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
 				},
 			},
 		},
 		["guid"] = "7526D98F4D95D81C5F4ADC9736ED4F71",
 		["guid_str"] = "BxzcUVTs",
-		["id"] = 8,
+		["id"] = 9,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
@@ -524,15 +612,6 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
 			},
 			{
 				["anim"] = "normal_add",
@@ -557,20 +636,11 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 200,
-						},
-						["tween"] = "FadeIn",
-					},
-				},
 			},
 		},
 		["guid"] = "4027D66D4B22FB052045D6B815DF8C42",
 		["guid_str"] = "ITkPdOX3",
-		["id"] = 9,
+		["id"] = 10,
 		["name"] = "鸢",
 		["text"] = "言先生，刚刚在幻境中，你……",
 	},
@@ -632,7 +702,7 @@
 		},
 		["guid"] = "F93D8C3D420A31F510A3C18686513D46",
 		["guid_str"] = "AlErRqDH",
-		["id"] = 10,
+		["id"] = 11,
 		["name"] = "言御",
 		["text"] = "都解决了，而且……还尝试了一件我之前想做但没能做的事情。",
 	},
@@ -693,7 +763,7 @@
 		},
 		["guid"] = "60C69A5D43CB099AE55DBA988BE08360",
 		["guid_str"] = "cicDo5Xk",
-		["id"] = 11,
+		["id"] = 12,
 		["name"] = "鸢",
 		["text"] = "那就好……",
 	},
@@ -755,7 +825,7 @@
 		},
 		["guid"] = "1E435E9B495AF7B8038EC2AEF39FD8BD",
 		["guid_str"] = "550q02n7",
-		["id"] = 12,
+		["id"] = 13,
 		["name"] = "言御",
 		["text"] = "既然我们成功从幻境中脱出，就说明鸢小姐那边也同样解决了“鬼”？",
 	},
@@ -816,7 +886,7 @@
 		},
 		["guid"] = "657DEC394D56630495A4CCBF325FCA5F",
 		["guid_str"] = "l9Z20UXD",
-		["id"] = 13,
+		["id"] = 14,
 		["name"] = "鸢",
 		["text"] = "其实……我没能做到。",
 	},
@@ -877,7 +947,7 @@
 		},
 		["guid"] = "37BDFFC64CE525E74BDA3C852A942DDE",
 		["guid_str"] = "Yy3MffGJ",
-		["id"] = 14,
+		["id"] = 15,
 		["name"] = "鸢",
 		["text"] = "就像你预料到的那样，我遇到了七叶，然后柳池也在那个幻境中现身。",
 	},
@@ -938,7 +1008,7 @@
 		},
 		["guid"] = "0E51819D44C14C300026A9950317B096",
 		["guid_str"] = "IvNmk3LH",
-		["id"] = 15,
+		["id"] = 16,
 		["name"] = "鸢",
 		["text"] = "在我准备动手的时候，他像是被什么影响主动离开了……虽然不知道监督他们经历了什么，但我猜，应该和那边发生的事有关。",
 	},
@@ -1000,7 +1070,7 @@
 		},
 		["guid"] = "58A458714AD6FACE18683CA45E18D625",
 		["guid_str"] = "NgYwkALA",
-		["id"] = 16,
+		["id"] = 17,
 		["name"] = "言御",
 		["text"] = "看他之前的表现，很像是被戳到了某些痛处。",
 	},
@@ -1061,7 +1131,7 @@
 		},
 		["guid"] = "793262BB4E6EE0CECEA38C9BAD53AC93",
 		["guid_str"] = "jpjNO0pa",
-		["id"] = 17,
+		["id"] = 18,
 		["name"] = "鸢",
 		["text"] = "弱点往往与感情连接，他的弱点……有些难以想象。而以他的性格，能甘心被琴初驱使这么久，也很难想象其中理由……",
 	},
@@ -1114,7 +1184,7 @@
 		},
 		["guid"] = "E5CE8C0D46AF631AB5AA28AE697F53DC",
 		["guid_str"] = "Ql8GM1R2",
-		["id"] = 18,
+		["id"] = 19,
 	},
 	{
 		["bg_info"] = {
@@ -1174,7 +1244,7 @@
 		},
 		["guid"] = "5F3B0B414AC0B9F55E4047AF6283A47E",
 		["guid_str"] = "Mv9KzodN",
-		["id"] = 19,
+		["id"] = 20,
 		["name"] = "言御",
 		["text"] = "……",
 	},
@@ -1235,7 +1305,7 @@
 		},
 		["guid"] = "3A90B40E46223B1E677E8887FA080885",
 		["guid_str"] = "LYtUGkcy",
-		["id"] = 20,
+		["id"] = 21,
 		["name"] = "鸢",
 		["text"] = "从事情的最开端，她就一直像这样，给每个能利用的人铺好了这样一条路。",
 	},
@@ -1296,7 +1366,7 @@
 		},
 		["guid"] = "C97896F3418A36A7A5DBA68EC16B1227",
 		["guid_str"] = "7nszpmR2",
-		["id"] = 21,
+		["id"] = 22,
 		["name"] = "鸢",
 		["text"] = "人们看似自愿踏足其中，其实只能步向她准备好的唯一结局。",
 	},
@@ -1339,7 +1409,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]两人不断沿着楼梯向上攀升，随时警惕着可能会出现的敌人，但这条路线却出乎意料地平静。",
+			["text"] = "[size 17]没有人再说话，无言的氛围中，两人不断沿着楼梯向上攀升。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1377,7 +1447,7 @@
 		},
 		["guid"] = "6EA9F3A44FF5403DD0EA339167BBB29E",
 		["guid_str"] = "gT5mPJA5",
-		["id"] = 22,
+		["id"] = 23,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
@@ -1410,7 +1480,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]没用多久，远远地，他们看见了一道大门。",
+			["text"] = "[size 17]没过多久，远远地，他们看见了一道大门。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1448,7 +1518,7 @@
 		},
 		["guid"] = "D533AC7B4E4DFDCAB16FF3B93A619D34",
 		["guid_str"] = "GDVn4TLT",
-		["id"] = 23,
+		["id"] = 24,
 	},
 	{
 		["bg_info"] = {
@@ -1508,7 +1578,7 @@
 		},
 		["guid"] = "5B1FD72F4DD93BA3407A5C8FE9FC97CF",
 		["guid_str"] = "zILOPbfP",
-		["id"] = 24,
+		["id"] = 25,
 		["name"] = "言御",
 		["text"] = "看来我们是最先到达的，但是考虑到刚刚琴初的警告，我们在这里等待其他人汇合吧。",
 	},
@@ -1569,7 +1639,7 @@
 		},
 		["guid"] = "C394FE494ED7E41224F779ADD7ECE8AD",
 		["guid_str"] = "tiZnsh7i",
-		["id"] = 25,
+		["id"] = 26,
 		["name"] = "鸢",
 		["text"] = "警告……",
 	},
@@ -1636,7 +1706,7 @@
 		},
 		["guid"] = "11071E804840674A7328778697343D0C",
 		["guid_str"] = "EUgeeU6T",
-		["id"] = 26,
+		["id"] = 27,
 	},
 	{
 		["bg_info"] = {
@@ -1701,7 +1771,7 @@
 		},
 		["guid"] = "71845FF84DAD5D95800D9F925F7CA19C",
 		["guid_str"] = "SQ2tZtQs",
-		["id"] = 27,
+		["id"] = 28,
 	},
 	{
 		["bg_info"] = {
@@ -1760,7 +1830,7 @@
 		},
 		["guid"] = "F6C1F60A412EC9C49A781683EB0FD460",
 		["guid_str"] = "4j7yGI41",
-		["id"] = 28,
+		["id"] = 29,
 		["name"] = "鸢",
 		["text"] = "言御先生……葵……琴初的能力如果真的是精神控制，那那个瞬间的念头，是不是只是假的？",
 	},
@@ -1822,7 +1892,7 @@
 		},
 		["guid"] = "C466FD1842B43761B7C385819EE5E730",
 		["guid_str"] = "kFPvpaC6",
-		["id"] = 29,
+		["id"] = 30,
 		["name"] = "言御",
 		["text"] = "你是说……逃跑？",
 	},
@@ -1883,7 +1953,7 @@
 		},
 		["guid"] = "4950E7CB4D31D9DE32374595A5545FC9",
 		["guid_str"] = "foTVktFs",
-		["id"] = 30,
+		["id"] = 31,
 		["name"] = "鸢",
 		["text"] = "！！",
 	},
@@ -1945,7 +2015,7 @@
 		},
 		["guid"] = "1BA8C18D41C87896525B9884CEEF8C37",
 		["guid_str"] = "7buD4mLM",
-		["id"] = 31,
+		["id"] = 32,
 		["name"] = "言御",
 		["text"] = "我想可能我们几个都受到了类似的攻击吧，实际感受后觉得，她有这种程度的能力，也不意外会想要更多。",
 	},
@@ -2007,7 +2077,7 @@
 		},
 		["guid"] = "0D1F05124FB02F4FE4FDC0A16600906F",
 		["guid_str"] = "XKXfVC6L",
-		["id"] = 32,
+		["id"] = 33,
 		["name"] = "言御",
 		["text"] = "本来就很会操纵人心的人，获得了最适合她的能力，这算是「神」的眷顾么？",
 	},
@@ -2074,7 +2144,7 @@
 		},
 		["guid"] = "7DA1A83845775FEFF78F8B884EA41E81",
 		["guid_str"] = "7sILHzkt",
-		["id"] = 33,
+		["id"] = 34,
 	},
 	{
 		["bg_info"] = {
@@ -2133,7 +2203,7 @@
 		},
 		["guid"] = "C1577D41415E501E498A93892B208F62",
 		["guid_str"] = "CELoy4LT",
-		["id"] = 34,
+		["id"] = 35,
 		["name"] = "鸢",
 		["text"] = "她不会这么认为的。",
 	},
@@ -2194,7 +2264,7 @@
 		},
 		["guid"] = "FE6B3FE24CF5FB947DFF7D9E7D213E2C",
 		["guid_str"] = "spqPwvwf",
-		["id"] = 35,
+		["id"] = 36,
 		["name"] = "鸢",
 		["text"] = "她只会觉得，这就是她身为「神」的力量，她的“信徒”本就应由她掌控，而不信奉神明的人，在神眼里自然无需存在。",
 	},
@@ -2255,7 +2325,7 @@
 		},
 		["guid"] = "0E4AE95445496D0E723B88A9302E4D6E",
 		["guid_str"] = "s6RpSFaA",
-		["id"] = 36,
+		["id"] = 37,
 		["name"] = "鸢",
 		["text"] = "……言御先生……其实……葵虽然一直善于算计人心，但在福利院时并没有这么……荒诞。",
 	},
@@ -2316,7 +2386,7 @@
 		},
 		["guid"] = "536EF0AE4EEA69CBB711B290F1A7A608",
 		["guid_str"] = "ixS3z0we",
-		["id"] = 37,
+		["id"] = 38,
 		["name"] = "鸢",
 		["text"] = "我不知道她身上究竟发生了什么让她变成现在这幅样子，但我想昙姐姐也是这么想的……所以才会一直陪着她……她们的线还在……",
 	},
@@ -2378,7 +2448,7 @@
 		},
 		["guid"] = "DB1EED6847B48F818A8C088EBEA3ADA8",
 		["guid_str"] = "CJUEhEQu",
-		["id"] = 38,
+		["id"] = 39,
 		["name"] = "言御",
 		["text"] = "但是你应该也明白了，那位江昙小姐也同样不会回头的。",
 	},
@@ -2439,7 +2509,7 @@
 		},
 		["guid"] = "7AE97B92467C72773305AC8ED3ADF224",
 		["guid_str"] = "yBepnCOf",
-		["id"] = 39,
+		["id"] = 40,
 		["name"] = "鸢",
 		["text"] = "嗯……如果是我……我也……",
 	},
@@ -2486,7 +2556,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]很突然，熟悉的攻击又来了。",
+			["text"] = "[size 17]熟悉的攻击再次来得猝不及防。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2524,7 +2594,7 @@
 		},
 		["guid"] = "4811795B4BFBC61C20D8ADB9C6FB0F24",
 		["guid_str"] = "glTmAtFj",
-		["id"] = 40,
+		["id"] = 41,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/karas/avg_karas_whoosh_03",
@@ -2557,7 +2627,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]这次，两个人都不自禁握紧了武器，抬起手。",
+			["text"] = "[size 17]脑海中的念头被不断催动，这一次，两个人都不自禁握紧了武器，朝着对方抬起手。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2595,7 +2665,7 @@
 		},
 		["guid"] = "D7676A1A464EF72A120D2FBB3299FE0E",
 		["guid_str"] = "A5FhiSGZ",
-		["id"] = 41,
+		["id"] = 42,
 	},
 	{
 		["bg_info"] = {
@@ -2670,7 +2740,7 @@
 		},
 		["guid"] = "C8D788EF48B7138558384B90345153C5",
 		["guid_str"] = "3BAQlPZR",
-		["id"] = 42,
+		["id"] = 43,
 		["name"] = "鸢",
 		["text"] = "唔……！",
 	},
@@ -2749,7 +2819,7 @@
 		},
 		["guid"] = "75C143134754E0349D22D49037BCC380",
 		["guid_str"] = "OIqyug7N",
-		["id"] = 43,
+		["id"] = 44,
 		["name"] = "言御",
 		["text"] = "又是那种精神攻击……好像比之前更猛烈了……躲开……",
 	},
@@ -2781,7 +2851,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]一路都没出现的小怪出现。",
+			["text"] = "[size 17]与此同时，一路都不见踪影的敌人忽然成群出现，向他们冲过来。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2808,7 +2878,7 @@
 				},
 			},
 			{
-				["anim"] = "cold",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2834,7 +2904,7 @@
 		},
 		["guid"] = "9F9D73DA444AAE2736CDA9B87F5901DE",
 		["guid_str"] = "szwRF8WD",
-		["id"] = 44,
+		["id"] = 45,
 	},
 	{
 		["bg_info"] = {
@@ -2896,7 +2966,7 @@
 		},
 		["guid"] = "93E9423348BF5557313799BE5F48B2A1",
 		["guid_str"] = "jayNXXVt",
-		["id"] = 45,
+		["id"] = 46,
 		["name"] = "言御&鸢",
 		["text"] = "！！",
 	},
@@ -2987,7 +3057,7 @@
 		},
 		["guid"] = "5436F44F40EF60C7805DC9B012D902A0",
 		["guid_str"] = "0zwBlHvs",
-		["id"] = 46,
+		["id"] = 47,
 		["just_auto_play"] = true,
 	},
 }

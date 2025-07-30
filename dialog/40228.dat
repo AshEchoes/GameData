@@ -7,12 +7,77 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 2000,
+								["end_alpha"] = 1.0,
+								["start_alpha"] = 0.0,
+								["time"] = 3000,
 							},
-							["tween"] = "FadeIn",
+							["tween"] = "AlphaChange",
 						},
 					},
 				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "005C6F834851A81AF9340BBFC8B9845C",
+		["guid_str"] = "gxf8Glbe",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_mask.bk2",
+				["play_delay_time"] = 300,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 300,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.60000002384186,
+							["start_alpha"] = 0.0,
+							["time"] = 900,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 2200,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.60000002384186,
+							["time"] = 1000,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/d31_church_bell",
+				["length"] = 11500,
+			},
+		},
+		["time"] = 3000,
+	},
+	{
+		["bg_info"] = {
+			{
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_04.png",
 			},
 			{
@@ -25,7 +90,8 @@
 		},
 		["guid"] = "4D67B22541220C34AFC8ED981147122E",
 		["guid_str"] = "EVCyY6jl",
-		["id"] = 1,
+		["id"] = 2,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -33,7 +99,13 @@
 				["length"] = 55384,
 				["loop"] = 1,
 			},
+			{
+				["event"] = "event:/ambience/d31_church_bell",
+				["length"] = 11500,
+				["stop"] = 1,
+			},
 		},
+		["time"] = 10,
 	},
 	{
 		["bg_info"] = {
@@ -61,7 +133,7 @@
 		},
 		["guid"] = "697CBD3E41C2A704BA15FBA74F6CA7ED",
 		["guid_str"] = "X6FVmgYi",
-		["id"] = 2,
+		["id"] = 3,
 	},
 	{
 		["bg_info"] = {
@@ -90,7 +162,7 @@
 		},
 		["guid"] = "BE051BC64E2859B834413787C14C9FCE",
 		["guid_str"] = "0IRvcsql",
-		["id"] = 3,
+		["id"] = 4,
 	},
 	{
 		["bg_info"] = {
@@ -134,7 +206,7 @@
 		},
 		["guid"] = "46F0F1334AC6CEA2C1C7579CAA9B11BF",
 		["guid_str"] = "RbuHMu54",
-		["id"] = 4,
+		["id"] = 5,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/9/avg_chapter9_communicator_noise",
@@ -201,7 +273,7 @@
 		},
 		["guid"] = "11F9023049DBE474FFAD49B8570305F9",
 		["guid_str"] = "pRYrS7CN",
-		["id"] = 5,
+		["id"] = 6,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -250,7 +322,7 @@
 		},
 		["guid"] = "5A68612B412CBCF140B5C486D0C9A3BC",
 		["guid_str"] = "EFcLJGNS",
-		["id"] = 6,
+		["id"] = 7,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 	},
@@ -280,7 +352,7 @@
 		},
 		["guid"] = "76EB572B4F40D07EAEFF41A7586007F2",
 		["guid_str"] = "y4Fj2O5B",
-		["id"] = 7,
+		["id"] = 8,
 	},
 	{
 		["bg_info"] = {
@@ -309,7 +381,7 @@
 		},
 		["guid"] = "B781D4E24042284B5442178EEEC50AA9",
 		["guid_str"] = "B3Q4XUAr",
-		["id"] = 8,
+		["id"] = 9,
 	},
 	{
 		["bg_info"] = {
@@ -353,7 +425,7 @@
 		},
 		["guid"] = "4782F9B346F3C444F26680B3E94E0C20",
 		["guid_str"] = "EUZ2Y7BQ",
-		["id"] = 9,
+		["id"] = 10,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/9/avg_chapter9_communicator_noise",
@@ -424,7 +496,7 @@
 		},
 		["guid"] = "D7EA56B14418030E3F42748F73583D4A",
 		["guid_str"] = "EQRMmK7g",
-		["id"] = 10,
+		["id"] = 11,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -476,7 +548,7 @@
 		},
 		["guid"] = "05024F974776609D2375A196F8AB28A3",
 		["guid_str"] = "xvMZ5Enq",
-		["id"] = 11,
+		["id"] = 12,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 	},
@@ -512,7 +584,7 @@
 		},
 		["guid"] = "658998904F2EEC49FC9921B54EF9B6CB",
 		["guid_str"] = "vFL9n66P",
-		["id"] = 12,
+		["id"] = 13,
 	},
 	{
 		["bg_info"] = {
@@ -541,7 +613,7 @@
 		},
 		["guid"] = "E3078E2E44F845C6502F0DB75AE633ED",
 		["guid_str"] = "ZUnFGwEZ",
-		["id"] = 13,
+		["id"] = 14,
 	},
 	{
 		["bg_info"] = {
@@ -570,7 +642,7 @@
 		},
 		["guid"] = "9DA1BCC141AFEB6C0DD897B527538579",
 		["guid_str"] = "HXZKENX1",
-		["id"] = 14,
+		["id"] = 15,
 	},
 	{
 		["bg_info"] = {
@@ -610,7 +682,7 @@
 		},
 		["guid"] = "7B9E47AD45E76B8DA8D5E580870784A9",
 		["guid_str"] = "vhmHFn7a",
-		["id"] = 15,
+		["id"] = 16,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -659,7 +731,7 @@
 		},
 		["guid"] = "C54CCD8948DF745BD8D9AE9610C26860",
 		["guid_str"] = "8M2Xb3po",
-		["id"] = 16,
+		["id"] = 17,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 	},
@@ -691,7 +763,7 @@
 		},
 		["guid"] = "37F2E2C04041009A349FF4826E60EF85",
 		["guid_str"] = "9ukReTQA",
-		["id"] = 17,
+		["id"] = 18,
 	},
 	{
 		["bg_info"] = {
@@ -720,7 +792,7 @@
 		},
 		["guid"] = "ADB777014BA482FEF6C0CD8AC102E073",
 		["guid_str"] = "v6q02UXR",
-		["id"] = 18,
+		["id"] = 19,
 	},
 	{
 		["bg_info"] = {
@@ -760,7 +832,7 @@
 		},
 		["guid"] = "ADB826B84546E3AE0CD960B16DA7C7E0",
 		["guid_str"] = "SvPDGC2S",
-		["id"] = 19,
+		["id"] = 20,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -809,7 +881,7 @@
 		},
 		["guid"] = "37AB193A49593BE7604B279C24030513",
 		["guid_str"] = "7rilV1K1",
-		["id"] = 20,
+		["id"] = 21,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 	},
@@ -839,7 +911,7 @@
 		},
 		["guid"] = "2A8E41D34CE53F42388A4DAEEE15A650",
 		["guid_str"] = "sDucMfxs",
-		["id"] = 21,
+		["id"] = 22,
 	},
 	{
 		["bg_info"] = {
@@ -879,7 +951,7 @@
 		},
 		["guid"] = "930F2DC44BCC8A950BDAB290942F91DB",
 		["guid_str"] = "P1S6N88N",
-		["id"] = 22,
+		["id"] = 23,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -916,7 +988,7 @@
 		},
 		["guid"] = "DB2660F640D8F65C76153EB045051210",
 		["guid_str"] = "k90jOuW2",
-		["id"] = 23,
+		["id"] = 24,
 	},
 	{
 		["bg_info"] = {
@@ -939,7 +1011,7 @@
 		},
 		["guid"] = "5CD3365A4C9C3B07E5E2469105E2F047",
 		["guid_str"] = "HSXMtUaR",
-		["id"] = 24,
+		["id"] = 25,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -1008,7 +1080,7 @@
 		},
 		["guid"] = "ED53BBE94E52CB8E0FD79CADC878C2A1",
 		["guid_str"] = "nu5ZeY35",
-		["id"] = 25,
+		["id"] = 26,
 		["name"] = "舞鹤织雪",
 		["text"] = "……？！",
 	},
@@ -1040,7 +1112,7 @@
 		},
 		["guid"] = "5E606DF84A84752968BDFAB32C9FD9F8",
 		["guid_str"] = "APJdvqEq",
-		["id"] = 26,
+		["id"] = 27,
 		["name"] = "舞鹤织雪",
 		["text"] = "这是什么地方，刚刚那些又是什么。",
 	},
@@ -1095,7 +1167,7 @@
 		},
 		["guid"] = "7FC307EB42054E1937403083338AE7BF",
 		["guid_str"] = "3yTIdlrh",
-		["id"] = 27,
+		["id"] = 28,
 		["name"] = "舞鹤织雪",
 		["soundfx"] = {
 			{
@@ -1173,7 +1245,7 @@
 		},
 		["guid"] = "807C191741D767C92A464A92B3BCEFC8",
 		["guid_str"] = "EI4ih1lg",
-		["id"] = 28,
+		["id"] = 29,
 		["name"] = "苏筱",
 		["soundfx"] = {
 			{
@@ -1246,7 +1318,7 @@
 		},
 		["guid"] = "6BBB09004875E2BD756A008212D13939",
 		["guid_str"] = "RrGyNLKz",
-		["id"] = 29,
+		["id"] = 30,
 		["speaker_info"] = {
 			["anim"] = "serious_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -1309,7 +1381,7 @@
 		},
 		["guid"] = "E6C92A2A42950C16EF4DEFBEB5B6C498",
 		["guid_str"] = "uS4F45G5",
-		["id"] = 30,
+		["id"] = 31,
 		["name"] = "舞鹤织雪",
 		["speaker_info"] = {
 			["anim"] = "serious_add",
@@ -1395,7 +1467,7 @@
 		},
 		["guid"] = "E498FD5F4F93C4D4471265828C4D9E61",
 		["guid_str"] = "7TIcsjL2",
-		["id"] = 31,
+		["id"] = 32,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -1433,7 +1505,7 @@
 		},
 		["guid"] = "E305F9C74ACAD959B7F0848211E78E85",
 		["guid_str"] = "d5IebyVX",
-		["id"] = 32,
+		["id"] = 33,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "shock_add",
@@ -1475,7 +1547,7 @@
 		},
 		["guid"] = "71E2148D47ADA1E8BF58A084CDD47758",
 		["guid_str"] = "w2wEg71O",
-		["id"] = 33,
+		["id"] = 34,
 		["name"] = "舞鹤织雪",
 		["speaker_info"] = {
 			["anim"] = "smile2_add",
@@ -1506,7 +1578,7 @@
 		},
 		["guid"] = "CDB0D8724D4FB1C5172C8ABF80799FDF",
 		["guid_str"] = "Hd3qBNsS",
-		["id"] = 34,
+		["id"] = 35,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
@@ -1559,7 +1631,7 @@
 		},
 		["guid"] = "6C9932304BA8F35D6920408B66309AE7",
 		["guid_str"] = "l6fE1YOZ",
-		["id"] = 35,
+		["id"] = 36,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -1624,7 +1696,7 @@
 		},
 		["guid"] = "60FBB4B8450D789DF4D8D4B8E761C8AE",
 		["guid_str"] = "mXU8BHMb",
-		["id"] = 36,
+		["id"] = 37,
 		["name"] = "舞鹤织雪",
 		["speaker_info"] = {
 			["anim"] = "wink2_add",
@@ -1655,7 +1727,7 @@
 		},
 		["guid"] = "3C68BB70441314969D63A9987FC3891B",
 		["guid_str"] = "HhQ1AF6a",
-		["id"] = 37,
+		["id"] = 38,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "wronged2_add",
@@ -1707,7 +1779,7 @@
 		},
 		["guid"] = "C5669CA345924C475965F8B71299FA00",
 		["guid_str"] = "Qx7H7QvE",
-		["id"] = 38,
+		["id"] = 39,
 		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
@@ -1753,7 +1825,7 @@
 		},
 		["guid"] = "FA94A86B48E5C815FB0B76B1800B1277",
 		["guid_str"] = "PrFjJ9Zo",
-		["id"] = 39,
+		["id"] = 40,
 		["is_white_base_bg"] = true,
 		["speaker_info"] = {
 			["anim"] = "wronged2_add",
@@ -1793,7 +1865,7 @@
 		},
 		["guid"] = "F3080D4D489967FE6B5BA4BB8E55FC44",
 		["guid_str"] = "mrLRYv5e",
-		["id"] = 40,
+		["id"] = 41,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{

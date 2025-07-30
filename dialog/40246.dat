@@ -89,6 +89,15 @@
 			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]酷似海临第一实验中学的天台，是那段时间言御最常待的地方，\n\n五层楼高的校舍不算什么有名建筑，往远看会被无数广告牌和高楼阻挡，往下看也无非只有操场。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -139,9 +148,12 @@
 					{
 						["param"] = {
 							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
 							["time"] = 500,
 						},
-						["tween"] = "FadeIn",
+						["tween"] = "MoveIn",
 					},
 				},
 			},
@@ -610,9 +622,35 @@
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["cycle"] = 2,
+								["delay"] = 0,
+								["time"] = 200,
+							},
+							["tween"] = "Breathe",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
 			},
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.69999998807907,
+								["start_alpha"] = 0.69999998807907,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_school_01.png",
 			},
 		},
 		["caption_info"] = {
@@ -696,6 +734,7 @@
 		["guid"] = "3DF6AD7441BC36EF11F743BAEE49DD12",
 		["guid_str"] = "y3oLzaM0",
 		["id"] = 14,
+		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/player/am56yy/am56yy_skill_move_cat_b",

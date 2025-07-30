@@ -34,20 +34,43 @@
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["am"] = 10,
+								["delay"] = 0,
+								["duration"] = 500,
+								["time"] = 10,
+							},
+							["tween"] = "Shake",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_07.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
+			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]难分，武器\n担心自己碍事的\n十手卫姜宁和处刑人打得有来有回，分不出胜负。",
+			["text"] = "[size 17]武器碰撞出巨大的金属音，势均力敌的双方缠斗一处，始终难分胜负。",
 			["text_align"] = "center",
 		},
 		["guid"] = "EA7920B34BAAB180B0F1519C0D11579F",
 		["guid_str"] = "x78l4aBJ",
 		["id"] = 2,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/1-08-sword-hit",
+				["length"] = 0,
+			},
+			{
+				["event"] = "event:/sfx/enemy/b03xz/chain_break",
+				["length"] = 2195,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -61,7 +84,7 @@
 			["align"] = "bottom",
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]怕影响到他们躲到一边的丁苑青趁乱开口。",
+			["text"] = "[size 17]担心自己会妨碍到他们早已躲到一边的丁苑青趁乱开口。",
 			["text_align"] = "center",
 		},
 		["characters"] = {

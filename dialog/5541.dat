@@ -52,7 +52,7 @@
 			["b_use_mask"] = true,
 			["height"] = 100,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]楼内的震动终于稳定下来，我看向周围。",
+			["text"] = "[size 17]震动渐渐停止，脚下的地面重新稳定下来。",
 			["text_align"] = "center",
 		},
 		["guid"] = "D197A14349B920C30A40E2A17766C1FE",
@@ -72,7 +72,7 @@
 			["height"] = 100,
 			["is_append"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 17]变动过后，已经丝毫看不出原有的格局。[br][br][size 17]鸢和言御也不知道在哪。",
+			["text"] = "[br][br][size 17]变动后的建筑已经丝毫看不出原有的格局。[br][br][size 17]我试图向远处张望，但视线受阻的情况下，完全无法确认鸢和言御的位置。",
 			["text_align"] = "center",
 		},
 		["guid"] = "78FB680B4ED08BE3091327AA6A3BDC21",
@@ -233,7 +233,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 500,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -258,7 +258,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 500,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -1407,7 +1407,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]舞鹤织雪走上去，回过头。",
+			["text"] = "[size 17]舞鹤织雪率先走上去，悬浮的小路纹丝未动，似乎比想象中更加平稳。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1949,7 +1949,7 @@
 			["b_use_mask"] = true,
 			["height"] = 100,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]需要铺路的地方很多，不知道是偶然还是琴初故意为之，我们能到达的都是一些刁钻的地方。",
+			["text"] = "[size 17]四周能让我们停留站立的平台很少，不知是偶然还是琴初故意为之，我们能够到达的地方往往位置刁钻。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2039,7 +2039,7 @@
 			["height"] = 100,
 			["is_append"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 17]舞鹤织雪也不像最初那样神情轻松，渐渐认真起来。",
+			["text"] = "[br][br][size 17]需要铺的路太多，舞鹤织雪也不像最初那样神情轻松，渐渐认真起来。",
 			["text_align"] = "center",
 		},
 		["guid"] = "4F67FA3849CB13ED091DC7BB0C6D0733",
@@ -2314,9 +2314,10 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]已经走了一会，但感觉上好像没有离目的地近多少，不知道是不是错觉，像是有人在无形操控着我们的路线。",
+			["height"] = 200,
+			["mask_alpha"] = 0.80000001192093,
+			["text"] = "[size 17]我没有再说话，只是边走边观察着周围。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2335,7 +2336,84 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
 			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "E3DAF1734ED262F6269A3897DA0FECC7",
+		["guid_str"] = "pXpYmc7y",
+		["id"] = 53,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 200,
+			["is_append"] = true,
+			["mask_alpha"] = 0.80000001192093,
+			["text"] = "[br][br][size 17]明明距离出发已经有了好一会儿，但却没有接近目的地的感觉。",
+			["text_align"] = "center",
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "BAB4ED7E4F5584068E337B9BCE73212A",
+		["guid_str"] = "6bXJIjm4",
+		["id"] = 54,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 200,
+			["is_append"] = true,
+			["mask_alpha"] = 0.80000001192093,
+			["text"] = "[br][br][size 17]不知道是错觉还是什么，仿佛有人在无形操控着我们的路线。",
+			["text_align"] = "center",
 		},
 		["female_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -2343,7 +2421,7 @@
 		},
 		["guid"] = "21DAF498461AA6B621194FB105E451F0",
 		["guid_str"] = "UUDpWc6w",
-		["id"] = 53,
+		["id"] = 55,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -2450,7 +2528,7 @@
 		},
 		["guid"] = "EEB287334968CE44CF873887D186BE0F",
 		["guid_str"] = "vIZ3qGPk",
-		["id"] = 54,
+		["id"] = 56,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -2525,7 +2603,7 @@
 		},
 		["guid"] = "7FD69FF04A7691B239F337B255DC94F8",
 		["guid_str"] = "Gg8RkcY0",
-		["id"] = 55,
+		["id"] = 57,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -2593,7 +2671,7 @@
 		},
 		["guid"] = "DC87DD504E6B14094DC3218873F8CE25",
 		["guid_str"] = "L0cFtxyj",
-		["id"] = 56,
+		["id"] = 58,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -2667,7 +2745,7 @@
 		},
 		["guid"] = "434B65B6422C247DA7B1A2AE22678C6B",
 		["guid_str"] = "xDsZpO81",
-		["id"] = 57,
+		["id"] = 59,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -2736,7 +2814,7 @@
 		},
 		["guid"] = "AD352F5D4B985C11698A5191A9A1C880",
 		["guid_str"] = "2ZxwJIjL",
-		["id"] = 58,
+		["id"] = 60,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -2812,7 +2890,7 @@
 		},
 		["guid"] = "4C22F3C04AF16410178B6DBF5FA5DE75",
 		["guid_str"] = "h5JNKbcW",
-		["id"] = 59,
+		["id"] = 61,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -2880,7 +2958,7 @@
 		},
 		["guid"] = "88BF9C9B4DD67018DA7D9684F14A1BAE",
 		["guid_str"] = "SSeJ0Ynn",
-		["id"] = 60,
+		["id"] = 62,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -2954,7 +3032,7 @@
 		},
 		["guid"] = "E3F1B7A840738583EF6CF3AD9648FC8B",
 		["guid_str"] = "vgJkRHUL",
-		["id"] = 61,
+		["id"] = 63,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -3029,7 +3107,7 @@
 		},
 		["guid"] = "239C2B2946236600DD6CBC9364913E5C",
 		["guid_str"] = "ePnQKlNC",
-		["id"] = 62,
+		["id"] = 64,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -3106,7 +3184,7 @@
 		},
 		["guid"] = "B2A5C98045C4F169765C578DBBD028A8",
 		["guid_str"] = "2efsxEAn",
-		["id"] = 63,
+		["id"] = 65,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3174,7 +3252,7 @@
 		},
 		["guid"] = "DFA6DB6A4F99D8A70D7F0D8E07F0981B",
 		["guid_str"] = "Dw8tjp8c",
-		["id"] = 64,
+		["id"] = 66,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3248,7 +3326,7 @@
 		},
 		["guid"] = "3C4934314416ADC7E3AD6DBA78AF89C4",
 		["guid_str"] = "0TEFhIf5",
-		["id"] = 65,
+		["id"] = 67,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -3317,7 +3395,7 @@
 		},
 		["guid"] = "6F9D70D0478789F95CFD73A24085A70C",
 		["guid_str"] = "uZc7rVy1",
-		["id"] = 66,
+		["id"] = 68,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3391,7 +3469,7 @@
 		},
 		["guid"] = "6A7F14DF485D63558B0FAA87D895B6B3",
 		["guid_str"] = "XRHLJxLt",
-		["id"] = 67,
+		["id"] = 69,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
@@ -3466,7 +3544,7 @@
 		},
 		["guid"] = "8125B5B541B6B49B9B2119B2F7DA3F7E",
 		["guid_str"] = "KYGhtURP",
-		["id"] = 68,
+		["id"] = 70,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -3543,7 +3621,7 @@
 		},
 		["guid"] = "6D3C2AFF491764D46A9E6D9F683C6345",
 		["guid_str"] = "3YnOUxhC",
-		["id"] = 69,
+		["id"] = 71,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3611,7 +3689,7 @@
 		},
 		["guid"] = "F493F7954CE4D7D98EFD05BF715616B8",
 		["guid_str"] = "y8tZPeR1",
-		["id"] = 70,
+		["id"] = 72,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3636,7 +3714,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]走到岔路口，舞鹤织雪又铺出一条路。",
+			["text"] = "[size 17]又走到一处岔路口，舞鹤织雪思忖片刻，向着右边铺出一条路。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3679,7 +3757,7 @@
 		},
 		["guid"] = "BD0F8AAE4D1528525C77E3B510BBFA20",
 		["guid_str"] = "wFNxeRmn",
-		["id"] = 71,
+		["id"] = 73,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3752,7 +3830,7 @@
 		},
 		["guid"] = "3C038EB343078C10BA02C28B10C649A1",
 		["guid_str"] = "BQRCUvNx",
-		["id"] = 72,
+		["id"] = 74,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3820,7 +3898,7 @@
 		},
 		["guid"] = "209FD71D4EA5A37EA410AB9AAEEDDDDE",
 		["guid_str"] = "GRiaEtNr",
-		["id"] = 73,
+		["id"] = 75,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -3894,7 +3972,7 @@
 		},
 		["guid"] = "DAA18D2841990CFEA49FD3B5A60E3362",
 		["guid_str"] = "KoJto10t",
-		["id"] = 74,
+		["id"] = 76,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -3963,7 +4041,7 @@
 		},
 		["guid"] = "97DBD80842C449A1DDB0B6BC7B1DD613",
 		["guid_str"] = "5VgWBqAB",
-		["id"] = 75,
+		["id"] = 77,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4037,7 +4115,7 @@
 		},
 		["guid"] = "CC3894124896BC2B66CBF3964CFBB526",
 		["guid_str"] = "81wb7sYO",
-		["id"] = 76,
+		["id"] = 78,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -4106,7 +4184,7 @@
 		},
 		["guid"] = "386A67E44E72732556B6E8B09649672C",
 		["guid_str"] = "AhwCb486",
-		["id"] = 77,
+		["id"] = 79,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4174,7 +4252,7 @@
 		},
 		["guid"] = "A0561F364FD238511B2B70905443C7A9",
 		["guid_str"] = "Z5wLhk2C",
-		["id"] = 78,
+		["id"] = 80,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4250,7 +4328,7 @@
 		},
 		["guid"] = "AADDB0644901B21ED37F3881278F083A",
 		["guid_str"] = "8VTRcbUf",
-		["id"] = 79,
+		["id"] = 81,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4318,7 +4396,7 @@
 		},
 		["guid"] = "E19BB7264BDC29B98D4DB18BB513E05D",
 		["guid_str"] = "ZpFbROOh",
-		["id"] = 80,
+		["id"] = 82,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4394,7 +4472,7 @@
 		},
 		["guid"] = "17BCE9C149F2529FBE283FB31E6F5557",
 		["guid_str"] = "XpBKJULA",
-		["id"] = 81,
+		["id"] = 83,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4462,7 +4540,7 @@
 		},
 		["guid"] = "E6762EE84F451868D9A7C9AB70012983",
 		["guid_str"] = "ZdrrwTqk",
-		["id"] = 82,
+		["id"] = 84,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4538,7 +4616,7 @@
 		},
 		["guid"] = "6805F2314A0AF381AEBA05B8C4F111B5",
 		["guid_str"] = "HLmcbsBf",
-		["id"] = 83,
+		["id"] = 85,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4606,7 +4684,7 @@
 		},
 		["guid"] = "F98AFB4B474D136A061827B19C502A21",
 		["guid_str"] = "7a3KKZlW",
-		["id"] = 84,
+		["id"] = 86,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4674,7 +4752,7 @@
 		},
 		["guid"] = "C852785F41556656FD528EAA24026680",
 		["guid_str"] = "OqE8ivBI",
-		["id"] = 85,
+		["id"] = 87,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4742,7 +4820,7 @@
 		},
 		["guid"] = "0DC2053C4C305CBB93024E8F1B82691F",
 		["guid_str"] = "DkXA3kmy",
-		["id"] = 86,
+		["id"] = 88,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4767,7 +4845,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]舞鹤织雪说着话，手上也不停，又铺好一条路。",
+			["text"] = "[size 17]她伸出手，纸片凭空飞舞着，又聚集成一个整体。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -4810,7 +4888,7 @@
 		},
 		["guid"] = "2077CEA84E08C024D04500B5F1699DB3",
 		["guid_str"] = "Jx57WMSD",
-		["id"] = 87,
+		["id"] = 89,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4882,7 +4960,7 @@
 		},
 		["guid"] = "B86DFFA442CE4F69479E9D8072D86859",
 		["guid_str"] = "1MUs30if",
-		["id"] = 88,
+		["id"] = 90,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4907,7 +4985,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]看舞鹤织雪继续认真操控纸片，这里的布局还在不断发生变化。我看向最顶层。",
+			["text"] = "[size 17]一句似调侃似真心的感慨。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -4950,7 +5028,7 @@
 		},
 		["guid"] = "5AB6AE964E190F822C96F082A1E264FA",
 		["guid_str"] = "6aEGCd2i",
-		["id"] = 89,
+		["id"] = 91,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -4979,7 +5057,73 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]琴初就打算在那里“登上神位”。像是看出我在想什么，筱筱也站在我身边抬起头。",
+			["text"] = "[size 17]这里的布局还在不断发生变化，视线穿过各种悬浮转动的平台，我抬头看向最顶层。琴初就打算在那里“登上神位”。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af56whzx/af56whzx_action1",
+				["pos"] = {
+					-200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af50nvzhu/af50nvzhu_action4",
+				["pos"] = {
+					200,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "186620834E8F51978BEF259018BFA9AD",
+		["guid_str"] = "lLGx3XPu",
+		["id"] = 92,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]像是看出我在想什么，筱筱也站在我身边抬起头。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -5022,7 +5166,7 @@
 		},
 		["guid"] = "019F401F410AD9AE9326E880561224A2",
 		["guid_str"] = "QYAkyivr",
-		["id"] = 90,
+		["id"] = 93,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -5096,7 +5240,7 @@
 		},
 		["guid"] = "129D2D0A4A531BFD6C90648F52B1C650",
 		["guid_str"] = "0bNQj381",
-		["id"] = 91,
+		["id"] = 94,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -5164,7 +5308,7 @@
 		},
 		["guid"] = "35A159F9421DBA1A9DF786A0CFF0ADAF",
 		["guid_str"] = "Jk2Pa9fb",
-		["id"] = 92,
+		["id"] = 95,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -5232,7 +5376,7 @@
 		},
 		["guid"] = "7CC8C60644138337BEC9D2993896BF7F",
 		["guid_str"] = "rojvxFoO",
-		["id"] = 93,
+		["id"] = 96,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -5308,7 +5452,7 @@
 		},
 		["guid"] = "DD73F8C947CF713163E062B0C30DF532",
 		["guid_str"] = "aXeYXfPX",
-		["id"] = 94,
+		["id"] = 97,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -5376,7 +5520,7 @@
 		},
 		["guid"] = "BB97801F48FACEA892DAF5A4F287EE80",
 		["guid_str"] = "wZQWSUBj",
-		["id"] = 95,
+		["id"] = 98,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -5452,7 +5596,7 @@
 		},
 		["guid"] = "65279E8E46D4528CB904FEAFEDF1FB65",
 		["guid_str"] = "Bdl60cqp",
-		["id"] = 96,
+		["id"] = 99,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -5520,7 +5664,7 @@
 		},
 		["guid"] = "384FCB1E40F01A7AF8E4D3B669F7E5F5",
 		["guid_str"] = "fhKqUIqf",
-		["id"] = 97,
+		["id"] = 100,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -5586,7 +5730,7 @@
 		},
 		["guid"] = "2CB4604F40108670276C65A87F6C38F5",
 		["guid_str"] = "LIuwGgpk",
-		["id"] = 98,
+		["id"] = 101,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -5609,9 +5753,9 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]靠忘了这里最后要进战字幕找补一下",
+			["mask_alpha"] = 0.80000001192093,
+			["text"] = "[size 17]窸窸窣窣的动静打破了谈话的氛围，不算宽敞的纸桥上，几个晃动的身影朝我们扑过来。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -5629,6 +5773,15 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
 				},
 			},
 			{
@@ -5652,6 +5805,15 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
 			},
 		},
 		["female_speaker_info"] = {
@@ -5660,7 +5822,7 @@
 		},
 		["guid"] = "ED9A5AE74E69A3277A0973BF431F2C13",
 		["guid_str"] = "9J53pvVE",
-		["id"] = 99,
+		["id"] = 102,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["body_anim"] = "default_loop",
@@ -5671,6 +5833,128 @@
 				["length"] = 30030,
 				["stop"] = 1,
 			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af56whzx/af56whzx_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "76943EF64640DB84D3B32398F60F345E",
+		["guid_str"] = "O98HYE8m",
+		["id"] = 103,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "舞鹤织雪",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_08.png",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+					},
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af56whzx/af56whzx_action1",
+				["pos"] = {
+					0,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "F8D466D8458F1F9BEB987DAC9C71D497",
+		["guid_str"] = "x74wfNoa",
+		["id"] = 104,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "doubt1_add",
+			["body_anim"] = "default_loop",
 		},
 	},
 }

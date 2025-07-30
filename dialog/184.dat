@@ -7,6 +7,11 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s255_sarabande",
+			["length"] = 155100,
+			["operation"] = 1,
+		},
 		["guid"] = "4ED663134F5BD2FA2017CCB816613C9B",
 		["guid_str"] = "PZSfIpFg",
 		["id"] = 1,
@@ -25,7 +30,7 @@
 				["is_origin_size"] = false,
 				["is_ratio_full"] = true,
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_06.png",
-				["sustain_page_count"] = 21,
+				["sustain_page_count"] = 22,
 				["template_type"] = "image",
 				["tween"] = {
 					{
@@ -39,7 +44,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["delay_page"] = 20,
+							["delay_page"] = 21,
 							["time"] = 1000,
 						},
 						["tween"] = "FadeOut",
@@ -193,6 +198,12 @@
 				["delay"] = 2000,
 				["event"] = "event:/ambience/d31_church_bell",
 				["length"] = 11500,
+				["loop"] = 1,
+				["volume"] = 3.0,
+			},
+			{
+				["event"] = "event:/sfx/story/1-02/ambience_crowd",
+				["length"] = 22153,
 				["loop"] = 1,
 			},
 		},
@@ -805,6 +816,62 @@
 			{
 			},
 		},
+		["female_speaker_info"] = {
+			["anim"] = "wry1_add",
+			["body_anim"] = "shy_loop",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "29E58CD04F49FD2F59C941A6E142F6A9",
+		["guid_str"] = "dGEtZXa9",
+		["id"] = 21,
+		["male_speaker_info"] = {
+			["anim"] = "wry1_add",
+			["body_anim"] = "surprise_loop",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5062_0002",
+		},
+		["speaker_info"] = {
+			["anim"] = "surprise1_add",
+			["material"] = "M_UI_SpineCharacterPortraitNormal",
+			["offset"] = {
+				-160,
+				40,
+			},
+			["path"] = "af50nvzhu/af50nvzhu_action4",
+			["scale"] = {
+				0.93000000715256,
+				0.93000000715256,
+			},
+		},
+		["text"] = "什么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
 		["female_bg_info"] = {
 			{
 				["config"] = {
@@ -834,7 +901,7 @@
 		},
 		["guid"] = "D92043C241A6517C08D6749D8E0130FA",
 		["guid_str"] = "OVfecEwg",
-		["id"] = 21,
+		["id"] = 22,
 		["is_gender_bg"] = true,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
@@ -870,6 +937,16 @@
 				["event"] = "event:/ambience/d31_church_bell",
 				["length"] = 11500,
 				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/1-02/ambience_crowd",
+				["length"] = 22153,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_f2_jiandu_loop",
+				["length"] = 10000,
+				["loop"] = 1,
 			},
 		},
 	},
@@ -919,8 +996,10 @@
 		},
 		["guid"] = "2BCC3E95458983598170AA8E440D0C09",
 		["guid_str"] = "r9OcVHZ0",
-		["id"] = 22,
+		["id"] = 23,
 		["is_gender_bg"] = true,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
@@ -940,6 +1019,7 @@
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
 		},
+		["time"] = 3800,
 	},
 	{
 		["bg_info"] = {
@@ -996,7 +1076,7 @@
 		},
 		["guid"] = "B6E479B142843DF67D09CF8B320D81A8",
 		["guid_str"] = "Wp7R0odK",
-		["id"] = 23,
+		["id"] = 24,
 		["is_gender_bg"] = true,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
@@ -1027,6 +1107,13 @@
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/cg_9_f2_jiandu_loop",
+				["length"] = 10000,
+				["stop"] = 1,
+			},
 		},
 		["time"] = 4000,
 	},

@@ -35,21 +35,31 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
 			},
 			{
 			},
+		},
+		["bgm"] = {
+			["length"] = 0,
 		},
 		["guid"] = "7C348BFD498D55D79EECD3B88496A007",
 		["guid_str"] = "vcMMbrB0",
 		["id"] = 1,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_night_raining",
+				["length"] = 55384,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
 			},
 			{
 			},
@@ -61,11 +71,13 @@
 			["location"] = "全视钟塔·外",
 			["time"] = "森罗历1121-08-12  02:18",
 		},
+		["just_auto_play"] = true,
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
 			},
 			{
 			},
@@ -73,7 +85,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.40000000596046,
-			["text"] = "[size 17]一行人站在门口，一大段形容的字幕",
+			["text"] = "[size 17]钟塔无法出入的禁制随着所有者的死亡而消失，大家推开门。\n\n骤然从这一夜的经历中走出，\n\n重新被略有点嘈杂的人声包围，都不免有种回到“现实世界”的恍惚。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -92,15 +104,74 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17]瞳就等在钟塔门口，在他旁边，还站着一队相当显眼的陌生制服。\n\n仿佛早有准备般，他们在众人出来后立刻接收了琴初的遗体，随后驱车离开。\n\n像是一段微不足道的插曲。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "06DA9333482F2D74C2F7FC9AC05900B6",
+		["guid_str"] = "6NABqDxS",
+		["id"] = 4,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17]言御此刻没有心思关注这些，他拿出通讯仪——",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "41B3F9714F57174CA77F168FD5F4DC9D",
+		["guid_str"] = "5aJlMl7R",
+		["id"] = 5,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
 			},
 			{
 			},
 		},
 		["guid"] = "85160AD5460A106630BF48B5053ED161",
 		["guid_str"] = "hoNRsMtg",
-		["id"] = 4,
+		["id"] = 6,
 		["name"] = "言雀",
+		["sound"] = {
+			["volume"] = 0.40000000596046,
+		},
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
@@ -120,7 +191,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
 			},
 			{
 			},
@@ -153,16 +224,28 @@
 		},
 		["guid"] = "528B1BD442A0F876E34857888357238F",
 		["guid_str"] = "zTac4G4z",
-		["id"] = 5,
+		["id"] = 7,
 		["name"] = "言御",
 		["text"] = "……！言雀……？",
 	},
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1700,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
 			},
 			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
 			},
 		},
 		["caption_info"] = {
@@ -190,7 +273,7 @@
 		},
 		["guid"] = "6C5859F74E180737DAEEF58EFC40927E",
 		["guid_str"] = "2i48xcdW",
-		["id"] = 6,
+		["id"] = 8,
 	},
 	{
 		["bg_info"] = {
@@ -262,7 +345,14 @@
 		},
 		["guid"] = "0D74D75E45FA89E3D3F5AD8EE8155598",
 		["guid_str"] = "aRmLV6Qi",
-		["id"] = 7,
+		["id"] = 9,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -306,7 +396,7 @@
 		},
 		["guid"] = "1761142048D8D64B9F89FF861313B045",
 		["guid_str"] = "zvEtzwGh",
-		["id"] = 8,
+		["id"] = 10,
 		["name"] = "言御",
 		["text"] = "你怎么过来……自己来的……？",
 	},
@@ -358,7 +448,7 @@
 		},
 		["guid"] = "D51B20494A2FD5C7DEF4BD92BCAB890F",
 		["guid_str"] = "5BukrTT5",
-		["id"] = 9,
+		["id"] = 11,
 	},
 	{
 		["bg_info"] = {
@@ -402,7 +492,7 @@
 		},
 		["guid"] = "1ACB660A48B4ACE6F6711DBB82D004D4",
 		["guid_str"] = "6Ivj4MUn",
-		["id"] = 10,
+		["id"] = 12,
 		["name"] = "言雀",
 		["text"] = "司旸哥不是生病不舒服嘛，我就自己来啦，你果然偷偷和监督商量了什么事，还弄得一身脏兮兮的——诶诶你干嘛？？",
 	},
@@ -416,7 +506,7 @@
 		},
 		["guid"] = "6C77D91A4E31071CAB7A778385BBB075",
 		["guid_str"] = "lLdCW1a1",
-		["id"] = 11,
+		["id"] = 13,
 		["is_total_play"] = true,
 		["jenga"] = {
 			{
@@ -486,6 +576,17 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/8/cg_8_03_zhixueandme01_in",
+				["length"] = 6959,
+			},
+			{
+				["event"] = "event:/ambience/level_d1101_fire",
+				["length"] = 40500,
+				["loop"] = 1,
+			},
+		},
 		["time"] = 700,
 	},
 	{
@@ -500,7 +601,7 @@
 			["align"] = "bottom",
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.69999998807907,
-			["text"] = "[size 17]不等言雀发挥完自己的“长篇大论”来掩饰写字里行间的东西，就被一把抱住。",
+			["text"] = "[size 17]不等言雀发挥完“长篇大论”来掩饰写字里行间的东西，就被一把抱住。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -514,7 +615,7 @@
 		},
 		["guid"] = "CE46156B4980D5BDA1CD5CAEBFFA8AF3",
 		["guid_str"] = "tqqFhebs",
-		["id"] = 12,
+		["id"] = 14,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -539,33 +640,33 @@
 		},
 		["guid"] = "663AF3054BF760384988CA98715B3AD3",
 		["guid_str"] = "3DgmSpbG",
-		["id"] = 13,
+		["id"] = 15,
 	},
 	{
 		["guid"] = "15CBC8314F6757EE8619578144B5B637",
 		["guid_str"] = "XrTrE1l9",
-		["id"] = 14,
+		["id"] = 16,
 		["name"] = "言御",
 		["text"] = "……………………对不起。",
 	},
 	{
 		["guid"] = "2198064A44838663650C868561A87759",
 		["guid_str"] = "xObO338s",
-		["id"] = 15,
+		["id"] = 17,
 		["name"] = "言雀",
 		["text"] = "啊？言御你受什——",
 	},
 	{
 		["guid"] = "CBB2E0EE43FC5E734E42F793A78AF91E",
 		["guid_str"] = "mwPI9suE",
-		["id"] = 16,
+		["id"] = 18,
 		["name"] = "言御",
 		["text"] = "…………………………",
 	},
 	{
 		["guid"] = "A2DF9E7A46F16BC15BF7A1A2DFF2573C",
 		["guid_str"] = "MqYt55Wf",
-		["id"] = 17,
+		["id"] = 19,
 		["name"] = "言雀",
 		["text"] = "…………………………",
 	},
@@ -580,7 +681,7 @@
 		},
 		["guid"] = "F78720FA4CCFA206EE59F5B0277F88CB",
 		["guid_str"] = "zFcJAJKD",
-		["id"] = 18,
+		["id"] = 20,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -671,7 +772,7 @@
 		},
 		["guid"] = "4AF9C5434B1A07CEB037AB95450EBD6A",
 		["guid_str"] = "GIdlOGfj",
-		["id"] = 19,
+		["id"] = 21,
 	},
 	{
 		["caption_info"] = {
@@ -683,61 +784,61 @@
 		},
 		["guid"] = "56B21DE844D165C12A42919EFFCEB772",
 		["guid_str"] = "cOQeJJe8",
-		["id"] = 20,
+		["id"] = 22,
 	},
 	{
 		["guid"] = "D012FB7A447CBEA90D232FA37E3D0DAE",
 		["guid_str"] = "ePrPPwWI",
-		["id"] = 21,
+		["id"] = 23,
 		["name"] = "言雀",
 		["text"] = "就说了你以前肯定偷偷骂过我。",
 	},
 	{
 		["guid"] = "DB84F4A64D3218B5121F8994285189EE",
 		["guid_str"] = "gdEzBuKY",
-		["id"] = 22,
+		["id"] = 24,
 		["name"] = "言御",
 		["text"] = "嗯……小时候不懂事，嫉妒过你，也偷偷羡慕过。",
 	},
 	{
 		["guid"] = "EE18496549CB20664F2118A29254F3F5",
 		["guid_str"] = "TMstwrDG",
-		["id"] = 23,
+		["id"] = 25,
 		["name"] = "言雀",
 		["text"] = "你现在也没多大，还不是在挨社会的毒打，不然经常爬顶楼做什么。",
 	},
 	{
 		["guid"] = "5EBC755F42FDD578901D2BB7BABFBFF6",
 		["guid_str"] = "mFfDalnK",
-		["id"] = 24,
+		["id"] = 26,
 		["name"] = "言御",
 		["text"] = "……这个你也知道？",
 	},
 	{
 		["guid"] = "4D28684A429B6FC7A86C85B48A34F199",
 		["guid_str"] = "joEahBmk",
-		["id"] = 25,
+		["id"] = 27,
 		["name"] = "言雀",
 		["text"] = "你不会真的把我当笨蛋糊弄吧？",
 	},
 	{
 		["guid"] = "A6D1168D477DECFE9DE320BC7F9F2BAE",
 		["guid_str"] = "W7K5iLHx",
-		["id"] = 26,
+		["id"] = 28,
 		["name"] = "言御",
 		["text"] = "……哈哈，这么不配合我的道歉？",
 	},
 	{
 		["guid"] = "B220675A4FE74AF8AA4FE78D71599A4B",
 		["guid_str"] = "FBFNi5ue",
-		["id"] = 27,
+		["id"] = 29,
 		["name"] = "言雀",
 		["text"] = "对啊，不想配合你演温情。",
 	},
 	{
 		["guid"] = "C7DA21F9418001BF44B7CAA9BF5C27C1",
 		["guid_str"] = "JIxtNcRM",
-		["id"] = 28,
+		["id"] = 30,
 		["name"] = "言雀",
 		["text"] = "为了惩罚你，我选择不接受，你好好表现吧~",
 	},
@@ -751,19 +852,19 @@
 		},
 		["guid"] = "66E3CA5F48BC6165C6C64883C18C1CA5",
 		["guid_str"] = "RKZuJUlz",
-		["id"] = 29,
+		["id"] = 31,
 	},
 	{
 		["guid"] = "728E3743495FF759A38274BFE0F98E6C",
 		["guid_str"] = "E5DIT7LA",
-		["id"] = 30,
+		["id"] = 32,
 		["name"] = "言御",
 		["text"] = "是是，公主殿下。",
 	},
 	{
 		["guid"] = "8FE959914D11D111DFDBF0967A62AD59",
 		["guid_str"] = "vUYTPNzN",
-		["id"] = 31,
+		["id"] = 33,
 		["name"] = "言御",
 		["text"] = "……谢谢。",
 	},
@@ -784,7 +885,7 @@
 		},
 		["guid"] = "C5E858B3414D5A601E32CAA7F6EF5B07",
 		["guid_str"] = "1lvqKnPK",
-		["id"] = 32,
+		["id"] = 34,
 	},
 	{
 		["bg_info"] = {
@@ -846,8 +947,15 @@
 		},
 		["guid"] = "40F5C3C044B4A7756FF2B494CA2DA6F0",
 		["guid_str"] = "SxmObqQN",
-		["id"] = 33,
+		["id"] = 35,
 		["name"] = "言御",
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/level_d1101_fire",
+				["length"] = 40500,
+				["stop"] = 1,
+			},
+		},
 		["text"] = "回家？再不回去白天上课就要迟到了。",
 	},
 	{
@@ -892,7 +1000,7 @@
 		},
 		["guid"] = "A2321AF34E5676A16982CBBC77037489",
 		["guid_str"] = "LZOozcRs",
-		["id"] = 34,
+		["id"] = 36,
 		["name"] = "言雀",
 		["text"] = "………………我就多余来找你！监督！我们先走啦！",
 	},
@@ -976,7 +1084,25 @@
 		},
 		["guid"] = "0D0EDB7445DF3F53044A599177A89E53",
 		["guid_str"] = "tEzsdfI4",
-		["id"] = 35,
+		["id"] = 37,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+			},
+			{
+				["event"] = "event:/ambience/urban_night_raining",
+				["length"] = 55384,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/ambience/urban_creepy_underground",
+				["length"] = 81500,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -997,7 +1123,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.40000000596046,
-			["text"] = "[size 17]我走到广场行人观览台附近，同行的其他人也开始了各自的汇报流程。\n\n我朝打招呼离去的言家兄妹挥挥手，站在原地抬头。",
+			["text"] = "[size 17]我走到广场行人观览台附近，同行的其他人也开始了各自的汇报流程。\n\n朝打招呼离去的言家兄妹挥挥手，我站在原地抬头。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -1011,7 +1137,7 @@
 		},
 		["guid"] = "59D145E34B20F2C1B24330AB9179663B",
 		["guid_str"] = "Hp7DVMj1",
-		["id"] = 36,
+		["id"] = 38,
 	},
 	{
 		["bg_info"] = {
@@ -1077,7 +1203,7 @@
 		},
 		["guid"] = "C8252D554815B5D0404969AF173BAD78",
 		["guid_str"] = "Q5XbsnLZ",
-		["id"] = 37,
+		["id"] = 39,
 		["name"] = "苏筱",
 		["text"] = "……结束了？",
 	},
@@ -1134,7 +1260,7 @@
 		},
 		["guid"] = "F32E9F414074BB75DE46408E696D5BD8",
 		["guid_str"] = "OTiwBIjG",
-		["id"] = 38,
+		["id"] = 40,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
@@ -1228,7 +1354,7 @@
 		},
 		["guid"] = "D3C33B654E577EE16F3C249EDCE8DD86",
 		["guid_str"] = "qIMS3dPX",
-		["id"] = 39,
+		["id"] = 41,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -1279,7 +1405,7 @@
 		},
 		["guid"] = "500F84E54DE9837FDC07E987504D43DF",
 		["guid_str"] = "PjPf7rtj",
-		["id"] = 40,
+		["id"] = 42,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -1331,7 +1457,7 @@
 		},
 		["guid"] = "3525FD0C402733B6029D948A229E25C1",
 		["guid_str"] = "36Uxg30b",
-		["id"] = 41,
+		["id"] = 43,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -1402,7 +1528,7 @@
 		},
 		["guid"] = "7AE481F248029628B6950DAC313268BB",
 		["guid_str"] = "bIc3AUia",
-		["id"] = 42,
+		["id"] = 44,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -1519,7 +1645,7 @@
 		},
 		["guid"] = "67C5EA87459E24A7810CF593700958DA",
 		["guid_str"] = "2l90VcXd",
-		["id"] = 43,
+		["id"] = 45,
 		["is_gender_characters"] = true,
 		["male_characters"] = {
 			{
@@ -1629,7 +1755,7 @@
 		},
 		["guid"] = "63086A7F47C9896D689AEC9511814383",
 		["guid_str"] = "vR14bZt4",
-		["id"] = 44,
+		["id"] = 46,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -1743,8 +1869,32 @@
 		},
 		["guid"] = "ECFD68B04F8A59523BBC32AA282A0BBE",
 		["guid_str"] = "e0MoyaQh",
-		["id"] = 45,
+		["id"] = 47,
 		["name"] = "丁苑青",
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_creepy_underground",
+				["length"] = 81500,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/ambience/in_car",
+				["length"] = 5566,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 800,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "……我没事不用——嘶诶疼田警官轻点……！",
 	},
 	{
@@ -1788,7 +1938,7 @@
 		},
 		["guid"] = "96DC7F7E4660BF73B19DC7881300B21A",
 		["guid_str"] = "Yc2Xfka4",
-		["id"] = 46,
+		["id"] = 48,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "surprise2_add",
@@ -1836,7 +1986,7 @@
 		},
 		["guid"] = "650557F14442E23A340E7BAC6C379BDC",
 		["guid_str"] = "izo6G0HH",
-		["id"] = 47,
+		["id"] = 49,
 		["name"] = "田偌",
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
@@ -1895,7 +2045,7 @@
 		},
 		["guid"] = "3774DC0643A4FFDD2123CA85558AD2D4",
 		["guid_str"] = "gMNzdSe8",
-		["id"] = 48,
+		["id"] = 50,
 		["name"] = "孔秘书",
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
@@ -1952,7 +2102,7 @@
 		},
 		["guid"] = "FB0E1D7D4D024DE585088EBAC64BA489",
 		["guid_str"] = "XvUSn8vm",
-		["id"] = 49,
+		["id"] = 51,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
@@ -1999,7 +2149,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]田偌根本来不及详细询问十手卫的情况，就临危受命带着伤员离开。",
+			["text"] = "[size 17]田偌根本来不及详细询问十手卫的情况，就临危受命带着伤员离开。\n\n岚相也在马尔斯无声的眼神催促下，满脸不耐烦又无力反抗地被强行押去了西陵检查。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2026,7 +2176,18 @@
 		},
 		["guid"] = "E9462A55455B87FFBB823084A6CC7D67",
 		["guid_str"] = "xsUOhXxM",
-		["id"] = 50,
+		["id"] = 52,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/in_car",
+				["length"] = 5566,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -2085,7 +2246,7 @@
 		},
 		["guid"] = "7915E76841BCD85F6F850EA5F084E404",
 		["guid_str"] = "eGddZae7",
-		["id"] = 51,
+		["id"] = 53,
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -2124,7 +2285,7 @@
 		},
 		["guid"] = "50842C9B4AEFDD7A422EF7ADA07E5530",
 		["guid_str"] = "uqpQeZLc",
-		["id"] = 52,
+		["id"] = 54,
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -2185,7 +2346,7 @@
 		},
 		["guid"] = "A217BA254C1B9571D64ABC9D6113D0D9",
 		["guid_str"] = "VzxyDPlR",
-		["id"] = 53,
+		["id"] = 55,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
@@ -2239,7 +2400,7 @@
 		},
 		["guid"] = "BE9F44CB4F78B33786DE6FA1C200501E",
 		["guid_str"] = "yC529IDF",
-		["id"] = 54,
+		["id"] = 56,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
@@ -2299,7 +2460,7 @@
 		},
 		["guid"] = "42179B9B4C1F5FB9A1DB1788E31B2806",
 		["guid_str"] = "QtKTPTf3",
-		["id"] = 55,
+		["id"] = 57,
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -2377,7 +2538,7 @@
 		},
 		["guid"] = "BCE0565C49EE74E53CD938A7D12FCB22",
 		["guid_str"] = "ut5PpQk2",
-		["id"] = 56,
+		["id"] = 58,
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -2450,7 +2611,7 @@
 		},
 		["guid"] = "4EF6E2DE40D0D1A55695DFA7A281C732",
 		["guid_str"] = "e9dfnmuC",
-		["id"] = 57,
+		["id"] = 59,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
@@ -2529,7 +2690,7 @@
 		},
 		["guid"] = "9BA6DCDD422E6E1F2CD54E950F53A753",
 		["guid_str"] = "3RdHrQ7q",
-		["id"] = 58,
+		["id"] = 60,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -2607,7 +2768,7 @@
 		},
 		["guid"] = "C7E4D79F4C81BEC267925B9B9B63CD9B",
 		["guid_str"] = "7lPoo3TW",
-		["id"] = 59,
+		["id"] = 61,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -2694,7 +2855,7 @@
 		},
 		["guid"] = "130C426F41F3689CA27276BBBC7AF642",
 		["guid_str"] = "yOPu6TTo",
-		["id"] = 60,
+		["id"] = 62,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -2796,7 +2957,7 @@
 		},
 		["guid"] = "530CEDD149DD41811CE97686AACEED5D",
 		["guid_str"] = "FQYXd974",
-		["id"] = 61,
+		["id"] = 63,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -2881,7 +3042,7 @@
 		},
 		["guid"] = "EA5361C84ECBAB84A4122393641E9F31",
 		["guid_str"] = "TY3cMVuh",
-		["id"] = 62,
+		["id"] = 64,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -2959,7 +3120,7 @@
 		},
 		["guid"] = "DADA66F5403B3E348AA4249BD08A9A01",
 		["guid_str"] = "3EJc0NHo",
-		["id"] = 63,
+		["id"] = 65,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -3046,7 +3207,7 @@
 		},
 		["guid"] = "823AFF734F08B6DB7A832EA9BC168753",
 		["guid_str"] = "vmp1BUvs",
-		["id"] = 64,
+		["id"] = 66,
 		["is_total_play"] = true,
 		["jenga"] = {
 			{
@@ -3145,6 +3306,23 @@
 				},
 			},
 		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_creepy_underground",
+				["length"] = 81500,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_f3_butongdao_in",
+				["length"] = 6100,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_f3_butongdao_loop",
+				["length"] = 4133,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -3178,7 +3356,7 @@
 		},
 		["guid"] = "0C22AE774B058F5574177E83FC6600FC",
 		["guid_str"] = "EKXVzvXG",
-		["id"] = 65,
+		["id"] = 67,
 	},
 	{
 		["caption_info"] = {
@@ -3201,7 +3379,7 @@
 		},
 		["guid"] = "653542B049B81182E884AE8E789458A9",
 		["guid_str"] = "F2uESYW3",
-		["id"] = 66,
+		["id"] = 68,
 	},
 	{
 		["caption_info"] = {
@@ -3224,7 +3402,7 @@
 		},
 		["guid"] = "6F3C2CB14DA789029628A8ABAE78FFFB",
 		["guid_str"] = "7YbAsnhS",
-		["id"] = 67,
+		["id"] = 69,
 	},
 	{
 		["caption_info"] = {
@@ -3245,7 +3423,7 @@
 		},
 		["guid"] = "63CDF3FB4BCBD799EA2D0EB37DD94DB1",
 		["guid_str"] = "xnr5N7ZF",
-		["id"] = 68,
+		["id"] = 70,
 		["name"] = "[rolename]",
 		["text"] = "我也会……好好想想的。",
 		["text_info"] = {
@@ -3270,7 +3448,7 @@
 		},
 		["guid"] = "1DC7FACC4D745DF181EE9997601A3E3D",
 		["guid_str"] = "9yLe3yi7",
-		["id"] = 69,
+		["id"] = 71,
 		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
@@ -3312,6 +3490,22 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/urban_night_raining",
+				["length"] = 55384,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_f3_butongdao_loop",
+				["length"] = 4133,
+				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_f3_butongdao_out",
+				["length"] = 3733,
+			},
+		},
 		["time"] = 3500,
 	},
 }

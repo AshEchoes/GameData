@@ -27,6 +27,14 @@
 		["id"] = 1,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/avg_chapter9_amb_belltower_interior_loop",
+				["length"] = 29963,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -135,7 +143,7 @@
 		["guid"] = "0B9105BE411648DAF4E631942120C660",
 		["guid_str"] = "GwsMyusv",
 		["id"] = 4,
-		["name"] = "琴初",
+		["name"] = "「 教主 」",
 		["text"] = "终于来了，也是让我和各位看客好等。",
 	},
 	{
@@ -249,6 +257,25 @@
 		["guid"] = "6BABDC4049E162C3081ED4AC854A7218",
 		["guid_str"] = "GWIgxDaj",
 		["id"] = 6,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_whoosh_03",
+				["length"] = 7684,
+				["loop"] = 1,
+			},
+			{
+				["delay"] = 1500,
+				["event"] = "event:/sfx/story/9/avg_chapter9_dagger_flyby",
+				["length"] = 662,
+				["volume"] = 1.5,
+			},
+			{
+				["delay"] = 1600,
+				["event"] = "event:/sfx/story/9/avg_chapter9_dagger_flyby",
+				["length"] = 662,
+				["volume"] = 1.5,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -378,6 +405,18 @@
 			},
 		},
 		["name"] = "柳叶刀",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-00/0-0-liuchi_instigate_whoosh",
+				["length"] = 3400,
+			},
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/story/school/avg_school_touch_sword",
+				["length"] = 581,
+				["volume"] = 2.0,
+			},
+		},
 		["text"] = "[size 24][c ca4243]琴初！！！！！！[/c]",
 		["text_info"] = {
 			["is_separate_tween"] = true,
@@ -461,6 +500,18 @@
 		["guid"] = "E7321ED74F20C6C035CB37902F5EC697",
 		["guid_str"] = "9kaHosVm",
 		["id"] = 8,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/1-10-sword-hit",
+				["length"] = 0,
+				["volume"] = 0.5,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -498,7 +549,7 @@
 		["guid"] = "C2B4771140FEBE31E46271B9DCFF5283",
 		["guid_str"] = "rfjATWn6",
 		["id"] = 9,
-		["name"] = "琴初",
+		["name"] = "「 教主 」",
 		["text"] = "柳叶刀，你很守约地来找我。",
 	},
 	{
@@ -528,8 +579,8 @@
 		["guid"] = "AF794E1B49479758156F4DB8A0546958",
 		["guid_str"] = "8A4f4jfh",
 		["id"] = 10,
-		["name"] = "琴初",
-		["text"] = "现在心情如何，看起来你的情绪发泄出来不少，表情都丰富了很多，看来见到心心念念的人，的确是件幸事。",
+		["name"] = "「 教主 」",
+		["text"] = "现在心情如何，看起来你的情绪发泄出来不少，表情都生动了很多，看来见到心心念念的人，的确是件幸事。",
 	},
 	{
 		["bg_info"] = {
@@ -576,7 +627,14 @@
 		["guid"] = "D47FCE6E43BBBBAAC5E7A9BA800AF6BD",
 		["guid_str"] = "xqyJ2pWZ",
 		["id"] = 11,
-		["name"] = "柳池",
+		["name"] = "柳叶刀",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "[c ca4243]…………！！！[/c]",
 	},
 	{
@@ -815,7 +873,20 @@
 		["guid"] = "4B69245E4BB74C6996578B9A4EE69565",
 		["guid_str"] = "1wavfnKX",
 		["id"] = 16,
-		["name"] = "柳池",
+		["name"] = "柳叶刀",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 150,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "……………………咳……………………",
 	},
 	{
@@ -862,7 +933,14 @@
 		["guid"] = "0D60027048C1F97676ED5CA5A45D723F",
 		["guid_str"] = "tphDCZEO",
 		["id"] = 17,
-		["name"] = "柳池",
+		["name"] = "柳叶刀",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "意义……？会死……？不……我不会死……！只要你不死……我就会爬回来把你拖下去！",
 	},
 	{
@@ -962,6 +1040,27 @@
 		["guid"] = "BB285CF94C6A3198A2100499A757DCA2",
 		["guid_str"] = "A79Kwg3w",
 		["id"] = 18,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/avg_chapter9_dagger_flyby",
+				["length"] = 662,
+			},
+			{
+				["delay"] = 200,
+				["event"] = "event:/sfx/story/9/avg_chapter9_dagger_flyby",
+				["length"] = 662,
+			},
+			{
+				["delay"] = 1000,
+				["event"] = "event:/sfx/story/2-09/blood_burst",
+				["length"] = 2510,
+			},
+			{
+				["event"] = "event:/sfx/enemy/bf01qc/bf01qc_skill_common02",
+				["length"] = 2833,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -981,7 +1080,7 @@
 		["guid"] = "7B92EDDF45700CDC0446D88444497F7F",
 		["guid_str"] = "b7AoGsLO",
 		["id"] = 19,
-		["name"] = "柳池",
+		["name"] = "柳叶刀",
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious",
 			["material"] = "M_UI_SpinePortrait",
@@ -1025,7 +1124,7 @@
 		["guid"] = "AFC3CD5E46CA913618FBBAAA74DA1849",
 		["guid_str"] = "ReuJkS8t",
 		["id"] = 20,
-		["name"] = "柳池",
+		["name"] = "柳叶刀",
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -1113,7 +1212,7 @@
 		["guid"] = "B2E791A147EBEDEBC0D8C598697BDAC5",
 		["guid_str"] = "Th2QX7Tr",
 		["id"] = 22,
-		["name"] = "琴初",
+		["name"] = "「 教主 」",
 		["text"] = "我不是没有给过你提示，不是么，千羽鹤也违抗我的命令偷偷提醒过你。\n可你的性格太有趣了，总是让你错失一步。",
 	},
 	{
@@ -1143,7 +1242,7 @@
 		["guid"] = "ED5B006C489510772BC782B5B4FEFA63",
 		["guid_str"] = "1Urv9ruD",
 		["id"] = 23,
-		["name"] = "琴初",
+		["name"] = "「 教主 」",
 		["text"] = "今天的情景与我脑中预演的分毫不差，你会在这个时刻血淋淋地冲进来，再狼狈倒在台阶下，见证不久后的仪式和再稍后的朝阳。",
 	},
 	{
@@ -1200,6 +1299,19 @@
 		["guid"] = "935C368246BBB5B43A4F9EB6E4DE3068",
 		["guid_str"] = "2AUvQDEc",
 		["id"] = 24,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 200,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1228,7 +1340,7 @@
 		["guid"] = "D3050224429BBDAF5A8C1E8CC917A0C6",
 		["guid_str"] = "0TI2NB0T",
 		["id"] = 25,
-		["name"] = "柳池",
+		["name"] = "柳叶刀",
 		["text"] = "你兜了这么大圈子……要干什么？只为了耍我？",
 	},
 	{
@@ -1258,7 +1370,7 @@
 		["guid"] = "A94451354C8D5E6C51A78BB393E294D9",
 		["guid_str"] = "lmzJ2FT4",
 		["id"] = 26,
-		["name"] = "柳池",
+		["name"] = "柳叶刀",
 		["text"] = "哈哈……对……你就是喜欢。哈哈……你还不想和人分享那个破王座……千羽鹤，柳叶刀……圣女大人，你也跑不掉的，咱们教主大人也不会再和你上演柔情蜜意。",
 	},
 	{
@@ -1412,7 +1524,14 @@
 			["body_anim"] = "anger_in",
 		},
 		["name"] = "[rolename]",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/0-01/0013_flashback_short",
+				["length"] = 3489,
+			},
+		},
 		["text"] = "唔……",
+		["time"] = 4600,
 	},
 	{
 		["bg_info"] = {
@@ -2041,6 +2160,18 @@
 				},
 			},
 		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/bg_clock_03",
+				["length"] = 6100,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_a1_liuchibeitong_loopb",
+				["length"] = 2700,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2113,6 +2244,13 @@
 		["guid_str"] = "rqBo8Xps",
 		["id"] = 41,
 		["name"] = "柳叶刀",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/cg_9_a1_liuchibeitong_loopb",
+				["length"] = 2700,
+				["stop"] = 1,
+			},
+		},
 		["text"] = "………………………………………………………………",
 	},
 }

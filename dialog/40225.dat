@@ -6,7 +6,7 @@
 					["tween"] = {
 						{
 							["param"] = {
-								["anchor"] = "top_left",
+								["anchor"] = "center",
 								["delay"] = 0,
 								["mode"] = "linear",
 								["scale_x"] = 1.0499999523163,
@@ -17,11 +17,12 @@
 						},
 						{
 							["param"] = {
+								["anchor"] = "center",
 								["delay"] = 0,
 								["mode"] = "linear",
 								["scale_x"] = 1.0,
 								["scale_y"] = 1.0,
-								["time"] = 2000,
+								["time"] = 3000,
 							},
 							["tween"] = "ScaleIn",
 						},
@@ -30,7 +31,7 @@
 								["delay"] = 0,
 								["end_alpha"] = 1.0,
 								["start_alpha"] = 1.0,
-								["time"] = 2000,
+								["time"] = 3000,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -54,6 +55,7 @@
 		["guid"] = "38394959495D81C8A81C93B7732FB962",
 		["guid_str"] = "cl5I251J",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -63,6 +65,7 @@
 				["volume"] = 0.5,
 			},
 		},
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -77,9 +80,10 @@
 		["id"] = 2,
 		["introduce"] = {
 			["location"] = "全视钟塔·内部",
-			["time"] = "森罗时间1121-08-11   22:02",
+			["time"] = "森罗历1121-08-11   22:02",
 		},
 		["just_auto_play"] = true,
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -293,7 +297,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -444,7 +448,7 @@
 				},
 			},
 			{
-				["anim"] = "smile1_add",
+				["anim"] = "wink2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -722,6 +726,7 @@
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_03.png",
 			},
 			{
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_03.png",
 			},
 		},
 		["caption_info"] = {
@@ -884,7 +889,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]忽然，一路上都沉默不语跟在血露薇魁主身后像是衷心守卫的人踱步走到门前，一时间，大家的视线都不自觉看过去。",
+			["text"] = "[size 17]忽然，一路上都沉默不语跟在血露薇魁主身后像是忠心守卫的人踱步走到门前，一时间，大家的视线都不自觉看过去。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1008,7 +1013,7 @@
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "[rolename]",
-		["text"] = "（不知道为什么有一种预感……）",
+		["text"] = "[c a3bdc8]（不知道为什么有一种预感……）[/c]",
 	},
 	{
 		["bg_info"] = {
@@ -1309,7 +1314,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "surprise1_add",
+				["anim"] = "surprise2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1353,7 +1358,7 @@
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "苏筱",
-		["text"] = "不是，啊？你怎么打扮成这副样子，不对，你不是在外面执行保密任务么，怎么闪现回海临的？？",
+		["text"] = "不是，啊？你怎么打扮成这副样子？\n不对，你不是在外面执行保密任务么，怎么闪现回海临的？？",
 	},
 	{
 		["bg_info"] = {
@@ -1365,7 +1370,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1603,7 +1608,7 @@
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "[rolename]",
-		["text"] = "[c a3bdc8]（呃，果然会乱作一团……）[/c]",
+		["text"] = "[c a3bdc8]（呃，果然……）[/c]",
 	},
 	{
 		["bg_info"] = {
@@ -1863,7 +1868,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "snicker1",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2074,7 +2079,7 @@
 			["body_anim"] = "default_loop",
 		},
 		["name"] = "十手卫",
-		["text"] = "事出有因才不得不用这副样子混进来，事后会向大家详细解释。我的工作原则是行动前务必交底，所以对于身份和进来的目的，我不会刻意隐瞒。",
+		["text"] = "事出有因才不得不用这副样子混进来，事后会向大家详细解释。\n我的工作原则是行动前务必交底，所以对于身份和进来的目的，我不会刻意隐瞒。",
 	},
 	{
 		["bg_info"] = {
@@ -2226,7 +2231,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2270,7 +2275,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2307,7 +2312,7 @@
 			["b_use_mask"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17][c D3FCBB]“几位，终于来了。”",
+			["text"] = "[font zhunyuan][size 17][c D3FCBB]“几位，终于来了。”",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -2321,7 +2326,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2650,7 +2655,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]如马尔斯所说，柳池的声音回荡在厅堂中，仿佛从四面八方传来，根本无法判断对方的位置。",
+			["text"] = "[size 17]如马尔斯所说，柳池的声音回荡在厅堂中，仿佛从四面八方传来，根本无法判断对方的位置。\n\n[size 17]在我们下意识看向四周试图找到一丝踪迹时，那道声音再次传来。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -2719,43 +2724,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]在我们下意识看向四周试图找到一丝踪迹时，那道声音再次传来。",
-			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 500,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
-		},
-		["female_speaker_info"] = {
-			["anim"] = "surprise_add",
-			["body_anim"] = "default_loop",
-		},
-		["guid"] = "009545C04C8B1E161149D8A95D927D64",
-		["guid_str"] = "uWlXODAZ",
-		["id"] = 54,
-		["male_speaker_info"] = {
-			["anim"] = "surprise_add",
-			["body_anim"] = "default_loop",
-		},
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_03.png",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["b_use_mask"] = true,
-			["is_separate_tween"] = true,
-			["mask_alpha"] = 0.5,
-			["text"] = "[size 17][c D3FCBB]“别找了，你们这么多人，我怎么会傻乎乎直接出现在你们面前。”",
+			["text"] = "[font zhunyuan][size 17][c D3FCBB]“别找了，你们这么多人，我怎么会傻乎乎直接出现在你们面前。”",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -2773,7 +2742,7 @@
 		},
 		["guid"] = "96429DE848927C00D5FB5EAF9DD25477",
 		["guid_str"] = "vo7hAoAa",
-		["id"] = 55,
+		["id"] = 54,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -2791,7 +2760,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17][c D3FCBB]“教主派我来‘接待’诸位……嗯？原来还活着啊。”",
+			["text"] = "[font zhunyuan][size 17][c D3FCBB]“教主派我来‘接待’诸位……嗯？原来还活着啊。”",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -2809,7 +2778,7 @@
 		},
 		["guid"] = "7975450846F24EB0638174AA88B71F7A",
 		["guid_str"] = "8fs146Cf",
-		["id"] = 56,
+		["id"] = 55,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -2825,7 +2794,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1_add",
+				["anim"] = "wink3_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2859,7 +2828,7 @@
 		},
 		["guid"] = "6C0600954A11FA3351D532B55F7798D7",
 		["guid_str"] = "FLX3FzZC",
-		["id"] = 57,
+		["id"] = 56,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -2956,7 +2925,7 @@
 		},
 		["guid"] = "C1DCC4A5465C29A6B278F99C11A9A42B",
 		["guid_str"] = "15o48g7c",
-		["id"] = 58,
+		["id"] = 57,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -2980,7 +2949,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17][c D3FCBB]“…………”",
+			["text"] = "[font zhunyuan][size 17][c D3FCBB]“…………”",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3053,7 +3022,7 @@
 		},
 		["guid"] = "5050DB3742B0BA8239C44E8A67888E68",
 		["guid_str"] = "AeSgGWJm",
-		["id"] = 59,
+		["id"] = 58,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3098,7 +3067,7 @@
 		},
 		["guid"] = "F057B3274B801ACF5116C3A28C385546",
 		["guid_str"] = "G8wyrutX",
-		["id"] = 60,
+		["id"] = 59,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3124,7 +3093,7 @@
 		["caption_info"] = {
 			["align"] = "top",
 			["b_use_mask"] = true,
-			["text"] = "[br][br][br][size 17][c D3FCBB]“……你也没死？当时打得乒乒乓乓的，没想到命这么硬。”",
+			["text"] = "[font zhunyuan][br][br][br][size 17][c D3FCBB]“……你也没死？当时打得乒乒乓乓的，没想到命这么硬。”",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3161,7 +3130,7 @@
 		},
 		["guid"] = "167B87D34EF007D2CC73DE880A1F4137",
 		["guid_str"] = "Rx0LS6zz",
-		["id"] = 61,
+		["id"] = 60,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3205,7 +3174,7 @@
 		},
 		["guid"] = "CB0A0489435B573A38E5BEAE9587EC23",
 		["guid_str"] = "BZU5KHtW",
-		["id"] = 62,
+		["id"] = 61,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3224,7 +3193,7 @@
 		["caption_info"] = {
 			["align"] = "top",
 			["b_use_mask"] = true,
-			["text"] = "[br][br][br][size 17][c D3FCBB]“在啊，就在门对面，看着十手伯伯被教主的狗打得站不起身，真惨。”",
+			["text"] = "[font zhunyuan][br][br][br][size 17][c D3FCBB]“在啊，就在门对面，看着十手伯伯被教主的狗打得站不起身，真惨。”",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3261,7 +3230,7 @@
 		},
 		["guid"] = "3D3692464C25510DDA14FEB3E7677651",
 		["guid_str"] = "hdpcpZ8u",
-		["id"] = 63,
+		["id"] = 62,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3294,7 +3263,7 @@
 		},
 		["guid"] = "B0AFA6BF45B9F7A2E8C417B0369D7699",
 		["guid_str"] = "rfyGe3fh",
-		["id"] = 64,
+		["id"] = 63,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3326,7 +3295,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17][c D3FCBB]“再说最后一次，别用这个名字叫我。”",
+			["text"] = "[font zhunyuan][size 17][c D3FCBB]“再说最后一次，别用这个名字叫我。”",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3366,7 +3335,7 @@
 		},
 		["guid"] = "C2400D2C44F8C64829736F8FAA2B91F1",
 		["guid_str"] = "lnnJswYE",
-		["id"] = 65,
+		["id"] = 64,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3383,7 +3352,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17][c D3FCBB]“没兴趣和你们叙旧，但可以给你们一个机会找到我。”",
+			["text"] = "[font zhunyuan][size 17][c D3FCBB]“没兴趣和你们叙旧，但可以给你们一个机会找到我。”",
 			["text_align"] = "center",
 		},
 		["female_speaker_info"] = {
@@ -3392,7 +3361,7 @@
 		},
 		["guid"] = "14A2860748F6D9BE248D738DFF03B6AE",
 		["guid_str"] = "S7H5EQZM",
-		["id"] = 66,
+		["id"] = 65,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3412,7 +3381,7 @@
 		},
 		["guid"] = "AA6D235B40B2A428D8E871A836AAEE5F",
 		["guid_str"] = "PsSmyI9r",
-		["id"] = 67,
+		["id"] = 66,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -3435,7 +3404,7 @@
 		},
 		["guid"] = "8FEF76184840B4F9589DCA8E55B1BB50",
 		["guid_str"] = "azW3PUmT",
-		["id"] = 68,
+		["id"] = 67,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -3455,7 +3424,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17][c D3FCBB]“来场捉迷藏吧。”",
+			["text"] = "[font zhunyuan][size 17][c D3FCBB]“来场捉迷藏吧。”",
 			["text_align"] = "center",
 		},
 		["female_speaker_info"] = {
@@ -3464,7 +3433,7 @@
 		},
 		["guid"] = "F2BAC455422D4AAFD3AC8E801838572C",
 		["guid_str"] = "6AYAXPpO",
-		["id"] = 69,
+		["id"] = 68,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3484,7 +3453,7 @@
 		},
 		["guid"] = "974BBD8B4D46CC63E2367084DFEC829F",
 		["guid_str"] = "VkkC5Enr",
-		["id"] = 70,
+		["id"] = 69,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -3517,7 +3486,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17][c D3FCBB]“没玩过捉迷藏？这种游戏从来不需要那么多「鬼」，当然是……”",
+			["text"] = "[font zhunyuan][size 17][c D3FCBB]“没玩过捉迷藏？这种游戏从来不需要那么多「鬼」，当然是……”",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3535,7 +3504,7 @@
 		},
 		["guid"] = "62EC51104C7E8ECE6873C090BD6B284B",
 		["guid_str"] = "XHGRo0sc",
-		["id"] = 71,
+		["id"] = 70,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3567,7 +3536,7 @@
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[font cusong][size 17]“「鬼」来找你们了。”",
+			["text"] = "[font cusong][size 17][c ca4243]“「鬼」来找你们了。”[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3585,7 +3554,7 @@
 		},
 		["guid"] = "E4DADE73412D69B400B5F3A8B7718DA9",
 		["guid_str"] = "5bE5cHf6",
-		["id"] = 72,
+		["id"] = 71,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3623,7 +3592,7 @@
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[font cusong][size 17]“出世间柳叶刀向诸位问好——”",
+			["text"] = "[font cusong][size 17][c ca4243]“出世间柳叶刀向诸位问好——”[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3641,7 +3610,7 @@
 		},
 		["guid"] = "FA3AC09E4148D53F9F076A801EE0617A",
 		["guid_str"] = "eeunfiUM",
-		["id"] = 73,
+		["id"] = 72,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3673,7 +3642,7 @@
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[font cusong][size 17]“祝噩梦愉快。”",
+			["text"] = "[font cusong][size 17][c ca4243]“祝噩梦愉快。”[/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3691,7 +3660,7 @@
 		},
 		["guid"] = "FC4AD7654C4045BF1799CC91035D6CCE",
 		["guid_str"] = "Q3pb90Xs",
-		["id"] = 74,
+		["id"] = 73,
 		["male_speaker_info"] = {
 			["anim"] = "dislike1_add",
 			["body_anim"] = "default_loop",
@@ -3747,7 +3716,7 @@
 		},
 		["guid"] = "B81D6DA9435261C5002D4DB67335FFE0",
 		["guid_str"] = "gr2tr8xN",
-		["id"] = 75,
+		["id"] = 74,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -3785,6 +3754,29 @@
 	{
 		["bg_info"] = {
 			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["F_CenterX"] = 0.5,
+							["F_CenterY"] = 0.5,
+							["F_Size"] = 2.0,
+						},
+						["in_time"] = 500,
+						["is_loop"] = true,
+						["material"] = "MI_UI_RadialBlurBlur",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.5,
+								["start_alpha"] = 1.0,
+								["time"] = 500,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_03.png",
 			},
 			{
@@ -3796,7 +3788,7 @@
 		},
 		["guid"] = "6E68C54741BD83E6DE98F68563712788",
 		["guid_str"] = "Ol3Gmbj2",
-		["id"] = 76,
+		["id"] = 75,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "pain1_add",
@@ -3821,29 +3813,29 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_03.png",
-			},
-			{
-			},
-		},
-		["female_speaker_info"] = {
-			["anim"] = "surprise_add",
-			["body_anim"] = "default_loop",
-		},
-		["guid"] = "E2A6320D490306388FA8E4A666B712A8",
-		["guid_str"] = "CHGKqdp0",
-		["id"] = 77,
-		["is_player_speaker"] = true,
-		["male_speaker_info"] = {
-			["anim"] = "surprise_add",
-			["body_anim"] = "default_loop",
-		},
-		["name"] = "[rolename]",
-		["text"] = "？？",
-	},
-	{
-		["bg_info"] = {
-			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["F_CenterX"] = 0.5,
+							["F_CenterY"] = 0.5,
+							["F_Size"] = 2.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_RadialBlurBlur",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.5,
+								["start_alpha"] = 0.5,
+								["time"] = 200,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
 				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_03.png",
 			},
 			{
@@ -3852,7 +3844,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]不知名的情绪被拉扯着浮现，逐渐向四周扩散。",
+			["text"] = "[size 17]不知名的情绪被拉扯着浮现，逐渐向四周扩散。\n\n[size 17]来不及去细想这种熟悉感源自何处，我在视线受阻的最后一秒抓住了身旁的人，\n\n同时感觉到有谁用力地拖了我一把。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3870,7 +3862,7 @@
 		},
 		["guid"] = "62BD2A764EEE3C1DA8BBC0BF24870AB1",
 		["guid_str"] = "Jz1rN4Ur",
-		["id"] = 78,
+		["id"] = 76,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
 			["body_anim"] = "default_loop",
@@ -3881,44 +3873,6 @@
 				["length"] = 17614,
 				["stop"] = 1,
 			},
-		},
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_03.png",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["b_use_mask"] = true,
-			["is_separate_tween"] = true,
-			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]来不及去细想这种熟悉感源自何处，我在视线受阻的最后一秒抓住了身旁的人，\n\n同时感觉到有谁用力地拖了我一把。",
-			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 500,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
-		},
-		["female_speaker_info"] = {
-			["anim"] = "surprise_add",
-			["body_anim"] = "default_loop",
-		},
-		["guid"] = "CEE330F54B7A5260D343439378E53A55",
-		["guid_str"] = "1LBTIoJP",
-		["id"] = 79,
-		["male_speaker_info"] = {
-			["anim"] = "surprise_add",
-			["body_anim"] = "default_loop",
-		},
-		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/01-01-lab-amb",
 				["length"] = 17614,
@@ -3930,13 +3884,25 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["F_CenterX"] = 0.5,
+							["F_CenterY"] = 0.5,
+							["F_Size"] = 2.0,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_RadialBlurBlur",
+					},
 					["tween"] = {
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.5,
+								["time"] = 2000,
 							},
-							["tween"] = "FadeOut",
+							["tween"] = "AlphaChange",
 						},
 					},
 				},
@@ -3945,14 +3911,111 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = " ",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 2000,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
 		["female_speaker_info"] = {
 			["anim"] = "surprise_add",
 			["body_anim"] = "default_loop",
 		},
 		["guid"] = "F5CAAD9D4E7577048F83F8819887613C",
 		["guid_str"] = "exFja712",
-		["id"] = 80,
+		["id"] = 77,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_mask.bk2",
+				["play_delay_time"] = 700,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 700,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.60000002384186,
+							["start_alpha"] = 0.0,
+							["time"] = 2000,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 1000,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_keep_finish"] = true,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_mask.bk2",
+				["play_delay_time"] = 2800,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 2800,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.80000001192093,
+							["start_alpha"] = 0.0,
+							["time"] = 1000,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 3000,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+				["z_order"] = 2,
+			},
+		},
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -3963,6 +4026,13 @@
 				["event"] = "event:/sfx/story/0-01/0013_flashback_short",
 				["length"] = 3489,
 			},
+			{
+				["delay"] = 200,
+				["event"] = "event:/ambience/d31_church_bell",
+				["length"] = 11500,
+				["loop"] = 1,
+			},
 		},
+		["time"] = 7500,
 	},
 }

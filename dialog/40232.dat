@@ -48,6 +48,7 @@
 		["guid"] = "F2F6CFCD4D936FD26B2CA882891D4818",
 		["guid_str"] = "qJwgsTBM",
 		["id"] = 1,
+		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/chap6/avg_chap6_ambience_garden_lp",
@@ -68,7 +69,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]草木芃芃，日光温柔。",
+			["text"] = "[size 17]再恢复意识时，映入眼帘的是一座小巧的庭院。\n\n草木繁盛，各类花朵恣意生长，舒枝展叶。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -97,7 +98,7 @@
 			["height"] = 150,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]庭院不大，但能容纳众多藤蔓、绿叶和花卉在这里蓬勃生长。",
+			["text"] = "[size 17]几个孩子围聚在院子中央的大理石喷泉边，\n\n毛茸茸的脑袋正凑在一起叽叽喳喳地不知在说些什么。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -112,37 +113,6 @@
 		["guid"] = "FFE32FAB41AAC8C7F79E8A9B566C9FBC",
 		["guid_str"] = "i0TaBIzj",
 		["id"] = 3,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["b_use_mask"] = true,
-			["height"] = 150,
-			["is_append"] = true,
-			["is_only_append_separate_tween"] = true,
-			["is_separate_tween"] = true,
-			["mask_alpha"] = 0.5,
-			["text"] = "[br][br][size 17]几个孩子靠坐在院子中央的大理石喷泉边，\n\n毛绒绒的脑袋凑在一起叽叽喳喳，分享一袋散装糖果。",
-			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 500,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
-		},
-		["guid"] = "76E6AE454C02B1D5A252A28D70F647D0",
-		["guid_str"] = "gaLOR0j6",
-		["id"] = 4,
 	},
 	{
 		["bg_info"] = {
@@ -170,7 +140,7 @@
 		},
 		["guid"] = "E88B7B654ECAD281C671039545BF3E4E",
 		["guid_str"] = "Q9xXLUfL",
-		["id"] = 5,
+		["id"] = 4,
 	},
 	{
 		["bg_info"] = {
@@ -206,7 +176,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["time"] = 500,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -216,14 +186,32 @@
 		["female_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "59737F824034781E6D907AA5BCCC73E9",
 		["guid_str"] = "liZY8GeV",
-		["id"] = 6,
+		["id"] = 5,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["name"] = "[rolename]",
 		["text"] = "果然，这里是……",
@@ -260,7 +248,7 @@
 		},
 		["guid"] = "0352C60841DEE06194B31B801B6B0A23",
 		["guid_str"] = "1Ni9d8qs",
-		["id"] = 7,
+		["id"] = 6,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -279,7 +267,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]我们对视了一眼，在对方眼中看到相同的疑惑，都不明白自己为什么突然来到了这里。",
+			["text"] = "[size 17]我们对视了一眼，在对方眼中看到相同的疑惑。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -324,7 +312,7 @@
 		},
 		["guid"] = "5BFA98DD4D63520806B178AF5D1D0297",
 		["guid_str"] = "rdTnshLw",
-		["id"] = 8,
+		["id"] = 7,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -344,7 +332,7 @@
 		},
 		["guid"] = "811978AD45D583676B21658DC134C64A",
 		["guid_str"] = "uuTVjVRD",
-		["id"] = 9,
+		["id"] = 8,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -382,7 +370,7 @@
 		},
 		["guid"] = "034BB2724765A87CCAFF47B16139F139",
 		["guid_str"] = "BbBLqxyl",
-		["id"] = 10,
+		["id"] = 9,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -432,7 +420,7 @@
 		},
 		["guid"] = "7EB9C41041E892AB89DFD2A346DD6D25",
 		["guid_str"] = "pltRlIiP",
-		["id"] = 11,
+		["id"] = 10,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -494,7 +482,7 @@
 		},
 		["guid"] = "B8CC7A5C4803F6457375F987B0E3CFD6",
 		["guid_str"] = "KXTt1VOC",
-		["id"] = 12,
+		["id"] = 11,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -511,7 +499,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]孩子们热情地簇拥上去。",
+			["text"] = "[size 17]看见来人，孩子们热情地簇拥上去。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -604,7 +592,7 @@
 		},
 		["guid"] = "5C42117F41663360FCC46E86175023D1",
 		["guid_str"] = "3QWqICP6",
-		["id"] = 13,
+		["id"] = 12,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -688,7 +676,7 @@
 		},
 		["guid"] = "CDF1CDA24650CAB4DD9ACBA016212714",
 		["guid_str"] = "WXwA8UEV",
-		["id"] = 14,
+		["id"] = 13,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -766,7 +754,7 @@
 		},
 		["guid"] = "2476E88E4ABCBC42037CD3B48290C2CD",
 		["guid_str"] = "VGIYUkOi",
-		["id"] = 15,
+		["id"] = 14,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -844,7 +832,7 @@
 		},
 		["guid"] = "C38A14164BB607478AD073B8CC9089F6",
 		["guid_str"] = "ooyKDm6Y",
-		["id"] = 16,
+		["id"] = 15,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -922,7 +910,7 @@
 		},
 		["guid"] = "38BFD9D54EDA93EB73AD2A91D448B7BF",
 		["guid_str"] = "rgvnvkbT",
-		["id"] = 17,
+		["id"] = 16,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1000,7 +988,7 @@
 		},
 		["guid"] = "26FE75CE44426514BDE2FEAC3B297D34",
 		["guid_str"] = "8RiCW0aA",
-		["id"] = 18,
+		["id"] = 17,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1078,7 +1066,7 @@
 		},
 		["guid"] = "20F1B8F0474B7BDC339063874ABF4E4D",
 		["guid_str"] = "Tn74aXmB",
-		["id"] = 19,
+		["id"] = 18,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1156,7 +1144,7 @@
 		},
 		["guid"] = "9B46E53046D1BA61EDA90887607E7D37",
 		["guid_str"] = "BaNTjZUI",
-		["id"] = 20,
+		["id"] = 19,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1229,7 +1217,7 @@
 		},
 		["guid"] = "6B81F0804CE26A52B2E134B1AA9FFA5B",
 		["guid_str"] = "tfjlAcC3",
-		["id"] = 21,
+		["id"] = 20,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1307,7 +1295,7 @@
 		},
 		["guid"] = "1A87C8C24014C04C54E61497309F042F",
 		["guid_str"] = "RvBiAk6h",
-		["id"] = 22,
+		["id"] = 21,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1401,7 +1389,7 @@
 		},
 		["guid"] = "EA5F619E4AA6E2FEBB1556876B9B790D",
 		["guid_str"] = "zTRdQOEt",
-		["id"] = 23,
+		["id"] = 22,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1511,7 +1499,7 @@
 		},
 		["guid"] = "7FC00639471109EF8D3653A4E06A618C",
 		["guid_str"] = "wmWEBbre",
-		["id"] = 24,
+		["id"] = 23,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1556,7 +1544,7 @@
 		},
 		["guid"] = "C3C3539F4EF9C89A837C84B3F77B4150",
 		["guid_str"] = "q154SFRT",
-		["id"] = 25,
+		["id"] = 24,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
@@ -1596,7 +1584,7 @@
 		},
 		["guid"] = "B65422574574C42A66A480BEDEF746A7",
 		["guid_str"] = "tnky8wx0",
-		["id"] = 26,
+		["id"] = 25,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1643,7 +1631,7 @@
 		},
 		["guid"] = "55CAF3F34DDC3D9427D99EA5050DF17F",
 		["guid_str"] = "J1DhQeRO",
-		["id"] = 27,
+		["id"] = 26,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1691,7 +1679,7 @@
 		},
 		["guid"] = "9C54DBF74F2B4C18A3DA0A9A10B1F36C",
 		["guid_str"] = "G5wiM3Pe",
-		["id"] = 28,
+		["id"] = 27,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -1727,7 +1715,7 @@
 		},
 		["guid"] = "CB2567A14B9ECD42BCA18BB9CEA0530E",
 		["guid_str"] = "6K51gO3x",
-		["id"] = 29,
+		["id"] = 28,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1768,7 +1756,7 @@
 		},
 		["guid"] = "355C8CF34B287EA5FA00ACABD85FB6ED",
 		["guid_str"] = "TZ7Q5U9U",
-		["id"] = 30,
+		["id"] = 29,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1801,7 +1789,7 @@
 		},
 		["guid"] = "60DEC6114D0F7D9F997345BDBA7B23F6",
 		["guid_str"] = "e97lrLz8",
-		["id"] = 31,
+		["id"] = 30,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1836,7 +1824,7 @@
 		},
 		["guid"] = "6D8C61704DC155DCFC55278B74CD06DD",
 		["guid_str"] = "VRR3gDUU",
-		["id"] = 32,
+		["id"] = 31,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1855,7 +1843,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]我试图帮海临的情况辩解几句，衣角就被拽了几下，我低头看见一个毛茸茸的脑袋。",
+			["text"] = "[size 17]我试图帮海临的情况辩解几句，还没张口衣角就被拽了几下，我低下头，正对上一双稚嫩的眼睛。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -1895,7 +1883,7 @@
 		},
 		["guid"] = "825BCEB047EC658C00C3A3B929608778",
 		["guid_str"] = "W0BJS8aP",
-		["id"] = 33,
+		["id"] = 32,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -1976,7 +1964,7 @@
 		},
 		["guid"] = "2FFBD6584623318DFF0AD9A639049231",
 		["guid_str"] = "naqEllCH",
-		["id"] = 34,
+		["id"] = 33,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2047,7 +2035,7 @@
 		},
 		["guid"] = "310D04B941EB8DEFA03FE5A2514C4CD3",
 		["guid_str"] = "NqKpDLfh",
-		["id"] = 35,
+		["id"] = 34,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -2119,7 +2107,7 @@
 		},
 		["guid"] = "BCFC3B0B47A3B0EE07DBDFA504967778",
 		["guid_str"] = "S6bbixxU",
-		["id"] = 36,
+		["id"] = 35,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2182,7 +2170,7 @@
 		},
 		["guid"] = "9D84E52149B4C0484B36D5BD39079837",
 		["guid_str"] = "fdhi6UFY",
-		["id"] = 37,
+		["id"] = 36,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2258,7 +2246,7 @@
 		},
 		["guid"] = "DB3BCA8F4D6C2D9F1A8987BA4E8A842F",
 		["guid_str"] = "xSajXqXN",
-		["id"] = 38,
+		["id"] = 37,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2335,7 +2323,7 @@
 		},
 		["guid"] = "1597E9D042EAF1B237537B8885567BCF",
 		["guid_str"] = "NiEb8SaJ",
-		["id"] = 39,
+		["id"] = 38,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
@@ -2400,7 +2388,7 @@
 		},
 		["guid"] = "9504B2424DF483779FC97A9FE7276705",
 		["guid_str"] = "XbTvz2CS",
-		["id"] = 40,
+		["id"] = 39,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2465,7 +2453,7 @@
 		},
 		["guid"] = "77B053B84224DAB49A6D59A319A5F44C",
 		["guid_str"] = "s3HnCGqM",
-		["id"] = 41,
+		["id"] = 40,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2530,7 +2518,7 @@
 		},
 		["guid"] = "BEE62B7A4201EB6EE7B265A803051112",
 		["guid_str"] = "eduqGhgO",
-		["id"] = 42,
+		["id"] = 41,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2600,7 +2588,7 @@
 		},
 		["guid"] = "D07123BA44FAEDBE5A88228B24D9396C",
 		["guid_str"] = "GJnyoygp",
-		["id"] = 43,
+		["id"] = 42,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["body_anim"] = "default_loop",
@@ -2665,7 +2653,7 @@
 		},
 		["guid"] = "9751501C4196F965DC77EF9214558E41",
 		["guid_str"] = "X7MTvywx",
-		["id"] = 44,
+		["id"] = 43,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2684,7 +2672,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]他转身回到同伴中间，似乎是在向别人介绍我们的身份。",
+			["text"] = "[size 17]他像是立刻振作起来，转身回到同伴中间，边说边举起手指向这边，似乎是在向别人介绍我们的身份。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -2763,7 +2751,7 @@
 		},
 		["guid"] = "4BB9762A445E528A4B743ABEE72F4D4E",
 		["guid_str"] = "MjiiyS4p",
-		["id"] = 45,
+		["id"] = 44,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2780,7 +2768,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]迎着孩子们好奇的目光，",
+			["text"] = "[size 17]迎着孩子们好奇的目光，岚相悄无声息地向我靠近一步。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -2798,7 +2786,7 @@
 		},
 		["guid"] = "FAEEB590486641D31FDF84868F0E929C",
 		["guid_str"] = "WqMlx6qG",
-		["id"] = 46,
+		["id"] = 45,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2840,7 +2828,7 @@
 		},
 		["guid"] = "A0D044BB4DDD74C42C7A7191374F1B0E",
 		["guid_str"] = "sX5oIfxA",
-		["id"] = 47,
+		["id"] = 46,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2881,7 +2869,7 @@
 		},
 		["guid"] = "0378A0474BC2D960D32F028123A8EEAA",
 		["guid_str"] = "cOV9iyxU",
-		["id"] = 48,
+		["id"] = 47,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -2917,7 +2905,7 @@
 		},
 		["guid"] = "D047DAC0404CFCD4A09969B187D04E50",
 		["guid_str"] = "WwZH6eO9",
-		["id"] = 49,
+		["id"] = 48,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -2958,7 +2946,7 @@
 		},
 		["guid"] = "8CD83ECC4440A95C1C20A097EF3D1017",
 		["guid_str"] = "bzFISySi",
-		["id"] = 50,
+		["id"] = 49,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -3000,7 +2988,7 @@
 		},
 		["guid"] = "465B93BD4223261220086C8C7148BFB4",
 		["guid_str"] = "iuMQMFBf",
-		["id"] = 51,
+		["id"] = 50,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -3036,7 +3024,7 @@
 		},
 		["guid"] = "6BF207D0420A16AF613A7B99750BDF33",
 		["guid_str"] = "lRVcpqQs",
-		["id"] = 52,
+		["id"] = 51,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -3077,7 +3065,7 @@
 		},
 		["guid"] = "54E66BBC4067F3B06BABB8A082880D6E",
 		["guid_str"] = "c8UjM50i",
-		["id"] = 53,
+		["id"] = 52,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -3119,7 +3107,7 @@
 		},
 		["guid"] = "552D57484A41F7B962C8FB8274DF6488",
 		["guid_str"] = "Gje21lYr",
-		["id"] = 54,
+		["id"] = 53,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -3139,7 +3127,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]我们看向不远处叽叽喳喳的孩子，他们正讨论今天轮到谁当鬼，\n\n大家互相推拒，似乎谁都不想扮演这个角色。",
+			["text"] = "[size 17]不远处的孩子们还在讨论今天轮到谁当鬼，\n\n他们互相推拒着，似乎谁都不想扮演这个角色。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3185,7 +3173,7 @@
 		},
 		["guid"] = "E4335F0046E58F41DCDCB6BA93A6B525",
 		["guid_str"] = "7oe6ftQP",
-		["id"] = 55,
+		["id"] = 54,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -3221,7 +3209,7 @@
 		},
 		["guid"] = "E4799FD64C8C1BD57982E48678CFF76F",
 		["guid_str"] = "pzks5E8X",
-		["id"] = 56,
+		["id"] = 55,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -3239,7 +3227,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]我顺着看过去，爬满藤蔓的长廊下，一个瘦小单薄的人幽幽站立。",
+			["text"] = "[size 17]我顺着看过去，爬满藤蔓的长廊下，站着一个瘦小单薄的人影。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -3257,7 +3245,7 @@
 		},
 		["guid"] = "A2E6B2C14FD4DB997A0247909C7CF212",
 		["guid_str"] = "gIewtmFm",
-		["id"] = 57,
+		["id"] = 56,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -3305,7 +3293,7 @@
 		},
 		["guid"] = "764DAF494B067AABDA7C04874EC60D81",
 		["guid_str"] = "vQrIfwvd",
-		["id"] = 58,
+		["id"] = 57,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -3344,7 +3332,7 @@
 		},
 		["guid"] = "5A3A49B24D5EB31735331E87E91B65E8",
 		["guid_str"] = "wfDpdcSi",
-		["id"] = 59,
+		["id"] = 58,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -3407,7 +3395,7 @@
 		},
 		["guid"] = "ACA500DC40080F89E6D2E481B2EF980F",
 		["guid_str"] = "1zfEJYi1",
-		["id"] = 60,
+		["id"] = 59,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -3493,7 +3481,7 @@
 		},
 		["guid"] = "35982D3148D539246130E5BBB0706D01",
 		["guid_str"] = "FgjS6tlS",
-		["id"] = 61,
+		["id"] = 60,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -3601,7 +3589,7 @@
 		},
 		["guid"] = "0F1E9B7244484AB78A8541B0F263C622",
 		["guid_str"] = "GzO7f60a",
-		["id"] = 62,
+		["id"] = 61,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -3731,7 +3719,7 @@
 		},
 		["guid"] = "B538B34B43F497850C5DD6BC027B8CE2",
 		["guid_str"] = "sPoDnkTQ",
-		["id"] = 63,
+		["id"] = 62,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -3852,7 +3840,7 @@
 		},
 		["guid"] = "B4775C9D412A2AD1FFCD1D812A77D713",
 		["guid_str"] = "DVzNxEZJ",
-		["id"] = 64,
+		["id"] = 63,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -3979,7 +3967,7 @@
 		},
 		["guid"] = "3A739E684BB3517189A0BB9D2833B28D",
 		["guid_str"] = "P9pQRjEV",
-		["id"] = 65,
+		["id"] = 64,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -4101,7 +4089,7 @@
 		},
 		["guid"] = "029CD20D461AF417114BEEAB57DAFEFB",
 		["guid_str"] = "zudZ1cTw",
-		["id"] = 66,
+		["id"] = 65,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -4233,7 +4221,7 @@
 		},
 		["guid"] = "0B688C4749F1D6DA6B23D3B5772D36E6",
 		["guid_str"] = "qFJXITNG",
-		["id"] = 67,
+		["id"] = 66,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -4413,7 +4401,7 @@
 		},
 		["guid"] = "0F3DF067421F0BFD30AFA8BECCBFEA99",
 		["guid_str"] = "pZuBfBn5",
-		["id"] = 68,
+		["id"] = 67,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -4459,7 +4447,7 @@
 		},
 		["guid"] = "0E145FCE403C7C3A2579A0AA59887BA6",
 		["guid_str"] = "iqYt6OkI",
-		["id"] = 69,
+		["id"] = 68,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -4494,7 +4482,7 @@
 		},
 		["guid"] = "46590C9C40519004C122F0AF73165F13",
 		["guid_str"] = "jMxcojEd",
-		["id"] = 70,
+		["id"] = 69,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -4535,7 +4523,7 @@
 		},
 		["guid"] = "E68C76284FCAB01F73E3E185EFB94AE9",
 		["guid_str"] = "TzLfNc26",
-		["id"] = 71,
+		["id"] = 70,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -4592,7 +4580,7 @@
 		},
 		["guid"] = "D670110B43F60C08DF62D6BA48EFAFA8",
 		["guid_str"] = "SJmWqmXa",
-		["id"] = 72,
+		["id"] = 71,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -4648,7 +4636,7 @@
 		},
 		["guid"] = "D38713364AE200B2FCBEF2960D6A9430",
 		["guid_str"] = "2Yok2MUZ",
-		["id"] = 73,
+		["id"] = 72,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -4698,7 +4686,7 @@
 		},
 		["guid"] = "29EFD1584372615020B576B12DEB52C5",
 		["guid_str"] = "vlFDyeYJ",
-		["id"] = 74,
+		["id"] = 73,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -4738,7 +4726,7 @@
 		},
 		["guid"] = "DDCC62F245312E0350335FAE1572E062",
 		["guid_str"] = "eiEJ9riy",
-		["id"] = 75,
+		["id"] = 74,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -4783,7 +4771,7 @@
 		},
 		["guid"] = "19900D524C000A85F06C86B707477408",
 		["guid_str"] = "GDPsbyAi",
-		["id"] = 76,
+		["id"] = 75,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -4823,7 +4811,7 @@
 		},
 		["guid"] = "0D46B1D942BF42C31562469293DF9433",
 		["guid_str"] = "5jYSplVy",
-		["id"] = 77,
+		["id"] = 76,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -4868,7 +4856,7 @@
 		},
 		["guid"] = "6B98F4F541CCCC8D6D1A9B8B5FC02143",
 		["guid_str"] = "VWPelqbQ",
-		["id"] = 78,
+		["id"] = 77,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -4908,7 +4896,7 @@
 		},
 		["guid"] = "B9AACAB54BC4E4E5633C42B36CD19AD1",
 		["guid_str"] = "PTZuH09m",
-		["id"] = 79,
+		["id"] = 78,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -4955,7 +4943,7 @@
 		},
 		["guid"] = "D8967A0D4C9AEE54317757A91AF72DD1",
 		["guid_str"] = "LV7PES7S",
-		["id"] = 80,
+		["id"] = 79,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -5013,7 +5001,7 @@
 		},
 		["guid"] = "3E3CCC99476F5C2984A610961745F322",
 		["guid_str"] = "4Fesh7x8",
-		["id"] = 81,
+		["id"] = 80,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -5065,7 +5053,7 @@
 		},
 		["guid"] = "91B0C4ED4EE4A26D3997B3A258329DEB",
 		["guid_str"] = "DKsxpuHi",
-		["id"] = 82,
+		["id"] = 81,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -5105,7 +5093,7 @@
 		},
 		["guid"] = "30A2785F402799BFA8A86587BE46123D",
 		["guid_str"] = "ToNYz3By",
-		["id"] = 83,
+		["id"] = 82,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -5144,7 +5132,7 @@
 		},
 		["guid"] = "9F40C81345033700A85294A06451A9AC",
 		["guid_str"] = "kNqAG7Hi",
-		["id"] = 84,
+		["id"] = 83,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -5183,7 +5171,7 @@
 		},
 		["guid"] = "1A6084F2416F06A6F5569380C787FA28",
 		["guid_str"] = "41CAcL64",
-		["id"] = 85,
+		["id"] = 84,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
@@ -5202,8 +5190,17 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]对话没有继续下去，柳池似乎对于当鬼很熟练，孩子们很快就被找到。",
+			["text"] = "[size 17]对话被一阵零散的脚步声打断，第二个被找到的孩子走了出来，而后是第三个、第四个……",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -5237,6 +5234,58 @@
 		},
 		["guid"] = "B6CD7FE045A36ED4E078F78E607C566F",
 		["guid_str"] = "3YK0mhAx",
+		["id"] = 85,
+		["male_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_02.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]柳池似乎在找人一事上十分熟练，很快，所有的孩子都重新在庭院聚集。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					0,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "A450F8904C85E810DB32689F70E20552",
+		["guid_str"] = "8G9EM7Uc",
 		["id"] = 86,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -5391,7 +5440,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]虽然目前看不出什么端倪，但想到这个看似无害的小孩就是柳池，我决定想办法试探一下。想到这里，我轻轻碰了下他的肩膀。",
+			["text"] = "[size 17]虽然目前看不出什么端倪，但想到这个看似无害的小孩就是将我们关进幻境的始作俑者，\n\n我还是决定想办法试探一下。想到这里，我轻轻碰了下他的肩膀。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -5769,7 +5818,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]如果是普通的小孩，我恐怕已经被打动，但想到面前的人是柳池，心底那一点快要破土而出的怜悯也收了回去。",
+			["text"] = "[size 17]如果面前是一个普通的孩子，此时的我恐怕已经开始默默思考将他接回白荆科技的可能性。\n\n但对方是柳叶刀——思考至此，心底那一点快要破土而出的怜悯也收了回去。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -5808,7 +5857,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]可能是看我沉默太久，他再次低下头，刘海遮住眼睛。",
+			["text"] = "[size 17]可能是看我沉默太久，他再次低下头，刘海也随着动作垂下，遮住眼中的情绪。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -5957,7 +6006,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]明亮的眼睛氲着湿漉漉的气息，略有些腼腆地笑了笑，也离开了。",
+			["text"] = "[size 17]明亮的眼睛氲着湿漉漉的气息，他略有些腼腆地笑了笑，也离开了。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -6377,7 +6426,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]庭院里只剩下我一个，周围一片死寂。",
+			["text"] = "[size 17]脚步声渐渐消失，眨眼间，庭院中便只剩下我一个。",
 			["text_align"] = "center",
 			["tween"] = {
 				{

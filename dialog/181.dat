@@ -117,6 +117,25 @@
 			["anim"] = "closeeye_add",
 		},
 		["name"] = "池",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 300,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+			{
+				["delay"] = 150,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "不准死……不许死……江昙！你停下！不许让她死！！！停下！！！",
 	},
 	{
@@ -193,9 +212,9 @@
 				},
 				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "bm01xzhou/bm01xzhou_action1",
+				["path"] = "bm01xzhou/bm01xzhou_action2",
 				["pos"] = {
-					120,
+					450,
 					90,
 				},
 				["shadow"] = {
@@ -241,6 +260,17 @@
 			["anim"] = "closeeye_add",
 		},
 		["name"] = "刑舟",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/enemy/b03xz/b03xzhou_skill_slot06_d",
+				["length"] = 2156,
+			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "可以了。",
 	},
 	{
@@ -267,9 +297,9 @@
 				},
 				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "bm01xzhou/bm01xzhou_action1",
+				["path"] = "bm01xzhou/bm01xzhou_action2",
 				["pos"] = {
-					120,
+					450,
 					90,
 				},
 				["shadow"] = {
@@ -329,9 +359,9 @@
 				},
 				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "bm01xzhou/bm01xzhou_action1",
+				["path"] = "bm01xzhou/bm01xzhou_action2",
 				["pos"] = {
-					120,
+					450,
 					90,
 				},
 				["shadow"] = {
@@ -397,9 +427,9 @@
 				},
 				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
-				["path"] = "bm01xzhou/bm01xzhou_action1",
+				["path"] = "bm01xzhou/bm01xzhou_action2",
 				["pos"] = {
-					120,
+					450,
 					90,
 				},
 				["shadow"] = {
@@ -453,6 +483,13 @@
 		["id"] = 7,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
 		},
 	},
 	{
@@ -544,7 +581,23 @@
 						},
 						["tween"] = "FadeIn",
 					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 29,
+							["time"] = 1000,
+						},
+						["tween"] = "FadeOut",
+					},
 				},
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/cg_9_a1_liuchibeitong_loopa",
+				["length"] = 2966,
+				["loop"] = 1,
+				["volume"] = 0.5,
 			},
 		},
 	},
@@ -849,6 +902,12 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
 		["time"] = 1000,
 	},
 	{
@@ -875,6 +934,9 @@
 		["guid_str"] = "J2BnQyKk",
 		["id"] = 39,
 		["name"] = "初次担任行动队长的警官",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "serious",
 			["material"] = "M_UI_SpinePortrait",
@@ -925,6 +987,9 @@
 		["guid_str"] = "RiWyqrBT",
 		["id"] = 40,
 		["name"] = "初次担任行动队长的警官",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -1001,6 +1066,12 @@
 		["guid"] = "4378732A49D7191D42AB5ABED50472A8",
 		["guid_str"] = "aiqRr3gk",
 		["id"] = 41,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/avg_chapter9_metal_impact_ground",
+				["length"] = 2878,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -1086,6 +1157,9 @@
 		["guid_str"] = "6EtRzq2M",
 		["id"] = 42,
 		["name"] = "少年人质",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -1202,6 +1276,16 @@
 		["guid_str"] = "kPFa5R5w",
 		["id"] = 43,
 		["name"] = "初次担任行动队长的警官",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -1330,6 +1414,16 @@
 		["guid_str"] = "HuHYidVz",
 		["id"] = 44,
 		["name"] = "少年人质",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -1447,6 +1541,16 @@
 		["guid_str"] = "zartvVuf",
 		["id"] = 45,
 		["name"] = "初次担任行动队长的警官",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -1553,6 +1657,9 @@
 		["guid_str"] = "JeTSB7Wi",
 		["id"] = 46,
 		["name"] = "少年人质",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -1659,6 +1766,9 @@
 		["guid_str"] = "TJySS0VW",
 		["id"] = 47,
 		["name"] = "少年人质",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -1765,6 +1875,9 @@
 		["guid_str"] = "HwEvNy4N",
 		["id"] = 48,
 		["name"] = "初次担任行动队长的警官",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -1871,6 +1984,9 @@
 		["guid_str"] = "wfGjiS6b",
 		["id"] = 49,
 		["name"] = "初次担任行动队长的警官",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -1977,6 +2093,9 @@
 		["guid_str"] = "jaJaUmBE",
 		["id"] = 50,
 		["name"] = "少年人质",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -2083,6 +2202,9 @@
 		["guid_str"] = "ap8SoQaK",
 		["id"] = 51,
 		["name"] = "初次担任行动队长的警官",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -2189,6 +2311,9 @@
 		["guid_str"] = "0pc7pa1i",
 		["id"] = 52,
 		["name"] = "少年人质",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -2295,6 +2420,9 @@
 		["guid_str"] = "h8iA8UuH",
 		["id"] = 53,
 		["name"] = "池",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -2412,6 +2540,16 @@
 		["guid_str"] = "Cf9WBBRk",
 		["id"] = 54,
 		["name"] = "刑舟",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -2566,6 +2704,12 @@
 		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -2651,6 +2795,9 @@
 		["guid_str"] = "cWVW8RCa",
 		["id"] = 56,
 		["name"] = "池",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "刑舟哥哥，你在……看什么？",
 		["text_info"] = {
 			["tween"] = {
@@ -2763,6 +2910,16 @@
 		["guid_str"] = "5DSsXIQD",
 		["id"] = 57,
 		["name"] = "刑舟",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "……！没，没什么。",
 	},
 	{
@@ -2845,6 +3002,9 @@
 		["guid_str"] = "ZyEIne6N",
 		["id"] = 58,
 		["name"] = "池",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……",
 	},
 	{
@@ -2946,6 +3106,16 @@
 		["guid_str"] = "9IfnBKXy",
 		["id"] = 59,
 		["name"] = "池",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "哦，那我走了。",
 	},
 	{
@@ -3040,6 +3210,16 @@
 		["guid_str"] = "WFJkun4m",
 		["id"] = 60,
 		["name"] = "刑舟",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "诶……等一下！咳，那个，第一次带小孩，刚刚在查攻略……",
 	},
 	{
@@ -3129,6 +3309,9 @@
 		["guid_str"] = "a1WBNKFu",
 		["id"] = 61,
 		["name"] = "池",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……啊？",
 	},
 	{
@@ -3258,6 +3441,12 @@
 		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+			},
+		},
 		["time"] = 1000,
 	},
 	{
@@ -3354,6 +3543,9 @@
 		["guid_str"] = "DIVlYevU",
 		["id"] = 63,
 		["name"] = "刑舟",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "小池，你要学会控制情绪，给你这个。",
 		["text_info"] = {
 			["tween"] = {
@@ -3447,6 +3639,9 @@
 		["guid_str"] = "ADE6rIIL",
 		["id"] = 64,
 		["name"] = "池",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……书？是要我看么。",
 	},
 	{
@@ -3529,6 +3724,9 @@
 		["guid_str"] = "Y11udOI9",
 		["id"] = 65,
 		["name"] = "刑舟",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "不，这是我很喜欢的一本书，爷爷留给我的遗物。\n你替我拿着，情绪再坏时，也要记得别弄坏它，这是给你的任务。",
 	},
 	{
@@ -3750,6 +3948,12 @@
 		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+			},
+		},
 		["time"] = 1000,
 	},
 	{
@@ -3852,6 +4056,9 @@
 		["guid_str"] = "iuGI736o",
 		["id"] = 68,
 		["name"] = "池",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "刑舟哥哥你回来了！最近怎么都这么晚？十手伯伯还来找你了。",
 		["text_info"] = {
 			["tween"] = {
@@ -3951,6 +4158,9 @@
 		["guid_str"] = "08RhchGa",
 		["id"] = 69,
 		["name"] = "刑舟",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "你开门了么？",
 	},
 	{
@@ -4039,6 +4249,9 @@
 		["guid_str"] = "K4APtgMF",
 		["id"] = 70,
 		["name"] = "池",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "没，不想开。",
 	},
 	{
@@ -4127,6 +4340,9 @@
 		["guid_str"] = "K7MAE2Ml",
 		["id"] = 71,
 		["name"] = "刑舟",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……",
 	},
 	{
@@ -4215,6 +4431,9 @@
 		["guid_str"] = "L3NKLieb",
 		["id"] = 72,
 		["name"] = "刑舟",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "小池……你是不是……",
 	},
 	{
@@ -4303,6 +4522,9 @@
 		["guid_str"] = "EbHpzMWj",
 		["id"] = 73,
 		["name"] = "池",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "嗯？刑舟哥哥你说什么？",
 	},
 	{
@@ -4391,6 +4613,9 @@
 		["guid_str"] = "d2Jnkqj6",
 		["id"] = 74,
 		["name"] = "刑舟",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "……………………",
 	},
 	{
@@ -4490,6 +4715,16 @@
 		["guid_str"] = "BgJk9W0A",
 		["id"] = 75,
 		["name"] = "刑舟",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "小池，我会走特殊流程收养你，以后我就是你的亲哥哥，你不用再去在意你不喜欢的那个家。",
 	},
 	{
@@ -4578,6 +4813,9 @@
 		["guid_str"] = "tXevE9SY",
 		["id"] = 76,
 		["name"] = "刑舟",
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["text"] = "很多事我都可以慢慢教你，别做坏事，小池。",
 	},
 	{
@@ -4933,5 +5171,12 @@
 		["guid"] = "87D98F9A4F2E0AC18AE3A4B7124050BF",
 		["guid_str"] = "ZWHdZ665",
 		["id"] = 85,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/cg_9_a1_liuchibeitong_loopa",
+				["length"] = 2966,
+				["stop"] = 1,
+			},
+		},
 	},
 }
