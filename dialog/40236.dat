@@ -62,7 +62,8 @@
 			},
 		},
 		["female_speaker_info"] = {
-			["body_anim"] = "default_loop",
+			["anim"] = "surprise_add",
+			["body_anim"] = "doubt_in",
 			["path"] = "heroine/heroine_plain_action1",
 			["tween"] = {
 				{
@@ -96,7 +97,8 @@
 			},
 		},
 		["male_speaker_info"] = {
-			["body_anim"] = "default_loop",
+			["anim"] = "surprise_add",
+			["body_anim"] = "doubt_in",
 			["path"] = "hero/hero_plain_action1",
 			["tween"] = {
 				{
@@ -281,6 +283,7 @@
 			},
 		},
 		["female_speaker_info"] = {
+			["anim"] = "shy_add",
 			["body_anim"] = "default_loop",
 			["path"] = "heroine/heroine_plain_action1",
 			["tween"] = {
@@ -315,6 +318,7 @@
 			},
 		},
 		["male_speaker_info"] = {
+			["anim"] = "shy_add",
 			["body_anim"] = "default_loop",
 			["path"] = "hero/hero_plain_action1",
 			["tween"] = {
@@ -787,7 +791,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -891,7 +895,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile1",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1079,6 +1083,9 @@
 			["effect"] = 4,
 		},
 		["text"] = "……………………………………",
+		["voice_effect"] = {
+			["event"] = "mask",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3716,7 +3723,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "snicker1",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4234,7 +4241,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "worry",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4334,7 +4341,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "worry",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -5497,10 +5504,6 @@
 			["anim"] = "serious_add",
 			["body_anim"] = "surprise_loop",
 			["path"] = "heroine/heroine_plain_action1",
-			["scale"] = {
-				1.1000000238419,
-				1.0,
-			},
 			["tween"] = {
 				{
 					["param"] = {
@@ -5574,7 +5577,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "sad",
+				["anim"] = "dispirited",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -7379,7 +7382,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile2",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},

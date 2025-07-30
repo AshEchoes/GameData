@@ -24,14 +24,13 @@
 		["guid"] = "06FA95A54CC68B7316F64B969BF9C15E",
 		["guid_str"] = "aBGyxA3y",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
-				["event"] = "event:/bgm/s175_bat_paradise",
-				["length"] = 194000,
+				["event"] = "event:/bgm/s135_story_undersea_lonely",
+				["length"] = 95000,
 				["loop"] = 1,
-				["param_name"] = "battle",
-				["param_value"] = 2.0,
 			},
 			{
 				["event"] = "event:/ambience/bird_with_wind",
@@ -162,6 +161,13 @@
 		["guid_str"] = "0sKxnr3P",
 		["id"] = 4,
 		["name"] = "言御",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "不想在那个家里动手，没想到真的可以过来……不愧是虚构的世界，幻想的主人公可以“为所欲为”。",
 	},
 	{
@@ -924,7 +930,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -1793,7 +1799,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1500,
+								["time"] = 2500,
 							},
 							["tween"] = "FadeOut",
 						},
@@ -1825,12 +1831,13 @@
 		["guid"] = "B37DB612470538B74808FBAC3F9705C8",
 		["guid_str"] = "2jKaLPwH",
 		["id"] = 38,
+		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
-				["event"] = "event:/bgm/s175_bat_paradise",
-				["length"] = 194000,
+				["event"] = "event:/bgm/s135_story_undersea_lonely",
+				["length"] = 95000,
 				["stop"] = 1,
 			},
 			{
@@ -1849,5 +1856,6 @@
 				["volume"] = 2.0,
 			},
 		},
+		["time"] = 4000,
 	},
 }

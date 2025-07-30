@@ -1219,7 +1219,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "anger",
+				["anim"] = "sneer",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1279,5 +1279,68 @@
 				},
 			},
 		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog06SceneBG/bg_welfarehouse_07.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sneer",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					0,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "serious_add",
+			["body_anim"] = "surprise_loop",
+		},
+		["guid"] = "46E1AF45421B68157E3561AA121DB934",
+		["guid_str"] = "sxQHv7rp",
+		["id"] = 19,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["time"] = 1900,
 	},
 }

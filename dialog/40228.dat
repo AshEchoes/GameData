@@ -67,6 +67,9 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/ambience/d31_church_bell",
@@ -134,6 +137,9 @@
 		["guid"] = "697CBD3E41C2A704BA15FBA74F6CA7ED",
 		["guid_str"] = "X6FVmgYi",
 		["id"] = 3,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -163,6 +169,17 @@
 		["guid"] = "BE051BC64E2859B834413787C14C9FCE",
 		["guid_str"] = "0IRvcsql",
 		["id"] = 4,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["delay"] = 5700,
+				["event"] = "event:/sfx/story/8/avg_chapter8_glitch",
+				["length"] = 1600,
+				["volume"] = 2.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -207,6 +224,9 @@
 		["guid"] = "46F0F1334AC6CEA2C1C7579CAA9B11BF",
 		["guid_str"] = "RbuHMu54",
 		["id"] = 5,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/9/avg_chapter9_communicator_noise",
@@ -353,6 +373,121 @@
 		["guid"] = "76EB572B4F40D07EAEFF41A7586007F2",
 		["guid_str"] = "y4Fj2O5B",
 		["id"] = 8,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["is_loop"] = false,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_04.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_04.png",
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_append"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.30000001192093,
+			["text"] = " ",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["guid"] = "529FE16E49C72F8DF4C0E782201CB90A",
+		["guid_str"] = "Ck4kVnyJ",
+		["id"] = 9,
+		["is_white_base_bg"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_low_long",
+				["length"] = 4615,
+				["volume"] = 2.0,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_append"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.30000001192093,
+			["text"] = " ",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["guid"] = "060A50FA4F42C4396CCA0597E017D92C",
+		["guid_str"] = "sRFMNQW6",
+		["id"] = 10,
+		["is_white_base_bg"] = true,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -364,7 +499,6 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.30000001192093,
 			["text"] = "[size 17][font cusong]■■……你是我的■■……对吧……",
@@ -381,7 +515,23 @@
 		},
 		["guid"] = "B781D4E24042284B5442178EEEC50AA9",
 		["guid_str"] = "B3Q4XUAr",
-		["id"] = 9,
+		["id"] = 11,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/8/avg_chapter8_glitch",
+				["length"] = 1600,
+				["volume"] = 2.0,
+			},
+			{
+				["delay"] = 1200,
+				["event"] = "event:/sfx/story/8/avg_chapter8_glitch",
+				["length"] = 1600,
+				["volume"] = 2.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -425,7 +575,10 @@
 		},
 		["guid"] = "4782F9B346F3C444F26680B3E94E0C20",
 		["guid_str"] = "EUZ2Y7BQ",
-		["id"] = 10,
+		["id"] = 12,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/9/avg_chapter9_communicator_noise",
@@ -496,7 +649,7 @@
 		},
 		["guid"] = "D7EA56B14418030E3F42748F73583D4A",
 		["guid_str"] = "EQRMmK7g",
-		["id"] = 11,
+		["id"] = 13,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -548,7 +701,7 @@
 		},
 		["guid"] = "05024F974776609D2375A196F8AB28A3",
 		["guid_str"] = "xvMZ5Enq",
-		["id"] = 12,
+		["id"] = 14,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 	},
@@ -584,7 +737,10 @@
 		},
 		["guid"] = "658998904F2EEC49FC9921B54EF9B6CB",
 		["guid_str"] = "vFL9n66P",
-		["id"] = 13,
+		["id"] = 15,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -613,7 +769,10 @@
 		},
 		["guid"] = "E3078E2E44F845C6502F0DB75AE633ED",
 		["guid_str"] = "ZUnFGwEZ",
-		["id"] = 14,
+		["id"] = 16,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -642,7 +801,10 @@
 		},
 		["guid"] = "9DA1BCC141AFEB6C0DD897B527538579",
 		["guid_str"] = "HXZKENX1",
-		["id"] = 15,
+		["id"] = 17,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -682,7 +844,7 @@
 		},
 		["guid"] = "7B9E47AD45E76B8DA8D5E580870784A9",
 		["guid_str"] = "vhmHFn7a",
-		["id"] = 16,
+		["id"] = 18,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -731,7 +893,7 @@
 		},
 		["guid"] = "C54CCD8948DF745BD8D9AE9610C26860",
 		["guid_str"] = "8M2Xb3po",
-		["id"] = 17,
+		["id"] = 19,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 	},
@@ -761,9 +923,15 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5048_9ukReTQA",
+		},
 		["guid"] = "37F2E2C04041009A349FF4826E60EF85",
 		["guid_str"] = "9ukReTQA",
-		["id"] = 18,
+		["id"] = 20,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -792,7 +960,10 @@
 		},
 		["guid"] = "ADB777014BA482FEF6C0CD8AC102E073",
 		["guid_str"] = "v6q02UXR",
-		["id"] = 19,
+		["id"] = 21,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -832,7 +1003,7 @@
 		},
 		["guid"] = "ADB826B84546E3AE0CD960B16DA7C7E0",
 		["guid_str"] = "SvPDGC2S",
-		["id"] = 20,
+		["id"] = 22,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -881,7 +1052,7 @@
 		},
 		["guid"] = "37AB193A49593BE7604B279C24030513",
 		["guid_str"] = "7rilV1K1",
-		["id"] = 21,
+		["id"] = 23,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 	},
@@ -911,7 +1082,10 @@
 		},
 		["guid"] = "2A8E41D34CE53F42388A4DAEEE15A650",
 		["guid_str"] = "sDucMfxs",
-		["id"] = 22,
+		["id"] = 24,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -951,7 +1125,7 @@
 		},
 		["guid"] = "930F2DC44BCC8A950BDAB290942F91DB",
 		["guid_str"] = "P1S6N88N",
-		["id"] = 23,
+		["id"] = 25,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -988,7 +1162,7 @@
 		},
 		["guid"] = "DB2660F640D8F65C76153EB045051210",
 		["guid_str"] = "k90jOuW2",
-		["id"] = 24,
+		["id"] = 26,
 	},
 	{
 		["bg_info"] = {
@@ -1011,7 +1185,7 @@
 		},
 		["guid"] = "5CD3365A4C9C3B07E5E2469105E2F047",
 		["guid_str"] = "HSXMtUaR",
-		["id"] = 25,
+		["id"] = 27,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -1080,7 +1254,7 @@
 		},
 		["guid"] = "ED53BBE94E52CB8E0FD79CADC878C2A1",
 		["guid_str"] = "nu5ZeY35",
-		["id"] = 26,
+		["id"] = 28,
 		["name"] = "舞鹤织雪",
 		["text"] = "……？！",
 	},
@@ -1112,7 +1286,7 @@
 		},
 		["guid"] = "5E606DF84A84752968BDFAB32C9FD9F8",
 		["guid_str"] = "APJdvqEq",
-		["id"] = 27,
+		["id"] = 29,
 		["name"] = "舞鹤织雪",
 		["text"] = "这是什么地方，刚刚那些又是什么。",
 	},
@@ -1167,7 +1341,7 @@
 		},
 		["guid"] = "7FC307EB42054E1937403083338AE7BF",
 		["guid_str"] = "3yTIdlrh",
-		["id"] = 28,
+		["id"] = 30,
 		["name"] = "舞鹤织雪",
 		["soundfx"] = {
 			{
@@ -1245,7 +1419,7 @@
 		},
 		["guid"] = "807C191741D767C92A464A92B3BCEFC8",
 		["guid_str"] = "EI4ih1lg",
-		["id"] = 29,
+		["id"] = 31,
 		["name"] = "苏筱",
 		["soundfx"] = {
 			{
@@ -1318,7 +1492,7 @@
 		},
 		["guid"] = "6BBB09004875E2BD756A008212D13939",
 		["guid_str"] = "RrGyNLKz",
-		["id"] = 30,
+		["id"] = 32,
 		["speaker_info"] = {
 			["anim"] = "serious_add",
 			["material"] = "M_UI_SpineCharacterPortraitNormal",
@@ -1381,7 +1555,7 @@
 		},
 		["guid"] = "E6C92A2A42950C16EF4DEFBEB5B6C498",
 		["guid_str"] = "uS4F45G5",
-		["id"] = 31,
+		["id"] = 33,
 		["name"] = "舞鹤织雪",
 		["speaker_info"] = {
 			["anim"] = "serious_add",
@@ -1467,7 +1641,7 @@
 		},
 		["guid"] = "E498FD5F4F93C4D4471265828C4D9E61",
 		["guid_str"] = "7TIcsjL2",
-		["id"] = 32,
+		["id"] = 34,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -1505,7 +1679,7 @@
 		},
 		["guid"] = "E305F9C74ACAD959B7F0848211E78E85",
 		["guid_str"] = "d5IebyVX",
-		["id"] = 33,
+		["id"] = 35,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "shock_add",
@@ -1547,10 +1721,10 @@
 		},
 		["guid"] = "71E2148D47ADA1E8BF58A084CDD47758",
 		["guid_str"] = "w2wEg71O",
-		["id"] = 34,
+		["id"] = 36,
 		["name"] = "舞鹤织雪",
 		["speaker_info"] = {
-			["anim"] = "smile2_add",
+			["anim"] = "pain_add",
 			["body_anim"] = "default_loop",
 			["material"] = "M_UI_SpineCharacterNormal",
 			["offset"] = {
@@ -1578,7 +1752,7 @@
 		},
 		["guid"] = "CDB0D8724D4FB1C5172C8ABF80799FDF",
 		["guid_str"] = "Hd3qBNsS",
-		["id"] = 35,
+		["id"] = 37,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "surprise1_add",
@@ -1631,7 +1805,7 @@
 		},
 		["guid"] = "6C9932304BA8F35D6920408B66309AE7",
 		["guid_str"] = "l6fE1YOZ",
-		["id"] = 36,
+		["id"] = 38,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -1696,10 +1870,10 @@
 		},
 		["guid"] = "60FBB4B8450D789DF4D8D4B8E761C8AE",
 		["guid_str"] = "mXU8BHMb",
-		["id"] = 37,
+		["id"] = 39,
 		["name"] = "舞鹤织雪",
 		["speaker_info"] = {
-			["anim"] = "wink2_add",
+			["anim"] = "anger1_add",
 			["body_anim"] = "default_loop",
 			["material"] = "M_UI_SpineCharacterNormal",
 			["offset"] = {
@@ -1727,7 +1901,7 @@
 		},
 		["guid"] = "3C68BB70441314969D63A9987FC3891B",
 		["guid_str"] = "HhQ1AF6a",
-		["id"] = 38,
+		["id"] = 40,
 		["name"] = "苏筱",
 		["speaker_info"] = {
 			["anim"] = "wronged2_add",
@@ -1779,7 +1953,7 @@
 		},
 		["guid"] = "C5669CA345924C475965F8B71299FA00",
 		["guid_str"] = "Qx7H7QvE",
-		["id"] = 39,
+		["id"] = 41,
 		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
@@ -1825,7 +1999,7 @@
 		},
 		["guid"] = "FA94A86B48E5C815FB0B76B1800B1277",
 		["guid_str"] = "PrFjJ9Zo",
-		["id"] = 40,
+		["id"] = 42,
 		["is_white_base_bg"] = true,
 		["speaker_info"] = {
 			["anim"] = "wronged2_add",
@@ -1865,7 +2039,7 @@
 		},
 		["guid"] = "F3080D4D489967FE6B5BA4BB8E55FC44",
 		["guid_str"] = "mrLRYv5e",
-		["id"] = 41,
+		["id"] = 43,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{

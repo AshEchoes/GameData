@@ -7,7 +7,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -26,6 +26,7 @@
 		["guid"] = "6BD8BE6C4D77884B0BCE7BA993CF2C2E",
 		["guid_str"] = "aTluv1QS",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -373,7 +374,7 @@
 				["tween"] = {
 					{
 						["param"] = {
-							["delay"] = 800,
+							["delay"] = 2000,
 							["direction"] = "left",
 							["dis"] = 100,
 							["time"] = 500,
@@ -399,7 +400,7 @@
 				["tween"] = {
 					{
 						["param"] = {
-							["delay"] = 500,
+							["delay"] = 2000,
 							["direction"] = "left",
 							["dis"] = 100,
 							["end_alpha"] = 1.0,
@@ -576,12 +577,6 @@
 		["guid"] = "7526D98F4D95D81C5F4ADC9736ED4F71",
 		["guid_str"] = "BxzcUVTs",
 		["id"] = 9,
-		["soundfx"] = {
-			{
-				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
-				["length"] = 1846,
-			},
-		},
 	},
 	{
 		["bg_info"] = {
@@ -1279,7 +1274,7 @@
 				},
 			},
 			{
-				["anim"] = "normal_add",
+				["anim"] = "closeeyeserious_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1340,7 +1335,7 @@
 				},
 			},
 			{
-				["anim"] = "normal_add",
+				["anim"] = "closeeyeserious_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1378,7 +1373,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["direction"] = "right",
+								["direction"] = "down",
 								["dis"] = 100,
 								["time"] = 1000,
 							},
@@ -1394,7 +1389,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["direction"] = "right",
+								["direction"] = "down",
 								["dis"] = 100,
 								["end_alpha"] = 1.0,
 								["time"] = 1000,
@@ -1403,13 +1398,13 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 		},
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]没有人再说话，无言的氛围中，两人不断沿着楼梯向上攀升。",
+			["text"] = "[size 17]没有人再说话，无言的氛围中，两人不断沿着楼梯向上攀升。没过多久，远远地，他们看见了一道大门。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -1458,72 +1453,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
-			},
-			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["direction"] = "right",
-								["dis"] = 100,
-								["end_alpha"] = 1.0,
-								["time"] = 1000,
-							},
-							["tween"] = "MoveIn",
-						},
-					},
-				},
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["text"] = "[size 17]没过多久，远远地，他们看见了一道大门。",
-			["text_align"] = "center",
-		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am56yy/am56yy_action1",
-				["pos"] = {
-					-300,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af35sy/af35sy_action2",
-				["pos"] = {
-					300,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "D533AC7B4E4DFDCAB16FF3B93A619D34",
-		["guid_str"] = "GDVn4TLT",
-		["id"] = 24,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1578,14 +1508,14 @@
 		},
 		["guid"] = "5B1FD72F4DD93BA3407A5C8FE9FC97CF",
 		["guid_str"] = "zILOPbfP",
-		["id"] = 25,
+		["id"] = 24,
 		["name"] = "言御",
 		["text"] = "看来我们是最先到达的，但是考虑到刚刚琴初的警告，我们在这里等待其他人汇合吧。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1639,14 +1569,14 @@
 		},
 		["guid"] = "C394FE494ED7E41224F779ADD7ECE8AD",
 		["guid_str"] = "tiZnsh7i",
-		["id"] = 26,
+		["id"] = 25,
 		["name"] = "鸢",
 		["text"] = "警告……",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 				["config"] = {
@@ -1706,12 +1636,12 @@
 		},
 		["guid"] = "11071E804840674A7328778697343D0C",
 		["guid_str"] = "EUgeeU6T",
-		["id"] = 27,
+		["id"] = 26,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 				["config"] = {
@@ -1771,12 +1701,12 @@
 		},
 		["guid"] = "71845FF84DAD5D95800D9F925F7CA19C",
 		["guid_str"] = "SQ2tZtQs",
-		["id"] = 28,
+		["id"] = 27,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1830,14 +1760,14 @@
 		},
 		["guid"] = "F6C1F60A412EC9C49A781683EB0FD460",
 		["guid_str"] = "4j7yGI41",
-		["id"] = 29,
+		["id"] = 28,
 		["name"] = "鸢",
 		["text"] = "言御先生……葵……琴初的能力如果真的是精神控制，那那个瞬间的念头，是不是只是假的？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1892,14 +1822,14 @@
 		},
 		["guid"] = "C466FD1842B43761B7C385819EE5E730",
 		["guid_str"] = "kFPvpaC6",
-		["id"] = 30,
+		["id"] = 29,
 		["name"] = "言御",
 		["text"] = "你是说……逃跑？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1953,14 +1883,14 @@
 		},
 		["guid"] = "4950E7CB4D31D9DE32374595A5545FC9",
 		["guid_str"] = "foTVktFs",
-		["id"] = 31,
+		["id"] = 30,
 		["name"] = "鸢",
 		["text"] = "！！",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2015,14 +1945,14 @@
 		},
 		["guid"] = "1BA8C18D41C87896525B9884CEEF8C37",
 		["guid_str"] = "7buD4mLM",
-		["id"] = 32,
+		["id"] = 31,
 		["name"] = "言御",
 		["text"] = "我想可能我们几个都受到了类似的攻击吧，实际感受后觉得，她有这种程度的能力，也不意外会想要更多。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2077,30 +2007,16 @@
 		},
 		["guid"] = "0D1F05124FB02F4FE4FDC0A16600906F",
 		["guid_str"] = "XKXfVC6L",
-		["id"] = 33,
+		["id"] = 32,
 		["name"] = "言御",
 		["text"] = "本来就很会操纵人心的人，获得了最适合她的能力，这算是「神」的眷顾么？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["direction"] = "right",
-								["dis"] = 100,
-								["end_alpha"] = 1.0,
-								["time"] = 1000,
-							},
-							["tween"] = "MoveIn",
-						},
-					},
-				},
 			},
 		},
 		["caption_info"] = {
@@ -2144,12 +2060,12 @@
 		},
 		["guid"] = "7DA1A83845775FEFF78F8B884EA41E81",
 		["guid_str"] = "7sILHzkt",
-		["id"] = 34,
+		["id"] = 33,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2203,14 +2119,14 @@
 		},
 		["guid"] = "C1577D41415E501E498A93892B208F62",
 		["guid_str"] = "CELoy4LT",
-		["id"] = 35,
+		["id"] = 34,
 		["name"] = "鸢",
 		["text"] = "她不会这么认为的。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2264,14 +2180,14 @@
 		},
 		["guid"] = "FE6B3FE24CF5FB947DFF7D9E7D213E2C",
 		["guid_str"] = "spqPwvwf",
-		["id"] = 36,
+		["id"] = 35,
 		["name"] = "鸢",
 		["text"] = "她只会觉得，这就是她身为「神」的力量，她的“信徒”本就应由她掌控，而不信奉神明的人，在神眼里自然无需存在。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2325,14 +2241,14 @@
 		},
 		["guid"] = "0E4AE95445496D0E723B88A9302E4D6E",
 		["guid_str"] = "s6RpSFaA",
-		["id"] = 37,
+		["id"] = 36,
 		["name"] = "鸢",
 		["text"] = "……言御先生……其实……葵虽然一直善于算计人心，但在福利院时并没有这么……荒诞。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2386,14 +2302,14 @@
 		},
 		["guid"] = "536EF0AE4EEA69CBB711B290F1A7A608",
 		["guid_str"] = "ixS3z0we",
-		["id"] = 38,
+		["id"] = 37,
 		["name"] = "鸢",
 		["text"] = "我不知道她身上究竟发生了什么让她变成现在这幅样子，但我想昙姐姐也是这么想的……所以才会一直陪着她……她们的线还在……",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2448,14 +2364,34 @@
 		},
 		["guid"] = "DB1EED6847B48F818A8C088EBEA3ADA8",
 		["guid_str"] = "CJUEhEQu",
-		["id"] = 39,
+		["id"] = 38,
 		["name"] = "言御",
 		["text"] = "但是你应该也明白了，那位江昙小姐也同样不会回头的。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["F_B_Intensity"] = 0.40000000596046,
+							["F_G_Intensity"] = 0.40000000596046,
+							["F_R_Intensity"] = 1.1499999761581,
+							["F_ScreenLightness"] = 1.0,
+							["F_ScreenSaturation"] = 1.0,
+							["F_Speed"] = 5.0,
+							["F_WaveX"] = -3.0,
+							["F_WaveY"] = 0.4,
+						},
+						["delay"] = 4000,
+						["in_time"] = 500,
+						["is_loop"] = false,
+						["material"] = "MI_UI_SpiritWorld",
+						["out_time"] = 500,
+						["time"] = 1000,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2505,12 +2441,62 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 4000,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "pain_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af35sy/af35sy_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 4000,
+							["time"] = 0,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 		},
 		["guid"] = "7AE97B92467C72773305AC8ED3ADF224",
 		["guid_str"] = "yBepnCOf",
-		["id"] = 40,
+		["id"] = 39,
 		["name"] = "鸢",
+		["soundfx"] = {
+			{
+				["delay"] = 4000,
+				["event"] = "event:/sfx/story/karas/avg_karas_whoosh_03",
+				["length"] = 7684,
+			},
+		},
 		["text"] = "嗯……如果是我……我也……",
 	},
 	{
@@ -2528,29 +2514,14 @@
 							["F_WaveX"] = -3.0,
 							["F_WaveY"] = 0.4,
 						},
-						["in_time"] = 500,
-						["is_loop"] = false,
+						["is_loop"] = true,
 						["material"] = "MI_UI_SpiritWorld",
 						["out_time"] = 500,
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["direction"] = "right",
-								["dis"] = 100,
-								["end_alpha"] = 1.0,
-								["time"] = 1000,
-							},
-							["tween"] = "MoveIn",
-						},
-					},
-				},
 			},
 		},
 		["caption_info"] = {
@@ -2561,7 +2532,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2576,7 +2547,7 @@
 				},
 			},
 			{
-				["anim"] = "serious_add",
+				["anim"] = "pain_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2594,7 +2565,7 @@
 		},
 		["guid"] = "4811795B4BFBC61C20D8ADB9C6FB0F24",
 		["guid_str"] = "glTmAtFj",
-		["id"] = 41,
+		["id"] = 40,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/karas/avg_karas_whoosh_03",
@@ -2605,7 +2576,24 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["F_B_Intensity"] = 0.40000000596046,
+							["F_G_Intensity"] = 0.40000000596046,
+							["F_R_Intensity"] = 1.1499999761581,
+							["F_ScreenLightness"] = 1.0,
+							["F_ScreenSaturation"] = 1.0,
+							["F_Speed"] = 5.0,
+							["F_WaveX"] = -3.0,
+							["F_WaveY"] = 0.4,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SpiritWorld",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 				["config"] = {
@@ -2632,7 +2620,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2647,7 +2635,7 @@
 				},
 			},
 			{
-				["anim"] = "serious_add",
+				["anim"] = "pain_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2665,7 +2653,13 @@
 		},
 		["guid"] = "D7676A1A464EF72A120D2FBB3299FE0E",
 		["guid_str"] = "A5FhiSGZ",
-		["id"] = 42,
+		["id"] = 41,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/karas/avg_karas_whoosh_03",
+				["length"] = 7684,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2682,11 +2676,12 @@
 							["F_WaveX"] = -3.0,
 							["F_WaveY"] = 0.4,
 						},
+						["in_time"] = 0,
 						["is_loop"] = true,
 						["material"] = "MI_UI_SpiritWorld",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2740,7 +2735,7 @@
 		},
 		["guid"] = "C8D788EF48B7138558384B90345153C5",
 		["guid_str"] = "3BAQlPZR",
-		["id"] = 43,
+		["id"] = 42,
 		["name"] = "鸢",
 		["text"] = "唔……！",
 	},
@@ -2764,7 +2759,7 @@
 						["material"] = "MI_UI_SpiritWorld",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2793,7 +2788,7 @@
 				},
 			},
 			{
-				["anim"] = "cold",
+				["anim"] = "struggle",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2819,7 +2814,7 @@
 		},
 		["guid"] = "75C143134754E0349D22D49037BCC380",
 		["guid_str"] = "OIqyug7N",
-		["id"] = 44,
+		["id"] = 43,
 		["name"] = "言御",
 		["text"] = "又是那种精神攻击……好像比之前更猛烈了……躲开……",
 	},
@@ -2843,7 +2838,7 @@
 						["material"] = "MI_UI_SpiritWorld",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2904,7 +2899,7 @@
 		},
 		["guid"] = "9F9D73DA444AAE2736CDA9B87F5901DE",
 		["guid_str"] = "szwRF8WD",
-		["id"] = 45,
+		["id"] = 44,
 	},
 	{
 		["bg_info"] = {
@@ -2926,7 +2921,7 @@
 						["material"] = "MI_UI_SpiritWorld",
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -2966,7 +2961,7 @@
 		},
 		["guid"] = "93E9423348BF5557313799BE5F48B2A1",
 		["guid_str"] = "jayNXXVt",
-		["id"] = 46,
+		["id"] = 45,
 		["name"] = "言御&鸢",
 		["text"] = "！！",
 	},
@@ -2999,7 +2994,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -3057,7 +3052,8 @@
 		},
 		["guid"] = "5436F44F40EF60C7805DC9B012D902A0",
 		["guid_str"] = "0zwBlHvs",
-		["id"] = 47,
+		["id"] = 46,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 	},
 }

@@ -1152,6 +1152,15 @@
 						},
 						["tween"] = "MaterialAttrAnimate",
 					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 400,
+							["time"] = 25,
+						},
+						["tween"] = "Shake",
+					},
 				},
 			},
 			{
@@ -1210,6 +1219,125 @@
 			["effect"] = 4,
 		},
 		["text"] = "啊，好多血，你没事么……你是人是鬼……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]少年浑身鲜红，快要看不清原来衣服的颜色，仔细看去还能看到拇指的折向有些扭曲，像是曾暴力卸开什么东西。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n93reddyq/n93reddyq_action2",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action2",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["attr_key"] = "F_ScreenSaturation",
+							["delay"] = 0,
+							["end_value"] = 0.40000000596046,
+							["start_value"] = 0.40000000596046,
+							["time"] = 0,
+						},
+						["tween"] = "MaterialAttrAnimate",
+					},
+				},
+			},
+		},
+		["guid"] = "549639584962C01B9FC51FA2078AA298",
+		["guid_str"] = "WImrNAwQ",
+		["id"] = 17,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["sound"] = {
+			["event"] = "1",
+			["volume"] = 0.0,
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1307,7 +1435,7 @@
 		},
 		["guid"] = "D7068EA5498486A24CA847A21700A97B",
 		["guid_str"] = "x8wg4i90",
-		["id"] = 17,
+		["id"] = 18,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1424,7 +1552,7 @@
 		},
 		["guid"] = "D7B604E84010F4953AA343858618E122",
 		["guid_str"] = "kqxH3gQq",
-		["id"] = 18,
+		["id"] = 19,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1541,7 +1669,7 @@
 		},
 		["guid"] = "8EA2BBA740EF28C011EC6EB986662978",
 		["guid_str"] = "O6LAQHz6",
-		["id"] = 19,
+		["id"] = 20,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1658,7 +1786,7 @@
 		},
 		["guid"] = "7B2EBDA143F662193C5200B0AE1B4F24",
 		["guid_str"] = "w30EDm9m",
-		["id"] = 20,
+		["id"] = 21,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1775,7 +1903,7 @@
 		},
 		["guid"] = "83EAB9004961D1B74ACE8E85F13EA25D",
 		["guid_str"] = "ZGd2592q",
-		["id"] = 21,
+		["id"] = 22,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -1892,7 +2020,7 @@
 		},
 		["guid"] = "802C2C9F4DB9898FB47F3FAB4231D62A",
 		["guid_str"] = "ST3R95PO",
-		["id"] = 22,
+		["id"] = 23,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2009,7 +2137,7 @@
 		},
 		["guid"] = "BF1BE8034BA90B19C91BA2BAE1AD659A",
 		["guid_str"] = "gz4XzZ9F",
-		["id"] = 23,
+		["id"] = 24,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2121,7 +2249,7 @@
 		},
 		["guid"] = "413181434990DDCB28B32F8FBEC7B24C",
 		["guid_str"] = "MtXDxutL",
-		["id"] = 24,
+		["id"] = 25,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2238,7 +2366,7 @@
 		},
 		["guid"] = "81863CE243A211C88F6E6B86D0D9081E",
 		["guid_str"] = "gV8OaQYy",
-		["id"] = 25,
+		["id"] = 26,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2355,7 +2483,7 @@
 		},
 		["guid"] = "64E6E35943C8DFFB6D83FCAE4C71CD96",
 		["guid_str"] = "2nULz2tm",
-		["id"] = 26,
+		["id"] = 27,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2472,7 +2600,7 @@
 		},
 		["guid"] = "D76C0D974302BCE8795841A8B104CA75",
 		["guid_str"] = "74GCAqHe",
-		["id"] = 27,
+		["id"] = 28,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2589,7 +2717,7 @@
 		},
 		["guid"] = "830B19224528EB9C4C8956B826DE1CBF",
 		["guid_str"] = "reEB0iwF",
-		["id"] = 28,
+		["id"] = 29,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2701,7 +2829,7 @@
 		},
 		["guid"] = "478925A8457E349B892BE281DC428092",
 		["guid_str"] = "2cPXN6eX",
-		["id"] = 29,
+		["id"] = 30,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2818,7 +2946,7 @@
 		},
 		["guid"] = "F4E4A52C41D81BC345A674A99D6980D3",
 		["guid_str"] = "57rkn2AK",
-		["id"] = 30,
+		["id"] = 31,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2935,7 +3063,7 @@
 		},
 		["guid"] = "27A424B34972F3F9C1B795AA3680D2E1",
 		["guid_str"] = "tC81XQhq",
-		["id"] = 31,
+		["id"] = 32,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3052,7 +3180,7 @@
 		},
 		["guid"] = "3D82E1064417EFD0DFB963941861C790",
 		["guid_str"] = "ApKvMJI8",
-		["id"] = 32,
+		["id"] = 33,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3164,7 +3292,7 @@
 		},
 		["guid"] = "26C67EC14A065B9F20207890325BB71C",
 		["guid_str"] = "E5yoToXG",
-		["id"] = 33,
+		["id"] = 34,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3281,7 +3409,7 @@
 		},
 		["guid"] = "D9C2D03B434E399773B4A981B0B82B57",
 		["guid_str"] = "7q3ux4xI",
-		["id"] = 34,
+		["id"] = 35,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3384,7 +3512,7 @@
 		},
 		["guid"] = "580B639147286A4DB7AE48B044FE3A4A",
 		["guid_str"] = "q2Ia5yHh",
-		["id"] = 35,
+		["id"] = 36,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -3446,7 +3574,7 @@
 		},
 		["guid"] = "039FFF2C495AB3F7514785A410690EA8",
 		["guid_str"] = "gvylF2m7",
-		["id"] = 36,
+		["id"] = 37,
 	},
 	{
 		["bg_info"] = {
@@ -3471,7 +3599,7 @@
 		},
 		["guid"] = "65B8481049683FCF67BD45BDAFBE3432",
 		["guid_str"] = "go7VdGiA",
-		["id"] = 37,
+		["id"] = 38,
 		["name"] = "丁苑青",
 		["text"] = "唉，人也找不到，匣子也不知道该怎么使……",
 	},
@@ -3498,7 +3626,7 @@
 		},
 		["guid"] = "4E11D5B042CC421880CFE9A5F3D3C360",
 		["guid_str"] = "svt14yUV",
-		["id"] = 38,
+		["id"] = 39,
 		["name"] = "丁苑青",
 		["text"] = "当务之急还得是找到卫哥，然后再一起去找处刑人……可是人都在哪呢？",
 	},
@@ -3525,7 +3653,7 @@
 		},
 		["guid"] = "7445DF2E41B11F2A9AB61984FC73C4EE",
 		["guid_str"] = "IXWyqPgF",
-		["id"] = 39,
+		["id"] = 40,
 		["name"] = "丁苑青",
 		["text"] = "不，找不到人还不是最糟的，要是我一个人碰到……",
 	},
@@ -3569,7 +3697,7 @@
 		},
 		["guid"] = "C325BF154EC47B970407D49C22BEBAAC",
 		["guid_str"] = "wc2nTO9v",
-		["id"] = 40,
+		["id"] = 41,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -3623,7 +3751,7 @@
 		},
 		["guid"] = "3B0D01E243FAE092B59F0A85DF0E9D1B",
 		["guid_str"] = "rAb5Qqwz",
-		["id"] = 41,
+		["id"] = 42,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -3659,7 +3787,7 @@
 		},
 		["guid"] = "787095C94C1AF82FCD5767BA44D268BA",
 		["guid_str"] = "aKS1vOdS",
-		["id"] = 42,
+		["id"] = 43,
 		["name"] = "处刑人",
 		["text"] = "…………",
 	},
@@ -3723,7 +3851,7 @@
 		},
 		["guid"] = "43ADBBEA471FD4D7EDE5548B83586609",
 		["guid_str"] = "TUFRzp4b",
-		["id"] = 43,
+		["id"] = 44,
 		["name"] = "丁苑青",
 		["text"] = "你好——",
 	},
@@ -3805,7 +3933,7 @@
 		},
 		["guid"] = "3CAD908C4F8C5329A640EFB7D4E41A8D",
 		["guid_str"] = "nCxcXc0h",
-		["id"] = 44,
+		["id"] = 45,
 		["soundfx"] = {
 			{
 				["delay"] = 200,
@@ -3868,7 +3996,7 @@
 		},
 		["guid"] = "E59CFDDF41016D377E2D63977766ADB7",
 		["guid_str"] = "RAN97ZPE",
-		["id"] = 45,
+		["id"] = 46,
 		["name"] = "丁苑青",
 		["soundfx"] = {
 			{
@@ -3913,7 +4041,7 @@
 		},
 		["guid"] = "09CB40424642ED92028FCFB48886C53D",
 		["guid_str"] = "Zsmj6GUb",
-		["id"] = 46,
+		["id"] = 47,
 	},
 	{
 		["bg_info"] = {
@@ -3991,7 +4119,7 @@
 		},
 		["guid"] = "6E02D7D942EB1EB5B61E2D8F54901A20",
 		["guid_str"] = "2KH8xTPO",
-		["id"] = 47,
+		["id"] = 48,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
@@ -4022,7 +4150,7 @@
 		},
 		["guid"] = "38F618774E0D23F630C46E8FAF374D3F",
 		["guid_str"] = "7dfWeRBM",
-		["id"] = 48,
+		["id"] = 49,
 		["name"] = "丁苑青",
 		["speaker_info"] = {
 			["anim"] = "anger",
@@ -4071,7 +4199,7 @@
 		},
 		["guid"] = "0341E6CB413B8D28A9789A93101ECD0F",
 		["guid_str"] = "riPu0V7b",
-		["id"] = 49,
+		["id"] = 50,
 		["soundfx"] = {
 			{
 				["event"] = "event:/ui/advse/1-08-sword-hit",
@@ -4103,7 +4231,7 @@
 		},
 		["guid"] = "96F1F7684942E1002FFBDAABE4EC461E",
 		["guid_str"] = "gO3HCeiP",
-		["id"] = 50,
+		["id"] = 51,
 		["speaker_info"] = {
 			["anim"] = "anger",
 			["material"] = "M_UI_SpinePortrait",
@@ -4119,7 +4247,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4143,12 +4271,12 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -4169,7 +4297,7 @@
 		},
 		["guid"] = "E714230A4A8F1F1DDC236E80D16ADF41",
 		["guid_str"] = "zqQ7d1qI",
-		["id"] = 51,
+		["id"] = 52,
 		["just_auto_play"] = true,
 		["speaker_info"] = {
 			["anim"] = "anger",
@@ -4202,7 +4330,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -4213,7 +4341,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -4225,7 +4353,7 @@
 		},
 		["guid"] = "DC4ED4344340F345327A39893EDCF7BC",
 		["guid_str"] = "4ijadqMo",
-		["id"] = 52,
+		["id"] = 53,
 		["name"] = "姜宁",
 		["speaker_info"] = {
 			["anim"] = "anger",
@@ -4277,7 +4405,7 @@
 					},
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -4289,7 +4417,7 @@
 		},
 		["guid"] = "6E23940547FB74B37F7341B9B9FBB234",
 		["guid_str"] = "y5XP1NLv",
-		["id"] = 53,
+		["id"] = 54,
 		["name"] = "十手卫",
 		["speaker_info"] = {
 			["anim"] = "anger",
@@ -4342,7 +4470,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -4387,7 +4515,7 @@
 		},
 		["guid"] = "6C295204411707585B32249929CF1231",
 		["guid_str"] = "HnHiUvol",
-		["id"] = 54,
+		["id"] = 55,
 		["name"] = "刑舟？",
 		["speaker_info"] = {
 			["anim"] = "anger",
@@ -4439,7 +4567,7 @@
 		},
 		["guid"] = "C7957A364960A9CC5E89FFAA6350E32E",
 		["guid_str"] = "CEoVG8mF",
-		["id"] = 55,
+		["id"] = 56,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/enemy/b03xz/b03xzhou_skill_slot06_c",
@@ -4473,7 +4601,7 @@
 		},
 		["guid"] = "7C1F29CD41A9AEC2DDB51A8B51CD2CFD",
 		["guid_str"] = "vvlbkHlf",
-		["id"] = 56,
+		["id"] = 57,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {

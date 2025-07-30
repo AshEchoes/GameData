@@ -7,13 +7,13 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -34,16 +34,25 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[size 17]看着满地躺倒的敌人，二人依然选择留在下面的侧墙观察。[br][br][size 17]余波还没过去，鸢的视线落出窗外，企图暗自平复一下不适感，却忽然捕捉到屏蔽外墙出现了一瞬间又立刻消失的闪动。",
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]看着满地躺倒的敌人，二人依然选择留在下面的侧墙观察。\n\n[size 17]余波还没过去，鸢的视线落出窗外，企图暗自平复一下不适感，\n\n却忽然捕捉到屏蔽外墙出现了一瞬间又立刻消失的闪动。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "0151908A451092204E9916A4D43D4B0C",
 		["guid_str"] = "2VehWKyb",
@@ -52,14 +61,14 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "pain_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -131,14 +140,14 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "pain_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -192,14 +201,14 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal_add",
+				["anim"] = "pain_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -221,7 +230,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "struggle",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -254,7 +263,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -305,7 +314,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -334,7 +343,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -367,7 +376,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -418,7 +427,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -475,7 +484,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -485,6 +494,15 @@
 			["height"] = 200,
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[size 16]「瞳」……系统显示屏蔽器有不同程度的损坏，情况如何？",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 700,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -493,12 +511,6 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["body_anim"] = "default_loop",
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "af35sy/af35sy_action2",
 				["pos"] = {
@@ -523,12 +535,6 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am56yy/am56yy_action1",
 				["pos"] = {
@@ -552,6 +558,9 @@
 		["guid"] = "D853D10C435A6C656E4C37962C26C0AD",
 		["guid_str"] = "jSgajGKN",
 		["id"] = 10,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -562,7 +571,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -574,9 +583,15 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[br][br][size 16]「波丝」唔……3号屏蔽器外壳出现裂痕，还在不断扩大，有损毁的危险。",
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_AM9QjX5w",
+		},
 		["guid"] = "5570C3AB40FF1155631E5FA92596937E",
 		["guid_str"] = "AM9QjX5w",
 		["id"] = 11,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -587,7 +602,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -599,9 +614,15 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[br][br][size 16]「孔秘书」情况不妙……这样下去不说屏蔽外墙会失效，其他屏蔽器也会因压力过大报废。",
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_MhIBbFhL",
+		},
 		["guid"] = "6B179E474DC3F115FEC97B8C4C2D53D8",
 		["guid_str"] = "MhIBbFhL",
 		["id"] = 12,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -612,7 +633,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -624,9 +645,15 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[br][br][size 16]「霍冉」等一下，我这边围观凑热闹的人忽然行为怪异……等一下别打！停手！[c a3bdc8][**森罗文明语**][/c]，有几个已经互相打起来了！",
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_C0KKh9u9",
+		},
 		["guid"] = "B65D09A043CF44E921384C92144E0B26",
 		["guid_str"] = "C0KKh9u9",
 		["id"] = 13,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -637,7 +664,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -648,9 +675,15 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[size 16]「瞳」看来是屏障出现缝隙，琴初的力量在不断外泄，影响到了那些普通人。",
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_UfUcUcBf",
+		},
 		["guid"] = "E9C86CDA408AE0A2D5226CAAEFA6EE14",
 		["guid_str"] = "CgqCgecS",
 		["id"] = 14,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -661,7 +694,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -673,9 +706,15 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[br][br][size 16]「瞳」通知各待机小队出动，尽量阻止。",
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_zq7H5BiZ",
+		},
 		["guid"] = "1E5F552446B994331AE9A985800A4631",
 		["guid_str"] = "zq7H5BiZ",
 		["id"] = 15,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -686,7 +725,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -698,9 +737,15 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[br][br][size 16]「霍冉」已经在行动了！但这次的精神攻击范围比之前还要大，周围的人也更多，感觉来不及！",
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_50bG6kRo",
+		},
 		["guid"] = "3EA48FED469EFFFA5EB81CAFC78639DD",
 		["guid_str"] = "50bG6kRo",
 		["id"] = 16,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -711,7 +756,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -723,9 +768,15 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[br][br][size 16]「瞳」屏蔽器的原理是和X能攻击互相抵消，3号支撑不住，需要立刻注入大量X能。",
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_UfUcUcBf",
+		},
 		["guid"] = "4E1B66B1471213F01018A7AC62B12104",
 		["guid_str"] = "UfUcUcBf",
 		["id"] = 17,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -736,7 +787,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -748,9 +799,15 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[br][br][size 16]「波丝」但是现在注入后备能量，屏蔽器会无法坚持到行动结束，敌人的攻击刚刚开始，危险还在后面。",
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_KuXmOhWM",
+		},
 		["guid"] = "35D07CD04E1D1B6C1C7C1BB32C04E2F8",
 		["guid_str"] = "KuXmOhWM",
 		["id"] = 18,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -761,7 +818,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -836,7 +893,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -897,7 +954,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -948,7 +1005,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -977,7 +1034,7 @@
 				},
 			},
 			{
-				["anim"] = "doubt",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1010,7 +1067,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1071,7 +1128,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1100,7 +1157,7 @@
 				},
 			},
 			{
-				["anim"] = "doubt",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1133,7 +1190,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1213,7 +1270,7 @@
 						["out_time"] = 500,
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1283,7 +1340,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1347,7 +1404,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1408,7 +1465,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1466,7 +1523,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1528,7 +1585,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1579,7 +1636,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1589,6 +1646,15 @@
 			["height"] = 200,
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[size 16]「柚理」你们看！最上面那个钢架！",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -1656,6 +1722,9 @@
 		["guid"] = "FD8F2E494AEDD36E38644D9B7CDA39EA",
 		["guid_str"] = "Igb0AXH7",
 		["id"] = 32,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -1666,7 +1735,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1678,9 +1747,15 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[br][br][size 16]「瞳」准备充能！",
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_GyLW4x01",
+		},
 		["guid"] = "37E90E7E466DE9B0D09CB099D5520D1A",
 		["guid_str"] = "GyLW4x01",
 		["id"] = 33,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -1691,7 +1766,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1703,9 +1778,15 @@
 			["mask_alpha"] = 0.80000001192093,
 			["text"] = "[br][br][size 16]「波丝」需要15秒时间！不一定来得及！",
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_eb2UiC98",
+		},
 		["guid"] = "C27816094318F7686458A18252733E9A",
 		["guid_str"] = "eb2UiC98",
 		["id"] = 34,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -1716,7 +1797,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1726,11 +1807,17 @@
 			["height"] = 200,
 			["is_append"] = true,
 			["mask_alpha"] = 0.80000001192093,
-			["text"] = "[br][br][size 16]「霍冉」该死！田警官和我一起去把这个钢架冲开！后面是湖！",
+			["text"] = "[br][br][size 16]「霍冉」田警官和我一起去把这个钢架冲开！后面是湖！",
+		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_oCx6bFVP",
 		},
 		["guid"] = "4B9FC53942614E17BDDC07B336FCD548",
 		["guid_str"] = "oCx6bFVP",
 		["id"] = 35,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/5/chat_message_notify",
@@ -1741,7 +1828,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1760,7 +1847,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1780,7 +1867,7 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1820,7 +1907,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_clock_04.png",
 			},
 			{
 			},
@@ -1841,9 +1928,16 @@
 				},
 			},
 		},
+		["extra_sound"] = {
+			["event"] = "voice_ch_quest_story_episode5057_kGQJJA74",
+			["volume"] = 2.0,
+		},
 		["guid"] = "A655B6F34D3DD8131BDA44A3C30A59D1",
 		["guid_str"] = "1UZAL5Zx",
 		["id"] = 39,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/9/avg_chapter9_metal_impact_ground",
@@ -1855,6 +1949,11 @@
 				["length"] = 30030,
 				["stop"] = 1,
 			},
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_glass_break",
+				["length"] = 5650,
+				["volume"] = 2.0,
+			},
 		},
 	},
 	{
@@ -1864,7 +1963,6 @@
 					["video"] = {
 						["is_queue"] = true,
 						["is_stage"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_e2_yuan_in.bk2",
 					},
 				},
 				["path"] = "",
@@ -1875,6 +1973,72 @@
 		["guid"] = "4B2F074E4A38F0502FAAE886FD923100",
 		["guid_str"] = "UAGyQcKb",
 		["id"] = 40,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["count"] = -1,
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter09/cg_9_e2_yuan_loop.bk2",
+				["play_delay_time"] = 1000,
+				["sustain_page_count"] = 4,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 600,
+							["delay_page"] = 3,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter09/cg_9_e2_yuan_in.bk2",
+				["sustain_page_count"] = 4,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 600,
+							["delay_page"] = 3,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -1892,28 +2056,6 @@
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_e2_yuan_loop.bk2",
-					},
-				},
-				["path"] = "",
-			},
-			{
-			},
-		},
-		["guid"] = "D802B65B4BCEB66727FFFF92CCACEA18",
-		["guid_str"] = "kGQJJA74",
-		["id"] = 41,
-		["name"] = "鸢",
-		["text"] = "！！！！",
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["video"] = {
-						["count"] = -1,
-						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_e2_yuan_loop.bk2",
 					},
 				},
 				["path"] = "",
@@ -1924,12 +2066,13 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]如同利剑一般，月光骤然划破乌云，劈开阴沉的天幕。",
 			["text_align"] = "center",
 		},
 		["guid"] = "368297DA4009B2E49E3B7E978A300636",
 		["guid_str"] = "okrVoZAE",
-		["id"] = 42,
+		["id"] = 41,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/player/af35sy/af35sy_skill_ultra_b",
@@ -1945,7 +2088,6 @@
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_e2_yuan_loop.bk2",
 					},
 				},
 				["path"] = "",
@@ -1956,28 +2098,21 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]鸢竭力举起手中的弩，对准了自己的目标。",
 			["text_align"] = "center",
 		},
 		["guid"] = "4DFED5D34B384A77D67E9E9FD2A472A0",
 		["guid_str"] = "Su7odk3C",
-		["id"] = 43,
-		["soundfx"] = {
-			{
-				["event"] = "event:/sfx/player/af35sy/af35sy_skill_ultra_d_shot",
-				["length"] = 3625,
-				["loop"] = 1,
-			},
-		},
+		["id"] = 42,
 	},
 	{
 		["bg_info"] = {
 			{
 				["config"] = {
 					["video"] = {
+						["count"] = -1,
 						["is_queue"] = true,
-						["is_stage"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_e2_yuan_out.bk2",
 					},
 				},
 				["path"] = "",
@@ -1988,19 +2123,67 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]嗖——[br][br][size 17]被倾注全部力量的箭矢猛地离弦，比月光还要耀眼的光芒刺破一切阻碍，在空中划出一道曲线。",
+			["mask_alpha"] = 0.5,
 			["text_align"] = "center",
 		},
-		["guid"] = "7C0894B74219188C88C949AD1D36B67D",
-		["guid_str"] = "fmNxW5DI",
-		["id"] = 44,
-		["soundfx"] = {
+		["extra_sound"] = {
+			["delay"] = 1400,
+		},
+		["guid"] = "D802B65B4BCEB66727FFFF92CCACEA18",
+		["guid_str"] = "kGQJJA74",
+		["id"] = 43,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
 			{
-				["event"] = "event:/sfx/story/blackout/avg_blackout_leaves_wind-001",
-				["length"] = 7750,
-				["loop"] = 1,
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter09/cg_9_e2_yuan_out.bk2",
+				["play_delay_time"] = 300,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+				["z_order"] = 3,
 			},
 		},
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
+		["sound_control"] = {
+			["effect"] = 4,
+		},
+		["soundfx"] = {
+			{
+				["delay"] = 1400,
+				["event"] = "event:/sfx/player/af35sy/af35sy_skill_ultra_d_shot",
+				["length"] = 3625,
+				["volume"] = 3.0,
+			},
+			{
+				["event"] = "event:/sfx/player/af35sy/af35sy_skill_slot02_trackb",
+				["length"] = 2742,
+			},
+		},
+		["time"] = 3500,
 	},
 	{
 		["bg_info"] = {
@@ -2031,18 +2214,18 @@
 			},
 		},
 		["caption_info"] = {
-			["text"] = "[size 17]急速的下坠让她来不及仔细观察，钢架也好，装置也好，她的箭矢是否按照她预想的轨迹行进。",
+			["text"] = "[size 17]被倾注全部力量的箭矢猛地离弦，比月光还要耀眼的光芒刺破一切阻碍，在空中划出一道曲线。\n\n[size 17]急速的下坠让她来不及仔细观察，钢架也好，装置也好，她的箭矢是否按照她预想的轨迹行进。",
 			["text_align"] = "center",
 		},
 		["guid"] = "8C165B7E4DF509A7E5CD32BB008503AE",
 		["guid_str"] = "MJd113wa",
-		["id"] = 45,
+		["id"] = 44,
+		["is_white_base_bg"] = true,
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/player/af35sy/af35sy_skill_slot02_trackb",
-				["length"] = 2742,
+				["event"] = "event:/sfx/story/blackout/avg_blackout_leaves_wind-001",
+				["length"] = 7750,
 				["loop"] = 1,
-				["volume"] = 0.5,
 			},
 		},
 	},
@@ -2073,7 +2256,7 @@
 		},
 		["guid"] = "9A4935EB4BB745178382C08179AE4BC3",
 		["guid_str"] = "za1ARnnD",
-		["id"] = 46,
+		["id"] = 45,
 		["name"] = "鸢",
 		["speaker_info"] = {
 			["anim"] = "closeeyeserious_add",
@@ -2083,7 +2266,6 @@
 				-70,
 				0,
 			},
-			["path"] = "af35sy/af35sy_action1",
 			["scale"] = {
 				0.89999997615814,
 				0.89999997615814,
@@ -2117,7 +2299,7 @@
 		},
 		["guid"] = "48CB38CD42E3613EF539728DF4012485",
 		["guid_str"] = "xf9hgLhj",
-		["id"] = 47,
+		["id"] = 46,
 	},
 	{
 		["bg_info"] = {
@@ -2148,7 +2330,7 @@
 		},
 		["guid"] = "161DBCD44CB2C10FC2E28ABD81DF99CF",
 		["guid_str"] = "FP1qJqqT",
-		["id"] = 48,
+		["id"] = 47,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
@@ -2167,17 +2349,23 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
 					["tween"] = {
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 500,
+								["time"] = 900,
 							},
 							["tween"] = "FadeIn",
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 				["path"] = "interface/resource/Game/Dialog00SceneBG/bg_sky_02.png",
@@ -2215,7 +2403,7 @@
 		},
 		["guid"] = "E16192EC4A910428F80A60A5C5417C1E",
 		["guid_str"] = "edDKK3ol",
-		["id"] = 49,
+		["id"] = 48,
 		["name"] = "鸢",
 		["soundfx"] = {
 			{
@@ -2229,7 +2417,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -2287,7 +2483,7 @@
 		},
 		["guid"] = "D156B4904944F22CC57AFFA1318DE36A",
 		["guid_str"] = "AlfY6giW",
-		["id"] = 50,
+		["id"] = 49,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -2299,7 +2495,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -2353,14 +2557,22 @@
 		},
 		["guid"] = "9477F9A74C447F77E64B22A8B86CA315",
 		["guid_str"] = "XeG3T4zB",
-		["id"] = 51,
+		["id"] = 50,
 		["name"] = "波丝",
 		["text"] = "鸢小姐没受伤吧？",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -2406,14 +2618,22 @@
 		},
 		["guid"] = "18E7682A44C19C68E7264E865CD981A7",
 		["guid_str"] = "VXOay3Gz",
-		["id"] = 52,
+		["id"] = 51,
 		["name"] = "鸢",
 		["text"] = "……我没事，谢谢你，波丝小姐。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -2459,14 +2679,22 @@
 		},
 		["guid"] = "22EC8A6B43E1CE45640CD283486550CA",
 		["guid_str"] = "k5NGrRhM",
-		["id"] = 53,
+		["id"] = 52,
 		["name"] = "鸢",
 		["text"] = "也谢谢言先生，没有两位，我刚刚恐怕就要摔死了。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -2518,14 +2746,39 @@
 		},
 		["guid"] = "49AEA34A4660D2AD22C22CB4379C8062",
 		["guid_str"] = "Gmkg3kOO",
-		["id"] = 54,
-		["name"] = "言御",
+		["id"] = 53,
+		["name"] = "言御·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "不客气，只是跳出去之前如果和我说一声就好了。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -2651,7 +2904,7 @@
 		},
 		["guid"] = "561E834B4E1E09A466642D81B832B4E3",
 		["guid_str"] = "3i3wyiHk",
-		["id"] = 55,
+		["id"] = 54,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -2669,7 +2922,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -2720,14 +2981,22 @@
 		},
 		["guid"] = "9E0A5FE841557CE77644178D4BC043AB",
 		["guid_str"] = "ZwPUtvAi",
-		["id"] = 56,
+		["id"] = 55,
 		["name"] = "波丝",
 		["text"] = "谢谢鸢小姐帮忙，屏蔽装置恢复运作了，路人的影响也基本消失了。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -2770,14 +3039,22 @@
 		},
 		["guid"] = "7F5569D04F72E683E62359B3D5248C31",
 		["guid_str"] = "1EXPxC4v",
-		["id"] = 57,
+		["id"] = 56,
 		["name"] = "鸢",
 		["text"] = "那就好……",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -2851,12 +3128,20 @@
 		},
 		["guid"] = "DD65C4754528E32439282D8D5010E822",
 		["guid_str"] = "ekFA2iLJ",
-		["id"] = 58,
+		["id"] = 57,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -2905,14 +3190,39 @@
 		},
 		["guid"] = "65ACA2C64A91A823172F068F644A2121",
 		["guid_str"] = "xGFtP3Gy",
-		["id"] = 59,
-		["name"] = "言御",
+		["id"] = 58,
+		["name"] = "言御·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "鸢小姐，我的能力可能没办法送你进来——",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -2955,14 +3265,22 @@
 		},
 		["guid"] = "98FA307C49F37BA2FE98249B55167719",
 		["guid_str"] = "vUJOeVMo",
-		["id"] = 60,
+		["id"] = 59,
 		["name"] = "鸢",
 		["text"] = "我知道。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -3005,14 +3323,22 @@
 		},
 		["guid"] = "5BE40CCD4AEFC03595DD72BC451DF469",
 		["guid_str"] = "LXuxnZ1a",
-		["id"] = 61,
+		["id"] = 60,
 		["name"] = "鸢",
 		["text"] = "我知道……没关系。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -3055,14 +3381,22 @@
 		},
 		["guid"] = "58C0844143677C5A1FE479B70FBC81E1",
 		["guid_str"] = "R8jqcTFc",
-		["id"] = 62,
+		["id"] = 61,
 		["name"] = "鸢",
 		["text"] = "抱歉刚刚没来得及和言先生说就脑子一热跳了下来，言先生自己多小心，也请代我和监督他们道歉。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -3111,14 +3445,39 @@
 		},
 		["guid"] = "0A58B436426699151DC1058809CC26D1",
 		["guid_str"] = "Rc01FKGs",
-		["id"] = 63,
-		["name"] = "言御",
+		["id"] = 62,
+		["name"] = "言御·通讯中",
+		["sound_control"] = {
+			["effect"] = 32,
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["is_overlay_video"] = true,
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				110,
+				24,
+			},
+			["path"] = "vein/vein_action1",
+			["scale"] = {
+				0.98000001907349,
+				0.98000001907349,
+			},
+		},
 		["text"] = "好，我明白了。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -3161,14 +3520,22 @@
 		},
 		["guid"] = "882CFC764960591BA154FE93C6F52E20",
 		["guid_str"] = "cfJI58aQ",
-		["id"] = 64,
+		["id"] = 63,
 		["name"] = "言御&波丝",
 		["text"] = "鸢小姐。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -3211,12 +3578,20 @@
 		},
 		["guid"] = "82EEA9414D00E1F96265028324566D95",
 		["guid_str"] = "dCXRD61m",
-		["id"] = 65,
+		["id"] = 64,
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -3259,14 +3634,22 @@
 		},
 		["guid"] = "098F100345D965E0F3ABA29303E9F432",
 		["guid_str"] = "SJRHoZHd",
-		["id"] = 66,
+		["id"] = 65,
 		["name"] = "言御&波丝",
 		["text"] = "很漂亮的箭。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -3344,7 +3727,7 @@
 		},
 		["guid"] = "78D04E49407487344BB4FD87C83D00CA",
 		["guid_str"] = "QxzkQIP0",
-		["id"] = 67,
+		["id"] = 66,
 		["sound_control"] = {
 			["effect"] = 4,
 		},
@@ -3352,7 +3735,15 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -3382,14 +3773,22 @@
 		},
 		["guid"] = "6082805C4FAA01BF6F271E9BE52C5ED3",
 		["guid_str"] = "hQX7N6Ae",
-		["id"] = 68,
+		["id"] = 67,
 		["name"] = "鸢",
 		["text"] = "………………………………………………",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
 			},
@@ -3410,16 +3809,45 @@
 		},
 		["guid"] = "FBDE7880497EBC28DA4F728D44A01937",
 		["guid_str"] = "HW9Z4ci8",
-		["id"] = 69,
+		["id"] = 68,
 		["name"] = "鸢",
 		["text"] = "谢谢。",
 	},
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["config"] = {
+					["color"] = {
+						0.2352941185236,
+						0.27450981736183,
+						0.40392157435417,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_school_15.png",
 			},
 			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
 			},
 		},
 		["caption_info"] = {
@@ -3444,7 +3872,7 @@
 		},
 		["guid"] = "711E88DB422D3D18F4ABA0A63B2F3427",
 		["guid_str"] = "VXUPQPFE",
-		["id"] = 70,
+		["id"] = 69,
 	},
 	{
 		["bg_info"] = {
@@ -3485,7 +3913,7 @@
 		},
 		["guid"] = "C2D7A0724A5DF11E691283AD436CBB62",
 		["guid_str"] = "sYr0kDef",
-		["id"] = 71,
+		["id"] = 70,
 	},
 	{
 		["bg_info"] = {
@@ -3528,7 +3956,7 @@
 		},
 		["guid"] = "F9FB0DC74A680361DF92D4BFBB6E9FC5",
 		["guid_str"] = "r4bI7O3L",
-		["id"] = 72,
+		["id"] = 71,
 		["name"] = "鸢",
 		["text"] = "嗯？",
 	},
@@ -3573,7 +4001,7 @@
 		},
 		["guid"] = "EF8B938D4C330F605BD1F58596E99962",
 		["guid_str"] = "UHvHenPF",
-		["id"] = 73,
+		["id"] = 72,
 		["soundfx"] = {
 			{
 				["delay"] = 200,
@@ -3688,7 +4116,7 @@
 		},
 		["guid"] = "10E7DB0342CCC943BD9BCEB68DE9D16D",
 		["guid_str"] = "t7g3ByTx",
-		["id"] = 74,
+		["id"] = 73,
 		["just_auto_play"] = true,
 		["time"] = 1000,
 	},
@@ -3762,7 +4190,7 @@
 		},
 		["guid"] = "03BBB44046DB83178CB5A5AFBBE44D50",
 		["guid_str"] = "OyH9RjQZ",
-		["id"] = 75,
+		["id"] = 74,
 		["name"] = "鸢",
 		["soundfx"] = {
 			{
@@ -3854,7 +4282,7 @@
 		},
 		["guid"] = "01A64F4B40D9F3EFC7DFC9ADDDC65226",
 		["guid_str"] = "MstRNvZy",
-		["id"] = 76,
+		["id"] = 75,
 		["name"] = "短发女孩",
 		["text"] = "……",
 	},
@@ -3939,7 +4367,7 @@
 		},
 		["guid"] = "583B6EC743ED9E96B15DA18DEED8E8B0",
 		["guid_str"] = "wMDVydZT",
-		["id"] = 77,
+		["id"] = 76,
 		["name"] = "长发女孩",
 		["text"] = "你受伤了？呜，伤口很疼吧，我给你吹吹，呼……呼……",
 	},
@@ -4024,7 +4452,7 @@
 		},
 		["guid"] = "5DE6527246CDA66B3BF16B8F3E33B8E5",
 		["guid_str"] = "bzHfJVas",
-		["id"] = 78,
+		["id"] = 77,
 		["name"] = "短发女孩",
 		["text"] = "不用，我没事的。",
 	},
@@ -4098,7 +4526,7 @@
 		},
 		["guid"] = "E6A6320E46A752758749F48BD5232058",
 		["guid_str"] = "iDtldtqW",
-		["id"] = 79,
+		["id"] = 78,
 		["name"] = "鸢",
 		["text"] = "别担心，是轻微的擦伤，养几天就会好的。",
 	},
@@ -4172,7 +4600,7 @@
 		},
 		["guid"] = "33F411314EC148F0826DA4B138B1C40A",
 		["guid_str"] = "cFBhKL9g",
-		["id"] = 80,
+		["id"] = 79,
 		["name"] = "鸢",
 		["text"] = "你们两个是自己来的么？爸爸妈妈呢？",
 	},
@@ -4257,7 +4685,7 @@
 		},
 		["guid"] = "5BD7D6D1458971DDE9802A83E85E3DFE",
 		["guid_str"] = "8chIJH9N",
-		["id"] = 81,
+		["id"] = 80,
 		["name"] = "长发女孩",
 		["text"] = "……",
 	},
@@ -4331,7 +4759,7 @@
 		},
 		["guid"] = "58991DED44562057878847ADD3E3A048",
 		["guid_str"] = "y37mhKjz",
-		["id"] = 82,
+		["id"] = 81,
 		["name"] = "鸢",
 		["text"] = "你们……不会是偷偷溜出来的吧？",
 	},
@@ -4416,7 +4844,7 @@
 		},
 		["guid"] = "2C264FEC4026C72A45AC0597D60F4244",
 		["guid_str"] = "m1FqW2AS",
-		["id"] = 83,
+		["id"] = 82,
 		["name"] = "短发女孩",
 		["text"] = "是我……",
 	},
@@ -4501,7 +4929,7 @@
 		},
 		["guid"] = "B1EC5EA0436827FE899E79A9743E9A57",
 		["guid_str"] = "R8VOIUso",
-		["id"] = 84,
+		["id"] = 83,
 		["name"] = "长发女孩",
 		["text"] = "是我的主意，明天是我的生日，之前听人说全视钟塔会在这一天敲响，我就拉着她出来，想要看完敲钟再回去……",
 	},
@@ -4586,7 +5014,7 @@
 		},
 		["guid"] = "52FF32724774E08198A25198C48CC442",
 		["guid_str"] = "Wi4O9CSr",
-		["id"] = 85,
+		["id"] = 84,
 		["name"] = "长发女孩",
 		["text"] = "没想到会让你受伤……早知道我绝对不会出来的。",
 	},
@@ -4660,7 +5088,7 @@
 		},
 		["guid"] = "02AF825A42DFBF35C6F24F9E11B93282",
 		["guid_str"] = "iLucfHOF",
-		["id"] = 86,
+		["id"] = 85,
 		["name"] = "鸢",
 		["text"] = "你的心情我明白，可这样实在太不安全了。我还是送你们回家吧，好么？",
 	},
@@ -4745,7 +5173,7 @@
 		},
 		["guid"] = "DB4DF98241145BF49FBDA2BEABFB516B",
 		["guid_str"] = "LH8jqsOf",
-		["id"] = 87,
+		["id"] = 86,
 		["name"] = "长发女孩",
 		["text"] = "不用了大姐姐，我们家就在那边，走十分钟就到。",
 	},
@@ -4825,7 +5253,7 @@
 		},
 		["guid"] = "538C75574BC6D7B62F6A9BB37D24E841",
 		["guid_str"] = "9s3wq2f8",
-		["id"] = 88,
+		["id"] = 87,
 	},
 	{
 		["bg_info"] = {
@@ -4897,7 +5325,7 @@
 		},
 		["guid"] = "3544FFD144EA974743FF3F86FC7D6CDA",
 		["guid_str"] = "chSvniR6",
-		["id"] = 89,
+		["id"] = 88,
 		["name"] = "鸢",
 		["text"] = "等一下。",
 	},
@@ -5017,7 +5445,7 @@
 		},
 		["guid"] = "076BFA0648F1E5012852EF8F0BC8D39F",
 		["guid_str"] = "xoJejLWn",
-		["id"] = 90,
+		["id"] = 89,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -5102,7 +5530,7 @@
 		},
 		["guid"] = "86A0EC0C4C9E153402D4519CA0B28D0F",
 		["guid_str"] = "bg8qiWo2",
-		["id"] = 91,
+		["id"] = 90,
 		["name"] = "鸢",
 		["text"] = "送给你们。",
 	},
@@ -5187,7 +5615,7 @@
 		},
 		["guid"] = "4CCEC53F47CFB4E52C7FD8ACD1E25395",
 		["guid_str"] = "Hmot5fbI",
-		["id"] = 92,
+		["id"] = 91,
 		["name"] = "长发女孩",
 		["text"] = "啊，这个头饰好好看……真的要送给我们？姐姐你看起来很珍惜它们。",
 	},
@@ -5261,7 +5689,7 @@
 		},
 		["guid"] = "5D0220A74EE1C369F3086FB0CF9F6FE4",
 		["guid_str"] = "ARKe1rzC",
-		["id"] = 93,
+		["id"] = 92,
 		["name"] = "鸢",
 		["text"] = "虽然这个礼物也很难弥补没看成敲钟仪式的遗憾，不过，生日快乐。已经过了零点，应该可以说了吧。",
 	},
@@ -5346,7 +5774,7 @@
 		},
 		["guid"] = "5E0D4F8C4AB82A8F93E72694BF4E3812",
 		["guid_str"] = "g4SrtgcV",
-		["id"] = 94,
+		["id"] = 93,
 		["name"] = "短发女孩",
 		["text"] = "啊，生日快乐！",
 	},
@@ -5431,7 +5859,7 @@
 		},
 		["guid"] = "BF45BFD94D43703ED09E2AB796C23255",
 		["guid_str"] = "zeXYcBJv",
-		["id"] = 95,
+		["id"] = 94,
 		["name"] = "长发女孩",
 		["text"] = "嘿嘿，谢谢！",
 	},
@@ -5516,7 +5944,7 @@
 		},
 		["guid"] = "287460FB4640FA290CCB00B324A003FF",
 		["guid_str"] = "fO3z5EbC",
-		["id"] = 96,
+		["id"] = 95,
 		["name"] = "短发女孩",
 		["text"] = "我也可以有礼物么？可是……妈妈说不能随便接受别人的东西。",
 	},
@@ -5590,7 +6018,7 @@
 		},
 		["guid"] = "CE4AD625424E851A7809839A50A3A8EE",
 		["guid_str"] = "g7YnkwNw",
-		["id"] = 97,
+		["id"] = 96,
 		["name"] = "鸢",
 		["text"] = "这是祝福，也是奖励，因为你刚刚很勇敢地保护着自己的朋友。",
 	},
@@ -5664,7 +6092,7 @@
 		},
 		["guid"] = "C21CA12D44CC38176BC1BA8FE6AF505A",
 		["guid_str"] = "wfT5lEfe",
-		["id"] = 98,
+		["id"] = 97,
 		["name"] = "鸢",
 		["text"] = "以前我的朋友也像你一样勇敢，我很珍惜她，也很感谢她，就想着送给她这样一份礼物，和我的刚好凑成一对。",
 	},
@@ -5738,7 +6166,7 @@
 		},
 		["guid"] = "428766C5451EB28B3AE213950346C44F",
 		["guid_str"] = "jg1INYVr",
-		["id"] = 99,
+		["id"] = 98,
 		["name"] = "鸢",
 		["text"] = "现在……你们或许更适合它。",
 	},
@@ -5818,7 +6246,7 @@
 		},
 		["guid"] = "88089DE14C5641105873FEBD943C864B",
 		["guid_str"] = "fEzNoM3q",
-		["id"] = 100,
+		["id"] = 99,
 	},
 	{
 		["bg_info"] = {
@@ -5901,7 +6329,7 @@
 		},
 		["guid"] = "D9D0003A4FA938B555D18FB70029B968",
 		["guid_str"] = "ipZVJ56W",
-		["id"] = 101,
+		["id"] = 100,
 		["name"] = "短发女孩",
 		["text"] = "但是……",
 	},
@@ -5981,7 +6409,7 @@
 		},
 		["guid"] = "7351B19248035399536B69BBA8C3A605",
 		["guid_str"] = "fzjbLVMJ",
-		["id"] = 102,
+		["id"] = 101,
 	},
 	{
 		["bg_info"] = {
@@ -6064,7 +6492,7 @@
 		},
 		["guid"] = "FA42A2A540A34F4EF53EDF84A18D1D98",
 		["guid_str"] = "MD4mc3jU",
-		["id"] = 103,
+		["id"] = 102,
 		["name"] = "短发女孩",
 		["text"] = "……",
 	},
@@ -6149,7 +6577,7 @@
 		},
 		["guid"] = "DA066C9B49609E62E0BF02818CB4D774",
 		["guid_str"] = "m8V988bO",
-		["id"] = 104,
+		["id"] = 103,
 		["name"] = "长发女孩",
 		["text"] = "谢谢姐姐，我们会好好保存的。",
 	},
@@ -6223,7 +6651,7 @@
 		},
 		["guid"] = "DCBAB5254D333DAF0801A5948276943D",
 		["guid_str"] = "FqqDrv7Y",
-		["id"] = 105,
+		["id"] = 104,
 		["name"] = "鸢",
 		["text"] = "嗯，回家吧。",
 	},
@@ -6326,7 +6754,7 @@
 		},
 		["guid"] = "5703111648A781D5CDC853B11D68EDD6",
 		["guid_str"] = "CajqF9iR",
-		["id"] = 106,
+		["id"] = 105,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -6369,7 +6797,7 @@
 		},
 		["guid"] = "B8F588634DF1253848DBDA8B166DE641",
 		["guid_str"] = "tlXzqzJr",
-		["id"] = 107,
+		["id"] = 106,
 		["name"] = "鸢",
 		["text"] = "以后……也要好好保护你身边的朋友，一直一直在一起啊。",
 	},
@@ -6401,7 +6829,7 @@
 		},
 		["guid"] = "404BC8784CD3947A78F9A8909A8D8DE4",
 		["guid_str"] = "2JAfENud",
-		["id"] = 108,
+		["id"] = 107,
 		["name"] = "？？？",
 		["text"] = "………………",
 	},
@@ -6463,7 +6891,7 @@
 		},
 		["guid"] = "F8FCD0EE40CD054B1C7E09A97637CC1D",
 		["guid_str"] = "xH3o1jqE",
-		["id"] = 109,
+		["id"] = 108,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/player/af35sy/af35sy_skill_ultra_a",
@@ -6496,7 +6924,7 @@
 		},
 		["guid"] = "438FED8645BA881060C02EBB0787656A",
 		["guid_str"] = "uF7ey4u7",
-		["id"] = 110,
+		["id"] = 109,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -6560,7 +6988,7 @@
 		},
 		["guid"] = "5DABBBBE4B2E28BF162942A0BD7EF8ED",
 		["guid_str"] = "zaGfPaMv",
-		["id"] = 111,
+		["id"] = 110,
 	},
 	{
 		["bg_info"] = {
@@ -6573,14 +7001,31 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c 6941bb][font cusong]鸢[/font][/c]\n\n[size 17]对——",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "212ACBDF4485073E965304B176265C35",
 		["guid_str"] = "t0Xr45x6",
-		["id"] = 112,
+		["id"] = 111,
 		["name"] = "鸢",
-		["text"] = "对——",
 	},
 	{
 		["bg_info"] = {
@@ -6593,14 +7038,34 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_mask_auto_size"] = true,
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c fb9eb4][font cusong]七 叶[/font][/c]\n\n[size 17]这次又要为了什么说对不起呀？",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "7000190B4270E562B1B215813CFD74EC",
 		["guid_str"] = "wzxsIUZc",
-		["id"] = 113,
-		["name"] = "七叶",
-		["text"] = "这次又要为了什么说对不起呀？",
+		["id"] = 112,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6613,14 +7078,33 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c fb9eb4][font cusong]七 叶[/font][/c]\n\n[size 17]那么多人劝过你，你也该改改这个毛病啦，小鸢很好，我希望更多人喜欢你，比我更喜欢。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "F7491D9A4BF8C4ACA5F5218BB0C72862",
 		["guid_str"] = "u5fPEqOD",
-		["id"] = 114,
-		["name"] = "七叶",
-		["text"] = "那么多人劝过你，你也该改改这个毛病啦，小鸢很好，我希望更多人喜欢你，比我更喜欢。",
+		["id"] = 113,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6633,14 +7117,30 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c 6941bb][font cusong]鸢[/font][/c]\n\n[size 17]全森罗也没有几个人像你眼光这么差……",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "DE55E7724FF66B148939D9B23192952C",
 		["guid_str"] = "6q2lIKoB",
-		["id"] = 115,
-		["name"] = "鸢",
-		["text"] = "全森罗也没有几个人像你眼光这么差……",
+		["id"] = 114,
 	},
 	{
 		["bg_info"] = {
@@ -6653,14 +7153,31 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c 6941bb][font cusong]鸢[/font][/c]\n\n[size 17]你也很好，我也希望所有人都喜欢你，变成那个模样并不是你想要的……",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "C4614D0646B399D263DF6CB8B41FC5E5",
 		["guid_str"] = "Ht4XI5C1",
-		["id"] = 116,
+		["id"] = 115,
 		["name"] = "鸢",
-		["text"] = "你也很好，我也希望所有人都喜欢你，变成那个模样并不是你想要的……",
 	},
 	{
 		["bg_info"] = {
@@ -6673,14 +7190,33 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c fb9eb4][font cusong]七 叶[/font][/c]\n\n[size 17]我没有你想象中那么好啦，我也有很多不好的小心思。比如……比如我其实一点都不想死。[br][br][size 17]我也很害怕，我因为这种害怕害死了莱利和小远，我还想和你永远藏在那个花园里哪怕你也会死。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "67A9261745D9EE730DD0C8A4A4EF412E",
 		["guid_str"] = "IBcCjZRB",
-		["id"] = 117,
-		["name"] = "七叶",
-		["text"] = "我没有你想象中那么好啦，我也有很多不好的小心思。比如……比如我其实一点都不想死，我也很害怕，我因为这种害怕害死了莱利和小远，我还……想和你永远藏在那个花园里……哪怕你也会死。",
+		["id"] = 116,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6693,14 +7229,33 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c fb9eb4][font cusong]七 叶[/font][/c]\n\n[size 17]怎么样？你不知道吧~",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "3F25BBEB439B3A15DD5F2892254BA12F",
 		["guid_str"] = "h9gDzJ5t",
-		["id"] = 118,
-		["name"] = "七叶",
-		["text"] = "怎么样？你不知道吧~",
+		["id"] = 117,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6713,14 +7268,31 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c 6941bb][font cusong]鸢[/font][/c]\n\n[size 17]你从来没说过……",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "341393DF461FBEDB654B20A7C5F901FF",
 		["guid_str"] = "PbzPDhjB",
-		["id"] = 119,
+		["id"] = 118,
 		["name"] = "鸢",
-		["text"] = "你从来没说过……",
 	},
 	{
 		["bg_info"] = {
@@ -6733,14 +7305,33 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c fb9eb4][font cusong]七 叶[/font][/c]\n\n[size 17]但我很开心你选择了离开，因为那个选择，你才真正救了我。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "8CA81A2D47D5D3C69F7A5AB54EAFB1A8",
 		["guid_str"] = "i3healFw",
-		["id"] = 120,
-		["name"] = "七叶",
-		["text"] = "但我很开心你选择了离开，因为那个选择，你才真正救了我。",
+		["id"] = 119,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6753,14 +7344,31 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c 6941bb][font cusong]鸢[/font][/c]\n\n[size 17]………………",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "836D0C8541EA7F1F6E101CAC502B01B1",
 		["guid_str"] = "9BYc3Krp",
-		["id"] = 121,
+		["id"] = 120,
 		["name"] = "鸢",
-		["text"] = "………………",
 	},
 	{
 		["bg_info"] = {
@@ -6773,14 +7381,30 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c 6941bb][font cusong]鸢[/font][/c]\n\n[size 17]七叶，你会怪我放弃最后的机会，没把箭对准葵么？",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "70622C984FB1C5D69926319B3A54856A",
 		["guid_str"] = "20zW2DIC",
-		["id"] = 122,
-		["name"] = "鸢",
-		["text"] = "七叶，你会怪我放弃最后的机会，没把箭对准葵么？",
+		["id"] = 121,
 	},
 	{
 		["bg_info"] = {
@@ -6793,14 +7417,33 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c fb9eb4][font cusong]七 叶[/font][/c]\n\n[size 17]怎么会。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "DC24C715497B0A9FE2A68FBDD149F2F3",
 		["guid_str"] = "JJf01ZB8",
-		["id"] = 123,
-		["name"] = "七叶",
-		["text"] = "怎么会。",
+		["id"] = 122,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6813,14 +7456,33 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c fb9eb4][font cusong]七 叶[/font][/c]\n\n[size 17]伤害别人其实是一件很痛苦也很困难的事，小鸢这么漂亮的箭，就是要乘着月光跳舞呀。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "43F5E1CF466DD73E78EF21AE0A8DDB32",
 		["guid_str"] = "EjEVuxXl",
-		["id"] = 124,
-		["name"] = "七叶",
-		["text"] = "伤害别人其实是一件很痛苦也很困难的事，小鸢这么漂亮的箭，就是要乘着月光跳舞呀。",
+		["id"] = 123,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6833,14 +7495,33 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c fb9eb4][font cusong]七 叶[/font][/c]\n\n[size 17]就是看见它，我才过来找到了你。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "2EF9AE0E4BDD09E0FAAA77BA04C6F82E",
 		["guid_str"] = "usWAwPq7",
-		["id"] = 125,
-		["name"] = "七叶",
-		["text"] = "就是看见它，我才过来找到了你。",
+		["id"] = 124,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6853,14 +7534,31 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c 6941bb][font cusong]鸢[/font][/c]\n\n[size 17]其实今晚一直在下雨。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "5614EC2442445B02E256C7A8CE5AA19C",
 		["guid_str"] = "SCYiwmCa",
-		["id"] = 126,
+		["id"] = 125,
 		["name"] = "鸢",
-		["text"] = "其实今晚一直在下雨。",
 	},
 	{
 		["bg_info"] = {
@@ -6873,14 +7571,30 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c 6941bb][font cusong]鸢[/font][/c]\n\n[size 17]只是不知道是不是运气好，我跳出来的时候，它好像刚好停下，月亮才会出现。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "86766F0343C9DC6C7166BCB797AB487B",
 		["guid_str"] = "RPNOI3XM",
-		["id"] = 127,
-		["name"] = "鸢",
-		["text"] = "只是不知道是不是运气好，我跳出来的时候，它好像刚好停下，月亮才会出现。",
+		["id"] = 126,
 	},
 	{
 		["bg_info"] = {
@@ -6893,14 +7607,33 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c e179e2][font cusong]七 叶[/font][/c]\n\n[size 17]是么，那我们的运气真好。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "8C0D863340D4B613394FC69D37679FDD",
 		["guid_str"] = "FvFnxqHR",
-		["id"] = 128,
-		["name"] = "七叶",
-		["text"] = "是么，那我们的运气真好。",
+		["id"] = 127,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6913,14 +7646,33 @@
 						["count"] = -1,
 						["is_queue"] = true,
 					},
+				},
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c e179e2][font cusong]七 叶[/font][/c]\n\n[size 17]小鸢，我要走了，最后说一次再见吧。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
 				},
 			},
 		},
 		["guid"] = "B1CC7E6A4F6584442E60A1BD66E92F6E",
 		["guid_str"] = "05zeIz8I",
-		["id"] = 129,
-		["name"] = "七叶",
-		["text"] = "小鸢，我要走了，最后说一次再见吧。",
+		["id"] = 128,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6936,11 +7688,30 @@
 				},
 			},
 		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c e179e2][font cusong]七 叶[/font][/c]\n\n[size 17]谢谢你回过头，找到我。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 		["guid"] = "409400374D4836DBCC0970979BA9B23F",
 		["guid_str"] = "9t3dfG3o",
-		["id"] = 130,
-		["name"] = "七叶",
-		["text"] = "谢谢你回过头，找到我。",
+		["id"] = 129,
+		["sound_control"] = {
+			["effect"] = 4,
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6967,11 +7738,28 @@
 				},
 			},
 		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.69999998807907,
+			["text"] = "[c 6941bb][font cusong]鸢[/font][/c]\n\n[size 17]嗯，再见。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 		["guid"] = "0ECF6F994E9484351243479889DA58D6",
 		["guid_str"] = "yMmZ3cxJ",
-		["id"] = 131,
+		["id"] = 130,
 		["name"] = "鸢",
-		["text"] = "嗯，再见。",
 	},
 	{
 		["bg_info"] = {
@@ -7007,7 +7795,7 @@
 		},
 		["guid"] = "6AB0A1FE4E70BFA9404E479C0E05E314",
 		["guid_str"] = "m3qgX22g",
-		["id"] = 132,
+		["id"] = 131,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/player/af35sy/af35sy_skill_ultra_b",
@@ -7038,7 +7826,7 @@
 		},
 		["guid"] = "848BD81F484EFAC157A61B8B06BACE39",
 		["guid_str"] = "fwt4XiXR",
-		["id"] = 133,
+		["id"] = 132,
 	},
 	{
 		["bg_info"] = {
@@ -7067,7 +7855,7 @@
 		},
 		["guid"] = "4F7EDD724E00B229BD9F6E8E76BA9C24",
 		["guid_str"] = "sOe7nEWO",
-		["id"] = 134,
+		["id"] = 133,
 		["just_auto_play"] = true,
 	},
 }

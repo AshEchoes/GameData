@@ -165,7 +165,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n93reddyq/n93reddyq_action2",
+				["path"] = "am55ssw/am55ssw_action7",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -173,21 +173,13 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 200,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 400,
 						},
-						["tween"] = "FadeOut",
+						["tween"] = "MoveIn",
 					},
-				},
-			},
-			{
-				["anim"] = "serious",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
 				},
 			},
 		},
@@ -239,7 +231,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -420,7 +412,7 @@
 				},
 			},
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -460,7 +452,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "serious",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -481,7 +473,7 @@
 				},
 			},
 			{
-				["anim"] = "closeeyeserious",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -494,7 +486,7 @@
 					},
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -509,9 +501,18 @@
 							["direction"] = "left",
 							["dis"] = 100,
 							["end_alpha"] = 1.0,
-							["time"] = 200,
+							["time"] = 400,
 						},
-						["tween"] = "MoveIn",
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["am"] = 10,
+							["delay"] = 0,
+							["duration"] = 400,
+							["time"] = 25,
+						},
+						["tween"] = "Shake",
 					},
 				},
 			},
@@ -539,7 +540,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "cold",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -565,7 +566,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -635,7 +636,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -700,7 +701,7 @@
 					},
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -774,7 +775,7 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -840,7 +841,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -890,7 +891,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -901,7 +902,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -1067,7 +1068,7 @@
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am55ssw/am55ssw_action4",
+			["path"] = "am55ssw/am55ssw_action7",
 		},
 	},
 	{
@@ -1130,7 +1131,7 @@
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am55ssw/am55ssw_action4",
+			["path"] = "am55ssw/am55ssw_action7",
 		},
 	},
 	{
@@ -1155,7 +1156,7 @@
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am55ssw/am55ssw_action4",
+			["path"] = "am55ssw/am55ssw_action7",
 		},
 	},
 	{
@@ -1180,7 +1181,7 @@
 		["speaker_info"] = {
 			["anim"] = "surprise",
 			["material"] = "M_UI_SpinePortrait",
-			["path"] = "am55ssw/am55ssw_action4",
+			["path"] = "am55ssw/am55ssw_action7",
 		},
 	},
 	{
@@ -1193,7 +1194,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "pain",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1239,8 +1240,18 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]十手卫赶紧跑过去看着一动不动的处刑人，姜宁蹲下身查看伤口，朝十手卫点了点头。[br][br][size 17]不知道是不是体质异常，脑补应该狰狞的伤口实际上还好，姜宁准备包扎。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 400,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["characters"] = {
 			{
@@ -1314,7 +1325,7 @@
 				},
 			},
 			{
-				["anim"] = "serious",
+				["anim"] = "worry",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1369,7 +1380,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "serious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1380,7 +1391,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -1431,7 +1442,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "sad",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1444,7 +1455,7 @@
 					},
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -1606,7 +1617,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -1726,7 +1737,7 @@
 					},
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -1765,7 +1776,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1776,7 +1787,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -1836,7 +1847,7 @@
 					},
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -1877,7 +1888,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "anger",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1888,7 +1899,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -1949,7 +1960,7 @@
 					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "am55ssw/am55ssw_action4",
+				["path"] = "am55ssw/am55ssw_action7",
 				["pos"] = {
 					300,
 					0,
@@ -2063,7 +2074,7 @@
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[font cusong][c f79d34]诸 位[/c][br][br][font cusong][c f79d34]可 还 尽 兴 [/c]",
+			["text"] = "[font cusong][c f79d34]诸 位    可 还 尽 兴 [/c]",
 			["text_align"] = "center",
 			["tween"] = {
 				{

@@ -14,9 +14,7 @@
 		},
 		["caption_info"] = {
 			["align"] = "bottom",
-			["b_use_mask"] = true,
 			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong]知名社会活动家琴初女士应海临官方之邀，将于8月12日5时整敲响备受瞩目的“全视钟塔”的第一声，\n\n仪式后还会就海临未来规划建设议题发表重要演说。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -31,6 +29,7 @@
 		["guid"] = "C8B08F9345A1FF97D60109BCE0755B76",
 		["guid_str"] = "oxMnVfzo",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -42,7 +41,7 @@
 					["state"] = 0,
 				},
 				["path"] = "interface/resource/Game/Dialog09CGBG/cg_9_1_news.png",
-				["sustain_page_count"] = 5,
+				["sustain_page_count"] = 2,
 				["template_type"] = "image",
 				["tween"] = {
 					{
@@ -68,98 +67,536 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["delay_page"] = 4,
+							["delay_page"] = 1,
 							["time"] = 600,
 						},
 						["tween"] = "FadeOut",
 					},
 				},
 			},
-		},
-	},
-	{
-		["bg_info"] = {
 			{
-				["path"] = "",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong]旻望基金会1120年度慈善晚宴隆重举办，社会各界爱心人士慷慨解囊，善款总额创历史新高。\n\n活动现场，二十余名受助儿童的清澈童声合唱将气氛推向最高潮。",
-			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 400,
+				["config"] = {
+					["last_px"] = 2516.0,
+					["last_py"] = 813.0,
+					["orig_x"] = 24,
+					["orig_y"] = 90,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 16][font zhunyuan]知名社会活动家琴初女士应海临官方之邀，",
+				["font"] = "DialogTextFontOuntlineNoshadow",
+				["offset"] = {
+					24,
+					90,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["direction"] = "up",
+							["dis"] = 30,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
 					},
-					["tween"] = "FadeIn",
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 24,
+					["orig_y"] = 130,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 16][font zhunyuan]将于8月12日5时整敲响备受瞩目的“全视钟塔”的第一声，",
+				["font"] = "DialogTextFontOuntlineNoshadow",
+				["offset"] = {
+					24,
+					130,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["direction"] = "up",
+							["dis"] = 30,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 24,
+					["orig_y"] = 170,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 16][font zhunyuan]仪式后还会就海临未来规划建设议题发表重要演说。",
+				["font"] = "DialogTextFontOuntlineNoshadow",
+				["offset"] = {
+					24,
+					170,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["direction"] = "up",
+							["dis"] = 30,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 24,
+					["orig_y"] = 250,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 16][font zhunyuan]旻望基金会1120年度慈善晚宴隆重举办，",
+				["font"] = "DialogTextFontOuntlineNoshadow",
+				["offset"] = {
+					24,
+					250,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 12300,
+							["delay_page"] = 0,
+							["direction"] = "up",
+							["dis"] = 40,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 12300,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 24,
+					["orig_y"] = 290,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 16][font zhunyuan]社会各界爱心人士慷慨解囊，善款总额创历史新高。",
+				["font"] = "DialogTextFontOuntlineNoshadow",
+				["offset"] = {
+					24,
+					290,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 12300,
+							["delay_page"] = 0,
+							["direction"] = "up",
+							["dis"] = 40,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 12300,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 24,
+					["orig_y"] = 330,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 16][font zhunyuan]活动现场，二十余名受助儿童的清澈童声合唱将气氛推向最高潮。",
+				["font"] = "DialogTextFontOuntlineNoshadow",
+				["offset"] = {
+					24,
+					330,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 12300,
+							["delay_page"] = 0,
+							["direction"] = "up",
+							["dis"] = 40,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 12300,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 24,
+					["orig_y"] = 400,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 16][font zhunyuan]本台记者报道，河滨公园水域发现一具无名遗体。",
+				["font"] = "DialogTextFontOuntlineNoshadow",
+				["offset"] = {
+					24,
+					400,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 19000,
+							["delay_page"] = 0,
+							["direction"] = "up",
+							["dis"] = 40,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 19000,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 24,
+					["orig_y"] = 440,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 16][font zhunyuan]经法医部门鉴定，死者系X异化综合征二期患者，",
+				["font"] = "DialogTextFontOuntlineNoshadow",
+				["offset"] = {
+					24,
+					440,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 19000,
+							["delay_page"] = 0,
+							["direction"] = "up",
+							["dis"] = 40,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 19000,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 24,
+					["orig_y"] = 480,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 16][font zhunyuan]目前已初步排除刑案可能，判定为自主性终止生命。",
+				["font"] = "DialogTextFontOuntlineNoshadow",
+				["offset"] = {
+					24,
+					480,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 19000,
+							["delay_page"] = 0,
+							["direction"] = "up",
+							["dis"] = 40,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 19000,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 24,
+					["orig_y"] = 550,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 16][font zhunyuan]海临官方高级专员接受本台独家专访，就城北受灾居民安置及同调者隔离制度实施细则进行权威解读。",
+				["font"] = "DialogTextFontOuntlineNoshadow",
+				["offset"] = {
+					24,
+					550,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 25500,
+							["delay_page"] = 0,
+							["direction"] = "up",
+							["dis"] = 40,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 25500,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 24,
+					["orig_y"] = 590,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 16][font zhunyuan]专员强调现有秩序高效运转是根本原则，对于海临重归正轨这一愿景，他充满信心。",
+				["font"] = "DialogTextFontOuntlineNoshadow",
+				["offset"] = {
+					24,
+					590,
+				},
+				["sustain_page_count"] = 2,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 25500,
+							["delay_page"] = 0,
+							["direction"] = "up",
+							["dis"] = 40,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 1,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 25500,
+						},
+						["tween"] = "AlphaChange",
+					},
 				},
 			},
 		},
-		["guid"] = "C5895C0847D8A925B9D2749BC7FACB40",
-		["guid_str"] = "OsdQZoAn",
-		["id"] = 2,
-	},
-	{
-		["bg_info"] = {
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
+		["soundfx"] = {
 			{
-				["path"] = "",
-			},
-			{
+				["event"] = "event:/sfx/story/9/voice_chapter_9_opening",
+				["length"] = 155532,
+				["loop"] = 1,
+				["volume"] = 0.5,
 			},
 		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong]本台记者报道，河滨公园水域发现一具无名遗体。\n\n经法医部门鉴定，死者系X异化综合征二期患者，目前已初步排除刑案可能，判定为自主性终止生命。",
-			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 400,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
-		},
-		["guid"] = "0BE22B844E0916F8D908FB80D7682E6F",
-		["guid_str"] = "tacI0NqE",
-		["id"] = 3,
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["is_show_all"] = true,
-			["text"] = "[size 17][font cusong]海临官方高级专员接受本台独家专访，就城北受灾居民安置及同调者隔离制度实施细则进行权威解读。\n\n专员强调现有秩序高效运转是根本原则，对于海临重归正轨这一愿景，他充满信心。",
-			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 400,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
-		},
-		["guid"] = "0ED608344AE2C98B30FE4ABD8E8631A4",
-		["guid_str"] = "8elSLM2Q",
-		["id"] = 4,
+		["time"] = 34000,
 	},
 	{
 		["bg_info"] = {
@@ -169,7 +606,7 @@
 						{
 							["param"] = {
 								["cycle"] = 3,
-								["delay"] = 1000,
+								["delay"] = 300,
 								["time"] = 60,
 							},
 							["tween"] = "Breathe",
@@ -179,7 +616,7 @@
 								["delay"] = 0,
 								["end_alpha"] = 0.0,
 								["start_alpha"] = 0.0,
-								["time"] = 1000,
+								["time"] = 300,
 							},
 							["tween"] = "AlphaChange",
 						},
@@ -193,7 +630,7 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 400,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -220,8 +657,8 @@
 				["tween"] = {
 					{
 						["param"] = {
-							["delay"] = 500,
-							["time"] = 500,
+							["delay"] = 100,
+							["time"] = 300,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -249,8 +686,7 @@
 		},
 		["guid"] = "FAFE1F16418EE63A2E2D6284B9A9236B",
 		["guid_str"] = "PlwpmqWW",
-		["id"] = 5,
-		["is_total_play"] = true,
+		["id"] = 2,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
@@ -302,6 +738,9 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 64,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/0-00/0-0-whoosh",
@@ -319,7 +758,7 @@
 				["loop"] = 1,
 			},
 		},
-		["time"] = 1800,
+		["time"] = 400,
 	},
 	{
 		["bg_info"] = {
@@ -334,6 +773,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[c 59abff][size 17][font zhunyuan]白荆科技的成立旨在研究天隙及其相关衍生概念，推动未知「Ｘ」与已知概念的深度融合。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
@@ -377,10 +817,16 @@
 		},
 		["guid"] = "D418C5A1493610AF02A08D87705E9D99",
 		["guid_str"] = "t8X03SBu",
-		["id"] = 6,
+		["id"] = 3,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
 		["sound_control"] = {
 			["effect"] = 64,
 		},
+		["time"] = 10000,
 	},
 	{
 		["bg_info"] = {
@@ -395,6 +841,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[c 59abff][size 17][font zhunyuan]Ｘ晶石的出现将过去局限于实验室蓝图的概念具象化，它走下神坛，步入现实，就应有人接住。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
@@ -438,10 +885,16 @@
 		},
 		["guid"] = "BCC564D74639F48AC99666B0F5C17D36",
 		["guid_str"] = "AtAWs7Xb",
-		["id"] = 7,
+		["id"] = 4,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
 		["sound_control"] = {
 			["effect"] = 64,
 		},
+		["time"] = 9700,
 	},
 	{
 		["bg_info"] = {
@@ -456,6 +909,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[c 59abff][size 17][font zhunyuan]天隙事件以来， 这个世界——森罗——正在发生剧变，现实无法倒退。[br][br][size 17]我们能做的，就是尽快将自己、将森罗武装起来，这关乎于「未来」的发展，亦关乎于人类该如何开辟新时代的道路。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
@@ -499,10 +953,16 @@
 		},
 		["guid"] = "6B333E8B4BEE408B82676AB7E46C6CA5",
 		["guid_str"] = "lKnbfgPn",
-		["id"] = 8,
+		["id"] = 5,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
 		["sound_control"] = {
 			["effect"] = 64,
 		},
+		["time"] = 22500,
 	},
 	{
 		["bg_info"] = {
@@ -517,6 +977,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[c 59abff][size 17][font zhunyuan]而白荆科技既然致力于研究这些，自然也该肩负起相应的责任。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
@@ -560,10 +1021,16 @@
 		},
 		["guid"] = "9A9700F34E7DCF25747273B4462918C8",
 		["guid_str"] = "UruyTF5T",
-		["id"] = 9,
+		["id"] = 6,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
 		["sound_control"] = {
 			["effect"] = 64,
 		},
+		["time"] = 6000,
 	},
 	{
 		["bg_info"] = {
@@ -578,6 +1045,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[c 59abff][size 17][font zhunyuan]这是我们对推动相关研究的态度，同时，也是我们对未来的保证。[/c]",
 			["text_align"] = "center",
 			["tween"] = {
@@ -621,83 +1089,16 @@
 		},
 		["guid"] = "F52E5E994D635BE743C8C3B70A79C3B7",
 		["guid_str"] = "HPH2dhlW",
-		["id"] = 10,
+		["id"] = 7,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
 		["sound_control"] = {
 			["effect"] = 64,
 		},
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["tween"] = {
-						{
-							["param"] = {
-								["delay"] = 0,
-								["time"] = 1000,
-							},
-							["tween"] = "FadeOut",
-						},
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_02.png",
-			},
-			{
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "n17qgx/n17qgx_action1",
-				["pos"] = {
-					-150,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
-					},
-					{
-						["param"] = {
-							["attr_key"] = "F_ScreenSaturation",
-							["delay"] = 0,
-							["end_value"] = 0.69999998807907,
-							["start_value"] = 0.69999998807907,
-							["time"] = 200,
-						},
-						["tween"] = "MaterialAttrAnimate",
-					},
-				},
-			},
-		},
-		["guid"] = "BB02843346F91F828FB2608170797D36",
-		["guid_str"] = "AZdUGD1K",
-		["id"] = 11,
-		["is_total_play"] = true,
-		["just_auto_play"] = true,
-		["soundfx"] = {
-			{
-				["event"] = "event:/sfx/story/karas/avg_karas_datastreaming",
-				["length"] = 15415,
-				["stop"] = 1,
-			},
-			{
-				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
-				["length"] = 1846,
-			},
-		},
-		["time"] = 1000,
+		["time"] = 5900,
 	},
 	{
 		["bg_info"] = {
@@ -709,14 +1110,14 @@
 								["delay"] = 0,
 								["end_alpha"] = 0.0,
 								["start_alpha"] = 0.0,
-								["time"] = 800,
+								["time"] = 300,
 							},
 							["tween"] = "AlphaChange",
 						},
 						{
 							["param"] = {
 								["cycle"] = 3,
-								["delay"] = 1000,
+								["delay"] = 300,
 								["mode"] = "linear",
 								["scale_x"] = 1.0,
 								["scale_y"] = 1.0,
@@ -736,7 +1137,7 @@
 								["delay"] = 0,
 								["end_alpha"] = 1.0,
 								["start_alpha"] = 1.0,
-								["time"] = 1000,
+								["time"] = 700,
 							},
 							["tween"] = "FadeIn",
 						},
@@ -773,8 +1174,8 @@
 					},
 					{
 						["param"] = {
-							["delay"] = 500,
-							["time"] = 500,
+							["delay"] = 200,
+							["time"] = 300,
 						},
 						["tween"] = "FadeIn",
 					},
@@ -792,8 +1193,8 @@
 		},
 		["guid"] = "1FB6AFE34AA4BF2A6F04AC839B469ECB",
 		["guid_str"] = "pITYUMP6",
-		["id"] = 12,
-		["is_total_play"] = true,
+		["id"] = 8,
+		["is_white_base_bg"] = true,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -842,16 +1243,45 @@
 				["path"] = "movies/Desktop/avg/activity_yemo/activity_yemo_cam_in.bk2",
 				["template_type"] = "video",
 			},
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_02.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
 		},
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 64,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/karas/avg_karas_datacenter",
 				["length"] = 36970,
 				["loop"] = 1,
 			},
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_mid",
+				["length"] = 1846,
+			},
 		},
-		["time"] = 1500,
+		["time"] = 500,
 	},
 	{
 		["bg_info"] = {
@@ -865,6 +1295,7 @@
 			["align"] = "bottom",
 			["b_use_mask"] = true,
 			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[size 17][font zhunyuan][c eef5d4]人类与疾病的战争从未有一刻止息，X细胞异化综合征作为后天隙时代应运而生的疾病。[br][br][size 17]既然被归为科学性病理，就理应找到应对的手段。",
 			["text_align"] = "center",
 			["tween"] = {
@@ -908,10 +1339,16 @@
 		},
 		["guid"] = "36486DC84D41C8A7E2BCB7816277FB48",
 		["guid_str"] = "ijrMf9SI",
-		["id"] = 13,
+		["id"] = 9,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
 		["sound_control"] = {
 			["effect"] = 64,
 		},
+		["time"] = 13800,
 	},
 	{
 		["bg_info"] = {
@@ -926,6 +1363,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[size 17][font zhunyuan][c eef5d4]天隙通道，X晶石，同调者……我不反对现今一切正在努力将天隙正当化、能源化的做法。[br][br][size 17]但同时需要承认，这个后天隙时代已然给了我们太多不得已，我们不应一味顺从，一味等待被选择。",
 			["text_align"] = "center",
 			["tween"] = {
@@ -969,10 +1407,16 @@
 		},
 		["guid"] = "3964095D4AA983A30E64AD86380F8D27",
 		["guid_str"] = "zdeahRp8",
-		["id"] = 14,
+		["id"] = 10,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
 		["sound_control"] = {
 			["effect"] = 64,
 		},
+		["time"] = 20000,
 	},
 	{
 		["bg_info"] = {
@@ -987,6 +1431,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
 			["text"] = "[size 17][font zhunyuan][c eef5d4]神的垂怜并不存在，SCOPE想要做的，是努力让人类、让被宣判无解的生命，重新拥有选择的权利。",
 			["text_align"] = "center",
 			["tween"] = {
@@ -1030,10 +1475,16 @@
 		},
 		["guid"] = "D1ACC8094DB040F68D750BAD1488611B",
 		["guid_str"] = "7wNFOw7u",
-		["id"] = 15,
+		["id"] = 11,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["sound"] = {
+			["event"] = "1",
+		},
 		["sound_control"] = {
 			["effect"] = 64,
 		},
+		["time"] = 10800,
 	},
 	{
 		["bg_info"] = {
@@ -1104,7 +1555,7 @@
 		},
 		["guid"] = "DB494BAA4B7EE1FCCDF6BE8A5089534F",
 		["guid_str"] = "9huaGsab",
-		["id"] = 16,
+		["id"] = 12,
 		["is_total_play"] = true,
 		["jenga"] = {
 			{
@@ -1145,6 +1596,9 @@
 			},
 		},
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 32,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/karas/avg_karas_datastreaming",
@@ -1165,6 +1619,40 @@
 				["event"] = "event:/ambience/conference",
 				["length"] = 20571,
 				["stop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_a4_shishouwei01_badge_in",
+				["length"] = 5875,
+			},
+			{
+				["delay"] = 1500,
+				["event"] = "event:/sfx/story/9/cg_9_b3_songbieqinchu_btoc",
+				["length"] = 5562,
+			},
+			{
+				["delay"] = 3000,
+				["event"] = "event:/sfx/story/9/cg_9_e1_quheai_btoc",
+				["length"] = 733,
+			},
+			{
+				["delay"] = 5000,
+				["event"] = "event:/sfx/story/9/cg_9_e1_quheai_btoc",
+				["length"] = 733,
+			},
+			{
+				["delay"] = 4000,
+				["event"] = "event:/sfx/story/9/cg_9_c5_yuanjingboss_in",
+				["length"] = 5750,
+			},
+			{
+				["delay"] = 8000,
+				["event"] = "event:/sfx/story/9/cg_9_f3_butongdao_in",
+				["length"] = 6100,
+			},
+			{
+				["delay"] = 9000,
+				["event"] = "event:/sfx/story/9/cg_9_f3_butongdao_out",
+				["length"] = 3733,
 			},
 		},
 		["time"] = 13000,
@@ -1195,8 +1683,7 @@
 		},
 		["guid"] = "40D7DF1C49268B021817C1A6436C06CD",
 		["guid_str"] = "FYkd8COt",
-		["id"] = 17,
-		["just_auto_play"] = true,
+		["id"] = 13,
 		["name"] = "？？？",
 		["soundfx"] = {
 			{
@@ -1208,6 +1695,11 @@
 				["length"] = 22000,
 				["loop"] = 1,
 				["volume"] = 0.30000001192093,
+			},
+			{
+				["event"] = "event:/sfx/story/9/voice_chapter_9_opening",
+				["length"] = 155532,
+				["stop"] = 1,
 			},
 		},
 		["text"] = "监督。",
@@ -1259,7 +1751,7 @@
 		},
 		["guid"] = "8DBA0C0F4B2FD108FBFE219B7D42455A",
 		["guid_str"] = "WMveGbxM",
-		["id"] = 18,
+		["id"] = 14,
 		["is_total_play"] = true,
 		["jenga"] = {
 			{
@@ -1329,7 +1821,7 @@
 		},
 		["guid"] = "89CAFA4B4A3AE1C7137F38BDCA9D0718",
 		["guid_str"] = "SlRfPed6",
-		["id"] = 19,
+		["id"] = 15,
 		["name"] = "苏筱",
 		["text"] = "又做梦了？",
 		["text_info"] = {
@@ -1361,7 +1853,7 @@
 		},
 		["guid"] = "AA6B90DB4F0D3C8FB34471AA7656E8CE",
 		["guid_str"] = "QmUMDZHp",
-		["id"] = 20,
+		["id"] = 16,
 		["name"] = "[rolename]",
 		["text"] = "……筱筱？",
 	},
@@ -1382,7 +1874,7 @@
 		},
 		["guid"] = "37B27021495031717358AD984D97DE1D",
 		["guid_str"] = "HXwQJs98",
-		["id"] = 21,
+		["id"] = 17,
 		["name"] = "苏筱",
 		["text"] = "当然是我，睡迷糊啦。",
 	},
@@ -1450,7 +1942,7 @@
 		},
 		["guid"] = "D0FF08FC45DDE1BC61E9579CE216FFA4",
 		["guid_str"] = "iguREdG7",
-		["id"] = 22,
+		["id"] = 18,
 		["introduce"] = {
 			["location"] = "可移动白荆科技办公室",
 			["time"] = "森罗历1121-08-10  夜",
@@ -1522,7 +2014,7 @@
 		},
 		["guid"] = "BE3096974D6AC441B6E28AA8313B8C14",
 		["guid_str"] = "YRgIVoxS",
-		["id"] = 23,
+		["id"] = 19,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -1573,7 +2065,7 @@
 		},
 		["guid"] = "5492BD2E4CCD797B9ECEFFA281A0CB39",
 		["guid_str"] = "HOgslHIM",
-		["id"] = 24,
+		["id"] = 20,
 		["name"] = "苏筱",
 		["text"] = "睡不着，就想来看看，没想到就看到你睡得不安稳，梦到什么了？",
 	},
@@ -1620,7 +2112,7 @@
 		},
 		["guid"] = "D5097868457030F06DAEFF9EBA121B1F",
 		["guid_str"] = "9Sc2EsKn",
-		["id"] = 25,
+		["id"] = 21,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
@@ -1671,7 +2163,7 @@
 		},
 		["guid"] = "A10CB05F446D86D609EFA5B6403C4782",
 		["guid_str"] = "QOOBuhP8",
-		["id"] = 26,
+		["id"] = 22,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
@@ -1723,7 +2215,7 @@
 		},
 		["guid"] = "484553684CAE090D30B0AC89F8AC03FB",
 		["guid_str"] = "bwZCXmYZ",
-		["id"] = 27,
+		["id"] = 23,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -1775,7 +2267,7 @@
 		},
 		["guid"] = "E1F636C44CF840D1E43C1EB692967CB4",
 		["guid_str"] = "4QyYnyIA",
-		["id"] = 28,
+		["id"] = 24,
 		["name"] = "苏筱",
 		["text"] = "这就是波丝之前说的休息不好么？还是……",
 	},
@@ -1822,7 +2314,7 @@
 		},
 		["guid"] = "0770CA9B4D9AEA9911C0A582D3D4B6F9",
 		["guid_str"] = "foYSpajs",
-		["id"] = 29,
+		["id"] = 25,
 		["name"] = "苏筱",
 		["text"] = "还是因为明天的行动，让你也开始控制不住胡思乱想了？",
 	},
@@ -1869,7 +2361,7 @@
 		},
 		["guid"] = "0575FEEA456927E37A45829EB306A35C",
 		["guid_str"] = "gMU1rlih",
-		["id"] = 30,
+		["id"] = 26,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -1926,7 +2418,7 @@
 		},
 		["guid"] = "1F9784394AF846324CB0618415FC8E91",
 		["guid_str"] = "pwoo0i7b",
-		["id"] = 31,
+		["id"] = 27,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 		},
@@ -2019,7 +2511,7 @@
 		},
 		["guid"] = "C65C733B40501E2EDBD7688A6226656D",
 		["guid_str"] = "xQotmixC",
-		["id"] = 32,
+		["id"] = 28,
 		["jenga"] = {
 			{
 				["config"] = {
@@ -2115,7 +2607,7 @@
 		},
 		["guid"] = "FBE7287141933BA98F8F2A9566C31313",
 		["guid_str"] = "vTzvVv9H",
-		["id"] = 33,
+		["id"] = 29,
 		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["jenga"] = {
@@ -2247,7 +2739,7 @@
 		},
 		["guid"] = "BC24DFE146688382C1C98284F8F53C49",
 		["guid_str"] = "574JAsZ0",
-		["id"] = 34,
+		["id"] = 30,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -2346,7 +2838,7 @@
 		},
 		["guid"] = "90709A3F4BD36E3881168BB4FD6579A4",
 		["guid_str"] = "QR0AGF3Y",
-		["id"] = 35,
+		["id"] = 31,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -2448,7 +2940,7 @@
 		},
 		["guid"] = "78D4FC924ABB07A70C7BFC8FD4600ECD",
 		["guid_str"] = "H4zhlj24",
-		["id"] = 36,
+		["id"] = 32,
 		["name"] = "孔秘书",
 		["text"] = "哇哦，好会写，我应该这就学起来，下次给姬先生准备发言稿时用。",
 	},
@@ -2560,7 +3052,7 @@
 		},
 		["guid"] = "9EEA6AE844AFCA7EB71E25BEC4AE5D13",
 		["guid_str"] = "TG0GGlaK",
-		["id"] = 37,
+		["id"] = 33,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -2656,7 +3148,7 @@
 		},
 		["guid"] = "3A70E75D4622D61E09461BB55D51E8CC",
 		["guid_str"] = "OTZSGkTS",
-		["id"] = 38,
+		["id"] = 34,
 		["name"] = "孔秘书",
 		["text"] = "与会的各位身份非比寻常，也都是白荆科技现任执行官[M]先生[/M][F]小姐[/F]的人脉，我不便置喙，先听听诸位的意见。",
 	},
@@ -2707,7 +3199,7 @@
 		},
 		["guid"] = "3E2B99594A5417DFC509FA8D2B5FE819",
 		["guid_str"] = "VFhjj4Lr",
-		["id"] = 39,
+		["id"] = 35,
 		["name"] = "孔秘书",
 		["text"] = "不过我还以为今天参会的人员构成会更复杂，没想到只有区区五票。",
 	},
@@ -2779,7 +3271,7 @@
 		},
 		["guid"] = "2C1239DA4D101D591B379597241B3033",
 		["guid_str"] = "BFpXLM28",
-		["id"] = 40,
+		["id"] = 36,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -2867,7 +3359,7 @@
 		},
 		["guid"] = "C1C9EA1140A5B65DD0FBEA85D0F7C41A",
 		["guid_str"] = "szV395dJ",
-		["id"] = 41,
+		["id"] = 37,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -2956,7 +3448,7 @@
 		},
 		["guid"] = "50F43FD645E1BEB858CA2DA606F1EE9D",
 		["guid_str"] = "PpemehkQ",
-		["id"] = 42,
+		["id"] = 38,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
@@ -3108,7 +3600,7 @@
 		},
 		["guid"] = "33217C5E46700B5550B2D898892F3E05",
 		["guid_str"] = "FbUMx0gH",
-		["id"] = 43,
+		["id"] = 39,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["body_anim"] = "doubt_in",
@@ -3235,7 +3727,7 @@
 		},
 		["guid"] = "931F816B458E3F13C0025EAE208B8395",
 		["guid_str"] = "TX6ybMXd",
-		["id"] = 44,
+		["id"] = 40,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["body_anim"] = "doubt_in",
@@ -3364,7 +3856,7 @@
 		},
 		["guid"] = "A79EB97849F1CB6A817266A5F75871FD",
 		["guid_str"] = "pSze4TyG",
-		["id"] = 45,
+		["id"] = 41,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["body_anim"] = "doubt_in",
@@ -3528,7 +4020,7 @@
 		},
 		["guid"] = "AA2C6458452BEFBDEF02C899E0E8B4C2",
 		["guid_str"] = "WoR23lUo",
-		["id"] = 46,
+		["id"] = 42,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -3618,7 +4110,7 @@
 		},
 		["guid"] = "3B57F08C4776AD031FAD5B85FB73876C",
 		["guid_str"] = "KP3xXEOB",
-		["id"] = 47,
+		["id"] = 43,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -3699,7 +4191,7 @@
 		},
 		["guid"] = "A4D878AC4D2542B2CA2125B469940A7C",
 		["guid_str"] = "S6qlYhQo",
-		["id"] = 48,
+		["id"] = 44,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -3794,7 +4286,7 @@
 		},
 		["guid"] = "321C5C1A42888D961E9333943DAE00A6",
 		["guid_str"] = "qq8PmsS4",
-		["id"] = 49,
+		["id"] = 45,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -3875,7 +4367,7 @@
 		},
 		["guid"] = "96304D9A4BF9132238ADB090D04082D7",
 		["guid_str"] = "P2CBAraI",
-		["id"] = 50,
+		["id"] = 46,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -3956,7 +4448,7 @@
 		},
 		["guid"] = "C12A9C9A424DB40E1531D7AF5628B98F",
 		["guid_str"] = "Lujfcvmk",
-		["id"] = 51,
+		["id"] = 47,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -4037,7 +4529,7 @@
 		},
 		["guid"] = "D4C323B54909446EF69C4DB200B6FB5D",
 		["guid_str"] = "36yQijbf",
-		["id"] = 52,
+		["id"] = 48,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -4132,7 +4624,7 @@
 		},
 		["guid"] = "47266CAD43EA30A45AF2278D6F3B2A3D",
 		["guid_str"] = "ZRTg0atw",
-		["id"] = 53,
+		["id"] = 49,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -4213,7 +4705,7 @@
 		},
 		["guid"] = "16E9B50C4243FD2B39C16693CA493D0B",
 		["guid_str"] = "DPhdVlil",
-		["id"] = 54,
+		["id"] = 50,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -4315,7 +4807,7 @@
 		},
 		["guid"] = "8881B5F44DC154D377B0849B4BE1CDA5",
 		["guid_str"] = "HThMPDSn",
-		["id"] = 55,
+		["id"] = 51,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -4414,7 +4906,7 @@
 		},
 		["guid"] = "68E0AD92498DD3AB43F5EC9E59DB4B56",
 		["guid_str"] = "EBAl9rqC",
-		["id"] = 56,
+		["id"] = 52,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -4509,7 +5001,7 @@
 		},
 		["guid"] = "CF7C0EA746D7E04E40F9E3B01278D532",
 		["guid_str"] = "SQIRKffs",
-		["id"] = 57,
+		["id"] = 53,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -4590,7 +5082,7 @@
 		},
 		["guid"] = "C16350D34D09ADD168A0FAA2A38B3909",
 		["guid_str"] = "fR2ArFtf",
-		["id"] = 58,
+		["id"] = 54,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -4671,7 +5163,7 @@
 		},
 		["guid"] = "380C1538429F4AF454964EB38773E244",
 		["guid_str"] = "QR7QeFma",
-		["id"] = 59,
+		["id"] = 55,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -4752,7 +5244,7 @@
 		},
 		["guid"] = "684585544277F8B838AC54A9426BBE53",
 		["guid_str"] = "1PjA8bgh",
-		["id"] = 60,
+		["id"] = 56,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -4848,7 +5340,7 @@
 		},
 		["guid"] = "72F2A83D421B13F7789511AB86DAD2AA",
 		["guid_str"] = "0y73b7pm",
-		["id"] = 61,
+		["id"] = 57,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -4942,7 +5434,7 @@
 		},
 		["guid"] = "17C167A24EF1301FC78E57AB22FD8569",
 		["guid_str"] = "1d98r74F",
-		["id"] = 62,
+		["id"] = 58,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -5046,7 +5538,7 @@
 		},
 		["guid"] = "3CECF54642B82B3A5738E59E2CDDEEEA",
 		["guid_str"] = "ePGIeeui",
-		["id"] = 63,
+		["id"] = 59,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -5141,7 +5633,7 @@
 		},
 		["guid"] = "1E41297D4469810870B8B4B0577E6E40",
 		["guid_str"] = "OQEawdT5",
-		["id"] = 64,
+		["id"] = 60,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -5253,7 +5745,7 @@
 		},
 		["guid"] = "30963EB0453E0ACDE3EBE382A4414285",
 		["guid_str"] = "pNYFl40m",
-		["id"] = 65,
+		["id"] = 61,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -5364,7 +5856,7 @@
 		},
 		["guid"] = "05703BFF4FF3C865A16B5282791BD46F",
 		["guid_str"] = "JDqfbHtc",
-		["id"] = 66,
+		["id"] = 62,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -5476,7 +5968,7 @@
 		},
 		["guid"] = "D985EA344F0996F5A401F2A7A4516739",
 		["guid_str"] = "Nd5LTVCJ",
-		["id"] = 67,
+		["id"] = 63,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -5587,7 +6079,7 @@
 		},
 		["guid"] = "46F59248424EA2E5DBBECA86F6E2789B",
 		["guid_str"] = "9YOUlwA9",
-		["id"] = 68,
+		["id"] = 64,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -5684,7 +6176,7 @@
 		},
 		["guid"] = "14752F90426EE0431AD7E3BA8A9A0635",
 		["guid_str"] = "nSSz9SYd",
-		["id"] = 69,
+		["id"] = 65,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -5779,7 +6271,7 @@
 		},
 		["guid"] = "6DE88C734D251790B933C784EFE8F563",
 		["guid_str"] = "NkyrSh5y",
-		["id"] = 70,
+		["id"] = 66,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -5876,7 +6368,7 @@
 		},
 		["guid"] = "836FE1F0458A18F2B8996C88601EEC39",
 		["guid_str"] = "X2INAI4r",
-		["id"] = 71,
+		["id"] = 67,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -5973,7 +6465,7 @@
 		},
 		["guid"] = "C3C4E35C433498849553F98B9730EFBE",
 		["guid_str"] = "4QXjuewU",
-		["id"] = 72,
+		["id"] = 68,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -6070,7 +6562,7 @@
 		},
 		["guid"] = "603FF24C48439C82ED53F09D7C5EB63A",
 		["guid_str"] = "agf5OXcZ",
-		["id"] = 73,
+		["id"] = 69,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -6182,7 +6674,7 @@
 		},
 		["guid"] = "00AE8A8E46078E79BCDAB39C10AF2245",
 		["guid_str"] = "f3mwRJGy",
-		["id"] = 74,
+		["id"] = 70,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -6308,7 +6800,7 @@
 		},
 		["guid"] = "569AB34F4245F02A36791396823E696B",
 		["guid_str"] = "Rw25onXk",
-		["id"] = 75,
+		["id"] = 71,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -6419,7 +6911,7 @@
 		},
 		["guid"] = "2C78DB1E48A036673C7A71B4CF2E0202",
 		["guid_str"] = "Scesn2um",
-		["id"] = 76,
+		["id"] = 72,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -6531,7 +7023,7 @@
 		},
 		["guid"] = "6C8DA5AF43529846E4A517A9FD909F33",
 		["guid_str"] = "V8rFu8HN",
-		["id"] = 77,
+		["id"] = 73,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -6642,7 +7134,7 @@
 		},
 		["guid"] = "B5C995D64D7E2D713C426099A7E1C436",
 		["guid_str"] = "KL1yn8ql",
-		["id"] = 78,
+		["id"] = 74,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -6757,7 +7249,7 @@
 		},
 		["guid"] = "06F0AEDF462D0A51CEF36CAE5DF214B9",
 		["guid_str"] = "j4uflvDo",
-		["id"] = 79,
+		["id"] = 75,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -6856,7 +7348,7 @@
 		},
 		["guid"] = "2ED39CA0450CD33EE5909AAB053876A1",
 		["guid_str"] = "zin2OGsV",
-		["id"] = 80,
+		["id"] = 76,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -6953,7 +7445,7 @@
 		},
 		["guid"] = "3D079F18423E006A64BB559751F21AA9",
 		["guid_str"] = "FWZ5sg49",
-		["id"] = 81,
+		["id"] = 77,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -7065,7 +7557,7 @@
 		},
 		["guid"] = "F66262824FC907005F9C03AF0DB9C25E",
 		["guid_str"] = "ipNw4buU",
-		["id"] = 82,
+		["id"] = 78,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -7176,7 +7668,7 @@
 		},
 		["guid"] = "628A0B194F875E3CC5C2448B948172F3",
 		["guid_str"] = "nLBiGXz2",
-		["id"] = 83,
+		["id"] = 79,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -7288,7 +7780,7 @@
 		},
 		["guid"] = "EA37C42240E297EBC72A4CAEDAE2065D",
 		["guid_str"] = "RwmWR40F",
-		["id"] = 84,
+		["id"] = 80,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -7414,7 +7906,7 @@
 		},
 		["guid"] = "B4DA7BC24E3F55496681E9AE44B80C4E",
 		["guid_str"] = "yu2PJFAu",
-		["id"] = 85,
+		["id"] = 81,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -7573,7 +8065,7 @@
 		},
 		["guid"] = "2CEAB9D541EFB2161F24789E4BBADDDA",
 		["guid_str"] = "CqCkUPTc",
-		["id"] = 86,
+		["id"] = 82,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -7685,7 +8177,7 @@
 		},
 		["guid"] = "3A5EEADD4C757BC8976592B2871D9501",
 		["guid_str"] = "P3sHGrvA",
-		["id"] = 87,
+		["id"] = 83,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -7797,7 +8289,7 @@
 		},
 		["guid"] = "8B522F8E47779A9A3A43FD8CC8F22286",
 		["guid_str"] = "is4jWFWQ",
-		["id"] = 88,
+		["id"] = 84,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -7923,7 +8415,7 @@
 		},
 		["guid"] = "55D479644A11873B65F95A85C6FF5D3B",
 		["guid_str"] = "7pvDXzOY",
-		["id"] = 89,
+		["id"] = 85,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -8049,7 +8541,7 @@
 		},
 		["guid"] = "5CF06FAE44EE25488C4956A32A938E87",
 		["guid_str"] = "fxtP6mIu",
-		["id"] = 90,
+		["id"] = 86,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -8175,7 +8667,7 @@
 		},
 		["guid"] = "6A0731714122CF83C5EE06AB701312D9",
 		["guid_str"] = "zvhQz6Jx",
-		["id"] = 91,
+		["id"] = 87,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -8315,7 +8807,7 @@
 		},
 		["guid"] = "C499B1074FCF6B3D82D9ADA69B6022CE",
 		["guid_str"] = "siARxh7v",
-		["id"] = 92,
+		["id"] = 88,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -8414,7 +8906,7 @@
 		},
 		["guid"] = "9D693AB14E6C9B6F5FA73A9DC44E1601",
 		["guid_str"] = "1iB7xyV7",
-		["id"] = 93,
+		["id"] = 89,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -8511,7 +9003,7 @@
 		},
 		["guid"] = "856BC5B94BFCA4FB12BE838768385F45",
 		["guid_str"] = "XUFYNuZ3",
-		["id"] = 94,
+		["id"] = 90,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -8623,7 +9115,7 @@
 		},
 		["guid"] = "F306591146BA7301E7DF29B359E52057",
 		["guid_str"] = "hLLZ1Cvc",
-		["id"] = 95,
+		["id"] = 91,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -8734,7 +9226,7 @@
 		},
 		["guid"] = "8DDE8A5344F49A842D093CBB81DB989D",
 		["guid_str"] = "JLv7AsJw",
-		["id"] = 96,
+		["id"] = 92,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -8846,7 +9338,7 @@
 		},
 		["guid"] = "A0843E3049FB3B5010B4FC9B6F5AECC9",
 		["guid_str"] = "rwB84dww",
-		["id"] = 97,
+		["id"] = 93,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -8951,7 +9443,7 @@
 		},
 		["guid"] = "F5EBB2444C5BCD535F2CBF88D4830D8C",
 		["guid_str"] = "6d08xREZ",
-		["id"] = 98,
+		["id"] = 94,
 		["name"] = "孔秘书",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9037,7 +9529,7 @@
 		},
 		["guid"] = "DDBEA816436F1937C6155DAE94C1C436",
 		["guid_str"] = "KNy3HbCk",
-		["id"] = 99,
+		["id"] = 95,
 		["name"] = "瞳",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9104,7 +9596,7 @@
 		},
 		["guid"] = "14118C394AA63F5566EF48A4E04B4EBE",
 		["guid_str"] = "IH6BfO91",
-		["id"] = 100,
+		["id"] = 96,
 		["name"] = "瞳",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9171,7 +9663,7 @@
 		},
 		["guid"] = "0400EE104BA42E872F86618B5307F8D1",
 		["guid_str"] = "XzvOHU8g",
-		["id"] = 101,
+		["id"] = 97,
 		["name"] = "瞳",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -9250,7 +9742,7 @@
 		},
 		["guid"] = "0382B5A34669D030E438BFBEAC787745",
 		["guid_str"] = "dIsUmt9e",
-		["id"] = 102,
+		["id"] = 98,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["tween"] = {
@@ -9344,7 +9836,7 @@
 		},
 		["guid"] = "F84F242143E1E98B395A54903C2511B0",
 		["guid_str"] = "CVKyTRLR",
-		["id"] = 103,
+		["id"] = 99,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["tween"] = {
@@ -9439,7 +9931,7 @@
 		},
 		["guid"] = "AD6BE58847C890E5A5CD7481DDDF97EF",
 		["guid_str"] = "VHDlRYuD",
-		["id"] = 104,
+		["id"] = 100,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
@@ -9540,7 +10032,7 @@
 		},
 		["guid"] = "FF111C294F81B8D3A554A4BB9C85022E",
 		["guid_str"] = "ARLoJRRL",
-		["id"] = 105,
+		["id"] = 101,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -9631,7 +10123,7 @@
 		},
 		["guid"] = "47217DC741A1F21816369983BFBA8A99",
 		["guid_str"] = "Ro1sm9Vr",
-		["id"] = 106,
+		["id"] = 102,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -9723,7 +10215,7 @@
 		},
 		["guid"] = "529209C94ACCD3F86E77CEAFD4500D5D",
 		["guid_str"] = "LoZHO0Z6",
-		["id"] = 107,
+		["id"] = 103,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -9815,7 +10307,7 @@
 		},
 		["guid"] = "E07BC79645F5D94EB360C09847AD5269",
 		["guid_str"] = "R7OoQ1G3",
-		["id"] = 108,
+		["id"] = 104,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -9909,7 +10401,7 @@
 		},
 		["guid"] = "8CFCA8264BB32875AD83D48E0661EAA5",
 		["guid_str"] = "1VobDjSI",
-		["id"] = 109,
+		["id"] = 105,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -10000,7 +10492,7 @@
 		},
 		["guid"] = "0762724B4E0E1606A67234A58B43532A",
 		["guid_str"] = "YBXQ6S5e",
-		["id"] = 110,
+		["id"] = 106,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -10092,7 +10584,7 @@
 		},
 		["guid"] = "A96C955C44FDE79ACF56DF8FDF54FC1A",
 		["guid_str"] = "6IFGS1si",
-		["id"] = 111,
+		["id"] = 107,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -10186,7 +10678,7 @@
 		},
 		["guid"] = "ABAB879847C6249DE0C69E93A1192474",
 		["guid_str"] = "gLvGLW2z",
-		["id"] = 112,
+		["id"] = 108,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -10277,7 +10769,7 @@
 		},
 		["guid"] = "FDA677C3441EDE3F5D4C0D9B7C77BC17",
 		["guid_str"] = "n5LOpQfU",
-		["id"] = 113,
+		["id"] = 109,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -10299,7 +10791,7 @@
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "那大家就好做好生活回退，海临大多数便民、安保设施无人维护全部换新的准备，恐怕也很难吧。",
+		["text"] = "那大家就要做好生活回退，海临大多数便民、安保设施无人维护全部换新的准备，恐怕也很难吧。",
 	},
 	{
 		["bg_info"] = {
@@ -10371,7 +10863,7 @@
 		},
 		["guid"] = "B3BB14DB4C8AC9449D60BB838B532E02",
 		["guid_str"] = "8RPyCCHH",
-		["id"] = 114,
+		["id"] = 110,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -10464,7 +10956,7 @@
 		},
 		["guid"] = "6223F6A84B39B804129D31ACCC85709C",
 		["guid_str"] = "8dG1ylcN",
-		["id"] = 115,
+		["id"] = 111,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -10557,7 +11049,7 @@
 		},
 		["guid"] = "971BEEA749E61AC0955A059FAA78D127",
 		["guid_str"] = "l2NqcIZ5",
-		["id"] = 116,
+		["id"] = 112,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
 			["tween"] = {
@@ -10648,7 +11140,7 @@
 		},
 		["guid"] = "AA3D5EB04D1D66A1235A70B33408C2B3",
 		["guid_str"] = "50V8vZ85",
-		["id"] = 117,
+		["id"] = 113,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
@@ -10756,7 +11248,7 @@
 		},
 		["guid"] = "0A3DAC9F472478F033869DA3A45781CB",
 		["guid_str"] = "5j3uWuvR",
-		["id"] = 118,
+		["id"] = 114,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {
@@ -10832,7 +11324,7 @@
 		},
 		["guid"] = "A4EC869541D4FBABBD03618689403E5C",
 		["guid_str"] = "esqbJyr8",
-		["id"] = 119,
+		["id"] = 115,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {
@@ -10934,7 +11426,7 @@
 		},
 		["guid"] = "FB36464B476EFC3691437C927FF490C9",
 		["guid_str"] = "zUWxY6PQ",
-		["id"] = 120,
+		["id"] = 116,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -11046,7 +11538,7 @@
 		},
 		["guid"] = "B05A2B2647833886EE93C7834D63D9E9",
 		["guid_str"] = "vhxFYRKK",
-		["id"] = 121,
+		["id"] = 117,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -11214,7 +11706,7 @@
 		},
 		["guid"] = "5F3FFA714674E68A041CA0B8EA091A4A",
 		["guid_str"] = "iVm844FR",
-		["id"] = 122,
+		["id"] = 118,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -11340,7 +11832,7 @@
 		},
 		["guid"] = "6743624F4748DE67A8C102A14A7BE4E1",
 		["guid_str"] = "Dh1xTU5X",
-		["id"] = 123,
+		["id"] = 119,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -11469,7 +11961,7 @@
 		},
 		["guid"] = "41A8A0444297F735E79C4791EE72A1E2",
 		["guid_str"] = "aifUt7uG",
-		["id"] = 124,
+		["id"] = 120,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -11595,7 +12087,7 @@
 		},
 		["guid"] = "8A66CB724E437E02C7677DB572AF1504",
 		["guid_str"] = "whDVSJCc",
-		["id"] = 125,
+		["id"] = 121,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -11721,7 +12213,7 @@
 		},
 		["guid"] = "7CB01F154053463DE7AE8B985ABFB3E9",
 		["guid_str"] = "1rYmBlV0",
-		["id"] = 126,
+		["id"] = 122,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -11847,7 +12339,7 @@
 		},
 		["guid"] = "9E468E25462C58D809BBE7BDE347E773",
 		["guid_str"] = "pb1L0u5g",
-		["id"] = 127,
+		["id"] = 123,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -11993,7 +12485,7 @@
 		},
 		["guid"] = "200C8504447178877ABAA199C3C4FD60",
 		["guid_str"] = "MUPuplOU",
-		["id"] = 128,
+		["id"] = 124,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -12105,7 +12597,7 @@
 		},
 		["guid"] = "EC6744CD47412A18BDD4188A452E9F7E",
 		["guid_str"] = "ioUyyNFH",
-		["id"] = 129,
+		["id"] = 125,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -12233,7 +12725,7 @@
 		},
 		["guid"] = "EF21B0CC467ECDB31B73FA8652D0833D",
 		["guid_str"] = "36aVVEAX",
-		["id"] = 130,
+		["id"] = 126,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -12364,7 +12856,7 @@
 		},
 		["guid"] = "498B01844F2BF5E939F26F84D00ED46A",
 		["guid_str"] = "EEcQX3Qp",
-		["id"] = 131,
+		["id"] = 127,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -12492,7 +12984,7 @@
 		},
 		["guid"] = "2A0DE93D43A543D43817338D2D809589",
 		["guid_str"] = "b21lETDn",
-		["id"] = 132,
+		["id"] = 128,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -12620,7 +13112,7 @@
 		},
 		["guid"] = "6F3CDF5341488CEACBAB7594C44C2E85",
 		["guid_str"] = "Fge70iHS",
-		["id"] = 133,
+		["id"] = 129,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -12806,7 +13298,7 @@
 		},
 		["guid"] = "F23A5A37415AFB12346EA1B1811D73AB",
 		["guid_str"] = "lHneq0fK",
-		["id"] = 134,
+		["id"] = 130,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_characters"] = {
@@ -12929,7 +13421,7 @@
 		},
 		["guid"] = "0ED0645742AFA471D62A619202D03AB1",
 		["guid_str"] = "Vm2S9VTK",
-		["id"] = 135,
+		["id"] = 131,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -13026,7 +13518,7 @@
 		},
 		["guid"] = "E47D9C3F4C5ECECB400C988EF746564C",
 		["guid_str"] = "UA4c1UJb",
-		["id"] = 136,
+		["id"] = 132,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -13121,7 +13613,7 @@
 		},
 		["guid"] = "6191F22D4D27359EB4AFB9A7DB6CB4A6",
 		["guid_str"] = "4AjDYj71",
-		["id"] = 137,
+		["id"] = 133,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -13218,7 +13710,7 @@
 		},
 		["guid"] = "42E898304DDF1EEA62E35C8800B78202",
 		["guid_str"] = "y7ETohYQ",
-		["id"] = 138,
+		["id"] = 134,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -13313,7 +13805,7 @@
 		},
 		["guid"] = "D1D08CFE4380595A8D32E18304EC53CB",
 		["guid_str"] = "9UJA6sKU",
-		["id"] = 139,
+		["id"] = 135,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -13410,7 +13902,7 @@
 		},
 		["guid"] = "D47F4EF64A184C8FA2D1FDBEEE18AAA9",
 		["guid_str"] = "pGsRH6CZ",
-		["id"] = 140,
+		["id"] = 136,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -13505,7 +13997,7 @@
 		},
 		["guid"] = "AA9BBD194B8A021342AF43ADE4035DB4",
 		["guid_str"] = "4dbVj4xb",
-		["id"] = 141,
+		["id"] = 137,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -13602,7 +14094,7 @@
 		},
 		["guid"] = "E87E150D40289EA21578DDB4591E4786",
 		["guid_str"] = "U8aoA458",
-		["id"] = 142,
+		["id"] = 138,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -13699,7 +14191,7 @@
 		},
 		["guid"] = "65A5576C4ED8A0334A1CC4AC15546F8E",
 		["guid_str"] = "mEEAdi8r",
-		["id"] = 143,
+		["id"] = 139,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -13794,7 +14286,7 @@
 		},
 		["guid"] = "D7B078C34A455A74C77D97B1E44CFCD4",
 		["guid_str"] = "6oVrepnk",
-		["id"] = 144,
+		["id"] = 140,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -13891,7 +14383,7 @@
 		},
 		["guid"] = "80F091BF4105E8811DC44DB990046CED",
 		["guid_str"] = "vo54BdxY",
-		["id"] = 145,
+		["id"] = 141,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -14002,7 +14494,7 @@
 		},
 		["guid"] = "CF256BEF4F3EE4065B765A87285E6CD6",
 		["guid_str"] = "YqxogMpT",
-		["id"] = 146,
+		["id"] = 142,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -14111,7 +14603,7 @@
 		},
 		["guid"] = "2CD4DDB741E9DB3E2BDD999285472C58",
 		["guid_str"] = "GTGHQJdG",
-		["id"] = 147,
+		["id"] = 143,
 		["male_characters"] = {
 			{
 				["anim"] = "normal",
@@ -14222,7 +14714,7 @@
 		},
 		["guid"] = "C7B5246C4B10C49E061831845327A0C8",
 		["guid_str"] = "2VcK06Yl",
-		["id"] = 148,
+		["id"] = 144,
 		["is_player_speaker"] = true,
 		["male_characters"] = {
 			{
@@ -14371,7 +14863,7 @@
 		},
 		["guid"] = "8358FCAC45728A72F1E6E59680590B18",
 		["guid_str"] = "y78youSU",
-		["id"] = 149,
+		["id"] = 145,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["male_characters"] = {
@@ -14491,7 +14983,7 @@
 		},
 		["guid"] = "94FA893842844667D9A14E8FC200F5C6",
 		["guid_str"] = "yCXlrokI",
-		["id"] = 150,
+		["id"] = 146,
 		["name"] = "孔秘书",
 		["soundfx"] = {
 			{
@@ -14570,7 +15062,7 @@
 		},
 		["guid"] = "883B73A44F2A9A90AD1A9D9CADE352B4",
 		["guid_str"] = "e9wuM2ef",
-		["id"] = 151,
+		["id"] = 147,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -14645,7 +15137,7 @@
 		},
 		["guid"] = "EC59C72F4053943CF1F4F2824913DB89",
 		["guid_str"] = "dtUCElb3",
-		["id"] = 152,
+		["id"] = 148,
 		["name"] = "孔秘书",
 		["text"] = "没什么~执行官[M]先生[/M][F]小姐[/F]，虽然知道你本事不小，但怎么也没想到竟然能把这两位请来……\n想必“他们”也想不到吧，要是按照我的做法，你们这种蛋糕，我可不会第一个吃。",
 	},
@@ -14717,7 +15209,7 @@
 		},
 		["guid"] = "48F72ED84483271868B150A354863C5F",
 		["guid_str"] = "RA7Ra3aR",
-		["id"] = 153,
+		["id"] = 149,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
@@ -14792,7 +15284,7 @@
 		},
 		["guid"] = "26FC718549C62945D75B81A8B6709804",
 		["guid_str"] = "qSWNZmt8",
-		["id"] = 154,
+		["id"] = 150,
 		["name"] = "孔秘书",
 		["text"] = "那我也回去向姬先生同步了，他虽然人不在海临，但一直很担心你们。",
 	},
@@ -14852,7 +15344,7 @@
 		},
 		["guid"] = "C2B6D9F44DF75DF732F1DE8C3C54D08F",
 		["guid_str"] = "JG4V9568",
-		["id"] = 155,
+		["id"] = 151,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
@@ -14951,7 +15443,7 @@
 		},
 		["guid"] = "00CB2B924C35730CCD0AF0A98B300E57",
 		["guid_str"] = "NsrmCp4R",
-		["id"] = 156,
+		["id"] = 152,
 		["is_player_speaker"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "closeeye_add",
@@ -15045,7 +15537,7 @@
 		},
 		["guid"] = "12B7C7334DCC86806CC6C2B92D7E1562",
 		["guid_str"] = "S0BIWOfR",
-		["id"] = 157,
+		["id"] = 153,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["tween"] = {
@@ -15138,7 +15630,7 @@
 		},
 		["guid"] = "9908EB4942F0F04B4821D5890BEFEB1F",
 		["guid_str"] = "zRrzLYf2",
-		["id"] = 158,
+		["id"] = 154,
 		["male_speaker_info"] = {
 			["anim"] = "doubt1_add",
 			["tween"] = {
@@ -15263,7 +15755,7 @@
 		},
 		["guid"] = "54150B554E6798348E2537BC69373F1B",
 		["guid_str"] = "jbI5ctxL",
-		["id"] = 159,
+		["id"] = 155,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {

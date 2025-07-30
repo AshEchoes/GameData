@@ -111,6 +111,15 @@
 		["female_speaker_info"] = {
 			["anim"] = "surprise_add",
 			["body_anim"] = "default_loop",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["guid"] = "FA1919454AA3F731EFFFB6B4576A1866",
 		["guid_str"] = "u6Y7pLVp",
@@ -119,9 +128,29 @@
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
 			["body_anim"] = "default_loop",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["name"] = "[rolename]",
 		["text"] = "这是……梦里的……嗯？！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1024,6 +1053,9 @@
 		["guid"] = "7CB02D7E4892251CAC79DD91838230F3",
 		["guid_str"] = "HA1JOo00",
 		["id"] = 15,
+		["voice_effect"] = {
+			["event"] = "kongling",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1410,6 +1442,9 @@
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
 		},
+		["voice_effect"] = {
+			["event"] = "kongling",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1445,6 +1480,9 @@
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
+		},
+		["voice_effect"] = {
+			["event"] = "kongling",
 		},
 	},
 	{
@@ -1619,6 +1657,9 @@
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
 		},
+		["voice_effect"] = {
+			["event"] = "kongling",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1653,6 +1694,9 @@
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
+		},
+		["voice_effect"] = {
+			["event"] = "kongling",
 		},
 	},
 	{
@@ -1689,6 +1733,9 @@
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
 		},
+		["voice_effect"] = {
+			["event"] = "kongling",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1723,6 +1770,9 @@
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
+		},
+		["voice_effect"] = {
+			["event"] = "kongling",
 		},
 	},
 	{
@@ -1774,6 +1824,9 @@
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
 		},
+		["voice_effect"] = {
+			["event"] = "kongling",
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1808,6 +1861,9 @@
 		["male_speaker_info"] = {
 			["anim"] = "serious_add",
 			["body_anim"] = "default_loop",
+		},
+		["voice_effect"] = {
+			["event"] = "kongling",
 		},
 	},
 	{
@@ -1948,6 +2004,48 @@
 		["id"] = 44,
 		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["is_origin_size"] = false,
+				["is_ratio_full"] = true,
+				["ori_size_h"] = 888,
+				["ori_size_w"] = 1928,
+				["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_mask.bk2",
+				["play_delay_time"] = 1400,
+				["sustain_page_count"] = 2,
+				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 1400,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.5,
+							["start_alpha"] = 0.0,
+							["time"] = 1000,
+						},
+						["tween"] = "AlphaChange",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 1500,
+						},
+						["tween"] = "AlphaChange",
+					},
+				},
+			},
+		},
 		["just_auto_play"] = true,
 		["male_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -1963,6 +2061,11 @@
 				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
 				["length"] = 1153,
 				["volume"] = 1.5,
+			},
+			{
+				["delay"] = 1600,
+				["event"] = "event:/ambience/d31_church_bell",
+				["length"] = 11500,
 			},
 		},
 		["time"] = 4000,

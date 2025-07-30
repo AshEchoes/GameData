@@ -7,9 +7,31 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 2000,
+								["time"] = 2800,
 							},
 							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2800,
+							},
+							["tween"] = "ScaleIn",
 						},
 					},
 				},
@@ -30,6 +52,7 @@
 				["loop"] = 1,
 			},
 		},
+		["time"] = 2800,
 	},
 	{
 		["bg_info"] = {
@@ -1314,7 +1337,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1460,7 +1483,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1533,7 +1556,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1545,6 +1568,33 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am56yy/am56yy_action1",
+				["pos"] = {
+					400,
+					100,
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 6000,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
 				},
 			},
 		},
@@ -1862,7 +1912,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2236,7 +2286,7 @@
 				},
 			},
 			{
-				["anim"] = "normal",
+				["anim"] = "doubt",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2305,7 +2355,7 @@
 		["guid_str"] = "FFvnVO0B",
 		["id"] = 36,
 		["name"] = "鸢",
-		["text"] = "进来前，柳池说来一场捉迷藏，又祝我们噩梦愉快……这里会不会……真的是“梦”？我的意思是，这里是虚幻拼凑出来的东西，为了迷惑我们。",
+		["text"] = "进来前，柳池说来一场捉迷藏，又祝我们噩梦愉快……这里会不会……真的是“梦”？\n我的意思是，这里是虚幻拼凑出来的东西，为了迷惑我们。",
 	},
 	{
 		["bg_info"] = {

@@ -134,7 +134,26 @@
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/chapter09/cg_9_transition_paper.bk2",
+				["sustain_page_count"] = 3,
 				["template_type"] = "video",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 2,
+							["time"] = 800,
+						},
+						["tween"] = "FadeOut",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 600,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
 			},
 		},
 		["soundfx"] = {
@@ -1852,6 +1871,12 @@
 				["event"] = "event:/ui/advse/01-12-whoosh",
 				["length"] = 2491,
 			},
+			{
+				["delay"] = 800,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 8.0,
+			},
 		},
 		["speaker_info"] = {
 			["anim"] = "normal_add",
@@ -2763,6 +2788,13 @@
 			{
 			},
 		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17]素白的纸张漫天飞舞，像是飘起了一场没有冷意的大雪，我茫然地看向四周，又看向说话的人。",
+			["text_align"] = "center",
+		},
 		["female_bg_info"] = {
 			{
 				["config"] = {
@@ -2770,48 +2802,94 @@
 						["is_keep_finish"] = true,
 						["is_queue"] = true,
 						["is_stage"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_in_f.bk2",
 					},
 				},
-				["path"] = "",
+				["path"] = "interface/resource/Game/Dialog09CGBG/CG_9_whzxhands_f.png",
 			},
 			{
+			},
+		},
+		["female_characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "heroine/heroine_action1",
+				["pos"] = {
+					0.0,
+					100.0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["guid"] = "BB8430824E699B45DF64D1A37C55C51E",
 		["guid_str"] = "4XlYHvSQ",
 		["id"] = 39,
 		["is_gender_bg"] = true,
-		["just_auto_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_black.png",
+				["sustain_page_count"] = 5,
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 10000,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["male_bg_info"] = {
 			{
 				["config"] = {
 					["video"] = {
 						["is_keep_finish"] = true,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_in_m.bk2",
 					},
 				},
-				["path"] = "",
+				["path"] = "interface/resource/Game/Dialog09CGBG/CG_9_whzxhands_m.png",
 			},
 			{
+			},
+		},
+		["male_characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_action1",
+				["pos"] = {
+					0.0,
+					100.0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 		},
 		["soundfx"] = {
 			{
 				["delay"] = 1000,
-				["event"] = "event:/sfx/story/9/avg_chapter9_paperbridge_construct",
-				["length"] = 2933,
-				["volume"] = 1.5,
-			},
-			{
-				["delay"] = 1000,
 				["event"] = "event:/sfx/story/9/avg_chapter9_paper_move_long",
 				["length"] = 3470,
-			},
-			{
-				["event"] = "event:/sfx/story/9/cg_9_f3_butongdao_out",
-				["length"] = 3733,
 			},
 		},
 	},
@@ -2824,10 +2902,11 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17]素白的纸张漫天飞舞，像是飘起了一场没有冷意的大雪，我茫然地看向四周，又看向说话的人。",
+			["height"] = 150,
+			["is_append"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17][size 17]\n\n舞鹤织雪的手和前几天一样被我紧紧抓着。\n\n[size 17]可这一次我感受到的，只有一张纸的重量。",
 			["text_align"] = "center",
 		},
 		["female_bg_info"] = {
@@ -2836,10 +2915,9 @@
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_f.bk2",
 					},
 				},
-				["path"] = "",
+				["path"] = "interface/resource/Game/Dialog09CGBG/CG_9_whzxhands_f.png",
 			},
 			{
 			},
@@ -2854,10 +2932,9 @@
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_m.bk2",
 					},
 				},
-				["path"] = "",
+				["path"] = "interface/resource/Game/Dialog09CGBG/CG_9_whzxhands_m.png",
 			},
 			{
 			},
@@ -2874,111 +2951,27 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17]舞鹤织雪的手和前几天一样被我紧紧抓着。",
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[font cusong][c f76a57]舞鹤织雪[/font][/c]\n\n[size 17]唔，我们互相救过，也做到了答应的事。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 600,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["female_bg_info"] = {
 			{
 				["config"] = {
+					["is_sustain"] = true,
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_f.bk2",
-					},
-				},
-				["path"] = "",
-			},
-			{
-			},
-		},
-		["guid"] = "5BECA25D4F23E2C2B96EEEBC20921C40",
-		["guid_str"] = "oeuoSvZi",
-		["id"] = 41,
-		["is_gender_bg"] = true,
-		["male_bg_info"] = {
-			{
-				["config"] = {
-					["video"] = {
-						["count"] = -1,
-						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_m.bk2",
-					},
-				},
-				["path"] = "",
-			},
-			{
-			},
-		},
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["mask_alpha"] = 0.60000002384186,
-			["text"] = "[size 17]可这一次我感受到的，只有一张纸的重量。",
-			["text_align"] = "center",
-		},
-		["female_bg_info"] = {
-			{
-				["config"] = {
-					["video"] = {
-						["count"] = -1,
-						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_f.bk2",
-					},
-				},
-				["path"] = "",
-			},
-			{
-			},
-		},
-		["guid"] = "92E5A4B64D39978661214DBB566B56D0",
-		["guid_str"] = "cz7Do1Gh",
-		["id"] = 42,
-		["is_gender_bg"] = true,
-		["male_bg_info"] = {
-			{
-				["config"] = {
-					["video"] = {
-						["count"] = -1,
-						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_m.bk2",
-					},
-				},
-				["path"] = "",
-			},
-			{
-			},
-		},
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["text_align"] = "center",
-		},
-		["female_bg_info"] = {
-			{
-				["config"] = {
-					["video"] = {
-						["count"] = -1,
-						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_f.bk2",
 					},
 				},
 				["path"] = "",
@@ -2988,15 +2981,15 @@
 		},
 		["guid"] = "89A02E3543939F0BABF07981C1932DF0",
 		["guid_str"] = "qRr6rBxQ",
-		["id"] = 43,
+		["id"] = 41,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
+					["is_sustain"] = true,
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_m.bk2",
 					},
 				},
 				["path"] = "",
@@ -3004,8 +2997,6 @@
 			{
 			},
 		},
-		["name"] = "舞鹤织雪",
-		["text"] = "唔，我们互相救过，也做到了答应的事。",
 	},
 	{
 		["bg_info"] = {
@@ -3018,15 +3009,28 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[font cusong][c f76a57]舞鹤织雪[/font][/c]\n\n[size 17]两清啦。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["female_bg_info"] = {
 			{
 				["config"] = {
+					["is_sustain"] = true,
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_f.bk2",
 					},
 				},
 				["path"] = "",
@@ -3036,15 +3040,15 @@
 		},
 		["guid"] = "A7C0BFF4432D1B6E8C65AA926BE34BB0",
 		["guid_str"] = "gdSrQXko",
-		["id"] = 44,
+		["id"] = 42,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
+					["is_sustain"] = true,
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_m.bk2",
 					},
 				},
 				["path"] = "",
@@ -3052,8 +3056,6 @@
 			{
 			},
 		},
-		["name"] = "舞鹤织雪",
-		["text"] = "两清啦。",
 	},
 	{
 		["bg_info"] = {
@@ -3066,15 +3068,28 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[font cusong][c f76a57]舞鹤织雪[/font][/c]\n\n[size 17]申请重大立功的事情就拜托了~",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["female_bg_info"] = {
 			{
 				["config"] = {
+					["is_sustain"] = true,
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_f.bk2",
 					},
 				},
 				["path"] = "",
@@ -3084,15 +3099,15 @@
 		},
 		["guid"] = "2D33BFDA4E5BF267E731DABD8A33775A",
 		["guid_str"] = "ynLl3hKn",
-		["id"] = 45,
+		["id"] = 43,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
 				["config"] = {
+					["is_sustain"] = true,
 					["video"] = {
 						["count"] = -1,
 						["is_queue"] = true,
-						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_m.bk2",
 					},
 				},
 				["path"] = "",
@@ -3100,8 +3115,77 @@
 			{
 			},
 		},
-		["name"] = "舞鹤织雪",
-		["text"] = "申请重大立功的事情就拜托了~",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+			},
+		},
+		["female_bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_in_f.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_f.bk2",
+					},
+				},
+			},
+		},
+		["guid"] = "2378773A4D508F7390563189F8E8BDBE",
+		["guid_str"] = "cuh8TOSc",
+		["id"] = 44,
+		["is_gender_bg"] = true,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["male_bg_info"] = {
+			{
+				["config"] = {
+					["video"] = {
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_in_m.bk2",
+					},
+				},
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["path"] = "movies/Desktop/avg/chapter09/cg_9_h2_qianshouzhixue_loop_m.bk2",
+					},
+				},
+			},
+		},
+		["soundfx"] = {
+			{
+				["delay"] = 1000,
+				["event"] = "event:/sfx/story/9/avg_chapter9_paperbridge_construct",
+				["length"] = 2933,
+				["loop"] = 1,
+				["volume"] = 1.5,
+			},
+			{
+				["delay"] = 1000,
+				["event"] = "event:/sfx/story/9/avg_chapter9_paper_move_long",
+				["length"] = 3470,
+				["loop"] = 1,
+			},
+			{
+				["event"] = "event:/sfx/story/9/cg_9_f3_butongdao_out",
+				["length"] = 3733,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3113,10 +3197,18 @@
 		},
 		["caption_info"] = {
 			["b_use_mask"] = true,
-			["height"] = 200,
 			["mask_alpha"] = 0.40000000596046,
-			["text"] = "[size 17]一张纸的重量从手中消失了。\n\n她轻轻落回原地，再次挥手，\n\n无数一路上都漫无目的四散飘落的纸片像是得到了最终的命令，\n\n从看不到尽头的空间尽头快速窜起，像一阵白色的飓风。",
+			["text"] = "[size 17]一张纸的重量从手中消失了。\n\n她轻轻落回原地，再次挥手，无数一路上都漫无目的四散飘落的纸片像是得到了最终的命令，\n\n从看不到尽头的空间尽头快速窜起，像一阵白色的飓风。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
 		},
 		["female_bg_info"] = {
 			{
@@ -3134,7 +3226,7 @@
 		},
 		["guid"] = "7EC1AA564FC7E67267B88FAA358547A5",
 		["guid_str"] = "z9MQgZUX",
-		["id"] = 46,
+		["id"] = 45,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
@@ -3187,7 +3279,7 @@
 		},
 		["guid"] = "ECFBE69046AB41AF3BB6C7822573B1BF",
 		["guid_str"] = "5nwiNxAf",
-		["id"] = 47,
+		["id"] = 46,
 		["is_gender_bg"] = true,
 		["male_bg_info"] = {
 			{
@@ -3225,6 +3317,8 @@
 			},
 		},
 		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.40000000596046,
 			["text"] = "[size 20][font cusong]织雪！！！！！",
 			["text_align"] = "center",
 			["tween"] = {
@@ -3264,7 +3358,7 @@
 		},
 		["guid"] = "4D9B460C49E0301E704F8B9D07217385",
 		["guid_str"] = "9bdtqCOb",
-		["id"] = 48,
+		["id"] = 47,
 		["is_gender_bg"] = true,
 		["is_white_base_bg"] = true,
 		["male_bg_info"] = {
@@ -3317,7 +3411,9 @@
 			},
 		},
 		["caption_info"] = {
+			["b_use_mask"] = true,
 			["is_show_all"] = true,
+			["mask_alpha"] = 0.40000000596046,
 			["text"] = "[size 20][font cusong]织雪！！！！！",
 			["text_align"] = "center",
 			["tween"] = {
@@ -3332,7 +3428,7 @@
 		},
 		["guid"] = "CFB477424E77D17ABE7387AA9962BFE8",
 		["guid_str"] = "YUKX69am",
-		["id"] = 49,
+		["id"] = 48,
 		["is_total_play"] = true,
 		["is_white_base_bg"] = true,
 		["just_auto_play"] = true,

@@ -38,7 +38,6 @@
 				["count"] = -1,
 				["is_origin_size"] = false,
 				["is_ratio_full"] = true,
-				["is_stage"] = true,
 				["ori_size_h"] = 888,
 				["ori_size_w"] = 1928,
 				["path"] = "movies/Desktop/avg/common/screen_mask_rain.bk2",
@@ -153,6 +152,9 @@
 		["guid_str"] = "kXrIXIud",
 		["id"] = 2,
 		["name"] = "苏筱",
+		["sound"] = {
+			["event"] = "voice_ch_quest_story_episode5046_vKGkL6kv",
+		},
 		["text"] = "？？你怎么在这儿？？",
 	},
 	{
@@ -536,7 +538,7 @@
 				},
 			},
 			{
-				["anim"] = "smile1_add",
+				["anim"] = "surprise1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -549,6 +551,48 @@
 				},
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 4000,
+							["time"] = 1,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "wink1_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "af56whzx/af56whzx_action1",
+				["pos"] = {
+					300,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 4000,
+							["time"] = 1,
+						},
+						["tween"] = "FadeIn",
+					},
+					{
+						["param"] = {
+							["delay"] = 0,
+							["end_alpha"] = 0.0,
+							["start_alpha"] = 0.0,
+							["time"] = 0,
+						},
+						["tween"] = "AlphaChange",
+					},
 				},
 			},
 		},
@@ -717,7 +761,7 @@
 				},
 			},
 			{
-				["anim"] = "wink1_add",
+				["anim"] = "wronged1_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1329,7 +1373,7 @@
 				},
 			},
 			{
-				["anim"] = "smile1_add",
+				["anim"] = "scornful2_add",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1945,19 +1989,24 @@
 						{
 							["param"] = {
 								["delay"] = 0,
-								["time"] = 1000,
+								["time"] = 900,
 							},
 							["tween"] = "FadeIn",
 						},
 					},
+					["video"] = {
+						["count"] = -1,
+						["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_loop1.bk2",
+					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "",
 			},
 			{
-				["path"] = "interface/resource/Game/Dialog08SceneBG/bg_dialog08_04.png",
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
 			},
 		},
 		["caption_info"] = {
+			["align"] = "bottom",
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]收回视线抬起头，望向高处的表盘，仿佛隐隐能听到巨大而崭新的表盘内里机械摩擦的声音。",
@@ -1978,7 +2027,14 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["config"] = {
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_loop1.bk2",
+					},
+				},
+				["path"] = "",
 			},
 			{
 			},
@@ -2011,8 +2067,13 @@
 							["tween"] = "FadeOut",
 						},
 					},
+					["video"] = {
+						["count"] = -1,
+						["is_queue"] = true,
+						["path"] = "movies/Desktop/avg/chapter09/bg_clock_06_loop1.bk2",
+					},
 				},
-				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_06.png",
+				["path"] = "",
 			},
 			{
 			},
