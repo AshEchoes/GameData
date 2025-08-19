@@ -363,6 +363,9 @@
 		},
 		["desc"] = "处于【子非鱼】的水流屏障下的队友每层水流屏障使主动技能回复速度提高{1}，最多提高100%",
 		["is_leader_only"] = false,
+		["param_multiply"] = {
+			10,
+		},
 		["param_product"] = {
 			197,
 		},
@@ -427,8 +430,11 @@
 			-1,
 			-1,
 		},
-		["desc"] = "复调造成伤害时，降低目标{1}基础减伤，最多叠加35层（该效果属于[link type='combat' tid='156']）；异核技能初始冷却时间缩短一半，且异核技能期间复调伤害提高{2}",
+		["desc"] = "复调造成伤害时，降低目标{1}基础减伤，最多叠加35层（该效果属于[link type='combat' tid='150']）；异核技能初始冷却时间缩短一半，且异核技能期间复调伤害提高{2}",
 		["is_leader_only"] = false,
+		["param_multiply"] = {
+			35,
+		},
 		["param_product"] = {
 			128,
 			120,
@@ -450,7 +456,7 @@
 			-1,
 			-1,
 		},
-		["desc"] = "加急件对目标造成伤害时，降低目标{1}基础减伤，（该效果属于[link type='combat' tid='156']，自身下场时效果消失）；目标处于（我方或敌方）屏障下时，自身对其造成的伤害提高{2}",
+		["desc"] = "加急件对目标造成伤害时，降低目标{1}基础减伤，（该效果属于[link type='combat' tid='150']，自身下场时效果消失）；目标处于（我方或敌方）屏障下时，自身对其造成的伤害提高{2}",
 		["is_leader_only"] = false,
 		["param_product"] = {
 			128,
@@ -475,6 +481,10 @@
 		},
 		["desc"] = "【踏风小调】的鹿蜀幻影使命中的友方同调者提高{1}[link type='combat' tid='68']和{2}[link type='combat' tid='64']，持续10秒，该效果最多叠加2层",
 		["is_leader_only"] = false,
+		["param_multiply"] = {
+			2,
+			2,
+		},
 		["param_product"] = {
 			146,
 			136,
@@ -607,6 +617,11 @@
 		},
 		["desc"] = "登场异核充能{2}秒，每层[link type='combat' tid='58']可获得{1}暴击率和{3}暴击伤害且初始获得15层[link type='combat' tid='58']，解封[img src=\"interface/resource/Game/Combatob/combat_special_am06blts_3.png\" lift=\"-4\" size=\"28,28\"]所需累积消耗的生命值降低一半",
 		["is_leader_only"] = false,
+		["param_multiply"] = {
+			30,
+			30,
+			30,
+		},
 		["param_product"] = {
 			[1] = 113,
 			[3] = 121,

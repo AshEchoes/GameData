@@ -84189,6 +84189,136 @@
 			},
 		},
 	},
+	[1000828] = {
+		[1] = {
+			{
+				["ID"] = 1000828,
+				["alert_radius"] = 0,
+				["avatar_name"] = "",
+				["bounce_velocity_loss"] = 0,
+				["can_be_hit"] = false,
+				["category"] = "卡池角色\\☆☆☆☆☆☆\\[056]am37yx_逸虚",
+				["collide_with_invincible_actors"] = true,
+				["collide_with_projectile"] = 0,
+				["collision_behavior_logic"] = 0,
+				["collision_behavior_move"] = 0,
+				["collision_interval"] = 20,
+				["collision_target_move_nav"] = 0,
+				["collision_target_type"] = 1,
+				["collision_type"] = 1,
+				["damage_to_shield"] = 1,
+				["delay_start_move"] = 0,
+				["effects"] = {
+					{
+					},
+					{
+					},
+					{
+					},
+					{
+					},
+					{
+					},
+					{
+					},
+					{
+					},
+				},
+				["gravity_scale"] = 0,
+				["hit_wall_fx"] = "",
+				["hit_wall_fx_params"] = {
+					9,
+					"*self",
+					7,
+					true,
+					8,
+					false,
+					16,
+					"*self",
+				},
+				["hit_wall_sound"] = "",
+				["hit_wall_sound_params"] = {
+				},
+				["ie_id"] = {
+				},
+				["ie_trigger"] = "",
+				["ignore_scene_collision"] = false,
+				["ignore_shield"] = false,
+				["intercepted_fx"] = "",
+				["intercepted_fx_params"] = {
+					9,
+					"*self",
+					7,
+					true,
+					8,
+					false,
+					16,
+					"*self",
+				},
+				["intercepted_sound"] = "",
+				["intercepted_sound_params"] = {
+				},
+				["keep_fx"] = false,
+				["life_span"] = 1200,
+				["life_span_after_neutralized"] = 10000,
+				["life_span_random_range"] = 0,
+				["lower_deviation"] = -1,
+				["model_remain_time"] = 1000,
+				["model_scale"] = 1,
+				["move_mode"] = 1,
+				["name"] = "二技能-表现子弹",
+				["one_collision_per_cross"] = true,
+				["radius"] = 1,
+				["remark"] = "",
+				["remove_fx"] = "",
+				["remove_fx_params"] = {
+					9,
+					"*self",
+					7,
+					true,
+					8,
+					false,
+					16,
+					"*self",
+				},
+				["remove_on_leave_fight"] = false,
+				["remove_self_after_trigger"] = "",
+				["remove_sound"] = "",
+				["remove_sound_params"] = {
+				},
+				["rotate_center_z"] = -9999,
+				["rotation_follows_velocity"] = true,
+				["scene_collision_height"] = -1,
+				["scripts"] = "scripts/combat/projectile/1000828.lua",
+				["self_fx"] = "P_am37yx_skill_slot01_004_loop",
+				["self_fx_params"] = {
+					7,
+					true,
+					8,
+					false,
+					9,
+					"*self",
+					16,
+					"*self",
+				},
+				["self_sound"] = "",
+				["self_sound_params"] = {
+				},
+				["sort_collided_actors"] = false,
+				["speed"] = 800,
+				["trajectory_type"] = 1,
+				["tween_move1"] = {
+				},
+				["tween_move2"] = {
+				},
+				["tween_move3"] = {
+				},
+				["tween_move4"] = {
+				},
+				["upper_deviation"] = 1,
+			},
+		},
+	},
 	[1000829] = {
 		[1] = {
 			{
@@ -84323,6 +84453,146 @@
 				["tween_move4"] = {
 				},
 				["upper_deviation"] = 30,
+			},
+		},
+	},
+	[1000830] = {
+		[1] = {
+			{
+				["ID"] = 1000830,
+				["alert_radius"] = 0,
+				["avatar_name"] = "",
+				["bounce_velocity_loss"] = 0,
+				["can_be_hit"] = false,
+				["category"] = "卡池角色\\☆☆☆☆☆☆\\[056]am37yx_逸虚",
+				["collide_with_invincible_actors"] = true,
+				["collide_with_projectile"] = 0,
+				["collision_behavior_logic"] = 1,
+				["collision_behavior_move"] = 0,
+				["collision_interval"] = 20,
+				["collision_target_move_nav"] = 0,
+				["collision_target_type"] = 2,
+				["collision_type"] = 1,
+				["damage_to_shield"] = 1,
+				["delay_start_move"] = 0,
+				["effects"] = {
+					{
+					},
+					{
+						{
+							["id"] = 12180137,
+							["remove_self_after_trigger"] = true,
+						},
+					},
+					{
+					},
+					{
+						{
+							["id"] = 12180137,
+							["remove_self_after_trigger"] = true,
+						},
+					},
+					{
+					},
+					{
+					},
+					{
+					},
+				},
+				["gravity_scale"] = 0,
+				["hit_wall_fx"] = "",
+				["hit_wall_fx_params"] = {
+					9,
+					"*self",
+					7,
+					true,
+					8,
+					false,
+					16,
+					"*self",
+				},
+				["hit_wall_sound"] = "",
+				["hit_wall_sound_params"] = {
+				},
+				["ie_id"] = {
+					12180137,
+					12180137,
+				},
+				["ie_trigger"] = "2#4",
+				["ignore_scene_collision"] = false,
+				["ignore_shield"] = false,
+				["intercepted_fx"] = "",
+				["intercepted_fx_params"] = {
+					9,
+					"*self",
+					7,
+					true,
+					8,
+					false,
+					16,
+					"*self",
+				},
+				["intercepted_sound"] = "",
+				["intercepted_sound_params"] = {
+				},
+				["keep_fx"] = false,
+				["life_span"] = 1530,
+				["life_span_after_neutralized"] = 10000,
+				["life_span_random_range"] = 0,
+				["lower_deviation"] = -1,
+				["model_remain_time"] = 1000,
+				["model_scale"] = 1,
+				["move_mode"] = 1,
+				["name"] = "",
+				["one_collision_per_cross"] = true,
+				["radius"] = 50,
+				["remark"] = "普攻火箭",
+				["remove_fx"] = "",
+				["remove_fx_params"] = {
+					9,
+					"*self",
+					7,
+					true,
+					8,
+					false,
+					16,
+					"*self",
+				},
+				["remove_on_leave_fight"] = false,
+				["remove_self_after_trigger"] = "1#1",
+				["remove_sound"] = "",
+				["remove_sound_params"] = {
+				},
+				["rotate_center_z"] = -9999,
+				["rotation_follows_velocity"] = true,
+				["scene_collision_height"] = -1,
+				["scripts"] = "scripts/combat/projectile/1000830.lua",
+				["self_fx"] = "P_am37yx_skill_common01_001_loop",
+				["self_fx_params"] = {
+					9,
+					"*self",
+					16,
+					"*self",
+					7,
+					true,
+					8,
+					false,
+				},
+				["self_sound"] = "",
+				["self_sound_params"] = {
+				},
+				["sort_collided_actors"] = false,
+				["speed"] = 0,
+				["trajectory_type"] = 2,
+				["tween_move1"] = {
+				},
+				["tween_move2"] = {
+				},
+				["tween_move3"] = {
+				},
+				["tween_move4"] = {
+				},
+				["upper_deviation"] = 1,
 			},
 		},
 	},
