@@ -3,6 +3,152 @@
 		["bg_info"] = {
 			{
 				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2600,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09CGBG/cg_chi_logo.png",
+			},
+			{
+			},
+		},
+		["guid"] = "631C362E4C76957DDDE62988FEF086D5",
+		["guid_str"] = "toeOPssO",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["time"] = 3800,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09CGBG/cg_chi_01.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09CGBG/cg_chi_logo.png",
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s253_dream",
+			["length"] = 87200,
+			["operation"] = 1,
+		},
+		["guid"] = "C9DD086B42DB99C46DB226ACA8C711BB",
+		["guid_str"] = "N3q64Dvf",
+		["id"] = 2,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["delay"] = 700,
+				["event"] = "event:/sfx/story/0-00/0-0-whoosh",
+				["length"] = 4026,
+			},
+		},
+		["time"] = 3500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 500,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09CGBG/cg_chi_01.png",
+			},
+			{
+			},
+		},
+		["guid"] = "A266659344D6B560C3B300BB74F5E03A",
+		["guid_str"] = "05BD4OZi",
+		["id"] = 3,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_black.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["is_show_all"] = true,
+			["text"] = "[size 17]第一步：学会用刀。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeIn",
+				},
+				{
+					["param"] = {
+						["delay"] = 2000,
+						["time"] = 1000,
+					},
+					["tween"] = "FadeOut",
+				},
+				{
+					["param"] = {
+						["delay"] = 0,
+						["end_alpha"] = 0.0,
+						["start_alpha"] = 0.0,
+						["time"] = 0,
+					},
+					["tween"] = "AlphaChange",
+				},
+			},
+		},
+		["guid"] = "B3E5B97F40BFDB9019D6568BAEFCF8C3",
+		["guid_str"] = "JgVqkV5x",
+		["id"] = 4,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["time"] = 3000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
 					["color"] = {
 						0.4014880657196,
 						0.39675498008728,
@@ -48,9 +194,16 @@
 		},
 		["guid"] = "ADBACCEE4B0432E276DDCEB8656C9D3E",
 		["guid_str"] = "QwixGuKU",
-		["id"] = 1,
+		["id"] = 5,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/museum_night",
+				["length"] = 51692,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -70,10 +223,10 @@
 		},
 		["guid"] = "6CCDFDFD4902F014BC5CB3B9E9121EEE",
 		["guid_str"] = "sWFuSctP",
-		["id"] = 2,
+		["id"] = 6,
 		["introduce"] = {
 			["location"] = "雅松区·柏露园小区5栋301",
-			["time"] = "1120-05  夜",
+			["time"] = "森罗历1120-05  夜",
 		},
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
@@ -98,8 +251,7 @@
 			["b_use_mask"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
-			["text"] = "[size 17][font cusong]外科手术基本操作通常指“切开”、“缝合”、“打结”、“止血”四项常用技术。",
-			["text_align"] = "center",
+			["text"] = "[size 17][indent][indent][font cusong]“外科手术基本操作通常指‘切开’、‘缝合’、‘打结’、‘止血’四项常用技术。”\n\n[indent][indent]“需要注意的是……”",
 			["tween"] = {
 				{
 					["param"] = {
@@ -112,7 +264,7 @@
 		},
 		["guid"] = "9043697D4E27EC466AB63FA3585026DA",
 		["guid_str"] = "aovmkrjp",
-		["id"] = 3,
+		["id"] = 7,
 	},
 	{
 		["bg_info"] = {
@@ -133,6 +285,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["is_append"] = true,
+			["is_separate_tween"] = true,
 			["is_show_all"] = true,
 			["mask_alpha"] = 0.69999998807907,
 			["text"] = "[size 17][font cusong] ",
@@ -148,11 +301,26 @@
 					["tween"] = "MoveOut",
 				},
 			},
+			["tween_bg"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 300,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
 		},
 		["guid"] = "6F4C1ACB4C5A5521C406AC882B104DB1",
 		["guid_str"] = "xyYYfQni",
-		["id"] = 4,
+		["id"] = 8,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/paper_turn_flip",
+				["length"] = 1374,
+			},
+		},
 		["time"] = 500,
 	},
 	{
@@ -172,10 +340,146 @@
 			},
 		},
 		["caption_info"] = {
-			["align"] = "bottom",
 			["b_use_mask"] = true,
+			["mask_alpha"] = 0.40000000596046,
 			["text"] = "[size 17]书被合上。",
 			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "D94FF0934B56A1E6D3198389E78CB629",
+		["guid_str"] = "JEHneEVR",
+		["id"] = 9,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.4014880657196,
+						0.39675498008728,
+						0.65116280317307,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 200,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17][indent]刀锋切割血管的触感隐约在神经上残留，手术刀尖在素白的日光灯下闪着冰冷的光。",
+		},
+		["guid"] = "57D6CBAD42CBCDC1FEB139B8D5DF2260",
+		["guid_str"] = "6FUnjx9q",
+		["id"] = 10,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.4014880657196,
+						0.39675498008728,
+						0.65116280317307,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 200,
+			["is_append"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17]\n\n[indent]细窄的刀身上映着小半张冷漠的脸。",
+		},
+		["guid"] = "9C1D1B074B883C276A90679E28DB8315",
+		["guid_str"] = "Pr0AX2ll",
+		["id"] = 11,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.4014880657196,
+						0.39675498008728,
+						0.65116280317307,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 200,
+			["is_append"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17]\n\n[indent]今天有几滴颜色溅到上面，是温热的。",
+		},
+		["guid"] = "C5B47FC14E7C36DAA4932884D5D2407D",
+		["guid_str"] = "R2SheEfU",
+		["id"] = 12,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.4014880657196,
+						0.39675498008728,
+						0.65116280317307,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 200,
+			["is_append"] = true,
+			["mask_alpha"] = 0.40000000596046,
+			["text"] = "[size 17]\n\n[indent]和那日绑匪流在地上的红色不同，也和扯破的棉花毫无相似之处。",
+		},
+		["guid"] = "8B9146834831F8D1B69F3D93E505D20C",
+		["guid_str"] = "SnPDXFJR",
+		["id"] = 13,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.4014880657196,
+						0.39675498008728,
+						0.65116280317307,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
+			},
+			{
+			},
 		},
 		["characters"] = {
 			{
@@ -196,225 +500,17 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 400,
+							["time"] = 600,
 						},
 						["tween"] = "FadeIn",
 					},
 				},
 			},
 		},
-		["guid"] = "D94FF0934B56A1E6D3198389E78CB629",
-		["guid_str"] = "JEHneEVR",
-		["id"] = 5,
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["color"] = {
-						0.4014880657196,
-						0.39675498008728,
-						0.65116280317307,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["text"] = "[size 17]刀锋切割血管的触感隐约在神经上残留，手术刀尖在素白的日光灯下闪着冰冷的光。",
-			["text_align"] = "center",
-		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "57D6CBAD42CBCDC1FEB139B8D5DF2260",
-		["guid_str"] = "6FUnjx9q",
-		["id"] = 6,
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["color"] = {
-						0.4014880657196,
-						0.39675498008728,
-						0.65116280317307,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["text"] = "[size 17]细窄的刀身上映着小半张冷漠的脸。",
-			["text_align"] = "center",
-		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "9C1D1B074B883C276A90679E28DB8315",
-		["guid_str"] = "Pr0AX2ll",
-		["id"] = 7,
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["color"] = {
-						0.4014880657196,
-						0.39675498008728,
-						0.65116280317307,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["text"] = "[size 17]今天有几滴颜色溅到他的脸上，是温热的。",
-			["text_align"] = "center",
-		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "C5B47FC14E7C36DAA4932884D5D2407D",
-		["guid_str"] = "R2SheEfU",
-		["id"] = 8,
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["color"] = {
-						0.4014880657196,
-						0.39675498008728,
-						0.65116280317307,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
-			},
-			{
-			},
-		},
-		["caption_info"] = {
-			["align"] = "bottom",
-			["b_use_mask"] = true,
-			["text"] = "[size 17]和那日绑匪流在地上的红色不同，也和扯破的棉花毫无相似之处。",
-			["text_align"] = "center",
-		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "8B9146834831F8D1B69F3D93E505D20C",
-		["guid_str"] = "SnPDXFJR",
-		["id"] = 9,
-	},
-	{
-		["bg_info"] = {
-			{
-				["config"] = {
-					["color"] = {
-						0.4014880657196,
-						0.39675498008728,
-						0.65116280317307,
-						1.0,
-					},
-				},
-				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
-			},
-			{
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
+		["delay"] = 700,
 		["guid"] = "3259199149CC05D798CBCBAA36026AAD",
 		["guid_str"] = "dA63Hsj3",
-		["id"] = 10,
+		["id"] = 14,
 		["name"] = "池",
 		["text"] = "……",
 	},
@@ -431,10 +527,10 @@
 					["tween"] = {
 						{
 							["param"] = {
-								["am"] = 10,
+								["am"] = 40,
 								["delay"] = 0,
 								["duration"] = 500,
-								["time"] = 30,
+								["time"] = 70,
 							},
 							["tween"] = "Shake",
 						},
@@ -443,6 +539,15 @@
 				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
 			},
 			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_14_beforefire.png",
 			},
 		},
 		["characters"] = {
@@ -470,8 +575,17 @@
 		},
 		["guid"] = "AB91BAB6407E585913B8A59B8BDC4CD3",
 		["guid_str"] = "NexaxS6Z",
-		["id"] = 11,
+		["id"] = 15,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["dir"] = "center",
+				["event"] = "event:/sfx/story/blackout/avg_blackout_door_close",
+				["length"] = 2438,
+			},
+		},
+		["time"] = 700,
 	},
 	{
 		["bg_info"] = {
@@ -510,11 +624,20 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 300,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
 			},
 		},
 		["guid"] = "71C4A7244377C912096690983E471E56",
 		["guid_str"] = "QJCyOjIu",
-		["id"] = 12,
+		["id"] = 16,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "sad",
@@ -545,32 +668,9 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "55488235460D3940C634F28062A1B10C",
 		["guid_str"] = "CPSYYPnI",
-		["id"] = 13,
+		["id"] = 17,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -583,7 +683,7 @@
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "bm06ly/bm06ly_action1",
 		},
-		["text"] = "嗤，还不是那个白汲又临时找事集中筛查病历，非要讨论出来个一二三端着他那个“前沿领袖”的名头，害得我在隔离区待了一天，衣服全换一遍才回来。",
+		["text"] = "嗤，还不是那个白汲又临时找事集中筛查病历，非要讨论出来个一二三。\n端着他那个“前沿领袖”的名头，害得我在隔离区待了一天，衣服全换一遍才回来。",
 	},
 	{
 		["bg_info"] = {
@@ -601,32 +701,9 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "ECBB4D31406C30E039AD0BB4EBD14F35",
 		["guid_str"] = "DrUJyAtd",
-		["id"] = 14,
+		["id"] = 18,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "anger1",
@@ -657,32 +734,9 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "2914E64C4CF8F89B030A39BD6F92F555",
 		["guid_str"] = "9qZify4m",
-		["id"] = 15,
+		["id"] = 19,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -713,32 +767,9 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "DE8048BA472A0F24A50018B7CD19DABC",
 		["guid_str"] = "K1DSg0Ss",
-		["id"] = 16,
+		["id"] = 20,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "worry",
@@ -751,7 +782,7 @@
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "n07lywife/n07lywife_action1",
 		},
-		["text"] = "我看最近好像又准备组织新一轮的体检，泊远会不会……",
+		["text"] = "我看最近好像又准备组织新一轮的体检，泊远会不会真的是……",
 	},
 	{
 		["bg_info"] = {
@@ -769,32 +800,9 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "FCC1D1C14B080BBF95B97891A0D07BC5",
 		["guid_str"] = "DAzNfyFn",
-		["id"] = 17,
+		["id"] = 21,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -807,7 +815,7 @@
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "bm06ly/bm06ly_action1",
 		},
-		["text"] = "泊远不一样，记住，他只是身子弱，好好养着没问题，跟着去隔离才是疯了，有哪个去的救回来了，我天天看我还不知道么。",
+		["text"] = "记住，泊远只是身子弱，好好养着没问题。\n跟着去隔离才是疯了，有哪个去的救回来了，我天天看我还不知道么。",
 	},
 	{
 		["bg_info"] = {
@@ -825,32 +833,9 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "035CEB6B4318327EEA9B3C911215E054",
 		["guid_str"] = "QpFreCD2",
-		["id"] = 18,
+		["id"] = 22,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "sad",
@@ -881,32 +866,9 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "7A20EC19443D540E117F35ACBB0D47C2",
 		["guid_str"] = "SVmPEv1Q",
-		["id"] = 19,
+		["id"] = 23,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "anger3",
@@ -950,32 +912,9 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "99487A5F4621DFC082108EBB2AB52A51",
 		["guid_str"] = "tVVC2jR4",
-		["id"] = 20,
+		["id"] = 24,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "sad",
@@ -1006,32 +945,9 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "6D0ACFDC422E466662EA91BC60E0B42B",
 		["guid_str"] = "5AuaqQQO",
-		["id"] = 21,
+		["id"] = 25,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "sad",
@@ -1062,32 +978,9 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "B8EA3E0045CAA10747B7FE9E3AE075F4",
 		["guid_str"] = "CGUH3KAg",
-		["id"] = 22,
+		["id"] = 26,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "sad",
@@ -1118,32 +1011,9 @@
 			{
 			},
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "A98FCB224D50866A568B72B0361BB787",
 		["guid_str"] = "xZiVAOuH",
-		["id"] = 23,
+		["id"] = 27,
 		["name"] = "门外的声音",
 		["speaker_info"] = {
 			["anim"] = "sad",
@@ -1180,32 +1050,9 @@
 			["text"] = "[size 17]门外终于没了动静。",
 			["text_align"] = "center",
 		},
-		["characters"] = {
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "bm02chi/bm02chi_action1",
-				["pos"] = {
-					0,
-					170,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
 		["guid"] = "7A54D35B4D8B55739C2F6C9A7E59B1F2",
 		["guid_str"] = "ura3zLrG",
-		["id"] = 24,
+		["id"] = 28,
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["color"] = {
@@ -1275,14 +1122,14 @@
 							["delay"] = 0,
 							["time"] = 400,
 						},
-						["tween"] = "FadeOut",
+						["tween"] = "FadeIn",
 					},
 				},
 			},
 		},
 		["guid"] = "E6E1CCB7461B04C73FF118BFC9ED059B",
 		["guid_str"] = "JvLBtdRT",
-		["id"] = 25,
+		["id"] = 29,
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["color"] = {
@@ -1313,7 +1160,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.0,
-			["text"] = "[size 17]刚刚刀柄的温热已经散去，入口又是一如往初的冰凉。",
+			["text"] = "[size 17]刚刚刀柄的温热已经散去，入手又是一如往初的冰凉。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -1325,9 +1172,32 @@
 				},
 			},
 		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					0,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
 		["guid"] = "9D7219744C5F8AC490A8AE8A548E1302",
 		["guid_str"] = "eIqS8VGG",
-		["id"] = 26,
+		["id"] = 30,
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["color"] = {
@@ -1376,7 +1246,7 @@
 							["param"] = {
 								["delay"] = 0,
 								["direction"] = "right",
-								["dis"] = 100,
+								["dis"] = 50,
 								["end_alpha"] = 1.0,
 								["time"] = 2000,
 							},
@@ -1409,11 +1279,59 @@
 					},
 					["tween"] = "Shake",
 				},
+				{
+					["param"] = {
+						["delay"] = 2000,
+						["time"] = 400,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					0,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 40,
+							["time"] = 400,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
 			},
 		},
 		["guid"] = "3E915620435A264AD5CEA380DBE4A1DD",
 		["guid_str"] = "V6GyGGmV",
-		["id"] = 27,
+		["id"] = 31,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_door_open",
+				["length"] = 1125,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "sad",
 			["color"] = {
@@ -1424,6 +1342,7 @@
 			},
 			["material"] = "M_UI_SpinePortrait",
 		},
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -1443,9 +1362,20 @@
 		},
 		["guid"] = "47156EBA4803B22A3990709B4ABE3973",
 		["guid_str"] = "Nm7qoVMf",
-		["id"] = 28,
-		["name"] = "池",
+		["id"] = 32,
+		["name"] = "柳池",
 		["text"] = "爸爸。",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 200,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -1465,7 +1395,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1496,8 +1426,15 @@
 		},
 		["guid"] = "46A83C7F4ABE8686E81509AABFD6C64A",
 		["guid_str"] = "uG4Rcmxu",
-		["id"] = 29,
+		["id"] = 33,
 		["name"] = "柳业",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "？？！！",
 	},
 	{
@@ -1552,7 +1489,7 @@
 		},
 		["guid"] = "89F6E88E4B2038B900AFC19A7B3EA7DB",
 		["guid_str"] = "F2YzNMOo",
-		["id"] = 30,
+		["id"] = 34,
 	},
 	{
 		["bg_info"] = {
@@ -1623,7 +1560,7 @@
 		},
 		["guid"] = "600CAEFD44E6025670569292576E1173",
 		["guid_str"] = "DAM0oehk",
-		["id"] = 31,
+		["id"] = 35,
 	},
 	{
 		["bg_info"] = {
@@ -1643,7 +1580,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "normal",
+				["anim"] = "anger2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -1682,7 +1619,7 @@
 		},
 		["guid"] = "E61502B24038B94E8AF138B9FEFAF847",
 		["guid_str"] = "JyNrIKIB",
-		["id"] = 32,
+		["id"] = 36,
 		["name"] = "柳业",
 		["text"] = "大晚上的不睡觉你干嘛？？",
 	},
@@ -1743,8 +1680,8 @@
 		},
 		["guid"] = "5D1EB3AA4A136C2A0E102C9046DEB005",
 		["guid_str"] = "xmAEm10e",
-		["id"] = 33,
-		["name"] = "池",
+		["id"] = 37,
+		["name"] = "柳池",
 		["text"] = "听到您回来了，就出来打个招呼，您不是教过我要好好学习，尊重长辈。",
 	},
 	{
@@ -1804,7 +1741,7 @@
 		},
 		["guid"] = "CC4A9CCB45FDC8A45205E890CC681D79",
 		["guid_str"] = "rAQpc9Zg",
-		["id"] = 34,
+		["id"] = 38,
 		["name"] = "柳业",
 		["text"] = "……",
 	},
@@ -1871,7 +1808,7 @@
 		},
 		["guid"] = "EA84FDE7429D454C569EBB86C73ED631",
 		["guid_str"] = "ZqSoIDXU",
-		["id"] = 35,
+		["id"] = 39,
 	},
 	{
 		["bg_info"] = {
@@ -1936,7 +1873,7 @@
 		},
 		["guid"] = "C253CCB54DDBBFA785B8C3BD8A883BFA",
 		["guid_str"] = "oANIVdPX",
-		["id"] = 36,
+		["id"] = 40,
 	},
 	{
 		["bg_info"] = {
@@ -1995,7 +1932,7 @@
 		},
 		["guid"] = "2157081D426C91EE03A8608C4B7AF1F8",
 		["guid_str"] = "GooGiQfp",
-		["id"] = 37,
+		["id"] = 41,
 		["name"] = "柳业",
 		["text"] = "你进我们房间了？",
 	},
@@ -2038,7 +1975,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2056,8 +1993,8 @@
 		},
 		["guid"] = "23319E8C4C6B613F95DCF4A7DE404976",
 		["guid_str"] = "UqLwhhoT",
-		["id"] = 38,
-		["name"] = "池",
+		["id"] = 42,
+		["name"] = "柳池",
 		["text"] = "……",
 	},
 	{
@@ -2099,7 +2036,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "closeeyesmile",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2117,8 +2054,8 @@
 		},
 		["guid"] = "87E963C24B42E67D964BE4B684333F0A",
 		["guid_str"] = "S1Wjru4L",
-		["id"] = 39,
-		["name"] = "池",
+		["id"] = 43,
+		["name"] = "柳池",
 		["text"] = "没有爸爸，这是我去旧书店买的影印版，用妈妈给我的零花钱。",
 	},
 	{
@@ -2166,7 +2103,7 @@
 				},
 			},
 			{
-				["anim"] = "smile2",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2197,7 +2134,14 @@
 		},
 		["guid"] = "BE4302924AE9832F7D382AB6EE7F47B8",
 		["guid_str"] = "IvWCpTml",
-		["id"] = 40,
+		["id"] = 44,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -2238,7 +2182,7 @@
 				},
 			},
 			{
-				["anim"] = "smile2",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2256,8 +2200,8 @@
 		},
 		["guid"] = "6AFA8AF7464FFAAFCF628B829087F392",
 		["guid_str"] = "svCSFTxs",
-		["id"] = 41,
-		["name"] = "池",
+		["id"] = 45,
+		["name"] = "柳池",
 		["text"] = "我有些地方没看懂，可以问问您么？",
 	},
 	{
@@ -2293,7 +2237,7 @@
 				},
 			},
 			{
-				["anim"] = "smile2",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2317,7 +2261,7 @@
 		},
 		["guid"] = "B75DFEA04C859CC50FB3E9BC2EA8B8A9",
 		["guid_str"] = "doGzT7WH",
-		["id"] = 42,
+		["id"] = 46,
 		["name"] = "柳业",
 		["text"] = "你这个年纪能看懂什么。",
 	},
@@ -2360,7 +2304,7 @@
 				},
 			},
 			{
-				["anim"] = "smile2",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2384,7 +2328,7 @@
 		},
 		["guid"] = "93333E604B780EA983D3B8AFEEA317AD",
 		["guid_str"] = "vVjThmix",
-		["id"] = 43,
+		["id"] = 47,
 	},
 	{
 		["bg_info"] = {
@@ -2419,7 +2363,7 @@
 				},
 			},
 			{
-				["anim"] = "smile2",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2443,7 +2387,7 @@
 		},
 		["guid"] = "108B6DA24D03E0B5FD77ABB508F06661",
 		["guid_str"] = "t49jz9qT",
-		["id"] = 44,
+		["id"] = 48,
 		["name"] = "柳业",
 		["text"] = "别烦我，回屋待着，我还有工作。",
 		["text_info"] = {
@@ -2500,7 +2444,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2518,8 +2462,8 @@
 		},
 		["guid"] = "90AEC17849ACEC2CC20BD892DC10C2EA",
 		["guid_str"] = "yoONKM0Y",
-		["id"] = 45,
-		["name"] = "池",
+		["id"] = 49,
+		["name"] = "柳池",
 		["text"] = "就一个问题，他们都说你是医疗中心最优秀的外科医生，我也想以此为目标。",
 	},
 	{
@@ -2555,7 +2499,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2579,7 +2523,7 @@
 		},
 		["guid"] = "CB7A653D49B92E6B42054DB5BFA5B078",
 		["guid_str"] = "oT1lpZBK",
-		["id"] = 46,
+		["id"] = 50,
 		["name"] = "柳业",
 		["text"] = "……",
 		["text_info"] = {
@@ -2625,7 +2569,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2649,7 +2593,7 @@
 		},
 		["guid"] = "68ED70B44E9BDEAADAB0639FE6ED669E",
 		["guid_str"] = "sfV8YjWP",
-		["id"] = 47,
+		["id"] = 51,
 	},
 	{
 		["bg_info"] = {
@@ -2690,7 +2634,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2714,7 +2658,7 @@
 		},
 		["guid"] = "6A9FC6FB42AA77A4706C51B93B4ACB07",
 		["guid_str"] = "TybMAQlP",
-		["id"] = 48,
+		["id"] = 52,
 	},
 	{
 		["bg_info"] = {
@@ -2735,7 +2679,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]和他上次仔细看他相比。",
+			["text"] = "[size 17]和自己上次仔细看他相比。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2755,7 +2699,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2779,7 +2723,7 @@
 		},
 		["guid"] = "94E830BA420D6B785359EA90298F94A5",
 		["guid_str"] = "vlgJutM0",
-		["id"] = 49,
+		["id"] = 53,
 	},
 	{
 		["bg_info"] = {
@@ -2799,7 +2743,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2814,7 +2758,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2838,7 +2782,7 @@
 		},
 		["guid"] = "060F01814C2386633C31C1AF18817C0B",
 		["guid_str"] = "LLth3XNB",
-		["id"] = 50,
+		["id"] = 54,
 		["name"] = "柳业",
 		["text"] = "问什么。",
 	},
@@ -2860,7 +2804,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2881,7 +2825,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2899,8 +2843,8 @@
 		},
 		["guid"] = "8BAD09D543DC6CDED8DFED818511DD88",
 		["guid_str"] = "sbpdgMlt",
-		["id"] = 51,
-		["name"] = "池",
+		["id"] = 55,
+		["name"] = "柳池",
 		["text"] = "书上说“切开”是要避免反复切割，只是不利于术后恢复么？怎么才能避免反复切割呢？",
 	},
 	{
@@ -2921,7 +2865,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2936,7 +2880,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -2960,9 +2904,9 @@
 		},
 		["guid"] = "3B50321E4A3166C538D6F1AFAD219B96",
 		["guid_str"] = "a15qVV64",
-		["id"] = 52,
+		["id"] = 56,
 		["name"] = "柳业",
-		["text"] = "大部分原因是不利于术后恢复，同时也是避免术中意外。入刀要准，手要稳，垂直进垂直出，不能犹豫。没别的好办法，多练。",
+		["text"] = "大部分原因是不利于术后恢复，同时也是避免术中意外。入刀要准，手要稳，注意刀锋角度和视野遮挡，不能犹豫。没别的好办法，多练。",
 	},
 	{
 		["bg_info"] = {
@@ -2988,7 +2932,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3003,15 +2947,9 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
 				},
 				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
@@ -3027,7 +2965,7 @@
 		},
 		["guid"] = "E347C6784AABC663E334D99DA6222B5C",
 		["guid_str"] = "C8hIJTeb",
-		["id"] = 53,
+		["id"] = 57,
 	},
 	{
 		["bg_info"] = {
@@ -3053,7 +2991,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "closeeyeserious",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3068,15 +3006,9 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
 				},
 				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
@@ -3092,7 +3024,7 @@
 		},
 		["guid"] = "E10096A94327EA5792FCD7BD837FB442",
 		["guid_str"] = "S7x4lRFC",
-		["id"] = 54,
+		["id"] = 58,
 	},
 	{
 		["bg_info"] = {
@@ -3113,20 +3045,14 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]少年微微张张嘴，最终没发出什么声音，只是在安静的空气中点点头，微微弯起眼睛。",
+			["text"] = "[size 17]柳池微微张张嘴，最终没发出什么声音，只是在安静的空气中点点头，微微弯起眼睛。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm06ly/bm06ly_action1",
@@ -3157,7 +3083,7 @@
 		},
 		["guid"] = "95A8BB7842EE116D77C91E8A7AC58CC0",
 		["guid_str"] = "K5Gl7WE6",
-		["id"] = 55,
+		["id"] = 59,
 	},
 	{
 		["bg_info"] = {
@@ -3177,7 +3103,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3216,8 +3142,8 @@
 		},
 		["guid"] = "2B0804264AB4843692727488E9E88542",
 		["guid_str"] = "OyKq4cIq",
-		["id"] = 56,
-		["name"] = "池",
+		["id"] = 60,
+		["name"] = "柳池",
 		["text"] = "好的，谢谢爸爸，我尽量。",
 	},
 	{
@@ -3244,7 +3170,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3259,7 +3185,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3283,7 +3209,7 @@
 		},
 		["guid"] = "00008C994E046514283909A410B04850",
 		["guid_str"] = "k4yFWIhA",
-		["id"] = 57,
+		["id"] = 61,
 	},
 	{
 		["bg_info"] = {
@@ -3303,7 +3229,7 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3318,7 +3244,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "smile2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3342,9 +3268,594 @@
 		},
 		["guid"] = "A6ED6BED4CE09C1050366AA3D1B3E3AC",
 		["guid_str"] = "E1TMYanP",
-		["id"] = 58,
+		["id"] = 62,
 		["name"] = "柳业",
 		["text"] = "你想当医生？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					250,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "E516FA334799333E6C5D10A3F387B7B1",
+		["guid_str"] = "dhrbknF4",
+		["id"] = 63,
+		["name"] = "柳池",
+		["text"] = "嗯。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]曾经是的。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					250,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "B0151C6840EE0117ED87FEAC11C8F260",
+		["guid_str"] = "waivfGSD",
+		["id"] = 64,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					250,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "EABC8F2E4FA9B98711693488853D5136",
+		["guid_str"] = "UJ43D5MO",
+		["id"] = 65,
+		["name"] = "柳池",
+		["text"] = "很感兴趣，想和爸爸您做同样的工作。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					250,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "998A735A41F403BA01B01D905945C027",
+		["guid_str"] = "ZlE8YUS8",
+		["id"] = 66,
+		["name"] = "柳池",
+		["text"] = "有去旧书店学习，以后也会继续。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]只是，成为医生也许……",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					250,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F61A97064EDA2A4D2515549181DA1FE7",
+		["guid_str"] = "tKLHpkkK",
+		["id"] = 67,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]不是那么需要了。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					250,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "682B6D67468936348EE7D3B97C4F6262",
+		["guid_str"] = "ORNDyPtH",
+		["id"] = 68,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					250,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "625749EE427A2762A37DE2880BFD1694",
+		["guid_str"] = "OfWDmeQD",
+		["id"] = 69,
+		["name"] = "柳业",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					250,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "52E9439945526121EFF094818AEC9CDF",
+		["guid_str"] = "tmLsDOHV",
+		["id"] = 70,
+		["name"] = "柳池",
+		["text"] = "爸爸。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]柳池看着灯下的男人，听着这两年难得算得上耐心的教导，又忍不住往前走了一步。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					250,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = -50,
+								["y"] = 0,
+							},
+							["time"] = 400,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "4094F2594AB3E7B8BAEA519136B7C162",
+		["guid_str"] = "e5xwwbpo",
+		["id"] = 71,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3393,7 +3904,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm02chi/bm02chi_action1",
 				["pos"] = {
-					250,
+					200,
 					170,
 				},
 				["shadow"] = {
@@ -3401,11 +3912,133 @@
 				},
 			},
 		},
-		["guid"] = "E516FA334799333E6C5D10A3F387B7B1",
-		["guid_str"] = "dhrbknF4",
-		["id"] = 59,
-		["name"] = "池",
-		["text"] = "嗯。",
+		["guid"] = "E846D10440466CCEF442FDAC9E10AA7D",
+		["guid_str"] = "7oaiQYCE",
+		["id"] = 72,
+		["name"] = "柳池",
+		["text"] = "爸爸，我今天……好像做成功了一件，一直只在脑中模拟的事。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "E2EB76244EF884138339AB82B36A1FC3",
+		["guid_str"] = "JyKzVEy7",
+		["id"] = 73,
+		["name"] = "柳池",
+		["text"] = "一件很困难的事，但是我成功了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "C9493DD74E58F63FBFFC50B7A7FCC15A",
+		["guid_str"] = "WmRsveVH",
+		["id"] = 74,
+		["name"] = "柳业",
+		["text"] = "今天……？",
 	},
 	{
 		["bg_info"] = {
@@ -3426,20 +4059,14 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]曾经是的。",
+			["text"] = "[size 17]柳业正拿出通讯仪查看的手一顿，这才又想到什么，再度皱眉。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "anger1",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm06ly/bm06ly_action1",
@@ -3450,17 +4077,34 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 8,
+							["delay"] = 0,
+							["duration"] = 400,
+							["time"] = 30,
+						},
+						["tween"] = "Shake",
+					},
+				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
 				},
 				["is_flip_x"] = true,
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm02chi/bm02chi_action1",
 				["pos"] = {
-					250,
+					200,
 					170,
 				},
 				["shadow"] = {
@@ -3468,9 +4112,16 @@
 				},
 			},
 		},
-		["guid"] = "B0151C6840EE0117ED87FEAC11C8F260",
-		["guid_str"] = "waivfGSD",
-		["id"] = 60,
+		["guid"] = "8AE37E4C4CCBF88FCBF52BB673CCE553",
+		["guid_str"] = "3IeJTFed",
+		["id"] = 75,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -3490,7 +4141,68 @@
 		},
 		["characters"] = {
 			{
-				["anim"] = "smile",
+				["anim"] = "anger2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "DD4C89E948920B900E8ED08B4503B243",
+		["guid_str"] = "D7FGuobu",
+		["id"] = 76,
+		["name"] = "柳业",
+		["text"] = "你今天是不是又回福利院了？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger2",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3511,7 +4223,7 @@
 				},
 			},
 			{
-				["anim"] = "smile",
+				["anim"] = "surprise",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -3519,7 +4231,7 @@
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm02chi/bm02chi_action1",
 				["pos"] = {
-					250,
+					200,
 					170,
 				},
 				["shadow"] = {
@@ -3527,10 +4239,2518 @@
 				},
 			},
 		},
-		["guid"] = "EABC8F2E4FA9B98711693488853D5136",
-		["guid_str"] = "UJ43D5MO",
-		["id"] = 61,
+		["guid"] = "750F5D4246DF328D6DD395A430147818",
+		["guid_str"] = "2g2dtnEV",
+		["id"] = 77,
+		["name"] = "柳池",
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D17C178047075F036434208349BCB469",
+		["guid_str"] = "5cPuTRC8",
+		["id"] = 78,
+		["name"] = "柳池",
+		["text"] = "上午去过一次，很快就走了，因为在院门附近发现了一个……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8F094A7E4634234D0E2E959751FF4848",
+		["guid_str"] = "cjpiv2kl",
+		["id"] = 79,
+		["name"] = "柳池",
+		["text"] = "奇怪的人。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 15,
+							["delay"] = 0,
+							["duration"] = 400,
+							["time"] = 25,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "021C501F465467E43BC7F5BE0ED52FAF",
+		["guid_str"] = "3Pqz8Yzs",
+		["id"] = 80,
+		["name"] = "柳业",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "我不管你什么奇怪的人，那个院长又给我打电话了，柳池，你到底想让我丢多少次脸？！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F33DD88E4B18F203CCDA3E9CBA3AF24B",
+		["guid_str"] = "b6g0REKV",
+		["id"] = 81,
+		["name"] = "柳池",
+		["text"] = "爸爸。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9DC072D041A999F1D02CE78283D227AE",
+		["guid_str"] = "0S4inHEW",
+		["id"] = 82,
+		["name"] = "柳池",
+		["text"] = "那两个绑匪死了，我被救回来，您是不是很失望，我回不来才更好。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]直白问出的问题让柳业眼神一颤，想起那通完全意料之外的电话和勒索金。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "0A3835DE45A421BF6D61DC88DE560166",
+		["guid_str"] = "wCknViaM",
+		["id"] = 83,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]说实话他都快忘了。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "1E8B300448DEC62703B57EADE87A5944",
+		["guid_str"] = "k4DTL2QH",
+		["id"] = 84,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]彼时他们一家在这个充斥着旧城区陈腐气息的二手房里，好不容易得来的泊远自幼体弱，\n\n他和老婆长吁短叹，不菲的医疗账单是银行账户的常客。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "82EA4A0D43E2E842C666949CAE0B0EFB",
+		["guid_str"] = "1nmMASvi",
+		["id"] = 85,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]给警察报案是他再三权衡下做出的最终决定，干脆地拒绝出面。\n\n直到柳池被警察送过来，他们都没再关心过。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "2C6014DA44E35FADB016568ACD3E1E37",
+		["guid_str"] = "vcUEDbGO",
+		["id"] = 86,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]柳业有点心虚，没有第一时间回答，\n\n倒是绿发少年依旧清澈的眼睛眨了眨，随后摇摇头，嘴角挂起微笑。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "0F46DAD441D003E2492608901F9DBC45",
+		["guid_str"] = "XhWCCuiE",
+		["id"] = 87,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "9A52D71B4035448B4AC169B911898193",
+		["guid_str"] = "BZhpBHLM",
+		["id"] = 88,
+		["name"] = "柳池",
+		["text"] = "不，也不好，那样对您的名誉有损，您不喜欢那样。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 16]一股邪火冲上大脑，柳业觉得他领养的大儿子是在用话“点”他，\n\n一天下来在医院被“先锋领袖”积压出的怒火和一直对外伪装的皮囊尽数褪去，像是一条阴狠的蛇。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "772D620D4E9A9F9D0B03B9AF737555E9",
+		["guid_str"] = "ttrdDi1F",
+		["id"] = 89,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["am"] = 15,
+							["delay"] = 0,
+							["duration"] = 400,
+							["time"] = 25,
+						},
+						["tween"] = "Shake",
+					},
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F1301A474A5DE9ADFE56919E45A2B197",
+		["guid_str"] = "RgQK1Df2",
+		["id"] = 90,
+		["name"] = "柳业",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["text"] = "柳池，你是不是忘了当初求着我们领养时说过什么，是谁带你离开那个孤儿院。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "149179784678EB925C0471975625E23F",
+		["guid_str"] = "LrB6q8i5",
+		["id"] = 91,
+		["name"] = "柳业",
+		["text"] = "也忘了我教你怎么好好说话。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]柳池看着面前没有好脸色的“父亲”，或者说中年人，男人的嘴开开合合，\n\n眼前的面孔一点点和已经躺在暗巷不知道什么时候才能被发现的男人重合，再重合。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "smile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					200,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "E9D408B043B404FA22CC76A45E26117E",
+		["guid_str"] = "Ou2qii2e",
+		["id"] = 92,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[font cusong][size 17][c ca4243]是温热的。[/c]",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "A2BDDFC94BFAAD18B64EA4A5BB857EE0",
+		["guid_str"] = "2RzussB7",
+		["id"] = 93,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_low_short",
+				["length"] = 1153,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[font cusong][size 17][c ca4243]比体温稍高的温度。[/c]",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "537EF5344FB25959B3EFB394D9CCD752",
+		["guid_str"] = "ESe75Ecu",
+		["id"] = 94,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]打断柳业话的是卧室隐隐传来的女人和小孩说话的声音。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+			["tween_bg"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["guid"] = "8A69B0524C47AD7FAFCDD1B65310C3A0",
+		["guid_str"] = "u843X7Cf",
+		["id"] = 95,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["guid"] = "6F495FEA4009DFE61C01D4A4C0D51420",
+		["guid_str"] = "GNAneZCf",
+		["id"] = 96,
+		["name"] = "卧室的声音",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am60lby/am60lby_sl_action1",
+		},
+		["text"] = "妈妈……爸爸回来了嘛？哥哥呢……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["guid"] = "300055134DA9696F63CEC9AFB0828C1E",
+		["guid_str"] = "iyvGVpRM",
+		["id"] = 97,
+		["name"] = "卧室的声音",
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n07lywife/n07lywife_action1",
+		},
+		["text"] = "回来啦，快继续睡吧宝贝儿。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]柳业深吸口气，报告也没心情写，正打算直接去洗漱，就看到已经离他不算远的少年手里拿着书。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "ADA6772E450CC79B0F9BAD82774067A2",
+		["guid_str"] = "4YabLGGA",
+		["id"] = 98,
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n07lywife/n07lywife_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]书页上不知道什么时候多了一把手术刀，少年的手正姿势标准地用刀尖对准书页。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "291CB63249C3CB13F2B1EAA695931966",
+		["guid_str"] = "2l2FfjSu",
+		["id"] = 99,
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n07lywife/n07lywife_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]柳业忽然后退半步。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "left",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 400,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "666659FA4D5828962E860AB636238269",
+		["guid_str"] = "dhOGkWgy",
+		["id"] = 100,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n07lywife/n07lywife_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "scared1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "A17F436841A066B2281D17805768D3A5",
+		["guid_str"] = "34CnC8Uz",
+		["id"] = 101,
+		["name"] = "柳业",
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "你……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "73F33D33467F4D41AD92ED859C795AD2",
+		["guid_str"] = "AFtq9Frv",
+		["id"] = 102,
+		["name"] = "柳池",
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "嗯？爸爸您说什么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]灯光下，柳池的眼神还是没什么变化，丝毫没有受言语影响，好像这几年，他一直都这么看着自己。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8542664E40DD6753D83B01A665772AA1",
+		["guid_str"] = "B7yznzaO",
+		["id"] = 103,
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]柳业握了握拳，一把上前夺下手术刀。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = 100,
+								["y"] = 0,
+							},
+							["time"] = 400,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "6712BF98453B1520D05741A9B0F6C328",
+		["guid_str"] = "yqHPO1Gk",
+		["id"] = 104,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+			},
+			{
+				["delay"] = 200,
+				["event"] = "event:/sfx/story/school/avg_school_touch_sword",
+				["length"] = 581,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "6A85EC7046DCB3E038C67AB4ABF8CB8F",
+		["guid_str"] = "fEoaskQz",
+		["id"] = 105,
+		["name"] = "柳业",
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "谁让你没事拿这东西！给我！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["duration"] = 400,
+						["time"] = 25,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]柳池手握紧刀柄一瞬，但很快就松了力量，任凭手中的手术刀被夺走。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "anger1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = -100,
+								["y"] = 0,
+							},
+							["time"] = 400,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9EDABC8341CEF2D868B3FF9C0E4E790E",
+		["guid_str"] = "0EaTssX4",
+		["id"] = 106,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "478CC2DF41B5A6EA2DE45BBE27E6F638",
+		["guid_str"] = "ouyeMTna",
+		["id"] = 107,
+		["name"] = "柳池",
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "这次就给您吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm06ly/bm06ly_action1",
+				["pos"] = {
+					-250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 800,
+							["direction"] = "left",
+							["dis"] = 50,
+							["time"] = 500,
+						},
+						["tween"] = "MoveOut",
+					},
+				},
+			},
+			{
+				["anim"] = "closeeyesmile",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "DBC4B1F149AB0F960E4D6F8BFA652599",
+		["guid_str"] = "P3jDWLta",
+		["id"] = 108,
+		["name"] = "柳业",
+		["soundfx"] = {
+			{
+				["delay"] = 600,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "还有下次？？回屋睡觉！！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["duration"] = 400,
+						["time"] = 25,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "5BA35D824C77E3E8C223868C448627A8",
+		["guid_str"] = "u6ilCtGX",
+		["id"] = 109,
+		["name"] = "柳池",
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "好，爸爸晚安。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]回答他的只有关门声。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "4C1ED3BC4F84F4B3834CB7B99A4ED7B6",
+		["guid_str"] = "qIlIXUQS",
+		["id"] = 110,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_door_close",
+				["length"] = 2438,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]…………………………",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "sad",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					300,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "274DF8A744F509D49192FAAB894E2639",
+		["guid_str"] = "z6BEktrR",
+		["id"] = 111,
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]少年站在被顺手关了灯的客厅里，\n\n身后透过老旧窗子透进来的冷白月光，\n\n打在他还隐隐能感到金属冰凉的指尖。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "0399D690488B7BF21774CE9851326D6B",
+		["guid_str"] = "xQC0wh61",
+		["id"] = 112,
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]白得像是要透过去。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "85236C344BD45E03EF10299E51E04CEE",
+		["guid_str"] = "oE0GLGwt",
+		["id"] = 113,
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]就像鬼一样。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "39E18190468FD68EA7C8BFAF63332B0E",
+		["guid_str"] = "wldw4V89",
+		["id"] = 114,
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text"] = "[size 17]他看着自己脚下还算能看得清的影子。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 800,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "9913731743B2D58A71BA0D9FB6065D29",
+		["guid_str"] = "pkPksgND",
+		["id"] = 115,
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					0,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "53E2C3DF4DC905E4185279A114C87B68",
+		["guid_str"] = "iyNaULvW",
+		["id"] = 116,
 		["name"] = "池",
-		["text"] = "很感兴趣，想和爸爸您做同样的工作。",
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "没有下次了哦……爸爸。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17][font cusong][c ca4243]把手术刀从手中拿走的机会，不会有任何人，不会有第二次。[/c]",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "closeeyeserious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm02chi/bm02chi_action1",
+				["pos"] = {
+					0,
+					170,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "D958B41F48614D4A66A6ED81468299B8",
+		["guid_str"] = "sIp0I1ta",
+		["id"] = 117,
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["color"] = {
+						0.40000000596046,
+						0.39607843756676,
+						0.65098041296005,
+						1.0,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeOut",
+				},
+			},
+		},
+		["guid"] = "E46B15514B1234CF462C5A9F81592D1C",
+		["guid_str"] = "QFLuD8BJ",
+		["id"] = 118,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/museum_night",
+				["length"] = 51692,
+				["stop"] = 1,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "smile",
+			["color"] = {
+				0.61568629741669,
+				0.65882354974747,
+				0.87450981140137,
+				1.0,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["time"] = 2800,
 	},
 }
