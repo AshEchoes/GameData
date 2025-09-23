@@ -101,7 +101,7 @@
 		["guid_str"] = "PYZpTlLH",
 		["id"] = 3,
 		["name"] = "弗利安",
-		["text"] = "抱歉，我也想提供更多细节，不过昨天晚上闭馆后，我和馆长一起饮酒到深夜，喝得有点多，很都事都记不清了。",
+		["text"] = "抱歉，我也想提供更多细节，不过昨天晚上闭馆后，我和馆长一起饮酒到深夜，喝得有点多，很多事都记不清了。",
 	},
 	{
 		["bg_info"] = {
@@ -239,23 +239,19 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s174_paradise_theme",
+			["length"] = 99200,
+			["operation"] = 1,
+		},
 		["characters"] = {
 			{
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineMat",
-				["path"] = "n36dw_f/n36dw_f_action1",
-				["pos"] = {
-					0,
-					80,
-				},
+				["path"] = "am62dsn/am62dsn_action1",
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
@@ -265,56 +261,17 @@
 							["am"] = 15,
 							["delay"] = 0,
 							["duration"] = 400,
-							["pos"] = {
-								["x"] = 250,
-								["y"] = 0,
-							},
-							["time"] = 500,
+							["time"] = 400,
 						},
-						["tween"] = "RelativePositionChange",
-					},
-				},
-			},
-			{
-				["anim"] = "wink_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af55fqx/af55fqx_action1",
-				["pos"] = {
-					-250,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["direction"] = "right",
-							["dis"] = 100,
-							["end_alpha"] = 1.0,
-							["time"] = 500,
-						},
-						["tween"] = "MoveIn",
+						["tween"] = "FadeIn",
 					},
 				},
 			},
 		},
-		["guid"] = "ADFB2A4C4A15F04532AB8BB7C58FC536",
-		["guid_str"] = "St3NF3oX",
+		["guid"] = "4752D5E94080D32EC6F20693CDB7ECB9",
+		["guid_str"] = "bZJc8UPe",
 		["id"] = 7,
-		["name"] = "风晴雪",
-		["soundfx"] = {
-			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
-				["length"] = 549,
-				["volume"] = 6.0,
-			},
-		},
+		["name"] = "拉波",
 		["text"] = "不要急着走呀，我们的朋友还要展示一下才艺。",
 	},
 	{
@@ -344,10 +301,17 @@
 						["param"] = {
 							["am"] = 15,
 							["delay"] = 0,
-							["duration"] = 500,
-							["time"] = 25,
+							["direction"] = "right",
+							["dis"] = 100,
+							["duration"] = 400,
+							["end_alpha"] = 15.0,
+							["pos"] = {
+								["x"] = 250,
+								["y"] = 0,
+							},
+							["time"] = 400,
 						},
-						["tween"] = "Shake",
+						["tween"] = "FadeIn",
 					},
 				},
 			},
@@ -357,12 +321,6 @@
 					["material"] = "M_UI_SpineBlur",
 				},
 				["body_anim"] = "default_loop",
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
 				["material"] = "M_UI_SpineCharacterNormal",
 				["path"] = "af55fqx/af55fqx_action1",
 				["pos"] = {
@@ -372,16 +330,28 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 400,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
 			},
 		},
-		["guid"] = "576EC2504CE4D6881D55CC919503087A",
-		["guid_str"] = "ARpHyeUA",
+		["guid"] = "ADFB2A4C4A15F04532AB8BB7C58FC536",
+		["guid_str"] = "St3NF3oX",
 		["id"] = 8,
 		["name"] = "弗利安",
 		["soundfx"] = {
 			{
-				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
-				["length"] = 649,
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
 				["volume"] = 6.0,
 			},
 		},
