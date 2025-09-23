@@ -32582,6 +32582,7 @@
 			200,
 		},
 		["desc"] = "施放主动技能或异核技能后，场上所有同调者获得2层[link type='combat' tid='3']，通过该效果获得的[link type='combat' tid='3']不能超过{1}层",
+		["desc_rogue"] = "施放主动技能或异核技能后，场上所有同调者获得2层[link type='combat' tid='3']，通过该效果获得的[link type='combat' tid='3']不能超过{1}层",
 		["desc_type"] = 1,
 		["effect_elements"] = {
 			-1,
@@ -32970,13 +32971,14 @@
 		["condition_level"] = 0,
 		["connect_prop_value"] = {
 		},
-		["core_skill_class"] = 0,
+		["core_skill_class"] = 5,
 		["cost"] = {
-			240,
-			240,
-			240,
+			200,
+			200,
+			200,
 		},
-		["desc"] = "",
+		["desc"] = "同调者施放风元素主动伤害技能时，场上所有同调者获得2层[link type='combat' tid='3']。整场战斗首次触发该效果时额外获得2层，通过该效果获得的[link type='combat' tid='3']不能超过{1}层",
+		["desc_rogue"] = "同调者施放风元素主动伤害技能时，场上所有同调者获得2层[link type='combat' tid='3']。整场战斗首次触发该效果时额外获得2层，通过该效果获得的[link type='combat' tid='3']不能超过{1}层",
 		["desc_type"] = 1,
 		["effect_elements"] = {
 			-1,
@@ -32988,35 +32990,27 @@
 			-100,
 		},
 		["element_type"] = {
-			-1,
+			5,
 		},
 		["encourage_trigger_condition"] = "",
-		["encourage_trigger_condition_desc"] = "",
+		["encourage_trigger_condition_desc"] = "施放风元素主动伤害技能后触发",
 		["filter_element_mark"] = 0,
 		["icon"] = "core_278",
 		["id"] = 20257,
-		["is_encourage"] = false,
+		["is_encourage"] = true,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "BP16",
+		["name"] = "风力共能",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
-				["param_product"] = 105,
-			},
-			{
-				["param_product"] = 108,
-				["param_unit"] = {
-					1,
-					1,
-				},
-				["param_value"] = 0.15,
+				["param_product"] = 100,
 			},
 		},
 		["param_type"] = "num",
 		["passive_id"] = 102106,
 		["passive_lv"] = 3,
-		["passive_voc"] = 264,
+		["passive_voc"] = 0,
 		["point_back"] = 150,
 		["rarity"] = 3,
 		["recommend_attack_rate"] = 1,
@@ -33028,15 +33022,16 @@
 		},
 		["recommend_score_core"] = 1000,
 		["recommend_score_normal"] = 400,
-		["skill_type"] = 2,
+		["rogue_value_base"] = 10,
+		["skill_type"] = 3,
 		["upgrade_value"] = {
-			0.05,
-			0.1,
-			0.15,
+			4,
+			7,
+			10,
 		},
 		["value_unit"] = {
 			1,
-			1,
+			0,
 		},
 	},
 	[20258] = {
@@ -33124,13 +33119,14 @@
 		["condition_level"] = 0,
 		["connect_prop_value"] = {
 		},
-		["core_skill_class"] = 0,
+		["core_skill_class"] = 1,
 		["cost"] = {
 			240,
 			240,
 			240,
 		},
-		["desc"] = "",
+		["desc"] = "霜或风元素同调者施展主动技能后，自身刻印攻击力提高{1}，持续25秒，重复触发刷新持续时间",
+		["desc_rogue"] = "霜或风元素同调者施展主动技能后，自身刻印攻击力提高{1}，持续30秒，重复触发刷新持续时间",
 		["desc_type"] = 1,
 		["effect_elements"] = {
 			-1,
@@ -33152,25 +33148,17 @@
 		["is_encourage"] = false,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "fq卡池",
+		["name"] = "风霜交加",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
-				["param_product"] = 105,
-			},
-			{
 				["param_product"] = 108,
-				["param_unit"] = {
-					1,
-					1,
-				},
-				["param_value"] = 0.15,
 			},
 		},
 		["param_type"] = "num",
 		["passive_id"] = 102108,
 		["passive_lv"] = 3,
-		["passive_voc"] = 80,
+		["passive_voc"] = 0,
 		["point_back"] = 150,
 		["rarity"] = 3,
 		["recommend_attack_rate"] = 1,
@@ -33182,11 +33170,12 @@
 		},
 		["recommend_score_core"] = 1000,
 		["recommend_score_normal"] = 400,
+		["rogue_value_base"] = 0.25,
 		["skill_type"] = 2,
 		["upgrade_value"] = {
-			0.05,
-			0.1,
-			0.15,
+			0.2,
+			0.35,
+			0.5,
 		},
 		["value_unit"] = {
 			1,
@@ -33201,13 +33190,13 @@
 		["condition_level"] = 0,
 		["connect_prop_value"] = {
 		},
-		["core_skill_class"] = 0,
+		["core_skill_class"] = 1,
 		["cost"] = {
 			240,
 			240,
 			240,
 		},
-		["desc"] = "",
+		["desc"] = "风元素同调者施展主动技能后，场上同调者的额外攻击力提高{1}，若场上同调者为风元素则再额外提高{2}。该效果持续45秒，重复触发刷新持续时间",
 		["desc_type"] = 1,
 		["effect_elements"] = {
 			-1,
@@ -33219,7 +33208,7 @@
 			-100,
 		},
 		["element_type"] = {
-			-1,
+			5,
 		},
 		["encourage_trigger_condition"] = "",
 		["encourage_trigger_condition_desc"] = "",
@@ -33229,14 +33218,14 @@
 		["is_encourage"] = false,
 		["is_use"] = true,
 		["max_lv"] = 3,
-		["name"] = "zd卡池",
+		["name"] = "千嶂风鸣",
 		["need_blocksystem"] = false,
 		["param_info"] = {
 			{
 				["param_product"] = 105,
 			},
 			{
-				["param_product"] = 108,
+				["param_product"] = 105,
 				["param_unit"] = {
 					1,
 					1,
@@ -33247,7 +33236,7 @@
 		["param_type"] = "num",
 		["passive_id"] = 102109,
 		["passive_lv"] = 3,
-		["passive_voc"] = 80,
+		["passive_voc"] = 264,
 		["point_back"] = 150,
 		["rarity"] = 3,
 		["recommend_attack_rate"] = 1,
@@ -33259,11 +33248,12 @@
 		},
 		["recommend_score_core"] = 1000,
 		["recommend_score_normal"] = 400,
+		["rogue_value_base"] = 0.15,
 		["skill_type"] = 2,
 		["upgrade_value"] = {
-			0.05,
 			0.1,
-			0.15,
+			0.2,
+			0.3,
 		},
 		["value_unit"] = {
 			1,
@@ -33427,6 +33417,9 @@
 	},
 	[20263] = {
 		["addition_damage_type"] = 0,
+		["bdcal_effect_allparty"] = {
+			1,
+		},
 		["bdcal_need_fix"] = false,
 		["condition_battletype"] = -1,
 		["condition_humidity"] = -1,
