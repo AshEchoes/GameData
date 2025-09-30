@@ -12,10 +12,34 @@
 			{
 			},
 		},
+		["characters"] = {
+			{
+				["anim"] = "noone_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["body_anim"] = "default_loop",
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "CG/CG_yama/CG_yama_stage",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
 		["guid"] = "971244434B153088247610971677824F",
 		["guid_str"] = "DvfiYB1w",
 		["id"] = 1,
 		["is_total_play"] = true,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
@@ -431,29 +455,49 @@
 	{
 		["bg_info"] = {
 			{
-				["path"] = "",
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["delay"] = 2000,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+						{
+							["param"] = {
+								["am"] = 5,
+								["delay"] = 0,
+								["duration"] = 0,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.0,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09CGBG/cg_ybq_title.png",
 			},
 			{
 			},
 		},
 		["caption_info"] = {
-			["text"] = "死生苦痛",
 			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 1000,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
 		},
 		["guid"] = "FACB16F4486CEF37BAB4938C3016B33D",
 		["guid_str"] = "FiO4tCwh",
 		["id"] = 10,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["time"] = 3000,
 	},
 	{
 		["bg_info"] = {
@@ -470,6 +514,7 @@
 		["guid"] = "C7478CB84ACCF3B2D7E76DBAFD90393A",
 		["guid_str"] = "S8EdO0Cz",
 		["id"] = 11,
+		["just_auto_play"] = true,
 	},
 	{
 		["bg_info"] = {
