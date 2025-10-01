@@ -40,6 +40,13 @@
 		["id"] = 1,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/chap6/memory_noise",
+				["length"] = 25730,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -300,7 +307,7 @@
 		},
 		["caption_info"] = {
 			["is_show_all"] = true,
-			["text"] = "[font cusong]这样就能……解脱了吗……",
+			["text"] = "[size 17]这样就能……解脱了吗……",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -451,6 +458,66 @@
 		["id"] = 9,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/chap6/memory_noise",
+				["length"] = 25730,
+				["stop"] = 1,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["delay"] = 3500,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+						{
+							["param"] = {
+								["am"] = 5,
+								["delay"] = 0,
+								["duration"] = 0,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.0,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09CGBG/cg_ybq_title.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["text_align"] = "center",
+		},
+		["guid"] = "FACB16F4486CEF37BAB4938C3016B33D",
+		["guid_str"] = "FiO4tCwh",
+		["id"] = 10,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/haicuo/avg_haicuo_whoosh",
+				["length"] = 3122,
+			},
+		},
+		["time"] = 6000,
 	},
 	{
 		["bg_info"] = {
@@ -484,7 +551,7 @@
 						},
 					},
 				},
-				["path"] = "interface/resource/Game/Dialog09CGBG/cg_ybq_title.png",
+				["path"] = "interface/resource/Game/Dialog09CGBG/cg_ybq_01.png",
 			},
 			{
 			},
@@ -492,12 +559,12 @@
 		["caption_info"] = {
 			["text_align"] = "center",
 		},
-		["guid"] = "FACB16F4486CEF37BAB4938C3016B33D",
-		["guid_str"] = "FiO4tCwh",
-		["id"] = 10,
+		["guid"] = "2477819C44550D75ECB570B876518738",
+		["guid_str"] = "UhaXjJKj",
+		["id"] = 11,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
-		["time"] = 3000,
+		["time"] = 3500,
 	},
 	{
 		["bg_info"] = {
@@ -508,13 +575,23 @@
 			},
 		},
 		["caption_info"] = {
-			["text"] = "这一页是给音效的，编剧备注↓\n\n//餐刀和盘子碰撞的声音，杯子坠地玻璃碎裂的声音\n//最后转到大块冰块碰撞杯子的清脆声音，屏幕亮起\n",
 			["text_align"] = "center",
 		},
 		["guid"] = "C7478CB84ACCF3B2D7E76DBAFD90393A",
 		["guid_str"] = "S8EdO0Cz",
-		["id"] = 11,
+		["id"] = 12,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["delay"] = 500,
+				["event"] = "event:/sfx/story/beach/AVG_Beach_cheers",
+				["length"] = 1275,
+			},
+			{
+				["event"] = "event:/sfx/story/beach/bottle_pick_liquid",
+				["length"] = 814,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -558,11 +635,33 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s019_story_concerthall_concert",
+			["length"] = 126436,
+			["operation"] = 1,
+		},
 		["guid"] = "DB0B01074300E1C1213C1A9080A50BCC",
 		["guid_str"] = "sLqOJoPb",
-		["id"] = 12,
+		["id"] = 13,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/beach/AVG_Beach_ice",
+				["length"] = 537,
+			},
+			{
+				["event"] = "event:/sfx/story/beach/bottle_set_down-003",
+				["length"] = 1029,
+				["volume"] = 3.0,
+			},
+			{
+				["event"] = "event:/ambience/Inanna_pub_bar_story",
+				["length"] = 71000,
+				["loop"] = 1,
+			},
+		},
+		["time"] = 3500,
 	},
 	{
 		["bg_info"] = {
@@ -574,9 +673,9 @@
 		},
 		["guid"] = "C70BAD0F4337BF364661819D7CD954E2",
 		["guid_str"] = "efLlghj1",
-		["id"] = 13,
+		["id"] = 14,
 		["introduce"] = {
-			["location"] = "钧天市·XX酒吧",
+			["location"] = "钧天市· Still Life酒吧",
 			["time"] = "黑曜时2047年5月",
 		},
 		["is_total_play"] = true,
@@ -592,7 +691,7 @@
 		},
 		["guid"] = "4974702C479B5E5D3BF84586FC46A14B",
 		["guid_str"] = "9oEmnpKS",
-		["id"] = 14,
+		["id"] = 15,
 		["name"] = "酒吧老板",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -633,7 +732,7 @@
 		},
 		["guid"] = "5F34AE0C418D22C8659D068AB63DE72C",
 		["guid_str"] = "gdAjmpoG",
-		["id"] = 15,
+		["id"] = 16,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -670,7 +769,7 @@
 		},
 		["guid"] = "1232AD7843ECACC996C7608723543D40",
 		["guid_str"] = "42jjbcQI",
-		["id"] = 16,
+		["id"] = 17,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -699,7 +798,7 @@
 		},
 		["guid"] = "B900BE2F40DCF25324974E89D35AF0F9",
 		["guid_str"] = "9qRFjyR2",
-		["id"] = 17,
+		["id"] = 18,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -736,7 +835,7 @@
 		},
 		["guid"] = "B63FF7064DA4D75BD48A85BDE6AADDB1",
 		["guid_str"] = "XaNkNk8f",
-		["id"] = 18,
+		["id"] = 19,
 		["name"] = "酒吧老板",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -774,7 +873,7 @@
 		},
 		["guid"] = "E90E549D49E7EAF5E5414CB4C7C7CD86",
 		["guid_str"] = "m3slJJXS",
-		["id"] = 19,
+		["id"] = 20,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -809,7 +908,7 @@
 		},
 		["guid"] = "4E949B6A47C5DA2E1D218CB8A1DC0F1B",
 		["guid_str"] = "XUCR2Vsc",
-		["id"] = 20,
+		["id"] = 21,
 		["name"] = "酒吧老板",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -829,7 +928,7 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]深夜，酒吧几近满客，此时暂时没有新的点单，\n\n老板轻轻松了口气，在不算明亮的吧台内靠坐在高脚凳上，姑且迎来了短暂的休息。",
+			["text"] = "[size 17]深夜，酒吧几近满客，暂时没有新的点单，\n\n老板轻轻松了口气，在不算明亮的吧台内靠坐在高脚凳上，姑且迎来了短暂的休息。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -871,7 +970,7 @@
 		},
 		["guid"] = "E0CC5B5B4BA16AB2034CC5B2B7E707B7",
 		["guid_str"] = "1VSmiRNM",
-		["id"] = 21,
+		["id"] = 22,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -916,7 +1015,7 @@
 		},
 		["guid"] = "E7C883184C02FB2B9E95F79B35ED921B",
 		["guid_str"] = "RpXxF0SC",
-		["id"] = 22,
+		["id"] = 23,
 		["name"] = "酒吧老板",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -963,7 +1062,7 @@
 		},
 		["guid"] = "5F13FE4545C3245D51E82C9EBC2D4FAE",
 		["guid_str"] = "A9OMJD3j",
-		["id"] = 23,
+		["id"] = 24,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -1000,7 +1099,7 @@
 		},
 		["guid"] = "7F2EBBD14B5029341A8D1894CCCE4700",
 		["guid_str"] = "KoenI8fI",
-		["id"] = 24,
+		["id"] = 25,
 		["name"] = "酒吧老板",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1032,7 +1131,7 @@
 		},
 		["guid"] = "29B766C446B910F65FFFCBABB82A0EA5",
 		["guid_str"] = "da7XCBUP",
-		["id"] = 25,
+		["id"] = 26,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1069,7 +1168,7 @@
 		},
 		["guid"] = "451EE6E347B56B564652B98E31E785E1",
 		["guid_str"] = "xDKWMFVY",
-		["id"] = 26,
+		["id"] = 27,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -1104,7 +1203,7 @@
 		},
 		["guid"] = "99B802AE4CBB03CBBB57F0BE46F2C259",
 		["guid_str"] = "d6ChpzEs",
-		["id"] = 27,
+		["id"] = 28,
 		["name"] = "酒吧老板",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1142,7 +1241,7 @@
 		},
 		["guid"] = "5DDADF574721002E5BB0F2AAD2A432D3",
 		["guid_str"] = "1u8kurLg",
-		["id"] = 28,
+		["id"] = 29,
 		["name"] = "酒吧老板",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1180,7 +1279,7 @@
 		},
 		["guid"] = "77FDB5394EB7465CB04BC2A9814A661A",
 		["guid_str"] = "k0v5gBRb",
-		["id"] = 29,
+		["id"] = 30,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -1210,7 +1309,7 @@
 		},
 		["guid"] = "30DEC35C44D377C5B85818901C30B9F0",
 		["guid_str"] = "uYaKhLow",
-		["id"] = 30,
+		["id"] = 31,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1247,7 +1346,7 @@
 		},
 		["guid"] = "37E6037B4C7C0058672E64B94D9E596B",
 		["guid_str"] = "Ne3CayXy",
-		["id"] = 31,
+		["id"] = 32,
 		["name"] = "酒吧老板",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1291,7 +1390,7 @@
 		},
 		["guid"] = "BEF5AA5B472227266096DF83033D2046",
 		["guid_str"] = "QX3yosZd",
-		["id"] = 32,
+		["id"] = 33,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -1333,7 +1432,7 @@
 		},
 		["guid"] = "9E7F0C0844FCDC6FBF425EA5D12EE5A1",
 		["guid_str"] = "JsxsL0qb",
-		["id"] = 33,
+		["id"] = 34,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -1363,7 +1462,7 @@
 		},
 		["guid"] = "D6EFD00E48E55BC2D4A2ABB265E1DEFA",
 		["guid_str"] = "qp6829Ed",
-		["id"] = 34,
+		["id"] = 35,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1400,7 +1499,7 @@
 		},
 		["guid"] = "68E712E04AEE9F995B8803AECA9BB32C",
 		["guid_str"] = "yjM69Y6J",
-		["id"] = 35,
+		["id"] = 36,
 		["name"] = "酒吧老板",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1438,7 +1537,7 @@
 		},
 		["guid"] = "7D593F0F46FF9D4C5252369F35BB091F",
 		["guid_str"] = "p1h4eJXj",
-		["id"] = 36,
+		["id"] = 37,
 		["name"] = "？？？",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1475,7 +1574,7 @@
 		},
 		["guid"] = "D472B01C4ACC7649E159B491FDC27EB5",
 		["guid_str"] = "LwjdZ0KM",
-		["id"] = 37,
+		["id"] = 38,
 		["name"] = "酒吧老板",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1554,70 +1653,20 @@
 		},
 		["guid"] = "8CBABD194251B1DB986D6190D60FA184",
 		["guid_str"] = "410XXzxE",
-		["id"] = 38,
+		["id"] = 39,
 		["name"] = "崔远之",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
 		["text"] = "故弄玄虚而已。",
-	},
-	{
-		["bg_info"] = {
-			{
-				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_04.png",
-			},
-			{
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "smile1",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am37yx/am37yx_action1",
-				["pos"] = {
-					250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am13cyz/am13cyz_action1",
-				["pos"] = {
-					-300,
-					75,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-			},
-		},
-		["guid"] = "FD9327EB4580AF0B1875169E8ADA2CA6",
-		["guid_str"] = "WUY9v8zB",
-		["id"] = 39,
-		["name"] = "易虚舟",
-		["speaker_info"] = {
-			["anim"] = "normal",
-			["material"] = "M_UI_SpinePortrait",
-		},
-		["text"] = "唔，终于来了。",
 	},
 	{
 		["bg_info"] = {
@@ -1674,7 +1723,7 @@
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "什么叫故弄玄虚，这叫合理推测，大胆假设！",
+		["text"] = "哈！什么叫故弄玄虚，这叫合理推测，大胆假设！",
 	},
 	{
 		["bg_info"] = {
@@ -2293,6 +2342,13 @@
 		["guid"] = "D248D1694DE916C14AD8FA9AA92B5B71",
 		["guid_str"] = "jfuC7rpQ",
 		["id"] = 51,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 3.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -2966,7 +3022,7 @@
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "真像我说的，过不了“试用期”被退货吧？",
+		["text"] = "没过实习期，被退货了吧。",
 	},
 	{
 		["bg_info"] = {
@@ -3198,7 +3254,7 @@
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "不对，那篇报道我没乱写，台里给过了，事后也没被找上门联系。",
+		["text"] = "不对，“初来乍到”，那篇报道最后根本没以“逸虚”的名义发，台里也过了。",
 	},
 	{
 		["bg_info"] = {
@@ -3325,7 +3381,68 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]意思是您想留想走，都不为他人意志所转移是吧，好吧好吧。\n\n易虚舟敷衍地点点头，决定把自己“相关制度”的经验暂且留着作为未来的筹码。",
+			["text"] = "[size 17]嗯嗯嗯对对对可以可以行行行厉害厉害。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am37yx/am37yx_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am13cyz/am13cyz_action1",
+				["pos"] = {
+					-300,
+					75,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "35C014E74705DB891B952EA275CEE28D",
+		["guid_str"] = "bai3dPT6",
+		["id"] = 70,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]易虚舟敷衍地点点头，把自己那套和“相关制度”打交道的经验之谈咽回了肚里。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3369,7 +3486,7 @@
 		},
 		["guid"] = "698315BD4A78A3E87ED6FA922A596ED5",
 		["guid_str"] = "n1mswevp",
-		["id"] = 70,
+		["id"] = 71,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3430,7 +3547,7 @@
 		},
 		["guid"] = "D95621374A726C863A2A31A4728B7938",
 		["guid_str"] = "g78KGYJY",
-		["id"] = 71,
+		["id"] = 72,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3485,7 +3602,7 @@
 		},
 		["guid"] = "AD9A083A4737B03083C877B01EBFD26B",
 		["guid_str"] = "z7MIeD8y",
-		["id"] = 72,
+		["id"] = 73,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3548,7 +3665,7 @@
 		},
 		["guid"] = "7F9BACD24FD11701558B83BF6AF41441",
 		["guid_str"] = "nm9N9jk3",
-		["id"] = 73,
+		["id"] = 74,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3609,7 +3726,14 @@
 		},
 		["guid"] = "A4F3F5A64E86FE3B3DAE188AB29EFA3E",
 		["guid_str"] = "QgUqtOSF",
-		["id"] = 74,
+		["id"] = 75,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 2.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3664,7 +3788,7 @@
 		},
 		["guid"] = "AA65352B4F5D2BBED4C7BAB1740711E1",
 		["guid_str"] = "zF1jmrhj",
-		["id"] = 75,
+		["id"] = 76,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -3683,7 +3807,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]易虚舟没再说话，两人都知道最近频发的“自尽事件”让钧天市的公安系统疲于奔命，\n\n电视台也在跟进了几起之后开了个大会，想要各官方部门联合，通过各类媒体手段加强心理安全教育。",
+			["text"] = "[size 17]易虚舟没再说话，两人都知道最近频发的“自尽事件”让钧天市的公安系统坐立难安，\n\n电视台也在跟进了几起之后开了个大会，想要各官方部门联合，通过各类媒体手段加强心理安全教育。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -3727,7 +3851,7 @@
 		},
 		["guid"] = "069ABE6F42F1296CDEAC718E51C2C007",
 		["guid_str"] = "3k2aCZTQ",
-		["id"] = 76,
+		["id"] = 77,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3788,7 +3912,7 @@
 		},
 		["guid"] = "6D80F5B047577FCCDA99D5B9F9A4E418",
 		["guid_str"] = "ywdlqjcI",
-		["id"] = 77,
+		["id"] = 78,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -3843,13 +3967,13 @@
 		},
 		["guid"] = "AF4623294F967B871732AB8CA9487453",
 		["guid_str"] = "T8UwDmLs",
-		["id"] = 78,
+		["id"] = 79,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "我还被安排了“普及教育”的任务，最近一直在接触类似的患者和心理学专家，写了点稿子，快完成了。",
+		["text"] = "我还被安排了“普及教育”的任务，最近一直在接触类似的患者和心理学专家，写了点稿子，快完成了，新笔名“卜系周”。",
 	},
 	{
 		["bg_info"] = {
@@ -3900,13 +4024,127 @@
 		},
 		["guid"] = "06C281ED4DD08513729120B4013097D7",
 		["guid_str"] = "74CDdSd4",
-		["id"] = 79,
+		["id"] = 80,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
 		["text"] = "崔大法医要不要也过目一下？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am37yx/am37yx_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am13cyz/am13cyz_action1",
+				["pos"] = {
+					-300,
+					75,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "1A05D2F840BE0B4DF645E38990E39141",
+		["guid_str"] = "vPf1pUGb",
+		["id"] = 81,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "不用“逸虚”？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog07SceneBG/bg_linyang_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am37yx/am37yx_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am13cyz/am13cyz_action1",
+				["pos"] = {
+					-300,
+					75,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "CB5D9255451C2C2AE575E4A9685A61E3",
+		["guid_str"] = "L2JbWWNr",
+		["id"] = 82,
+		["name"] = "易虚舟",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "调过来不久，稳妥起见暂时先不启用，我再“观察观察”。",
 	},
 	{
 		["bg_info"] = {
@@ -3957,7 +4195,7 @@
 		},
 		["guid"] = "DD73023941CDA23DED66B0B496DC47E6",
 		["guid_str"] = "24mO3rLX",
-		["id"] = 80,
+		["id"] = 83,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4020,7 +4258,7 @@
 		},
 		["guid"] = "BA310AC94B938D46416932B3D57599FD",
 		["guid_str"] = "zXVFUDhx",
-		["id"] = 81,
+		["id"] = 84,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4075,7 +4313,7 @@
 		},
 		["guid"] = "97653DCA4F00ED27676572BC8F533DE9",
 		["guid_str"] = "nxu5NMIH",
-		["id"] = 82,
+		["id"] = 85,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4132,7 +4370,7 @@
 		},
 		["guid"] = "508C567B4F856E9AB9D4689A796172BE",
 		["guid_str"] = "wL4SqVFk",
-		["id"] = 83,
+		["id"] = 86,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4189,7 +4427,7 @@
 		},
 		["guid"] = "06320CE84846D8386D3CB196103155D2",
 		["guid_str"] = "W1QCwaSk",
-		["id"] = 84,
+		["id"] = 87,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4246,7 +4484,7 @@
 		},
 		["guid"] = "6A297CB740EBA5A472028C804CA8C691",
 		["guid_str"] = "3gIu6D7V",
-		["id"] = 85,
+		["id"] = 88,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4303,7 +4541,7 @@
 		},
 		["guid"] = "4B8F5FC044459DDBD267BE87DFAA0E8D",
 		["guid_str"] = "Fgrvx3W9",
-		["id"] = 86,
+		["id"] = 89,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4360,7 +4598,7 @@
 		},
 		["guid"] = "75FE01FE4831B79EBEBCD1AEB904CDBA",
 		["guid_str"] = "c6wiKFOM",
-		["id"] = 87,
+		["id"] = 90,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4417,7 +4655,7 @@
 		},
 		["guid"] = "3C0E1C694271D712192591A84DBCF5C0",
 		["guid_str"] = "s8azCVT8",
-		["id"] = 88,
+		["id"] = 91,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4498,7 +4736,7 @@
 		},
 		["guid"] = "A5C0E86C4C35A67C7D882D92745328D0",
 		["guid_str"] = "gTKUapqY",
-		["id"] = 89,
+		["id"] = 92,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4518,66 +4756,9 @@
 			["text"] = "[size 17]你真的是那个跟我在案发现场唇枪舌剑了近百个回合的崔远之？\n\n易虚舟差点问出口，不过紧接着他就拐回了更需要了解的事。",
 			["text_align"] = "center",
 		},
-		["characters"] = {
-			{
-				["anim"] = "doubt",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am37yx/am37yx_action1",
-				["pos"] = {
-					250,
-					0,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-			{
-				["anim"] = "normal",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["is_flip_x"] = true,
-				["material"] = "M_UI_SpineMat",
-				["path"] = "am13cyz/am13cyz_action1",
-				["pos"] = {
-					-300,
-					75,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
-		},
 		["guid"] = "CD099ABB4E99282EEFFE2E98EDCBF096",
 		["guid_str"] = "Y1Y64h3l",
-		["id"] = 90,
+		["id"] = 93,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4650,7 +4831,7 @@
 		},
 		["guid"] = "A0AB3BA14F9ABEC8DD9E6BB06AB0BB3B",
 		["guid_str"] = "FgoEuqNZ",
-		["id"] = 91,
+		["id"] = 94,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4707,7 +4888,7 @@
 		},
 		["guid"] = "BF576BAF4637ACACF889CB9D8DE7D40F",
 		["guid_str"] = "l5tN85nD",
-		["id"] = 92,
+		["id"] = 95,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4770,7 +4951,7 @@
 		},
 		["guid"] = "7A7B38044EAB20CFF80AE9A3C6B78231",
 		["guid_str"] = "jfrKdzSt",
-		["id"] = 93,
+		["id"] = 96,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -4825,7 +5006,7 @@
 		},
 		["guid"] = "2770E3C84545E8819F39C08D6513636F",
 		["guid_str"] = "jVDbBBg0",
-		["id"] = 94,
+		["id"] = 97,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4882,7 +5063,7 @@
 		},
 		["guid"] = "9A88CB954EDD5F12D8ECD3A295B2548D",
 		["guid_str"] = "HG0qinlE",
-		["id"] = 95,
+		["id"] = 98,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -4939,7 +5120,7 @@
 		},
 		["guid"] = "57FEE5A043D35DB956E0A8BBEB768B4B",
 		["guid_str"] = "JOrs9DIU",
-		["id"] = 96,
+		["id"] = 99,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5002,7 +5183,7 @@
 		},
 		["guid"] = "154FDB66464CF407CB624B89F4E4EA25",
 		["guid_str"] = "xK3wlQ49",
-		["id"] = 97,
+		["id"] = 100,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5057,7 +5238,7 @@
 		},
 		["guid"] = "FE212256454CF4D583600193062E9CC3",
 		["guid_str"] = "Rgfc5IwT",
-		["id"] = 98,
+		["id"] = 101,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5120,7 +5301,7 @@
 		},
 		["guid"] = "DD40F67D448281E0B2FDC08F45FA164B",
 		["guid_str"] = "D6FDQ2vi",
-		["id"] = 99,
+		["id"] = 102,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5175,7 +5356,7 @@
 		},
 		["guid"] = "07463F454B7755BE1DD3CEB83F7B5C36",
 		["guid_str"] = "uHiJClPC",
-		["id"] = 100,
+		["id"] = 103,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5232,7 +5413,7 @@
 		},
 		["guid"] = "F3B15C3C41A3B657D67BD887E3445EB7",
 		["guid_str"] = "FYDl3B0N",
-		["id"] = 101,
+		["id"] = 104,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5289,7 +5470,7 @@
 		},
 		["guid"] = "4C40987B447B27BF51EA9F91ADFEB882",
 		["guid_str"] = "0a1OHvl0",
-		["id"] = 102,
+		["id"] = 105,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5346,7 +5527,7 @@
 		},
 		["guid"] = "BDDA6D3B4EDE485BEA421A84131A5B22",
 		["guid_str"] = "S2eQvoB4",
-		["id"] = 103,
+		["id"] = 106,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5403,7 +5584,7 @@
 		},
 		["guid"] = "ED1AD5C140E1DCBBD633729CDE05FF0C",
 		["guid_str"] = "GtObZ3lA",
-		["id"] = 104,
+		["id"] = 107,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5460,7 +5641,7 @@
 		},
 		["guid"] = "DEFDEA054AD69ADE765200911BB57135",
 		["guid_str"] = "bZVicARt",
-		["id"] = 105,
+		["id"] = 108,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5523,7 +5704,7 @@
 		},
 		["guid"] = "FC91C6C24BECF773CCCE2992003E240A",
 		["guid_str"] = "yAooteq1",
-		["id"] = 106,
+		["id"] = 109,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5578,7 +5759,7 @@
 		},
 		["guid"] = "C833962149A077026DE3079FAA823387",
 		["guid_str"] = "vCdtYA3n",
-		["id"] = 107,
+		["id"] = 110,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5641,7 +5822,7 @@
 		},
 		["guid"] = "A1817C5B475E94CC846534B7CA570C15",
 		["guid_str"] = "3dppYqd1",
-		["id"] = 108,
+		["id"] = 111,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5696,7 +5877,7 @@
 		},
 		["guid"] = "A10637A546147565DA5308B442F8C16A",
 		["guid_str"] = "mg6dtWv2",
-		["id"] = 109,
+		["id"] = 112,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5715,7 +5896,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]逸虚转着桌上的酒杯继续回忆曾经的闲聊，缓缓开口。",
+			["text"] = "[size 17]易虚舟转着桌上的酒杯继续回忆曾经的闲聊，缓缓开口。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -5759,7 +5940,7 @@
 		},
 		["guid"] = "4347E9E842C7FE4A8DFB799FBDB7580C",
 		["guid_str"] = "iVLP8tyx",
-		["id"] = 110,
+		["id"] = 113,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5814,7 +5995,7 @@
 		},
 		["guid"] = "5CFB740C403F800D325E549EE29D1950",
 		["guid_str"] = "grY8tRK5",
-		["id"] = 111,
+		["id"] = 114,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5871,7 +6052,7 @@
 		},
 		["guid"] = "35B7159A4C59DAF2D17DAB96DCD2FB70",
 		["guid_str"] = "Mwe9CPMx",
-		["id"] = 112,
+		["id"] = 115,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -5934,7 +6115,7 @@
 		},
 		["guid"] = "6A09522F4D75AA421CD09DA851D62735",
 		["guid_str"] = "3488AzVz",
-		["id"] = 113,
+		["id"] = 116,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -5989,7 +6170,7 @@
 		},
 		["guid"] = "8C34D77C4DC5DDB8C6453A939F005C41",
 		["guid_str"] = "5g1peHu4",
-		["id"] = 114,
+		["id"] = 117,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6046,7 +6227,7 @@
 		},
 		["guid"] = "24C91BCB4A62563F759A559C5A25BBF2",
 		["guid_str"] = "CNekHIv3",
-		["id"] = 115,
+		["id"] = 118,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6065,7 +6246,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]看着对方在昏暗灯光下神色不明的脸，逸虚扯开一个大大的微笑。",
+			["text"] = "[size 17]看着对方在昏暗灯光下神色不明的脸，易虚舟扯开一个大大的微笑。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -6109,7 +6290,7 @@
 		},
 		["guid"] = "BA07DBE547B38A3FE0ECBF8457C9867F",
 		["guid_str"] = "VdwszD7H",
-		["id"] = 116,
+		["id"] = 119,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -6164,7 +6345,7 @@
 		},
 		["guid"] = "0C41ABF7473A4FA7420863AA1FC039BB",
 		["guid_str"] = "XGgo3GDl",
-		["id"] = 117,
+		["id"] = 120,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6183,7 +6364,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 16]每次看到这副“讨好”的表情，崔远之都难得有一种冲动，想要问对方真的是那个跟我在案发现场唇枪舌剑了近百个回合的人吗，\n\n可几十天下来见的次数多了，现在他只会嗤笑一声，再揣起一些不怀好意和难题。",
+			["text"] = "[size 17]易虚舟姿态越低，崔远之就越是警惕。他略略眯起眼，直勾勾地盯着易虚舟。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -6209,7 +6390,7 @@
 				},
 			},
 			{
-				["anim"] = "scornful",
+				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
@@ -6227,7 +6408,7 @@
 		},
 		["guid"] = "F4AB11F6428272DC5F89FB87FD5DA269",
 		["guid_str"] = "lJjdQmKP",
-		["id"] = 118,
+		["id"] = 121,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -6282,7 +6463,7 @@
 		},
 		["guid"] = "3B90E71C423D9656742B1E993DCD40FD",
 		["guid_str"] = "VLVpufQ6",
-		["id"] = 119,
+		["id"] = 122,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6339,7 +6520,7 @@
 		},
 		["guid"] = "E37E892142801C54188748BC2FBDCA6F",
 		["guid_str"] = "1HUR8kNU",
-		["id"] = 120,
+		["id"] = 123,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6396,7 +6577,7 @@
 		},
 		["guid"] = "A1A95EDD4B66E5974657A5AFCA12F992",
 		["guid_str"] = "eWHb9Urf",
-		["id"] = 121,
+		["id"] = 124,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6453,7 +6634,7 @@
 		},
 		["guid"] = "32DA99164360E09E2F6E54A05270E3E0",
 		["guid_str"] = "4Ya0cMG8",
-		["id"] = 122,
+		["id"] = 125,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6516,7 +6697,7 @@
 		},
 		["guid"] = "3409D09447E9C2554ACA0F9EA1CA69D0",
 		["guid_str"] = "4CeyZ5O1",
-		["id"] = 123,
+		["id"] = 126,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -6571,7 +6752,7 @@
 		},
 		["guid"] = "0B7F741748F2373EE60ADDBB3DEEADAD",
 		["guid_str"] = "Hsh0GMVd",
-		["id"] = 124,
+		["id"] = 127,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6634,7 +6815,7 @@
 		},
 		["guid"] = "8B1891B6444DCC581465C5ADBF5E6446",
 		["guid_str"] = "CKNNuBoU",
-		["id"] = 125,
+		["id"] = 128,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -6689,7 +6870,7 @@
 		},
 		["guid"] = "4C9D4E4E4F86992C2BDA07AD0DD698C5",
 		["guid_str"] = "xIrEcWUV",
-		["id"] = 126,
+		["id"] = 129,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6746,7 +6927,7 @@
 		},
 		["guid"] = "C79731FC46166083C53C56BDE9FFA311",
 		["guid_str"] = "TLJYfYYH",
-		["id"] = 127,
+		["id"] = 130,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6803,7 +6984,7 @@
 		},
 		["guid"] = "4843A01D4FE8D64D88EC2A8F0F1020E1",
 		["guid_str"] = "vMtW16HX",
-		["id"] = 128,
+		["id"] = 131,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6866,7 +7047,7 @@
 		},
 		["guid"] = "C7FDEEEB4DD9C1890A412C9783FD1C44",
 		["guid_str"] = "s9HVHbfv",
-		["id"] = 129,
+		["id"] = 132,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -6921,7 +7102,7 @@
 		},
 		["guid"] = "7B857294402889D93EE8BDAB223DB48C",
 		["guid_str"] = "eXJuL4GB",
-		["id"] = 130,
+		["id"] = 133,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -6978,7 +7159,7 @@
 		},
 		["guid"] = "9620E60E409943BF8F4B2F89460499BE",
 		["guid_str"] = "yGRptt42",
-		["id"] = 131,
+		["id"] = 134,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7035,7 +7216,7 @@
 		},
 		["guid"] = "954F5490487961ED6AF555A7D6A4B210",
 		["guid_str"] = "OQpnVPKf",
-		["id"] = 132,
+		["id"] = 135,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7092,7 +7273,7 @@
 		},
 		["guid"] = "EB81EA164ADA4A3328AEEE8EEE2B2B64",
 		["guid_str"] = "KZA8XEiZ",
-		["id"] = 133,
+		["id"] = 136,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7149,7 +7330,7 @@
 		},
 		["guid"] = "DE6E3C8E46CD8B4F49215C944205C9C3",
 		["guid_str"] = "FlQ7NVCa",
-		["id"] = 134,
+		["id"] = 137,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7230,7 +7411,7 @@
 		},
 		["guid"] = "3F2ACE5946F3AA55A9307C972BBC55D2",
 		["guid_str"] = "WkbkT7By",
-		["id"] = 135,
+		["id"] = 138,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7252,7 +7433,7 @@
 		},
 		["guid"] = "C5F19549435219CDD7086E8108B623A4",
 		["guid_str"] = "K8R2h8ZT",
-		["id"] = 136,
+		["id"] = 139,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7325,7 +7506,7 @@
 		},
 		["guid"] = "C3F643324E0FF2AA532866886CE02742",
 		["guid_str"] = "GiWW8TcI",
-		["id"] = 137,
+		["id"] = 140,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7388,7 +7569,7 @@
 		},
 		["guid"] = "C031E27A47B0163805B0DDBDDDE73BB2",
 		["guid_str"] = "ePjeuAIj",
-		["id"] = 138,
+		["id"] = 141,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7443,7 +7624,7 @@
 		},
 		["guid"] = "B6282D334052E416F1338F9279466D98",
 		["guid_str"] = "guy5wknI",
-		["id"] = 139,
+		["id"] = 142,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7498,7 +7679,7 @@
 		},
 		["guid"] = "1ADCFB5B4E8E37E86EFF149F8FBFC4C2",
 		["guid_str"] = "ahJT0W14",
-		["id"] = 140,
+		["id"] = 143,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7553,7 +7734,7 @@
 		},
 		["guid"] = "ADAF5F914D6248CD8D90E09E3B0CE7F9",
 		["guid_str"] = "zycglglJ",
-		["id"] = 141,
+		["id"] = 144,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7608,7 +7789,7 @@
 		},
 		["guid"] = "F5DA79EC4CA9BE0ED29DA389ACCCF7E7",
 		["guid_str"] = "lePnuhaI",
-		["id"] = 142,
+		["id"] = 145,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7665,7 +7846,7 @@
 		},
 		["guid"] = "7D8F929C43728B6626D9E0B1BC3F0DFF",
 		["guid_str"] = "xRvZkeWb",
-		["id"] = 143,
+		["id"] = 146,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -7720,7 +7901,7 @@
 		},
 		["guid"] = "BAA0F927433FE349DB7D91A69B90A721",
 		["guid_str"] = "FUYRdpvk",
-		["id"] = 144,
+		["id"] = 147,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7777,7 +7958,7 @@
 		},
 		["guid"] = "45811BC24FBB8C257A6C339DA1FBC14D",
 		["guid_str"] = "JzHepNm9",
-		["id"] = 145,
+		["id"] = 148,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7834,7 +8015,7 @@
 		},
 		["guid"] = "FB2E04334F6E2FC0E28EACB5373A8268",
 		["guid_str"] = "cCHcK8VI",
-		["id"] = 146,
+		["id"] = 149,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -7891,13 +8072,13 @@
 		},
 		["guid"] = "DC0557D24D413D58E2A1568373F929EA",
 		["guid_str"] = "E1NvS9md",
-		["id"] = 147,
+		["id"] = 150,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "从信息采集角度讲，是的。",
+		["text"] = "生在钧天，只是小时候就离开了，工作原因才回来的。",
 	},
 	{
 		["bg_info"] = {
@@ -7948,7 +8129,7 @@
 		},
 		["guid"] = "B60D94614F7023338D75FCA8D04F7B21",
 		["guid_str"] = "ZHOFVApr",
-		["id"] = 148,
+		["id"] = 151,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8011,7 +8192,7 @@
 		},
 		["guid"] = "63D32DC3439CD6706E535091022A5A95",
 		["guid_str"] = "B6phaK7L",
-		["id"] = 149,
+		["id"] = 152,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -8072,7 +8253,7 @@
 		},
 		["guid"] = "8A2DF5BC4EB3A7D8952F5A9CF59FC16D",
 		["guid_str"] = "pLI9C7oh",
-		["id"] = 150,
+		["id"] = 153,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -8127,7 +8308,7 @@
 		},
 		["guid"] = "754650174C055CCB6E671990FD8A9FAE",
 		["guid_str"] = "U2i1J3rO",
-		["id"] = 151,
+		["id"] = 154,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8190,7 +8371,7 @@
 		},
 		["guid"] = "A6BF48FA4707D92B48669F9655FFF888",
 		["guid_str"] = "MF66rRUf",
-		["id"] = 152,
+		["id"] = 155,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -8245,7 +8426,7 @@
 		},
 		["guid"] = "B94FBC434B55CBA93F68D0B68ADA2D22",
 		["guid_str"] = "WUwy5DVJ",
-		["id"] = 153,
+		["id"] = 156,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8302,7 +8483,7 @@
 		},
 		["guid"] = "8BB363C0435049088A14D0B075496161",
 		["guid_str"] = "FRqIi62z",
-		["id"] = 154,
+		["id"] = 157,
 		["name"] = "崔远之",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8365,7 +8546,7 @@
 		},
 		["guid"] = "8833BAB441935A41802D47AA920FCCDF",
 		["guid_str"] = "5F4Ppv4X",
-		["id"] = 155,
+		["id"] = 158,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -8420,7 +8601,7 @@
 		},
 		["guid"] = "7DFB4D1D418751FFC42896BE15FAC976",
 		["guid_str"] = "0ua6jjZL",
-		["id"] = 156,
+		["id"] = 159,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8477,7 +8658,7 @@
 		},
 		["guid"] = "EF3EBE184E961607B95CB28181C367C3",
 		["guid_str"] = "bxDW7e40",
-		["id"] = 157,
+		["id"] = 160,
 		["name"] = "易虚舟",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -8540,7 +8721,13 @@
 		},
 		["guid"] = "85EC8481445483CF0FB771A4D1646662",
 		["guid_str"] = "ukO3PIH8",
-		["id"] = 158,
+		["id"] = 161,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/beach/AVG_Beach_cheers",
+				["length"] = 1275,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -8564,6 +8751,10 @@
 			},
 			{
 			},
+		},
+		["bgm"] = {
+			["mute"] = true,
+			["operation"] = 2,
 		},
 		["characters"] = {
 			{
@@ -8624,9 +8815,16 @@
 		},
 		["guid"] = "0543E54A42C4C75D72A77CBBB3910F6E",
 		["guid_str"] = "sbBZLqut",
-		["id"] = 159,
+		["id"] = 162,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ambience/Inanna_pub_bar_story",
+				["length"] = 71000,
+				["stop"] = 1,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",

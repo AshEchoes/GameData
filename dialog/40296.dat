@@ -7,6 +7,48 @@
 						{
 							["param"] = {
 								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["delay"] = 2000,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+						{
+							["param"] = {
+								["delay"] = 0,
+								["end_alpha"] = 0.0,
+								["start_alpha"] = 0.0,
+								["time"] = 0,
+							},
+							["tween"] = "AlphaChange",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09CGBG/cg_ybq_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "BDB22FCF483E292551078A94F7165204",
+		["guid_str"] = "oOMj3SZQ",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["time"] = 3500,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
 								["time"] = 2000,
 							},
 							["tween"] = "FadeIn",
@@ -18,11 +60,23 @@
 			{
 			},
 		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s007_story_urban",
+			["length"] = 151230,
+			["operation"] = 1,
+		},
 		["guid"] = "7A2D96CB4BA2AB28AE084280F408E253",
 		["guid_str"] = "fmkksSnd",
-		["id"] = 1,
+		["id"] = 2,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/office_roomtone_lp",
+				["length"] = 30000,
+				["loop"] = 1,
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -40,7 +94,7 @@
 		},
 		["guid"] = "5FAE5B314CAB3224A978FFB5DDE8F4DC",
 		["guid_str"] = "CQzuCjhE",
-		["id"] = 2,
+		["id"] = 3,
 	},
 	{
 		["bg_info"] = {
@@ -58,7 +112,7 @@
 		},
 		["guid"] = "E8FD62744663308B920AA09CE21B07F3",
 		["guid_str"] = "zlKAbngB",
-		["id"] = 3,
+		["id"] = 4,
 	},
 	{
 		["bg_info"] = {
@@ -70,7 +124,7 @@
 		},
 		["guid"] = "4E44137945FB37B2189C9BB2F5DCAECC",
 		["guid_str"] = "uK2m87ZK",
-		["id"] = 4,
+		["id"] = 5,
 		["name"] = "科室警员A",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -95,7 +149,7 @@
 		},
 		["guid"] = "DD09F67C4392D2D57495F1A7C443E832",
 		["guid_str"] = "uXxXhAup",
-		["id"] = 5,
+		["id"] = 6,
 		["name"] = "叶秉谦",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -139,8 +193,15 @@
 		},
 		["guid"] = "F3FBD75C4EC70B8AB38028864991D778",
 		["guid_str"] = "qvUKoROZ",
-		["id"] = 6,
+		["id"] = 7,
 		["name"] = "孟乔",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -176,7 +237,7 @@
 		},
 		["guid"] = "C06B64ED40E47E0800AD528F49F6F749",
 		["guid_str"] = "DY3xY6tf",
-		["id"] = 7,
+		["id"] = 8,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
@@ -211,7 +272,7 @@
 		},
 		["guid"] = "5B7FA8344623CAC598E4B0996B49068C",
 		["guid_str"] = "C9LSPlgx",
-		["id"] = 8,
+		["id"] = 9,
 		["name"] = "科室警员B",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -249,13 +310,13 @@
 		},
 		["guid"] = "9B20192840A9BB4BF61F8E817395A16E",
 		["guid_str"] = "iPZPV92g",
-		["id"] = 9,
+		["id"] = 10,
 		["name"] = "孟乔",
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["material"] = "M_UI_SpinePortrait",
 		},
-		["text"] = "嗯是啊，邱睿生活比较单调，我们不用一直跟着。还好队长也只安排了暂时调查一个人，不然咱们办公室加起来都不够分人头的。",
+		["text"] = "嗯是啊，邱睿生活比较单调，我们不用一直移动。还好队长也只安排了暂时跟踪调查一个人，不然咱们办公室加起来都不够分人头的。",
 	},
 	{
 		["bg_info"] = {
@@ -289,7 +350,7 @@
 		},
 		["guid"] = "9A6499F34EFF7A0159FA0C80DC0D4197",
 		["guid_str"] = "zlmgvLpe",
-		["id"] = 10,
+		["id"] = 11,
 		["name"] = "叶秉谦",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -378,7 +439,14 @@
 		},
 		["guid"] = "087B193448E9695B004AF3A3CA9FCA27",
 		["guid_str"] = "rn9MBDEB",
-		["id"] = 11,
+		["id"] = 12,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -438,7 +506,7 @@
 		},
 		["guid"] = "2D9AD4CC47E492FCD42F0E87343AE6E1",
 		["guid_str"] = "To9H40oS",
-		["id"] = 12,
+		["id"] = 13,
 		["name"] = "孟乔",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -500,7 +568,7 @@
 		},
 		["guid"] = "0CB3DDE64C1EF6B2E0269FBE80511842",
 		["guid_str"] = "KzkgmSOb",
-		["id"] = 13,
+		["id"] = 14,
 		["name"] = "孟乔",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -567,7 +635,7 @@
 		},
 		["guid"] = "AF9A6BD844873A35DDFA9DAFE5D5F2AE",
 		["guid_str"] = "C9FiV7SE",
-		["id"] = 14,
+		["id"] = 15,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -627,7 +695,7 @@
 		},
 		["guid"] = "93D386C140288AA8889D069C0E389901",
 		["guid_str"] = "vsSFg4ZX",
-		["id"] = 15,
+		["id"] = 16,
 		["name"] = "孟乔",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -689,7 +757,7 @@
 		},
 		["guid"] = "BDE60F7B4E79297DA67097AFDADD653B",
 		["guid_str"] = "9rTOTB5G",
-		["id"] = 16,
+		["id"] = 17,
 		["name"] = "叶秉谦",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -751,7 +819,7 @@
 		},
 		["guid"] = "BCCFBB66459CD65B518856853959572F",
 		["guid_str"] = "9xPoFawl",
-		["id"] = 17,
+		["id"] = 18,
 		["name"] = "叶秉谦",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -813,7 +881,7 @@
 		},
 		["guid"] = "0748B6964F5283A406DA17803AB69710",
 		["guid_str"] = "uaCSig4E",
-		["id"] = 18,
+		["id"] = 19,
 		["name"] = "孟乔",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -875,7 +943,7 @@
 		},
 		["guid"] = "59810E1B46A1F8C364CED2B335DE23AE",
 		["guid_str"] = "Ua9OJnPj",
-		["id"] = 19,
+		["id"] = 20,
 		["name"] = "叶秉谦",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -943,7 +1011,7 @@
 		},
 		["guid"] = "631A237A47646C8AF132E5AA5495C67E",
 		["guid_str"] = "kPS4KweM",
-		["id"] = 20,
+		["id"] = 21,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -1003,7 +1071,7 @@
 		},
 		["guid"] = "0F1E692F42D5F20D62B6D6B3479F32C4",
 		["guid_str"] = "mtfkb7Ta",
-		["id"] = 21,
+		["id"] = 22,
 		["name"] = "孟乔",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1071,7 +1139,7 @@
 		},
 		["guid"] = "A98D331943F10E85309DC2B183D87547",
 		["guid_str"] = "PY3t7h9F",
-		["id"] = 22,
+		["id"] = 23,
 		["name"] = "科室警员A",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1146,7 +1214,7 @@
 		},
 		["guid"] = "029E0ED748DD44BB0F5F2B9D905C73F3",
 		["guid_str"] = "vEFdx1Ry",
-		["id"] = 23,
+		["id"] = 24,
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -1212,7 +1280,7 @@
 		},
 		["guid"] = "54C2F3BB4337D533F0E8B78E45E6F1B3",
 		["guid_str"] = "9m4sThX8",
-		["id"] = 24,
+		["id"] = 25,
 		["name"] = "科室警员A",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1281,7 +1349,7 @@
 		},
 		["guid"] = "EFFDA43346A1729530D93DBCF2DFABB5",
 		["guid_str"] = "9z4rHn95",
-		["id"] = 25,
+		["id"] = 26,
 		["name"] = "科室警员A",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1294,7 +1362,7 @@
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "n39police/n39police_centre_m_action1",
 		},
-		["text"] = "没、办、法，毕竟都没有明确要查的行为，也没法定义什么事“异常行为”，昴队他们科都来帮忙了，加油吧各位，我点咖啡，发群里了大家记得上车，队长呀——",
+		["text"] = "没、办、法，毕竟都没有明确要查的行为，也没法定义什么事“异常行为”，自动化环节帮不上一丁点儿，昴队他们科都来帮忙了，加油吧各位，我点咖啡，发群里了大家记得上车，队长呀——",
 	},
 	{
 		["bg_info"] = {
@@ -1350,7 +1418,7 @@
 		},
 		["guid"] = "30E118BF481E056936FDAE9423C3426E",
 		["guid_str"] = "Sp0DVwLz",
-		["id"] = 26,
+		["id"] = 27,
 		["name"] = "叶秉谦",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1416,7 +1484,7 @@
 		},
 		["guid"] = "0D43FEDC4CA36140DFD969BE2B5FEDDF",
 		["guid_str"] = "LFmRibUv",
-		["id"] = 27,
+		["id"] = 28,
 		["name"] = "叶秉谦",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1484,7 +1552,7 @@
 		},
 		["guid"] = "C23072304CC5F92055ABEDA78686CB80",
 		["guid_str"] = "QcRto9ey",
-		["id"] = 28,
+		["id"] = 29,
 		["name"] = "科室警员A",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1553,7 +1621,7 @@
 		},
 		["guid"] = "2E3955EC46571E415A18CA877C458B74",
 		["guid_str"] = "yHPA5bw1",
-		["id"] = 29,
+		["id"] = 30,
 		["name"] = "科室警员们",
 		["speaker_info"] = {
 			["anim"] = "normal",
@@ -1657,7 +1725,13 @@
 		},
 		["guid"] = "90ED4635488068EFD9CAD8BF472775AE",
 		["guid_str"] = "4x7QRW3Z",
-		["id"] = 30,
+		["id"] = 31,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_cellphone_vibrate",
+				["length"] = 1200,
+			},
+		},
 		["speaker_info"] = {
 			["anim"] = "normal",
 			["color"] = {
@@ -1669,5 +1743,7096 @@
 			["material"] = "M_UI_SpinePortrait",
 			["path"] = "n39police/n39police_centre_m_action1",
 		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]有消息了！",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "28C207E44BCD321E45AB23B65116F893",
+		["guid_str"] = "Xycp69kS",
+		["id"] = 32,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]今天又去找3号死者的邻居探了下口风，因为只是闲聊信息有些散，我就代为总结一下。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "8B04340D49FFB1276114A1824066D4A3",
+		["guid_str"] = "9420dh5A",
+		["id"] = 33,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]那位刘平生活很简单，从工作和生活轨迹上和其他人没有固定交集，家庭除了经济的确没有任何其他矛盾。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "27B2CFB54E38EFFF7A2AA6A0CAC36C2E",
+		["guid_str"] = "qNAa78n4",
+		["id"] = 34,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]为人老实不太说话，很喜欢小孩，他们楼里很多小孩都认识他。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "F8E6239E4FD9702826741A87B339C6FE",
+		["guid_str"] = "oBhwGrEs",
+		["id"] = 35,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]有一个女孩还是他女儿的同学，都在荷鸣路那家实验小学，我今天公出去他们学校的时候和她说了几句话。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "439BFC8E41D078A37827B9A440D95D4B",
+		["guid_str"] = "NvgHHuyJ",
+		["id"] = 36,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]这么巧？",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "F42FC5F7457AD75A17133ABC2370F5DE",
+		["guid_str"] = "MUgRM2ZP",
+		["id"] = 37,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]要么怎么说呢，我们这时候搭上线是老天爷给的机会呀啧啧。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "1AD313DB46CF3C3C6D44569F6C3428B9",
+		["guid_str"] = "JwpKsX9v",
+		["id"] = 38,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]那女孩提供了什么线索？",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "DBFE4BC24ED863796E984C9B3ED18744",
+		["guid_str"] = "gXTotiyW",
+		["id"] = 39,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]其他没什么特别的，只是女孩说有一天看到刘叔在走廊边台的安全梯旁边哭。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "3DC25FAD48140186FD2E24A37FD7C6DB",
+		["guid_str"] = "F1RYSmDA",
+		["id"] = 40,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]……原因？",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "A65B9B99440353F01622BC81058E67E1",
+		["guid_str"] = "56VYkzd3",
+		["id"] = 41,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]还是钱吧，信息来源说那个月他被扣了工资。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "C6E95B394DDB4A7CFC8742B9046D9933",
+		["guid_str"] = "jRfridpT",
+		["id"] = 42,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]她还说了件事。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "BBD61CE14DDA190E4AFF11A251ED7034",
+		["guid_str"] = "SRypccPk",
+		["id"] = 43,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]她说自己过去的时候刘平赶紧把眼泪擦了，还给了她几块糖让她保密。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "240D09864E7C9442A68716AAC9FFC4A0",
+		["guid_str"] = "2DklKEU1",
+		["id"] = 44,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]糖我也问过了，他们楼下便利店最便宜的独立包装水果硬糖，虽然应该毫无线索。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "3AFACFD44B1FA0A0E5C91BAF3770A9A9",
+		["guid_str"] = "h4TxOLIg",
+		["id"] = 45,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]不过我叫了个同城给你们送过去了，唔，看追踪应该快到了。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "943720874BBEEF8E19E606991EBC7DFE",
+		["guid_str"] = "O4P6IuT9",
+		["id"] = 46,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]叶秉谦看着一长串发过来的信息，不由得再次打下感叹。",
+			["text_align"] = "center",
+		},
+		["guid"] = "2ECFB5ED4D6B16D375947581011008B1",
+		["guid_str"] = "3YLePpLR",
+		["id"] = 47,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]……太周到了，感谢，找你合作果然是正确的选择。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "50BD7E8D422324BEF9A9169130C2E31C",
+		["guid_str"] = "uUL1sFhX",
+		["id"] = 48,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]不得不说，我们的思考模式真的很合拍。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "D14BB39A45F7146C8BAAC283586DD075",
+		["guid_str"] = "tHJqU3kL",
+		["id"] = 49,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]我也和叶队您相见恨晚呐！",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "E796B4F2480C0F486D155BA475407C44",
+		["guid_str"] = "GIYZGeIO",
+		["id"] = 50,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]叶秉谦笑了笑，虽然自己在那晚读到草稿后与马上联系了上面要到了这位台里撰稿人的工作账号，\n\n可实际上并没有聊几天，初步判断对方性格外向思维机敏，在工作生活环境中很吃得开，\n\n疑似有自己的未知“情报网”，具体用途未知。",
+			["text_align"] = "center",
+		},
+		["guid"] = "0A1C19274A232FCDED50B7B782D41FEF",
+		["guid_str"] = "1Mj2XH1u",
+		["id"] = 51,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]唔……应该还比自己小。\n\n而且说话风格也很亲切，难道新闻人很多这种风格？",
+			["text_align"] = "center",
+		},
+		["guid"] = "74D03625421C38BC75E953A431124B97",
+		["guid_str"] = "HmW1Q8jU",
+		["id"] = 52,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]逸先生的信息嗅觉十分灵敏，想必作为记者工作一定如鱼得水。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "E775ABED4D1BA1D63084FD8845A1DD82",
+		["guid_str"] = "mf0UOX3r",
+		["id"] = 53,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]我更乐意您夸我这是作为侦探的洞察力。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "8B553C264F397EF38A0CDA8264FA6C09",
+		["guid_str"] = "F6OALHWT",
+		["id"] = 54,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent][表情]",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "7B30D76F4DA90DE73D45A1A6262DA5ED",
+		["guid_str"] = "Hnc9Zpho",
+		["id"] = 55,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]侦探？",
+			["text_align"] = "center",
+		},
+		["guid"] = "69E368C04696BCF6AE0661A111AD9C7B",
+		["guid_str"] = "H9HiOcgN",
+		["id"] = 56,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]叶秉谦看着这两个字有些发愣。",
+			["text_align"] = "center",
+		},
+		["guid"] = "3C61424443490D6E9AA3BD9E9C960497",
+		["guid_str"] = "7i6fczmT",
+		["id"] = 57,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_04.png",
+			},
+		},
+		["guid"] = "531A766A43CDF20ED95C5599F8FD1F97",
+		["guid_str"] = "bFbec76I",
+		["id"] = 58,
+		["is_total_play"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n52tmleboy/n52tmleboy_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					-250,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "7152380446E3315190DD06BA52986754",
+		["guid_str"] = "oCwJnrS4",
+		["id"] = 59,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "叶秉谦",
+		["text"] = "周周，你怎么知道东西丢在了这里？ ",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n52tmleboy/n52tmleboy_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					-250,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "231257354E8E685FB0F828B8B9DA1D2D",
+		["guid_str"] = "dYIs7WFy",
+		["id"] = 60,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "住院的男孩",
+		["text"] = "哎呀，一些作为侦探的洞察力而已，小事一桩。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n52tmleboy/n52tmleboy_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					-250,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "48FAB5C6493C7E16A0593995BC406469",
+		["guid_str"] = "lSvFmYiU",
+		["id"] = 61,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "叶秉谦",
+		["text"] = "好吧，大侦探。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog09SceneBG/bg_dialog09_04.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n52tmleboy/n52tmleboy_action1",
+				["pos"] = {
+					250,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					-250,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "2182E1E64F88E22E5BEB8B926E22F53B",
+		["guid_str"] = "juSh4YuW",
+		["id"] = 62,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["name"] = "叶秉谦",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
+				["length"] = 1153,
+				["volume"] = 1.5,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]说起来叶队你之前问我关于心理画像的问题是？",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "2625851C49D3EDF99E16539C7390107B",
+		["guid_str"] = "DKOulzmf",
+		["id"] = 63,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]哦，就像和你说的，最近在派人跟踪邱睿，可能会用到。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "5AEAEFA141C5F03AFD455280EB0B5B9E",
+		["guid_str"] = "Sfov4jbY",
+		["id"] = 64,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]我赞同你暂时不正面同她接触的方案，但是想问问你怀疑她哪方面？",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "A4EDEC7443C1AB470D16159E53E26865",
+		["guid_str"] = "DWQCNvU9",
+		["id"] = 65,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]也不是怀疑……",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "C9CA22064A08921FA6D659AD4D0E547F",
+		["guid_str"] = "3KR2VqeM",
+		["id"] = 66,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]叶秉谦有些犹豫，觉得自己接下来要说的话理不出来一个头绪。",
+			["text_align"] = "center",
+		},
+		["guid"] = "611309B3406888E3169377B0862BD314",
+		["guid_str"] = "i9MNN6Dz",
+		["id"] = 67,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]其实是这两天看了部电影忽然得来的灵感，让我思考他们互相之间是不是有些……错位的秘密。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "4C33E8054C82BD0A661971B20739540D",
+		["guid_str"] = "Dzcji4Bn",
+		["id"] = 68,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent][截图]",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "F8B0C16E4619A00F0072BFB11C2F43DD",
+		["guid_str"] = "NXf03bq0",
+		["id"] = 69,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]最近一直想着那句遗言，一下就注意到这句台词了，周先生看过这部电影吗，叫《默名》。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "91BBB82D4616BB27C5ADCDA67E1E5993",
+		["guid_str"] = "1uINvYdt",
+		["id"] = 70,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]一直显示“正在输入”提示的对话框这次没有立刻蹦出回复，\n\n而是反反复复，出现又消失，这样重复了几次，也没有任何信息。",
+			["text_align"] = "center",
+		},
+		["guid"] = "0828E9744D287F9C23953D96029D5E3D",
+		["guid_str"] = "HxS54k6q",
+		["id"] = 71,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]看着最终消失的提示，不等叶秉谦再打字，面前忽然被扔了一份报告。",
+			["text_align"] = "center",
+		},
+		["guid"] = "51FB748F4B0E426CABC4048528C4FA49",
+		["guid_str"] = "bUpOQ4Rf",
+		["id"] = 72,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/9/avg_chapter9_paper_move_short_02",
+				["length"] = 1601,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]手摸上去还能隐隐感觉到“新鲜出炉”的温热。",
+			["text_align"] = "center",
+		},
+		["guid"] = "DD3B6F64437CD698F5D7FE8132CC4CF2",
+		["guid_str"] = "su1FEo6d",
+		["id"] = 73,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]抬头，就看见一双隐隐泛着灰绿的眼睛和扎起的长发，没什么表情倒显得很正经。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am13cyz/am13cyz_action2",
+				["pos"] = {
+					0,
+					60,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "80C8FCD44619CC18D849FE8344714272",
+		["guid_str"] = "Wl3Dsb6u",
+		["id"] = 74,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am13cyz/am13cyz_action2",
+				["pos"] = {
+					0,
+					60,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "85D0843E46469C689C0C11B1739503BB",
+		["guid_str"] = "ZPDUyKCg",
+		["id"] = 75,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "千里送报告，叶队都不翻开看看？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am13cyz/am13cyz_action2",
+				["pos"] = {
+					0,
+					60,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "DE77C94444515F842B1B8FA45FCCB32C",
+		["guid_str"] = "yiG9YFCj",
+		["id"] = 76,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "辛苦崔医生。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am13cyz/am13cyz_action2",
+				["pos"] = {
+					0,
+					60,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "3F88BB564277BA2A0F2DCFA55D951552",
+		["guid_str"] = "CZXpqbgU",
+		["id"] = 77,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "客气。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]报告不算厚，但也有几页充斥着密密麻麻的字，叶秉谦微眯起眼睛，注意到报告上的影子。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am13cyz/am13cyz_action2",
+				["pos"] = {
+					0,
+					60,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "CCC002C84434B36980390086B2DC7795",
+		["guid_str"] = "vgKbxmea",
+		["id"] = 78,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am13cyz/am13cyz_action2",
+				["pos"] = {
+					0,
+					60,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "0715D51F4B0960CDE42A1BBEB2079779",
+		["guid_str"] = "bFiGrz9P",
+		["id"] = 79,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "崔医生要是不急着走，要么坐一下？说不定有什么需要沟通的。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]说着，叶秉谦拉过身后一把椅子推到边上。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am13cyz/am13cyz_action2",
+				["pos"] = {
+					0,
+					60,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "A65CC23647623E2504623FB749B9A91D",
+		["guid_str"] = "RZFGlu44",
+		["id"] = 80,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]没了影子，叶秉谦开始专注看报告。",
+			["text_align"] = "center",
+		},
+		["guid"] = "7E673F3D495E149BBFC333924733ADCC",
+		["guid_str"] = "m96xF6H5",
+		["id"] = 81,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "B53E28E0469C146C5D124DB525DD3ADD",
+		["guid_str"] = "DV1SUiwW",
+		["id"] = 82,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am13cyz/am13cyz_action2",
+		},
+		["text"] = "我建议叶队直接看第三页。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]叶秉谦翻到第三页，一眼就看到红色墨水笔在一串复杂的名词上画了个圈。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "E9DF64174547CD1FE8C5988BA5B83F99",
+		["guid_str"] = "lQ1H7DRp",
+		["id"] = 83,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/paper_turn_flip",
+				["length"] = 1374,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "FED9F52D42433F93A17EFB8D138FF5D9",
+		["guid_str"] = "HvpyflVR",
+		["id"] = 84,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "doubt",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "……可传递抑制性信号……影响中枢……严重者会有加重情感障碍、抑郁等风险？！崔医生，这是——嗯？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]一小块包着糖纸的方形糖果被递过来。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "FDAA52604CDD6BFBE2A39A8CF34FEAEB",
+		["guid_str"] = "9nIx1XIY",
+		["id"] = 85,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_m_2",
+				["length"] = 1199,
+				["volume"] = 2.0,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "A86AFD2F4A610FCE8F6B72859FC34466",
+		["guid_str"] = "ap1LQHZY",
+		["id"] = 86,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am13cyz/am13cyz_action2",
+		},
+		["text"] = "我复原了一块含有相似成分的糖，敢试试吗，叶队。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "9045BAFF4CA8CE88D960469CE5AAB6BB",
+		["guid_str"] = "fSiiwgHr",
+		["id"] = 87,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "doubt",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]接过浅蓝色包装的糖果，剥开糖纸，一块半透明的方形糖块露出来。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "87EEBA1C4ED6E6117ECE2F913776AB99",
+		["guid_str"] = "hAZk7gcQ",
+		["id"] = 88,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]还没正式转正的技术科法医悠闲地坐在椅子上，其他人也没说话，只是似有若无的视线时不时偷瞄一下。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "EE838F0A4CEA69C49713609C178AF2CF",
+		["guid_str"] = "jM4xskmz",
+		["id"] = 89,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[indent][indent][indent][indent][size 16][font zhunyuan][乔我干嘛][indent]只可远观的帅哥法医又来找茬了。",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["end_alpha"] = 1.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "2786C5DC4DF277FA3500F2A20FAB0876",
+		["guid_str"] = "6r00Y08M",
+		["id"] = 90,
+		["jenga"] = {
+			{
+				["anchor"] = "center",
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = -200,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["content"] = "[size 17]机密-谁是叛徒（9）",
+				["offset"] = {
+					0,
+					-200,
+				},
+				["sustain_page_count"] = 11,
+				["template_type"] = "text",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][indent][indent][indent][indent][size 16][font zhunyuan][来许愿][indent]这姓崔的哥们跟队长到底有什么仇，每次说话都夹枪带棒。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "C67BABDD49B03A9333265E81FE61DE4A",
+		["guid_str"] = "0VNM1Qnh",
+		["id"] = 91,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][indent][indent][indent][indent][size 16][font zhunyuan][3.1415926][indent]纠正一下，这哥跟谁说话都这样，只是每次来咱们科都格外阴阳。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "A0E6B1D34D851965616D528EE930327C",
+		["guid_str"] = "c02R1FPW",
+		["id"] = 92,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][indent][indent][indent][indent][size 16][font zhunyuan][澜][indent]崔小哥喝咖啡吗，谁去问问？",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "21CB484943EECCFC83748C979BC692EC",
+		["guid_str"] = "oMfwYedh",
+		["id"] = 93,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][indent][indent][indent][indent][size 16][font zhunyuan][乔我干嘛][indent]……澜弟弟，学会看氛围是警官的必修课，你实习期应该是过不了了。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "4F11724747891705CD2E8E95166B6CA2",
+		["guid_str"] = "ijtMDX1d",
+		["id"] = 94,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][indent][indent][indent][indent][size 16][font zhunyuan][澜][indent]？？？别呀孟姐！！！",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "98FE2EE448365EA62268C9BBDF86A9FA",
+		["guid_str"] = "067EyKms",
+		["id"] = 95,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[indent][indent][indent][indent][size 16][font zhunyuan][祁][indent]有色眼镜吧，听说这位崔法医调到咱们局之前还有点别的故事",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["end_alpha"] = 1.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "74F2D1074051E7820C7CAC996529856C",
+		["guid_str"] = "4rpi4jF2",
+		["id"] = 96,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][indent][indent][indent][indent][size 16][font zhunyuan][乔我干嘛][indent]细说。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "F1F4AC9C41BF1D6D5D2FCAB89C0EF2AA",
+		["guid_str"] = "8WCvfdsC",
+		["id"] = 97,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][indent][indent][indent][indent][size 16][font zhunyuan][3.1415926][indent]细说。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "1F0F72294AA46F2F03DA8DAE5EE1D875",
+		["guid_str"] = "vvA4FMXP",
+		["id"] = 98,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][indent][indent][indent][indent][size 16][font zhunyuan][来许愿][indent]+1",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "0BC044314B423A0CC56C098548385E05",
+		["guid_str"] = "NMTKqujg",
+		["id"] = 99,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[br][br][indent][indent][indent][indent][size 16][font zhunyuan][祁][indent]干活，不想再继续跟这些录像耗下去了，赶紧找点有用的线索吧拜托各位了。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "47AE31D64AB6DA971F93668BF13E449C",
+		["guid_str"] = "SGZXjew8",
+		["id"] = 100,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "DDD69F8A4BEF88D300B806BBDF23CBB0",
+		["guid_str"] = "CVx87hu8",
+		["id"] = 101,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "崔医生，按照你的检测数据，多大的剂量才有效果。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "0EBD611D4CD62D5DE013249AA5B31428",
+		["guid_str"] = "OLINTQ91",
+		["id"] = 102,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am13cyz/am13cyz_action2",
+		},
+		["text"] = "实验对象不同结果自然不同，按照我现在的剂量，那个杨林估计需要吃十几到几十块吧，至于叶队……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]糖一入口，十足辛辣的薄荷味儿就瞬间在口腔里扩散，又跟着呼吸钻入鼻腔。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "4327CB49491CDD1A27E066A907FCF720",
+		["guid_str"] = "Y83o62XR",
+		["id"] = 103,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]叶秉谦皱了皱眉。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "28EC0C1F44DB90153AB268BD62973AFA",
+		["guid_str"] = "gFdW5TD8",
+		["id"] = 104,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "43CAEBC449C5BC30C23CE08B98FAA980",
+		["guid_str"] = "2oJACle4",
+		["id"] = 105,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "scornful",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am13cyz/am13cyz_action2",
+		},
+		["text"] = "嗤，叶队还真愿意为了工作奉献自己。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]并不是很喜欢这种感觉，叶秉谦看向手里的报告。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "8F735D7644F46508FE5EF6A7B8D3256C",
+		["guid_str"] = "gJbSKs4T",
+		["id"] = 106,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "6B28EFDA425019D8471ABE93D6D96516",
+		["guid_str"] = "YH3ksyWc",
+		["id"] = 107,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "这次的核心检测数据只要这一条吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "60992D454C49A329563086ACD9B29DFD",
+		["guid_str"] = "V2E2r951",
+		["id"] = 108,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am13cyz/am13cyz_action2",
+		},
+		["text"] = "还有些数据，等机器跑完会直接上传到数据库，叶队和贵科的同事可以直接查。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]监控再次播放了起来，视频中一个店外的监控拍摄到骑车过来的杨林，\n\n接着很快拐入什么地方不见，叶秉谦点了暂停切出去看文件标题。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "FB5F62A0479BAF24E5517AA1C0BBE320",
+		["guid_str"] = "yxV1KpO5",
+		["id"] = 109,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]馨月咖啡（关联地点茂实大厦）。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "2E58E63D41C6A421C5FBFEB934E79A80",
+		["guid_str"] = "6bvdrkpW",
+		["id"] = 110,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "8B850D684D07180470DDD496B407F85D",
+		["guid_str"] = "fVwBKDWF",
+		["id"] = 111,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "5号死者杨明和茂实大厦的生活轨迹关联有什么线索了吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]听到自己负责的部分，警员抬头。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "A50849324D16D64EB8DEDEAEB256FC99",
+		["guid_str"] = "9WcU2SOa",
+		["id"] = 112,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "014D14CE4F77448BDA11108A477275A5",
+		["guid_str"] = "vASZBH4X",
+		["id"] = 113,
+		["name"] = "科室警员B",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n83paradise/n83paradise_guard_m_02_action1",
+		},
+		["text"] = "去实地问过，保安说唯一有印象的一次是问卫生间在哪，其余暂时没什么线索。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "2B0A49704258BF5A924E1093B0A521E6",
+		["guid_str"] = "8XbGG6Os",
+		["id"] = 114,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "一个月内来过5次，和工作无关……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]薄荷的冰凉让叶秉谦的声音稍显模糊，他打开实景地图，搜索起目标大厦。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "F5CD562B476ED365BB2470A269473C51",
+		["guid_str"] = "DrEs16x5",
+		["id"] = 115,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]崔远之完全没有插话，难得像个隐形人坐在椅子上，\n\n在短暂的时间里让办公室的大家忘了这里还有一个技术科的“同事”。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "DA1DD3B342E2FFCC17A9B091908448A2",
+		["guid_str"] = "4sDrMKHl",
+		["id"] = 116,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]不过也只是很短暂。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "C9F4891C4F02C6306CCF24908383845F",
+		["guid_str"] = "jB8RUOI2",
+		["id"] = 117,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "01D4F93141C15CD94464C49CFB94F096",
+		["guid_str"] = "YwyYXf5i",
+		["id"] = 118,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am13cyz/am13cyz_action2",
+		},
+		["text"] = "叶队还是决定从最后那对情侣下手，明智的选择。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "0F5219514874E689FCE8DB892A061DA0",
+		["guid_str"] = "UgdQ3KhQ",
+		["id"] = 119,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "崔医生真的没什么情报要提供吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "A7123E63460702276C60769B3D2FCA50",
+		["guid_str"] = "Wnte3Jl0",
+		["id"] = 120,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "scornful",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am13cyz/am13cyz_action2",
+		},
+		["text"] = "你认为我能够提供什么？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]叶秉谦拉拽着地图四处查看，忽然侧头看向一旁的法医，笑了笑。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "3F97434B41F7E876428AF793E9A3BDFA",
+		["guid_str"] = "arPu0X1j",
+		["id"] = 121,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "13FAAA1440692EC9DA335AAF78436DBC",
+		["guid_str"] = "Gjb7L7Qe",
+		["id"] = 122,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "比如邱小姐的一些言行。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "FA036F304C18F4B921EEE7B44E55431B",
+		["guid_str"] = "FbsGdMGT",
+		["id"] = 123,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am13cyz/am13cyz_action2",
+		},
+		["text"] = "暂时没有。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "2571E55545DF21FE30C80E8C42D69F94",
+		["guid_str"] = "48EaWf5l",
+		["id"] = 124,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "好吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]没什么人的旧街道，大厦对角的确是馨月咖啡，大致能够找到监控所在位置。\n\n大厦老旧没有外围的保安，收发室在大厦内。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "368FAB4F4B2B76FAC0C5549CF8E8AA8A",
+		["guid_str"] = "KuW7QXVR",
+		["id"] = 125,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "8B15495E468D3DD0DDF85082E41E9656",
+		["guid_str"] = "u4agOT6R",
+		["id"] = 126,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "也就是说除非走进大厦本身，不然安保人员也无从知道杨明是否来过……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]拖着地图四处看，看了半天忽然发现不起眼的角落有一排柜子。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "205F0B634D3750C3832BFBBAFF5A278A",
+		["guid_str"] = "QWYldzBp",
+		["id"] = 127,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "EC5699F0490C5031BB62A082AFFE5BC3",
+		["guid_str"] = "3qusHmm0",
+		["id"] = 128,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "小许。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "8C2088A54EC5740E528719A1CE554437",
+		["guid_str"] = "p7zvMPNk",
+		["id"] = 129,
+		["name"] = "科室警员B",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n83paradise/n83paradise_guard_m_02_action1",
+		},
+		["text"] = "在。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "7B23666244BCFACE1BB0AD9C78C233D5",
+		["guid_str"] = "Bm0Ukyub",
+		["id"] = 130,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am66ybq/am66ybq_action1",
+		},
+		["text"] = "跟我去一趟茂实大厦。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["guid"] = "6D88FD5E4BBEC9231475D8B5F940BE16",
+		["guid_str"] = "2KxdfuKQ",
+		["id"] = 131,
+		["name"] = "科室警员B",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n83paradise/n83paradise_guard_m_02_action1",
+		},
+		["text"] = "现在？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["is_separate_tween"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]嘴上问着，实际上小许已经站起身准备拿外套。",
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "820DE9E8499846D09FF4898D2078C225",
+		["guid_str"] = "nE7cY2y9",
+		["id"] = 132,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n39police/n39police_centre_m_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["direction"] = "right",
+							["dis"] = 100,
+							["end_alpha"] = 1.0,
+							["time"] = 500,
+						},
+						["tween"] = "MoveIn",
+					},
+				},
+			},
+		},
+		["guid"] = "3DC042304B4DACE3B25C0D98E71B25F4",
+		["guid_str"] = "sPIc15S8",
+		["id"] = 133,
+		["name"] = "叶秉谦",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_2",
+				["length"] = 649,
+				["volume"] = 6.0,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "嗯，去查查他们停车场。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]觉得自己说话有些含糊不清，叶秉谦把“加料”的糖推向一侧，忽然，眼前被放下一个拆封过的长条软包装。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "0512713242C3393FAF2434A773252106",
+		["guid_str"] = "WbZKXpY6",
+		["id"] = 134,
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]里面是同样包装的糖纸。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "0B2A3921405120A03A2ED0A8B9C7FEF4",
+		["guid_str"] = "sFiOsj3G",
+		["id"] = 135,
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8583BCDD470AB837D535F9B13502BBCA",
+		["guid_str"] = "Y29VnUzR",
+		["id"] = 136,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "98EE28254E467BEF38DB65A2E20357E2",
+		["guid_str"] = "2NovtMvc",
+		["id"] = 137,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am13cyz/am13cyz_action2",
+		},
+		["text"] = "很可惜，叶队暂时没机会亲身体会靶向阻断。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "DC9CAF524E8D26646761ABAD3E177ABA",
+		["guid_str"] = "uX11gV44",
+		["id"] = 138,
+		["name"] = "崔远之",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "am13cyz/am13cyz_action2",
+		},
+		["text"] = "告辞。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "doubt",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F364F45F413C9EA649C6D59926704A09",
+		["guid_str"] = "rs7mEWB8",
+		["id"] = 139,
+		["name"] = "科室警员B",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n83paradise/n83paradise_guard_m_02_action1",
+		},
+		["text"] = "队长，是要去查他们监控吗？我去查过了什么都没有。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "45D984A04EB7EAA2C384BCADF1D32CEA",
+		["guid_str"] = "cfDSyBmZ",
+		["id"] = 140,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "不，我们去停车场找找有没有长期停放的车辆，我需要行车记录仪。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "serious",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "39B0457D44D1EB217C4E3AAC8AC49D62",
+		["guid_str"] = "08QQ1J5M",
+		["id"] = 141,
+		["name"] = "科室警员B",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n83paradise/n83paradise_guard_m_02_action1",
+		},
+		["text"] = "……哦！！",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "2102DFDC45B35793F933C1A6FAB45F06",
+		["guid_str"] = "WKk7lxUS",
+		["id"] = 142,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "崔医生。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]快走到门口的人被叫住，回头就看见已经穿好外套戴上口罩的队长正在戴手套。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D1D1C161437CFC93D9A01CBBF81A8ECC",
+		["guid_str"] = "mank3odV",
+		["id"] = 143,
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "BC1631AF46FC334BF2B5AFA10EE4DDEC",
+		["guid_str"] = "UeLJxGJm",
+		["id"] = 144,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "薄荷糖戒烟有另外更好用的牌子，蓝色包装那款，昴队推荐的。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]咔嗒。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "26D17A5640AC2EF4DB1588B5A3D4A369",
+		["guid_str"] = "tcdl2CIR",
+		["id"] = 145,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/7/avg_chapter7_doorwood",
+				["length"] = 506,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["align"] = "bottom",
+			["b_use_mask"] = true,
+			["text"] = "[size 17]门被关上。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "0F8C68E44FB3D9E92D68C6B114604611",
+		["guid_str"] = "TIZevFGM",
+		["id"] = 146,
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "FF4C06CC4DC0E47B44C39C935B37D6D1",
+		["guid_str"] = "9nf5ZCEI",
+		["id"] = 147,
+		["name"] = "叶秉谦",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+		},
+		["text"] = "走吧，咖啡就你们代喝了吧。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "B5B8F98249262C570A6F358A7E1F463F",
+		["guid_str"] = "DvEFFCOU",
+		["id"] = 148,
+		["name"] = "科室警员B",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n83paradise/n83paradise_guard_m_02_action1",
+		},
+		["text"] = "对啊，咖啡！我又损失了一杯——",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]临走前，叶秉谦看向聊天软件，发现那名敏锐的记者兼侦探不知道什么时候发来了回复。",
+			["text_align"] = "center",
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am66ybq/am66ybq_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "7B403D9B45776CED3B83009FC1C23525",
+		["guid_str"] = "bCjtvzX4",
+		["id"] = 149,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n83paradise/n83paradise_guard_m_02_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]用轻生证明爱情，最先否认的都是被证明的一方，即便那是事实。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "B8D3DB52420C6F9EE38DF689DDDB981D",
+		["guid_str"] = "FD7j2skJ",
+		["id"] = 150,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]叶队还请擦亮眼睛，不要被情蒙蔽。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "9B48EF8D430A42286D39FF8A1075ABD2",
+		["guid_str"] = "c7I9KyHK",
+		["id"] = 151,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]谢谢提醒，邱小姐的情况我们会持续跟进，有情报会给你共享，先出外勤了回见。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "A83263D6470B820230769C963DD57F41",
+		["guid_str"] = "bTiGyVOe",
+		["id"] = 152,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 250,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]好嘞~各位外勤顺利~",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "D3952F5444EE71FC4404DE9F591B928D",
+		["guid_str"] = "H5N0oman",
+		["id"] = 153,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]叶秉谦看着明显有情绪差异的几句回复，最后看了一眼自己发过去的信息，离开了办公室。",
+			["text_align"] = "center",
+		},
+		["guid"] = "FC36CD59497E963737F6AE9BE9E4168E",
+		["guid_str"] = "Iu7EPc3Y",
+		["id"] = 154,
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+			["path"] = "n83paradise/n83paradise_guard_m_02_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_police_04.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["mute"] = true,
+			["operation"] = 2,
+		},
+		["guid"] = "9C574D454F52BDF3EFD6F8A51A819713",
+		["guid_str"] = "xbpSTgDh",
+		["id"] = 155,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/office_roomtone_lp",
+				["length"] = 30000,
+				["stop"] = 1,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["guid"] = "8FF84D654D4F66F9FADC24B3C7CB3B41",
+		["guid_str"] = "p7hyLNjc",
+		["id"] = 156,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/bwg/bwg_amb_powerroom_on",
+				["length"] = 10649,
+				["loop"] = 1,
+				["volume"] = 0.20000000298023,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["guid"] = "EBE0774846E5C7251F81389DB2910CE8",
+		["guid_str"] = "STvFRtg6",
+		["id"] = 157,
+		["introduce"] = {
+			["location"] = "钧天市·日望角公寓1803",
+			["time"] = "同一时间",
+		},
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]………………",
+			["text_align"] = "center",
+		},
+		["guid"] = "B995582D4A96BA935A30259DE7BB0719",
+		["guid_str"] = "TzTYX8FR",
+		["id"] = 158,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]暖黄的灯光照亮了稍显凌乱的室内，电脑主机几不可闻的工作声完美融入环境，\n\n巨大舒服的懒人沙发和堆砌的外文图书靠在一起维持着相对平衡。",
+			["text_align"] = "center",
+		},
+		["guid"] = "4AC2D8CD4C237B308AC07294D0D4AACB",
+		["guid_str"] = "NQG4oXLq",
+		["id"] = 159,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]工作一天的青年靠在椅子，眼睛没什么焦点的发呆。",
+			["text_align"] = "center",
+		},
+		["guid"] = "9774FFA04EE7EDA7F54BA1A2C5C2332B",
+		["guid_str"] = "RiYzRxeW",
+		["id"] = 160,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]屏幕因为一段时间无人操作早已一片漆黑，上面隐隐约约能看到青年的倒影。",
+			["text_align"] = "center",
+		},
+		["guid"] = "4194DA6840639782AB0DDBB0AB3A4DCE",
+		["guid_str"] = "QAGRk1yw",
+		["id"] = 161,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]只是根本看不清。",
+			["text_align"] = "center",
+		},
+		["guid"] = "E409D3324A09949E4083C483820E04D5",
+		["guid_str"] = "7AZXorCj",
+		["id"] = 162,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]易虚舟拿起手机打开前置摄像头对准自己。",
+			["text_align"] = "center",
+		},
+		["guid"] = "BD175BDC4513929FD979E1BD1D6DE3B2",
+		["guid_str"] = "KfF7ZNSv",
+		["id"] = 163,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["guid"] = "A0AE8C654D09E313BD091EAA8D76CB45",
+		["guid_str"] = "TGmhlFrc",
+		["id"] = 164,
+		["name"] = "易虚舟",
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+			["path"] = "am37yx/am37yx_action1",
+		},
+		["text"] = "哇，要是这时候有别人看见，一定以为我在自拍。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]前置摄像头里的青年还是一脸带着笑意和不正经的样子。",
+			["text_align"] = "center",
+		},
+		["guid"] = "3DC0B9DB4A289C509E04F9809659DE39",
+		["guid_str"] = "jxMcaMZ8",
+		["id"] = 165,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]按下空格，屏幕随之亮起，一张清晰的截图正显示在高清屏幕中央。",
+			["text_align"] = "center",
+		},
+		["guid"] = "F98F797E463B8FC4AE6D4AB7F400BC57",
+		["guid_str"] = "pefNm9ob",
+		["id"] = 166,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/school/avg_school_click_keyboard",
+				["length"] = 316,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["guid"] = "F8F6DC26403504EEE1B67CAC914A397C",
+		["guid_str"] = "W4w8WHA8",
+		["id"] = 167,
+		["name"] = "易虚舟",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+			["path"] = "am37yx/am37yx_action1",
+		},
+		["text"] = "……………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["guid"] = "07B98091477094D26108A8A997B87A0D",
+		["guid_str"] = "7cZoe813",
+		["id"] = 168,
+		["name"] = "易虚舟",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+			["path"] = "am37yx/am37yx_action1",
+		},
+		["text"] = "这还真是………………",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["guid"] = "42FE1F7B46D02AF3C60CB89200DCCC89",
+		["guid_str"] = "hiGuVY9m",
+		["id"] = 169,
+		["name"] = "易虚舟",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+			["path"] = "am37yx/am37yx_action1",
+		},
+		["text"] = "巧了不是。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+		},
+		["guid"] = "BEAF9E2842A7A5D5080735A5B0743831",
+		["guid_str"] = "BkfJtNCV",
+		["id"] = 170,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 2000,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+			["path"] = "am37yx/am37yx_action1",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n39police_m/n39police_m_action1",
+				["pos"] = {
+					250,
+					80,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n01normalwoman_02",
+				["pos"] = {
+					-250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "3BB40B1E41543241D40E7D8B6896CD34",
+		["guid_str"] = "S0Xkfu4g",
+		["id"] = 171,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "案件警员",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+		},
+		["text"] = "结合现场痕迹看，易先生确是轻生。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n39police_m/n39police_m_action1",
+				["pos"] = {
+					250,
+					80,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n01normalwoman_02",
+				["pos"] = {
+					-250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "5E76E8244DF8FF225BC6DABF1BB0A356",
+		["guid_str"] = "aUN6c6gC",
+		["id"] = 172,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "冷静的女人",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+		},
+		["text"] = "这并不可能，警官先生。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n39police_m/n39police_m_action1",
+				["pos"] = {
+					250,
+					80,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n01normalwoman_02",
+				["pos"] = {
+					-250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "397A051E4CAF73531B30268B47BEE8B3",
+		["guid_str"] = "zOJQLnIU",
+		["id"] = 173,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "案件警员",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+		},
+		["text"] = "这……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+		},
+		["characters"] = {
+			{
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n39police_m/n39police_m_action1",
+				["pos"] = {
+					250,
+					80,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n01normalwoman_02",
+				["pos"] = {
+					-250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "65BB9085462732EFD8750EA1B1A1B482",
+		["guid_str"] = "UbZvTptD",
+		["id"] = 174,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["just_auto_play"] = true,
+		["name"] = "案件警员",
+		["soundfx"] = {
+			{
+				["event"] = "event:/ui/advse/01-12-whoosh",
+				["length"] = 2491,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+		},
+		["guid"] = "2E27D8244CE9ED8C1725CAB99AF0E0B3",
+		["guid_str"] = "xuDj0jcj",
+		["id"] = 175,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["just_auto_play"] = true,
+		["name"] = "案件警员",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					-250,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n01normalwoman_02",
+				["pos"] = {
+					250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "B8744B384447DDF59689B0B51DC4DD29",
+		["guid_str"] = "L4njd5km",
+		["id"] = 176,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "冷静的女人",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+		},
+		["text"] = "回来啦，身体好不容易好点最好不要出去那么久哦。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					-250,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n01normalwoman_02",
+				["pos"] = {
+					250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D4689B604B666ECFC1A65DBD421CE211",
+		["guid_str"] = "b8DkhUiC",
+		["id"] = 177,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "小男孩",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+		},
+		["text"] = "妈妈……可能爸爸他的确……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					-250,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n01normalwoman_02",
+				["pos"] = {
+					250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "252A89D34632C0390A1714A195578485",
+		["guid_str"] = "LnLpr0Fc",
+		["id"] = 178,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "冷静的女人",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+		},
+		["text"] = "……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					-250,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n01normalwoman_02",
+				["pos"] = {
+					250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "32491ACA43B00BB386A29FB9A87E8A08",
+		["guid_str"] = "6sf4Temn",
+		["id"] = 179,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "冷静的女人",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+		},
+		["text"] = "是吗。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "",
+			},
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					-250,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n01normalwoman_02",
+				["pos"] = {
+					250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "F2CECB88405E496A9855BC9B619BD669",
+		["guid_str"] = "TBv9IwYi",
+		["id"] = 180,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+			},
+		},
+		["name"] = "冷静的女人",
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+		},
+		["text"] = "先吃饭吧，我的小侦探。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["CF_MakeBottom_Dialog"] = 0.0,
+							["F_ScreenLightness"] = 1.2,
+							["F_ScreenSaturation"] = 0.3,
+						},
+						["in_time"] = 0,
+						["is_loop"] = true,
+						["material"] = "MI_UI_SaturationLightness",
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/Dialog03SceneBG/bg_room_11_beforefire.png",
+			},
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n47sunflower_child/n47sunflower_child_action1",
+				["pos"] = {
+					-250,
+					280,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "n01normalwoman_02",
+				["pos"] = {
+					250,
+					100,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "9EC7F6854D5E32A88A1B87B654A60395",
+		["guid_str"] = "xgWPKc3l",
+		["id"] = 181,
+		["is_total_play"] = true,
+		["is_white_base_bg"] = true,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/Dialog00CGBG/gialog_whitecorner.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 1500,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/air/whoosh_mid_short",
+				["length"] = 1153,
+				["volume"] = 1.5,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "surprise",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]易虚舟放下手机，看向屏幕下方的时间，斟酌着敲下几行字。",
+			["text_align"] = "center",
+		},
+		["guid"] = "14C6B9DF41B2E771D6AA01853AB35A40",
+		["guid_str"] = "oXRWnQdw",
+		["id"] = 182,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]用轻生证明爱情，最先否认的都是被证明的一方，即便那是事实。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "047A177D4FF07D48D5DA72B77C37D642",
+		["guid_str"] = "q3pASE9e",
+		["id"] = 183,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]叶队还请擦亮眼睛，不要被情蒙蔽。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "2A6CBE054C7B37AE8E1064957F1D12B6",
+		["guid_str"] = "Q1Tk4xlK",
+		["id"] = 184,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]很快对方就回来了消息。",
+			["text_align"] = "center",
+		},
+		["guid"] = "636F9A6D4709FBDAABAB96AD93899D46",
+		["guid_str"] = "YLJz4Tnj",
+		["id"] = 185,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[indent][indent][size 16][font zhunyuan][三支队-[c BBE8BA]叶[/c]][indent]谢谢提醒，邱小姐的情况我们会持续跟进，有情报会给你共享，先出外勤了回见。",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "C647A4974DB3C3399392DA818FF7B927",
+		["guid_str"] = "fbNUFzlr",
+		["id"] = 186,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["height"] = 150,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["is_show_all"] = true,
+			["mask_alpha"] = 0.60000002384186,
+			["text"] = "[br][br][indent][indent][size 16][font zhunyuan][市台-[c E2D2A7]周[/c]][indent]好嘞~各位外勤顺利~",
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["direction"] = "up",
+						["dis"] = 100,
+						["duration"] = 500,
+						["end_alpha"] = 15.0,
+						["time"] = 200,
+					},
+					["tween"] = "MoveIn",
+				},
+			},
+		},
+		["guid"] = "9D749BD7459EC49FD23C53A41CFC4C9F",
+		["guid_str"] = "XqWE1cdI",
+		["id"] = 187,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/chat_message_notify",
+				["length"] = 1000,
+			},
+		},
+		["speaker_info"] = {
+			["anim"] = "normal",
+			["color"] = {
+				0.0,
+				0.0,
+				0.0,
+				0.62745100259781,
+			},
+			["material"] = "M_UI_SpinePortrait",
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]看着不再有回话的聊天框，易虚舟拿起他冲洗出来的唯一案件相关的照片。",
+			["text_align"] = "center",
+		},
+		["guid"] = "A6D1C85D41C017759DD08A8134127775",
+		["guid_str"] = "PA3m1eTx",
+		["id"] = 188,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text_align"] = "center",
+		},
+		["guid"] = "62EAC9F04F060869132B6BB55E520E31",
+		["guid_str"] = "lctJtSya",
+		["id"] = 189,
+		["name"] = "易虚舟",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+			["path"] = "am37yx/am37yx_action1",
+		},
+		["text"] = "我会……永远爱你啊。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text_align"] = "center",
+		},
+		["guid"] = "0C314FDE4118AAD987C1A3A6D16A0ED6",
+		["guid_str"] = "QqshbwwV",
+		["id"] = 190,
+		["name"] = "易虚舟",
+		["speaker_info"] = {
+			["anim"] = "serious",
+			["material"] = "M_UI_SpinePortrait",
+			["offset"] = {
+				-120,
+				-20,
+			},
+			["path"] = "am37yx/am37yx_action1",
+		},
+		["text"] = "Rachel小姐姐，你和你的未婚夫，到底还有什么秘密。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["b_use_mask"] = true,
+			["mask_alpha"] = 0.5,
+			["text"] = "[size 17]——需要用“永远”来隐藏。",
+			["text_align"] = "center",
+		},
+		["guid"] = "D5D1C1DA4A3F9C2C083EA48A8F8E79A2",
+		["guid_str"] = "OuYC0ja1",
+		["id"] = 191,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActOureaSceneBG/bg_ourea_03.png",
+			},
+			{
+			},
+		},
+		["guid"] = "AF6559BD441B4E21C4746D9A6CD2E6A6",
+		["guid_str"] = "WUiKlNhN",
+		["id"] = 192,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/bwg/bwg_amb_powerroom_on",
+				["length"] = 10649,
+				["stop"] = 1,
+			},
+		},
+		["time"] = 2500,
 	},
 }
