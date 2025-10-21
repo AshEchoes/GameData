@@ -1,7 +1,1347 @@
 {
 	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2000,
+							},
+							["tween"] = "FadeIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["bgm"] = {
+			["event"] = "event:/bgm/s008_story_downtown",
+			["length"] = 121200,
+			["operation"] = 1,
+		},
+		["female_characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "heroine/heroine_action1",
+				["pos"] = {
+					0.0,
+					100.0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
 		["guid"] = "5279C0C645F5F67BAD6F59BD01DF0597",
 		["guid_str"] = "FthHt18h",
 		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["male_characters"] = {
+			{
+				["anim"] = "normal_add",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineCharacterNormal",
+				["path"] = "hero/hero_action1",
+				["pos"] = {
+					0.0,
+					100.0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/5/office_roomtone_lp",
+				["length"] = 30000,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 500,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "53C98BDB45CA2C569B7E43889F1F6AD9",
+		["guid_str"] = "LB0CEKd7",
+		["id"] = 2,
+		["name"] = "波丝",
+		["text"] = "不错，任务圆满结束。如果没有其他的事情，我和灰锈打算先行离开。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "A76C92794CED0AF3A9C936BF48DEAAF4",
+		["guid_str"] = "22DDNnxS",
+		["id"] = 3,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "没有，需要派车送你们吗。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "13F5BB82454D44A64C82D7828DE269FA",
+		["guid_str"] = "k004cJOZ",
+		["id"] = 4,
+		["name"] = "波丝",
+		["text"] = "多谢好意，不过不用。我们还没有想好该去哪里把剩下的假期消耗掉。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "50A8C85040280C3A8E44E4AA7EC200B0",
+		["guid_str"] = "0YKae4GC",
+		["id"] = 5,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "等等，你们在放假？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "8BE882CE467FAA849B13CB920BFCDAFF",
+		["guid_str"] = "PeiTEFGq",
+		["id"] = 6,
+		["name"] = "灰锈",
+		["text"] = "老板额外给的。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "3C595BEE445F9CF60D007785CFC095B7",
+		["guid_str"] = "LyfqGTkL",
+		["id"] = 7,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "那你们还主动要求参加今天的推演训练……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "292EAF0947A91561DA68239D315B8CDB",
+		["guid_str"] = "lxDyR3tC",
+		["id"] = 8,
+		["name"] = "波丝",
+		["text"] = "毕竟不想错过和小先知相处的机会呀。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "B3E9EF084240A3BD125F9CB68A3DC353",
+		["guid_str"] = "fxE1Fi81",
+		["id"] = 9,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "呃，好吧……那你们原本有什么计划吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "A591D9A54693F4F0E08C18A2EF08EDE2",
+		["guid_str"] = "O8sKWZpn",
+		["id"] = 10,
+		["name"] = "波丝",
+		["text"] = "难得休假，当然应该漫无目的地纵情享乐，如果连度假都要排日程表，那可就太劳神了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "dislike1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "743DDF6A4840F1CEA7C680AA2C739F10",
+		["guid_str"] = "whQuaUe7",
+		["id"] = 11,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "dislike1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "我该假装听不懂你在说什么吗……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "3AADB50D4E95DB0227BD3D8C0566DE3B",
+		["guid_str"] = "lSIFSdjR",
+		["id"] = 12,
+		["name"] = "灰锈",
+		["text"] = "波丝只是展现了她的部分幽默感，看来您已有所领会。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "84A63CC14CC23D922734F6BCCAA81FCB",
+		["guid_str"] = "Rww2O61s",
+		["id"] = 13,
+		["name"] = "波丝",
+		["text"] = "事实上我们本来准备去livehouse，还提前购入了早鸟票。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "4C3FCD2B438F9F01A300F2BB144AB7AF",
+		["guid_str"] = "bwPCh7Jz",
+		["id"] = 14,
+		["name"] = "波丝",
+		["text"] = "可惜主唱身体不适，吉他手家中有事，贝斯手左手骨折，演出只能取消，因此我们被迫失去了一场演出。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "wry1_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "A66B947E48E9590733BDDFA10051ABAE",
+		["guid_str"] = "2TXnlDIJ",
+		["id"] = 15,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "wry1_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "啊这……确实不幸……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "surprise",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "B4FDAC1541AB1F5028FE24BAB9AE5919",
+		["guid_str"] = "3qoQSJhT",
+		["id"] = 16,
+		["name"] = "米达斯",
+		["text"] = "你们说的那种演出，是……摇滚乐队？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "3E021B29486F0E7B5A7D01AB9FD2FEAF",
+		["guid_str"] = "l43nxFJC",
+		["id"] = 17,
+		["name"] = "波丝",
+		["text"] = "米达斯先生也喜欢吗？",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "9F3B051C495ACC9D0D7AAD954100DE80",
+		["guid_str"] = "sYto12Gd",
+		["id"] = 18,
+		["name"] = "米达斯",
+		["text"] = "不太能适应那种风格。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "669E76C14F5140394A40B9A96FA98882",
+		["guid_str"] = "oDlkLfVs",
+		["id"] = 19,
+		["name"] = "米达斯",
+		["text"] = "最近几天有一支乐队在白鹊湖广场表演，如果不介意设备简陋的话，你们可以去那里看看——叫惊栗乐队。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["female_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["guid"] = "A943C04E4E032979DE440A9F8959E5E6",
+		["guid_str"] = "QH1uPHC3",
+		["id"] = 20,
+		["is_player_speaker"] = true,
+		["male_speaker_info"] = {
+			["anim"] = "surprise_add",
+			["body_anim"] = "default_loop",
+		},
+		["name"] = "[rolename]",
+		["text"] = "惊栗乐队都流窜到那儿了，通常他们会选择到人多的商业中心唱歌，倒挺少会去公园的。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am54mds/am54mds_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "45A4C14F4E4EAFB75D9E7F9FE1294D15",
+		["guid_str"] = "Rr7ihULi",
+		["id"] = 21,
+		["name"] = "米达斯",
+		["text"] = "我也希望他们可以尽快转移，因为他们的音乐过于嘈杂，几乎完全沉浸在自己的艺术里，所以我也无法去白鹊湖广场散心了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "smile2",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+		},
+		["guid"] = "9DF711904F5D02CA069EECB2D8ACE728",
+		["guid_str"] = "coUUgrgP",
+		["id"] = 22,
+		["name"] = "波丝",
+		["text"] = "言语上很嫌弃，但依然诚恳地推荐了这个乐队么……",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "9B95B44240C5B70988DC5B8279EBCCB6",
+		["guid_str"] = "QZ0GvbSZ",
+		["id"] = 23,
+		["name"] = "波丝",
+		["text"] = "多谢米达斯先生，那我们便欣然接受这个提议了。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActparadiseSceneBG/bg_gate_lobby_01.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_axe_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "smile1",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "af69xlsz/af69xlsz_brolly_action1",
+				["pos"] = {
+					-150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
+		["guid"] = "CD1393044BC09361ABF945A9CA5CDE69",
+		["guid_str"] = "VinFhwCv",
+		["id"] = 24,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
 	},
 }
