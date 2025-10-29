@@ -2446,7 +2446,7 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 5000,
+							["time"] = 500,
 						},
 						["tween"] = "FadeOut",
 					},
@@ -4005,51 +4005,6 @@
 			["mask_alpha"] = 0.5,
 			["text"] = "[size 17]回头。",
 			["text_align"] = "center",
-			["tween"] = {
-				{
-					["param"] = {
-						["delay"] = 0,
-						["time"] = 500,
-					},
-					["tween"] = "FadeIn",
-				},
-			},
-		},
-		["characters"] = {
-			{
-				["anim"] = "smile1_add",
-				["blur"] = {
-					["material"] = "M_UI_SpineBlur",
-				},
-				["body_anim"] = "default_loop",
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
-				},
-				["material"] = "M_UI_SpineCharacterNormal",
-				["path"] = "af50nvzhu/af50nvzhu_action4",
-				["pos"] = {
-					0,
-					100,
-				},
-				["shadow"] = {
-					["material"] = "M_UI_SpineShadow",
-				},
-				["tween"] = {
-					{
-						["param"] = {
-							["delay"] = 0,
-							["direction"] = "right",
-							["dis"] = 100,
-							["end_alpha"] = 1.0,
-							["time"] = 500,
-						},
-						["tween"] = "FadeOut",
-					},
-				},
-			},
 		},
 		["female_speaker_info"] = {
 			["anim"] = "surprise_add",
@@ -4668,6 +4623,19 @@
 		},
 		["name"] = "白荆科技实验员们",
 		["text"] = "监督！你是我们的榜样！我们的荣耀！我们前进的方向！",
+		["text_info"] = {
+			["tween"] = {
+				{
+					["param"] = {
+						["am"] = 15,
+						["delay"] = 0,
+						["duration"] = 500,
+						["time"] = 25,
+					},
+					["tween"] = "Shake",
+				},
+			},
+		},
 	},
 	{
 		["bg_info"] = {
@@ -6188,6 +6156,12 @@
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
 				},
+				["color"] = {
+					0.27450981736183,
+					0.27450981736183,
+					0.27450981736183,
+					1.0,
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n04seedstaff_m",
 				["pos"] = {
@@ -6202,12 +6176,6 @@
 				["anim"] = "normal",
 				["blur"] = {
 					["material"] = "M_UI_SpineBlur",
-				},
-				["color"] = {
-					0.27450981736183,
-					0.27450981736183,
-					0.27450981736183,
-					1.0,
 				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "n05seedstaff_f",
