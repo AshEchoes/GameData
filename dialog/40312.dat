@@ -1,0 +1,126 @@
+{
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["lens"] = {
+						["attrs"] = {
+							["F_CenterX"] = 0.0,
+							["F_CenterY"] = 0.0,
+							["F_Scale"] = 1.0,
+							["F_Time"] = 1.0,
+							["F_WaveIntensity"] = 1.0,
+							["F_WavesDensity"] = 10.0,
+						},
+						["is_loop"] = false,
+						["material"] = "MI_UI_WaterWave",
+						["time"] = 1000,
+					},
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 0,
+								["time"] = 2500,
+							},
+							["tween"] = "FadeIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 0.89999997615814,
+								["scale_y"] = 0.89999997615814,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActLiuZhuCGBG/cg_liuzhu_01.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["height"] = 200,
+			["is_separate_tween"] = true,
+			["text_align"] = "center",
+		},
+		["guid"] = "1FCB8C0F4E4FF1F8E23FB59B43059340",
+		["guid_str"] = "At1LGVTR",
+		["id"] = 1,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_pipa",
+				["length"] = 9572,
+				["loop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
+		["time"] = 3000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["config"] = {
+					["tween"] = {
+						{
+							["param"] = {
+								["delay"] = 500,
+								["time"] = 1500,
+							},
+							["tween"] = "FadeOut",
+						},
+					},
+				},
+				["path"] = "interface/resource/Game/DialogActivityActLiuZhuCGBG/cg_liuzhu_01.png",
+			},
+			{
+			},
+		},
+		["caption_info"] = {
+			["height"] = 200,
+			["is_append"] = true,
+			["is_only_append_separate_tween"] = true,
+			["is_separate_tween"] = true,
+			["text_align"] = "center",
+			["tween"] = {
+				{
+					["param"] = {
+						["delay"] = 0,
+						["time"] = 500,
+					},
+					["tween"] = "FadeIn",
+				},
+			},
+		},
+		["guid"] = "8B8134CE419833645A442CB1CD6A3569",
+		["guid_str"] = "hKhsM0CB",
+		["id"] = 2,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/blackout/avg_blackout_pipa",
+				["length"] = 9572,
+				["loop"] = 1,
+				["stop"] = 1,
+				["volume"] = 0.5,
+			},
+		},
+	},
+}
