@@ -11,6 +11,28 @@
 							},
 							["tween"] = "FadeIn",
 						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0499999523163,
+								["scale_y"] = 1.0499999523163,
+								["time"] = 0,
+							},
+							["tween"] = "ScaleIn",
+						},
+						{
+							["param"] = {
+								["anchor"] = "center",
+								["delay"] = 0,
+								["mode"] = "linear",
+								["scale_x"] = 1.0,
+								["scale_y"] = 1.0,
+								["time"] = 2000,
+							},
+							["tween"] = "ScaleIn",
+						},
 					},
 				},
 				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_levare_04.png",
@@ -21,6 +43,7 @@
 		["guid"] = "DAA4273A4948D45A1BABFA86782C4123",
 		["guid_str"] = "7MaPyk8w",
 		["id"] = 1,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -51,6 +74,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -108,6 +140,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -295,6 +336,175 @@
 				["shadow"] = {
 					["material"] = "M_UI_SpineShadow",
 				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 200,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am03gyl_child/am03gyl_child_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "26E210AD4D2D83F399E3D59FF581093F",
+		["guid_str"] = "LrDZzp1i",
+		["id"] = 6,
+		["just_auto_play"] = true,
+		["knowledge"] = {
+			["words"] = {
+				{
+					["id"] = "518",
+					["offset"] = {
+						-100,
+						0,
+					},
+				},
+			},
+		},
+		["time"] = 3000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_levare_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["is_flip_x"] = true,
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm05fred_child/bm05fred_child_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["time"] = 400,
+						},
+						["tween"] = "FadeIn",
+					},
+				},
+			},
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "am03gyl_child/am03gyl_child_action1",
+				["pos"] = {
+					300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+			},
+		},
+		["guid"] = "D94B8E334DCF0D68BB5CE4B354570745",
+		["guid_str"] = "BPTmWRJN",
+		["id"] = 7,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["knowledge"] = {
+			["words"] = {
+				{
+					["id"] = "518",
+					["is_open"] = false,
+					["offset"] = {
+						-100,
+						0,
+					},
+				},
+			},
+		},
+		["time"] = 450,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogActivitySceneBG/bg_levare_04.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm05fred_child/bm05fred_child_action1",
+				["pos"] = {
+					-300,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
 			},
 			{
 				["anim"] = "normal",
@@ -320,7 +530,7 @@
 		},
 		["guid"] = "BE888DA5439861C51BAC3FB7BA635016",
 		["guid_str"] = "qlFQrG1s",
-		["id"] = 6,
+		["id"] = 8,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "我当然知道。",
 	},
@@ -385,7 +595,7 @@
 		},
 		["guid"] = "D2FA62D44BA1C087608ACFBFBE541192",
 		["guid_str"] = "i2xm7REI",
-		["id"] = 7,
+		["id"] = 9,
 	},
 	{
 		["bg_info"] = {
@@ -408,6 +618,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -442,7 +661,7 @@
 		},
 		["guid"] = "0B4096F34E93884F062381B1A49577A9",
 		["guid_str"] = "FjfVzbRc",
-		["id"] = 8,
+		["id"] = 10,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "你……你刚刚为什么叫我一起走？",
 	},
@@ -507,7 +726,7 @@
 		},
 		["guid"] = "CFA750614F25DEFF03F2C093FCDA5FBB",
 		["guid_str"] = "RCJSvx3Z",
-		["id"] = 9,
+		["id"] = 11,
 	},
 	{
 		["bg_info"] = {
@@ -570,7 +789,7 @@
 		},
 		["guid"] = "2D2027B643FE90929F9925A5309544A1",
 		["guid_str"] = "Xlb96u8U",
-		["id"] = 10,
+		["id"] = 12,
 	},
 	{
 		["bg_info"] = {
@@ -593,6 +812,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -627,7 +855,7 @@
 		},
 		["guid"] = "98B2F12F48F3DEAA3999609A964698B3",
 		["guid_str"] = "fe2zYN1e",
-		["id"] = 11,
+		["id"] = 13,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "这不公平！",
 		["text_info"] = {
@@ -686,6 +914,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -699,7 +935,7 @@
 		},
 		["guid"] = "86AAFF444F4F38F03B0929BCA3823BAC",
 		["guid_str"] = "YIUvGdAC",
-		["id"] = 12,
+		["id"] = 14,
 		["name"] = "洛特斯",
 		["text"] = "……公平？",
 	},
@@ -764,7 +1000,7 @@
 		},
 		["guid"] = "374817B144B8E0F1E3078D9F033350FE",
 		["guid_str"] = "aNvZxuzQ",
-		["id"] = 13,
+		["id"] = 15,
 	},
 	{
 		["bg_info"] = {
@@ -821,7 +1057,7 @@
 		},
 		["guid"] = "787E00B34B3735C43FA74590B8721E5B",
 		["guid_str"] = "VkOzAj3g",
-		["id"] = 14,
+		["id"] = 16,
 		["name"] = "洛特斯",
 		["text"] = "你是在用「达弗戴尔」这个姓氏，在破晓圣廷争论「公平」吗。",
 	},
@@ -886,7 +1122,7 @@
 		},
 		["guid"] = "FE880A2F4828A4088C891B9A681D91B6",
 		["guid_str"] = "o38RS6D8",
-		["id"] = 15,
+		["id"] = 17,
 	},
 	{
 		["bg_info"] = {
@@ -949,7 +1185,7 @@
 		},
 		["guid"] = "FA6691354BC11D0CA7BBD390FC057074",
 		["guid_str"] = "Ulij6xj4",
-		["id"] = 16,
+		["id"] = 18,
 	},
 	{
 		["bg_info"] = {
@@ -972,6 +1208,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -1006,7 +1251,7 @@
 		},
 		["guid"] = "E0A7A4794DA6E405C4A59DBA34FE7914",
 		["guid_str"] = "6yQ7fmHl",
-		["id"] = 17,
+		["id"] = 19,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "没错，就是不公平。",
 	},
@@ -1031,6 +1276,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -1065,7 +1319,7 @@
 		},
 		["guid"] = "DAAF3562442F45E53F967DA4256F27B6",
 		["guid_str"] = "8jwilha7",
-		["id"] = 18,
+		["id"] = 20,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "永远带着面罩，你依旧能“看见”别人，别人却看不懂你。",
 	},
@@ -1111,6 +1365,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -1124,7 +1386,7 @@
 		},
 		["guid"] = "FA8EE8724507CC6E104438A0E6E693F4",
 		["guid_str"] = "4YyKGBwi",
-		["id"] = 19,
+		["id"] = 21,
 		["name"] = "洛特斯",
 		["text"] = "……",
 	},
@@ -1170,6 +1432,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -1183,7 +1453,7 @@
 		},
 		["guid"] = "FE1AD4BA429E89A81E53388904DFF20F",
 		["guid_str"] = "dHbNYEWM",
-		["id"] = 20,
+		["id"] = 22,
 		["name"] = "洛特斯",
 		["text"] = "正如他们所说，我面上的咒文延伸至眼中，摘下也无用。",
 	},
@@ -1248,7 +1518,7 @@
 		},
 		["guid"] = "13E24DD840ED6FB61BDCBFAFC418FD1E",
 		["guid_str"] = "IqdCQFaG",
-		["id"] = 21,
+		["id"] = 23,
 	},
 	{
 		["bg_info"] = {
@@ -1271,6 +1541,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -1305,7 +1584,7 @@
 		},
 		["guid"] = "CFCB9D4041691940B21004B7FF6DE2E6",
 		["guid_str"] = "2pdOQFS9",
-		["id"] = 22,
+		["id"] = 24,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "我没有想看！而且卡徒路斯那家伙不是说过，咒文只是暂时的，你脸上的印记已经褪去很多了，你不知道吗？",
 	},
@@ -1370,7 +1649,7 @@
 		},
 		["guid"] = "39635FA54BA11157051D6C844B0FED9B",
 		["guid_str"] = "F5EHlR57",
-		["id"] = 23,
+		["id"] = 25,
 	},
 	{
 		["bg_info"] = {
@@ -1433,7 +1712,7 @@
 		},
 		["guid"] = "75B4877B47E993CD94A33B87C0D1D5EC",
 		["guid_str"] = "SJxtR5ZA",
-		["id"] = 24,
+		["id"] = 26,
 	},
 	{
 		["bg_info"] = {
@@ -1456,6 +1735,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -1490,7 +1778,7 @@
 		},
 		["guid"] = "D3014D044BEB0CD5873A6FB7EA3A3CE8",
 		["guid_str"] = "eIRW9dAP",
-		["id"] = 25,
+		["id"] = 27,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "你还真的不清楚啊。",
 	},
@@ -1555,7 +1843,7 @@
 		},
 		["guid"] = "B466EDCD48BFA10175461B880362310A",
 		["guid_str"] = "e8qOxX32",
-		["id"] = 26,
+		["id"] = 28,
 	},
 	{
 		["bg_info"] = {
@@ -1578,6 +1866,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -1612,7 +1909,7 @@
 		},
 		["guid"] = "D216FB2B4E353230E72392AC015EA246",
 		["guid_str"] = "ComXO5Fc",
-		["id"] = 27,
+		["id"] = 29,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "我还没说完，而且，而且……",
 	},
@@ -1677,7 +1974,7 @@
 		},
 		["guid"] = "DB717A1145EB7640B6E770A4C105124E",
 		["guid_str"] = "k9GNQrBF",
-		["id"] = 28,
+		["id"] = 30,
 	},
 	{
 		["bg_info"] = {
@@ -1700,6 +1997,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -1734,7 +2040,7 @@
 		},
 		["guid"] = "914CEE894D6E6FD8ABFA06941CAA22C0",
 		["guid_str"] = "eWKGys56",
-		["id"] = 29,
+		["id"] = 31,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "我叫你洛特斯，你叫我达弗戴尔，这也不公平！",
 	},
@@ -1780,6 +2086,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -1793,7 +2107,7 @@
 		},
 		["guid"] = "9A2F83F4409DF22042781F8040A3E909",
 		["guid_str"] = "N3Ecux0n",
-		["id"] = 30,
+		["id"] = 32,
 		["name"] = "洛特斯",
 		["text"] = "……",
 	},
@@ -1839,6 +2153,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -1852,7 +2174,7 @@
 		},
 		["guid"] = "1CE559334801E37688798CBA0FE47DD7",
 		["guid_str"] = "lmEfMTTT",
-		["id"] = 31,
+		["id"] = 33,
 		["name"] = "洛特斯",
 		["text"] = "姓氏本身即为“身份”，无姓之人意味着驳杂的的血统和混沌的源头，无法与黎威尔沟通。",
 	},
@@ -1898,6 +2220,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -1911,7 +2241,7 @@
 		},
 		["guid"] = "E3E0400C459502706C8C1E8F38CAAD1C",
 		["guid_str"] = "weLMETc4",
-		["id"] = 32,
+		["id"] = 34,
 		["name"] = "洛特斯",
 		["text"] = "我以为你知道。",
 	},
@@ -1976,7 +2306,7 @@
 		},
 		["guid"] = "2618EC7A4F4C88FC44226285E7B935CA",
 		["guid_str"] = "GxxUmaaS",
-		["id"] = 33,
+		["id"] = 35,
 	},
 	{
 		["bg_info"] = {
@@ -2039,7 +2369,7 @@
 		},
 		["guid"] = "7586E4BF48C95D39462659AE446D3F31",
 		["guid_str"] = "5hSo5hfQ",
-		["id"] = 34,
+		["id"] = 36,
 	},
 	{
 		["bg_info"] = {
@@ -2062,6 +2392,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -2096,7 +2435,7 @@
 		},
 		["guid"] = "F5ADDB904D1ADC2F7CA6C5ACAFDB3564",
 		["guid_str"] = "cHMqJWkZ",
-		["id"] = 35,
+		["id"] = 37,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "我当然知道！",
 		["text_info"] = {
@@ -2155,6 +2494,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -2168,7 +2515,7 @@
 		},
 		["guid"] = "374260424D56BBD6019D04A89F97B3F6",
 		["guid_str"] = "E7OpkUcK",
-		["id"] = 36,
+		["id"] = 38,
 		["name"] = "洛特斯",
 		["text"] = "你往日被如此称呼，虽略有异样的情绪，但也享受这份优待。",
 	},
@@ -2193,6 +2540,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -2238,8 +2594,15 @@
 		},
 		["guid"] = "EBB8D9514CE6A202DEEAEDACBB7903D2",
 		["guid_str"] = "wFWa6gTS",
-		["id"] = 37,
+		["id"] = 39,
 		["name"] = "弗雷德里克·L·达弗戴尔",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "……我！你！",
 	},
 	{
@@ -2263,6 +2626,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -2308,7 +2680,7 @@
 		},
 		["guid"] = "E432E55746EBF63F87D54787BC1B922B",
 		["guid_str"] = "hrV1vz7O",
-		["id"] = 38,
+		["id"] = 40,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["soundfx"] = {
 			{
@@ -2340,6 +2712,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -2389,7 +2770,7 @@
 		},
 		["guid"] = "4C2503EB4757F340C2DB68A2AC1E4B71",
 		["guid_str"] = "fqCjYjLZ",
-		["id"] = 39,
+		["id"] = 41,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["soundfx"] = {
 			{
@@ -2442,6 +2823,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -2455,7 +2844,7 @@
 		},
 		["guid"] = "C2384D28405990017F9B33BB5E8A2A86",
 		["guid_str"] = "kWl3lrk6",
-		["id"] = 40,
+		["id"] = 42,
 		["name"] = "洛特斯",
 		["text"] = "……",
 	},
@@ -2501,6 +2890,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -2514,7 +2911,7 @@
 		},
 		["guid"] = "0F094772498AE8F80E3619B906F812B1",
 		["guid_str"] = "LwNq6oAF",
-		["id"] = 41,
+		["id"] = 43,
 		["name"] = "洛特斯",
 		["text"] = "达——",
 	},
@@ -2539,6 +2936,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -2588,7 +2994,7 @@
 		},
 		["guid"] = "D83C3AC946A2A5448A60A79320E3FCFF",
 		["guid_str"] = "nx5WYot0",
-		["id"] = 42,
+		["id"] = 44,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["soundfx"] = {
 			{
@@ -2597,7 +3003,7 @@
 				["volume"] = 6.0,
 			},
 		},
-		["text"] = "停！！！",
+		["text"] = "[size 20]停！！！",
 	},
 	{
 		["bg_info"] = {
@@ -2610,7 +3016,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]弗雷德里克终于还是认输了，在认识面前这个人的几年中，他从来就没赢过，无论是吵架还是魔法！",
+			["text"] = "[size 17]弗雷德里克终于还是认输了，在认识面前这个人的几年中，他从来没赢过，无论是吵架还是魔法！",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -2660,7 +3066,7 @@
 		},
 		["guid"] = "29BF54D744BF7C85A8201E88F34BE217",
 		["guid_str"] = "hjEMJ1TX",
-		["id"] = 43,
+		["id"] = 45,
 	},
 	{
 		["bg_info"] = {
@@ -2723,7 +3129,7 @@
 		},
 		["guid"] = "7BF56CE24240FDA52A0CC396B639EE12",
 		["guid_str"] = "AZkmTikz",
-		["id"] = 44,
+		["id"] = 46,
 	},
 	{
 		["bg_info"] = {
@@ -2746,6 +3152,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -2780,7 +3195,7 @@
 		},
 		["guid"] = "94E6AB1D4AC1E58468D06F9D36338C2C",
 		["guid_str"] = "wx1wqphy",
-		["id"] = 45,
+		["id"] = 47,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "你不是和卡徒路斯关系还不错吗，他那么懂人情世故好像和谁都能说上几句，你却一点都没学到？",
 	},
@@ -2845,7 +3260,7 @@
 		},
 		["guid"] = "7ADD50D141F90D188CB406ADAC85A3C9",
 		["guid_str"] = "RVj8EZrT",
-		["id"] = 46,
+		["id"] = 48,
 	},
 	{
 		["bg_info"] = {
@@ -2868,6 +3283,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -2902,7 +3326,7 @@
 		},
 		["guid"] = "AFEDFC0A4C5F68C6E7B180A5BB322768",
 		["guid_str"] = "s6LpmVqZ",
-		["id"] = 47,
+		["id"] = 49,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "算了你别说了，肯定不是什么好话，留着让卡徒路斯赌气吧。",
 	},
@@ -2967,7 +3391,7 @@
 		},
 		["guid"] = "845014334C9F7ED72118A99079103B61",
 		["guid_str"] = "L2IotXZU",
-		["id"] = 48,
+		["id"] = 50,
 	},
 	{
 		["bg_info"] = {
@@ -3030,7 +3454,7 @@
 		},
 		["guid"] = "41923C4741CF891D4311C290F965C3C4",
 		["guid_str"] = "UvW5Jt3u",
-		["id"] = 49,
+		["id"] = 51,
 	},
 	{
 		["bg_info"] = {
@@ -3093,7 +3517,7 @@
 		},
 		["guid"] = "E7D0D1CE4A71A57938F5D6A89475D2C4",
 		["guid_str"] = "Q9ULPXSK",
-		["id"] = 50,
+		["id"] = 52,
 	},
 	{
 		["bg_info"] = {
@@ -3156,7 +3580,7 @@
 		},
 		["guid"] = "E72CEEB04AB34558F0A2B886A11F19DD",
 		["guid_str"] = "xR4kUbig",
-		["id"] = 51,
+		["id"] = 53,
 	},
 	{
 		["bg_info"] = {
@@ -3232,7 +3656,7 @@
 		},
 		["guid"] = "2823432A4B2B7C060A97659E7223F3CA",
 		["guid_str"] = "mRktGXUt",
-		["id"] = 52,
+		["id"] = 54,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
@@ -3302,7 +3726,7 @@
 		},
 		["guid"] = "E8DBCB954DB4CA4C5240829592DB3858",
 		["guid_str"] = "oXLmS0ld",
-		["id"] = 53,
+		["id"] = 55,
 	},
 	{
 		["bg_info"] = {
@@ -3370,7 +3794,7 @@
 		},
 		["guid"] = "C353F1D0496E51635CC297AFAEC1BE6A",
 		["guid_str"] = "OjTADMcf",
-		["id"] = 54,
+		["id"] = 56,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/blackout/avg_blackout_leaves_wind-001",
@@ -3440,7 +3864,7 @@
 		},
 		["guid"] = "D66A6344471252D72CED419D89AD5043",
 		["guid_str"] = "Zd5fDc2U",
-		["id"] = 55,
+		["id"] = 57,
 	},
 	{
 		["bg_info"] = {
@@ -3503,7 +3927,7 @@
 		},
 		["guid"] = "7AE79A1D4E02BAE4B2E665B2E30C0817",
 		["guid_str"] = "Ze4qqGVd",
-		["id"] = 56,
+		["id"] = 58,
 	},
 	{
 		["bg_info"] = {
@@ -3526,6 +3950,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -3560,7 +3993,7 @@
 		},
 		["guid"] = "754DC77B4B44210B0F8750811842380D",
 		["guid_str"] = "bKZHbwpV",
-		["id"] = 57,
+		["id"] = 59,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "不愧是圣冕亲卫，每次回来都如此大的阵仗。",
 	},
@@ -3606,6 +4039,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -3619,7 +4060,7 @@
 		},
 		["guid"] = "CD49ADB348BBB1124617A4889577CB0C",
 		["guid_str"] = "YJWZITNn",
-		["id"] = 58,
+		["id"] = 60,
 		["name"] = "洛特斯",
 		["text"] = "……",
 	},
@@ -3665,6 +4106,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -3678,7 +4127,7 @@
 		},
 		["guid"] = "438959DF426D4F847A3400963D9F12C7",
 		["guid_str"] = "hbakURF1",
-		["id"] = 59,
+		["id"] = 61,
 		["name"] = "洛特斯",
 		["text"] = "弗雷德里克。",
 	},
@@ -3703,6 +4152,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -3737,7 +4195,7 @@
 		},
 		["guid"] = "50CD0E5749A11B24C9F8A095BDF1B2B7",
 		["guid_str"] = "5RD6EBNn",
-		["id"] = 60,
+		["id"] = 62,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "……？",
 	},
@@ -3783,6 +4241,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "518",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-250,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "am03gyl_child/am03gyl_child_action1",
 				["pos"] = {
@@ -3796,7 +4262,7 @@
 		},
 		["guid"] = "B0F7650B43AE489A72A11ABE5352A6EB",
 		["guid_str"] = "NCaTwcNr",
-		["id"] = 61,
+		["id"] = 63,
 		["name"] = "洛特斯",
 		["text"] = "先走了。",
 	},
@@ -3821,6 +4287,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -3866,7 +4341,7 @@
 		},
 		["guid"] = "70C390C5488D85A427C373B80322D87B",
 		["guid_str"] = "16yLyjvl",
-		["id"] = 62,
+		["id"] = 64,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["soundfx"] = {
 			{
@@ -3917,7 +4392,7 @@
 		},
 		["guid"] = "5A57789A41285B2DAA627E821887DFE1",
 		["guid_str"] = "ZRWgdC8B",
-		["id"] = 63,
+		["id"] = 65,
 	},
 	{
 		["bg_info"] = {
@@ -3940,6 +4415,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -3953,7 +4437,7 @@
 		},
 		["guid"] = "1233879441A28879AB52E290B98336CB",
 		["guid_str"] = "P9eYfAyJ",
-		["id"] = 64,
+		["id"] = 66,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "……你！别走！喂你这家伙！！我还有论文的事要问你！！",
 		["text_info"] = {
@@ -4026,7 +4510,7 @@
 		},
 		["guid"] = "7BFD16B34687C0F96BC3159575D416C8",
 		["guid_str"] = "EgH7xNt7",
-		["id"] = 65,
+		["id"] = 67,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {

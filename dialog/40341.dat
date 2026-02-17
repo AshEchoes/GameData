@@ -13,7 +13,7 @@
 						},
 						{
 							["param"] = {
-								["delay"] = 2000,
+								["delay"] = 3500,
 								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
@@ -30,17 +30,21 @@
 		["id"] = 1,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
+		["sound_control"] = {
+			["effect"] = 2,
+		},
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/common/materials/movements/air/whoosh_low_long",
 				["length"] = 4615,
 			},
 			{
+				["delay"] = 500,
 				["event"] = "event:/sfx/story/haicuo/avg_haicuo_whoosh",
 				["length"] = 3122,
 			},
 		},
-		["time"] = 4000,
+		["time"] = 5800,
 	},
 	{
 		["bg_info"] = {
@@ -56,7 +60,7 @@
 						},
 						{
 							["param"] = {
-								["delay"] = 2000,
+								["delay"] = 3000,
 								["time"] = 2000,
 							},
 							["tween"] = "FadeOut",
@@ -78,7 +82,13 @@
 		["id"] = 2,
 		["is_total_play"] = true,
 		["just_auto_play"] = true,
-		["time"] = 4000,
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/story/surong/chapter_subtitle",
+				["length"] = 2539,
+			},
+		},
+		["time"] = 5000,
 	},
 	{
 		["bg_info"] = {
@@ -124,7 +134,7 @@
 		["id"] = 4,
 		["introduce"] = {
 			["location"] = "破晓圣廷·研修院",
-			["time"] = "萨格历  191S.E.",
+			["time"] = "萨格历  18/04/191S.E.",
 		},
 		["just_auto_play"] = true,
 	},
@@ -321,7 +331,7 @@
 			["b_use_mask"] = true,
 			["is_separate_tween"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]虽然他依旧在学徒间被受追捧，即便偶尔让他稍觉不安苦恼，不得不说很多时候都让他颇为受用。",
+			["text"] = "[size 17]虽然他依旧在学徒间倍受追捧，即便偶尔让他稍觉不安苦恼，不得不说很多时候都让他颇为受用。",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -705,9 +715,12 @@
 					{
 						["param"] = {
 							["delay"] = 0,
-							["time"] = 400,
+							["direction"] = "up",
+							["dis"] = 60,
+							["end_alpha"] = 1.0,
+							["time"] = 300,
 						},
-						["tween"] = "FadeIn",
+						["tween"] = "MoveIn",
 					},
 				},
 			},
@@ -716,7 +729,136 @@
 		["guid_str"] = "x4lp4ibF",
 		["id"] = 29,
 		["name"] = "弗雷德里克·L·达弗戴尔",
+		["soundfx"] = {
+			{
+				["event"] = "event:/sfx/common/materials/movements/cloth/clothing_s_1",
+				["length"] = 549,
+				["volume"] = 6.0,
+			},
+		},
 		["text"] = "……是的！我在。",
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_tourmaline_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm05fred_child/bm05fred_child_action1",
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = 150,
+								["y"] = 0,
+							},
+							["time"] = 450,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "8557726948652560C4F0B28D4F04F1BB",
+		["guid_str"] = "HQPKU5Zj",
+		["id"] = 30,
+		["just_auto_play"] = true,
+		["knowledge"] = {
+			["words"] = {
+				{
+					["anchor"] = "left",
+					["id"] = "517",
+					["offset"] = {
+						250,
+						0,
+					},
+				},
+			},
+		},
+		["time"] = 3000,
+	},
+	{
+		["bg_info"] = {
+			{
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_tourmaline_06.png",
+			},
+			{
+			},
+		},
+		["characters"] = {
+			{
+				["anim"] = "normal",
+				["blur"] = {
+					["material"] = "M_UI_SpineBlur",
+				},
+				["color"] = {
+					0.0,
+					0.0,
+					0.0,
+					0.62745100259781,
+				},
+				["material"] = "M_UI_SpineMat",
+				["path"] = "bm05fred_child/bm05fred_child_action1",
+				["pos"] = {
+					150,
+					0,
+				},
+				["shadow"] = {
+					["material"] = "M_UI_SpineShadow",
+				},
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["pos"] = {
+								["x"] = -150,
+								["y"] = 0,
+							},
+							["time"] = 450,
+						},
+						["tween"] = "RelativePositionChange",
+					},
+				},
+			},
+		},
+		["guid"] = "157ADDC1463AD320A24ECCAC32D20158",
+		["guid_str"] = "i0GKu8nq",
+		["id"] = 31,
+		["is_total_play"] = true,
+		["just_auto_play"] = true,
+		["knowledge"] = {
+			["words"] = {
+				{
+					["anchor"] = "left",
+					["id"] = "517",
+					["is_open"] = false,
+					["offset"] = {
+						250,
+						0,
+					},
+				},
+			},
+		},
+		["time"] = 500,
 	},
 	{
 		["bg_info"] = {
@@ -729,7 +871,7 @@
 		["caption_info"] = {
 			["align"] = "bottom",
 			["b_use_mask"] = true,
-			["text"] = "[size 17]被点到名字赶紧起身，代课讲师幽远的目光瞟过来，和空间主祭不同，那人有着双法翠色眼睛和金色长发，\n\n没什么表情的样子让弗雷德里克有些背后发紧，面露不安。",
+			["text"] = "[size 17]被点到名字赶紧起身，代课讲师幽远的目光瞟过来，与空间主祭安达瑞斯不同，他有着双法翠色眼睛和金色长发，\n\n没什么表情的样子让弗雷德里克有些背后发紧，面露不安。",
 			["text_align"] = "center",
 		},
 		["characters"] = {
@@ -753,7 +895,7 @@
 		},
 		["guid"] = "1CD04D4E4ED862019D9D528CDD826C79",
 		["guid_str"] = "3m0xpiM8",
-		["id"] = 30,
+		["id"] = 32,
 	},
 	{
 		["bg_info"] = {
@@ -796,7 +938,7 @@
 		},
 		["guid"] = "4A5493354A4217A50F9B8894E7C25EF5",
 		["guid_str"] = "F66bnmz4",
-		["id"] = 31,
+		["id"] = 33,
 		["name"] = "研修院讲师",
 		["text"] = "可否请你回答一下，包括空间魔法在内，力量的强弱更多由什么决定？",
 	},
@@ -821,7 +963,7 @@
 		},
 		["caption_info"] = {
 			["is_show_all"] = true,
-			["text"] = "[font cusong]安达瑞斯[/font]\n\n[size 17]今日是诸位的踏入这方「[c B58C2D]空间[/c]」的第一天，\n\n你们不需要学会什么，只是请记住——[/size]\n",
+			["text"] = "[font cusong]空间主祭[/font]\n\n[size 17]今日是诸位的踏入这方「[c B58C2D]空间[/c]」的第一天，\n\n你们不需要学会什么，只是请记住——[/size]\n",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -870,7 +1012,7 @@
 		},
 		["guid"] = "3CF3BF324232CBF4F859F88DF956EC2A",
 		["guid_str"] = "IgRbIUcp",
-		["id"] = 32,
+		["id"] = 34,
 		["soundfx"] = {
 			{
 				["event"] = "event:/ambience/museum_day",
@@ -894,7 +1036,7 @@
 		},
 		["caption_info"] = {
 			["is_show_all"] = true,
-			["text"] = "[font cusong]安达瑞斯[/font]\n\n[size 17]来自心的声音会更多地影响你的力量，你的成长，你的未来。[/size]",
+			["text"] = "[font cusong]空间主祭[/font]\n\n[size 17]来自心的声音会更多地影响你的力量，你的成长，你的未来。[/size]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -931,7 +1073,7 @@
 		},
 		["guid"] = "7C16ABF14C0196579EF985BEF000CD90",
 		["guid_str"] = "w8OZvz7W",
-		["id"] = 33,
+		["id"] = 35,
 	},
 	{
 		["bg_info"] = {
@@ -943,7 +1085,7 @@
 		},
 		["caption_info"] = {
 			["is_show_all"] = true,
-			["text"] = "[font cusong]安达瑞斯[/font]\n\n[size 17]这份答案或许并不会离开这里，但还请给它留下一片「[c B58C2D]空间[/c]」吧。[/size]",
+			["text"] = "[font cusong]空间主祭[/font]\n\n[size 17]这份答案或许并不会离开这里，但还请给它留下一片「[c B58C2D]空间[/c]」吧。[/size]",
 			["text_align"] = "center",
 			["tween"] = {
 				{
@@ -980,7 +1122,7 @@
 		},
 		["guid"] = "D6EA34F54CA62D8E67BA68939CFB694F",
 		["guid_str"] = "zLxSGepY",
-		["id"] = 34,
+		["id"] = 36,
 	},
 	{
 		["bg_info"] = {
@@ -1029,7 +1171,7 @@
 		},
 		["guid"] = "2EA701BA46DCC4384DD137A33A327472",
 		["guid_str"] = "yStTMkIn",
-		["id"] = 35,
+		["id"] = 37,
 	},
 	{
 		["bg_info"] = {
@@ -1078,7 +1220,7 @@
 		},
 		["guid"] = "B13E8A9A4B9DF0FA1AF6EE8765A04A92",
 		["guid_str"] = "4m3UANS0",
-		["id"] = 36,
+		["id"] = 38,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -1109,6 +1251,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["shadow"] = {
@@ -1127,7 +1277,7 @@
 		},
 		["guid"] = "31FD52614BE6EAF22AA1ADAD298B789D",
 		["guid_str"] = "BhHBGYJZ",
-		["id"] = 37,
+		["id"] = 39,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "……………………",
 	},
@@ -1166,7 +1316,7 @@
 		},
 		["guid"] = "1D68EE7B4D367611696162B4E6CB63EA",
 		["guid_str"] = "i7iHfyra",
-		["id"] = 38,
+		["id"] = 40,
 	},
 	{
 		["bg_info"] = {
@@ -1188,6 +1338,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["shadow"] = {
@@ -1197,7 +1355,7 @@
 		},
 		["guid"] = "9F9C421F4C5A807F3AB1C6BBCAC2F28A",
 		["guid_str"] = "cMjVjQBC",
-		["id"] = 39,
+		["id"] = 41,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "……我想是血统，阁下。",
 	},
@@ -1236,7 +1394,7 @@
 		},
 		["guid"] = "AD25D58A491C78F9ED3E9E872B2934E1",
 		["guid_str"] = "VNjkf2s5",
-		["id"] = 40,
+		["id"] = 42,
 	},
 	{
 		["bg_info"] = {
@@ -1279,7 +1437,7 @@
 		},
 		["guid"] = "32EBBEF047553782DF2CC7A568CC691B",
 		["guid_str"] = "9sVeMhYP",
-		["id"] = 41,
+		["id"] = 43,
 		["name"] = "研修院讲师",
 		["text"] = "应该如何分辨自身力量的强弱呢？",
 	},
@@ -1303,6 +1461,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["shadow"] = {
@@ -1321,7 +1487,7 @@
 		},
 		["guid"] = "903EE04A4170AA8BF10988A0A6716331",
 		["guid_str"] = "jPIPLMGk",
-		["id"] = 42,
+		["id"] = 44,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "发色，它是与黎威尔之源共鸣的结果，并不由任何魔法和意志转移，阁下。",
 	},
@@ -1366,7 +1532,7 @@
 		},
 		["guid"] = "6A42D9E740D3DA663E38D1B2728A5586",
 		["guid_str"] = "I604wptu",
-		["id"] = 43,
+		["id"] = 45,
 		["name"] = "研修院讲师",
 		["text"] = "若生来低微，此生只能惶惶度日吗，又该如何打破力量的桎梏？",
 	},
@@ -1390,6 +1556,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["shadow"] = {
@@ -1408,7 +1582,7 @@
 		},
 		["guid"] = "7CC7EAF94A3B37D2B6BA99B2FFCD943B",
 		["guid_str"] = "DNmeefNN",
-		["id"] = 44,
+		["id"] = 46,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "并不是，黎威尔已对生来万物恩泽，而这之后，忠信，虔诚，「圣冕」会认可，「圣冕」会……降下恩赐。",
 	},
@@ -1447,7 +1621,7 @@
 		},
 		["guid"] = "99CEA2404B16B17E954AA9AFE52ED4E1",
 		["guid_str"] = "9Sna2C6E",
-		["id"] = 45,
+		["id"] = 47,
 	},
 	{
 		["bg_info"] = {
@@ -1490,7 +1664,7 @@
 		},
 		["guid"] = "238CBAFB4DAAEC25FD286AA197814064",
 		["guid_str"] = "2jRSDqDw",
-		["id"] = 46,
+		["id"] = 48,
 		["name"] = "研修院讲师",
 		["text"] = "正是，很干脆利落的答案，请坐，达弗戴尔小先生。",
 	},
@@ -1514,6 +1688,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["shadow"] = {
@@ -1532,7 +1714,7 @@
 		},
 		["guid"] = "E920BDF6474CD6E42C73908CDCAEC8A6",
 		["guid_str"] = "eM0hSYWk",
-		["id"] = 47,
+		["id"] = 49,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "……谢谢。",
 	},
@@ -1577,9 +1759,9 @@
 		},
 		["guid"] = "F7A2238542177BB8558B8A8C5D2310AE",
 		["guid_str"] = "2jEN03pe",
-		["id"] = 48,
+		["id"] = 50,
 		["name"] = "研修院讲师",
-		["text"] = "让我们感谢达弗戴尔小先生的精彩回答，也希望诸位勤加练习，魔法之路漫漫无尽，不要满足于当下完成的某个“小魔法”，更有危险等待着诸位去处理。",
+		["text"] = "让我们感谢达弗戴尔小先生的精彩回答，也希望诸位勤加练习，修习之路漫漫无尽，不要满足于当下完成的某个“小魔法”，更有危险等待着诸位去处理。",
 	},
 	{
 		["bg_info"] = {
@@ -1610,9 +1792,9 @@
 		},
 		["guid"] = "EEDCE0E84F1467D382BB9E930269B796",
 		["guid_str"] = "C7vxrgoQ",
-		["id"] = 49,
+		["id"] = 51,
 		["name"] = "研修院学徒",
-		["text"] = "……危险？那些，那些不是一般都是骑士团的工作吗，难道也需要我们……",
+		["text"] = "……危险？那些、那些不都是骑士团的工作吗，难道也需要我们……",
 	},
 	{
 		["bg_info"] = {
@@ -1643,7 +1825,7 @@
 		},
 		["guid"] = "BC45D5CA4D4424935847CAB2BE6E8E99",
 		["guid_str"] = "xS6fBCuX",
-		["id"] = 50,
+		["id"] = 52,
 		["name"] = "研修院讲师",
 		["text"] = "艾文里小先生。",
 	},
@@ -1682,7 +1864,7 @@
 		},
 		["guid"] = "BB1416AF460E8F1AB8859CAAD91BBB73",
 		["guid_str"] = "9b232Qpc",
-		["id"] = 51,
+		["id"] = 53,
 	},
 	{
 		["bg_info"] = {
@@ -1713,7 +1895,7 @@
 		},
 		["guid"] = "58ACA814420F0E71E43B0F80B4F41CBD",
 		["guid_str"] = "pKAXnvAI",
-		["id"] = 52,
+		["id"] = 54,
 		["name"] = "研修院讲师",
 		["text"] = "圣廷骑士团是为圣冕，为圣廷服务。",
 	},
@@ -1746,7 +1928,7 @@
 		},
 		["guid"] = "8925CD024AAAD5D0C81665AB6FA6B668",
 		["guid_str"] = "KAxK0SeR",
-		["id"] = 53,
+		["id"] = 55,
 		["name"] = "研修院学徒",
 		["text"] = "……抱歉，阁下。",
 	},
@@ -1794,7 +1976,7 @@
 		},
 		["guid"] = "B173EB1641F838305CBB2EA361748A64",
 		["guid_str"] = "aYj3AYqr",
-		["id"] = 54,
+		["id"] = 56,
 	},
 	{
 		["bg_info"] = {
@@ -1807,12 +1989,12 @@
 		["caption_info"] = {
 			["b_use_mask"] = true,
 			["mask_alpha"] = 0.5,
-			["text"] = "[size 17]一缕铂金色的头发因他垂下的头调皮地垂到视线内，\n\n在彩色阳光的映照下显着炫目的光，又几乎透明。",
+			["text"] = "[size 17]一缕铂金色的头发因他垂下的头调皮地进入视线内，\n\n在彩色阳光的映照下显着炫目的光，又几乎透明。",
 			["text_align"] = "center",
 		},
 		["guid"] = "DC9361D54F132DBAD3F84DB2910F3D2D",
 		["guid_str"] = "l7yOyf7v",
-		["id"] = 55,
+		["id"] = 57,
 	},
 	{
 		["bg_info"] = {
@@ -1830,7 +2012,7 @@
 		},
 		["guid"] = "5068D8204B64FD12D453FA84C6F5FFF8",
 		["guid_str"] = "4fYr6SYA",
-		["id"] = 56,
+		["id"] = 58,
 	},
 	{
 		["bg_info"] = {
@@ -1852,6 +2034,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["shadow"] = {
@@ -1870,7 +2060,7 @@
 		},
 		["guid"] = "A8CA671440B877A30434428228768442",
 		["guid_str"] = "GEmW9Om6",
-		["id"] = 57,
+		["id"] = 59,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "？",
 	},
@@ -1909,7 +2099,7 @@
 		},
 		["guid"] = "9F3275D54AE11E58CB20D0AC19E57C9E",
 		["guid_str"] = "i5msSLhU",
-		["id"] = 58,
+		["id"] = 60,
 	},
 	{
 		["bg_info"] = {
@@ -1946,7 +2136,7 @@
 		},
 		["guid"] = "28A5D3D242707BC2E0C48FB0F2E0A3AC",
 		["guid_str"] = "y0SEAUmz",
-		["id"] = 59,
+		["id"] = 61,
 	},
 	{
 		["bg_info"] = {
@@ -1983,7 +2173,7 @@
 		},
 		["guid"] = "3CBDF0F74BC86C821827029FC226BC4A",
 		["guid_str"] = "coztC47x",
-		["id"] = 60,
+		["id"] = 62,
 	},
 	{
 		["bg_info"] = {
@@ -2005,6 +2195,14 @@
 					0.0,
 					0.62745100259781,
 				},
+				["knowledge_word_info"] = {
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["shadow"] = {
@@ -2014,7 +2212,7 @@
 		},
 		["guid"] = "06FAF39F4E142C050FAB0D8BD490ADB2",
 		["guid_str"] = "Mq5rvY5y",
-		["id"] = 61,
+		["id"] = 63,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "嗯？",
 	},
@@ -2071,7 +2269,7 @@
 		},
 		["guid"] = "39B5DB544F90FE3146A08D92A873AF54",
 		["guid_str"] = "6himjgmR",
-		["id"] = 62,
+		["id"] = 64,
 	},
 	{
 		["bg_info"] = {
@@ -2099,7 +2297,7 @@
 		},
 		["guid"] = "CBBDBC1640E3100E1BAA538180933CD5",
 		["guid_str"] = "L3xOS5mP",
-		["id"] = 63,
+		["id"] = 65,
 	},
 	{
 		["bg_info"] = {
@@ -2127,7 +2325,7 @@
 		},
 		["guid"] = "19C851AA44F6E97C01ADA8B3636FA9C1",
 		["guid_str"] = "5jj5EuMc",
-		["id"] = 64,
+		["id"] = 66,
 	},
 	{
 		["bg_info"] = {
@@ -2155,7 +2353,7 @@
 		},
 		["guid"] = "45443B3246314D85EF0487AB7BFBF246",
 		["guid_str"] = "W5L4FzaA",
-		["id"] = 65,
+		["id"] = 67,
 	},
 	{
 		["bg_info"] = {
@@ -2183,7 +2381,7 @@
 		},
 		["guid"] = "F80442AA47679FE69657319827A447B7",
 		["guid_str"] = "HqwvOzQE",
-		["id"] = 66,
+		["id"] = 68,
 	},
 	{
 		["bg_info"] = {
@@ -2211,7 +2409,7 @@
 		},
 		["guid"] = "2F78953A43B98E350A203CA7C808F419",
 		["guid_str"] = "36byLnKA",
-		["id"] = 67,
+		["id"] = 69,
 	},
 	{
 		["bg_info"] = {
@@ -2251,7 +2449,7 @@
 		},
 		["guid"] = "6D8F1C3247A1B25908EED38366840656",
 		["guid_str"] = "KSV2ZvaX",
-		["id"] = 68,
+		["id"] = 70,
 		["name"] = "研修院讲师",
 		["text"] = "下面，请诸位遵照方才所讲的要点，正确施展最基础的空间法术，咒文在第14页，第5行。",
 	},
@@ -2290,7 +2488,7 @@
 		},
 		["guid"] = "72D290674A5555DDE26CDB877021F0B5",
 		["guid_str"] = "39b4h5PG",
-		["id"] = 69,
+		["id"] = 71,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/9/avg_chapter9_paper_move_long_03",
@@ -2344,7 +2542,7 @@
 		},
 		["guid"] = "1F0A5A184AE68912F34ECE8857C9B4D7",
 		["guid_str"] = "rdwm8QAK",
-		["id"] = 70,
+		["id"] = 72,
 	},
 	{
 		["bg_info"] = {
@@ -2401,7 +2599,7 @@
 		},
 		["guid"] = "9066A1A243C823BFE8B546822101B453",
 		["guid_str"] = "jRI1l2YO",
-		["id"] = 71,
+		["id"] = 73,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/story/haicuo/magic_whoosh",
@@ -2459,7 +2657,31 @@
 		},
 		["guid"] = "A317B6D84977A9436560A7BEED14DE5F",
 		["guid_str"] = "L4mk3V8Z",
-		["id"] = 72,
+		["id"] = 74,
+		["jenga"] = {
+			{
+				["config"] = {
+					["last_px"] = 0,
+					["last_py"] = 0,
+					["orig_x"] = 0,
+					["orig_y"] = 0,
+					["scale"] = 1,
+					["state"] = 0,
+				},
+				["path"] = "interface/resource/Game/DialogRCSceneBG/bg_tourmaline_06.png",
+				["template_type"] = "image",
+				["tween"] = {
+					{
+						["param"] = {
+							["delay"] = 0,
+							["delay_page"] = 0,
+							["time"] = 600,
+						},
+						["tween"] = "FadeOut",
+					},
+				},
+			},
+		},
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -2504,7 +2726,7 @@
 		},
 		["guid"] = "1B9E8681431ED78362AD54B29A38D107",
 		["guid_str"] = "Fwsb1IXC",
-		["id"] = 73,
+		["id"] = 75,
 	},
 	{
 		["bg_info"] = {
@@ -2534,7 +2756,7 @@
 		},
 		["guid"] = "92BFB5484B4FA9F479E1DEA251B0E36C",
 		["guid_str"] = "CSQPu7g5",
-		["id"] = 74,
+		["id"] = 76,
 	},
 	{
 		["bg_info"] = {
@@ -2558,7 +2780,7 @@
 		},
 		["guid"] = "FFA86031443946D7B1E7389E2D1B67B7",
 		["guid_str"] = "PPwjfrLm",
-		["id"] = 75,
+		["id"] = 77,
 		["name"] = "研修院学徒A",
 		["text"] = "哇……这么快……？",
 	},
@@ -2584,7 +2806,7 @@
 		},
 		["guid"] = "FE11C5C34F0C5F546BA1DA8E7E0257A2",
 		["guid_str"] = "0SaZmYjD",
-		["id"] = 76,
+		["id"] = 78,
 		["name"] = "研修院学徒B",
 		["text"] = "不愧是洛特斯……应该说毫无意外？",
 	},
@@ -2610,7 +2832,7 @@
 		},
 		["guid"] = "4A288AB34B54706675B8B3AD9ACEB3AC",
 		["guid_str"] = "2M3EGCrM",
-		["id"] = 77,
+		["id"] = 79,
 		["name"] = "研修院学徒C",
 		["text"] = "说真的……他真的没对自己的头发动过什么手脚吗？实际上离开我们后就会变成高贵的纯血——之类的！",
 	},
@@ -2636,7 +2858,7 @@
 		},
 		["guid"] = "594E40F047FDB051C45A33BA665265FB",
 		["guid_str"] = "FekuBPIu",
-		["id"] = 78,
+		["id"] = 80,
 		["name"] = "研修院学徒B",
 		["text"] = "你知道这不可能，没人能对本源动手脚，除了「圣冕」大人。",
 	},
@@ -2662,7 +2884,7 @@
 		},
 		["guid"] = "5797AEF14D99B3D2616D8788387DF8BB",
 		["guid_str"] = "BPmReZVp",
-		["id"] = 79,
+		["id"] = 81,
 		["name"] = "研修院学徒C",
 		["text"] = "他才10岁……！而我已经17了，圣廷真的会认可我吗……要是最终没能成为圣廷魔法师，母亲会杀了我的呜呜……",
 	},
@@ -2688,7 +2910,7 @@
 		},
 		["guid"] = "68CDFB244CFE32692111D69A05F01E82",
 		["guid_str"] = "8gGhJ48t",
-		["id"] = 80,
+		["id"] = 82,
 		["name"] = "研修院学徒D",
 		["text"] = "说实话，我现在宁愿相信那个传闻……他真的和「圣冕」大人有关还更好接受一点……否则……真的太残酷了，唉……",
 	},
@@ -2720,7 +2942,7 @@
 		},
 		["guid"] = "30D56C1B41136CB5B9123FB66CFDED31",
 		["guid_str"] = "XBEK1rXn",
-		["id"] = 81,
+		["id"] = 83,
 	},
 	{
 		["bg_info"] = {
@@ -2750,7 +2972,7 @@
 		},
 		["guid"] = "D7BBB3334C54E5A557855D9B65D69780",
 		["guid_str"] = "iefXNK5v",
-		["id"] = 82,
+		["id"] = 84,
 	},
 	{
 		["bg_info"] = {
@@ -2780,7 +3002,7 @@
 		},
 		["guid"] = "311DE7EF420172FE69FC02A01CE90A72",
 		["guid_str"] = "IX0myhpx",
-		["id"] = 83,
+		["id"] = 85,
 	},
 	{
 		["bg_info"] = {
@@ -2810,7 +3032,7 @@
 		},
 		["guid"] = "B7EE5DA041FAF37AD914B58B9C55B9BA",
 		["guid_str"] = "2flUUakc",
-		["id"] = 84,
+		["id"] = 86,
 	},
 	{
 		["bg_info"] = {
@@ -2834,7 +3056,7 @@
 		},
 		["guid"] = "BC6307B94B36F61C6E42438115D70CE7",
 		["guid_str"] = "RLtQMi31",
-		["id"] = 85,
+		["id"] = 87,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "嗯？",
 	},
@@ -2866,7 +3088,7 @@
 		},
 		["guid"] = "1E1B68A749552F922F26EAB9AD1B4CDD",
 		["guid_str"] = "XvLqaxHT",
-		["id"] = 86,
+		["id"] = 88,
 	},
 	{
 		["bg_info"] = {
@@ -2890,7 +3112,7 @@
 		},
 		["guid"] = "6AAC0EAD4226BB126BE0FC9F5980ADC7",
 		["guid_str"] = "hiFaaIlc",
-		["id"] = 87,
+		["id"] = 89,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "你原来在偷偷看别的！",
 	},
@@ -2922,7 +3144,7 @@
 		},
 		["guid"] = "69EA1D9F4E337D47128E0EAF194EA8D4",
 		["guid_str"] = "GenmR3TU",
-		["id"] = 88,
+		["id"] = 90,
 	},
 	{
 		["bg_info"] = {
@@ -2952,7 +3174,7 @@
 		},
 		["guid"] = "6F5D48674A8ABFE382BAB893C9480D8E",
 		["guid_str"] = "8GHwTw7z",
-		["id"] = 89,
+		["id"] = 91,
 	},
 	{
 		["bg_info"] = {
@@ -2982,7 +3204,7 @@
 		},
 		["guid"] = "E1E6E66E4343B70875DDC5B434FFDC27",
 		["guid_str"] = "BzUputcu",
-		["id"] = 90,
+		["id"] = 92,
 	},
 	{
 		["bg_info"] = {
@@ -3012,7 +3234,7 @@
 		},
 		["guid"] = "FB9BE5A24A9C21653C0AD1A1E393919D",
 		["guid_str"] = "Ppj43EK3",
-		["id"] = 91,
+		["id"] = 93,
 	},
 	{
 		["bg_info"] = {
@@ -3036,7 +3258,7 @@
 		},
 		["guid"] = "142ED91F4D5DD9243F00F78E674FCA84",
 		["guid_str"] = "MjKIkbfU",
-		["id"] = 92,
+		["id"] = 94,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "你——",
 	},
@@ -3068,7 +3290,7 @@
 		},
 		["guid"] = "D7AF04FB45459AF22310AAAF1703AF0F",
 		["guid_str"] = "zBvwwBjj",
-		["id"] = 93,
+		["id"] = 95,
 	},
 	{
 		["bg_info"] = {
@@ -3110,7 +3332,7 @@
 		},
 		["guid"] = "1C678D3A4AA3300AE860AAB7A2E5DDBD",
 		["guid_str"] = "jl3eWLIR",
-		["id"] = 94,
+		["id"] = 96,
 		["soundfx"] = {
 			{
 				["event"] = "event:/sfx/enemy/b35asdl/b35asdl_skill_slot02_attack_magic",
@@ -3141,7 +3363,7 @@
 		},
 		["guid"] = "DDE1EE3E42F4DAC8B24630B815C7B73E",
 		["guid_str"] = "m5KGWcsJ",
-		["id"] = 95,
+		["id"] = 97,
 		["name"] = "研修院学徒们",
 		["text"] = "哎呦！",
 	},
@@ -3174,7 +3396,7 @@
 		},
 		["guid"] = "F6431929432B7EDAC7A839BC717B1903",
 		["guid_str"] = "RjYYwV3z",
-		["id"] = 96,
+		["id"] = 98,
 	},
 	{
 		["bg_info"] = {
@@ -3205,7 +3427,7 @@
 		},
 		["guid"] = "B93FF4FD4AD8AE5D49400CADEC40C937",
 		["guid_str"] = "zeVc7Cj3",
-		["id"] = 97,
+		["id"] = 99,
 	},
 	{
 		["bg_info"] = {
@@ -3229,7 +3451,7 @@
 		},
 		["guid"] = "F132B05D48A3E36AC9669ABFE131F27E",
 		["guid_str"] = "Qz7kA5N4",
-		["id"] = 98,
+		["id"] = 100,
 		["name"] = "洛特斯",
 		["text"] = "……",
 	},
@@ -3255,7 +3477,7 @@
 		},
 		["guid"] = "50C2743D41D9387853222A9847A88B0B",
 		["guid_str"] = "H22QK37c",
-		["id"] = 99,
+		["id"] = 101,
 		["name"] = "洛特斯",
 		["text"] = "赔偿我的书。",
 	},
@@ -3281,7 +3503,7 @@
 		},
 		["guid"] = "E061EFFC4FFDA37A173E01BA17F26D3D",
 		["guid_str"] = "D2I8AR4d",
-		["id"] = 100,
+		["id"] = 102,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "？？好不容易开口就说这个？？",
 	},
@@ -3307,7 +3529,7 @@
 		},
 		["guid"] = "3BB4CAA741B446F587A6BEA9F9368C71",
 		["guid_str"] = "3APG9Svg",
-		["id"] = 101,
+		["id"] = 103,
 		["name"] = "洛特斯",
 		["text"] = "我没什么其他想说的，书。",
 	},
@@ -3333,7 +3555,7 @@
 		},
 		["guid"] = "F007AA9A4E305CA966B0C0A165211E04",
 		["guid_str"] = "6jXAl0aF",
-		["id"] = 102,
+		["id"] = 104,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "！！洛特斯你——",
 	},
@@ -3359,7 +3581,7 @@
 		},
 		["guid"] = "9900BF1F4A1C5806CF00768A544E3391",
 		["guid_str"] = "5GcscAJu",
-		["id"] = 103,
+		["id"] = 105,
 		["name"] = "研修院讲师",
 		["text"] = "两位小先生。",
 	},
@@ -3446,7 +3668,7 @@
 		},
 		["guid"] = "2A4F1762478BEC55E3978B819AB03EF8",
 		["guid_str"] = "AsBtzZir",
-		["id"] = 104,
+		["id"] = 106,
 		["soundfx"] = {
 			{
 				["event"] = "event:/ambience/museum_day",
@@ -3524,7 +3746,7 @@
 		},
 		["guid"] = "1917993542AC0AA98DCB9BA35AFB86A2",
 		["guid_str"] = "4pndBSll",
-		["id"] = 105,
+		["id"] = 107,
 	},
 	{
 		["bg_info"] = {
@@ -3563,7 +3785,7 @@
 		},
 		["guid"] = "640548974F0CF4EC99BC3BBBE699160B",
 		["guid_str"] = "BJnwSYt9",
-		["id"] = 106,
+		["id"] = 108,
 	},
 	{
 		["bg_info"] = {
@@ -3602,7 +3824,7 @@
 		},
 		["guid"] = "FC6A888C41C41C25695C43AFDF971652",
 		["guid_str"] = "KNdCNiyO",
-		["id"] = 107,
+		["id"] = 109,
 	},
 	{
 		["bg_info"] = {
@@ -3636,6 +3858,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -3688,7 +3919,7 @@
 		},
 		["guid"] = "B94EB006452069FAF25CF291A4F57162",
 		["guid_str"] = "KHjskayI",
-		["id"] = 108,
+		["id"] = 110,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "……在。",
 	},
@@ -3764,7 +3995,7 @@
 		},
 		["guid"] = "8415A98844A56F265668C8ABFD578E4C",
 		["guid_str"] = "iDjw6bAX",
-		["id"] = 109,
+		["id"] = 111,
 	},
 	{
 		["bg_info"] = {
@@ -3815,7 +4046,7 @@
 		},
 		["guid"] = "D70D30DE4175B14BE15A8BB4624E3801",
 		["guid_str"] = "P40eDRw7",
-		["id"] = 110,
+		["id"] = 112,
 		["name"] = "研修院讲师",
 		["text"] = "二位看起来都完成了初级魔法，那便出去冷静下吧，论文，我想是的，你们需要完成额外的作业，在三日后，安达瑞斯主祭归来前交予我。",
 	},
@@ -3874,7 +4105,7 @@
 		},
 		["guid"] = "B9A126944C4E8AB06B90F39006C6EF7F",
 		["guid_str"] = "38qIoESd",
-		["id"] = 111,
+		["id"] = 113,
 	},
 	{
 		["bg_info"] = {
@@ -3903,7 +4134,7 @@
 		},
 		["guid"] = "597C97B147BF7988006D649EB01435BC",
 		["guid_str"] = "2CcvyPVe",
-		["id"] = 112,
+		["id"] = 114,
 	},
 	{
 		["bg_info"] = {
@@ -3932,7 +4163,7 @@
 		},
 		["guid"] = "20DC5BB14CB12EED31D9788670E8CADE",
 		["guid_str"] = "oMozvplq",
-		["id"] = 113,
+		["id"] = 115,
 	},
 	{
 		["bg_info"] = {
@@ -4018,7 +4249,7 @@
 		},
 		["guid"] = "3B49843946ADF580A5EF708E5E9C0019",
 		["guid_str"] = "ZouJqz7x",
-		["id"] = 114,
+		["id"] = 116,
 		["name"] = "洛特斯",
 		["text"] = "走。",
 	},
@@ -4094,7 +4325,7 @@
 		},
 		["guid"] = "2FC35D2E4F0F0281376A48A5DAD666A4",
 		["guid_str"] = "yk7yVbuN",
-		["id"] = 115,
+		["id"] = 117,
 	},
 	{
 		["bg_info"] = {
@@ -4128,6 +4359,15 @@
 					0.62745100259781,
 				},
 				["is_flip_x"] = true,
+				["knowledge_word_info"] = {
+					["anchor"] = "right",
+					["id"] = "517",
+					["is_enabled"] = true,
+					["offset"] = {
+						-100,
+						-200,
+					},
+				},
 				["material"] = "M_UI_SpineMat",
 				["path"] = "bm05fred_child/bm05fred_child_action1",
 				["pos"] = {
@@ -4162,7 +4402,7 @@
 		},
 		["guid"] = "51D2C1424B0F4E5FACBD418020567726",
 		["guid_str"] = "8gcPl580",
-		["id"] = 116,
+		["id"] = 118,
 		["name"] = "弗雷德里克·L·达弗戴尔",
 		["text"] = "……用你叫。",
 	},
@@ -4256,7 +4496,7 @@
 		},
 		["guid"] = "4471AB8A4C0B9133CED1C3B2499EDE8F",
 		["guid_str"] = "78C7h9Sl",
-		["id"] = 117,
+		["id"] = 119,
 	},
 	{
 		["bg_info"] = {
@@ -4285,7 +4525,7 @@
 		},
 		["guid"] = "0F3388C64E799F0EBE7E999F87C97601",
 		["guid_str"] = "PpTiuBuv",
-		["id"] = 118,
+		["id"] = 120,
 	},
 	{
 		["bg_info"] = {
@@ -4314,7 +4554,7 @@
 		},
 		["guid"] = "EC89CBA44C2F562798BDE380B76AF442",
 		["guid_str"] = "iUWptj0p",
-		["id"] = 119,
+		["id"] = 121,
 	},
 	{
 		["bg_info"] = {
@@ -4343,7 +4583,7 @@
 		},
 		["guid"] = "512B32F24C6513013DB17EB9854136AC",
 		["guid_str"] = "uNPtdbWJ",
-		["id"] = 120,
+		["id"] = 122,
 	},
 	{
 		["bg_info"] = {
@@ -4372,7 +4612,7 @@
 		},
 		["guid"] = "7B7A0F4F44EAEA2856921DAFE49A12A5",
 		["guid_str"] = "94jc0iN0",
-		["id"] = 121,
+		["id"] = 123,
 	},
 	{
 		["bg_info"] = {
@@ -4408,7 +4648,8 @@
 		},
 		["guid"] = "353FAD7347C5745390DC81BEF79E6005",
 		["guid_str"] = "dasITVL1",
-		["id"] = 122,
+		["id"] = 124,
+		["is_total_play"] = true,
 		["just_auto_play"] = true,
 		["soundfx"] = {
 			{
@@ -4417,5 +4658,6 @@
 				["stop"] = 1,
 			},
 		},
+		["time"] = 3000,
 	},
 }
